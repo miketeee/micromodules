@@ -1,0 +1,292 @@
+{
+  "slug": "mod2",
+  "title": "Module 2",
+  "subtitle": "Introduction to Microbiology — Part 2",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multi-statement",
+      "prompt": "Which statement about the beneficial environmental roles of microorganisms is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cyanobacteria perform photosynthesis and release oxygen."
+        },
+        {
+          "letter": "B",
+          "text": "Bacteria and fungi act as decomposers, recycling nutrients."
+        },
+        {
+          "letter": "C",
+          "text": "All microorganisms in the environment are harmful pathogens."
+        },
+        {
+          "letter": "D",
+          "text": "Anabaena variabilis is an example of a cyanobacterium."
+        },
+        {
+          "letter": "E",
+          "text": "Photosynthesis converts CO2 + H2O into glucose + O2."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Most microorganisms are not harmful; many play beneficial environmental roles."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Which organism is fermented to produce leavened bread and alcoholic beverages?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lactobacillus acidophilus"
+        },
+        {
+          "letter": "B",
+          "text": "Saccharomyces cerevisiae"
+        },
+        {
+          "letter": "C",
+          "text": "Candida albicans"
+        },
+        {
+          "letter": "D",
+          "text": "Yersinia pestis"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Saccharomyces cerevisiae."
+    },
+    {
+      "num": 3,
+      "type": "Open recall",
+      "prompt": "How does Lactobacillus acidophilus benefit human health?",
+      "options": [],
+      "correct": null,
+      "explanation": "It produces lactic acid, is a normal/beneficial resident of the vaginal environment, and acts as a probiotic that helps prevent yeast infections."
+    },
+    {
+      "num": 4,
+      "type": "Multiple choice",
+      "prompt": "Genetic engineering, a form of biotechnology, involves:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Killing microorganisms with antibiotics"
+        },
+        {
+          "letter": "B",
+          "text": "Manipulating genes so an organism produces a desired protein"
+        },
+        {
+          "letter": "C",
+          "text": "Boiling broth to sterilize it"
+        },
+        {
+          "letter": "D",
+          "text": "Classifying organisms by genus and species"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Manipulating genes so an organism produces a desired protein."
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "When was the Golden Age of Microbiology, and what four questions did scientists try to answer during it?",
+      "options": [],
+      "correct": null,
+      "explanation": "Mid-1800s to early 1900s (~50 years). Questions: Does life arise spontaneously? What causes fermentation? What causes disease? How can disease be prevented/treated?"
+    },
+    {
+      "num": 6,
+      "type": "Multi-statement",
+      "prompt": "Which statement about the theory of spontaneous generation is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It proposed that life could arise from non-living matter."
+        },
+        {
+          "letter": "B",
+          "text": "Spallanzani’s sealed-flask experiment supported the theory."
+        },
+        {
+          "letter": "C",
+          "text": "Pasteur’s swan-necked flask experiment helped disprove the theory."
+        },
+        {
+          "letter": "D",
+          "text": "Redi suspected microorganisms could cause meat spoilage."
+        },
+        {
+          "letter": "E",
+          "text": "The theory was ultimately shown to be incorrect."
+        }
+      ],
+      "correct": "B",
+      "explanation": "False. The sealed flask showed NO growth, supporting the idea that microbes come from outside (contamination), not spontaneous generation."
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "In Spallanzani’s experiment, what happened in the SEALED, boiled flask?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microorganisms grew rapidly"
+        },
+        {
+          "letter": "B",
+          "text": "No microorganisms grew"
+        },
+        {
+          "letter": "C",
+          "text": "The broth spontaneously became solid"
+        },
+        {
+          "letter": "D",
+          "text": "Oxygen was produced"
+        }
+      ],
+      "correct": "B",
+      "explanation": "No microorganisms grew (it stayed sterile)."
+    },
+    {
+      "num": 8,
+      "type": "Open recall",
+      "prompt": "Describe how Pasteur’s swan-necked flask experiment differed from Spallanzani’s experiment, and why the design mattered.",
+      "options": [],
+      "correct": null,
+      "explanation": "Pasteur used a swan-necked flask instead of a sealed one. Air could enter (addressing the “vital force” objection), but gravity trapped incoming microorganisms in the curve of the neck, so the broth stayed sterile — proving microorganisms in the air, not the air itself, caused contamination."
+    },
+    {
+      "num": 9,
+      "type": "Multiple choice",
+      "prompt": "Pasteur’s fermentation work showed that fermentation is caused by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A chemical reaction with no living organisms involved"
+        },
+        {
+          "letter": "B",
+          "text": "Bacteria only"
+        },
+        {
+          "letter": "C",
+          "text": "A living organism (yeast)"
+        },
+        {
+          "letter": "D",
+          "text": "Boiling"
+        }
+      ],
+      "correct": "C",
+      "explanation": "A living organism (yeast)."
+    },
+    {
+      "num": 10,
+      "type": "Open recall",
+      "prompt": "Explain how Pasteur’s work on fermentation helped lead to the Germ Theory of Disease.",
+      "options": [],
+      "correct": null,
+      "explanation": "Pasteur showed that specific living microorganisms (yeast) cause a specific effect (fermentation), and bacteria cause spoilage. This established that living microbes could cause specific biological changes, providing the conceptual foundation that microbes could likewise cause disease."
+    },
+    {
+      "num": 11,
+      "type": "Multi-statement",
+      "prompt": "Which statement about the Germ Theory of Disease is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Louis Pasteur proposed that microorganisms could cause disease."
+        },
+        {
+          "letter": "B",
+          "text": "Robert Koch performed the rigorous experimental proof."
+        },
+        {
+          "letter": "C",
+          "text": "It was established in the 1870s."
+        },
+        {
+          "letter": "D",
+          "text": "Alexander Fleming co-developed the theory with Pasteur."
+        },
+        {
+          "letter": "E",
+          "text": "It followed directly from earlier fermentation/spoilage research."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Pasteur and Koch developed the Germ Theory; Fleming discovered penicillin (unrelated to developing the theory itself)."
+    },
+    {
+      "num": 12,
+      "type": "Multiple choice",
+      "prompt": "Who emphasized the importance of hand washing to prevent disease spread?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Florence Nightingale"
+        },
+        {
+          "letter": "B",
+          "text": "Ignaz Semmelweis"
+        },
+        {
+          "letter": "C",
+          "text": "Joseph Lister"
+        },
+        {
+          "letter": "D",
+          "text": "Alexander Fleming"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Ignaz Semmelweis."
+    },
+    {
+      "num": 13,
+      "type": "Open recall",
+      "prompt": "Match each scientist to his/her contribution toward combatting microorganisms: Ignaz Semmelweis, Florence Nightingale, Joseph Lister, Alexander Fleming.",
+      "options": [],
+      "correct": null,
+      "explanation": "Semmelweis — hand washing. Nightingale — hospital cleanliness. Lister — germicides. Fleming — discovered Penicillin (first antibiotic)."
+    },
+    {
+      "num": 14,
+      "type": "Multiple choice",
+      "prompt": "Alexander Fleming is credited with discovering:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Germicides"
+        },
+        {
+          "letter": "B",
+          "text": "Penicillin, the first antibiotic"
+        },
+        {
+          "letter": "C",
+          "text": "Pasteurization"
+        },
+        {
+          "letter": "D",
+          "text": "The Germ Theory of Disease"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Penicillin, the first antibiotic."
+    },
+    {
+      "num": 15,
+      "type": "Open recall",
+      "prompt": "What is the difference between an enzyme and an antibiotic, and who is credited with discovering each in the context of this module?",
+      "options": [],
+      "correct": null,
+      "explanation": "An enzyme is a protein that catalyzes chemical reactions (discovered in fermentation by Eduard Buchner); an antibiotic is a substance that kills/inhibits bacteria (the first, Penicillin, discovered by Alexander Fleming)."
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "slug": "mod3",
+  "title": "Module 3",
+  "subtitle": "Prokaryotic Cells — Part 1",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multi-statement",
+      "prompt": "Which statement about bacterial shapes is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Coccus describes a round cell."
+        },
+        {
+          "letter": "B",
+          "text": "Bacillus describes a rodshaped cell."
+        },
+        {
+          "letter": "C",
+          "text": "Spirochete describes a loose, flexible spiral."
+        },
+        {
+          "letter": "D",
+          "text": "Vibrio describes a curved rod."
+        },
+        {
+          "letter": "E",
+          "text": "Treponema pallidum is a spirochete that causes syphilis."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Spirochete is a tight, rigid spiral; Spirillum is the loose spiral."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "A “diplococcus” arrangement means:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A chain of rod-shaped cells"
+        },
+        {
+          "letter": "B",
+          "text": "A cluster of round cells"
+        },
+        {
+          "letter": "C",
+          "text": "A pair of round cells"
+        },
+        {
+          "letter": "D",
+          "text": "A single spiral cell"
+        }
+      ],
+      "correct": "C",
+      "explanation": "A pair of round cells."
+    },
+    {
+      "num": 3,
+      "type": "Open recall",
+      "prompt": "Describe what flagella are made of, their function, and how they can contribute to disease.",
+      "options": [],
+      "correct": null,
+      "explanation": "Flagella are made of protein, forming a complex rotary motor structure powered by a proton motive force; they’re used for motility. They contribute to disease by letting bacteria move toward and invade host tissue (e.g., H. pylori swimming through stomach mucus)."
+    },
+    {
+      "num": 4,
+      "type": "Multi-statement",
+      "prompt": "Which statement about flagellar arrangements is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Monotrichous = one flagellum at one end."
+        },
+        {
+          "letter": "B",
+          "text": "Amphitrichous = flagella at both ends."
+        },
+        {
+          "letter": "C",
+          "text": "Lophotrichous = a tuft of flagella at one end."
+        },
+        {
+          "letter": "D",
+          "text": "Peritrichous = a single flagellum in the middle of the cell."
+        },
+        {
+          "letter": "E",
+          "text": "Salmonella displays a peritrichous arrangement."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Peritrichous means flagella distributed all around the cell, not a single central flagellum."
+    },
+    {
+      "num": 5,
+      "type": "Multiple choice",
+      "prompt": "Fimbriae are primarily used for:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Motility"
+        },
+        {
+          "letter": "B",
+          "text": "Adherence/attachment"
+        },
+        {
+          "letter": "C",
+          "text": "Genetic material exchange"
+        },
+        {
+          "letter": "D",
+          "text": "Osmotic protection"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Adherence/attachment."
+    },
+    {
+      "num": 6,
+      "type": "Open recall",
+      "prompt": "What is the difference between fimbriae and a conjugation (sex) pilus, in terms of structure and function?",
+      "options": [],
+      "correct": null,
+      "explanation": "Fimbriae are short protein filaments tipped with an adhesin, used for attachment to surfaces. A conjugation/sex pilus is a longer protein tube used to exchange genetic material (like plasmids) between cells in conjugation."
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "A capsule is made primarily of:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Protein"
+        },
+        {
+          "letter": "B",
+          "text": "Peptidoglycan"
+        },
+        {
+          "letter": "C",
+          "text": "Carbohydrate"
+        },
+        {
+          "letter": "D",
+          "text": "Mycolic acid"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Carbohydrate."
+    },
+    {
+      "num": 8,
+      "type": "Open recall",
+      "prompt": "What is a biofilm, and what bacterial structure allows it to form? Give an example.",
+      "options": [],
+      "correct": null,
+      "explanation": "A biofilm is a thin layer of bacteria adhered to a surface. The capsule (glycocalyx) allows bacteria to adhere and form biofilms — e.g., Streptococcus mutans forming a biofilm/plaque on teeth, causing cavities."
+    },
+    {
+      "num": 9,
+      "type": "Multi-statement",
+      "prompt": "Which statement about the bacterial cell wall is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It provides structural support."
+        },
+        {
+          "letter": "B",
+          "text": "It protects against excessive water uptake."
+        },
+        {
+          "letter": "C",
+          "text": "It is made of peptidoglycan."
+        },
+        {
+          "letter": "D",
+          "text": "All bacteria, without exception, have a cell wall."
+        },
+        {
+          "letter": "E",
+          "text": "Peptidoglycan is built from NAG and NAM sugar subunits."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Mycoplasma naturally lacks a cell wall."
+    },
+    {
+      "num": 10,
+      "type": "Multiple choice",
+      "prompt": "The amino acid cross-links in peptidoglycan are important because they:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Allow the cell to move"
+        },
+        {
+          "letter": "B",
+          "text": "Give the cell wall rigidity/strength against osmotic pressure"
+        },
+        {
+          "letter": "C",
+          "text": "Help the cell exchange genetic material"
+        },
+        {
+          "letter": "D",
+          "text": "Produce ATP"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Give the cell wall rigidity/strength against osmotic pressure."
+    },
+    {
+      "num": 11,
+      "type": "Open recall",
+      "prompt": "Describe the structure of the Gram-positive cell envelope.",
+      "options": [],
+      "correct": null,
+      "explanation": "A thick layer of peptidoglycan studded with teichoic and lipoteichoic acids, surrounding a plasma membrane; no outer membrane."
+    },
+    {
+      "num": 12,
+      "type": "Open recall",
+      "prompt": "Describe the structure of the Gram-negative cell envelope.",
+      "options": [],
+      "correct": null,
+      "explanation": "A thin layer of peptidoglycan, a plasma membrane beneath it, and an outer membrane containing lipopolysaccharide (LPS) and membrane proteins."
+    },
+    {
+      "num": 13,
+      "type": "Multi-statement",
+      "prompt": "Which statement about lysozyme and penicillin is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lysozyme is naturally found in tears and saliva."
+        },
+        {
+          "letter": "B",
+          "text": "Lysozyme catalyzes hydrolysis of peptidoglycan."
+        },
+        {
+          "letter": "C",
+          "text": "Penicillin is a beta-lactam antibiotic."
+        },
+        {
+          "letter": "D",
+          "text": "Penicillin strengthens peptidoglycan cross-linking."
+        },
+        {
+          "letter": "E",
+          "text": "Both lysozyme and penicillin ultimately weaken the cell wall, causing lysis."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Penicillin inhibits new peptidoglycan cross-link formation (weakening the wall), it does not strengthen it."
+    },
+    {
+      "num": 14,
+      "type": "Multiple choice",
+      "prompt": "Bacteria with a waxy cell wall due to mycolic acid are called:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gram-positive"
+        },
+        {
+          "letter": "B",
+          "text": "Gram-negative"
+        },
+        {
+          "letter": "C",
+          "text": "Acid-Fast"
+        },
+        {
+          "letter": "D",
+          "text": "Pleiomorphic"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Acid-Fast."
+    },
+    {
+      "num": 15,
+      "type": "Open recall",
+      "prompt": "Why is mycolic acid clinically relevant? Name at least two reasons.",
+      "options": [],
+      "correct": null,
+      "explanation": "Mycolic acid confers resistance to phagocytosis, repels many antibiotics (harder to treat), and repels standard stains (requiring the Acid-Fast stain)."
+    },
+    {
+      "num": 16,
+      "type": "Multiple choice",
+      "prompt": "Structurally, Acid-Fast bacteria most closely resemble:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gram-negative bacteria, because both have an outer membrane"
+        },
+        {
+          "letter": "B",
+          "text": "Gram-positive bacteria, because both lack an outer membrane and have a peptidoglycan layer"
+        },
+        {
+          "letter": "C",
+          "text": "Mycoplasma, because both lack a cell wall"
+        },
+        {
+          "letter": "D",
+          "text": "Archaea, because both live in extreme environments"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Gram-positive, because both lack an outer membrane and have a peptidoglycan layer (Acid-Fast just adds mycolic acid)."
+    },
+    {
+      "num": 17,
+      "type": "Multiple choice",
+      "prompt": "Which genus of bacteria naturally lacks a cell wall?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Streptococcus"
+        },
+        {
+          "letter": "B",
+          "text": "Mycobacterium"
+        },
+        {
+          "letter": "C",
+          "text": "Mycoplasma"
+        },
+        {
+          "letter": "D",
+          "text": "Staphylococcus"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Mycoplasma."
+    },
+    {
+      "num": 18,
+      "type": "Open recall",
+      "prompt": "Why are cell-wall-targeting antibiotics ineffective against Mycoplasma infections?",
+      "options": [],
+      "correct": null,
+      "explanation": "Cell-wall-targeting antibiotics have nothing to act on since Mycoplasma has no cell wall/peptidoglycan; effective drugs must target something else, which is often also present in human cells, raising toxicity concerns."
+    },
+    {
+      "num": 19,
+      "type": "Multi-statement",
+      "prompt": "Which pairing of organism to shape/arrangement or disease is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Streptococcus pyogenes — chains of cocci — strep throat"
+        },
+        {
+          "letter": "B",
+          "text": "Staphylococcus aureus — clusters of cocci — Staph infections"
+        },
+        {
+          "letter": "C",
+          "text": "Treponema pallidum — spirochete — syphilis"
+        },
+        {
+          "letter": "D",
+          "text": "Mycobacterium tuberculosis — Gram-negative — tuberculosis"
+        },
+        {
+          "letter": "E",
+          "text": "Helicobacter pylori — curved rod — stomach ulcers"
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Mycobacterium tuberculosis is Acid-Fast (structurally similar to Gram-positive), not Gram-negative."
+    },
+    {
+      "num": 20,
+      "type": "Open recall",
+      "prompt": "Explain how the Gram stain works to distinguish Gram-positive from Gram-negative bacteria, and who developed it.",
+      "options": [],
+      "correct": null,
+      "explanation": "The Gram stain, developed by Hans Christian Gram, is a differential stain that reveals cell envelope structure: bacteria with a thick peptidoglycan layer and no outer membrane (Grampositive) retain the stain and appear purple, while those with a thin peptidoglycan layer and an outer membrane (Gram-negative) do not retain it and appear pink."
+    }
+  ]
+}

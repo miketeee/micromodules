@@ -1,0 +1,408 @@
+{
+  "slug": "mod1",
+  "title": "Module 1",
+  "subtitle": "Introduction to Microbiology — Part 1",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multi-statement",
+      "prompt": "Which of the following statements about The Plague is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It occurred between 1346 and 1350."
+        },
+        {
+          "letter": "B",
+          "text": "About one-third of the European population died."
+        },
+        {
+          "letter": "C",
+          "text": "It was later shown to be caused by the bacterium Yersinia pestis."
+        },
+        {
+          "letter": "D",
+          "text": "It was spread directly from person to person with no animal involved."
+        },
+        {
+          "letter": "E",
+          "text": "The search for its cause helped spark the Renaissance."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Fleas/rats spread the Plague; it was not simple personto-person spread."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Fleas that spread the Plague picked up Yersinia pestis from:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Contaminated well water"
+        },
+        {
+          "letter": "B",
+          "text": "Rats"
+        },
+        {
+          "letter": "C",
+          "text": "Rotting food"
+        },
+        {
+          "letter": "D",
+          "text": "Other humans directly"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Rats."
+    },
+    {
+      "num": 3,
+      "type": "Open recall",
+      "prompt": "Explain how The Plague contributed to the birth of microbiology as a field.",
+      "options": [],
+      "correct": null,
+      "explanation": "The mass, unexplained death drove people to seek a rational (rather than religious) explanation, which launched the Renaissance — considered the birth of modern science, and eventually microbiology."
+    },
+    {
+      "num": 4,
+      "type": "Multiple choice",
+      "prompt": "Who was the first person to observe microorganisms, and what did he call them?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Robert Hooke; “cells”"
+        },
+        {
+          "letter": "B",
+          "text": "Robert Koch; “germs”"
+        },
+        {
+          "letter": "C",
+          "text": "Anton van Leeuwenhoek; “animalcules”"
+        },
+        {
+          "letter": "D",
+          "text": "Louis Pasteur; “microbes”"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Anton van Leeuwenhoek; “animalcules.”"
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "What samples did Leeuwenhoek examine that led to the discovery of bacteria?",
+      "options": [],
+      "correct": null,
+      "explanation": "Scrapings from between his own teeth, and later from the teeth of a man with rotting/decayed teeth."
+    },
+    {
+      "num": 6,
+      "type": "Multiple choice",
+      "prompt": "What is the size range of bacteria?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1–10 nanometers"
+        },
+        {
+          "letter": "B",
+          "text": "1–10 micrometers"
+        },
+        {
+          "letter": "C",
+          "text": "10–100 micrometers"
+        },
+        {
+          "letter": "D",
+          "text": "100–1000 micrometers"
+        }
+      ],
+      "correct": "B",
+      "explanation": "1–10 micrometers."
+    },
+    {
+      "num": 7,
+      "type": "Open recall",
+      "prompt": "Why did Leeuwenhoek’s discovery of bacteria in rotting teeth NOT lead him to conclude that bacteria cause disease?",
+      "options": [],
+      "correct": null,
+      "explanation": "He observed more bacteria in rotting teeth than healthy teeth but reversed cause and effect — concluding that rotting teeth created the ideal environment for bacteria to spontaneously form, rather than that bacteria caused the rot."
+    },
+    {
+      "num": 8,
+      "type": "Multi-statement",
+      "prompt": "Which of the following statements about the Germ Theory of Disease is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Louis Pasteur first proposed that microbes could cause disease."
+        },
+        {
+          "letter": "B",
+          "text": "Robert Koch performed the experimental work that proved the theory."
+        },
+        {
+          "letter": "C",
+          "text": "The theory was established in the mid-to-late 1800s."
+        },
+        {
+          "letter": "D",
+          "text": "The theory was proposed and proven within the same decade."
+        },
+        {
+          "letter": "E",
+          "text": "It took roughly 200 years after bacteria were first observed for the theory to be established."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Pasteur proposed the idea and Koch proved it, but this happened over time (mid-to-late 1800s), and roughly 200 years passed between the discovery of bacteria and the theory’s establishment."
+    },
+    {
+      "num": 9,
+      "type": "Multiple choice",
+      "prompt": "The Three Domain System classifies life based on:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cell size only"
+        },
+        {
+          "letter": "B",
+          "text": "Presence or absence of a cell wall"
+        },
+        {
+          "letter": "C",
+          "text": "Relatedness of nucleotide sequences"
+        },
+        {
+          "letter": "D",
+          "text": "Whether the organism causes disease"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Relatedness of nucleotide sequences."
+    },
+    {
+      "num": 10,
+      "type": "Open recall",
+      "prompt": "Name the three Domains of Life.",
+      "options": [],
+      "correct": null,
+      "explanation": "Bacteria, Archaea, and Eukarya."
+    },
+    {
+      "num": 11,
+      "type": "Multi-statement",
+      "prompt": "Which of the following statements about prokaryotes and eukaryotes is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Prokaryotes lack a nucleus."
+        },
+        {
+          "letter": "B",
+          "text": "Eukaryotes are generally larger (10–100 µm) than prokaryotes (1– 10 µm)."
+        },
+        {
+          "letter": "C",
+          "text": "All eukaryotes are multicellular."
+        },
+        {
+          "letter": "D",
+          "text": "Prokaryotes are always unicellular."
+        },
+        {
+          "letter": "E",
+          "text": "Bacteria and Archaea are both prokaryotes."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Eukaryotes can be unicellular OR multicellular, not always multicellular."
+    },
+    {
+      "num": 12,
+      "type": "Multiple choice",
+      "prompt": "Which structural feature is unique to Bacteria and NOT shared by Archaea?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Small size (1–10 µm)"
+        },
+        {
+          "letter": "B",
+          "text": "Unicellularity"
+        },
+        {
+          "letter": "C",
+          "text": "Peptidoglycan cell wall"
+        },
+        {
+          "letter": "D",
+          "text": "Prokaryotic cell structure"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Peptidoglycan cell wall (unique to Bacteria; Archaea have different wall chemistry)."
+    },
+    {
+      "num": 13,
+      "type": "Open recall",
+      "prompt": "Describe one key similarity and one key difference between Bacteria and Archaea.",
+      "options": [],
+      "correct": null,
+      "explanation": "Similarity: both are small, unicellular, prokaryotic. Difference: Bacteria have peptidoglycan cell walls and some cause disease; Archaea live in extreme environments and are not known to cause disease."
+    },
+    {
+      "num": 14,
+      "type": "Multi-statement",
+      "prompt": "Which pairing of a Domain Eukarya kingdom with its correct description is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Animalia — multicellular, heterotrophic"
+        },
+        {
+          "letter": "B",
+          "text": "Plantae — multicellular, autotrophic/photosynthetic"
+        },
+        {
+          "letter": "C",
+          "text": "Fungi — always unicellular, autotrophic"
+        },
+        {
+          "letter": "D",
+          "text": "Protista — mostly unicellular, a highly diverse “miscellaneous” group"
+        },
+        {
+          "letter": "E",
+          "text": "All four kingdoms belong to Domain Eukarya"
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Fungi can be unicellular or multicellular, and they are heterotrophic (decomposers), not autotrophic."
+    },
+    {
+      "num": 15,
+      "type": "Multiple choice",
+      "prompt": "In the name Streptococcus pyogenes, the root “pyo” means:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chain"
+        },
+        {
+          "letter": "B",
+          "text": "Berry"
+        },
+        {
+          "letter": "C",
+          "text": "Pus"
+        },
+        {
+          "letter": "D",
+          "text": "Golden"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Pus."
+    },
+    {
+      "num": 16,
+      "type": "Open recall",
+      "prompt": "What is Binomial Classification, and give one example of what an organism’s name can reveal about it.",
+      "options": [],
+      "correct": null,
+      "explanation": "Binomial Classification names organisms with a Latinized Genus + species (e.g., Streptococcus pyogenes). The root words can describe the organism — e.g., “strepto” (chain) + “coccus” (berry) describes its chain-of-berries appearance, and “pyo” (pus) + “gen” (formation) describes that it causes pus formation."
+    },
+    {
+      "num": 17,
+      "type": "Multi-statement",
+      "prompt": "Which statement about viruses, prions, and viroids is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Viruses are non-living, obligate intracellular parasites."
+        },
+        {
+          "letter": "B",
+          "text": "Viruses are made of a protein capsid surrounding nucleic acid."
+        },
+        {
+          "letter": "C",
+          "text": "Prions are infectious proteins that contain their own nucleic acid."
+        },
+        {
+          "letter": "D",
+          "text": "Viroids are infectious pieces of RNA."
+        },
+        {
+          "letter": "E",
+          "text": "Viroids are only known to infect plants."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Prions are infectious proteins with NO nucleic acid/genetic material at all."
+    },
+    {
+      "num": 18,
+      "type": "Multiple choice",
+      "prompt": "Which organism causes vaginitis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Streptococcus pyogenes"
+        },
+        {
+          "letter": "B",
+          "text": "Staphylococcus aureus"
+        },
+        {
+          "letter": "C",
+          "text": "Candida albicans"
+        },
+        {
+          "letter": "D",
+          "text": "Yersinia pestis"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Candida albicans."
+    },
+    {
+      "num": 19,
+      "type": "Open recall",
+      "prompt": "Match each scientist to his key contribution: Robert Hooke, Anton van Leeuwenhoek, Louis Pasteur, Robert Koch.",
+      "options": [],
+      "correct": null,
+      "explanation": "Robert Hooke — pioneered microscopy, published Micrographia, coined the term “cell.” Anton van Leeuwenhoek — first to observe bacteria/microorganisms (“animalcules”). Louis Pasteur — proposed microbes could cause disease. Robert Koch — provided the rigorous experimental proof of the Germ Theory of Disease."
+    },
+    {
+      "num": 20,
+      "type": "Multiple choice",
+      "prompt": "MRSA is an antibiotic-resistant strain of which organism?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Streptococcus pyogenes"
+        },
+        {
+          "letter": "B",
+          "text": "Staphylococcus aureus"
+        },
+        {
+          "letter": "C",
+          "text": "Candida albicans"
+        },
+        {
+          "letter": "D",
+          "text": "Yersinia pestis"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Staphylococcus aureus."
+    }
+  ]
+}

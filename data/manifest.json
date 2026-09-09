@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "mod1",
+    "title": "Module 1",
+    "subtitle": "Introduction to Microbiology \u2014 Part 1",
+    "count": 20
+  },
+  {
+    "slug": "mod2",
+    "title": "Module 2",
+    "subtitle": "Introduction to Microbiology \u2014 Part 2",
+    "count": 15
+  },
+  {
+    "slug": "mod3",
+    "title": "Module 3",
+    "subtitle": "Prokaryotic Cells \u2014 Part 1",
+    "count": 20
+  },
+  {
+    "slug": "mod4",
+    "title": "Module 4",
+    "subtitle": "Prokaryotic Cells \u2014 Part 2",
+    "count": 15
+  },
+  {
+    "slug": "mod5",
+    "title": "Module 5",
+    "subtitle": "Metabolism \u2014 Part 1",
+    "count": 17
+  },
+  {
+    "slug": "mod6",
+    "title": "Module 6",
+    "subtitle": "Metabolism \u2014 Part 2",
+    "count": 15
+  },
+  {
+    "slug": "mod7",
+    "title": "Module 7",
+    "subtitle": "Microbial Growth",
+    "count": 15
+  },
+  {
+    "slug": "mod8",
+    "title": "Module 8",
+    "subtitle": "Control of Microbial Growth",
+    "count": 16
+  },
+  {
+    "slug": "practice1",
+    "title": "Practice Test 1",
+    "subtitle": "Cumulative \u2014 Modules 1\u20138",
+    "count": 56
+  },
+  {
+    "slug": "practice2",
+    "title": "Practice Test 2",
+    "subtitle": "Cumulative \u2014 Modules 1\u20138",
+    "count": 56
+  }
+]

@@ -1,0 +1,292 @@
+{
+  "slug": "mod4",
+  "title": "Module 4",
+  "subtitle": "Prokaryotic Cells — Part 2",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multi-statement",
+      "prompt": "Which statement about the cell membrane is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is made of a phospholipid bilayer."
+        },
+        {
+          "letter": "B",
+          "text": "Phospholipid heads are hydrophilic; tails are hydrophobic."
+        },
+        {
+          "letter": "C",
+          "text": "It is completely impermeable to all substances."
+        },
+        {
+          "letter": "D",
+          "text": "Membrane proteins can act as receptors, ligands, enzymes, or transporters."
+        },
+        {
+          "letter": "E",
+          "text": "It is selectively/differentially permeable."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. The membrane is selectively/differentially permeable, not completely impermeable."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Small, nonpolar molecules like O2 and CO2 typically cross the membrane via:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Active transport"
+        },
+        {
+          "letter": "B",
+          "text": "Simple diffusion"
+        },
+        {
+          "letter": "C",
+          "text": "Endocytosis"
+        },
+        {
+          "letter": "D",
+          "text": "A proton pump"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Simple diffusion."
+    },
+    {
+      "num": 3,
+      "type": "Open recall",
+      "prompt": "Define a concentration gradient.",
+      "options": [],
+      "correct": null,
+      "explanation": "An unequal distribution of a solute between two regions - a difference in concentration from one area to another."
+    },
+    {
+      "num": 4,
+      "type": "Multiple choice",
+      "prompt": "Facilitated diffusion differs from simple diffusion in that it:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Requires energy"
+        },
+        {
+          "letter": "B",
+          "text": "Moves substances against their gradient"
+        },
+        {
+          "letter": "C",
+          "text": "Requires a transport protein to help move the substance"
+        },
+        {
+          "letter": "D",
+          "text": "Only occurs in eukaryotic cells"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Requires a transport protein to help move the substance (both are still passive/no energy)."
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "Define osmosis, and state the direction water moves relative to solute concentration.",
+      "options": [],
+      "correct": null,
+      "explanation": "Osmosis is the passive diffusion of water (solvent) from an area of higher water concentration to an area of lower water concentration (i.e., toward the area with more solute)."
+    },
+    {
+      "num": 6,
+      "type": "Multi-statement",
+      "prompt": "Which statement about tonicity is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In an isotonic solution, there is no net water movement."
+        },
+        {
+          "letter": "B",
+          "text": "In a hypotonic solution, water moves into the cell, risking lysis."
+        },
+        {
+          "letter": "C",
+          "text": "In a hypertonic solution, water moves into the cell, causing swelling."
+        },
+        {
+          "letter": "D",
+          "text": "In a hypertonic solution, the cell may undergo plasmolysis."
+        },
+        {
+          "letter": "E",
+          "text": "Tonicity compares solute concentration outside the cell to inside the cell."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. In a hypertonic solution, water moves OUT of the cell; in a hypotonic solution, water moves IN."
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "Active transport requires:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No energy, just a concentration gradient"
+        },
+        {
+          "letter": "B",
+          "text": "Energy and a protein pump"
+        },
+        {
+          "letter": "C",
+          "text": "A vesicle"
+        },
+        {
+          "letter": "D",
+          "text": "A phospholipid bilayer only"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Energy and a protein pump."
+    },
+    {
+      "num": 8,
+      "type": "Open recall",
+      "prompt": "How are endocytosis and exocytosis similar, and how are they different?",
+      "options": [],
+      "correct": null,
+      "explanation": "Similar: both are bulk transport using membrane-bound vesicles to move large amounts of material across the membrane. Different: endocytosis moves material INTO the cell; exocytosis moves material OUT of the cell."
+    },
+    {
+      "num": 9,
+      "type": "Multiple choice",
+      "prompt": "The site of protein synthesis (translation) in a cell is the:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nucleoid"
+        },
+        {
+          "letter": "B",
+          "text": "Plasmid"
+        },
+        {
+          "letter": "C",
+          "text": "Ribosome"
+        },
+        {
+          "letter": "D",
+          "text": "Inclusion"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Ribosome."
+    },
+    {
+      "num": 10,
+      "type": "Open recall",
+      "prompt": "How do prokaryotic and eukaryotic ribosomes differ, and why does this matter clinically?",
+      "options": [],
+      "correct": null,
+      "explanation": "Prokaryotic ribosomes are 70S; eukaryotic ribosomes are 80S. This size/structural difference lets antibiotics (e.g., tetracycline) selectively target bacterial (70S) ribosomes without harming the patient’s (80S) ribosomes."
+    },
+    {
+      "num": 11,
+      "type": "Multi-statement",
+      "prompt": "Which statement about inclusions, the nucleoid, and plasmids is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inclusions are precipitated chunks of stored molecules."
+        },
+        {
+          "letter": "B",
+          "text": "The nucleoid contains the main bacterial chromosome."
+        },
+        {
+          "letter": "C",
+          "text": "Plasmids are the primary chromosome and are essential for basic survival."
+        },
+        {
+          "letter": "D",
+          "text": "Plasmids can carry antibioticresistance genes."
+        },
+        {
+          "letter": "E",
+          "text": "Plasmids can be exchanged between bacterial cells via conjugation."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Plasmids are small, extra, “accessory” DNA loops - not the primary chromosome, and not essential for basic survival."
+    },
+    {
+      "num": 12,
+      "type": "Multiple choice",
+      "prompt": "Why are plasmids clinically relevant?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They store excess nutrients."
+        },
+        {
+          "letter": "B",
+          "text": "They can spread antibiotic-resistance genes between bacteria."
+        },
+        {
+          "letter": "C",
+          "text": "They form the cell wall."
+        },
+        {
+          "letter": "D",
+          "text": "They are the site of protein synthesis."
+        }
+      ],
+      "correct": "B",
+      "explanation": "They can spread antibiotic-resistance genes between bacteria."
+    },
+    {
+      "num": 13,
+      "type": "Open recall",
+      "prompt": "What are endospores, and which three genera typically produce them?",
+      "options": [],
+      "correct": null,
+      "explanation": "Endospores are highly resilient, dormant “cell within a cell” structures formed under stressful conditions. Produced by Bacillus, Clostridium, and Clostridioides."
+    },
+    {
+      "num": 14,
+      "type": "Multiple choice",
+      "prompt": "Endospores are clinically relevant primarily because they:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Produce toxins directly"
+        },
+        {
+          "letter": "B",
+          "text": "Are highly resistant to heat, desiccation, and disinfectants, allowing survival and later germination"
+        },
+        {
+          "letter": "C",
+          "text": "Increase a bacterium’s motility"
+        },
+        {
+          "letter": "D",
+          "text": "Are a type of plasmid"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Are highly resistant to heat, desiccation, and disinfectants, allowing survival and later germination."
+    },
+    {
+      "num": 15,
+      "type": "Open recall",
+      "prompt": "Describe the sequence of events by which C. difficile causes diarrhea, from ingestion to infection.",
+      "options": [],
+      "correct": null,
+      "explanation": "C. difficile vegetative cells and spores are ingested; stomach acid kills the vegetative cells, but the spores survive and germinate in the small intestine; the resulting cells multiply and cause infection (diarrhea) in the large intestine."
+    }
+  ]
+}

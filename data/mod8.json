@@ -1,0 +1,321 @@
+{
+  "slug": "mod8",
+  "title": "Module 8",
+  "subtitle": "Control of Microbial Growth",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multi-statement",
+      "prompt": "Which statement about sterilization and disinfection is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sterilization destroys ALL microorganisms, including endospores."
+        },
+        {
+          "letter": "B",
+          "text": "Disinfection destroys MOST, but not necessarily all, microorganisms."
+        },
+        {
+          "letter": "C",
+          "text": "Boiling water for 10 minutes is sufficient to sterilize an item."
+        },
+        {
+          "letter": "D",
+          "text": "An autoclave can achieve true sterilization."
+        },
+        {
+          "letter": "E",
+          "text": "Endospores are a key reason some methods fail to sterilize."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Boiling does NOT destroy endospores, so it disinfects but does not sterilize."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "A disinfectant that is safe to use on living tissue (skin/mucous membranes) is specifically called:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A sanitizer"
+        },
+        {
+          "letter": "B",
+          "text": "A sterilant"
+        },
+        {
+          "letter": "C",
+          "text": "An antiseptic"
+        },
+        {
+          "letter": "D",
+          "text": "A germicide"
+        }
+      ],
+      "correct": "C",
+      "explanation": "An antiseptic."
+    },
+    {
+      "num": 3,
+      "type": "Open recall",
+      "prompt": "What is sanitization, and give one real-world example.",
+      "options": [],
+      "correct": null,
+      "explanation": "Sanitization is reducing the number of microorganisms to a level considered safe for public health - e.g., washing dishes/utensils in a restaurant, or cleaning surfaces at a public pool."
+    },
+    {
+      "num": 4,
+      "type": "Multiple choice",
+      "prompt": "Degerming refers to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Complete destruction of all microorganisms"
+        },
+        {
+          "letter": "B",
+          "text": "Mechanical removal of microorganisms from a limited area (usually skin)"
+        },
+        {
+          "letter": "C",
+          "text": "Using radiation to mutate DNA"
+        },
+        {
+          "letter": "D",
+          "text": "Reducing microbial load to public-health-safe levels"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Mechanical removal of microorganisms from a limited area (usually skin)."
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "What kind of soap is recommended for routine athome hand washing, and why isn’t antibacterial soap necessary in that setting?",
+      "options": [],
+      "correct": null,
+      "explanation": "Regular (liquid) soap is recommended; antibacterial soap’s germicidal chemicals need more contact time than a typical ~15second hand wash provides to actually kill bacteria, so it offers no real extra benefit at home."
+    },
+    {
+      "num": 6,
+      "type": "Multi-statement",
+      "prompt": "Which statement about critical, semi-critical, and non-critical items is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Critical items penetrate tissue and must be sterile."
+        },
+        {
+          "letter": "B",
+          "text": "A scalpel is an example of a critical item."
+        },
+        {
+          "letter": "C",
+          "text": "Semicritical items contact mucous membranes."
+        },
+        {
+          "letter": "D",
+          "text": "A stethoscope is a critical item."
+        },
+        {
+          "letter": "E",
+          "text": "Non-critical items contact only unbroken skin."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. A stethoscope is a non-critical item (contacts only unbroken skin), not a critical item."
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "Heat controls microbial growth primarily by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Physically filtering out cells"
+        },
+        {
+          "letter": "B",
+          "text": "Denaturing proteins"
+        },
+        {
+          "letter": "C",
+          "text": "Mutating DNA directly"
+        },
+        {
+          "letter": "D",
+          "text": "Drawing water out of cells via osmosis"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Denaturing proteins."
+    },
+    {
+      "num": 8,
+      "type": "Open recall",
+      "prompt": "Compare dry heat sterilization and boiling in terms of their ability to destroy endospores.",
+      "options": [],
+      "correct": null,
+      "explanation": "Dry heat sterilization (e.g., incineration, 170°C ovens) DOES destroy endospores, achieving true sterilization. Boiling (100°C) does NOT destroy endospores, so it only disinfects."
+    },
+    {
+      "num": 9,
+      "type": "Multiple choice",
+      "prompt": "An autoclave achieves sterilization by reaching:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "100°C at normal atmospheric pressure"
+        },
+        {
+          "letter": "B",
+          "text": "72°C for 15 seconds"
+        },
+        {
+          "letter": "C",
+          "text": "121°C at 15 PSI for 15 minutes"
+        },
+        {
+          "letter": "D",
+          "text": "170°C for 3-4 hours"
+        }
+      ],
+      "correct": "C",
+      "explanation": "121°C at 15 PSI for 15 minutes."
+    },
+    {
+      "num": 10,
+      "type": "Open recall",
+      "prompt": "What is pasteurization, and how does its purpose differ from sterilization?",
+      "options": [],
+      "correct": null,
+      "explanation": "Pasteurization is rapid heating (72°C for 15 seconds) used to reduce microbial load in products like milk, juice, or beer. Unlike sterilization, its purpose is disinfection (reducing, not eliminating, all microbes) while preserving the product’s quality."
+    },
+    {
+      "num": 11,
+      "type": "Multi-statement",
+      "prompt": "Which statement about filtration and radiation is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Filtration physically removes microorganisms using pore sizes under about 0.4 µm."
+        },
+        {
+          "letter": "B",
+          "text": "Filtration is useful for heatsensitive liquids."
+        },
+        {
+          "letter": "C",
+          "text": "Radiation controls microbes by mutating their DNA."
+        },
+        {
+          "letter": "D",
+          "text": "UV radiation is ionizing radiation."
+        },
+        {
+          "letter": "E",
+          "text": "UV light around 254 nm is especially germicidal."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. UV radiation is non-ionizing radiation (gamma radiation is the ionizing type)."
+    },
+    {
+      "num": 12,
+      "type": "Multiple choice",
+      "prompt": "Which preservation method works by sublimating (removing) moisture using ultra-cold temperatures?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Refrigeration"
+        },
+        {
+          "letter": "B",
+          "text": "Freeze drying"
+        },
+        {
+          "letter": "C",
+          "text": "Salting"
+        },
+        {
+          "letter": "D",
+          "text": "Sugaring"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Freeze drying."
+    },
+    {
+      "num": 13,
+      "type": "Open recall",
+      "prompt": "Explain how salting and sugaring preserve food from microbial growth.",
+      "options": [],
+      "correct": null,
+      "explanation": "Salting and sugaring create a hypertonic environment around microbial cells; this draws water out of the cells via osmosis, dehydrating them and inhibiting their growth."
+    },
+    {
+      "num": 14,
+      "type": "Multi-statement",
+      "prompt": "Which pairing of germicide category to example is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Alcohols — 70% isopropyl alcohol"
+        },
+        {
+          "letter": "B",
+          "text": "Aldehydes — formaldehyde"
+        },
+        {
+          "letter": "C",
+          "text": "Biguanides — chlorhexidine"
+        },
+        {
+          "letter": "D",
+          "text": "Peroxides — ethylene oxide"
+        },
+        {
+          "letter": "E",
+          "text": "Halogens — chlorine, iodine, fluorine"
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Ethylene oxide is its own separate germicide category (a pressurized gas sterilant); it is not an example of a peroxide."
+    },
+    {
+      "num": 15,
+      "type": "Multiple choice",
+      "prompt": "Which halogen is described as the most effective but also the most toxic?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iodine"
+        },
+        {
+          "letter": "B",
+          "text": "Chlorine"
+        },
+        {
+          "letter": "C",
+          "text": "Bromine"
+        },
+        {
+          "letter": "D",
+          "text": "Fluorine"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Fluorine."
+    },
+    {
+      "num": 16,
+      "type": "Open recall",
+      "prompt": "Why is ethylene oxide used for items like linens and pillows instead of heat-based sterilization, and what is a safety concern associated with it?",
+      "options": [],
+      "correct": null,
+      "explanation": "Ethylene oxide is used for heat-sensitive items like linens and pillows because, as a gas, it can sterilize (including killing endospores) without exposing the item to damaging heat or moisture. Safety concern: it is carcinogenic."
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "slug": "mod6",
+  "title": "Module 6",
+  "subtitle": "Metabolism — Part 2",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multi-statement",
+      "prompt": "Which statement about aerobic cellular respiration is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It requires the presence of oxygen."
+        },
+        {
+          "letter": "B",
+          "text": "It produces a total of 38 ATP."
+        },
+        {
+          "letter": "C",
+          "text": "The overall equation is glucose + O2 -> CO2 + H2O + energy."
+        },
+        {
+          "letter": "D",
+          "text": "It occurs entirely within a single step called glycolysis."
+        },
+        {
+          "letter": "E",
+          "text": "Released energy is used to make ATP."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Aerobic respiration occurs across four stages (glycolysis, transition reaction, Krebs cycle, electron transport chain), not just glycolysis."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "During glycolysis, glucose is converted into:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Acetyl-CoA"
+        },
+        {
+          "letter": "B",
+          "text": "2 pyruvic acid molecules"
+        },
+        {
+          "letter": "C",
+          "text": "CO2 and H2O"
+        },
+        {
+          "letter": "D",
+          "text": "Lactic acid"
+        }
+      ],
+      "correct": "B",
+      "explanation": "2 pyruvic acid molecules."
+    },
+    {
+      "num": 3,
+      "type": "Open recall",
+      "prompt": "What happens to hydrogen released during glycolysis?",
+      "options": [],
+      "correct": null,
+      "explanation": "It is picked up by the electron carrier NAD+, forming NADH (+H+), which carries it to be used later in the electron transport chain."
+    },
+    {
+      "num": 4,
+      "type": "Multiple choice",
+      "prompt": "Which of the following is an electron carrier?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ATP synthase"
+        },
+        {
+          "letter": "B",
+          "text": "NAD+/NADH"
+        },
+        {
+          "letter": "C",
+          "text": "Pyruvic acid"
+        },
+        {
+          "letter": "D",
+          "text": "Oxygen"
+        }
+      ],
+      "correct": "B",
+      "explanation": "NAD+/NADH."
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "Describe what happens during the transition reaction (pyruvate oxidation), including its products.",
+      "options": [],
+      "correct": null,
+      "explanation": "Each of the 2 pyruvic acid molecules is converted into Acetyl-CoA, releasing 2 CO2 and producing 2 NADH + 2 H+."
+    },
+    {
+      "num": 6,
+      "type": "Multi-statement",
+      "prompt": "Which statement about the Krebs cycle is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It processes Acetyl-CoA."
+        },
+        {
+          "letter": "B",
+          "text": "It releases CO2."
+        },
+        {
+          "letter": "C",
+          "text": "It produces 2 ATP directly."
+        },
+        {
+          "letter": "D",
+          "text": "It produces 34 ATP directly."
+        },
+        {
+          "letter": "E",
+          "text": "It produces NADH and FADH2."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. The Krebs cycle produces 2 ATP directly; the 34 ATP figure comes from the electron transport chain."
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "In bacteria, the electron transport chain is located in the:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nucleoid"
+        },
+        {
+          "letter": "B",
+          "text": "Ribosome"
+        },
+        {
+          "letter": "C",
+          "text": "Cell (plasma) membrane"
+        },
+        {
+          "letter": "D",
+          "text": "Cell wall"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Cell (plasma) membrane."
+    },
+    {
+      "num": 8,
+      "type": "Open recall",
+      "prompt": "What role does oxygen play in the electron transport chain?",
+      "options": [],
+      "correct": null,
+      "explanation": "Oxygen serves as the final electron acceptor at the end of the electron transport chain, combining with electrons and H+ to form H2O."
+    },
+    {
+      "num": 9,
+      "type": "Multiple choice",
+      "prompt": "ATP synthase produces ATP by using the flow of:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glucose molecules"
+        },
+        {
+          "letter": "B",
+          "text": "Electrons directly"
+        },
+        {
+          "letter": "C",
+          "text": "H+ ions down their concentration gradient"
+        },
+        {
+          "letter": "D",
+          "text": "CO2 out of the cell"
+        }
+      ],
+      "correct": "C",
+      "explanation": "H+ ions down their concentration gradient."
+    },
+    {
+      "num": 10,
+      "type": "Open recall",
+      "prompt": "Explain how active transport and facilitated diffusion each play a role in the electron transport chain / ATP synthase process.",
+      "options": [],
+      "correct": null,
+      "explanation": "Active transport (via proton pumps) uses energy from the flow of electrons to pump H+ against its gradient, building up the proton gradient across the membrane. Facilitated diffusion then allows H+ to flow back down its gradient through the ATP synthase channel protein, and that flow powers ATP production."
+    },
+    {
+      "num": 11,
+      "type": "Multi-statement",
+      "prompt": "Which statement about anaerobic metabolism/fermentation is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It does not use oxygen."
+        },
+        {
+          "letter": "B",
+          "text": "It produces significantly more ATP than aerobic respiration."
+        },
+        {
+          "letter": "C",
+          "text": "It only uses glycolysis for ATP production."
+        },
+        {
+          "letter": "D",
+          "text": "Lactic acid fermentation is performed by bacteria and animals."
+        },
+        {
+          "letter": "E",
+          "text": "Alcoholic fermentation is performed by fungi (yeast)."
+        }
+      ],
+      "correct": "B",
+      "explanation": "False. Fermentation produces far less ATP (2) than aerobic respiration (38)."
+    },
+    {
+      "num": 12,
+      "type": "Multiple choice",
+      "prompt": "How many net ATP are produced during fermentation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "38"
+        },
+        {
+          "letter": "B",
+          "text": "34"
+        },
+        {
+          "letter": "C",
+          "text": "4"
+        },
+        {
+          "letter": "D",
+          "text": "2"
+        }
+      ],
+      "correct": "D",
+      "explanation": "2."
+    },
+    {
+      "num": 13,
+      "type": "Open recall",
+      "prompt": "What are the two main types of fermentation, distinguished by their products, and give a microbial example of each.",
+      "options": [],
+      "correct": null,
+      "explanation": "Acidic (lactic acid) fermentation - e.g., Lactobacillus acidophilus. Alcoholic fermentation (ethanol + CO2) - e.g., Saccharomyces cerevisiae."
+    },
+    {
+      "num": 14,
+      "type": "Open recall",
+      "prompt": "Compare aerobic cellular respiration and fermentation in terms of oxygen use, ATP yield, and final steps.",
+      "options": [],
+      "correct": null,
+      "explanation": "Aerobic respiration uses oxygen as the final electron acceptor, runs through all four stages, and yields 38 ATP. Fermentation uses no oxygen, stops after glycolysis, regenerates NAD+ by reducing pyruvate into lactic acid or ethanol/CO2, and yields only 2 ATP."
+    },
+    {
+      "num": 15,
+      "type": "Multi-statement",
+      "prompt": "Which statement about oxidation-reduction (redox) reactions is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Oxidation means losing electrons."
+        },
+        {
+          "letter": "B",
+          "text": "Reduction means gaining electrons."
+        },
+        {
+          "letter": "C",
+          "text": "Glucose is reduced during cellular respiration."
+        },
+        {
+          "letter": "D",
+          "text": "Electron carriers like NAD+ become reduced (to NADH) as they pick up electrons."
+        },
+        {
+          "letter": "E",
+          "text": "Redox reactions are central to both cellular respiration and fermentation."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Glucose is oxidized (loses electrons/hydrogens), not reduced, during cellular respiration."
+    }
+  ]
+}

@@ -1,0 +1,1035 @@
+{
+  "slug": "practice2",
+  "title": "Practice Test 2",
+  "subtitle": "Cumulative — Modules 1–8",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Open recall",
+      "prompt": "How did the Plague indirectly help give rise to modern science?",
+      "options": [],
+      "correct": null,
+      "explanation": "The mass, unexplained death of the Plague drove people to seek a rational (rather than religious) explanation, which launched the Renaissance - considered the birth of modern science and eventually microbiology."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Robert Hooke coined the term “cell” after observing:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Live bacteria"
+        },
+        {
+          "letter": "B",
+          "text": "Blood cells"
+        },
+        {
+          "letter": "C",
+          "text": "Cork under a microscope"
+        },
+        {
+          "letter": "D",
+          "text": "Pond water"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Cork under a microscope."
+    },
+    {
+      "num": 3,
+      "type": "Multi-statement",
+      "prompt": "Which statement about prokaryotes and eukaryotes is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Prokaryotes lack a nucleus."
+        },
+        {
+          "letter": "B",
+          "text": "Eukaryotic cells are generally 10-100 µm."
+        },
+        {
+          "letter": "C",
+          "text": "Prokaryotic cells are generally 1-10 µm."
+        },
+        {
+          "letter": "D",
+          "text": "All prokaryotes are multicellular."
+        },
+        {
+          "letter": "E",
+          "text": "Bacteria and Archaea are prokaryotes."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Prokaryotes are always unicellular, not multicellular."
+    },
+    {
+      "num": 4,
+      "type": "Multiple choice",
+      "prompt": "Which of the following is an obligate intracellular parasite made of protein and nucleic acid?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Prion"
+        },
+        {
+          "letter": "B",
+          "text": "Viroid"
+        },
+        {
+          "letter": "C",
+          "text": "Virus"
+        },
+        {
+          "letter": "D",
+          "text": "Archaea"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Virus."
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "What can the Latin/Greek roots of a binomial name reveal about a microorganism? Give an example.",
+      "options": [],
+      "correct": null,
+      "explanation": "Latin/Greek roots often describe the organism’s appearance or effect - e.g., in Streptococcus pyogenes, “strepto” (chain) + “coccus” (berry) describes a chain-of-berries shape, and “pyo” (pus) + “gen” (formation) describes that it forms pus."
+    },
+    {
+      "num": 6,
+      "type": "Multiple choice",
+      "prompt": "Which disease is caused by Candida albicans?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Strep throat"
+        },
+        {
+          "letter": "B",
+          "text": "Staph infection"
+        },
+        {
+          "letter": "C",
+          "text": "Vaginitis"
+        },
+        {
+          "letter": "D",
+          "text": "The Plague Module 2: Introduction to Microbiology (Part 2)"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Vaginitis."
+    },
+    {
+      "num": 7,
+      "type": "Open recall",
+      "prompt": "Describe Spallanzani’s experiment and its result for the sealed vs. open flask.",
+      "options": [],
+      "correct": null,
+      "explanation": "Spallanzani boiled broth (sterilizing it) and placed it in both a sealed and an open flask. The sealed flask showed no microbial growth, while the open flask grew microorganisms - supporting the idea that microbes come from outside contamination, not spontaneous generation."
+    },
+    {
+      "num": 8,
+      "type": "Multi-statement",
+      "prompt": "Which statement about biotechnology/genetic engineering is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It involves manipulating genes."
+        },
+        {
+          "letter": "B",
+          "text": "It can be used to make bacteria produce proteins like insulin."
+        },
+        {
+          "letter": "C",
+          "text": "It has nothing to do with genes or DNA."
+        },
+        {
+          "letter": "D",
+          "text": "It’s an example of a beneficial use of microorganisms."
+        },
+        {
+          "letter": "E",
+          "text": "It falls under “biotechnology” as a beneficial microbial role."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Genetic engineering fundamentally involves manipulating genes/DNA."
+    },
+    {
+      "num": 9,
+      "type": "Multiple choice",
+      "prompt": "Eduard Buchner’s fermentation experiment led to the discovery of:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibiotics"
+        },
+        {
+          "letter": "B",
+          "text": "Enzymes"
+        },
+        {
+          "letter": "C",
+          "text": "Pasteurization"
+        },
+        {
+          "letter": "D",
+          "text": "The Gram stain"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Enzymes."
+    },
+    {
+      "num": 10,
+      "type": "Open recall",
+      "prompt": "What is the difference between an enzyme and an antibiotic, using examples from this module?",
+      "options": [],
+      "correct": null,
+      "explanation": "An enzyme is a protein that catalyzes (speeds up) chemical reactions, such as those in fermentation (discovered via Buchner’s yeast-extract experiments). An antibiotic is a substance that kills or inhibits bacteria, such as Penicillin (discovered by Fleming)."
+    },
+    {
+      "num": 11,
+      "type": "Multiple choice",
+      "prompt": "Which of the following four scientists is most associated with promoting hospital cleanliness?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Semmelweis"
+        },
+        {
+          "letter": "B",
+          "text": "Nightingale"
+        },
+        {
+          "letter": "C",
+          "text": "Lister"
+        },
+        {
+          "letter": "D",
+          "text": "Fleming Module 3: Prokaryotic Cells (Part 1)"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Nightingale."
+    },
+    {
+      "num": 12,
+      "type": "Open recall",
+      "prompt": "What are fimbriae, and how do they contribute to the process of infection?",
+      "options": [],
+      "correct": null,
+      "explanation": "Fimbriae are short protein filaments tipped with a sticky protein (adhesin) that let bacteria adhere to host tissue - this attachment is typically the first step in establishing an infection."
+    },
+    {
+      "num": 13,
+      "type": "Multiple choice",
+      "prompt": "A “streptobacillus” arrangement describes:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Clusters of rods"
+        },
+        {
+          "letter": "B",
+          "text": "Chains of rods"
+        },
+        {
+          "letter": "C",
+          "text": "Pairs of cocci"
+        },
+        {
+          "letter": "D",
+          "text": "A single curved rod"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Chains of rods."
+    },
+    {
+      "num": 14,
+      "type": "Multi-statement",
+      "prompt": "Which statement about lysozyme is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is naturally found in tears and saliva."
+        },
+        {
+          "letter": "B",
+          "text": "It catalyzes hydrolysis of peptidoglycan."
+        },
+        {
+          "letter": "C",
+          "text": "It is a beta-lactam antibiotic."
+        },
+        {
+          "letter": "D",
+          "text": "Its action leads to lysis of the bacterial cell."
+        },
+        {
+          "letter": "E",
+          "text": "It is a digestive enzyme."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Lysozyme is a digestive enzyme, not a beta-lactam antibiotic (that describes penicillin)."
+    },
+    {
+      "num": 15,
+      "type": "Multiple choice",
+      "prompt": "Treponema pallidum, a spirochete, causes:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tuberculosis"
+        },
+        {
+          "letter": "B",
+          "text": "Syphilis"
+        },
+        {
+          "letter": "C",
+          "text": "Pneumonia"
+        },
+        {
+          "letter": "D",
+          "text": "Cholera"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Syphilis."
+    },
+    {
+      "num": 16,
+      "type": "Open recall",
+      "prompt": "Why does the outer membrane of Gram-negative bacteria make them generally more resistant to certain antibiotics? Module 4: Prokaryotic Cells (Part 2)",
+      "options": [],
+      "correct": null,
+      "explanation": "The outer membrane can contain efflux pump proteins that actively transport antibiotics back out of the cell before they can act, and it also blocks some drugs from entering in the first place, making Gram-negative bacteria generally more antibiotic-resistant."
+    },
+    {
+      "num": 17,
+      "type": "Open recall",
+      "prompt": "Describe the structure of a phospholipid and explain why phospholipids spontaneously form a bilayer in water.",
+      "options": [],
+      "correct": null,
+      "explanation": "A phospholipid has a hydrophilic (water-loving) phosphate head and hydrophobic (water-fearing) fatty-acid tails. In water, the hydrophobic tails orient away from water (facing each other) while the hydrophilic heads face outward toward water on both sides, spontaneously forming a bilayer."
+    },
+    {
+      "num": 18,
+      "type": "Multiple choice",
+      "prompt": "Which transport process requires a protein pump and moves substances against their concentration gradient?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Simple diffusion"
+        },
+        {
+          "letter": "B",
+          "text": "Facilitated diffusion"
+        },
+        {
+          "letter": "C",
+          "text": "Osmosis"
+        },
+        {
+          "letter": "D",
+          "text": "Active transport"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Active transport."
+    },
+    {
+      "num": 19,
+      "type": "Multi-statement",
+      "prompt": "Which statement about bulk transport is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Endocytosis brings material into the cell."
+        },
+        {
+          "letter": "B",
+          "text": "Exocytosis sends material out of the cell."
+        },
+        {
+          "letter": "C",
+          "text": "Both use membrane-bound vesicles."
+        },
+        {
+          "letter": "D",
+          "text": "Bulk transport is used only for very small molecules like O2."
+        },
+        {
+          "letter": "E",
+          "text": "Bulk transport is used for large or numerous materials."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Bulk transport (endo/exocytosis) is used for large or numerous materials, not small molecules like O2 (which use simple diffusion)."
+    },
+    {
+      "num": 20,
+      "type": "Multiple choice",
+      "prompt": "The nucleoid of a bacterial cell contains:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A plasmid only"
+        },
+        {
+          "letter": "B",
+          "text": "The main circular chromosome"
+        },
+        {
+          "letter": "C",
+          "text": "Ribosomes"
+        },
+        {
+          "letter": "D",
+          "text": "Inclusions"
+        }
+      ],
+      "correct": "B",
+      "explanation": "The main circular chromosome."
+    },
+    {
+      "num": 21,
+      "type": "Open recall",
+      "prompt": "Describe the sequence of events involved in endospore formation and why endospores are considered highly resilient. Module 5: Metabolism (Part 1)",
+      "options": [],
+      "correct": null,
+      "explanation": "The chromosome is copied and the cytoplasm begins to split asymmetrically; the larger region engulfs the smaller region, which begins forming the endospore; the endospore develops a highly resilient peptidoglycan layer; the mother cell dies; and the endospore awaits a suitable environment to germinate. This resilient layer lets it withstand heat, desiccation, and disinfectants."
+    },
+    {
+      "num": 22,
+      "type": "Open recall",
+      "prompt": "Describe what happens chemically when ATP is broken down into ADP and phosphate, and why this matters for cells.",
+      "options": [],
+      "correct": null,
+      "explanation": "Breaking the high-energy bond holding ATP’s third phosphate releases a usable amount of energy, converting ATP into ADP + phosphate. This matters because cells use that released energy to power endergonic (energy-requiring) reactions via energy coupling."
+    },
+    {
+      "num": 23,
+      "type": "Multiple choice",
+      "prompt": "The active site of an enzyme is where:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Allosteric regulation occurs exclusively"
+        },
+        {
+          "letter": "B",
+          "text": "The substrate binds and is converted to product"
+        },
+        {
+          "letter": "C",
+          "text": "Phosphorylation always occurs"
+        },
+        {
+          "letter": "D",
+          "text": "The enzyme is permanently denatured"
+        }
+      ],
+      "correct": "B",
+      "explanation": "The substrate binds and is converted to product."
+    },
+    {
+      "num": 24,
+      "type": "Multi-statement",
+      "prompt": "Which statement about factors affecting enzyme activity is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Temperature can denature an enzyme."
+        },
+        {
+          "letter": "B",
+          "text": "pH can affect protein folding."
+        },
+        {
+          "letter": "C",
+          "text": "Salt concentration has no effect on enzymes."
+        },
+        {
+          "letter": "D",
+          "text": "Denaturation destroys enzyme function."
+        },
+        {
+          "letter": "E",
+          "text": "Enzymes have an optimal set of conditions for activity."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Salt concentration DOES affect enzyme activity/protein folding."
+    },
+    {
+      "num": 25,
+      "type": "Multiple choice",
+      "prompt": "Negative feedback inhibition typically involves a molecule binding to the:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Active site, mimicking the substrate"
+        },
+        {
+          "letter": "B",
+          "text": "Allosteric site, as the pathway’s own product"
+        },
+        {
+          "letter": "C",
+          "text": "Ribosome"
+        },
+        {
+          "letter": "D",
+          "text": "Cell wall"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Allosteric site, as the pathway’s own product."
+    },
+    {
+      "num": 26,
+      "type": "Open recall",
+      "prompt": "What is the difference between competitive and noncompetitive inhibition? Module 6: Metabolism (Part 2)",
+      "options": [],
+      "correct": null,
+      "explanation": "Competitive inhibition: the inhibitor binds the active site, directly blocking the substrate. Noncompetitive (allosteric) inhibition: the inhibitor binds a separate allosteric site, changing the enzyme’s shape to inhibit activity, without directly blocking the active site."
+    },
+    {
+      "num": 27,
+      "type": "Open recall",
+      "prompt": "Trace the path of glucose through the four stages of aerobic cellular respiration, noting the ATP yield of each stage.",
+      "options": [],
+      "correct": null,
+      "explanation": "Glycolysis: glucose -> 2 pyruvic acid, 2 ATP. Transition reaction: 2 pyruvic acid -> 2 Acetyl-CoA, 0 direct ATP. Krebs cycle: 2 AcetylCoA -> CO2, 2 ATP. Electron transport chain: NADH/FADH2 -> 34 ATP. Total: 38 ATP."
+    },
+    {
+      "num": 28,
+      "type": "Multiple choice",
+      "prompt": "Which electron carriers deliver electrons to the electron transport chain?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ATP and ADP"
+        },
+        {
+          "letter": "B",
+          "text": "NADH and FADH2"
+        },
+        {
+          "letter": "C",
+          "text": "Pyruvate and Acetyl-CoA"
+        },
+        {
+          "letter": "D",
+          "text": "Glucose and CO2"
+        }
+      ],
+      "correct": "B",
+      "explanation": "NADH and FADH2."
+    },
+    {
+      "num": 29,
+      "type": "Multi-statement",
+      "prompt": "Which statement about fermentation is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It occurs without oxygen."
+        },
+        {
+          "letter": "B",
+          "text": "It regenerates NAD+ by reducing pyruvate."
+        },
+        {
+          "letter": "C",
+          "text": "It always produces ethanol regardless of organism."
+        },
+        {
+          "letter": "D",
+          "text": "It yields far less ATP than aerobic respiration."
+        },
+        {
+          "letter": "E",
+          "text": "Lactic acid fermentation is performed by bacteria and animals."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Fermentation produces either lactic acid (bacteria/animals) OR ethanol + CO2 (fungi), depending on the organism - not always ethanol."
+    },
+    {
+      "num": 30,
+      "type": "Multiple choice",
+      "prompt": "ATP synthase generates ATP using the movement of:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Electrons directly"
+        },
+        {
+          "letter": "B",
+          "text": "Glucose molecules"
+        },
+        {
+          "letter": "C",
+          "text": "H+ ions through the enzyme"
+        },
+        {
+          "letter": "D",
+          "text": "Oxygen molecules"
+        }
+      ],
+      "correct": "C",
+      "explanation": "H+ ions through the enzyme."
+    },
+    {
+      "num": 31,
+      "type": "Open recall",
+      "prompt": "Why is life believed to have begun under anaerobic conditions, and what type of metabolism would that involve? Module 7: Microbial Growth",
+      "options": [],
+      "correct": null,
+      "explanation": "Early Earth had no significant atmospheric oxygen, so early life had to generate energy without it - this would require anaerobic metabolism (such as fermentation)."
+    },
+    {
+      "num": 32,
+      "type": "Open recall",
+      "prompt": "Describe how the streak plate method physically isolates individual bacterial colonies.",
+      "options": [],
+      "correct": null,
+      "explanation": "A sample is dragged with an inoculating loop across four quadrants of an agar plate, with progressively fewer cells carried to each new quadrant. By the final quadrant, cells are spread far enough apart that each one grows into its own separate, pure colony."
+    },
+    {
+      "num": 33,
+      "type": "Multiple choice",
+      "prompt": "Pseudomonas aeruginosa is an example of a(n):",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Obligate anaerobe"
+        },
+        {
+          "letter": "B",
+          "text": "Facultative anaerobe"
+        },
+        {
+          "letter": "C",
+          "text": "Obligate aerobe"
+        },
+        {
+          "letter": "D",
+          "text": "Aerotolerant anaerobe"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Obligate aerobe."
+    },
+    {
+      "num": 34,
+      "type": "Multi-statement",
+      "prompt": "Which statement about temperature categories is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Psychrophiles thrive in the coldest range listed."
+        },
+        {
+          "letter": "B",
+          "text": "Mesophiles include most human pathogens."
+        },
+        {
+          "letter": "C",
+          "text": "Thermophiles prefer 45-70°C."
+        },
+        {
+          "letter": "D",
+          "text": "Hyperthermophiles cannot survive above 70°C."
+        },
+        {
+          "letter": "E",
+          "text": "Human body temperature falls within the mesophile range."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Hyperthermophiles thrive between 70-110°C, so they DO survive above 70°C."
+    },
+    {
+      "num": 35,
+      "type": "Multiple choice",
+      "prompt": "A reducing media (e.g., thioglycolate broth) is used to determine:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pH preference"
+        },
+        {
+          "letter": "B",
+          "text": "Temperature preference"
+        },
+        {
+          "letter": "C",
+          "text": "Oxygen requirements"
+        },
+        {
+          "letter": "D",
+          "text": "Generation time"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Oxygen requirements."
+    },
+    {
+      "num": 36,
+      "type": "Open recall",
+      "prompt": "Define generation time and explain how it’s used in the bacterial growth equation.",
+      "options": [],
+      "correct": null,
+      "explanation": "Generation time is the time it takes for a bacterial population to double. It’s used as the basis for “n” (number of doublings) in the growth equation Nt = N(t=0) x 2^n."
+    },
+    {
+      "num": 37,
+      "type": "Open recall",
+      "prompt": "A population of bacteria starts with 2,000 cells and doubles every 15 minutes. How many cells will there be after 1 hour? Module 8: Control of Microbial Growth",
+      "options": [],
+      "correct": null,
+      "explanation": "60 minutes / 15-minute generation time = 4 doublings. 2^4 = 16. 2,000 x 16 = 32,000 cells."
+    },
+    {
+      "num": 38,
+      "type": "Open recall",
+      "prompt": "Distinguish between a disinfectant and an antiseptic, and explain why that distinction matters clinically.",
+      "options": [],
+      "correct": null,
+      "explanation": "A disinfectant is a chemical that removes/destroys/inhibits most microorganisms, generally on inanimate objects. An antiseptic is specifically a disinfectant safe for use on living tissue (skin/mucous membranes). This matters clinically because using the wrong one (e.g., a harsh disinfectant on skin) could cause tissue damage."
+    },
+    {
+      "num": 39,
+      "type": "Multiple choice",
+      "prompt": "Which of the following is a semi-critical medical item?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Scalpel"
+        },
+        {
+          "letter": "B",
+          "text": "Endoscope"
+        },
+        {
+          "letter": "C",
+          "text": "Stethoscope"
+        },
+        {
+          "letter": "D",
+          "text": "Exam table"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Endoscope."
+    },
+    {
+      "num": 40,
+      "type": "Multi-statement",
+      "prompt": "Which statement about dry heat and moist heat is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dry heat ovens can destroy endospores."
+        },
+        {
+          "letter": "B",
+          "text": "Boiling destroys endospores."
+        },
+        {
+          "letter": "C",
+          "text": "Autoclaving uses moist heat under pressure."
+        },
+        {
+          "letter": "D",
+          "text": "Pasteurization is a form of moist heat."
+        },
+        {
+          "letter": "E",
+          "text": "Incineration is a form of dry heat."
+        }
+      ],
+      "correct": "B",
+      "explanation": "False. Boiling does NOT destroy endospores."
+    },
+    {
+      "num": 41,
+      "type": "Multiple choice",
+      "prompt": "Which of the following germicides is commonly found in mouthwash?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ethylene oxide"
+        },
+        {
+          "letter": "B",
+          "text": "Biguanides"
+        },
+        {
+          "letter": "C",
+          "text": "Aldehydes"
+        },
+        {
+          "letter": "D",
+          "text": "Halogens"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Biguanides."
+    },
+    {
+      "num": 42,
+      "type": "Open recall",
+      "prompt": "Explain how hydrogen peroxide acts as a germicide, including the relevant chemical reaction.",
+      "options": [],
+      "correct": null,
+      "explanation": "Hydrogen peroxide is broken down by the enzyme catalase into water and oxygen (H2O2 -> H2O + O2); this reaction and the reactive oxygen released have germicidal/antiseptic effects, especially on inanimate objects."
+    },
+    {
+      "num": 43,
+      "type": "Multiple choice",
+      "prompt": "UV radiation used for disinfection is what type of radiation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ionizing"
+        },
+        {
+          "letter": "B",
+          "text": "Non-ionizing"
+        },
+        {
+          "letter": "C",
+          "text": "Alpha"
+        },
+        {
+          "letter": "D",
+          "text": "Beta"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Non-ionizing."
+    },
+    {
+      "num": 44,
+      "type": "Open recall",
+      "prompt": "Compare freeze drying and dehydration as preservation methods. Mixed Cumulative Review",
+      "options": [],
+      "correct": null,
+      "explanation": "Freeze drying uses ultra-cold temperatures to sublimate (remove) moisture from an item. Dehydration simply dries out an item to remove water, without using ultra-cold sublimation. Both work by eliminating the water microbes need to grow."
+    },
+    {
+      "num": 45,
+      "type": "Open recall",
+      "prompt": "Explain the historical link between Koch’s use of potato slices, Petri’s invention, and the eventual switch to agar.",
+      "options": [],
+      "correct": null,
+      "explanation": "Koch first grew isolated colonies on potato slices; he asked lab member Petri to design a standardized glass dish (the Petri dish) to hold them. Gelatin was tried next as a solidifier but melted at body temperature; Fannie Hesse’s cooking discovery of agar-agar (which stays solid at body temperature) led to agar replacing gelatin as the standard solidifying agent."
+    },
+    {
+      "num": 46,
+      "type": "Multiple choice",
+      "prompt": "Which of the following organisms is a diplococcus that causes pneumonia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Streptococcus pyogenes"
+        },
+        {
+          "letter": "B",
+          "text": "Streptococcus pneumoniae"
+        },
+        {
+          "letter": "C",
+          "text": "Staphylococcus aureus"
+        },
+        {
+          "letter": "D",
+          "text": "Neisseria gonorrhoeae"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Streptococcus pneumoniae."
+    },
+    {
+      "num": 47,
+      "type": "Multi-statement",
+      "prompt": "Which statement is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mycobacterium tuberculosis has a waxy, Acid-Fast cell wall."
+        },
+        {
+          "letter": "B",
+          "text": "Mycoplasma pneumoniae naturally lacks a cell wall."
+        },
+        {
+          "letter": "C",
+          "text": "Helicobacter pylori is a microaerophile."
+        },
+        {
+          "letter": "D",
+          "text": "Clostridium botulinum is an obligate aerobe."
+        },
+        {
+          "letter": "E",
+          "text": "Escherichia coli is a facultative anaerobe."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Clostridium botulinum is an obligate anaerobe, not an obligate aerobe."
+    },
+    {
+      "num": 48,
+      "type": "Open recall",
+      "prompt": "What role does the proton motive force (H+ gradient) play in both the electron transport chain and bacterial flagellar movement?",
+      "options": [],
+      "correct": null,
+      "explanation": "In the electron transport chain, the H+ gradient (built by proton pumps) flows through ATP synthase to generate ATP. In flagellar movement, the proton motive force similarly powers the rotation of the flagellar motor, driving bacterial motility."
+    },
+    {
+      "num": 49,
+      "type": "Multiple choice",
+      "prompt": "Which of these is an example of a beta-lactam antibiotic that works as a competitive inhibitor of cell wall synthesis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tetracycline"
+        },
+        {
+          "letter": "B",
+          "text": "Sulfanilamide"
+        },
+        {
+          "letter": "C",
+          "text": "Penicillin"
+        },
+        {
+          "letter": "D",
+          "text": "Tamiflu"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Penicillin."
+    },
+    {
+      "num": 50,
+      "type": "Open recall",
+      "prompt": "Describe how negative feedback inhibition and the bacterial growth curve’s stationary phase are conceptually similar (both involve a “balance”).",
+      "options": [],
+      "correct": null,
+      "explanation": "Both represent a homeostatic “balance” point: feedback inhibition keeps a pathway’s product level roughly constant by inhibiting further production once enough exists; the growth curve’s stationary phase reflects a population “leveling off” because division rate and death rate have become equal."
+    },
+    {
+      "num": 51,
+      "type": "Multiple choice",
+      "prompt": "Which structure is described as the “glycocalyx”?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cell wall"
+        },
+        {
+          "letter": "B",
+          "text": "Flagellum"
+        },
+        {
+          "letter": "C",
+          "text": "Capsule"
+        },
+        {
+          "letter": "D",
+          "text": "Ribosome"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Capsule."
+    },
+    {
+      "num": 52,
+      "type": "Open recall",
+      "prompt": "Compare how Gram-positive and Gram-negative bacteria differ in antibiotic resistance, based on their cell envelope structures.",
+      "options": [],
+      "correct": null,
+      "explanation": "Gram-positive bacteria lack an outer membrane, making them more vulnerable to drugs targeting the (unprotected) peptidoglycan layer. Gram-negative bacteria have an outer membrane that can house efflux pumps to expel antibiotics, generally making them more antibiotic-resistant."
+    },
+    {
+      "num": 53,
+      "type": "Multiple choice",
+      "prompt": "Which of the following is NOT a stage of aerobic cellular respiration?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glycolysis"
+        },
+        {
+          "letter": "B",
+          "text": "Transition reaction"
+        },
+        {
+          "letter": "C",
+          "text": "Krebs cycle"
+        },
+        {
+          "letter": "D",
+          "text": "Fermentation"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Fermentation (this is anaerobic metabolism, not a stage of aerobic respiration)."
+    },
+    {
+      "num": 54,
+      "type": "Open recall",
+      "prompt": "Why do both Acid-Fast bacteria and Gram-positive bacteria lack an outer membrane, yet respond differently to the standard Gram stain?",
+      "options": [],
+      "correct": null,
+      "explanation": "Both lack an outer membrane and have a peptidoglycan-containing wall, but Acid-Fast bacteria’s walls are additionally studded with waxy mycolic acid, which blocks the crystal violet dye used in the Gram stain from properly staining the cell - requiring a separate Acid-Fast stain instead."
+    },
+    {
+      "num": 55,
+      "type": "Multiple choice",
+      "prompt": "Which of the following would most effectively achieve true sterilization of a heat-sensitive liquid?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Boiling"
+        },
+        {
+          "letter": "B",
+          "text": "Pasteurization"
+        },
+        {
+          "letter": "C",
+          "text": "Membrane filtration"
+        },
+        {
+          "letter": "D",
+          "text": "Regular hand soap"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Membrane filtration (heat-based methods would damage a heat-sensitive liquid)."
+    },
+    {
+      "num": 56,
+      "type": "Open recall",
+      "prompt": "Summarize why antibiotic resistance can spread quickly between bacteria, referencing both plasmids and conjugation.",
+      "options": [],
+      "correct": null,
+      "explanation": "Plasmids are small DNA loops that can carry antibiotic-resistance genes. Through conjugation (using the sex pilus), bacteria can transfer copies of these plasmids to neighboring cells, allowing resistance genes to spread rapidly through a bacterial population even between different species."
+    }
+  ]
+}

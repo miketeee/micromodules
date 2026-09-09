@@ -1,0 +1,1073 @@
+{
+  "slug": "practice1",
+  "title": "Practice Test 1",
+  "subtitle": "Cumulative — Modules 1–8",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multi-statement",
+      "prompt": "Which statement about The Plague is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It occurred 1346-1350."
+        },
+        {
+          "letter": "B",
+          "text": "About one-third of Europe’s population died."
+        },
+        {
+          "letter": "C",
+          "text": "It was ultimately caused by Yersinia pestis."
+        },
+        {
+          "letter": "D",
+          "text": "It was directly transmitted human-to-human with no animal vector."
+        },
+        {
+          "letter": "E",
+          "text": "It helped spark the Renaissance."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Fleas on rats spread it; it was not simple person-toperson transmission."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Anton van Leeuwenhoek called the microorganisms he observed:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Germs"
+        },
+        {
+          "letter": "B",
+          "text": "Cells"
+        },
+        {
+          "letter": "C",
+          "text": "Animalcules"
+        },
+        {
+          "letter": "D",
+          "text": "Prions"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Animalcules."
+    },
+    {
+      "num": 3,
+      "type": "Open recall",
+      "prompt": "Why did Leeuwenhoek’s discovery of bacteria in rotting teeth not immediately lead to the Germ Theory of Disease?",
+      "options": [],
+      "correct": null,
+      "explanation": "He observed more bacteria in rotting teeth than healthy teeth but reversed cause and effect - concluding rotting teeth spontaneously generated bacteria, rather than bacteria causing the rot. It took ~200 more years and the work of Pasteur and Koch to establish the Germ Theory."
+    },
+    {
+      "num": 4,
+      "type": "Multiple choice",
+      "prompt": "The three Domains of Life are:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Animalia, Plantae, Fungi"
+        },
+        {
+          "letter": "B",
+          "text": "Bacteria, Archaea, Eukarya"
+        },
+        {
+          "letter": "C",
+          "text": "Prokaryote, Eukaryote, Virus"
+        },
+        {
+          "letter": "D",
+          "text": "Coccus, Bacillus, Spirillum"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Bacteria, Archaea, Eukarya."
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "Name the four Kingdoms of Domain Eukarya.",
+      "options": [],
+      "correct": null,
+      "explanation": "Animalia, Plantae, Fungi, Protista."
+    },
+    {
+      "num": 6,
+      "type": "Multiple choice",
+      "prompt": "A virus is best described as:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A living, unicellular prokaryote"
+        },
+        {
+          "letter": "B",
+          "text": "An infectious protein with no genetic material"
+        },
+        {
+          "letter": "C",
+          "text": "A non-living, obligate intracellular parasite"
+        },
+        {
+          "letter": "D",
+          "text": "An infectious piece of RNA found only in plants Module 2: Introduction to Microbiology (Part 2)"
+        }
+      ],
+      "correct": "C",
+      "explanation": "A non-living, obligate intracellular parasite."
+    },
+    {
+      "num": 7,
+      "type": "Multi-statement",
+      "prompt": "Which statement about beneficial microbial roles is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cyanobacteria produce oxygen via photosynthesis."
+        },
+        {
+          "letter": "B",
+          "text": "Bacteria and fungi decompose organic matter."
+        },
+        {
+          "letter": "C",
+          "text": "All microbes in nature are pathogenic."
+        },
+        {
+          "letter": "D",
+          "text": "Yeast ferments sugar to produce bread and alcohol."
+        },
+        {
+          "letter": "E",
+          "text": "Lactobacillus is a beneficial probiotic bacterium."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Most microbes are not pathogenic; many play beneficial roles."
+    },
+    {
+      "num": 8,
+      "type": "Multiple choice",
+      "prompt": "Pasteur’s swan-necked flask experiment helped disprove:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The Germ Theory of Disease"
+        },
+        {
+          "letter": "B",
+          "text": "Spontaneous generation"
+        },
+        {
+          "letter": "C",
+          "text": "Fermentation"
+        },
+        {
+          "letter": "D",
+          "text": "Binomial classification"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Spontaneous generation."
+    },
+    {
+      "num": 9,
+      "type": "Open recall",
+      "prompt": "What two things did Pasteur’s fermentation research show, and how did this connect to the Germ Theory of Disease?",
+      "options": [],
+      "correct": null,
+      "explanation": "Pasteur showed yeast causes fermentation and bacteria cause spoilage - establishing that specific living microbes cause specific effects, which laid the conceptual foundation for microbes causing disease (the Germ Theory)."
+    },
+    {
+      "num": 10,
+      "type": "Multiple choice",
+      "prompt": "Alexander Fleming is best known for discovering:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pasteurization"
+        },
+        {
+          "letter": "B",
+          "text": "Germicides"
+        },
+        {
+          "letter": "C",
+          "text": "Penicillin"
+        },
+        {
+          "letter": "D",
+          "text": "Hand washing’s importance"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Penicillin."
+    },
+    {
+      "num": 11,
+      "type": "Open recall",
+      "prompt": "Name the contributions of Semmelweis, Nightingale, and Lister toward combatting disease. Module 3: Prokaryotic Cells (Part 1)",
+      "options": [],
+      "correct": null,
+      "explanation": "Semmelweis - hand washing. Nightingale - hospital cleanliness. Lister - germicides."
+    },
+    {
+      "num": 12,
+      "type": "Multi-statement",
+      "prompt": "Which statement about bacterial shapes/arrangements is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Coccus = round."
+        },
+        {
+          "letter": "B",
+          "text": "Bacillus = rod."
+        },
+        {
+          "letter": "C",
+          "text": "Diplo- means chains."
+        },
+        {
+          "letter": "D",
+          "text": "Strepto- means chains."
+        },
+        {
+          "letter": "E",
+          "text": "Staphylo- means clusters."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Diplo- means pairs/two, not chains (strepto- means chains)."
+    },
+    {
+      "num": 13,
+      "type": "Multiple choice",
+      "prompt": "Flagella are used primarily for:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adherence"
+        },
+        {
+          "letter": "B",
+          "text": "Motility"
+        },
+        {
+          "letter": "C",
+          "text": "Genetic exchange"
+        },
+        {
+          "letter": "D",
+          "text": "Osmotic protection"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Motility."
+    },
+    {
+      "num": 14,
+      "type": "Open recall",
+      "prompt": "Describe the structural difference between a Gram-positive and Gram-negative cell envelope.",
+      "options": [],
+      "correct": null,
+      "explanation": "Gram-positive: thick peptidoglycan layer with teichoic/lipoteichoic acids, no outer membrane. Gram-negative: thin peptidoglycan layer plus an outer membrane containing lipopolysaccharide (LPS)."
+    },
+    {
+      "num": 15,
+      "type": "Multiple choice",
+      "prompt": "Penicillin works by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hydrolyzing peptidoglycan directly"
+        },
+        {
+          "letter": "B",
+          "text": "Inhibiting peptidoglycan cross-link synthesis"
+        },
+        {
+          "letter": "C",
+          "text": "Disrupting the outer membrane"
+        },
+        {
+          "letter": "D",
+          "text": "Blocking ribosomes"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Inhibiting peptidoglycan cross-link synthesis."
+    },
+    {
+      "num": 16,
+      "type": "Open recall",
+      "prompt": "What makes Acid-Fast bacteria’s cell walls unique, and why does this matter clinically?",
+      "options": [],
+      "correct": null,
+      "explanation": "Acid-Fast walls contain mycolic acid, making them waxy - this resists phagocytosis, repels many antibiotics, and repels standard stains, requiring a special Acid-Fast stain (clinically relevant for organisms like Mycobacterium tuberculosis)."
+    },
+    {
+      "num": 17,
+      "type": "Multiple choice",
+      "prompt": "Which genus of bacteria naturally lacks a cell wall?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Streptococcus"
+        },
+        {
+          "letter": "B",
+          "text": "Mycoplasma"
+        },
+        {
+          "letter": "C",
+          "text": "Bacillus"
+        },
+        {
+          "letter": "D",
+          "text": "Clostridium Module 4: Prokaryotic Cells (Part 2)"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Mycoplasma."
+    },
+    {
+      "num": 18,
+      "type": "Multi-statement",
+      "prompt": "Which statement about membrane transport is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Simple diffusion requires no energy."
+        },
+        {
+          "letter": "B",
+          "text": "Facilitated diffusion requires a transport protein."
+        },
+        {
+          "letter": "C",
+          "text": "Active transport moves substances from low to high concentration."
+        },
+        {
+          "letter": "D",
+          "text": "Osmosis is the diffusion of solute."
+        },
+        {
+          "letter": "E",
+          "text": "Active transport requires energy."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Osmosis is the diffusion of the solvent (water), not the solute."
+    },
+    {
+      "num": 19,
+      "type": "Multiple choice",
+      "prompt": "A cell placed in a hypertonic solution will:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Swell and lyse"
+        },
+        {
+          "letter": "B",
+          "text": "Shrink (plasmolysis)"
+        },
+        {
+          "letter": "C",
+          "text": "Stay exactly the same"
+        },
+        {
+          "letter": "D",
+          "text": "Immediately divide"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Shrink (plasmolysis)."
+    },
+    {
+      "num": 20,
+      "type": "Open recall",
+      "prompt": "Why is the difference between 70S and 80S ribosomes clinically important?",
+      "options": [],
+      "correct": null,
+      "explanation": "Bacterial (70S) and human (80S) ribosomes are structurally different, so antibiotics like tetracycline can selectively target bacterial ribosomes without harming the patient’s ribosomes."
+    },
+    {
+      "num": 21,
+      "type": "Multiple choice",
+      "prompt": "Plasmids are clinically relevant primarily because they:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Store nutrients"
+        },
+        {
+          "letter": "B",
+          "text": "Can carry and spread antibioticresistance genes"
+        },
+        {
+          "letter": "C",
+          "text": "Form the cell wall"
+        },
+        {
+          "letter": "D",
+          "text": "Are the site of protein synthesis"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Can carry and spread antibiotic-resistance genes."
+    },
+    {
+      "num": 22,
+      "type": "Open recall",
+      "prompt": "What are endospores, and why are they clinically significant? Module 5: Metabolism (Part 1)",
+      "options": [],
+      "correct": null,
+      "explanation": "Endospores are highly resilient dormant structures formed by some bacteria (Bacillus, Clostridium, Clostridioides) under stress; they resist heat, drying, and disinfectants, letting bacteria survive harsh conditions and later germinate back into active, diseasecausing cells."
+    },
+    {
+      "num": 23,
+      "type": "Multi-statement",
+      "prompt": "Which statement about catabolism and anabolism is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Catabolism breaks molecules down."
+        },
+        {
+          "letter": "B",
+          "text": "Catabolism is exergonic."
+        },
+        {
+          "letter": "C",
+          "text": "Anabolism builds molecules up."
+        },
+        {
+          "letter": "D",
+          "text": "Anabolism is exergonic."
+        },
+        {
+          "letter": "E",
+          "text": "Anabolism requires energy."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Anabolism is endergonic (requires energy), not exergonic."
+    },
+    {
+      "num": 24,
+      "type": "Multiple choice",
+      "prompt": "ATP stores energy in:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Its adenine base"
+        },
+        {
+          "letter": "B",
+          "text": "Its ribose sugar"
+        },
+        {
+          "letter": "C",
+          "text": "The bond holding its third phosphate"
+        },
+        {
+          "letter": "D",
+          "text": "Its nitrogen atoms"
+        }
+      ],
+      "correct": "C",
+      "explanation": "The bond holding its third phosphate."
+    },
+    {
+      "num": 25,
+      "type": "Open recall",
+      "prompt": "What is activation energy, and how do enzymes affect it?",
+      "options": [],
+      "correct": null,
+      "explanation": "Activation energy is the energy required to initiate a reaction. Enzymes lower the activation energy needed, speeding up the reaction."
+    },
+    {
+      "num": 26,
+      "type": "Multiple choice",
+      "prompt": "A competitive inhibitor works by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Binding the allosteric site"
+        },
+        {
+          "letter": "B",
+          "text": "Binding the active site and blocking substrate"
+        },
+        {
+          "letter": "C",
+          "text": "Permanently destroying the enzyme"
+        },
+        {
+          "letter": "D",
+          "text": "Adding a phosphate group to the enzyme"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Binding the active site and blocking substrate."
+    },
+    {
+      "num": 27,
+      "type": "Open recall",
+      "prompt": "Explain why sulfa drugs are safe for human use even though they block folic acid synthesis. Module 6: Metabolism (Part 2)",
+      "options": [],
+      "correct": null,
+      "explanation": "Humans/animals obtain folic acid from their diet rather than synthesizing it via the enzyme sulfa drugs block; bacteria must synthesize their own folic acid, so the drug selectively harms bacteria without affecting the host’s folic acid supply."
+    },
+    {
+      "num": 28,
+      "type": "Multi-statement",
+      "prompt": "Which statement about aerobic respiration is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It requires oxygen."
+        },
+        {
+          "letter": "B",
+          "text": "It produces 38 ATP total."
+        },
+        {
+          "letter": "C",
+          "text": "Glycolysis alone produces all 38 ATP."
+        },
+        {
+          "letter": "D",
+          "text": "The Krebs cycle produces CO2."
+        },
+        {
+          "letter": "E",
+          "text": "The electron transport chain produces the majority of the ATP."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Glycolysis alone only produces 2 ATP; the majority (34) comes from the electron transport chain."
+    },
+    {
+      "num": 29,
+      "type": "Multiple choice",
+      "prompt": "The final electron acceptor in aerobic respiration is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "NAD+"
+        },
+        {
+          "letter": "B",
+          "text": "Pyruvate"
+        },
+        {
+          "letter": "C",
+          "text": "Oxygen"
+        },
+        {
+          "letter": "D",
+          "text": "Glucose"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Oxygen."
+    },
+    {
+      "num": 30,
+      "type": "Open recall",
+      "prompt": "Compare aerobic respiration and fermentation in terms of ATP yield and oxygen requirement.",
+      "options": [],
+      "correct": null,
+      "explanation": "Aerobic respiration uses oxygen and yields 38 ATP total (via all four stages). Fermentation uses no oxygen, only completes glycolysis, and yields just 2 ATP."
+    },
+    {
+      "num": 31,
+      "type": "Multiple choice",
+      "prompt": "Alcoholic fermentation, performed by yeast, produces:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lactic acid"
+        },
+        {
+          "letter": "B",
+          "text": "Ethanol and CO2"
+        },
+        {
+          "letter": "C",
+          "text": "ATP directly with no byproducts"
+        },
+        {
+          "letter": "D",
+          "text": "Oxygen"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Ethanol and CO2."
+    },
+    {
+      "num": 32,
+      "type": "Open recall",
+      "prompt": "What are oxidation and reduction, and how do they relate to glucose breakdown? Module 7: Microbial Growth",
+      "options": [],
+      "correct": null,
+      "explanation": "Oxidation = losing electrons; reduction = gaining electrons. Glucose is progressively oxidized as it’s broken down, and its electrons are transferred to electron carriers (NAD+ -> NADH, FAD -> FADH2), which become reduced."
+    },
+    {
+      "num": 33,
+      "type": "Multi-statement",
+      "prompt": "Which statement about pure vs. mixed cultures is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A pure culture comes from a single cell."
+        },
+        {
+          "letter": "B",
+          "text": "A mixed culture has multiple species."
+        },
+        {
+          "letter": "C",
+          "text": "Streak plating helps isolate pure cultures."
+        },
+        {
+          "letter": "D",
+          "text": "Fannie Hesse pioneered pure culturing."
+        },
+        {
+          "letter": "E",
+          "text": "Agar solidifies growth media without melting at body temperature."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Robert Koch (not Fannie Hesse) pioneered pure culturing; Fannie Hesse contributed the idea of using agar."
+    },
+    {
+      "num": 34,
+      "type": "Multiple choice",
+      "prompt": "Which oxygen category describes Clostridium botulinum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Obligate aerobe"
+        },
+        {
+          "letter": "B",
+          "text": "Facultative anaerobe"
+        },
+        {
+          "letter": "C",
+          "text": "Obligate anaerobe"
+        },
+        {
+          "letter": "D",
+          "text": "Microaerophile"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Obligate anaerobe."
+    },
+    {
+      "num": 35,
+      "type": "Open recall",
+      "prompt": "Which temperature and pH categories include most human pathogens, and why?",
+      "options": [],
+      "correct": null,
+      "explanation": "Mesophiles (temperature) and Neutrophiles (pH), because human body temperature (~37°C) and pH (~7.35) fall within those respective ranges."
+    },
+    {
+      "num": 36,
+      "type": "Multiple choice",
+      "prompt": "Helicobacter pylori survives stomach acid by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Being an acidophile"
+        },
+        {
+          "letter": "B",
+          "text": "Producing urease to create a local microenvironment"
+        },
+        {
+          "letter": "C",
+          "text": "Forming an endospore"
+        },
+        {
+          "letter": "D",
+          "text": "Using a thick cell wall"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Producing urease to create a local microenvironment."
+    },
+    {
+      "num": 37,
+      "type": "Open recall",
+      "prompt": "Describe the four phases of a bacterial growth curve in order.",
+      "options": [],
+      "correct": null,
+      "explanation": "Lag phase (slow growth) -> Log/exponential phase (rapid doubling) -> Stationary phase (division rate = death rate, population levels off) -> Death phase (death rate exceeds division rate)."
+    },
+    {
+      "num": 38,
+      "type": "Open recall",
+      "prompt": "A culture starts with 1,000 cells and has a 20minute generation time. How many cells are present after 1 hour? Module 8: Control of Microbial Growth",
+      "options": [],
+      "correct": null,
+      "explanation": "60 minutes / 20-minute generation time = 3 doublings. 2^3 = 8. 1,000 x 8 = 8,000 cells."
+    },
+    {
+      "num": 39,
+      "type": "Multi-statement",
+      "prompt": "Which statement about sterilization/disinfection is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sterilization destroys all microbes including endospores."
+        },
+        {
+          "letter": "B",
+          "text": "Disinfection destroys most, but not necessarily all, microbes."
+        },
+        {
+          "letter": "C",
+          "text": "Antiseptics are safe for use on living tissue."
+        },
+        {
+          "letter": "D",
+          "text": "Boiling for 10 minutes achieves full sterilization."
+        },
+        {
+          "letter": "E",
+          "text": "Autoclaving can achieve sterilization."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Boiling does not destroy endospores, so it disinfects but does not achieve full sterilization."
+    },
+    {
+      "num": 40,
+      "type": "Multiple choice",
+      "prompt": "Which of these medical item categories requires the item to be sterile because it penetrates tissue?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Noncritical"
+        },
+        {
+          "letter": "B",
+          "text": "Semi-critical"
+        },
+        {
+          "letter": "C",
+          "text": "Critical"
+        },
+        {
+          "letter": "D",
+          "text": "Sanitary"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Critical."
+    },
+    {
+      "num": 41,
+      "type": "Open recall",
+      "prompt": "Why are Bacillus, Clostridium, and Clostridioides difficult to control?",
+      "options": [],
+      "correct": null,
+      "explanation": "They form endospores, which resist heat, drying, and many chemical disinfectants, letting them survive treatments that kill ordinary vegetative bacterial cells."
+    },
+    {
+      "num": 42,
+      "type": "Multiple choice",
+      "prompt": "An autoclave achieves sterilization at:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "100°C, 1 atm"
+        },
+        {
+          "letter": "B",
+          "text": "72°C for 15 seconds"
+        },
+        {
+          "letter": "C",
+          "text": "121°C at 15 PSI for 15 minutes"
+        },
+        {
+          "letter": "D",
+          "text": "170°C dry heat only"
+        }
+      ],
+      "correct": "C",
+      "explanation": "121°C at 15 PSI for 15 minutes."
+    },
+    {
+      "num": 43,
+      "type": "Open recall",
+      "prompt": "Compare how heat and radiation each control microbial growth at the molecular level.",
+      "options": [],
+      "correct": null,
+      "explanation": "Heat controls microbes by denaturing proteins (destroying their functional shape). Radiation controls microbes by mutating their DNA (damaging genetic material so they can’t replicate/function)."
+    },
+    {
+      "num": 44,
+      "type": "Multiple choice",
+      "prompt": "Which germicide category is a pressurized gas capable of killing endospores?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Alcohols"
+        },
+        {
+          "letter": "B",
+          "text": "Halogens"
+        },
+        {
+          "letter": "C",
+          "text": "Ethylene oxide"
+        },
+        {
+          "letter": "D",
+          "text": "Peroxides Mixed Cumulative Review"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Ethylene oxide."
+    },
+    {
+      "num": 45,
+      "type": "Multi-statement",
+      "prompt": "Which pairing of scientist to contribution is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Robert Koch — proved the Germ Theory of Disease."
+        },
+        {
+          "letter": "B",
+          "text": "Louis Pasteur — proposed microbes cause disease."
+        },
+        {
+          "letter": "C",
+          "text": "Alexander Fleming — discovered Penicillin."
+        },
+        {
+          "letter": "D",
+          "text": "Robert Hooke — discovered bacteria using a microscope."
+        },
+        {
+          "letter": "E",
+          "text": "Hans Christian Gram — developed the Gram stain."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Anton van Leeuwenhoek (not Robert Hooke) is credited with first observing bacteria; Hooke coined the term “cell” and pioneered microscopy more generally."
+    },
+    {
+      "num": 46,
+      "type": "Multiple choice",
+      "prompt": "Which structure allows bacteria to exchange antibiotic-resistance genes via conjugation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Flagellum"
+        },
+        {
+          "letter": "B",
+          "text": "Fimbriae"
+        },
+        {
+          "letter": "C",
+          "text": "Sex pilus"
+        },
+        {
+          "letter": "D",
+          "text": "Capsule"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Sex pilus (conjugation pilus)."
+    },
+    {
+      "num": 47,
+      "type": "Open recall",
+      "prompt": "Explain the relationship between a bacterium’s capsule and biofilm formation, with an example.",
+      "options": [],
+      "correct": null,
+      "explanation": "A capsule (glycocalyx), made of carbohydrate, allows bacteria to adhere to surfaces and each other, enabling biofilm formation e.g., Streptococcus mutans forms a biofilm on teeth, causing cavities."
+    },
+    {
+      "num": 48,
+      "type": "Multiple choice",
+      "prompt": "Which of the following is an example of a facultative anaerobe used throughout this course as a common model organism?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Clostridium botulinum"
+        },
+        {
+          "letter": "B",
+          "text": "Escherichia coli"
+        },
+        {
+          "letter": "C",
+          "text": "Mycobacterium tuberculosis"
+        },
+        {
+          "letter": "D",
+          "text": "Helicobacter pylori"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Escherichia coli."
+    },
+    {
+      "num": 49,
+      "type": "Open recall",
+      "prompt": "Name the two components of peptidoglycan and explain why the amino acid cross-links matter.",
+      "options": [],
+      "correct": null,
+      "explanation": "NAG (N-acetylglucosamine) and NAM (N-acetylmuramic acid). The amino acid cross-links between these sugar strands give the cell wall its rigidity and strength, letting it resist osmotic pressure that would otherwise rupture the cell."
+    },
+    {
+      "num": 50,
+      "type": "Multi-statement",
+      "prompt": "Which statement about enzyme regulation is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Feedback inhibition involves a pathway’s product inhibiting an earlier enzyme."
+        },
+        {
+          "letter": "B",
+          "text": "The allosteric site is the same as the active site."
+        },
+        {
+          "letter": "C",
+          "text": "Phosphorylation can activate an inactive enzyme."
+        },
+        {
+          "letter": "D",
+          "text": "Noncompetitive inhibitors bind the allosteric site."
+        },
+        {
+          "letter": "E",
+          "text": "Competitive inhibitors resemble the natural substrate."
+        }
+      ],
+      "correct": "B",
+      "explanation": "False. The allosteric site is separate from (not the same as) the active site."
+    },
+    {
+      "num": 51,
+      "type": "Multiple choice",
+      "prompt": "Which disease is caused by Streptococcus pyogenes?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vaginitis"
+        },
+        {
+          "letter": "B",
+          "text": "Strep throat"
+        },
+        {
+          "letter": "C",
+          "text": "Tuberculosis"
+        },
+        {
+          "letter": "D",
+          "text": "Stomach ulcers"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Strep throat."
+    },
+    {
+      "num": 52,
+      "type": "Open recall",
+      "prompt": "Describe how Clostridioides difficile causes diarrhea, from ingestion to infection.",
+      "options": [],
+      "correct": null,
+      "explanation": "C. difficile spores and vegetative cells are ingested; stomach acid kills the vegetative cells, but spores survive and germinate in the small intestine; the bacteria then multiply and cause infection (diarrhea) in the large intestine."
+    },
+    {
+      "num": 53,
+      "type": "Multiple choice",
+      "prompt": "Which molecule is the final electron acceptor for some bacteria that do NOT use oxygen, producing H2S?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nitrogen"
+        },
+        {
+          "letter": "B",
+          "text": "Sulfur"
+        },
+        {
+          "letter": "C",
+          "text": "Carbon"
+        },
+        {
+          "letter": "D",
+          "text": "Iron"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Sulfur."
+    },
+    {
+      "num": 54,
+      "type": "Open recall",
+      "prompt": "Why is the Golden Age of Microbiology (mid-1800s to early 1900s) significant, and what four questions did scientists explore during it?",
+      "options": [],
+      "correct": null,
+      "explanation": "It was a ~50-year period (mid-1800s to early 1900s) when scientists resolved four major questions: Does life arise spontaneously? What causes fermentation? What causes disease? How can disease be prevented/treated? - work that established modern microbiology’s foundations."
+    },
+    {
+      "num": 55,
+      "type": "Multiple choice",
+      "prompt": "Tetracycline is able to selectively target bacteria because it acts on:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The bacterial cell wall"
+        },
+        {
+          "letter": "B",
+          "text": "The 70S ribosome"
+        },
+        {
+          "letter": "C",
+          "text": "The bacterial capsule"
+        },
+        {
+          "letter": "D",
+          "text": "Bacterial DNA polymerase only"
+        }
+      ],
+      "correct": "B",
+      "explanation": "The 70S ribosome."
+    },
+    {
+      "num": 56,
+      "type": "Open recall",
+      "prompt": "Compare Gram-positive, Gram-negative, and AcidFast cell envelopes in terms of peptidoglycan thickness and any additional distinguishing component.",
+      "options": [],
+      "correct": null,
+      "explanation": "Gram-positive: thick peptidoglycan, no outer membrane, plus teichoic/lipoteichoic acids. Gram-negative: thin peptidoglycan, plus an outer membrane with lipopolysaccharide (LPS). Acid-Fast: peptidoglycan layer similar to Gram-positive (no outer membrane), but studded with waxy mycolic acid."
+    }
+  ]
+}

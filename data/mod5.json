@@ -1,0 +1,346 @@
+{
+  "slug": "mod5",
+  "title": "Module 5",
+  "subtitle": "Metabolism — Part 1",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multi-statement",
+      "prompt": "Which statement about metabolism is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Metabolism is the sum of all biochemical reactions in a cell."
+        },
+        {
+          "letter": "B",
+          "text": "Catabolic reactions break molecules down."
+        },
+        {
+          "letter": "C",
+          "text": "Anabolic reactions build molecules up."
+        },
+        {
+          "letter": "D",
+          "text": "Catabolic reactions are endergonic."
+        },
+        {
+          "letter": "E",
+          "text": "Anabolic reactions require energy."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Catabolic reactions are exergonic (they release energy), not endergonic."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "An exergonic reaction is best described as:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Requiring energy input, non-spontaneous"
+        },
+        {
+          "letter": "B",
+          "text": "Releasing energy, spontaneous"
+        },
+        {
+          "letter": "C",
+          "text": "Always anabolic"
+        },
+        {
+          "letter": "D",
+          "text": "Always requiring an enzyme"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Releasing energy, spontaneous."
+    },
+    {
+      "num": 3,
+      "type": "Open recall",
+      "prompt": "What is energy coupling, and why is it necessary in cells?",
+      "options": [],
+      "correct": null,
+      "explanation": "Energy coupling is using the energy released by an exergonic reaction to power an endergonic reaction. It’s necessary because many essential cellular (anabolic) reactions require energy input and won’t proceed on their own."
+    },
+    {
+      "num": 4,
+      "type": "Multiple choice",
+      "prompt": "ATP is broken down into which two products when its terminal phosphate bond is cleaved?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Two ADP molecules"
+        },
+        {
+          "letter": "B",
+          "text": "ADP and phosphate"
+        },
+        {
+          "letter": "C",
+          "text": "Adenine and ribose"
+        },
+        {
+          "letter": "D",
+          "text": "Glucose and CO2"
+        }
+      ],
+      "correct": "B",
+      "explanation": "ADP and phosphate."
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "What three components make up a molecule of ATP?",
+      "options": [],
+      "correct": null,
+      "explanation": "An adenine base, a ribose sugar, and three phosphate groups."
+    },
+    {
+      "num": 6,
+      "type": "Multi-statement",
+      "prompt": "Which statement about why cells use ATP is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ATP allows efficient energy coupling."
+        },
+        {
+          "letter": "B",
+          "text": "Breaking down ATP is a complex, multi-step process."
+        },
+        {
+          "letter": "C",
+          "text": "ATP is recyclable (can be rebuilt from ADP + phosphate)."
+        },
+        {
+          "letter": "D",
+          "text": "ATP can release energy anywhere in the cell, quickly."
+        },
+        {
+          "letter": "E",
+          "text": "The bond holding ATP’s third phosphate is highenergy."
+        }
+      ],
+      "correct": "B",
+      "explanation": "False. Breaking down ATP (removing the third phosphate) is a simple, single-bond-breaking process, not complex."
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "Activation energy (Ea) is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The total energy released by a reaction"
+        },
+        {
+          "letter": "B",
+          "text": "The energy required to initiate a reaction"
+        },
+        {
+          "letter": "C",
+          "text": "The energy stored in ATP"
+        },
+        {
+          "letter": "D",
+          "text": "Only relevant to anabolic reactions"
+        }
+      ],
+      "correct": "B",
+      "explanation": "The energy required to initiate a reaction."
+    },
+    {
+      "num": 8,
+      "type": "Open recall",
+      "prompt": "How do enzymes lower the activation energy of a reaction, and what happens to the substrate as a result?",
+      "options": [],
+      "correct": null,
+      "explanation": "Enzymes bind the substrate at their active site, which lowers the activation energy needed for the reaction to proceed; the substrate is converted into product more quickly than it would be without the enzyme."
+    },
+    {
+      "num": 9,
+      "type": "Multiple choice",
+      "prompt": "The active site of an enzyme is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Where the allosteric regulator binds"
+        },
+        {
+          "letter": "B",
+          "text": "Where the substrate binds and the reaction is catalyzed"
+        },
+        {
+          "letter": "C",
+          "text": "A region only found in denatured enzymes"
+        },
+        {
+          "letter": "D",
+          "text": "The location where ATP is stored"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Where the substrate binds and the reaction is catalyzed."
+    },
+    {
+      "num": 10,
+      "type": "Open recall",
+      "prompt": "Name the three environmental factors that affect enzyme activity, and explain what can happen to an enzyme under extreme conditions.",
+      "options": [],
+      "correct": null,
+      "explanation": "Temperature, pH, and salt concentration. Extreme conditions can disrupt protein folding and denature the enzyme, destroying its shape and function."
+    },
+    {
+      "num": 11,
+      "type": "Multi-statement",
+      "prompt": "Which statement about the allosteric site is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is the same location as the active site."
+        },
+        {
+          "letter": "B",
+          "text": "It is a separate regulatory location from the active site."
+        },
+        {
+          "letter": "C",
+          "text": "A product can bind there to cause feedback inhibition."
+        },
+        {
+          "letter": "D",
+          "text": "A non-competitive inhibitor can bind there."
+        },
+        {
+          "letter": "E",
+          "text": "Binding there can change the enzyme’s shape."
+        }
+      ],
+      "correct": "A",
+      "explanation": "False. The allosteric site is separate from the active site."
+    },
+    {
+      "num": 12,
+      "type": "Multiple choice",
+      "prompt": "Negative feedback inhibition helps a cell by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increasing product formation indefinitely"
+        },
+        {
+          "letter": "B",
+          "text": "Keeping the amount of product roughly constant"
+        },
+        {
+          "letter": "C",
+          "text": "Permanently destroying the enzyme"
+        },
+        {
+          "letter": "D",
+          "text": "Speeding up an unrelated pathway"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Keeping the amount of product roughly constant."
+    },
+    {
+      "num": 13,
+      "type": "Open recall",
+      "prompt": "Explain enzyme phosphorylation and how it can switch an enzyme “on” or “off.”",
+      "options": [],
+      "correct": null,
+      "explanation": "Adding a phosphate group to an inactive enzyme can activate it (“turn it on”); removing that phosphate returns the enzyme to its inactive (“off”) state - a reversible regulatory switch."
+    },
+    {
+      "num": 14,
+      "type": "Multi-statement",
+      "prompt": "Which statement about competitive vs. noncompetitive inhibition is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A competitive inhibitor binds the active site."
+        },
+        {
+          "letter": "B",
+          "text": "A noncompetitive (allosteric) inhibitor binds the allosteric site."
+        },
+        {
+          "letter": "C",
+          "text": "Both types of inhibition can stop product from being made."
+        },
+        {
+          "letter": "D",
+          "text": "A noncompetitive inhibitor works by directly blocking substrate from entering the active site."
+        },
+        {
+          "letter": "E",
+          "text": "A competitive inhibitor typically resembles the natural substrate."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. A noncompetitive (allosteric) inhibitor binds the allosteric site and changes the enzyme’s shape - it does not directly block the active site itself the way a competitive inhibitor does."
+    },
+    {
+      "num": 15,
+      "type": "Multiple choice",
+      "prompt": "Sulfa drugs (e.g., sulfanilamide) work by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Destroying the bacterial cell wall"
+        },
+        {
+          "letter": "B",
+          "text": "Competitively inhibiting the enzyme that converts PABA into folic acid"
+        },
+        {
+          "letter": "C",
+          "text": "Binding bacterial ribosomes"
+        },
+        {
+          "letter": "D",
+          "text": "Acting as a noncompetitive inhibitor on an allosteric site"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Competitively inhibiting the enzyme that converts PABA into folic acid."
+    },
+    {
+      "num": 16,
+      "type": "Open recall",
+      "prompt": "Why are sulfa drugs safe to use in humans and animals, even though they block folic-acid-producing enzymes?",
+      "options": [],
+      "correct": null,
+      "explanation": "Humans/animals don’t synthesize their own folic acid using that enzyme pathway - we get folic acid from our diet. Bacteria must synthesize their own, so blocking the enzyme kills bacteria without affecting the host’s folic acid supply."
+    },
+    {
+      "num": 17,
+      "type": "Multiple choice",
+      "prompt": "Which antibiotic mentioned in this module also functions as a competitive inhibitor by targeting cell wall (peptidoglycan) synthesis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tetracycline"
+        },
+        {
+          "letter": "B",
+          "text": "Penicillin"
+        },
+        {
+          "letter": "C",
+          "text": "Tamiflu"
+        },
+        {
+          "letter": "D",
+          "text": "Methotrexate"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Penicillin."
+    }
+  ]
+}

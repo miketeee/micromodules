@@ -1,0 +1,296 @@
+{
+  "slug": "mod7",
+  "title": "Module 7",
+  "subtitle": "Microbial Growth",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multi-statement",
+      "prompt": "Which statement about pure and mixed cultures is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A pure culture descends from a single cell."
+        },
+        {
+          "letter": "B",
+          "text": "A mixed culture contains multiple species."
+        },
+        {
+          "letter": "C",
+          "text": "Robert Koch pioneered pure culturing."
+        },
+        {
+          "letter": "D",
+          "text": "A pure culture always contains at least two species growing together."
+        },
+        {
+          "letter": "E",
+          "text": "Isolating a pure culture allows a single organism to be studied without interference."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. A pure culture contains only ONE species (descended from a single cell), not two or more."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Agar was introduced to solid growth media because gelatin:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Was too expensive"
+        },
+        {
+          "letter": "B",
+          "text": "Melted at human body temperature"
+        },
+        {
+          "letter": "C",
+          "text": "Was toxic to bacteria"
+        },
+        {
+          "letter": "D",
+          "text": "Could not be poured into a Petri dish"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Melted at human body temperature."
+    },
+    {
+      "num": 3,
+      "type": "Open recall",
+      "prompt": "Describe how Fannie Hesse’s discovery led to the use of agar in microbiology.",
+      "options": [],
+      "correct": null,
+      "explanation": "Fannie Hesse used a soup thickener called agar-agar (from red algae) in cooking and noticed it stayed solid without melting at body temperature; she suggested it to her husband Walther, who brought it to Koch’s lab, leading to agar-based solid growth media."
+    },
+    {
+      "num": 4,
+      "type": "Multiple choice",
+      "prompt": "The streak plate method uses an inoculating loop to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Measure pH"
+        },
+        {
+          "letter": "B",
+          "text": "Progressively dilute and spread a sample across quadrants to isolate colonies"
+        },
+        {
+          "letter": "C",
+          "text": "Heat-sterilize a sample"
+        },
+        {
+          "letter": "D",
+          "text": "Count bacterial cells directly"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Progressively dilute and spread a sample across quadrants to isolate colonies."
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "What is aseptic technique, and why is it important?",
+      "options": [],
+      "correct": null,
+      "explanation": "Aseptic technique is a set of practices used to prevent contamination of cultures, instruments, and samples by unwanted microorganisms - important for getting accurate, uncontaminated results and for safety."
+    },
+    {
+      "num": 6,
+      "type": "Multi-statement",
+      "prompt": "Which pairing of organism to oxygen requirement is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pseudomonas aeruginosa — obligate aerobe"
+        },
+        {
+          "letter": "B",
+          "text": "Escherichia coli — facultative anaerobe"
+        },
+        {
+          "letter": "C",
+          "text": "Clostridium botulinum — obligate anaerobe"
+        },
+        {
+          "letter": "D",
+          "text": "Streptococcus pyogenes — obligate aerobe"
+        },
+        {
+          "letter": "E",
+          "text": "Helicobacter pylori — microaerophile"
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Streptococcus pyogenes is an aerotolerant anaerobe, not an obligate aerobe."
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "Which temperature category includes most human pathogens?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Psychrophile"
+        },
+        {
+          "letter": "B",
+          "text": "Mesophile"
+        },
+        {
+          "letter": "C",
+          "text": "Thermophile"
+        },
+        {
+          "letter": "D",
+          "text": "Hyperthermophile"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Mesophile (human body temperature, 37°C, falls in the mesophile range of 20-45°C)."
+    },
+    {
+      "num": 8,
+      "type": "Open recall",
+      "prompt": "Explain how oxygen requirements can be determined experimentally.",
+      "options": [],
+      "correct": null,
+      "explanation": "By creating an oxygen concentration gradient (e.g., in a reducing/thioglycolate broth tube) and inoculating the organism into it, then observing where along the gradient it grows."
+    },
+    {
+      "num": 9,
+      "type": "Multiple choice",
+      "prompt": "Which pH category includes most human pathogens?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Acidophile"
+        },
+        {
+          "letter": "B",
+          "text": "Neutrophile"
+        },
+        {
+          "letter": "C",
+          "text": "Alkaliphile"
+        },
+        {
+          "letter": "D",
+          "text": "Hyperthermophile"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Neutrophile (human body pH, ~7.35, falls in the neutrophile range of 5-8)."
+    },
+    {
+      "num": 10,
+      "type": "Open recall",
+      "prompt": "Explain how Helicobacter pylori survives the acidic environment of the stomach, using the term “microenvironment.”",
+      "options": [],
+      "correct": null,
+      "explanation": "H. pylori is a neutrophile but survives stomach acid (pH 2) by producing the enzyme urease, which converts urea into CO2 and ammonia; the ammonia locally raises the pH around the bacterium, creating a small “microenvironment” with more neutral conditions than the surrounding stomach."
+    },
+    {
+      "num": 11,
+      "type": "Multi-statement",
+      "prompt": "Which statement about generation time and binary fission is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Generation time is the time required for a population to double."
+        },
+        {
+          "letter": "B",
+          "text": "Binary fission is a sexual reproduction process."
+        },
+        {
+          "letter": "C",
+          "text": "Generation time can be as short as ~30 minutes under ideal conditions."
+        },
+        {
+          "letter": "D",
+          "text": "Binary fission produces two identical daughter cells."
+        },
+        {
+          "letter": "E",
+          "text": "Generation time is used in the exponential growth equation."
+        }
+      ],
+      "correct": "B",
+      "explanation": "False. Binary fission is an asexual reproduction process."
+    },
+    {
+      "num": 12,
+      "type": "Multiple choice",
+      "prompt": "In the growth equation Nt = N(t=0) × 2ⁿ, “n” represents:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The starting number of cells"
+        },
+        {
+          "letter": "B",
+          "text": "The final number of cells"
+        },
+        {
+          "letter": "C",
+          "text": "The number of population doublings during time t"
+        },
+        {
+          "letter": "D",
+          "text": "The pH of the medium"
+        }
+      ],
+      "correct": "C",
+      "explanation": "The number of population doublings during time t."
+    },
+    {
+      "num": 13,
+      "type": "Open recall",
+      "prompt": "A culture starts with 5,000 cells and has a generation time of 20 minutes. How many cells will be present after 1 hour? Show your reasoning.",
+      "options": [],
+      "correct": null,
+      "explanation": "60 minutes / 20-minute generation time = 3 doublings (n=3). 2^3 = 8. Nt = 5,000 × 8 = 40,000 cells."
+    },
+    {
+      "num": 14,
+      "type": "Open recall",
+      "prompt": "Name and describe the four stages of a bacterial growth curve, in order.",
+      "options": [],
+      "correct": null,
+      "explanation": "Lag phase (slow, hard-to-detect growth) → Log/exponential phase (rapid doubling, steep growth) → Stationary phase (division rate = death rate, population levels off) → Death phase (death rate exceeds division rate, population declines)."
+    },
+    {
+      "num": 15,
+      "type": "Multi-statement",
+      "prompt": "Which statement about bacterial growth curves and disease is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Stationary phase reflects a balance between division and death rates."
+        },
+        {
+          "letter": "B",
+          "text": "Death phase can be triggered by antibiotics or the immune system."
+        },
+        {
+          "letter": "C",
+          "text": "Most natural bacterial populations, such as normal body microbiota, exist in log/exponential phase at all times."
+        },
+        {
+          "letter": "D",
+          "text": "Log phase involves very rapid population growth."
+        },
+        {
+          "letter": "E",
+          "text": "Lag phase involves very slow, hard-to-detect growth."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Most natural bacterial populations (e.g., normal body microbiota) exist in stationary phase, not log/exponential phase, having reached a balance the environment can support."
+    }
+  ]
+}
