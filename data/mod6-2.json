@@ -1,0 +1,322 @@
+{
+  "slug": "mod6-2",
+  "title": "Module 6 — Quiz 2",
+  "subtitle": "Metabolism — Part 2",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multiple choice",
+      "prompt": "If a cell's electron transport chain were completely blocked, which stage(s) could still produce ATP, and roughly how much?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "None — all ATP production would stop"
+        },
+        {
+          "letter": "B",
+          "text": "Only glycolysis, producing 2 ATP"
+        },
+        {
+          "letter": "C",
+          "text": "The Krebs cycle would compensate and produce all 38 ATP"
+        },
+        {
+          "letter": "D",
+          "text": "Only the ETC would compensate"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Without a functioning ETC, the cell falls back to whatever glycolysis alone can produce — the same 2 ATP yield seen in fermentation."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Which of the following correctly ties together electron carriers and the electron transport chain?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "NADH and FADH2 deliver electrons collected earlier (glycolysis, transition reaction, Krebs cycle) to the ETC, where their energy is used to pump H+ and ultimately produce ATP"
+        },
+        {
+          "letter": "B",
+          "text": "NADH is produced only in the ETC itself"
+        },
+        {
+          "letter": "C",
+          "text": "Electron carriers have no connection to the ETC"
+        },
+        {
+          "letter": "D",
+          "text": "FADH2 is the final electron acceptor"
+        }
+      ],
+      "correct": "A",
+      "explanation": "NADH and FADH2 act as shuttles, carrying electrons collected during earlier stages to the ETC, where that energy drives ATP production."
+    },
+    {
+      "num": 3,
+      "type": "Multi-statement",
+      "prompt": "Which statement about ATP yield across aerobic respiration's four stages is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glycolysis nets 2 ATP directly."
+        },
+        {
+          "letter": "B",
+          "text": "The Krebs cycle produces 2 ATP directly."
+        },
+        {
+          "letter": "C",
+          "text": "The electron transport chain produces the majority of ATP (34)."
+        },
+        {
+          "letter": "D",
+          "text": "The transition reaction produces ATP directly (not just NADH)."
+        },
+        {
+          "letter": "E",
+          "text": "The total ATP yield from all four stages combined is 38."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False — the transition reaction produces NADH and CO2, not ATP directly."
+    },
+    {
+      "num": 4,
+      "type": "Open recall",
+      "prompt": "Fermentation regenerates NAD+ by reducing pyruvate into lactic acid or ethanol. Explain why regenerating NAD+ is essential for a fermenting cell to keep producing ATP at all, even without oxygen.",
+      "options": [],
+      "correct": null,
+      "explanation": "Glycolysis requires NAD+ to accept electrons/hydrogen (becoming NADH) as it breaks down glucose. Without regenerating NAD+ from NADH, the cell would run out of available NAD+ and glycolysis itself would stop, halting ATP production entirely."
+    },
+    {
+      "num": 5,
+      "type": "Multiple choice",
+      "prompt": "Which best explains why aerobic respiration yields far more ATP (38) than fermentation (2), even though both begin with the same glycolysis step?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fermentation uses a completely different starting molecule"
+        },
+        {
+          "letter": "B",
+          "text": "Aerobic respiration continues breaking down pyruvate further (transition reaction, Krebs cycle) and uses the electron transport chain to capture much more energy, while fermentation stops after glycolysis"
+        },
+        {
+          "letter": "C",
+          "text": "Fermentation produces more CO2 than aerobic respiration"
+        },
+        {
+          "letter": "D",
+          "text": "Aerobic respiration doesn't use glycolysis at all"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Aerobic respiration carries pyruvate through additional energy-extracting stages that fermentation skips entirely."
+    },
+    {
+      "num": 6,
+      "type": "Multiple choice",
+      "prompt": "Which of the following correctly identifies the final electron acceptor in aerobic respiration, and why this makes the process \"aerobic\"?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glucose; because glucose contains oxygen atoms"
+        },
+        {
+          "letter": "B",
+          "text": "Oxygen; because the process depends on O2 accepting electrons at the end of the ETC, forming water"
+        },
+        {
+          "letter": "C",
+          "text": "NAD+; because NAD+ requires oxygen to function"
+        },
+        {
+          "letter": "D",
+          "text": "Water; oxygen is a byproduct with no role in the process"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Oxygen accepting electrons at the end of the ETC (forming water) is what defines the pathway as aerobic."
+    },
+    {
+      "num": 7,
+      "type": "Multi-statement",
+      "prompt": "Which statement comparing aerobic respiration and fermentation is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aerobic respiration requires oxygen; fermentation does not."
+        },
+        {
+          "letter": "B",
+          "text": "Both pathways begin with glycolysis."
+        },
+        {
+          "letter": "C",
+          "text": "Fermentation produces more ATP overall than aerobic respiration."
+        },
+        {
+          "letter": "D",
+          "text": "Aerobic respiration uses the electron transport chain; fermentation does not."
+        },
+        {
+          "letter": "E",
+          "text": "Both regenerate/manage NAD+, though by different mechanisms."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False — fermentation produces far LESS ATP (2) than aerobic respiration (38)."
+    },
+    {
+      "num": 8,
+      "type": "Open recall",
+      "prompt": "ATP synthase generates ATP using the flow of H+ down its gradient. Explain how active transport (proton pumps) and facilitated diffusion (through ATP synthase) work together as a coordinated two-step process in the electron transport chain.",
+      "options": [],
+      "correct": null,
+      "explanation": "Active transport (proton pumps, powered by energy from electrons moving down the ETC) pumps H+ AGAINST its gradient, building up a high H+ concentration on one side of the membrane. Facilitated diffusion then lets that H+ flow back DOWN its gradient through ATP synthase, and this flow powers ATP synthesis."
+    },
+    {
+      "num": 9,
+      "type": "Multiple choice",
+      "prompt": "Which of the following would most likely be true of a mutant bacterium that cannot produce FAD (only NAD+)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It would produce more ATP than normal"
+        },
+        {
+          "letter": "B",
+          "text": "It would still complete glycolysis and produce some ATP, but would lose some electron-carrying capacity from the Krebs cycle, likely reducing its total ATP yield somewhat"
+        },
+        {
+          "letter": "C",
+          "text": "It could not perform glycolysis at all"
+        },
+        {
+          "letter": "D",
+          "text": "It would be completely unaffected"
+        }
+      ],
+      "correct": "B",
+      "explanation": "FADH2 specifically carries electrons generated in the Krebs cycle to the ETC; losing that carrier would reduce (not eliminate) total energy capture, while glycolysis, which doesn't rely on FAD, would still proceed."
+    },
+    {
+      "num": 10,
+      "type": "Multiple choice",
+      "prompt": "Which correctly matches oxidation and reduction to glucose breakdown across cellular respiration?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glucose is reduced; NAD+ is oxidized"
+        },
+        {
+          "letter": "B",
+          "text": "Glucose is oxidized (loses electrons); NAD+ is reduced to NADH (gains electrons)"
+        },
+        {
+          "letter": "C",
+          "text": "Neither glucose nor NAD+ undergo redox changes"
+        },
+        {
+          "letter": "D",
+          "text": "Oxygen is reduced before entering the cell"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Glucose loses electrons as it's broken down (oxidized); NAD+ gains those electrons, becoming NADH (reduced)."
+    },
+    {
+      "num": 11,
+      "type": "Multiple choice",
+      "prompt": "Which two organisms named in this module perform fermentation, and what product distinguishes their fermentation types from each other?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lactobacillus (lactic acid) and Saccharomyces (ethanol + CO2)"
+        },
+        {
+          "letter": "B",
+          "text": "Lactobacillus and Saccharomyces both produce ethanol"
+        },
+        {
+          "letter": "C",
+          "text": "Clostridioides difficile and Lactobacillus both produce lactic acid"
+        },
+        {
+          "letter": "D",
+          "text": "Saccharomyces produces lactic acid; Lactobacillus produces ethanol"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Lactobacillus performs lactic acid (acidic) fermentation; Saccharomyces performs alcoholic fermentation, producing ethanol and CO2."
+    },
+    {
+      "num": 12,
+      "type": "Open recall",
+      "prompt": "Explain why bacteria keep their electron transport chain in the cell (plasma) membrane rather than in a separate organelle, tying this back to what Module 1 said about prokaryotic cells.",
+      "options": [],
+      "correct": null,
+      "explanation": "Bacteria are prokaryotes, and Module 1 established that prokaryotes lack membrane-bound organelles (like mitochondria) altogether. Since there's no separate organelle available, the plasma membrane itself must house the electron transport chain instead."
+    },
+    {
+      "num": 13,
+      "type": "Multiple choice",
+      "prompt": "Which of the following best explains why fermentation is often described as \"anaerobic,\" tying this back to the aerobic respiration process?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fermentation avoids using oxygen as a final electron acceptor entirely, unlike aerobic respiration which depends on it"
+        },
+        {
+          "letter": "B",
+          "text": "Fermentation produces more oxygen than it uses"
+        },
+        {
+          "letter": "C",
+          "text": "Fermentation and aerobic respiration are identical processes"
+        },
+        {
+          "letter": "D",
+          "text": "Fermentation only occurs in animals"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Fermentation regenerates NAD+ using pyruvate itself as the electron acceptor, with no role for oxygen at any point."
+    },
+    {
+      "num": 14,
+      "type": "Multiple choice",
+      "prompt": "Which molecule is required for glycolysis to continue, and is one reason fermentation exists as a \"backup\" pathway when oxygen is unavailable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Oxygen directly"
+        },
+        {
+          "letter": "B",
+          "text": "NAD+ (regenerated by reducing pyruvate when no ETC/oxygen is available)"
+        },
+        {
+          "letter": "C",
+          "text": "ATP synthase"
+        },
+        {
+          "letter": "D",
+          "text": "FADH2"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Glycolysis depends on a steady supply of NAD+; fermentation exists specifically to regenerate it when the ETC (and oxygen) aren't available."
+    },
+    {
+      "num": 15,
+      "type": "Open recall",
+      "prompt": "Compare the role of oxygen in aerobic respiration to the role of pyruvate in fermentation, both acting as \"final acceptors\" of electrons in their respective pathways.",
+      "options": [],
+      "correct": null,
+      "explanation": "In aerobic respiration, oxygen is the final electron acceptor at the end of the ETC, becoming water. In fermentation, pyruvate itself acts as the final electron acceptor, being reduced into lactic acid or ethanol — both serve the same essential purpose of regenerating NAD+ so the pathway can continue."
+    }
+  ]
+}

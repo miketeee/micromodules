@@ -1,0 +1,356 @@
+{
+  "slug": "mod2-2",
+  "title": "Module 2 — Quiz 2",
+  "subtitle": "Introduction to Microbiology — Part 2",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multiple choice",
+      "prompt": "Pasteur's fermentation research showed that a living organism (yeast) causes a specific chemical change. How did this finding directly support the later Germ Theory of Disease?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It proved bacteria could survive boiling"
+        },
+        {
+          "letter": "B",
+          "text": "It established that a specific living microbe could cause a specific effect — a concept later extended to disease"
+        },
+        {
+          "letter": "C",
+          "text": "It disproved spontaneous generation directly"
+        },
+        {
+          "letter": "D",
+          "text": "It identified antibiotics for the first time"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Showing that yeast (a living microbe) causes fermentation, and bacteria cause spoilage, built the conceptual bridge to microbes causing disease."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Which flaw in Spallanzani's sealed-flask experiment did Pasteur's swan-necked flask correct, finally disproving spontaneous generation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Spallanzani's broth was never boiled"
+        },
+        {
+          "letter": "B",
+          "text": "Spallanzani's sealed flask kept out air entirely, so critics argued a \"vital force\" was blocked; Pasteur's design let air in while still keeping microbes out"
+        },
+        {
+          "letter": "C",
+          "text": "Spallanzani used gelatin instead of broth"
+        },
+        {
+          "letter": "D",
+          "text": "Spallanzani's flask lacked a swan neck for measuring temperature"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Pasteur's swan-necked design let air (and any \"vital force\") reach the broth while gravity trapped microbes in the curve of the neck, isolating the true cause of contamination."
+    },
+    {
+      "num": 3,
+      "type": "Multiple choice",
+      "prompt": "Lactobacillus acidophilus helps prevent vaginal yeast infections caused by Candida albicans (from Module 1). Why would a healthy population of Lactobacillus reduce that risk?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lactobacillus directly injects antibiotics into Candida"
+        },
+        {
+          "letter": "B",
+          "text": "Lactobacillus produces lactic acid, creating conditions that compete with and limit the growth of Candida albicans"
+        },
+        {
+          "letter": "C",
+          "text": "Lactobacillus and Candida albicans are the same species"
+        },
+        {
+          "letter": "D",
+          "text": "Candida albicans cannot survive around any bacteria at all"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Lactobacillus is described as a beneficial, lactic-acid-producing probiotic that helps prevent yeast infections — its metabolic activity limits the environment Candida needs to overgrow."
+    },
+    {
+      "num": 4,
+      "type": "Multi-statement",
+      "prompt": "Which statement about the Golden Age of Microbiology is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It spanned roughly the mid-1800s to early 1900s."
+        },
+        {
+          "letter": "B",
+          "text": "Scientists during this era worked to answer whether life arises spontaneously."
+        },
+        {
+          "letter": "C",
+          "text": "This era addressed what causes fermentation."
+        },
+        {
+          "letter": "D",
+          "text": "This era occurred before Leeuwenhoek observed bacteria."
+        },
+        {
+          "letter": "E",
+          "text": "This era addressed what causes disease and how it can be prevented."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False — the Golden Age came roughly 200 years AFTER Leeuwenhoek's 1670s observations, not before."
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "Explain the chain of contributions from Redi, to Spallanzani, to Pasteur that ultimately disproved spontaneous generation.",
+      "options": [],
+      "correct": null,
+      "explanation": "Redi suspected microorganisms might cause meat spoilage. Spallanzani showed boiling sterilizes broth (a sealed flask stayed sterile, an open one grew microbes), but critics argued the seal blocked a \"vital force.\" Pasteur's swan-necked flask let air in while trapping incoming microbes in the bend, finally proving microorganisms — not spontaneous generation — caused contamination."
+    },
+    {
+      "num": 6,
+      "type": "Multiple choice",
+      "prompt": "Which pairing of scientist to contribution toward combatting disease is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Semmelweis discovered Penicillin"
+        },
+        {
+          "letter": "B",
+          "text": "Fleming promoted hospital cleanliness"
+        },
+        {
+          "letter": "C",
+          "text": "Lister pioneered the development of germicides"
+        },
+        {
+          "letter": "D",
+          "text": "Nightingale emphasized hand washing"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Lister pioneered germicides. (Semmelweis = hand washing; Nightingale = hospital cleanliness; Fleming = Penicillin.)"
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "If a hospital wanted to combine the insights of Semmelweis, Nightingale, and Lister to reduce infections, which three practices would they adopt together?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibiotics, vaccines, and pasteurization"
+        },
+        {
+          "letter": "B",
+          "text": "Hand washing, hospital cleanliness, and germicide use"
+        },
+        {
+          "letter": "C",
+          "text": "Genetic engineering, fermentation control, and refrigeration"
+        },
+        {
+          "letter": "D",
+          "text": "Binomial naming, taxonomy, and microscopy"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Semmelweis (hand washing), Nightingale (hospital cleanliness), and Lister (germicides) together cover these three practices."
+    },
+    {
+      "num": 8,
+      "type": "Multiple choice",
+      "prompt": "Fleming's discovery of Penicillin came after the Germ Theory was established. Why was the Germ Theory a necessary precondition for antibiotic discovery to be meaningful?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Without knowing microbes cause disease, there would be no clear target for a disease-fighting substance"
+        },
+        {
+          "letter": "B",
+          "text": "Penicillin was actually discovered before the Germ Theory"
+        },
+        {
+          "letter": "C",
+          "text": "Antibiotics have nothing to do with microorganisms"
+        },
+        {
+          "letter": "D",
+          "text": "Fleming needed Pasteur's swan-necked flask design specifically"
+        }
+      ],
+      "correct": "A",
+      "explanation": "An antibiotic is only a meaningful concept once you know a living microorganism is the thing causing the disease in the first place."
+    },
+    {
+      "num": 9,
+      "type": "Open recall",
+      "prompt": "How does genetic engineering, as described in this module, exemplify a \"beneficial\" use of microorganisms that is distinct from fermentation-based food production?",
+      "options": [],
+      "correct": null,
+      "explanation": "Genetic engineering manipulates a microorganism's genes so it produces a specific desired protein (such as insulin) for human use, rather than relying on the microbe's natural fermentation byproducts (like alcohol or CO2), as in food production."
+    },
+    {
+      "num": 10,
+      "type": "Multiple choice",
+      "prompt": "Cyanobacteria and Lactobacillus acidophilus are both described as beneficial in this module. What is the key functional difference between their roles?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cyanobacteria decompose dead matter; Lactobacillus produces oxygen"
+        },
+        {
+          "letter": "B",
+          "text": "Cyanobacteria produce oxygen via photosynthesis; Lactobacillus produces lactic acid as a probiotic"
+        },
+        {
+          "letter": "C",
+          "text": "They perform the exact same function"
+        },
+        {
+          "letter": "D",
+          "text": "Cyanobacteria are pathogenic while Lactobacillus is not"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Cyanobacteria contribute atmospheric oxygen through photosynthesis; Lactobacillus contributes lactic acid that supports a healthy vaginal environment — very different beneficial mechanisms."
+    },
+    {
+      "num": 11,
+      "type": "Multi-statement",
+      "prompt": "Which statement about Pasteur's contributions across this module is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "He showed yeast causes fermentation."
+        },
+        {
+          "letter": "B",
+          "text": "He proposed the Germ Theory of Disease."
+        },
+        {
+          "letter": "C",
+          "text": "He performed the rigorous experimental proof that established the Germ Theory beyond doubt."
+        },
+        {
+          "letter": "D",
+          "text": "He designed the swan-necked flask experiment."
+        },
+        {
+          "letter": "E",
+          "text": "He is associated with pasteurization."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False — Robert Koch (not Pasteur) performed the rigorous experimental proof; Pasteur proposed the idea."
+    },
+    {
+      "num": 12,
+      "type": "Multiple choice",
+      "prompt": "A dairy company wants to reduce microbial load in milk without fully sterilizing it (to preserve taste). Which process, developed by the scientist behind the Germ Theory, should they use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Autoclaving"
+        },
+        {
+          "letter": "B",
+          "text": "Pasteurization"
+        },
+        {
+          "letter": "C",
+          "text": "Genetic engineering"
+        },
+        {
+          "letter": "D",
+          "text": "Binomial classification"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Pasteurization (developed by Pasteur) reduces microbial load while preserving product quality."
+    },
+    {
+      "num": 13,
+      "type": "Multiple choice",
+      "prompt": "Saccharomyces cerevisiae ferments sugar into CO2 and ethanol. Which correctly identifies two different beneficial products of this single organism's activity, based on this module?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Insulin and Penicillin"
+        },
+        {
+          "letter": "B",
+          "text": "Bread (from CO2) and alcohol (from ethanol)"
+        },
+        {
+          "letter": "C",
+          "text": "Yogurt and cheese"
+        },
+        {
+          "letter": "D",
+          "text": "Oxygen and nutrients"
+        }
+      ],
+      "correct": "B",
+      "explanation": "The same fermentation reaction's two products — CO2 and ethanol — are responsible for leavened bread and alcoholic beverages, respectively."
+    },
+    {
+      "num": 14,
+      "type": "Multiple choice",
+      "prompt": "Which of these four scientists worked on disproving spontaneous generation, rather than combatting disease directly in a hospital setting?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Semmelweis"
+        },
+        {
+          "letter": "B",
+          "text": "Lister"
+        },
+        {
+          "letter": "C",
+          "text": "Spallanzani"
+        },
+        {
+          "letter": "D",
+          "text": "Nightingale"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Spallanzani's sealed-vs-open flask experiment addressed spontaneous generation; the other three worked on hospital infection control."
+    },
+    {
+      "num": 15,
+      "type": "Multiple choice",
+      "prompt": "Louis Pasteur's fermentation work and his Germ Theory work both rely on the same core insight. What is that shared insight?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Boiling always sterilizes completely"
+        },
+        {
+          "letter": "B",
+          "text": "A specific living microorganism can be responsible for a specific observable effect"
+        },
+        {
+          "letter": "C",
+          "text": "All microorganisms are harmful"
+        },
+        {
+          "letter": "D",
+          "text": "Antibiotics kill all microbes"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Whether it's yeast causing fermentation or a pathogen causing disease, the underlying insight is the same: a specific living microbe produces a specific effect."
+    }
+  ]
+}

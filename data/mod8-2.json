@@ -1,0 +1,343 @@
+{
+  "slug": "mod8-2",
+  "title": "Module 8 — Quiz 2",
+  "subtitle": "Control of Microbial Growth",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multiple choice",
+      "prompt": "Given that Bacillus, Clostridium, and Clostridioides form endospores resistant to heat and chemicals, which method described in this module is REQUIRED (not just disinfection) to guarantee their destruction?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Boiling at 100°C for 10 minutes"
+        },
+        {
+          "letter": "B",
+          "text": "Autoclaving at 121°C, 15 PSI, for 15 minutes"
+        },
+        {
+          "letter": "C",
+          "text": "Regular hand soap"
+        },
+        {
+          "letter": "D",
+          "text": "Pasteurization at 72°C for 15 seconds"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Only autoclaving (true sterilization) reliably destroys endospores; boiling and pasteurization only disinfect."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Which item classification would a stethoscope fall into, and why does this mean it doesn't require sterilization?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Critical, because it penetrates tissue"
+        },
+        {
+          "letter": "B",
+          "text": "Semi-critical, because it touches mucous membranes"
+        },
+        {
+          "letter": "C",
+          "text": "Non-critical, because it only contacts unbroken skin"
+        },
+        {
+          "letter": "D",
+          "text": "It always requires full sterilization regardless of contact type"
+        }
+      ],
+      "correct": "C",
+      "explanation": "A stethoscope only contacts unbroken skin, placing it in the non-critical category, which needs only routine cleaning."
+    },
+    {
+      "num": 3,
+      "type": "Multi-statement",
+      "prompt": "Which statement comparing sterilization and disinfection methods is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Boiling water disinfects but does not sterilize, since it doesn't destroy endospores."
+        },
+        {
+          "letter": "B",
+          "text": "Autoclaving can achieve true sterilization."
+        },
+        {
+          "letter": "C",
+          "text": "Pasteurization is intended to sterilize (destroy ALL microbes) in milk."
+        },
+        {
+          "letter": "D",
+          "text": "Dry heat ovens can achieve sterilization, including of endospores."
+        },
+        {
+          "letter": "E",
+          "text": "Ethylene oxide gas can sterilize heat-sensitive items, including killing endospores."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False — pasteurization is intended to disinfect/reduce microbial load while preserving product quality, not to fully sterilize."
+    },
+    {
+      "num": 4,
+      "type": "Open recall",
+      "prompt": "A hospital needs to sterilize a batch of plastic tubing that would melt or warp under heat. Explain why heat-based methods are ruled out, and identify a suitable alternative from this module, explaining how it works.",
+      "options": [],
+      "correct": null,
+      "explanation": "Heat-based sterilization (autoclave, dry heat ovens) would damage or melt heat-sensitive plastic items. Ethylene oxide gas is a suitable alternative — a pressurized gas sterilant capable of killing even endospores without exposing the item to damaging heat or moisture (though it is carcinogenic, requiring careful handling)."
+    },
+    {
+      "num": 5,
+      "type": "Multiple choice",
+      "prompt": "Why is antibacterial hand soap generally NOT recommended over regular soap for routine at-home hand washing?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibacterial soap doesn't kill any bacteria at all"
+        },
+        {
+          "letter": "B",
+          "text": "Antibacterial soap's germicidal chemicals need more contact time than a typical ~15-second hand wash provides to actually work"
+        },
+        {
+          "letter": "C",
+          "text": "Regular soap is more toxic"
+        },
+        {
+          "letter": "D",
+          "text": "Antibacterial soap is a sterilant, so it's too strong for skin"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Antibacterial soap's active ingredients need longer contact time than a routine hand wash provides, so regular soap works just as well at home."
+    },
+    {
+      "num": 6,
+      "type": "Multiple choice",
+      "prompt": "Which pair of germicide category and its associated safety concern is correctly matched?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Alcohols — carcinogenic"
+        },
+        {
+          "letter": "B",
+          "text": "Ethylene oxide — carcinogenic"
+        },
+        {
+          "letter": "C",
+          "text": "Biguanides — highly toxic, unsafe on any tissue"
+        },
+        {
+          "letter": "D",
+          "text": "Peroxides — explosive at all concentrations"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Ethylene oxide's known safety concern is that it's carcinogenic."
+    },
+    {
+      "num": 7,
+      "type": "Multi-statement",
+      "prompt": "Which statement about the germicide categories covered in this module is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Alcohols (e.g., isopropyl alcohol) are commonly used as antiseptics."
+        },
+        {
+          "letter": "B",
+          "text": "Biguanides (e.g., chlorhexidine) are common in mouthwash."
+        },
+        {
+          "letter": "C",
+          "text": "Iodine is the MOST effective but also the MOST toxic halogen."
+        },
+        {
+          "letter": "D",
+          "text": "Hydrogen peroxide works best on inanimate objects rather than living tissue."
+        },
+        {
+          "letter": "E",
+          "text": "Ethylene oxide is a pressurized gas capable of killing endospores."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False — fluorine, not iodine, is the most effective and most toxic halogen; iodine is the LEAST effective but safest, which is why it's used as an antiseptic."
+    },
+    {
+      "num": 8,
+      "type": "Open recall",
+      "prompt": "Explain why filtration is often chosen over heat-based methods specifically for sterilizing certain liquids or air, referencing what filtration actually does versus what heat does.",
+      "options": [],
+      "correct": null,
+      "explanation": "Filtration physically removes microorganisms by passing liquid or air through a filter with pores smaller than about 0.4 micrometers, without exposing the material to heat at all — ideal for heat-sensitive liquids or air (like HEPA filtration in operating rooms), whereas heat works by denaturing proteins, which would damage a heat-sensitive substance."
+    },
+    {
+      "num": 9,
+      "type": "Multiple choice",
+      "prompt": "UV radiation and ionizing radiation both control microbial growth by damaging DNA. In which setting is UV radiation specifically noted as useful in this module?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Deep tissue sterilization inside the body"
+        },
+        {
+          "letter": "B",
+          "text": "Surface and air disinfection, such as in operating rooms"
+        },
+        {
+          "letter": "C",
+          "text": "Preserving food via freezing"
+        },
+        {
+          "letter": "D",
+          "text": "Autoclaving"
+        }
+      ],
+      "correct": "B",
+      "explanation": "UV radiation is used for surface/air disinfection, such as in operating rooms, and for treating food and air."
+    },
+    {
+      "num": 10,
+      "type": "Multiple choice",
+      "prompt": "Salting, sugaring, refrigeration, and freeze-drying are all preservation methods. Which two work by directly removing or limiting available water, rather than simply slowing metabolism?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Refrigeration and freeze-drying"
+        },
+        {
+          "letter": "B",
+          "text": "Salting/sugaring and freeze-drying"
+        },
+        {
+          "letter": "C",
+          "text": "Refrigeration and salting/sugaring"
+        },
+        {
+          "letter": "D",
+          "text": "None of them involve water"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Salting/sugaring draws water out via osmosis, and freeze-drying sublimates moisture directly — refrigeration instead slows metabolism without removing water."
+    },
+    {
+      "num": 11,
+      "type": "Multiple choice",
+      "prompt": "A critical medical item (like a scalpel) is cleaned to a level that only reduces microbes to a \"publicly safe\" level rather than eliminating all of them. Why would this be inadequate, based on the item classification system?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Because critical items penetrate tissue and must be completely sterile — nothing less than full sterilization is acceptable"
+        },
+        {
+          "letter": "B",
+          "text": "Because scalpels are non-critical and this level would actually be fine"
+        },
+        {
+          "letter": "C",
+          "text": "Because sanitization is always stronger than sterilization"
+        },
+        {
+          "letter": "D",
+          "text": "Because critical items don't need any cleaning at all"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Critical items (which penetrate tissue) require full sterilization; sanitization alone is not sufficient."
+    },
+    {
+      "num": 12,
+      "type": "Open recall",
+      "prompt": "Compare pasteurization and autoclaving in terms of their goals (sterilize vs. disinfect), and explain why using an autoclave on milk would be inappropriate even though it achieves a \"stronger\" result.",
+      "options": [],
+      "correct": null,
+      "explanation": "Autoclaving achieves true sterilization (121°C, 15 PSI, 15 min) but would cook/ruin milk's taste and quality. Pasteurization (72°C, 15 sec) only disinfects — reducing microbial load enough for safety — while preserving product quality, which is the balance needed for something consumed for taste rather than requiring total sterility."
+    },
+    {
+      "num": 13,
+      "type": "Multiple choice",
+      "prompt": "Which of the following would be the BEST choice to sanitize (not sterilize) dishes at a restaurant, based on the terminology in this module?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An autoclave"
+        },
+        {
+          "letter": "B",
+          "text": "Washing to a level considered safe for public health, not full sterilization"
+        },
+        {
+          "letter": "C",
+          "text": "Ethylene oxide gas"
+        },
+        {
+          "letter": "D",
+          "text": "UV surface disinfection only"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Sanitization is specifically defined as reducing microbes to a publicly-safe level, which is exactly what restaurant dishwashing aims for."
+    },
+    {
+      "num": 14,
+      "type": "Multi-statement",
+      "prompt": "Which statement about critical, semi-critical, and non-critical items is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An endoscope, which touches mucous membranes, is semi-critical."
+        },
+        {
+          "letter": "B",
+          "text": "A needle, which penetrates tissue, is critical."
+        },
+        {
+          "letter": "C",
+          "text": "An exam table, which touches only unbroken skin, is non-critical."
+        },
+        {
+          "letter": "D",
+          "text": "Non-critical items require the same level of sterilization as critical items."
+        },
+        {
+          "letter": "E",
+          "text": "Semi-critical items require high-level disinfection, though not necessarily full sterilization."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False — non-critical items need only routine cleaning, far less than the full sterilization required for critical items."
+    },
+    {
+      "num": 15,
+      "type": "Multiple choice",
+      "prompt": "Why would a hospital use ethylene oxide gas rather than an autoclave for sterilizing linens and pillows?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ethylene oxide is cheaper"
+        },
+        {
+          "letter": "B",
+          "text": "Autoclaving would damage/be inappropriate for these heat- and moisture-sensitive items, while ethylene oxide gas can sterilize (including endospores) without heat or moisture damage"
+        },
+        {
+          "letter": "C",
+          "text": "Ethylene oxide is safer than autoclaving with no safety concerns at all"
+        },
+        {
+          "letter": "D",
+          "text": "Linens and pillows cannot be sterilized by any method"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Ethylene oxide gas achieves sterilization without the heat/moisture that would damage linens and pillows."
+    }
+  ]
+}

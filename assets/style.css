@@ -83,46 +83,73 @@ p.site-lede{
   border-bottom: 1px solid var(--rule);
 }
 
-.module-list a{
+.m-row{
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 0.9rem;
-  padding: 0.95rem 0.1rem;
-  text-decoration: none;
-  transition: padding-left 0.15s ease;
+  padding: 0.85rem 0.1rem;
 }
 
-.module-list a:hover{
-  padding-left: 0.4rem;
-  background: var(--paper-raised);
-}
-
-.module-list .num{
+.m-row .num{
   font-family: 'IBM Plex Mono', monospace;
   font-size: 0.85rem;
   color: var(--violet);
   min-width: 1.6rem;
 }
 
-.module-list .titles{
+.m-row .titles{
   flex: 1;
+  min-width: 0;
 }
 
-.module-list .m-title{
+.m-row .m-title{
   font-weight: 600;
   font-size: 1.02rem;
 }
 
-.module-list .m-sub{
+.m-row .m-sub{
   color: var(--ink-soft);
   font-size: 0.88rem;
 }
 
-.module-list .count{
+.quiz-links{
+  display: flex;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+.quiz-pill{
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 0.78rem;
-  color: var(--sage);
+  font-size: 0.72rem;
+  text-decoration: none;
+  color: var(--violet-deep);
+  background: var(--violet-wash);
+  border: 1px solid var(--violet);
+  border-radius: 3px;
+  padding: 0.35rem 0.55rem;
   white-space: nowrap;
+  transition: background 0.15s ease;
+}
+
+.quiz-pill:hover{
+  background: var(--violet);
+  color: #fff;
+}
+
+.quiz-pill.pill-2{
+  color: #7A3554;
+  background: var(--pink-wash);
+  border-color: var(--pink);
+}
+
+.quiz-pill.pill-2:hover{
+  background: var(--pink);
+  color: #fff;
+}
+
+@media (max-width: 480px){
+  .m-row{ flex-wrap: wrap; }
+  .quiz-links{ width: 100%; margin-left: calc(1.6rem + 0.9rem); }
 }
 
 .slide-grid{

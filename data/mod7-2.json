@@ -1,0 +1,343 @@
+{
+  "slug": "mod7-2",
+  "title": "Module 7 — Quiz 2",
+  "subtitle": "Microbial Growth",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multiple choice",
+      "prompt": "Helicobacter pylori is a microaerophile and a neutrophile that survives in the acidic stomach. How does it reconcile being a \"neutrophile\" while living at pH 2?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It doesn't actually live in the stomach"
+        },
+        {
+          "letter": "B",
+          "text": "It produces urease, converting urea into ammonia, which locally raises the pH into a more neutral microenvironment"
+        },
+        {
+          "letter": "C",
+          "text": "It has evolved to become a true acidophile"
+        },
+        {
+          "letter": "D",
+          "text": "It relies on its capsule to neutralize acid"
+        }
+      ],
+      "correct": "B",
+      "explanation": "H. pylori's urease-driven microenvironment lets it maintain neutrophile-preferred conditions even while living in an acidic organ."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "A bacterium is both an obligate aerobe and a mesophile. Which environment would it grow best in?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No oxygen, 4°C"
+        },
+        {
+          "letter": "B",
+          "text": "Plenty of oxygen, ~37°C"
+        },
+        {
+          "letter": "C",
+          "text": "No oxygen, 90°C"
+        },
+        {
+          "letter": "D",
+          "text": "Plenty of oxygen, -10°C"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Obligate aerobe = needs oxygen; mesophile = prefers moderate, body-like temperatures (20-45°C) — plenty of O2 at ~37°C fits both."
+    },
+    {
+      "num": 3,
+      "type": "Multi-statement",
+      "prompt": "Which statement about the history of pure culturing and solid media is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Robert Koch first used potato slices to isolate colonies."
+        },
+        {
+          "letter": "B",
+          "text": "Fannie Hesse suggested using agar because it doesn't melt at body temperature."
+        },
+        {
+          "letter": "C",
+          "text": "Gelatin was ultimately preferred over agar because gelatin resists melting better."
+        },
+        {
+          "letter": "D",
+          "text": "The streak plate method uses progressive dilution across quadrants to isolate single colonies."
+        },
+        {
+          "letter": "E",
+          "text": "Julius Richard Petri designed a dish to hold these cultures."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False — it's the reverse: agar was preferred over gelatin specifically because gelatin melts at body temperature and agar does not."
+    },
+    {
+      "num": 4,
+      "type": "Open recall",
+      "prompt": "Explain why Koch's original gelatin-based media was a problem specifically for culturing human pathogens, connecting this to the temperature category most human pathogens belong to.",
+      "options": [],
+      "correct": null,
+      "explanation": "Gelatin melts at human body temperature (37°C), and since most human pathogens are mesophiles that need incubation near 37°C to grow, gelatin-based media would liquefy at the very temperature needed to culture them — which is why agar, which stays solid at that temperature, was needed instead."
+    },
+    {
+      "num": 5,
+      "type": "Multiple choice",
+      "prompt": "A researcher inoculates an unknown bacterium into a tube of reducing (thioglycolate) media and observes growth only at the very bottom of the tube, away from the surface. What does this indicate about its oxygen requirement?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Obligate aerobe"
+        },
+        {
+          "letter": "B",
+          "text": "Obligate anaerobe"
+        },
+        {
+          "letter": "C",
+          "text": "Facultative anaerobe"
+        },
+        {
+          "letter": "D",
+          "text": "It cannot be determined"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Growth confined to the oxygen-free bottom of the gradient indicates the organism cannot tolerate oxygen — an obligate anaerobe."
+    },
+    {
+      "num": 6,
+      "type": "Multiple choice",
+      "prompt": "Which of the following pairs a category with the correct reasoning for why it matters most for human pathogens?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mesophile — because most pathogens must tolerate human body temperature (~37°C)"
+        },
+        {
+          "letter": "B",
+          "text": "Hyperthermophile — because most pathogens must tolerate extreme heat"
+        },
+        {
+          "letter": "C",
+          "text": "Alkaliphile — because human body pH is very basic"
+        },
+        {
+          "letter": "D",
+          "text": "Aerotolerant anaerobe — because all pathogens avoid oxygen entirely"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Human body temperature (~37°C) falls within the mesophile range, which is why most pathogens are mesophiles."
+    },
+    {
+      "num": 7,
+      "type": "Multi-statement",
+      "prompt": "Which statement about oxygen-requirement categories is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Obligate aerobes require oxygen to survive."
+        },
+        {
+          "letter": "B",
+          "text": "Obligate anaerobes cannot tolerate oxygen at all."
+        },
+        {
+          "letter": "C",
+          "text": "Facultative anaerobes can survive with or without oxygen, but prefer it."
+        },
+        {
+          "letter": "D",
+          "text": "Microaerophiles require higher concentrations of oxygen than obligate aerobes."
+        },
+        {
+          "letter": "E",
+          "text": "Aerotolerant anaerobes don't use oxygen but can survive in its presence."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False — microaerophiles prefer LOW levels of oxygen, not higher levels than obligate aerobes."
+    },
+    {
+      "num": 8,
+      "type": "Open recall",
+      "prompt": "A bacterial culture starts with 500 cells and has a generation time of 15 minutes. After 90 minutes, roughly how many cells are present? Show your reasoning.",
+      "options": [],
+      "correct": null,
+      "explanation": "90 minutes / 15-minute generation time = 6 doublings. 2^6 = 64. 500 x 64 = 32,000 cells."
+    },
+    {
+      "num": 9,
+      "type": "Multiple choice",
+      "prompt": "Which stage of the bacterial growth curve would a population of normal, stable gut microbiota most likely be in, and why?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lag phase, because the population hasn't started growing yet"
+        },
+        {
+          "letter": "B",
+          "text": "Log phase, because the population is always doubling rapidly"
+        },
+        {
+          "letter": "C",
+          "text": "Stationary phase, because division rate and death rate are balanced, keeping the population fairly constant"
+        },
+        {
+          "letter": "D",
+          "text": "Death phase, because the microbiota is dying off"
+        }
+      ],
+      "correct": "C",
+      "explanation": "A stable, established population fits stationary phase, where division and death rates have reached equilibrium."
+    },
+    {
+      "num": 10,
+      "type": "Multiple choice",
+      "prompt": "If a course of antibiotics successfully treats an infection, which shift in the bacterial growth curve would you expect to see in the pathogen's population, and why?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A shift from lag phase into log phase, as the bacteria grow faster"
+        },
+        {
+          "letter": "B",
+          "text": "A shift into death phase, as the death rate (from the antibiotic) exceeds the division rate"
+        },
+        {
+          "letter": "C",
+          "text": "A permanent stay in stationary phase"
+        },
+        {
+          "letter": "D",
+          "text": "No change in growth curve stage at all"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Successful treatment means bacteria are dying faster than they divide — the definition of death phase."
+    },
+    {
+      "num": 11,
+      "type": "Multiple choice",
+      "prompt": "Which of the following would NOT directly affect a bacterium's actual generation time?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nutrient availability"
+        },
+        {
+          "letter": "B",
+          "text": "Temperature"
+        },
+        {
+          "letter": "C",
+          "text": "What the organism happens to be named (its binomial name)"
+        },
+        {
+          "letter": "D",
+          "text": "Oxygen availability"
+        }
+      ],
+      "correct": "C",
+      "explanation": "A name is just a label; it has no causal effect on generation time, unlike actual environmental/biological factors like nutrients, temperature, or oxygen."
+    },
+    {
+      "num": 12,
+      "type": "Open recall",
+      "prompt": "Explain the connection between Robert Koch's development of pure culturing techniques and the ability to determine an organism's specific temperature, pH, and oxygen preferences.",
+      "options": [],
+      "correct": null,
+      "explanation": "To test something like temperature, pH, or oxygen preference, you need to know you're testing ONE specific organism's response, not several species behaving differently at once. Pure culturing techniques (isolating a single species) made it possible to reliably attribute growth patterns to a specific organism's preferences, rather than to a mixed population."
+    },
+    {
+      "num": 13,
+      "type": "Multiple choice",
+      "prompt": "A photoautotroph and a chemoheterotroph are grown side by side with no light source available. Which one would you expect to struggle to obtain energy, and why?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The photoautotroph, since it depends on sunlight for photosynthesis to build its own glucose"
+        },
+        {
+          "letter": "B",
+          "text": "The chemoheterotroph, since it needs sunlight too"
+        },
+        {
+          "letter": "C",
+          "text": "Neither would be affected by light availability"
+        },
+        {
+          "letter": "D",
+          "text": "Both would die immediately regardless of light"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Photoautotrophs specifically rely on light-driven photosynthesis; chemoheterotrophs instead obtain energy molecules directly from the environment, independent of light."
+    },
+    {
+      "num": 14,
+      "type": "Multi-statement",
+      "prompt": "Which statement about pH categories is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Neutrophiles prefer pH 5-8."
+        },
+        {
+          "letter": "B",
+          "text": "Acidophiles prefer pH below 5."
+        },
+        {
+          "letter": "C",
+          "text": "Alkaliphiles prefer pH above 8."
+        },
+        {
+          "letter": "D",
+          "text": "Most human pathogens are alkaliphiles."
+        },
+        {
+          "letter": "E",
+          "text": "Human body pH (~7.35) falls within the neutrophile range."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False — most human pathogens are neutrophiles, not alkaliphiles, since human body pH falls in the neutrophile range."
+    },
+    {
+      "num": 15,
+      "type": "Multiple choice",
+      "prompt": "Which best summarizes why microenvironments (like the one Helicobacter pylori creates) matter when classifying an organism's pH, temperature, or oxygen preference category?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They don't matter; classification only depends on the surrounding macro-environment"
+        },
+        {
+          "letter": "B",
+          "text": "An organism's classification (e.g., neutrophile) reflects its actual local conditions, which it may actively modify away from the surrounding macro-environment, as H. pylori does with urease"
+        },
+        {
+          "letter": "C",
+          "text": "Microenvironments only apply to temperature, not pH"
+        },
+        {
+          "letter": "D",
+          "text": "Microenvironments make classification categories meaningless"
+        }
+      ],
+      "correct": "B",
+      "explanation": "An organism's true preference category is based on the conditions it actually experiences locally, which it can sometimes create for itself, as with H. pylori's ammonia-based microenvironment."
+    }
+  ]
+}

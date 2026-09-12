@@ -1,0 +1,339 @@
+{
+  "slug": "mod3-2",
+  "title": "Module 3 — Quiz 2",
+  "subtitle": "Prokaryotic Cells — Part 1",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multiple choice",
+      "prompt": "A bacterium has NO cell wall at all, yet still causes disease. How would Penicillin most likely affect it?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Penicillin would work exceptionally well since there's no wall to protect it"
+        },
+        {
+          "letter": "B",
+          "text": "Penicillin would be ineffective, since it targets peptidoglycan cross-linking, which this organism doesn't have"
+        },
+        {
+          "letter": "C",
+          "text": "Penicillin always kills bacteria regardless of cell wall status"
+        },
+        {
+          "letter": "D",
+          "text": "This organism cannot be affected by any antibiotic at all"
+        }
+      ],
+      "correct": "B",
+      "explanation": "This describes Mycoplasma. Since Penicillin's mechanism depends entirely on peptidoglycan cross-linking, an organism with no cell wall gives it nothing to act on."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Which structural feature distinguishes a Gram-negative cell from an Acid-Fast cell, even though neither has the extremely thick peptidoglycan layer typical of Gram-positive cells?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gram-negative cells have an outer membrane with LPS; Acid-Fast cells have mycolic acid instead, with no outer membrane"
+        },
+        {
+          "letter": "B",
+          "text": "Gram-negative cells have mycolic acid; Acid-Fast cells have an outer membrane"
+        },
+        {
+          "letter": "C",
+          "text": "Neither has any distinguishing feature"
+        },
+        {
+          "letter": "D",
+          "text": "Acid-Fast cells have a thicker peptidoglycan layer than Gram-positive cells"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Gram-negative cells are defined by their outer membrane and LPS; Acid-Fast cells lack an outer membrane but add waxy mycolic acid onto a peptidoglycan layer more like Gram-positive cells."
+    },
+    {
+      "num": 3,
+      "type": "Multiple choice",
+      "prompt": "Which two structures would most directly help a bacterium both attach to a host's cells and resist being physically flushed away, in the early stages of infection?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ribosomes and nucleoid"
+        },
+        {
+          "letter": "B",
+          "text": "Fimbriae (adherence) and capsule (adherence/biofilm formation)"
+        },
+        {
+          "letter": "C",
+          "text": "Flagella and pili only"
+        },
+        {
+          "letter": "D",
+          "text": "Peptidoglycan and lysozyme"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Fimbriae attach bacteria to host tissue, and a capsule aids adherence and biofilm formation — both work toward staying attached to a surface."
+    },
+    {
+      "num": 4,
+      "type": "Multi-statement",
+      "prompt": "Which statement comparing Gram-positive, Gram-negative, and Acid-Fast cell walls is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gram-positive walls lack an outer membrane."
+        },
+        {
+          "letter": "B",
+          "text": "Gram-negative walls contain LPS in an outer membrane."
+        },
+        {
+          "letter": "C",
+          "text": "Acid-Fast walls are structurally closest to Gram-negative, since both lack extra peptidoglycan."
+        },
+        {
+          "letter": "D",
+          "text": "Acid-Fast walls contain mycolic acid."
+        },
+        {
+          "letter": "E",
+          "text": "Gram-positive walls contain teichoic acid."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False — Acid-Fast walls are structurally closer to Gram-POSITIVE (no outer membrane, peptidoglycan present), not Gram-negative."
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "An antibiotic hydrolyzes peptidoglycan, similar to lysozyme. Explain why this drug would likely be far less effective against Mycobacterium tuberculosis than against Streptococcus pyogenes, even though both technically have a peptidoglycan layer.",
+      "options": [],
+      "correct": null,
+      "explanation": "M. tuberculosis's peptidoglycan is coated with waxy mycolic acid, which shields it from enzymes/drugs that would otherwise break it down. S. pyogenes (Gram-positive, no mycolic acid) has more exposed, accessible peptidoglycan for the drug to act on."
+    },
+    {
+      "num": 6,
+      "type": "Multiple choice",
+      "prompt": "Penicillin has little effect on cells lacking a cell wall (like Mycoplasma), and lysozyme in tears/saliva also fails against Mycoplasma for a similar underlying reason. What is that shared reason?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Both target peptidoglycan, which Mycoplasma does not have"
+        },
+        {
+          "letter": "B",
+          "text": "Both target the outer membrane"
+        },
+        {
+          "letter": "C",
+          "text": "Both target ribosomes"
+        },
+        {
+          "letter": "D",
+          "text": "Both require oxygen to function"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Penicillin and lysozyme both act on peptidoglycan; an organism with no cell wall has nothing for either one to target."
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "A capsule made of carbohydrate allows Streptococcus mutans to form a biofilm on teeth. Which other structure discussed in this module also contributes to bacterial adherence, though it is made of protein rather than carbohydrate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Flagella"
+        },
+        {
+          "letter": "B",
+          "text": "Fimbriae"
+        },
+        {
+          "letter": "C",
+          "text": "Nucleoid"
+        },
+        {
+          "letter": "D",
+          "text": "Peptidoglycan"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Fimbriae are protein filaments used for adherence, working toward the same general goal (attachment) as the carbohydrate capsule, via a different structure."
+    },
+    {
+      "num": 8,
+      "type": "Multiple choice",
+      "prompt": "Which pairing of shape/arrangement to disease-causing organism is CORRECT, based on this module's microbe spotlights?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Spirochete — Treponema pallidum — Syphilis"
+        },
+        {
+          "letter": "B",
+          "text": "Diplococcus — Staphylococcus aureus — Staph infection"
+        },
+        {
+          "letter": "C",
+          "text": "Vibrio — Mycobacterium tuberculosis — Tuberculosis"
+        },
+        {
+          "letter": "D",
+          "text": "Cluster of cocci — Streptococcus pyogenes — Strep throat"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Treponema pallidum is a spirochete that causes syphilis. (S. aureus forms clusters, not diplococci; M. tuberculosis is Acid-Fast, not vibrio-shaped; S. pyogenes forms chains, not clusters.)"
+    },
+    {
+      "num": 9,
+      "type": "Multi-statement",
+      "prompt": "Which statement about flagella, fimbriae, and pili is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "All three are made of protein."
+        },
+        {
+          "letter": "B",
+          "text": "Flagella are used for motility."
+        },
+        {
+          "letter": "C",
+          "text": "Fimbriae are used for genetic material exchange."
+        },
+        {
+          "letter": "D",
+          "text": "The conjugation (sex) pilus is used to exchange genetic material."
+        },
+        {
+          "letter": "E",
+          "text": "Fimbriae are tipped with an adhesin protein for attachment."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False — fimbriae are used for adherence/attachment, not genetic exchange; that role belongs to the conjugation pilus."
+    },
+    {
+      "num": 10,
+      "type": "Open recall",
+      "prompt": "A bacterium is Gram-negative, has an outer membrane with LPS, and forms a capsule. Explain two separate reasons this organism might be especially difficult for the immune system or antibiotics to deal with.",
+      "options": [],
+      "correct": null,
+      "explanation": "The outer membrane (with LPS) can block many antibiotics from reaching the peptidoglycan or cell interior. The capsule impedes phagocytosis by immune cells and allows adherence/biofilm formation — both features make the organism harder to clear."
+    },
+    {
+      "num": 11,
+      "type": "Multiple choice",
+      "prompt": "If a lab technician wants to confirm whether an unknown bacterium relies on mycolic acid in its cell wall, rather than simply being Gram-positive, which test should they use instead of the standard Gram stain?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Simple diffusion test"
+        },
+        {
+          "letter": "B",
+          "text": "Acid-Fast stain"
+        },
+        {
+          "letter": "C",
+          "text": "Binomial naming"
+        },
+        {
+          "letter": "D",
+          "text": "Endospore stain"
+        }
+      ],
+      "correct": "B",
+      "explanation": "The Acid-Fast stain specifically detects mycolic acid's resistance to standard staining, distinguishing it from ordinary Gram-positive organisms."
+    },
+    {
+      "num": 12,
+      "type": "Multiple choice",
+      "prompt": "Why is the conjugation (sex) pilus considered clinically significant beyond simply enabling genetic exchange?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It kills competing bacteria directly"
+        },
+        {
+          "letter": "B",
+          "text": "It can spread antibiotic-resistance genes carried on plasmids between bacteria"
+        },
+        {
+          "letter": "C",
+          "text": "It produces ATP for the cell"
+        },
+        {
+          "letter": "D",
+          "text": "It forms the bacterial cell wall"
+        }
+      ],
+      "correct": "B",
+      "explanation": "By transferring plasmids between cells, the conjugation pilus can spread antibiotic resistance genes through a bacterial population."
+    },
+    {
+      "num": 13,
+      "type": "Multiple choice",
+      "prompt": "Which structure would a vaccine targeting bacterial ADHERENCE most likely need to block, based on structures discussed in this module?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nucleoid"
+        },
+        {
+          "letter": "B",
+          "text": "Ribosome"
+        },
+        {
+          "letter": "C",
+          "text": "Fimbriae or capsule"
+        },
+        {
+          "letter": "D",
+          "text": "Peptidoglycan cross-links"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Fimbriae and capsules are the structures directly responsible for adherence to host tissue or surfaces."
+    },
+    {
+      "num": 14,
+      "type": "Multiple choice",
+      "prompt": "A Gram stain shows an unknown sample as pink, and the same cells later resist an Acid-Fast stain (don't retain the red dye). What can be concluded?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The cells are Gram-negative and not Acid-Fast — likely a typical Gram-negative bacterium rather than a mycolic-acid-containing organism"
+        },
+        {
+          "letter": "B",
+          "text": "The cells are definitely Mycobacterium tuberculosis"
+        },
+        {
+          "letter": "C",
+          "text": "The cells have no cell wall at all"
+        },
+        {
+          "letter": "D",
+          "text": "The cells must be Gram-positive"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Pink = Gram-negative; failing to retain the Acid-Fast stain means it lacks mycolic acid, consistent with an ordinary Gram-negative organism, not an Acid-Fast one."
+    },
+    {
+      "num": 15,
+      "type": "Open recall",
+      "prompt": "Explain why a genus like Mycoplasma, which has no cell wall, still requires some structural support to maintain its integrity — referencing what this module says it relies on instead.",
+      "options": [],
+      "correct": null,
+      "explanation": "Mycoplasma uses sterols in its cell membrane for stability in place of a rigid peptidoglycan wall, which is also why it is pleiomorphic (variable in shape)."
+    }
+  ]
+}

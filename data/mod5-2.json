@@ -1,0 +1,339 @@
+{
+  "slug": "mod5-2",
+  "title": "Module 5 — Quiz 2",
+  "subtitle": "Metabolism — Part 1",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multiple choice",
+      "prompt": "Which pairing correctly matches a metabolic process with its energy classification?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Catabolism — endergonic"
+        },
+        {
+          "letter": "B",
+          "text": "Anabolism — exergonic"
+        },
+        {
+          "letter": "C",
+          "text": "Catabolism — exergonic"
+        },
+        {
+          "letter": "D",
+          "text": "Both are always endergonic"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Catabolic reactions break molecules down and release energy (exergonic); anabolic reactions build molecules up and require energy (endergonic)."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Penicillin and sulfa drugs are both described as competitive inhibitors. Which pathway does each one target, respectively?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Penicillin targets peptidoglycan cross-linking; sulfa drugs target the PABA-to-folic-acid enzyme"
+        },
+        {
+          "letter": "B",
+          "text": "Penicillin targets folic acid synthesis; sulfa drugs target peptidoglycan"
+        },
+        {
+          "letter": "C",
+          "text": "Both target the exact same enzyme"
+        },
+        {
+          "letter": "D",
+          "text": "Neither targets an enzyme"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Penicillin blocks peptidoglycan cross-link synthesis; sulfa drugs block the enzyme converting PABA into folic acid — different targets, same competitive-inhibition mechanism."
+    },
+    {
+      "num": 3,
+      "type": "Multiple choice",
+      "prompt": "Why are sulfa drugs safe for human use despite blocking an enzyme needed for folic acid production?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Humans don't need folic acid"
+        },
+        {
+          "letter": "B",
+          "text": "Humans obtain folic acid from their diet rather than synthesizing it via that enzyme, so the drug has nothing of ours to block"
+        },
+        {
+          "letter": "C",
+          "text": "Humans have a backup enzyme for folic acid"
+        },
+        {
+          "letter": "D",
+          "text": "Sulfa drugs don't actually enter human cells"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Since humans get folic acid from diet rather than synthesizing it through that pathway, blocking the bacterial enzyme selectively harms bacteria without affecting the host."
+    },
+    {
+      "num": 4,
+      "type": "Multi-statement",
+      "prompt": "Which statement about competitive and noncompetitive (allosteric) inhibition is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Competitive inhibitors bind the active site."
+        },
+        {
+          "letter": "B",
+          "text": "Noncompetitive inhibitors bind the allosteric site."
+        },
+        {
+          "letter": "C",
+          "text": "A competitive inhibitor typically resembles the natural substrate."
+        },
+        {
+          "letter": "D",
+          "text": "Noncompetitive inhibitors block the substrate by directly occupying the active site."
+        },
+        {
+          "letter": "E",
+          "text": "Both types of inhibition can reduce enzyme activity."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False — noncompetitive (allosteric) inhibitors work by binding the allosteric site and changing the enzyme's shape, not by directly occupying the active site."
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "Explain how negative feedback inhibition uses the same general concept as noncompetitive inhibition (the allosteric site), even though feedback inhibition is a normal regulatory process rather than a drug's mechanism.",
+      "options": [],
+      "correct": null,
+      "explanation": "In both cases, a molecule — the pathway's own end-product in feedback inhibition, or a synthetic inhibitor in noncompetitive inhibition — binds the allosteric site, a location separate from the active site, and changes the enzyme's shape to reduce or stop its activity."
+    },
+    {
+      "num": 6,
+      "type": "Multiple choice",
+      "prompt": "An enzyme is turned \"on\" by adding a phosphate group and \"off\" by removing it. How does this form of regulation differ from feedback inhibition via the allosteric site?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Phosphorylation is irreversible; feedback inhibition is reversible"
+        },
+        {
+          "letter": "B",
+          "text": "Phosphorylation directly adds/removes a chemical group to switch the enzyme; feedback inhibition works by a product molecule binding at the allosteric site"
+        },
+        {
+          "letter": "C",
+          "text": "They are the exact same mechanism"
+        },
+        {
+          "letter": "D",
+          "text": "Phosphorylation only occurs in eukaryotes"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Phosphorylation is a direct chemical modification of the enzyme; feedback inhibition is a non-covalent binding event at the allosteric site — two different regulatory mechanisms."
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "ATP is useful for energy coupling partly because breaking its terminal phosphate bond is simple and quick. Why does this matter for a cell's anabolic reactions?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anabolic reactions need a fast, easily accessible energy source, since they don't release energy on their own"
+        },
+        {
+          "letter": "B",
+          "text": "Anabolic reactions release their own energy already"
+        },
+        {
+          "letter": "C",
+          "text": "ATP has no role in anabolic reactions"
+        },
+        {
+          "letter": "D",
+          "text": "Anabolic reactions never need energy"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Anabolic (endergonic) reactions require an outside energy input, and ATP's simple, quick-release bond makes it a convenient, efficient energy source for that purpose."
+    },
+    {
+      "num": 8,
+      "type": "Multiple choice",
+      "prompt": "Which scenario correctly demonstrates activation energy at work?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A reaction that occurs instantly with zero input, regardless of enzymes"
+        },
+        {
+          "letter": "B",
+          "text": "A reaction that requires an initial energy \"push\" to begin, which an enzyme can lower to speed up the reaction"
+        },
+        {
+          "letter": "C",
+          "text": "A reaction that only happens in anabolic pathways"
+        },
+        {
+          "letter": "D",
+          "text": "A reaction with no substrate involved"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Activation energy is the energy required to initiate any reaction; enzymes speed reactions up by lowering this requirement."
+    },
+    {
+      "num": 9,
+      "type": "Multi-statement",
+      "prompt": "Which statement about the relationship between exergonic/endergonic reactions and catabolism/anabolism is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Catabolic reactions release energy."
+        },
+        {
+          "letter": "B",
+          "text": "Anabolic reactions require energy input."
+        },
+        {
+          "letter": "C",
+          "text": "Energy coupling links an exergonic reaction to power an endergonic one."
+        },
+        {
+          "letter": "D",
+          "text": "All cellular reactions are exergonic."
+        },
+        {
+          "letter": "E",
+          "text": "ATP breakdown is an exergonic reaction often used in energy coupling."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False — anabolic reactions are endergonic, not exergonic, so not all cellular reactions release energy."
+    },
+    {
+      "num": 10,
+      "type": "Open recall",
+      "prompt": "A patient is prescribed an antibiotic that mimics PABA. Explain, step by step, how this drug would ultimately stop bacterial growth, tying together competitive inhibition, enzymes, and a specific downstream molecule the bacteria need.",
+      "options": [],
+      "correct": null,
+      "explanation": "The drug (a sulfa drug) structurally resembles PABA and competitively binds the active site of the bacterial enzyme that normally converts PABA into folic acid, blocking that conversion. Without folic acid, the bacteria cannot synthesize DNA or divide, halting their growth."
+    },
+    {
+      "num": 11,
+      "type": "Multiple choice",
+      "prompt": "Which best describes why an enzyme exposed to extreme heat loses its function, even though the enzyme isn't \"used up\" in a normal reaction?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Heat destroys the substrate only"
+        },
+        {
+          "letter": "B",
+          "text": "Heat denatures the enzyme, destroying the 3D shape needed for its active site to bind substrate"
+        },
+        {
+          "letter": "C",
+          "text": "Heat always increases enzyme activity with no limit"
+        },
+        {
+          "letter": "D",
+          "text": "Heat converts the enzyme into ATP"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Denaturation from extreme temperature destroys the enzyme's specific shape, which is required for the active site to function."
+    },
+    {
+      "num": 12,
+      "type": "Multiple choice",
+      "prompt": "If a cell's allosteric site were experimentally blocked so nothing could bind there, what would most likely happen to normal negative feedback inhibition of that pathway?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Feedback inhibition would work even better"
+        },
+        {
+          "letter": "B",
+          "text": "Feedback inhibition would fail, since the pathway's product could no longer bind the allosteric site to shut the enzyme down, potentially causing overproduction"
+        },
+        {
+          "letter": "C",
+          "text": "The enzyme would immediately denature"
+        },
+        {
+          "letter": "D",
+          "text": "The active site would also stop working"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Feedback inhibition depends on the product binding the allosteric site; blocking that site removes the regulatory brake on the pathway."
+    },
+    {
+      "num": 13,
+      "type": "Multiple choice",
+      "prompt": "Tamiflu is noted as an example of a drug that works as a competitive inhibitor. Based on the definition of competitive inhibition covered in this module, what must be true about Tamiflu's structure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It must resemble the natural substrate of its target enzyme"
+        },
+        {
+          "letter": "B",
+          "text": "It must contain folic acid"
+        },
+        {
+          "letter": "C",
+          "text": "It must bind only the allosteric site"
+        },
+        {
+          "letter": "D",
+          "text": "It must permanently alter its target enzyme"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Competitive inhibitors work specifically by resembling the natural substrate closely enough to occupy the active site."
+    },
+    {
+      "num": 14,
+      "type": "Multiple choice",
+      "prompt": "Which of the following would NOT be an example of energy coupling?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ATP breakdown powering an endergonic biosynthesis reaction"
+        },
+        {
+          "letter": "B",
+          "text": "An exergonic reaction releasing energy that is captured to drive an endergonic reaction"
+        },
+        {
+          "letter": "C",
+          "text": "A reaction proceeding with no connection between energy release and energy use"
+        },
+        {
+          "letter": "D",
+          "text": "Cellular use of ATP to power active transport"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Energy coupling specifically requires linking an energy-releasing reaction to an energy-requiring one; an unconnected reaction isn't coupling at all."
+    },
+    {
+      "num": 15,
+      "type": "Open recall",
+      "prompt": "Explain why a reaction can be exergonic (energy-releasing) overall, yet still require an initial input of activation energy to get started.",
+      "options": [],
+      "correct": null,
+      "explanation": "Activation energy is the initial \"push\" needed to start any reaction, regardless of whether it's ultimately exergonic or endergonic overall; even an energetically favorable reaction needs enough initial energy to destabilize existing bonds before its energy-releasing steps can proceed. Enzymes help by lowering this required activation energy."
+    }
+  ]
+}

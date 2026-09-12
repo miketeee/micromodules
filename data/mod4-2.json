@@ -1,0 +1,339 @@
+{
+  "slug": "mod4-2",
+  "title": "Module 4 — Quiz 2",
+  "subtitle": "Prokaryotic Cells — Part 2",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multiple choice",
+      "prompt": "A cell is placed in a solution where water moves INTO the cell, causing it to swell. What term describes the surrounding solution, and which process moves the water?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hypertonic; active transport"
+        },
+        {
+          "letter": "B",
+          "text": "Hypotonic; osmosis"
+        },
+        {
+          "letter": "C",
+          "text": "Isotonic; facilitated diffusion"
+        },
+        {
+          "letter": "D",
+          "text": "Hypotonic; active transport"
+        }
+      ],
+      "correct": "B",
+      "explanation": "A hypotonic surrounding solution has lower solute concentration outside than inside, so water moves in via osmosis (passive diffusion of the solvent)."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Facilitated diffusion and active transport both require a transport protein. What is the key difference between them?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Facilitated diffusion requires energy; active transport does not"
+        },
+        {
+          "letter": "B",
+          "text": "Facilitated diffusion moves substances down their gradient (no energy needed); active transport moves substances against their gradient (requires energy)"
+        },
+        {
+          "letter": "C",
+          "text": "They are identical processes"
+        },
+        {
+          "letter": "D",
+          "text": "Active transport only works for water"
+        }
+      ],
+      "correct": "B",
+      "explanation": "The direction relative to the concentration gradient, and the resulting energy requirement, is the key distinction between the two."
+    },
+    {
+      "num": 3,
+      "type": "Multiple choice",
+      "prompt": "A proton pump uses active transport to build an H+ gradient across the membrane. Module 3 described flagella as powered by a similar force. What is this shared driving force called?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Facilitated diffusion"
+        },
+        {
+          "letter": "B",
+          "text": "Proton motive force"
+        },
+        {
+          "letter": "C",
+          "text": "Osmotic pressure"
+        },
+        {
+          "letter": "D",
+          "text": "Binary fission"
+        }
+      ],
+      "correct": "B",
+      "explanation": "The proton motive force — the H+ gradient built by proton pumps — powers both ATP-related processes and the rotation of the flagellar motor."
+    },
+    {
+      "num": 4,
+      "type": "Multi-statement",
+      "prompt": "Which statement about bacterial ribosomes is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They are the site of protein synthesis."
+        },
+        {
+          "letter": "B",
+          "text": "Bacterial ribosomes are 70S."
+        },
+        {
+          "letter": "C",
+          "text": "Human ribosomes are also 70S, identical to bacterial ribosomes."
+        },
+        {
+          "letter": "D",
+          "text": "The size difference between bacterial and human ribosomes allows for selective antibiotics."
+        },
+        {
+          "letter": "E",
+          "text": "Tetracycline targets the 70S ribosome."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False — human (eukaryotic) ribosomes are 80S, not 70S; this size difference is exactly what antibiotics like tetracycline exploit."
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "Explain why an antibiotic that targets 70S ribosomes would be a poor choice for treating a fungal infection caused by Candida albicans, even though Candida is also a microorganism.",
+      "options": [],
+      "correct": null,
+      "explanation": "Candida albicans is a eukaryote (Fungi), so its ribosomes are 80S like human cells, not 70S like bacteria — a 70S-targeting antibiotic wouldn't act on it, and antibiotics generally aren't designed to treat fungal infections at all."
+    },
+    {
+      "num": 6,
+      "type": "Multiple choice",
+      "prompt": "A bacterium under environmental stress forms a highly resistant, dormant internal structure encased in a tough peptidoglycan layer. Which genus from this module is LEAST likely to be the source, since it's not known for producing this structure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bacillus"
+        },
+        {
+          "letter": "B",
+          "text": "Clostridium"
+        },
+        {
+          "letter": "C",
+          "text": "Clostridioides"
+        },
+        {
+          "letter": "D",
+          "text": "Staphylococcus"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Endospore formers covered in this module are Bacillus, Clostridium, and Clostridioides; Staphylococcus is not among them."
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "Which of the following correctly matches a transport process to whether it requires energy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Simple diffusion — requires energy"
+        },
+        {
+          "letter": "B",
+          "text": "Osmosis — requires energy"
+        },
+        {
+          "letter": "C",
+          "text": "Active transport — requires energy"
+        },
+        {
+          "letter": "D",
+          "text": "Facilitated diffusion — requires energy"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Only active transport requires energy; simple diffusion, facilitated diffusion, and osmosis are all passive."
+    },
+    {
+      "num": 8,
+      "type": "Multiple choice",
+      "prompt": "A plasmid carrying an antibiotic-resistance gene is transferred from one bacterium to a neighboring cell. Which structure, discussed in Module 3, most directly enables this transfer?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Flagellum"
+        },
+        {
+          "letter": "B",
+          "text": "Conjugation (sex) pilus"
+        },
+        {
+          "letter": "C",
+          "text": "Capsule"
+        },
+        {
+          "letter": "D",
+          "text": "Ribosome"
+        }
+      ],
+      "correct": "B",
+      "explanation": "The conjugation pilus is the structure that physically enables plasmid transfer between bacterial cells."
+    },
+    {
+      "num": 9,
+      "type": "Multi-statement",
+      "prompt": "Which statement about endospores is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They are formed by Bacillus, Clostridium, and Clostridioides."
+        },
+        {
+          "letter": "B",
+          "text": "They are highly resistant to heat and disinfectants."
+        },
+        {
+          "letter": "C",
+          "text": "Endospores are a form of bacterial reproduction that increases population size."
+        },
+        {
+          "letter": "D",
+          "text": "Endospores can survive conditions that kill normal vegetative cells."
+        },
+        {
+          "letter": "E",
+          "text": "Endospores can later germinate back into active cells."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False — endospores are a dormant survival structure, not a reproduction method; a single cell forms one endospore, so they don't increase population size."
+    },
+    {
+      "num": 10,
+      "type": "Open recall",
+      "prompt": "C. difficile spores survive stomach acid, but the vegetative (active) cells do not. Explain why this distinction matters for how the infection actually establishes itself in the body.",
+      "options": [],
+      "correct": null,
+      "explanation": "Only the resistant spores survive passage through the acidic stomach; they then germinate into active, disease-causing vegetative cells further along in the intestine, which is what actually causes the infection."
+    },
+    {
+      "num": 11,
+      "type": "Multiple choice",
+      "prompt": "Which correctly distinguishes the role of inclusions from the role of the nucleoid?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inclusions store excess nutrients; the nucleoid houses the chromosome/genetic material"
+        },
+        {
+          "letter": "B",
+          "text": "Inclusions house the chromosome; the nucleoid stores nutrients"
+        },
+        {
+          "letter": "C",
+          "text": "Both serve the exact same function"
+        },
+        {
+          "letter": "D",
+          "text": "Inclusions are involved in genetic exchange"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Inclusions are nutrient storage granules; the nucleoid is the region containing the cell's main chromosome."
+    },
+    {
+      "num": 12,
+      "type": "Multiple choice",
+      "prompt": "A cell in a hypertonic environment undergoes plasmolysis. If that same cell were instead placed in a hypotonic environment, what would happen, and why?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It would shrink further due to more water loss"
+        },
+        {
+          "letter": "B",
+          "text": "It would swell and risk lysis, because water would move into the cell"
+        },
+        {
+          "letter": "C",
+          "text": "Nothing would change"
+        },
+        {
+          "letter": "D",
+          "text": "The cell would immediately form an endospore"
+        }
+      ],
+      "correct": "B",
+      "explanation": "A hypotonic environment has lower solute concentration outside, so water flows in, risking lysis rather than plasmolysis."
+    },
+    {
+      "num": 13,
+      "type": "Multiple choice",
+      "prompt": "Why would a bacterial cell NOT typically need bulk transport to obtain small molecules like glucose?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Because bacteria have no membrane at all"
+        },
+        {
+          "letter": "B",
+          "text": "Because small molecules like glucose can be moved via simple or facilitated diffusion instead"
+        },
+        {
+          "letter": "C",
+          "text": "Because bacteria cannot import any molecules"
+        },
+        {
+          "letter": "D",
+          "text": "Because bulk transport is faster for small molecules"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Bulk transport (endocytosis/exocytosis) is reserved for large or numerous materials; small molecules cross via simpler diffusion-based methods."
+    },
+    {
+      "num": 14,
+      "type": "Open recall",
+      "prompt": "Compare how a plasmid and the nucleoid's chromosome differ in terms of necessity for survival and their role in antibiotic resistance.",
+      "options": [],
+      "correct": null,
+      "explanation": "The chromosome (in the nucleoid) carries the essential genes required for basic survival. Plasmids are small, non-essential \"accessory\" DNA loops that often carry extra genes like antibiotic resistance, and can be shared between cells via conjugation, unlike the main chromosome."
+    },
+    {
+      "num": 15,
+      "type": "Multiple choice",
+      "prompt": "Which best explains why a proton pump is described as \"active transport\" rather than \"facilitated diffusion,\" even though both use a membrane protein?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Active transport requires energy to move H+ against its gradient, building the gradient; facilitated diffusion just lets a substance move down an existing gradient without energy"
+        },
+        {
+          "letter": "B",
+          "text": "Facilitated diffusion always involves H+ ions"
+        },
+        {
+          "letter": "C",
+          "text": "Active transport never involves ions"
+        },
+        {
+          "letter": "D",
+          "text": "There is no real difference between them"
+        }
+      ],
+      "correct": "A",
+      "explanation": "The proton pump spends energy to move H+ against its gradient (active transport); once that gradient exists, H+ flowing back down it needs no additional energy input (facilitated diffusion)."
+    }
+  ]
+}

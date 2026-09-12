@@ -58,5 +58,53 @@
     "title": "Practice Test 2",
     "subtitle": "Cumulative \u2014 Modules 1\u20138",
     "count": 56
+  },
+  {
+    "slug": "mod1-2",
+    "title": "Module 1 \u2014 Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
+  },
+  {
+    "slug": "mod2-2",
+    "title": "Module 2 \u2014 Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
+  },
+  {
+    "slug": "mod3-2",
+    "title": "Module 3 \u2014 Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
+  },
+  {
+    "slug": "mod4-2",
+    "title": "Module 4 \u2014 Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
+  },
+  {
+    "slug": "mod5-2",
+    "title": "Module 5 \u2014 Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
+  },
+  {
+    "slug": "mod6-2",
+    "title": "Module 6 \u2014 Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
+  },
+  {
+    "slug": "mod7-2",
+    "title": "Module 7 \u2014 Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
+  },
+  {
+    "slug": "mod8-2",
+    "title": "Module 8 \u2014 Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
   }
 ]

@@ -1,0 +1,356 @@
+{
+  "slug": "mod1-2",
+  "title": "Module 1 — Quiz 2",
+  "subtitle": "Introduction to Microbiology — Part 1",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multiple choice",
+      "prompt": "A patient presents with a cluster-arrangement bacterial skin infection producing golden-colored colonies, resistant to standard antibiotics. Based on binomial naming roots and the microbe spotlights from this module, which organism and condition are most likely?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Streptococcus pyogenes; strep throat"
+        },
+        {
+          "letter": "B",
+          "text": "Staphylococcus aureus; MRSA"
+        },
+        {
+          "letter": "C",
+          "text": "Candida albicans; vaginitis"
+        },
+        {
+          "letter": "D",
+          "text": "Yersinia pestis; the Plague"
+        }
+      ],
+      "correct": "B",
+      "explanation": "\"Staphylo-\" (cluster) + \"aureus\" (golden) points to Staphylococcus aureus, and its antibiotic-resistant strain is MRSA."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Which characteristic correctly places Archaea and Eukarya into different domains, even though members of both can be unicellular?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cell size alone"
+        },
+        {
+          "letter": "B",
+          "text": "Presence of a nucleus"
+        },
+        {
+          "letter": "C",
+          "text": "Ability to cause disease"
+        },
+        {
+          "letter": "D",
+          "text": "Binomial name format"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Archaea are prokaryotic (no nucleus); Eukarya are eukaryotic (have a true nucleus) — that structural difference is what separates the domains, not size or unicellularity alone."
+    },
+    {
+      "num": 3,
+      "type": "Multiple choice",
+      "prompt": "Leeuwenhoek observed bacteria in the 1670s, but the Germ Theory of Disease wasn't established until the late 1800s. Which best explains this roughly 200-year gap?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microscopes were lost and had to be reinvented"
+        },
+        {
+          "letter": "B",
+          "text": "Leeuwenhoek's findings were kept secret"
+        },
+        {
+          "letter": "C",
+          "text": "Bacteria were seen, but the observer drew the wrong causal conclusion about their origin"
+        },
+        {
+          "letter": "D",
+          "text": "The size range of bacteria had not yet been measured"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Leeuwenhoek reversed cause and effect, concluding rotting teeth spontaneously generated bacteria rather than bacteria causing the rot — it took Pasteur and Koch's later work to correct this."
+    },
+    {
+      "num": 4,
+      "type": "Multiple choice",
+      "prompt": "Candida albicans and Saccharomyces cerevisiae are both discussed in this module. What do they have in common taxonomically, despite one causing infection and the other being used in food production?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Both are Kingdom Protista"
+        },
+        {
+          "letter": "B",
+          "text": "Both are Kingdom Fungi"
+        },
+        {
+          "letter": "C",
+          "text": "Both are Domain Bacteria"
+        },
+        {
+          "letter": "D",
+          "text": "Both are viruses"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Both are unicellular fungi (yeasts) — kingdom membership isn't about whether an organism happens to be beneficial or harmful."
+    },
+    {
+      "num": 5,
+      "type": "Multi-statement",
+      "prompt": "Which of the following statements about the Three-Domain System and Four Kingdoms is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Domain Eukarya contains four kingdoms."
+        },
+        {
+          "letter": "B",
+          "text": "Domains Bacteria and Archaea are both prokaryotic."
+        },
+        {
+          "letter": "C",
+          "text": "The four kingdoms are Animalia, Plantae, Fungi, and Protista."
+        },
+        {
+          "letter": "D",
+          "text": "Kingdom Protista is found within Domain Bacteria."
+        },
+        {
+          "letter": "E",
+          "text": "Kingdom Fungi contains organisms that are heterotrophic decomposers."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False — Protista is one of the four kingdoms within Domain Eukarya, not Domain Bacteria."
+    },
+    {
+      "num": 6,
+      "type": "Open recall",
+      "prompt": "Explain how a virus, a prion, and a viroid each cause disease, focusing on what molecule (if any) each one uses to do so.",
+      "options": [],
+      "correct": null,
+      "explanation": "A virus uses nucleic acid (DNA or RNA) enclosed in a protein capsid to hijack a host cell's machinery. A prion uses a misfolded protein alone — no nucleic acid at all — which induces other proteins to misfold. A viroid uses only naked RNA, with no protein capsid, and is only known to infect plants."
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "Which sequence correctly orders these events chronologically: (1) bacteria first observed under a microscope, (2) the Germ Theory of Disease experimentally proven, (3) The Plague devastates Europe, (4) the Renaissance begins?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3, 4, 1, 2"
+        },
+        {
+          "letter": "B",
+          "text": "1, 3, 4, 2"
+        },
+        {
+          "letter": "C",
+          "text": "4, 3, 1, 2"
+        },
+        {
+          "letter": "D",
+          "text": "3, 1, 4, 2"
+        }
+      ],
+      "correct": "A",
+      "explanation": "The Plague (1346-1350) helped spark the Renaissance, which came well before Leeuwenhoek observed bacteria (1670s), which in turn came roughly 200 years before the Germ Theory was proven (late 1800s)."
+    },
+    {
+      "num": 8,
+      "type": "Multiple choice",
+      "prompt": "If you found an entity made of a protein capsid enclosing DNA, able to infect a bacterial cell but incapable of independent metabolism, which domain of life would it belong to?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bacteria"
+        },
+        {
+          "letter": "B",
+          "text": "Archaea"
+        },
+        {
+          "letter": "C",
+          "text": "Eukarya"
+        },
+        {
+          "letter": "D",
+          "text": "None of the three domains"
+        }
+      ],
+      "correct": "D",
+      "explanation": "This describes a virus, which is non-living and is not classified within any of the three Domains of Life — domains only classify living cells."
+    },
+    {
+      "num": 9,
+      "type": "Multiple choice",
+      "prompt": "Which of the following organisms would NOT be correctly placed in Domain Eukarya?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Candida albicans (Fungi)"
+        },
+        {
+          "letter": "B",
+          "text": "Saccharomyces cerevisiae (Fungi)"
+        },
+        {
+          "letter": "C",
+          "text": "Staphylococcus aureus (Bacteria)"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above belong in Eukarya"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Staphylococcus aureus is a bacterium, placing it in Domain Bacteria, not Eukarya."
+    },
+    {
+      "num": 10,
+      "type": "Multi-statement",
+      "prompt": "Which statement differentiating Bacteria and Archaea (the two prokaryotic domains) is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bacteria include species that cause human disease; Archaea are not known to cause disease."
+        },
+        {
+          "letter": "B",
+          "text": "Archaea often live in extreme environments (heat, salt, acid)."
+        },
+        {
+          "letter": "C",
+          "text": "Both domains contain organisms with a true nucleus."
+        },
+        {
+          "letter": "D",
+          "text": "Bacterial cell walls typically contain peptidoglycan."
+        },
+        {
+          "letter": "E",
+          "text": "Both domains are composed of small, unicellular organisms."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False — neither Bacteria nor Archaea have a nucleus; lacking one is exactly what makes them both prokaryotic."
+    },
+    {
+      "num": 11,
+      "type": "Open recall",
+      "prompt": "Explain how The Plague, Leeuwenhoek's discovery of bacteria, and the eventual acceptance of the Germ Theory of Disease connect as one continuous historical thread, even though centuries separate them.",
+      "options": [],
+      "correct": null,
+      "explanation": "The Plague's devastation pushed people toward rational (rather than religious) explanations, helping spark the Renaissance — the birth of modern science. That scientific mindset eventually led Leeuwenhoek to observe bacteria under a microscope in the 1670s. It then took roughly 200 more years, and the work of Pasteur and Koch, to correctly connect those observed microorganisms to the cause of disease, establishing the Germ Theory."
+    },
+    {
+      "num": 12,
+      "type": "Multiple choice",
+      "prompt": "In the name Streptococcus pyogenes, which part is the Genus, and what does the second part suggest about the disease it causes?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "\"pyogenes\" is the Genus; \"Streptococcus\" means \"pus-forming\""
+        },
+        {
+          "letter": "B",
+          "text": "\"Streptococcus\" is the Genus; \"pyogenes\" means \"pus-forming\""
+        },
+        {
+          "letter": "C",
+          "text": "\"Streptococcus\" is the species; \"pyogenes\" is the Genus"
+        },
+        {
+          "letter": "D",
+          "text": "Neither part carries any biological meaning"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Streptococcus is the Genus; \"pyogenes\" (pyo = pus, gen = formation) describes that it causes pus formation."
+    },
+    {
+      "num": 13,
+      "type": "Multiple choice",
+      "prompt": "A cell is found to have no nucleus, a peptidoglycan cell wall, and lives in a moderate-temperature environment (not extreme heat, salt, or acid). Which domain does it most likely belong to, and why not the other prokaryotic domain?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Archaea, because it lacks a nucleus"
+        },
+        {
+          "letter": "B",
+          "text": "Bacteria, because peptidoglycan and non-extreme conditions are typical of Bacteria rather than Archaea"
+        },
+        {
+          "letter": "C",
+          "text": "Eukarya, because it lacks a nucleus"
+        },
+        {
+          "letter": "D",
+          "text": "Cannot be determined without a binomial name"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Lacking a nucleus rules out Eukarya; peptidoglycan and a non-extreme environment point to Bacteria rather than Archaea, which favors extreme environments."
+    },
+    {
+      "num": 14,
+      "type": "Multiple choice",
+      "prompt": "Which best explains why Yersinia pestis, despite being extremely small and simple, is still classified in Domain Bacteria rather than considered non-living like a virus?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It causes disease"
+        },
+        {
+          "letter": "B",
+          "text": "It is a living cell capable of independent reproduction, unlike a virus"
+        },
+        {
+          "letter": "C",
+          "text": "It has a binomial name"
+        },
+        {
+          "letter": "D",
+          "text": "It was discovered before viruses were known"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Bacteria are living cells; viruses are non-living obligate intracellular parasites — the ability to live/reproduce independently is the key distinction."
+    },
+    {
+      "num": 15,
+      "type": "Multiple choice",
+      "prompt": "An entity is described as a \"non-living, obligate intracellular parasite made of a protein capsid enclosing nucleic acid.\" Which named example from this module fits this description?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "HIV"
+        },
+        {
+          "letter": "B",
+          "text": "Staphylococcus aureus"
+        },
+        {
+          "letter": "C",
+          "text": "Candida albicans"
+        },
+        {
+          "letter": "D",
+          "text": "Yersinia pestis"
+        }
+      ],
+      "correct": "A",
+      "explanation": "HIV was given in this module as an example of a virus; the other three are a bacterium and a fungus, all living cells."
+    }
+  ]
+}
