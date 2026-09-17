@@ -76,5 +76,53 @@
     "title": "Module 11",
     "subtitle": "Eukaryotes — Helminths",
     "count": 15
+  },
+  {
+    "slug": "mod1-2",
+    "title": "Module 1 — Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
+  },
+  {
+    "slug": "mod2-2",
+    "title": "Module 2 — Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
+  },
+  {
+    "slug": "mod3-2",
+    "title": "Module 3 — Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
+  },
+  {
+    "slug": "mod4-2",
+    "title": "Module 4 — Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
+  },
+  {
+    "slug": "mod5-2",
+    "title": "Module 5 — Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
+  },
+  {
+    "slug": "mod6-2",
+    "title": "Module 6 — Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
+  },
+  {
+    "slug": "mod7-2",
+    "title": "Module 7 — Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
+  },
+  {
+    "slug": "mod8-2",
+    "title": "Module 8 — Quiz 2",
+    "subtitle": "harder / synthesis",
+    "count": 15
   }
 ]
