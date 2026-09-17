@@ -1,0 +1,309 @@
+{
+  "slug": "mod11",
+  "title": "Module 11",
+  "subtitle": "Eukaryotes — Helminths",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multi-statement",
+      "prompt": "Which statement about helminths in general is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Helminths are multicellular heterotrophs."
+        },
+        {
+          "letter": "B",
+          "text": "Helminths can range from microscopic to macroscopic in size."
+        },
+        {
+          "letter": "C",
+          "text": "Their cuticle is made of collagen and chitin."
+        },
+        {
+          "letter": "D",
+          "text": "Most helminth species are harmful parasites."
+        },
+        {
+          "letter": "E",
+          "text": "The three major subgroups are Cestodes, Trematodes, and Nematodes."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Most helminths are actually harmless; only some parasitic species cause disease."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "What structure does a tapeworm (Cestode) use to attach to its host?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Oral sucker"
+        },
+        {
+          "letter": "B",
+          "text": "Scolex"
+        },
+        {
+          "letter": "C",
+          "text": "Proglottid"
+        },
+        {
+          "letter": "D",
+          "text": "Cuticle"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Scolex."
+    },
+    {
+      "num": 3,
+      "type": "Open recall",
+      "prompt": "What are proglottids, and why does their hermaphroditic nature matter for a tapeworm's reproduction?",
+      "options": [],
+      "correct": null,
+      "explanation": "Proglottids are the repeating, identical segments that make up a tapeworm's body. Because each proglottid is hermaphroditic (contains both ovaries and testes), every single segment can independently produce eggs, dramatically increasing the worm's reproductive output."
+    },
+    {
+      "num": 4,
+      "type": "Multi-statement",
+      "prompt": "Which statement comparing Cestodes and Trematodes is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Both have flat bodies with high surface area."
+        },
+        {
+          "letter": "B",
+          "text": "Trematodes attach to hosts using a scolex, just like Cestodes."
+        },
+        {
+          "letter": "C",
+          "text": "Cestodes are made of repeating segments called proglottids."
+        },
+        {
+          "letter": "D",
+          "text": "Many Trematodes are fluid feeders."
+        },
+        {
+          "letter": "E",
+          "text": "Most Trematodes are host- and organ-specific."
+        }
+      ],
+      "correct": "B",
+      "explanation": "False. Trematodes do NOT attach via a scolex or have proglottids; those are Cestode-specific features."
+    },
+    {
+      "num": 5,
+      "type": "Multiple choice",
+      "prompt": "Which characteristic distinguishes Nematodes from both Cestodes and Trematodes?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nematodes have flat, segmented bodies"
+        },
+        {
+          "letter": "B",
+          "text": "Nematodes have round, unsegmented bodies"
+        },
+        {
+          "letter": "C",
+          "text": "Nematodes are always harmless"
+        },
+        {
+          "letter": "D",
+          "text": "Nematodes lack any body systems"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Nematodes have round, unsegmented bodies."
+    },
+    {
+      "num": 6,
+      "type": "Open recall",
+      "prompt": "Why do blood-feeding helminths produce anticoagulants, and what is this a useful example of in terms of parasite adaptation?",
+      "options": [],
+      "correct": null,
+      "explanation": "Blood-feeding helminths produce anticoagulants in their saliva to keep the host's blood flowing freely while they feed, preventing clots from cutting off their food source - a useful adaptation for maximizing feeding efficiency."
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "Parasitic worms are being researched as a treatment for which of the following conditions?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bacterial pneumonia"
+        },
+        {
+          "letter": "B",
+          "text": "Allergies, Crohn's disease, and Irritable Bowel Syndrome"
+        },
+        {
+          "letter": "C",
+          "text": "Viral infections"
+        },
+        {
+          "letter": "D",
+          "text": "Fungal meningitis"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Allergies, Crohn's disease, and Irritable Bowel Syndrome."
+    },
+    {
+      "num": 8,
+      "type": "Multiple choice",
+      "prompt": "Mebendazole (Vermox) works as an antihelminthic by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Blocking DNA synthesis"
+        },
+        {
+          "letter": "B",
+          "text": "Inhibiting sugar absorption in the worm"
+        },
+        {
+          "letter": "C",
+          "text": "Inhibiting ergosterol synthesis"
+        },
+        {
+          "letter": "D",
+          "text": "Targeting the worm's 70S ribosome"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Inhibiting sugar absorption in the worm."
+    },
+    {
+      "num": 9,
+      "type": "Open recall",
+      "prompt": "What makes Caenorhabditis elegans valuable as a model research organism? Name at least two specific facts about its cell biology.",
+      "options": [],
+      "correct": null,
+      "explanation": "C. elegans has exactly 959 cells in the adult (eutely), undergoes 131 programmed cell deaths during development, and has 302 interconnected neurons - this precise, mapped cell lineage and nervous system makes it extremely valuable for studying development, cell biology, and neuroscience."
+    },
+    {
+      "num": 10,
+      "type": "Multiple choice",
+      "prompt": "A mosquito transmitting malaria is an example of a:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mechanical vector, because it just carries the parasite on its legs"
+        },
+        {
+          "letter": "B",
+          "text": "Biological vector, because the pathogen reproduces inside the mosquito"
+        },
+        {
+          "letter": "C",
+          "text": "Neither, since mosquitoes don't transmit disease"
+        },
+        {
+          "letter": "D",
+          "text": "A type of helminth"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Biological vector, because the pathogen reproduces inside the mosquito."
+    },
+    {
+      "num": 11,
+      "type": "Multiple choice",
+      "prompt": "A house fly landing on food after walking through waste, physically carrying bacteria on its body, is an example of a:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mechanical vector"
+        },
+        {
+          "letter": "B",
+          "text": "Biological vector"
+        },
+        {
+          "letter": "C",
+          "text": "Helminth"
+        },
+        {
+          "letter": "D",
+          "text": "Cestode"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Mechanical vector."
+    },
+    {
+      "num": 12,
+      "type": "Open recall",
+      "prompt": "Explain the key difference between a mechanical vector and a biological vector, using one example of each.",
+      "options": [],
+      "correct": null,
+      "explanation": "A mechanical vector transmits a pathogen by physically carrying it on its body parts, with no reproduction of the pathogen inside the vector (e.g., a house fly). A biological vector transmits a pathogen that actually reproduces inside the vector itself before being transmitted (e.g., a mosquito transmitting malaria)."
+    },
+    {
+      "num": 13,
+      "type": "Multi-statement",
+      "prompt": "Which pairing of organism to disease/classification is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Taenia — Cestode (tapeworm)"
+        },
+        {
+          "letter": "B",
+          "text": "Ascaris — Nematode (intestinal roundworm)"
+        },
+        {
+          "letter": "C",
+          "text": "Clonorchis — Trematode (liver fluke)"
+        },
+        {
+          "letter": "D",
+          "text": "Dirofilaria — causes Guinea-worm disease"
+        },
+        {
+          "letter": "E",
+          "text": "Enterobius — Nematode (pinworm)"
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Dirofilaria causes heartworm infections (Dirofilariasis), not Guinea-worm disease (which is caused by Dracunculus)."
+    },
+    {
+      "num": 14,
+      "type": "Multiple choice",
+      "prompt": "David Pritchard's hookworm research investigated:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "How hookworm infection can suppress allergies"
+        },
+        {
+          "letter": "B",
+          "text": "How to eliminate all parasitic worms from the human population"
+        },
+        {
+          "letter": "C",
+          "text": "The genetic sequence of Caenorhabditis elegans"
+        },
+        {
+          "letter": "D",
+          "text": "How mosquitoes transmit malaria"
+        }
+      ],
+      "correct": "A",
+      "explanation": "How hookworm infection can suppress allergies."
+    },
+    {
+      "num": 15,
+      "type": "Open recall",
+      "prompt": "Describe the life cycle of Ascaris, from egg ingestion to adult worm, based on what this module covered.",
+      "options": [],
+      "correct": null,
+      "explanation": "Eggs are ingested and hatch in the digestive tract; larvae enter blood vessels and travel to the lungs; the worms are then carried up the trachea and swallowed; adult worms grow and reproduce in the intestines."
+    }
+  ]
+}

@@ -2,37 +2,37 @@
   {
     "slug": "mod1",
     "title": "Module 1",
-    "subtitle": "Introduction to Microbiology \u2014 Part 1",
+    "subtitle": "Introduction to Microbiology — Part 1",
     "count": 20
   },
   {
     "slug": "mod2",
     "title": "Module 2",
-    "subtitle": "Introduction to Microbiology \u2014 Part 2",
+    "subtitle": "Introduction to Microbiology — Part 2",
     "count": 15
   },
   {
     "slug": "mod3",
     "title": "Module 3",
-    "subtitle": "Prokaryotic Cells \u2014 Part 1",
+    "subtitle": "Prokaryotic Cells — Part 1",
     "count": 20
   },
   {
     "slug": "mod4",
     "title": "Module 4",
-    "subtitle": "Prokaryotic Cells \u2014 Part 2",
+    "subtitle": "Prokaryotic Cells — Part 2",
     "count": 15
   },
   {
     "slug": "mod5",
     "title": "Module 5",
-    "subtitle": "Metabolism \u2014 Part 1",
+    "subtitle": "Metabolism — Part 1",
     "count": 17
   },
   {
     "slug": "mod6",
     "title": "Module 6",
-    "subtitle": "Metabolism \u2014 Part 2",
+    "subtitle": "Metabolism — Part 2",
     "count": 15
   },
   {
@@ -50,61 +50,31 @@
   {
     "slug": "practice1",
     "title": "Practice Test 1",
-    "subtitle": "Cumulative \u2014 Modules 1\u20138",
+    "subtitle": "Cumulative — Modules 1–8",
     "count": 56
   },
   {
     "slug": "practice2",
     "title": "Practice Test 2",
-    "subtitle": "Cumulative \u2014 Modules 1\u20138",
+    "subtitle": "Cumulative — Modules 1–8",
     "count": 56
   },
   {
-    "slug": "mod1-2",
-    "title": "Module 1 \u2014 Quiz 2",
-    "subtitle": "harder / synthesis",
+    "slug": "mod9",
+    "title": "Module 9",
+    "subtitle": "Eukaryotes — Protists",
+    "count": 16
+  },
+  {
+    "slug": "mod10",
+    "title": "Module 10",
+    "subtitle": "Eukaryotes — Fungi",
     "count": 15
   },
   {
-    "slug": "mod2-2",
-    "title": "Module 2 \u2014 Quiz 2",
-    "subtitle": "harder / synthesis",
-    "count": 15
-  },
-  {
-    "slug": "mod3-2",
-    "title": "Module 3 \u2014 Quiz 2",
-    "subtitle": "harder / synthesis",
-    "count": 15
-  },
-  {
-    "slug": "mod4-2",
-    "title": "Module 4 \u2014 Quiz 2",
-    "subtitle": "harder / synthesis",
-    "count": 15
-  },
-  {
-    "slug": "mod5-2",
-    "title": "Module 5 \u2014 Quiz 2",
-    "subtitle": "harder / synthesis",
-    "count": 15
-  },
-  {
-    "slug": "mod6-2",
-    "title": "Module 6 \u2014 Quiz 2",
-    "subtitle": "harder / synthesis",
-    "count": 15
-  },
-  {
-    "slug": "mod7-2",
-    "title": "Module 7 \u2014 Quiz 2",
-    "subtitle": "harder / synthesis",
-    "count": 15
-  },
-  {
-    "slug": "mod8-2",
-    "title": "Module 8 \u2014 Quiz 2",
-    "subtitle": "harder / synthesis",
+    "slug": "mod11",
+    "title": "Module 11",
+    "subtitle": "Eukaryotes — Helminths",
     "count": 15
   }
 ]

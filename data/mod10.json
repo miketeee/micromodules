@@ -1,0 +1,309 @@
+{
+  "slug": "mod10",
+  "title": "Module 10",
+  "subtitle": "Eukaryotes — Fungi",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multi-statement",
+      "prompt": "Which statement about Kingdom Fungi is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fungi can be unicellular or multicellular."
+        },
+        {
+          "letter": "B",
+          "text": "Fungi are heterotrophic decomposers."
+        },
+        {
+          "letter": "C",
+          "text": "Fungi are motile, using flagella to move toward food sources."
+        },
+        {
+          "letter": "D",
+          "text": "The fungal cell wall is made of chitin."
+        },
+        {
+          "letter": "E",
+          "text": "Some fungi cause disease (mycosis)."
+        }
+      ],
+      "correct": "C",
+      "explanation": "False. Fungi are non-motile."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Which statement correctly distinguishes yeasts from molds?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yeasts are multicellular; molds are unicellular"
+        },
+        {
+          "letter": "B",
+          "text": "Yeasts are aerobic only; molds are facultative anaerobes"
+        },
+        {
+          "letter": "C",
+          "text": "Yeasts are unicellular facultative anaerobes; molds are multicellular and aerobic"
+        },
+        {
+          "letter": "D",
+          "text": "Yeasts reproduce only sexually; molds only asexually"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Yeasts are unicellular facultative anaerobes; molds are multicellular and aerobic."
+    },
+    {
+      "num": 3,
+      "type": "Open recall",
+      "prompt": "Describe the process of budding in yeast, including what happens to the chitin cell wall when a bud breaks off.",
+      "options": [],
+      "correct": null,
+      "explanation": "In budding, a yeast cell doesn't split in half; instead it grows a small bud off to the side, copies its chromosome into the bud, and the bud eventually breaks off to form a new, independent cell. Where the bud breaks off, it leaves a \"bud scar\" in the chitin cell wall."
+    },
+    {
+      "num": 4,
+      "type": "Multiple choice",
+      "prompt": "Saccharomyces cerevisiae is important because it:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Causes vaginitis"
+        },
+        {
+          "letter": "B",
+          "text": "Ferments sugar into CO2 and ethanol, used in bread and alcohol production"
+        },
+        {
+          "letter": "C",
+          "text": "Is the source of penicillin"
+        },
+        {
+          "letter": "D",
+          "text": "Causes farmer's lung"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Ferments sugar into CO2 and ethanol, used in bread and alcohol production."
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "What is the difference between a hypha and the mycelium?",
+      "options": [],
+      "correct": null,
+      "explanation": "A hypha is a single filament of fungal cells; the mycelium is the entire network of many hyphae that make up a mold."
+    },
+    {
+      "num": 6,
+      "type": "Multi-statement",
+      "prompt": "Which statement about sporangiospores and conidiospores is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sporangiospores are enclosed on a sporangiophore."
+        },
+        {
+          "letter": "B",
+          "text": "Conidiospores are exposed on a conidiophore."
+        },
+        {
+          "letter": "C",
+          "text": "Both are types of asexual spores."
+        },
+        {
+          "letter": "D",
+          "text": "Aspergillus and Penicillium produce sporangiospores."
+        },
+        {
+          "letter": "E",
+          "text": "These spore types are both associated with molds."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Aspergillus and Penicillium produce conidiospores, not sporangiospores."
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "Mushroom formation involves:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Asexual reproduction only, via budding"
+        },
+        {
+          "letter": "B",
+          "text": "Sexual reproduction, with hyphae of opposite mating types fusing underground"
+        },
+        {
+          "letter": "C",
+          "text": "Binary fission of a single yeast cell"
+        },
+        {
+          "letter": "D",
+          "text": "Conidiospore formation only"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Sexual reproduction, with hyphae of opposite mating types fusing underground."
+    },
+    {
+      "num": 8,
+      "type": "Open recall",
+      "prompt": "Why are antifungal drugs difficult to develop, compared to antibacterial drugs?",
+      "options": [],
+      "correct": null,
+      "explanation": "Human and fungal cells are both eukaryotic and biochemically/metabolically very similar, so there are few exploitable differences to target with a drug - unlike bacteria, which offer clear targets like peptidoglycan or the prokaryotic (70S) ribosome."
+    },
+    {
+      "num": 9,
+      "type": "Multiple choice",
+      "prompt": "Which molecule do fungal cell membranes use to regulate fluidity, in place of the cholesterol used by human cells?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chitin"
+        },
+        {
+          "letter": "B",
+          "text": "Ergosterol"
+        },
+        {
+          "letter": "C",
+          "text": "Peptidoglycan"
+        },
+        {
+          "letter": "D",
+          "text": "Glycogen"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Ergosterol."
+    },
+    {
+      "num": 10,
+      "type": "Multiple choice",
+      "prompt": "Anidulafungin (Eraxis) works by:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inhibiting ergosterol synthesis"
+        },
+        {
+          "letter": "B",
+          "text": "Inhibiting cell wall (chitin) synthesis"
+        },
+        {
+          "letter": "C",
+          "text": "Blocking DNA synthesis"
+        },
+        {
+          "letter": "D",
+          "text": "Targeting the 70S ribosome"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Inhibiting cell wall (chitin) synthesis."
+    },
+    {
+      "num": 11,
+      "type": "Open recall",
+      "prompt": "Compare how miconazole (Monistat) and anidulafungin (Eraxis) each work, including which fungal structure each targets.",
+      "options": [],
+      "correct": null,
+      "explanation": "Miconazole (Monistat) inhibits ergosterol synthesis, disrupting the fungal cell membrane. Anidulafungin (Eraxis) instead inhibits cell wall (chitin) synthesis - a different fungal structure entirely."
+    },
+    {
+      "num": 12,
+      "type": "Multiple choice",
+      "prompt": "What is a mycosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A bacterial infection"
+        },
+        {
+          "letter": "B",
+          "text": "A fungal disease"
+        },
+        {
+          "letter": "C",
+          "text": "A type of antifungal drug"
+        },
+        {
+          "letter": "D",
+          "text": "A protozoan infection"
+        }
+      ],
+      "correct": "B",
+      "explanation": "A fungal disease."
+    },
+    {
+      "num": 13,
+      "type": "Open recall",
+      "prompt": "How did Alexander Fleming discover penicillin?",
+      "options": [],
+      "correct": null,
+      "explanation": "Fleming had a plate of growing bacteria that became contaminated with a Penicillium mold colony. He noticed bacterial cells near the mold were dying while cells farther away survived, suggesting the mold was releasing a substance that killed the bacteria which turned out to be penicillin."
+    },
+    {
+      "num": 14,
+      "type": "Multiple choice",
+      "prompt": "Which of the following is an example of a mold that produces conidiospores?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Candida albicans"
+        },
+        {
+          "letter": "B",
+          "text": "Saccharomyces cerevisiae"
+        },
+        {
+          "letter": "C",
+          "text": "Aspergillus"
+        },
+        {
+          "letter": "D",
+          "text": "None of the above; all yeasts produce conidiospores"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Aspergillus."
+    },
+    {
+      "num": 15,
+      "type": "Multi-statement",
+      "prompt": "Which statement about chitin is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It makes up the fungal cell wall."
+        },
+        {
+          "letter": "B",
+          "text": "It is also found in arthropod exoskeletons."
+        },
+        {
+          "letter": "C",
+          "text": "It is chemically similar to cellulose."
+        },
+        {
+          "letter": "D",
+          "text": "It is the sterol that regulates fungal membrane fluidity."
+        },
+        {
+          "letter": "E",
+          "text": "It is a polymer of glucosamine."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Chitin is the cell wall material, not a sterol; ergosterol is the sterol that regulates fungal membrane fluidity."
+    }
+  ]
+}

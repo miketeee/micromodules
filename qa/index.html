@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study Guide Q&amp;A — Micro Quiz Bank</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <div class="wrap qa-wrap" id="qa-root">
+    <a class="back-link" href="../index.html">&larr; All quizzes</a>
+    <p class="site-mark">MICRO QUIZ BANK &middot; STUDY GUIDE Q&amp;A</p>
+    <div id="qa-content">Loading…</div>
+  </div>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get('q');
+    const content = document.getElementById('qa-content');
+    if (!slug) {
+      content.innerHTML = '<p>No module specified.</p>';
+    } else {
+      fetch('../data-qa/' + slug + '.html')
+        .then((r) => { if (!r.ok) throw new Error('missing'); return r.text(); })
+        .then((html) => {
+          content.innerHTML = html;
+          const h1 = content.querySelector('h1');
+          if (h1) document.title = h1.textContent + ' — Micro Quiz Bank';
+        })
+        .catch(() => {
+          content.innerHTML = '<p>Could not load that study guide. <a href="../index.html">Back to all quizzes.</a></p>';
+        });
+    }
+  </script>
+</body>
+</html>

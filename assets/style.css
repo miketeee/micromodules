@@ -147,9 +147,20 @@ p.site-lede{
   color: #fff;
 }
 
+.quiz-pill.pill-qa{
+  color: #445A3A;
+  background: #E4E9DA;
+  border-color: var(--sage);
+}
+
+.quiz-pill.pill-qa:hover{
+  background: var(--sage);
+  color: #fff;
+}
+
 @media (max-width: 480px){
   .m-row{ flex-wrap: wrap; }
-  .quiz-links{ width: 100%; margin-left: calc(1.6rem + 0.9rem); }
+  .quiz-links{ width: 100%; margin-left: calc(1.6rem + 0.9rem); flex-wrap: wrap; }
 }
 
 .slide-grid{
@@ -408,4 +419,118 @@ p.quiz-sub{
 
 @media (prefers-reduced-motion: reduce){
   *{ transition: none !important; }
+}
+
+/* ---------- Q&A viewer page ---------- */
+
+.qa-wrap{ max-width: 700px; }
+
+#qa-content h1{
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0.3rem 0 1.3rem;
+  line-height: 1.25;
+}
+
+#qa-content h2{
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--violet-deep);
+  margin: 2rem 0 0.9rem;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.4rem;
+}
+
+#qa-content h3{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin: 1.4rem 0 0.5rem;
+}
+
+#qa-content p{
+  margin: 0 0 0.5rem;
+  font-size: 0.96rem;
+}
+
+#qa-content ol{
+  padding-left: 1.3rem;
+  margin: 0;
+}
+
+#qa-content ol > li{
+  margin-bottom: 1.3rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+#qa-content ol > li:last-child{
+  border-bottom: none;
+}
+
+#qa-content ul{
+  margin: 0.4rem 0 0.4rem 0.2rem;
+  padding-left: 1rem;
+  list-style: none;
+}
+
+#qa-content ul li{
+  margin-bottom: 0.3rem;
+  font-size: 0.94rem;
+}
+
+#qa-content strong{ color: var(--violet-deep); }
+#qa-content em{ font-style: italic; }
+#qa-content strong em, #qa-content em strong{
+  color: var(--violet);
+}
+
+#qa-content blockquote{
+  margin: 0 0 1.5rem;
+  padding: 0.8rem 1rem;
+  background: var(--pink-wash);
+  border-left: 3px solid var(--pink);
+  border-radius: 0 3px 3px 0;
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+
+#qa-content code{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85em;
+  background: var(--paper-raised);
+  padding: 0.1em 0.35em;
+  border-radius: 2px;
+}
+
+#qa-content table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.6rem 0 1.2rem;
+  font-size: 0.85rem;
+}
+
+#qa-content th, #qa-content td{
+  border: 1px solid var(--rule);
+  padding: 0.5rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+#qa-content th{
+  background: var(--paper-raised);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: var(--sage);
+}
+
+#qa-content hr{
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 1.6rem 0;
 }

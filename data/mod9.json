@@ -1,0 +1,334 @@
+{
+  "slug": "mod9",
+  "title": "Module 9",
+  "subtitle": "Eukaryotes — Protists",
+  "questions": [
+    {
+      "num": 1,
+      "type": "Multi-statement",
+      "prompt": "Which of the following statements about the Endosymbiotic Theory is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It proposes that mitochondria originated from engulfed aerobic bacteria."
+        },
+        {
+          "letter": "B",
+          "text": "It proposes that chloroplasts originated from engulfed photosynthetic bacteria."
+        },
+        {
+          "letter": "C",
+          "text": "It was proposed by Lynn Margulis."
+        },
+        {
+          "letter": "D",
+          "text": "It was immediately accepted by the scientific community with no criticism."
+        },
+        {
+          "letter": "E",
+          "text": "Mitochondria have their own circular chromosome, supporting the theory."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. The theory was rejected by around 15 journals initially and faced decades of criticism before acceptance."
+    },
+    {
+      "num": 2,
+      "type": "Multiple choice",
+      "prompt": "Which piece of evidence supports the Endosymbiotic Theory?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mitochondria contain 80S ribosomes like the rest of the eukaryotic cell"
+        },
+        {
+          "letter": "B",
+          "text": "Mitochondria have a double membrane and prokaryotic-type ribosomes"
+        },
+        {
+          "letter": "C",
+          "text": "Mitochondria lack any DNA of their own"
+        },
+        {
+          "letter": "D",
+          "text": "Mitochondria are square-shaped like plant cells"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Mitochondria have a double membrane and prokaryotic-type ribosomes."
+    },
+    {
+      "num": 3,
+      "type": "Open recall",
+      "prompt": "Who proposed the Endosymbiotic Theory, and what challenges did she face in getting it accepted?",
+      "options": [],
+      "correct": null,
+      "explanation": "Lynn Margulis proposed it. Her paper was rejected by roughly 15 different scientific journals before finally being published, and both she and the theory faced ongoing criticism for decades before it became accepted as a major achievement of 20th-century evolutionary biology."
+    },
+    {
+      "num": 4,
+      "type": "Multiple choice",
+      "prompt": "Kingdom Protista is divided into which two major groups?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bacteria and Archaea"
+        },
+        {
+          "letter": "B",
+          "text": "Protozoa and Algae"
+        },
+        {
+          "letter": "C",
+          "text": "Fungi and Helminths"
+        },
+        {
+          "letter": "D",
+          "text": "Cestodes and Trematodes"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Protozoa and Algae."
+    },
+    {
+      "num": 5,
+      "type": "Open recall",
+      "prompt": "What is the difference between a trophozoite and a cyst?",
+      "options": [],
+      "correct": null,
+      "explanation": "A trophozoite is the active, feeding stage of a protozoan. A cyst is a dormant stage, often the one that gets transmitted between hosts."
+    },
+    {
+      "num": 6,
+      "type": "Multi-statement",
+      "prompt": "Which statement about the protozoan subgroups is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Archaezoans have non-functional mitochondria called mitosomes."
+        },
+        {
+          "letter": "B",
+          "text": "Euglenozoans move using flagella with an internal supportive rod."
+        },
+        {
+          "letter": "C",
+          "text": "Amoebozoans move using pseudopods."
+        },
+        {
+          "letter": "D",
+          "text": "Apicomplexans are highly motile as adults."
+        },
+        {
+          "letter": "E",
+          "text": "Giardia is an example of an Archaezoan."
+        }
+      ],
+      "correct": "D",
+      "explanation": "False. Apicomplexan adults are non-motile, not highly motile."
+    },
+    {
+      "num": 7,
+      "type": "Multiple choice",
+      "prompt": "Which genus is an example of an Amoebozoan?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Giardia"
+        },
+        {
+          "letter": "B",
+          "text": "Trypanosoma"
+        },
+        {
+          "letter": "C",
+          "text": "Entamoeba"
+        },
+        {
+          "letter": "D",
+          "text": "Plasmodium"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Entamoeba."
+    },
+    {
+      "num": 8,
+      "type": "Multiple choice",
+      "prompt": "Which protozoan subgroup is characterized by obligate intracellular parasitism and complex life cycles?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Archaezoans"
+        },
+        {
+          "letter": "B",
+          "text": "Euglenozoans"
+        },
+        {
+          "letter": "C",
+          "text": "Amoebozoans"
+        },
+        {
+          "letter": "D",
+          "text": "Apicomplexans"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Apicomplexans."
+    },
+    {
+      "num": 9,
+      "type": "Open recall",
+      "prompt": "How does metronidazole (Flagyl) work, and how does its mechanism differ from chloroquine's?",
+      "options": [],
+      "correct": null,
+      "explanation": "Metronidazole (Flagyl) blocks DNA synthesis in protozoans. Chloroquine instead works by preventing Plasmodium trophozoites from degrading hemoglobin - a different mechanism targeting a different process."
+    },
+    {
+      "num": 10,
+      "type": "Multiple choice",
+      "prompt": "Which organism causes malaria, and what is its vector?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Trypanosoma; tsetse fly"
+        },
+        {
+          "letter": "B",
+          "text": "Plasmodium; Anopheles mosquito"
+        },
+        {
+          "letter": "C",
+          "text": "Trichomonas; sexual contact"
+        },
+        {
+          "letter": "D",
+          "text": "Cryptosporidium; contaminated water only"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Plasmodium; Anopheles mosquito."
+    },
+    {
+      "num": 11,
+      "type": "Multiple choice",
+      "prompt": "Which of the following causes fever and chills during a malaria infection?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The mosquito's saliva alone"
+        },
+        {
+          "letter": "B",
+          "text": "Lysing of red blood cells releasing waste"
+        },
+        {
+          "letter": "C",
+          "text": "Loss of the parasite's flagella"
+        },
+        {
+          "letter": "D",
+          "text": "Formation of a protozoan cyst"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Lysing of red blood cells releasing waste."
+    },
+    {
+      "num": 12,
+      "type": "Open recall",
+      "prompt": "Compare Giardia and Trichomonas: what do they have in common as Archaezoans, and how do they differ?",
+      "options": [],
+      "correct": null,
+      "explanation": "Both are Archaezoans (two or more flagella, non-functional mitochondria/mitosomes, anaerobic). Giardia has 2 nuclei, 8 flagella, and both trophozoite and cyst stages, causing fatty diarrhea. Trichomonas has a single nucleus, only a trophozoite stage (no cyst), is sexually transmitted, and causes vaginitis."
+    },
+    {
+      "num": 13,
+      "type": "Multi-statement",
+      "prompt": "Which statement about algae is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Algae can be unicellular or multicellular."
+        },
+        {
+          "letter": "B",
+          "text": "Algae are heterotrophic."
+        },
+        {
+          "letter": "C",
+          "text": "Dinoflagellates and diatoms are both examples of algae."
+        },
+        {
+          "letter": "D",
+          "text": "Most algae are harmless."
+        },
+        {
+          "letter": "E",
+          "text": "Diatoms have a cell wall made of silica (glass)."
+        }
+      ],
+      "correct": "B",
+      "explanation": "False. Algae are autotrophic (photosynthetic), not heterotrophic."
+    },
+    {
+      "num": 14,
+      "type": "Multiple choice",
+      "prompt": "A red tide is caused by a bloom of which organism, and what effect does it have?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A diatom; produces oxygen"
+        },
+        {
+          "letter": "B",
+          "text": "A dinoflagellate; produces a neurotoxin that harms fish and can contaminate shellfish"
+        },
+        {
+          "letter": "C",
+          "text": "An Apicomplexan; causes malaria outbreaks in coastal areas"
+        },
+        {
+          "letter": "D",
+          "text": "A Euglenozoan; causes sleeping sickness"
+        }
+      ],
+      "correct": "B",
+      "explanation": "A dinoflagellate; produces a neurotoxin that harms fish and can contaminate shellfish."
+    },
+    {
+      "num": 15,
+      "type": "Open recall",
+      "prompt": "Why are diatoms considered important/beneficial, despite algae in general having a \"downside\" example like red tide?",
+      "options": [],
+      "correct": null,
+      "explanation": "Diatoms have a glass (silica) cell wall that is inert and accumulates as diatomaceous earth, which has many practical uses (gardening/natural insecticide, reflective paint, tooth polish), and diatoms are major contributors to photosynthetic oxygen production - unlike the harmful red tide caused by dinoflagellates."
+    },
+    {
+      "num": 16,
+      "type": "Multiple choice",
+      "prompt": "Cryptosporidium is notable for being:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Highly susceptible to chlorine"
+        },
+        {
+          "letter": "B",
+          "text": "Resistant to chlorine and a leading cause of recreational water diarrhea"
+        },
+        {
+          "letter": "C",
+          "text": "Transmitted only by mosquitoes"
+        },
+        {
+          "letter": "D",
+          "text": "A type of algae"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Resistant to chlorine and a leading cause of recreational water diarrhea."
+    }
+  ]
+}
