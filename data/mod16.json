@@ -1,0 +1,364 @@
+{
+ "slug": "mod16",
+ "title": "Module 16",
+ "subtitle": "Viruses — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "HIV can infect only human CD4+ helper T cells. This is an example of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A narrow host range"
+    },
+    {
+     "letter": "B",
+     "text": "Lysogenic conversion"
+    },
+    {
+     "letter": "C",
+     "text": "A broad host range"
+    },
+    {
+     "letter": "D",
+     "text": "Latency"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Its spike proteins bind only the CD4 protein found on those cells — a narrow host range."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Which entry mechanism is the least common and is used by only a few non-enveloped viruses?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Budding"
+    },
+    {
+     "letter": "B",
+     "text": "Membrane fusion"
+    },
+    {
+     "letter": "C",
+     "text": "Endocytosis"
+    },
+    {
+     "letter": "D",
+     "text": "Direct penetration"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Direct penetration (e.g., human enterovirus) resembles phage injection."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Which entry mechanism can be used by both enveloped and non-enveloped viruses?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Membrane fusion"
+    },
+    {
+     "letter": "B",
+     "text": "Direct penetration"
+    },
+    {
+     "letter": "C",
+     "text": "Endocytosis"
+    },
+    {
+     "letter": "D",
+     "text": "Lysis"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The host cell can engulf either kind; membrane fusion requires an envelope."
+  },
+  {
+   "num": 4,
+   "type": "Multi-statement",
+   "prompt": "Which statement about uncoating is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It happens inside the host cell."
+    },
+    {
+     "letter": "B",
+     "text": "It is required after membrane fusion."
+    },
+    {
+     "letter": "C",
+     "text": "It is required after endocytosis."
+    },
+    {
+     "letter": "D",
+     "text": "It is required after direct penetration."
+    },
+    {
+     "letter": "E",
+     "text": "Uncoating releases the viral genome from the capsid."
+    }
+   ],
+   "correct": "D",
+   "explanation": "False. In direct penetration only the genome enters, so there's no capsid to remove."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "A person carries a virus that stays dormant for years as episomal DNA, then periodically causes cold sores. This is a(n) ____ infection.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acute"
+    },
+    {
+     "letter": "B",
+     "text": "Persistent"
+    },
+    {
+     "letter": "C",
+     "text": "Latent"
+    },
+    {
+     "letter": "D",
+     "text": "Lytic"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Latent: dormant episomal DNA that occasionally becomes productive (herpes simplex)."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Why can a person be HIV-positive for years without having AIDS?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "HIV is a latent virus with no virus production"
+    },
+    {
+     "letter": "B",
+     "text": "HIV can't enter T cells"
+    },
+    {
+     "letter": "C",
+     "text": "HIV causes an acute infection that resolves"
+    },
+    {
+     "letter": "D",
+     "text": "HIV integrates as a provirus and produces viruses at a slow, detectable rate (persistent infection)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Persistent infection: low-level production makes it detectable but not yet disease-causing."
+  },
+  {
+   "num": 7,
+   "type": "Open recall",
+   "prompt": "Compare how naked and enveloped viruses typically exit host cells, and how each affects the cell.",
+   "options": [],
+   "correct": null,
+   "explanation": "Naked viruses exit by lysis — the cell ruptures and is destroyed. Enveloped viruses bud through the plasma membrane, taking a piece of it (with viral spikes) as their envelope; a few buds may let the cell survive, but thousands at once destroy it."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Where does a typical budding virus get its envelope?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "From the bacterial cell wall"
+    },
+    {
+     "letter": "B",
+     "text": "From the host cell's plasma membrane"
+    },
+    {
+     "letter": "C",
+     "text": "It is encoded entirely by viral genes"
+    },
+    {
+     "letter": "D",
+     "text": "From the nucleus"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The envelope is a patch of host membrane containing viral proteins."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which influenza surface protein is needed for the budding virus to detach from the host cell?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hemagglutinin"
+    },
+    {
+     "letter": "B",
+     "text": "ACE2"
+    },
+    {
+     "letter": "C",
+     "text": "Neuraminidase"
+    },
+    {
+     "letter": "D",
+     "text": "CD4"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Neuraminidase digests the proteins tethering the virus; hemagglutinin is for attachment."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "What does the 'H1N1' designation describe?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "One helical capsid and one nucleic acid segment"
+    },
+    {
+     "letter": "B",
+     "text": "Host range 1, nucleic acid type 1"
+    },
+    {
+     "letter": "C",
+     "text": "Hemagglutinin type 1 and neuraminidase type 1"
+    },
+    {
+     "letter": "D",
+     "text": "Human-to-human transmission level 1"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Flu viruses are named by their hemagglutinin (H) and neuraminidase (N) types."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Why is Tamiflu not effective against SARS-CoV-2?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "SARS-CoV-2 is a DNA virus"
+    },
+    {
+     "letter": "B",
+     "text": "SARS-CoV-2 exits cells by exocytosis, not neuraminidase-dependent budding"
+    },
+    {
+     "letter": "C",
+     "text": "Tamiflu only blocks viral entry"
+    },
+    {
+     "letter": "D",
+     "text": "SARS-CoV-2 has no envelope"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Tamiflu inhibits neuraminidase to block budding; SARS-CoV-2 leaves via de-acidified lysosomes and exocytosis."
+  },
+  {
+   "num": 12,
+   "type": "Open recall",
+   "prompt": "Describe how SARS-CoV-2 enters, replicates in, and exits a respiratory cell.",
+   "options": [],
+   "correct": null,
+   "explanation": "Its spike protein binds ACE2 receptors, and the envelope fuses with the cell membrane, releasing the ssRNA genome. The host replicates the genome and makes viral proteins; new viruses assemble in the cytoplasm using rough ER/Golgi membrane for their envelope. They enter lysosomes, which they de-acidify so they aren't digested, and are released by exocytosis."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "How does remdesivir work?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Disrupts the viral polymerase that copies the genome"
+    },
+    {
+     "letter": "B",
+     "text": "Inhibits neuraminidase"
+    },
+    {
+     "letter": "C",
+     "text": "Blocks ACE2 receptors"
+    },
+    {
+     "letter": "D",
+     "text": "Dissolves the viral envelope"
+    }
+   ],
+   "correct": "A",
+   "explanation": "It mimics a nucleotide and interferes with viral genome replication."
+  },
+  {
+   "num": 14,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the 1918 flu pandemic is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "About 500 million people were infected."
+    },
+    {
+     "letter": "B",
+     "text": "Many state and local mask mandates were issued."
+    },
+    {
+     "letter": "C",
+     "text": "It caused about 100 million deaths."
+    },
+    {
+     "letter": "D",
+     "text": "It was most deadly to the elderly and very young."
+    },
+    {
+     "letter": "E",
+     "text": "It killed more people than the Plague."
+    }
+   ],
+   "correct": "D",
+   "explanation": "False. It was more likely to kill healthy individuals with robust immune systems."
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "A virus attaches to a cell, its envelope merges with the plasma membrane, and its capsid falls into the cytoplasm. Which pair fits?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Membrane fusion — HIV"
+    },
+    {
+     "letter": "B",
+     "text": "Endocytosis — influenza"
+    },
+    {
+     "letter": "C",
+     "text": "Direct penetration — enterovirus"
+    },
+    {
+     "letter": "D",
+     "text": "Lysis — HPV"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Envelope merging with the membrane = membrane fusion, used by HIV and SARS-CoV-2."
+  },
+  {
+   "num": 16,
+   "type": "Open recall",
+   "prompt": "Distinguish acute, latent, and persistent infections and give an example of each.",
+   "options": [],
+   "correct": null,
+   "explanation": "Acute: immediate productive phase with a quick spike in viruses, then resolves (adenovirus/common cold). Latent: genome dormant as episomal DNA, later productive and recurring (herpes simplex/cold sores; VZV/shingles). Persistent: genome integrated as a provirus with slow, detectable virus production; may later become productive (HIV → AIDS)."
+  }
+ ]
+}

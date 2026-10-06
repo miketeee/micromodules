@@ -1,0 +1,368 @@
+{
+ "slug": "mod14",
+ "title": "Module 14",
+ "subtitle": "Bacterial Genetics — Part 3",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multi-statement",
+   "prompt": "Which statement about horizontal gene transfer is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Plasmids carry accessory genes separate from the chromosome."
+    },
+    {
+     "letter": "B",
+     "text": "It is what makes genetic engineering of bacteria possible."
+    },
+    {
+     "letter": "C",
+     "text": "It passes genetic information within a generation."
+    },
+    {
+     "letter": "D",
+     "text": "It is how humans pass genes to their children."
+    },
+    {
+     "letter": "E",
+     "text": "Bacteria can exchange plasmid copies with neighbors."
+    }
+   ],
+   "correct": "D",
+   "explanation": "False. Parent-to-child inheritance is vertical gene transfer."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "A restriction enzyme that recognizes GAATTC makes a staggered cut. What does this produce?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Primers"
+    },
+    {
+     "letter": "B",
+     "text": "Blunt ends"
+    },
+    {
+     "letter": "C",
+     "text": "Sticky ends"
+    },
+    {
+     "letter": "D",
+     "text": "Okazaki fragments"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The zigzag cut leaves single-stranded overhangs (sticky ends) that pair with complementary overhangs."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Why did Paul Berg cut both viral DNAs with the same restriction enzyme?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "To make the DNA single-stranded"
+    },
+    {
+     "letter": "B",
+     "text": "Because only one restriction enzyme existed"
+    },
+    {
+     "letter": "C",
+     "text": "So the pieces would have matching sticky ends that could join"
+    },
+    {
+     "letter": "D",
+     "text": "To destroy the cancer-causing genes"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Same enzyme → complementary sticky ends, which ligase can then seal together."
+  },
+  {
+   "num": 4,
+   "type": "Open recall",
+   "prompt": "What did Paul Berg refuse to do with his recombinant DNA, and why?",
+   "options": [],
+   "correct": null,
+   "explanation": "He refused to put it into E. coli. It contained DNA from SV40 (which causes cancer in monkeys), and E. coli is common in the human gut — if it escaped the lab, it could pose a cancer risk to humans. He thought it was simply too soon."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "How did Boyer's team create a gene for human insulin to put in bacteria?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Used PCR on human pancreas cells"
+    },
+    {
+     "letter": "B",
+     "text": "Cut it out of a pig chromosome"
+    },
+    {
+     "letter": "C",
+     "text": "Worked backward from insulin's amino-acid sequence to a DNA sequence and synthesized it"
+    },
+    {
+     "letter": "D",
+     "text": "Used CRISPR to edit E. coli's own genes"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Knowing insulin's primary structure, they reversed the central dogma (protein → mRNA → DNA) and built a synthetic gene."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Which PCR step occurs at about 55 °C?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Denaturation"
+    },
+    {
+     "letter": "B",
+     "text": "Extension"
+    },
+    {
+     "letter": "C",
+     "text": "Annealing (priming)"
+    },
+    {
+     "letter": "D",
+     "text": "Ligation"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Denaturation ~96 °C, annealing ~55 °C, extension ~72 °C."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Why is Taq polymerase used in PCR instead of a typical bacterial DNA polymerase?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It works at room temperature"
+    },
+    {
+     "letter": "B",
+     "text": "It doesn't need primers"
+    },
+    {
+     "letter": "C",
+     "text": "It is thermostable and survives the high denaturation temperatures"
+    },
+    {
+     "letter": "D",
+     "text": "It copies RNA into DNA"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Taq comes from the thermophile Thermus aquaticus, so it doesn't denature at near-boiling temperatures."
+  },
+  {
+   "num": 8,
+   "type": "Multi-statement",
+   "prompt": "Which statement about PCR is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Helicase, primase, and ligase must be added to the tube."
+    },
+    {
+     "letter": "B",
+     "text": "Primers flank the region to be copied."
+    },
+    {
+     "letter": "C",
+     "text": "The number of target copies increases exponentially."
+    },
+    {
+     "letter": "D",
+     "text": "It amplifies a specific region of DNA."
+    },
+    {
+     "letter": "E",
+     "text": "A thermal cycler automates the temperature changes."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False. Heat does helicase's job, synthetic primers replace primase, and ligase isn't needed; DNA polymerase is the only enzyme added."
+  },
+  {
+   "num": 9,
+   "type": "Open recall",
+   "prompt": "Explain how a PCR test gives a positive versus a negative result for a pathogen.",
+   "options": [],
+   "correct": null,
+   "explanation": "Primers are designed to match a sequence unique to the pathogen. If the pathogen's DNA is in the sample, the primers bind and the region is amplified over many cycles → positive. If it isn't, the primers have nothing to bind, nothing is amplified → negative."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "What determines where Cas9 cuts DNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The ~20-nucleotide target sequence of its guide RNA"
+    },
+    {
+     "letter": "B",
+     "text": "A palindromic recognition sequence built into Cas9"
+    },
+    {
+     "letter": "C",
+     "text": "The promoter of the gene"
+    },
+    {
+     "letter": "D",
+     "text": "Random chance"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The guide RNA base-pairs with matching DNA; swapping guide RNAs reprograms Cas9."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "A researcher wants to replace a faulty gene sequence with a correct one using CRISPR. What must be supplied along with Cas9 and guide RNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Donor DNA with ends matching the cut site"
+    },
+    {
+     "letter": "B",
+     "text": "DNA ligase"
+    },
+    {
+     "letter": "C",
+     "text": "Taq polymerase"
+    },
+    {
+     "letter": "D",
+     "text": "A restriction enzyme"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Donor DNA tricks the cell into homology-directed repair, copying the corrected sequence in (knock-in)."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "If a cell repairs a Cas9 cut by non-homologous end joining, what usually happens to the gene?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is transcribed more often"
+    },
+    {
+     "letter": "B",
+     "text": "It is knocked out (inactivated) by a mutation"
+    },
+    {
+     "letter": "C",
+     "text": "It is corrected"
+    },
+    {
+     "letter": "D",
+     "text": "It is copied onto a plasmid"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Random nucleotides are glued in, introducing a mutation that usually ruins the gene."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Why is cystic fibrosis hard to treat with CRISPR in an adult patient?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Every cell carries the faulty gene, so Cas9 would need to reach essentially all of them"
+    },
+    {
+     "letter": "B",
+     "text": "CRISPR can't cut human DNA"
+    },
+    {
+     "letter": "C",
+     "text": "Cystic fibrosis is caused by a virus"
+    },
+    {
+     "letter": "D",
+     "text": "The CFTR gene is on a plasmid"
+    }
+   ],
+   "correct": "A",
+   "explanation": "It's inherited, so it's in every cell; correcting it is far easier in a fertilized egg/embryo."
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Which pair discovered CRISPR gene editing (Nobel 2020)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Watson & Crick"
+    },
+    {
+     "letter": "B",
+     "text": "Doudna & Charpentier"
+    },
+    {
+     "letter": "C",
+     "text": "Hershey & Chase"
+    },
+    {
+     "letter": "D",
+     "text": "Cohen & Boyer"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Jennifer Doudna and Emmanuelle Charpentier."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "What is germline gene editing, and what is currently allowed for human embryos?",
+   "options": [],
+   "correct": null,
+   "explanation": "Editing sperm, eggs, or embryos so the change is in every cell and is passed to future generations. Research on human embryos and germ cells is supported (NAS, 2017), but edited embryos may not be implanted — no CRISPR babies."
+  },
+  {
+   "num": 16,
+   "type": "Multi-statement",
+   "prompt": "Which statement about CRISPR is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It has been used to treat sickle cell disease in an adult patient."
+    },
+    {
+     "letter": "B",
+     "text": "It is naturally an immune system in bacteria."
+    },
+    {
+     "letter": "C",
+     "text": "It defends bacteria against bacteriophage DNA."
+    },
+    {
+     "letter": "D",
+     "text": "It can be used to knock genes in or out."
+    },
+    {
+     "letter": "E",
+     "text": "CRISPR-edited foods must be labeled as GMOs."
+    }
+   ],
+   "correct": "E",
+   "explanation": "False. Editing (turning genes on/off) isn't classed as a GMO, so CRISPR-edited foods don't have to be labeled."
+  }
+ ]
+}

@@ -124,5 +124,41 @@
     "title": "Module 8 — Quiz 2",
     "subtitle": "harder / synthesis",
     "count": 15
+  },
+  {
+    "slug": "mod12",
+    "title": "Module 12",
+    "subtitle": "Bacterial Genetics — Part 1",
+    "count": 18
+  },
+  {
+    "slug": "mod13",
+    "title": "Module 13",
+    "subtitle": "Bacterial Genetics — Part 2",
+    "count": 16
+  },
+  {
+    "slug": "mod14",
+    "title": "Module 14",
+    "subtitle": "Bacterial Genetics — Part 3",
+    "count": 16
+  },
+  {
+    "slug": "mod15",
+    "title": "Module 15",
+    "subtitle": "Viruses — Part 1",
+    "count": 16
+  },
+  {
+    "slug": "mod16",
+    "title": "Module 16",
+    "subtitle": "Viruses — Part 2",
+    "count": 16
+  },
+  {
+    "slug": "mod17",
+    "title": "Module 17",
+    "subtitle": "Viruses — Part 3",
+    "count": 16
   }
 ]

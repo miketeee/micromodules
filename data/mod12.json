@@ -1,0 +1,401 @@
+{
+ "slug": "mod12",
+ "title": "Module 12",
+ "subtitle": "Bacterial Genetics — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multi-statement",
+   "prompt": "Which statement about DNA structure is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The two strands are antiparallel."
+    },
+    {
+     "letter": "B",
+     "text": "Adenine pairs with thymine and guanine pairs with cytosine."
+    },
+    {
+     "letter": "C",
+     "text": "DNA has a roughly constant width of about 2 nm."
+    },
+    {
+     "letter": "D",
+     "text": "DNA is double-stranded and twists into a double helix."
+    },
+    {
+     "letter": "E",
+     "text": "The sugar-phosphate backbone is held together by hydrogen bonds."
+    }
+   ],
+   "correct": "E",
+   "explanation": "False. The backbone is held together by strong covalent bonds; hydrogen bonds hold the two strands together across the middle."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "In Griffith's experiment, which injection killed the mouse even though neither component killed a mouse on its own?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Heat-killed smooth cells"
+    },
+    {
+     "letter": "B",
+     "text": "Live rough cells"
+    },
+    {
+     "letter": "C",
+     "text": "Heat-killed smooth cells + live rough cells"
+    },
+    {
+     "letter": "D",
+     "text": "Live smooth cells + protease"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Heat-killed S + live R killed the mouse and living S cells were recovered — the R cells had been transformed."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Avery added DNase to the heat-killed S + live R mixture and the mouse lived. What did this show?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The capsule is made of DNA"
+    },
+    {
+     "letter": "B",
+     "text": "Rough cells are pathogenic"
+    },
+    {
+     "letter": "C",
+     "text": "Protein is the genetic material"
+    },
+    {
+     "letter": "D",
+     "text": "DNA is the genetic material"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Destroying DNA blocked transformation, while destroying protein (protease) did not — so DNA is the genetic material."
+  },
+  {
+   "num": 4,
+   "type": "Open recall",
+   "prompt": "What did Rosalind Franklin contribute to the discovery of DNA's structure, and why didn't she share the Nobel Prize?",
+   "options": [],
+   "correct": null,
+   "explanation": "Using X-ray crystallography, she crystallized DNA and produced Photo 51, showing DNA is a double helix. She died at 38 (likely from X-ray exposure) and the Nobel Prize (1962) is not awarded posthumously."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Which component of a nucleotide makes it unique (A vs G vs C vs T)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Nitrogenous base"
+    },
+    {
+     "letter": "B",
+     "text": "Phosphate group"
+    },
+    {
+     "letter": "C",
+     "text": "Pentose sugar"
+    },
+    {
+     "letter": "D",
+     "text": "Hydroxyl group"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The nitrogenous base is the only part that differs among nucleotides."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "A bacterial genome is 30% thymine. What percentage is guanine?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "30%"
+    },
+    {
+     "letter": "B",
+     "text": "20%"
+    },
+    {
+     "letter": "C",
+     "text": "40%"
+    },
+    {
+     "letter": "D",
+     "text": "70%"
+    }
+   ],
+   "correct": "B",
+   "explanation": "T = A = 30% → A + T = 60% → G + C = 40% → G = 20%."
+  },
+  {
+   "num": 7,
+   "type": "Multi-statement",
+   "prompt": "Which statement comparing DNA and RNA is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "DNA uses deoxyribose; RNA uses ribose."
+    },
+    {
+     "letter": "B",
+     "text": "RNA is typically single-stranded."
+    },
+    {
+     "letter": "C",
+     "text": "RNA contains uracil in place of thymine."
+    },
+    {
+     "letter": "D",
+     "text": "Uracil pairs with guanine."
+    },
+    {
+     "letter": "E",
+     "text": "Both are polymers of nucleotides."
+    }
+   ],
+   "correct": "D",
+   "explanation": "False. Uracil pairs with adenine, just as thymine does."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which end of a DNA strand begins with a phosphate group attached to the sugar?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The 3' end"
+    },
+    {
+     "letter": "B",
+     "text": "The 5' end"
+    },
+    {
+     "letter": "C",
+     "text": "Both ends"
+    },
+    {
+     "letter": "D",
+     "text": "Neither end"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The 5' end starts with a phosphate on carbon 5; the 3' end finishes with an –OH on carbon 3."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which enzyme unzips and unwinds the double helix to create a replication fork?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Helicase"
+    },
+    {
+     "letter": "B",
+     "text": "Gyrase"
+    },
+    {
+     "letter": "C",
+     "text": "Ligase"
+    },
+    {
+     "letter": "D",
+     "text": "Primase"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Helicase unzips the helix. Gyrase uncoils supercoiling first; primase lays primers; ligase joins fragments."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Why is the lagging strand built in Okazaki fragments?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ligase destroys the strand as it is built"
+    },
+    {
+     "letter": "B",
+     "text": "Helicase can only open short sections at a time"
+    },
+    {
+     "letter": "C",
+     "text": "The lagging strand is made of RNA"
+    },
+    {
+     "letter": "D",
+     "text": "DNA polymerase and primase can only synthesize 5' to 3', which runs away from the fork on that strand"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Because synthesis is restricted to 5'→3', one template strand must be copied backward in short primed pieces that ligase later joins."
+  },
+  {
+   "num": 11,
+   "type": "Open recall",
+   "prompt": "List the five replication enzymes in the order they act and give each one's job.",
+   "options": [],
+   "correct": null,
+   "explanation": "Gyrase — uncoils supercoiled DNA; Helicase — unzips/unwinds the helix forming the fork; Primase — lays an RNA primer; DNA polymerase — adds complementary nucleotides 5'→3' and replaces the primer with DNA; Ligase — joins Okazaki fragments on the lagging strand."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "How many replication forks form when a bacterium replicates its circular chromosome?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Two"
+    },
+    {
+     "letter": "B",
+     "text": "One"
+    },
+    {
+     "letter": "C",
+     "text": "One per gene"
+    },
+    {
+     "letter": "D",
+     "text": "Four"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Two helicases leave the origin in opposite directions, creating two forks that meet on the other side of the loop."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Ciprofloxacin stops bacterial growth by targeting which step?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adding nucleotides to the new strand"
+    },
+    {
+     "letter": "B",
+     "text": "Joining Okazaki fragments"
+    },
+    {
+     "letter": "C",
+     "text": "Uncoiling supercoiled DNA"
+    },
+    {
+     "letter": "D",
+     "text": "Laying RNA primers"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Cipro inhibits bacterial DNA gyrase, so DNA can't be uncoiled and replicated."
+  },
+  {
+   "num": 14,
+   "type": "Multi-statement",
+   "prompt": "Which statement about genotype and phenotype is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Phenotype determines genotype."
+    },
+    {
+     "letter": "B",
+     "text": "Genotype refers to the genes and nucleotide sequences in the genome."
+    },
+    {
+     "letter": "C",
+     "text": "A gene encodes the primary structure of a protein."
+    },
+    {
+     "letter": "D",
+     "text": "Being Gram-negative is a phenotypic trait."
+    },
+    {
+     "letter": "E",
+     "text": "Being a facultative anaerobe is a phenotypic trait."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False. Genotype determines phenotype, not the other way around."
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "What did Craig Venter accomplish with Mycoplasma genitalium?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Created the first artificial genome and got a cell to run on it"
+    },
+    {
+     "letter": "B",
+     "text": "Discovered transformation"
+    },
+    {
+     "letter": "C",
+     "text": "Built the first recombinant DNA molecule"
+    },
+    {
+     "letter": "D",
+     "text": "Proved DNA is double-stranded"
+    }
+   ],
+   "correct": "A",
+   "explanation": "He sequenced its 521-gene chromosome, synthesized an artificial copy, and transplanted it into a chromosome-less cell."
+  },
+  {
+   "num": 16,
+   "type": "Multiple choice",
+   "prompt": "Which DNA strand runs 5'→3' and has the same sequence as the mRNA? (slides)",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lagging strand"
+    },
+    {
+     "letter": "B",
+     "text": "Template strand"
+    },
+    {
+     "letter": "C",
+     "text": "Coding strand"
+    },
+    {
+     "letter": "D",
+     "text": "Non-coding strand"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The coding strand matches the mRNA (T instead of U); the 3'→5' non-coding strand is the template."
+  },
+  {
+   "num": 17,
+   "type": "Open recall",
+   "prompt": "What does 'semi-conservative' mean, and why does replication take most of a bacterium's ~30-minute generation time?",
+   "options": [],
+   "correct": null,
+   "explanation": "Each new double helix keeps one original (parent) strand and pairs it with one newly built (daughter) strand. Copying the whole chromosome is the slow step; the actual splitting in binary fission happens quickly."
+  },
+  {
+   "num": 18,
+   "type": "Open recall",
+   "prompt": "How did Hershey and Chase confirm DNA is the genetic material? (slides/textbook)",
+   "options": [],
+   "correct": null,
+   "explanation": "They labeled T2 phage protein with ³⁵S and phage DNA with ³²P, let each infect E. coli, then blended and centrifuged. Only the ³²P (DNA) ended up inside the bacteria, so the phage's DNA — not its protein — directs new phage production."
+  }
+ ]
+}

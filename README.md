@@ -1,6 +1,6 @@
 # Micro Quiz Bank
 
-A static, self-grading quiz site built from the Module 1–8 study guides plus two cumulative practice tests.
+A static, self-grading quiz site built from the Module 1–17 study guides plus two cumulative practice tests.
 
 ## Publishing to GitHub Pages
 
@@ -20,6 +20,7 @@ A static, self-grading quiz site built from the Module 1–8 study guides plus t
 ## File structure
 
 ```
+navigator/index.html  Micro Navigator — flowcharts, check-my-work tools, and drill for Modules 9–17 (single self-contained file)
 index.html          homepage — links to every quiz
 quiz/index.html      generic quiz runner (reads ?q=<slug> from the URL)
 assets/style.css      shared styles

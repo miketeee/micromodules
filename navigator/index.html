@@ -1,0 +1,1297 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Micro Navigator</title>
+<meta name="description" content="Flowcharts, check-my-work tools, and a drill for Microbiology Modules 9–17 (protists through viruses), built from the course study guides, lectures, and slides.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap');
+:root{
+  --bg:#EEF0E6; --card:#F8F9F3; --ink:#20261F; --muted:#59614F; --line:#D3D8C5; --soft:#E4E8D9;
+  --accent:#5B3A73; --accent-soft:#E7DEEC; --ok:#2F6A3C; --ok-bg:#E1EEDC; --bad:#9A3B3B; --bad-bg:#F3DCE2;
+  --warn-bg:#F6EBD3; --warn-ink:#6B4A12;
+  --euk:#7A8471; --dna:#5B3A73; --gene:#B9536F; --tech:#2E7A78; --virus:#A0612A;
+  --radius:14px; --shadow:0 1px 2px rgba(30,40,20,.05),0 4px 16px rgba(30,40,20,.05);
+  --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#16181A; --card:#1F2224; --ink:#E8EAE3; --muted:#A3A99A; --line:#33373A; --soft:#272B2D;
+    --accent:#B99BD0; --accent-soft:#2E2538; --ok:#9BD8A6; --ok-bg:#1A2E1F; --bad:#F0A6B6; --bad-bg:#3A1D25;
+    --warn-bg:#352A12; --warn-ink:#F1CF86;
+    --euk:#AEB8A2; --dna:#B99BD0; --gene:#E58DA5; --tech:#6CC6C2; --virus:#E0A16A; --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#16181A; --card:#1F2224; --ink:#E8EAE3; --muted:#A3A99A; --line:#33373A; --soft:#272B2D;
+  --accent:#B99BD0; --accent-soft:#2E2538; --ok:#9BD8A6; --ok-bg:#1A2E1F; --bad:#F0A6B6; --bad-bg:#3A1D25;
+  --warn-bg:#352A12; --warn-ink:#F1CF86;
+  --euk:#AEB8A2; --dna:#B99BD0; --gene:#E58DA5; --tech:#6CC6C2; --virus:#E0A16A; --shadow:none;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+a{color:var(--accent)}
+code{font-family:var(--mono);font-size:.92em;background:var(--soft);padding:1px 5px;border-radius:5px}
+header.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.top .in{max-width:820px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:10px}
+.brand{font-weight:700;text-decoration:none;color:var(--ink);letter-spacing:-.01em;display:flex;align-items:center;gap:8px}
+.brand .mark{width:26px;height:26px;border-radius:8px;background:var(--accent);color:#fff;display:grid;place-items:center;font-size:13px}
+header.top nav{margin-left:auto;display:flex;gap:6px}
+.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:7px 14px;font:inherit;font-size:14px;text-decoration:none;cursor:pointer}
+.btn:hover{border-color:var(--accent)}
+.btn.ghost{background:transparent}
+main{max-width:820px;margin:0 auto;padding:18px 16px 60px}
+.hero{padding:18px 2px 8px}
+.eyebrow{margin:0 0 6px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(24px,5vw,32px);line-height:1.2;margin:0 0 8px;letter-spacing:-.02em;text-wrap:balance}
+.lede{margin:0;color:var(--muted);max-width:60ch}
+.search{margin:16px 0 8px}
+.search input{width:100%}
+.group{margin:22px 0}
+.group h2{font-size:14px;letter-spacing:.06em;text-transform:uppercase;margin:0 0 10px;color:var(--tc,var(--muted));display:flex;align-items:center;gap:8px}
+.group h2::before{content:"";width:10px;height:10px;border-radius:3px;background:var(--tc,var(--muted))}
+.tag-euk{--tc:var(--euk)} .tag-dna{--tc:var(--dna)} .tag-gene{--tc:var(--gene)} .tag-tech{--tc:var(--tech)} .tag-virus{--tc:var(--virus)}
+.opts{display:grid;gap:8px}
+.opt{display:grid;grid-template-columns:1fr auto;grid-template-areas:"t c" "h c";align-items:center;gap:2px 12px;padding:13px 16px;border:1px solid var(--line);border-left:4px solid var(--tc,var(--accent));background:var(--card);border-radius:12px;text-decoration:none;color:var(--ink);box-shadow:var(--shadow);transition:transform .08s,border-color .15s}
+.opt:hover{border-color:var(--tc,var(--accent));transform:translateY(-1px)}
+.opt:focus-visible{outline:3px solid var(--accent-soft);outline-offset:2px}
+.opt-t{grid-area:t;font-weight:600}
+.opt-h{grid-area:h;font-size:13px;color:var(--muted)}
+.chev{grid-area:c;color:var(--tc,var(--accent));font-weight:700}
+.trail{display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px;font-size:13px;margin:4px 0 14px}
+.crumb{text-decoration:none;padding:3px 10px;border-radius:999px;background:var(--soft);color:var(--ink);max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+a.crumb:hover{background:var(--accent-soft)}
+.crumb.here{background:var(--accent);color:#fff}
+.crumb.muted{background:transparent;color:var(--tc);font-weight:700;padding:3px 2px}
+.sep{color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow);margin-bottom:16px}
+.node{border-top:5px solid var(--tc,var(--accent))}
+.steps{margin:10px 0 0;padding-left:22px}
+.steps li{margin:8px 0;padding-left:4px}
+.watch{margin-top:16px;background:var(--warn-bg);color:var(--warn-ink);border-radius:10px;padding:12px 14px}
+.watch strong{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px}
+.watch p{margin:4px 0}
+.notes-link{margin:14px 0 0;font-size:14px}
+.verdict{display:inline-block;font-weight:800;letter-spacing:.06em;padding:4px 12px;border-radius:8px;margin:0 0 6px}
+.v-polar{color:var(--bad)} .verdict.v-polar{background:var(--bad-bg)}
+.v-non{color:var(--ok)} .verdict.v-non{background:var(--ok-bg)}
+.navrow{display:flex;gap:8px;flex-wrap:wrap}
+.tool .eyebrow{color:var(--accent)}
+.field{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--muted);min-width:0}
+.field span{font-weight:600}
+input,select,textarea{font:inherit;font-size:16px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-width:0;width:100%}
+textarea{resize:vertical}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+input[readonly]{background:var(--soft)}
+.grid2,.grid3,.grid4{display:grid;gap:10px;margin-bottom:8px}
+.grid2{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.grid3{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.grid4{grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
+fieldset.side{border:1px solid var(--line);border-radius:12px;padding:10px 12px 12px;margin:0;display:grid;gap:8px}
+legend{font-size:13px;font-weight:700;color:var(--muted);padding:0 4px}
+.hint{font-size:13px;color:var(--muted);margin:6px 0}
+.center{text-align:center}
+.res{margin-top:12px;border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--bg)}
+.res p{margin:8px 0}
+.res-ok{border-color:color-mix(in srgb,var(--ok) 40%,var(--line))}
+.res-bad{border-color:color-mix(in srgb,var(--bad) 45%,var(--line));background:var(--bad-bg);color:var(--bad)}
+.ans{display:flex;flex-direction:column;gap:2px;margin-bottom:6px}
+.ans-l{font-size:13px;font-weight:700;color:var(--muted)}
+.ans-v{font-size:clamp(20px,4.5vw,26px);font-weight:700;letter-spacing:-.01em;line-height:1.25;word-break:break-word}
+.ans-s{font-size:13px;color:var(--muted)}
+.duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.duo .ans{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.why{margin:6px 0;padding-left:20px}
+.why li{margin:5px 0}
+.checks{list-style:none;padding:0;margin:8px 0}
+.checks li{padding:6px 10px;border-radius:8px;margin:4px 0}
+.checks .pass{background:var(--ok-bg);color:var(--ok)}
+.checks .fail{background:var(--bad-bg);color:var(--bad);font-weight:600}
+.res-bad .checks .pass{color:var(--ok)}
+.lbl{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:14px 0 6px!important}
+.stats{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.stats span{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:5px 10px;font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.chip{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:4px 11px;cursor:pointer}
+button.chip:hover{border-color:var(--accent)}
+.chip.static{cursor:default;font-size:15px;font-weight:600}
+.chip.pri{background:var(--accent);color:#fff;border-color:var(--accent)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;margin-bottom:10px;background:var(--bg);flex-wrap:wrap}
+.seg button{font:inherit;font-size:14px;border:0;background:transparent;color:var(--muted);padding:6px 12px;border-radius:999px;cursor:pointer}
+.seg button.on{background:var(--card);color:var(--ink);box-shadow:var(--shadow);font-weight:600;outline:1px solid var(--line)}
+.orbs{display:flex;flex-wrap:wrap;gap:14px;margin:4px 0}
+.orb{display:flex;flex-direction:column;align-items:center}
+.boxes{display:flex}
+.bx{width:34px;height:34px;border:1.5px solid var(--ink);display:grid;place-items:center;font-size:17px;letter-spacing:-2px;margin-left:-1.5px;background:var(--card)}
+.bx:first-child{margin-left:0}
+.orb-l{font-size:13px;margin-top:3px;color:var(--muted);font-weight:600}
+.full{font-size:14px;color:var(--muted);word-break:break-word}
+.cmp{font-weight:600;padding:6px 10px;border-radius:8px}
+.cmp-ok{background:var(--ok-bg);color:var(--ok)} .cmp-bad{background:var(--bad-bg);color:var(--bad)}
+.rankline{font-size:clamp(18px,4vw,22px);font-weight:700}
+.rankline span{color:var(--muted);font-weight:400;margin:0 4px}
+.twocol{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.rank{margin:4px 0;padding-left:0;list-style:none}
+.spectrum{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px}
+.spectrum span{font-size:12px;padding:3px 8px;border-radius:6px;background:var(--soft);color:var(--muted)}
+.spectrum span.on{background:var(--accent);color:#fff;font-weight:700}
+.lewisbox{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px}
+svg.lewis{display:block;width:100%;max-width:340px;max-height:280px;margin:0 auto;color:var(--ink)}
+svg.lewis line{stroke:currentColor;stroke-width:2;stroke-linecap:round}
+svg.lewis .at{font:600 16px system-ui,sans-serif;fill:currentColor}
+svg.lewis .dot{fill:currentColor}
+svg.lewis .fc{font:700 10px system-ui,sans-serif;fill:var(--accent)}
+svg.lewis .br{fill:none;stroke:currentColor;stroke-width:1.6}
+svg.lewis .chg{font:600 13px system-ui,sans-serif;fill:currentColor}
+.dotwrap{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.dotsvg{width:120px;height:120px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px}
+.geo{margin-top:6px}
+hr{border:0;border-top:1px solid var(--line);margin:18px 0}
+.notes section{border-top:1px solid var(--line);padding-top:6px;margin-top:10px;scroll-margin-top:70px;border-radius:8px}
+.notes h3{font-size:16px;margin:8px 0 4px}
+.notes ul{margin:4px 0 8px;padding-left:20px}
+.notes li{margin:3px 0}
+.notes section.flash{animation:flash 2s ease}
+@keyframes flash{0%,40%{background:var(--accent-soft)}100%{background:transparent}}
+
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.btn.primary:hover{filter:brightness(1.08)}
+.btn.small{padding:4px 10px;font-size:13px}
+.dim{color:var(--muted);font-weight:400}
+.mono{font-family:var(--mono)}
+.drillcta{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0 4px;padding:14px 16px;border-radius:12px;background:var(--accent);color:#fff;text-decoration:none;box-shadow:var(--shadow)}
+.drillcta b{display:block;font-size:17px}
+.drillcta small{display:block;opacity:.9;font-size:13px}
+.drillcta .chev{color:#fff}
+.drillgrid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin-top:10px}
+.dcard{border-top:5px solid var(--tc);display:flex;flex-direction:column;gap:6px;margin:0}
+.dcard h2{font-size:18px;margin:0 0 6px}
+.dcard .btn.primary{align-self:flex-start;margin-top:10px}
+.dcard .seg{display:grid;grid-template-columns:repeat(3,1fr);border-radius:12px;width:100%}
+.dcard .seg button{border-radius:9px;font-size:13px;padding:7px 6px;line-height:1.25}
+.togs{display:grid;gap:6px}
+.togs.inline{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.tog{display:flex;align-items:flex-start;gap:10px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;cursor:pointer;background:var(--bg)}
+.tog input{width:18px;height:18px;margin:2px 0 0;accent-color:var(--accent);flex:none}
+.tog span{font-size:14px;font-weight:600;color:var(--ink)}
+.tog small{display:block;font-weight:400;color:var(--muted);font-size:12px}
+.ref summary{cursor:pointer;font-weight:600}
+.refc{display:grid;gap:10px;margin-top:10px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.refrow{border:1px solid var(--line);border-radius:10px;padding:8px 12px;background:var(--bg)}
+.refrow p{margin:0 0 4px}
+.refrow ul{margin:0;padding-left:18px;font-size:14px}
+.scorebar{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;margin:0 0 12px;font-size:14px}
+.scorebar .btn{margin-left:auto}
+.dq{border-top:5px solid var(--accent)}
+.again{color:var(--bad)}
+.qprompt{font-size:15px;color:var(--muted);margin:0 0 4px;font-weight:600}
+.qbig{font-size:clamp(26px,7vw,40px);font-weight:700;letter-spacing:-.01em;line-height:1.2;margin:2px 0 6px;word-break:break-word}
+.qbig.mono{font-family:inherit}
+.mc{display:grid;gap:8px;margin-top:14px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.mc button{font:inherit;font-size:15px;text-align:left;display:flex;gap:10px;align-items:center;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);cursor:pointer;min-height:48px}
+.mc button:hover:not(:disabled){border-color:var(--accent)}
+.mc button .k{flex:none;width:22px;height:22px;border-radius:6px;display:grid;place-items:center;font-size:12px;font-weight:700;background:var(--soft);color:var(--muted)}
+.mc button:disabled{cursor:default;opacity:.55}
+.mc button.right{opacity:1;border-color:var(--ok);background:var(--ok-bg);color:var(--ok);font-weight:700}
+.mc button.wrong{opacity:1;border-color:var(--bad);background:var(--bad-bg);color:var(--bad);font-weight:700}
+.ta{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.ta input{flex:1 1 220px;font-size:18px}
+.ta input.ok{border-color:var(--ok);background:var(--ok-bg)}
+.ta input.bad{border-color:var(--bad);background:var(--bad-bg)}
+.ansv{font-size:18px}
+#nextq{margin-top:6px}
+.kbd{display:none}
+@media (pointer:fine){.kbd{display:inline}}
+.lwd summary{cursor:pointer;font-size:14px;color:var(--accent);margin:6px 0}
+@media (max-width:520px){ header.top nav .btn{padding:6px 10px;font-size:13px} .mc{grid-template-columns:1fr 1fr} .mc button{font-size:14px;padding:10px} }
+footer{max-width:820px;margin:0 auto;padding:0 16px 30px;color:var(--muted);font-size:13px}
+@media (max-width:520px){
+  .card{padding:16px}
+  header.top .brand .full-name{display:none}
+  .crumb{max-width:78vw}
+}
+@media (prefers-reduced-motion: reduce){ .opt{transition:none} .notes section.flash{animation:none} }
+
+
+h1{font-family:'Fraunces',Georgia,serif;font-weight:600}
+.dcard h2{font-family:'Fraunces',Georgia,serif;font-weight:600}
+.v-ok{color:var(--ok)} .verdict.v-ok{background:var(--ok-bg)}
+.v-bad{color:var(--bad)} .verdict.v-bad{background:var(--bad-bg)}
+.qbig.qmed{font-size:clamp(19px,4.6vw,25px);line-height:1.3}
+.mc.wide{grid-template-columns:1fr}
+.mono,.seq{font-family:var(--mono);letter-spacing:.04em}
+.pair{line-height:1.7;font-size:17px;word-break:break-all}
+.mutline{font-size:clamp(18px,4.4vw,24px);line-height:1.5;word-break:break-all}
+.mutline u{text-decoration:none;background:var(--bad-bg);color:var(--bad);border-radius:3px;padding:0 1px}
+.cdn{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.cdn-c{display:flex;flex-direction:column;align-items:center;min-width:58px;padding:6px 8px;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+.cdn-c b{font-size:15px} .cdn-c small{font-size:11px;color:var(--muted);font-family:var(--mono)}
+.chartwrap{overflow-x:auto;margin:8px 0}
+table.chart{border-collapse:collapse;font-size:12.5px;font-family:var(--mono);min-width:520px;width:100%}
+table.chart th,table.chart td{border:1px solid var(--line);padding:5px 7px;vertical-align:top;text-align:left}
+table.chart th{background:var(--soft);text-align:center}
+table.chart .stp{color:var(--bad);font-weight:700} table.chart .stt{color:var(--ok);font-weight:700}
+.navrow.small{margin-bottom:6px}
+.chips a.chip{text-decoration:none}
+.brand .mark{font-family:'Fraunces',Georgia,serif}
+.tool .res p,.tool .ansv{overflow-wrap:anywhere;word-break:break-word}
+.tool{min-width:0;overflow-wrap:anywhere}
+.watch p,.steps li{overflow-wrap:anywhere}
+@media (max-width:520px){.brand span:not(.mark){display:none} header.top nav{gap:4px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="in">
+  <a class="brand" href="#/"><span class="mark">Mi</span><span>Micro <span class="full-name">Navigator</span></span></a>
+  <nav><a class="btn" href="#/">Start</a><a class="btn" href="#/drill">Drill</a><a class="btn" href="#/notes">Notes</a><a class="btn ghost" href="../index.html" title="Back to the quiz bank">Quizzes</a><button class="btn" id="theme" type="button" aria-label="Toggle dark mode">◐</button></nav>
+</div></header>
+<main id="app"></main>
+<footer>Built only from the Module 9–17 study guides, video lectures, instructor slides, and assigned textbook chapters. Items the sources don't cover are flagged, not filled in.</footer>
+<script>
+/* ================= MICRO ENGINE (sequences, genetic code) ================= */
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+function rnd(a) { return a[Math.floor(Math.random() * a.length)]; }
+function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+
+/* Universal genetic code (the codon chart used in lecture), order U C A G */
+var CODE_B = 'UCAG';
+var CODE_AA = 'FFLLSSSSYY**CC*WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG';
+var AA_NAME = { F: ['Phe', 'Phenylalanine'], L: ['Leu', 'Leucine'], S: ['Ser', 'Serine'], Y: ['Tyr', 'Tyrosine'], C: ['Cys', 'Cysteine'], W: ['Trp', 'Tryptophan'], P: ['Pro', 'Proline'], H: ['His', 'Histidine'], Q: ['Gln', 'Glutamine'], R: ['Arg', 'Arginine'], I: ['Ile', 'Isoleucine'], M: ['Met', 'Methionine'], T: ['Thr', 'Threonine'], N: ['Asn', 'Asparagine'], K: ['Lys', 'Lysine'], V: ['Val', 'Valine'], A: ['Ala', 'Alanine'], D: ['Asp', 'Aspartate'], E: ['Glu', 'Glutamate'], G: ['Gly', 'Glycine'], '*': ['Stop', 'Stop'] };
+var CODON = {};
+(function () { var i = 0; for (var a = 0; a < 4; a++) for (var b = 0; b < 4; b++) for (var c = 0; c < 4; c++) CODON[CODE_B[a] + CODE_B[b] + CODE_B[c]] = CODE_AA[i++]; })();
+function aa3(code) { return AA_NAME[code][0]; }
+function aaFull(code) { return code === '*' ? 'Stop' : AA_NAME[code][1] + ' (' + AA_NAME[code][0] + ')'; }
+
+var DNA_COMP = { A: 'T', T: 'A', G: 'C', C: 'G' };
+var RNA_FROM_TEMPLATE = { A: 'U', T: 'A', G: 'C', C: 'G' };
+var RNA_COMP = { A: 'U', U: 'A', G: 'C', C: 'G' };
+function cleanSeq(s) { return String(s || '').toUpperCase().replace(/[^ACGTU]/g, ''); }
+function triplets(s) { return (s.match(/.{1,3}/g) || []).join(' '); }
+
+/* translate an mRNA read 5'->3': start at first AUG, stop at stop codon */
+function translateMRNA(m) {
+  var start = m.indexOf('AUG');
+  if (start < 0) return { error: 'No AUG start codon found — translation never begins.' };
+  var codons = [], aas = [], stopped = false;
+  for (var i = start; i + 3 <= m.length; i += 3) {
+    var c = m.substr(i, 3), a = CODON[c];
+    codons.push(c); aas.push(a);
+    if (a === '*') { stopped = true; break; }
+  }
+  return { start: start, lead: m.slice(0, start), codons: codons, aas: aas, stopped: stopped, leftover: stopped ? '' : m.slice(start + codons.length * 3) };
+}
+function proteinStr(aas) { return aas.map(aa3).join('–'); }
+function anticodon(c) { return c.split('').map(function (x) { return RNA_COMP[x]; }).join(''); }
+
+/* base percentages (A=T, G=C) */
+function basePct(base, pct) {
+  var pair = { A: 'T', T: 'A', G: 'C', C: 'G' }[base];
+  var other = (base === 'A' || base === 'T') ? ['G', 'C'] : ['A', 'T'];
+  var rest = (100 - 2 * pct) / 2, r = {};
+  r[base] = pct; r[pair] = pct; r[other[0]] = rest; r[other[1]] = rest;
+  return { r: r, pair: pair, other: other, rest: rest };
+}
+
+/* mutation classifier: two coding strands (5'->3') */
+function codingToMRNA(s) { return s.replace(/T/g, 'U'); }
+function classifyMutation(orig, mut) {
+  var o = translateMRNA(codingToMRNA(orig)), m = translateMRNA(codingToMRNA(mut));
+  if (o.error) return { error: 'Original: ' + o.error };
+  var res = { o: o, m: m };
+  if (orig.length !== mut.length) {
+    var d = mut.length - orig.length;
+    res.kind = 'Frameshift ' + (d > 0 ? 'insertion' : 'deletion');
+    res.why = (d > 0 ? Math.abs(d) + ' nucleotide(s) inserted' : Math.abs(d) + ' nucleotide(s) deleted') + ' → the reading frame shifts, so every codon after it is read differently.';
+    if (Math.abs(d) % 3 === 0) res.note = 'The length changed by a multiple of 3, so the frame actually lines back up after the change. The class only names insertions/deletions that shift the frame.';
+    return res;
+  }
+  var diffs = [];
+  for (var i = 0; i < orig.length; i++) if (orig[i] !== mut[i]) diffs.push(i);
+  if (!diffs.length) return { error: 'The two sequences are identical — nothing changed.' };
+  res.diffs = diffs;
+  if (m.error) { res.kind = 'Substitution (start codon destroyed)'; res.why = 'The change removed the AUG start codon, so translation can\'t start there.'; return res; }
+  var po = o.aas.join(''), pm = m.aas.join('');
+  if (po === pm) { res.kind = 'Silent'; res.why = 'Substitution, but the new codon codes for the same amino acid — the protein is unchanged.'; }
+  else if (pm.indexOf('*') >= 0 && pm.indexOf('*') < (po.indexOf('*') < 0 ? po.length : po.indexOf('*'))) { res.kind = 'Nonsense'; res.why = 'Substitution that turns a codon into a premature STOP — the protein is cut short.'; }
+  else { res.kind = 'Missense'; res.why = 'Substitution that changes one amino acid into a different amino acid.'; }
+  if (diffs.length > 1) res.note = diffs.length + ' positions changed — a point mutation changes only ONE nucleotide.';
+  return res;
+}
+
+/* ================= CHECK-MY-WORK TOOLS ================= */
+function seqSpan(s) { return '<span class="mono seq">' + esc(s) + '</span>'; }
+var TOOLS = {
+  basepct: function (el, p) {
+    el.innerHTML = '<div class="grid2"><label class="field"><span>Base you were given</span><select id="bp_b"><option>A</option><option>T</option><option>G</option><option>C</option></select></label>' +
+      '<label class="field"><span>Its percentage</span><input id="bp_v" inputmode="decimal" value="' + esc(p.v || '25') + '"></label></div><div id="bp_out"></div>';
+    var b = el.querySelector('#bp_b'), v = el.querySelector('#bp_v'), out = el.querySelector('#bp_out');
+    b.value = p.b || 'A';
+    function run() {
+      var x = parseFloat(v.value);
+      if (isNaN(x) || x < 0 || x > 50) { out.innerHTML = '<div class="res res-bad"><p>Enter a percentage from 0 to 50 — one base can\'t be more than half of double-stranded DNA, because its partner has the same amount.</p></div>'; return; }
+      var R = basePct(b.value, x), r = R.r, f = function (n) { return (Math.round(n * 100) / 100) + '%'; };
+      out.innerHTML = '<div class="res res-ok"><div class="duo">' + ['A', 'T', 'G', 'C'].map(function (k) { return '<div class="ans"><span class="ans-l">' + k + '</span><span class="ans-v">' + f(r[k]) + '</span></div>'; }).join('') + '</div>' +
+        '<ol class="why"><li>' + b.value + ' pairs with ' + R.pair + ' → ' + R.pair + ' = ' + f(x) + '.</li><li>' + b.value + ' + ' + R.pair + ' = ' + f(2 * x) + ', so ' + R.other[0] + ' + ' + R.other[1] + ' = 100 − ' + f(2 * x).replace('%', '') + ' = ' + f(100 - 2 * x) + '.</li><li>Split it evenly: ' + R.other[0] + ' = ' + R.other[1] + ' = ' + f(R.rest) + '.</li></ol></div>';
+    }
+    b.addEventListener('change', run); v.addEventListener('input', run); run();
+  },
+  complement: function (el, p) {
+    el.innerHTML = '<div class="grid2"><label class="field"><span>Your strand (DNA)</span><input id="cp_s" class="mono" value="' + esc(p.s || 'AGTCATGA') + '" autocapitalize="characters" spellcheck="false"></label>' +
+      '<label class="field"><span>It is written</span><select id="cp_d"><option value="53">5′ → 3′</option><option value="35">3′ → 5′</option></select></label></div><div id="cp_out"></div>';
+    var s = el.querySelector('#cp_s'), d = el.querySelector('#cp_d'), out = el.querySelector('#cp_out');
+    d.value = p.d || '53';
+    function run() {
+      var q = cleanSeq(s.value);
+      if (/U/.test(q)) { out.innerHTML = '<div class="res res-bad"><p>U is an RNA base. DNA uses T. (For DNA → mRNA, use the "DNA → mRNA → protein" flowchart.)</p></div>'; return; }
+      if (!q) { out.innerHTML = '<p class="hint">Type a DNA sequence using A, T, G, C.</p>'; return; }
+      var c = q.split('').map(function (x) { return DNA_COMP[x]; }).join('');
+      var top = d.value === '53' ? ['5′', '3′'] : ['3′', '5′'], bot = [top[1], top[0]];
+      out.innerHTML = '<div class="res res-ok"><p class="lbl">Lined up (antiparallel)</p><p class="mono pair">' + top[0] + ' ' + esc(q) + ' ' + top[1] + '<br>' + bot[0] + ' ' + esc(c) + ' ' + bot[1] + '</p>' +
+        '<p class="lbl">Complementary strand written 5′ → 3′</p><p class="ansv mono">5′ ' + esc(d.value === '53' ? c.split('').reverse().join('') : c) + ' 3′</p>' +
+        '<ul class="why"><li>A ↔ T and G ↔ C.</li><li>The new strand runs the opposite way, so its ends are flipped.</li></ul></div>';
+    }
+    s.addEventListener('input', run); d.addEventListener('change', run); run();
+  },
+  translate: function (el, p) {
+    el.innerHTML = '<div class="grid2"><label class="field"><span>Sequence you were given</span><input id="tr_s" class="mono" value="' + esc(p.s || 'GCTCGACATGTTAGGTTTTATGGCACTGTGA') + '" autocapitalize="characters" spellcheck="false"></label>' +
+      '<label class="field"><span>What it is</span><select id="tr_k"><option value="coding">DNA coding strand (5′ → 3′)</option><option value="template">DNA template / non-coding strand (3′ → 5′)</option><option value="mrna">mRNA (5′ → 3′)</option></select></label></div><div id="tr_out"></div>';
+    var s = el.querySelector('#tr_s'), k = el.querySelector('#tr_k'), out = el.querySelector('#tr_out');
+    k.value = p.k || 'coding';
+    function run() {
+      var q = cleanSeq(s.value), kind = k.value, m, how;
+      if (!q) { out.innerHTML = '<p class="hint">Type a sequence.</p>'; return; }
+      if (kind === 'mrna') { if (/T/.test(q)) { out.innerHTML = '<div class="res res-bad"><p>mRNA has U, not T. Did you mean a DNA strand?</p></div>'; return; } m = q; how = 'Already mRNA.'; }
+      else {
+        if (/U/.test(q)) { out.innerHTML = '<div class="res res-bad"><p>DNA has T, not U. Switch "What it is" to mRNA.</p></div>'; return; }
+        if (kind === 'coding') { m = q.replace(/T/g, 'U'); how = 'Coding strand → mRNA is the <b>same sequence</b> with every T changed to U.'; }
+        else { m = q.split('').map(function (x) { return RNA_FROM_TEMPLATE[x]; }).join(''); how = 'Template strand → mRNA is the <b>complement</b> (A→U, T→A, G→C, C→G). Template is 3′→5′, so the mRNA comes out 5′→3′.'; }
+      }
+      var T = translateMRNA(m), html = '<div class="res ' + (T.error ? 'res-bad' : 'res-ok') + '"><p class="lbl">mRNA (5′ → 3′)</p><p class="ansv mono">' + esc(m) + '</p><p class="hint">' + how + '</p>';
+      if (T.error) { out.innerHTML = html + '<p><b>' + T.error + '</b></p></div>'; return; }
+      html += '<p class="lbl">Read from the first AUG, in triplets</p><p class="mono">' + (T.lead ? '<span class="dim">' + esc(T.lead) + '</span> ' : '') + T.codons.map(function (c, i) { return '<b>' + c + '</b>'; }).join(' ') + (T.leftover ? ' <span class="dim">' + esc(T.leftover) + '</span>' : '') + '</p>';
+      html += '<div class="cdn">' + T.codons.map(function (c, i) { return '<div class="cdn-c"><span class="mono">' + c + '</span><b>' + aa3(T.aas[i]) + '</b><small>tRNA ' + anticodon(c) + '</small></div>'; }).join('') + '</div>';
+      html += '<p class="lbl">Protein</p><p class="ansv">' + esc(proteinStr(T.aas.filter(function (a) { return a !== '*'; }))) + '</p>';
+      html += '<ul class="why">' + (T.lead ? '<li>The ' + T.lead.length + ' letters before AUG aren\'t translated.</li>' : '') + '<li>AUG = start codon = Met.</li>' + (T.stopped ? '<li>' + T.codons[T.codons.length - 1] + ' is a stop codon — no tRNA matches it, so translation ends.</li>' : '<li>No stop codon reached before the sequence ran out.</li>') + '<li>Anticodons (on tRNA) are complementary to the codons.</li></ul></div>';
+      out.innerHTML = html;
+    }
+    s.addEventListener('input', run); k.addEventListener('change', run); run();
+  },
+  mutation: function (el, p) {
+    el.innerHTML = '<p class="hint">Enter both DNA <b>coding</b> strands (5′ → 3′), the way the slides set them up.</p><div class="grid2"><label class="field"><span>Original</span><input id="mu_o" class="mono" value="' + esc(p.o || 'ATGGGAACTTAG') + '" spellcheck="false"></label>' +
+      '<label class="field"><span>Mutated</span><input id="mu_m" class="mono" value="' + esc(p.m || 'ATGGGACCTTAG') + '" spellcheck="false"></label></div><div id="mu_out"></div>';
+    var o = el.querySelector('#mu_o'), m = el.querySelector('#mu_m'), out = el.querySelector('#mu_out');
+    function run() {
+      var a = cleanSeq(o.value).replace(/U/g, 'T'), b = cleanSeq(m.value).replace(/U/g, 'T');
+      if (!a || !b) { out.innerHTML = '<p class="hint">Fill in both strands.</p>'; return; }
+      var R = classifyMutation(a, b);
+      if (R.error) { out.innerHTML = '<div class="res res-bad"><p>' + esc(R.error) + '</p></div>'; return; }
+      var row = function (lbl, T) { return '<div class="ans"><span class="ans-l">' + lbl + '</span><span class="mono">' + esc(T.error ? '—' : T.codons.join(' ')) + '</span><span class="ans-s">' + esc(T.error ? T.error : proteinStr(T.aas)) + '</span></div>'; };
+      out.innerHTML = '<div class="res res-ok"><p class="verdict v-non">' + esc(R.kind.toUpperCase()) + '</p><p>' + esc(R.why) + '</p><div class="duo">' + row('Original mRNA codons', R.o) + row('Mutated mRNA codons', R.m) + '</div>' + (R.note ? '<p class="hint">' + esc(R.note) + '</p>' : '') + '</div>';
+    }
+    o.addEventListener('input', run); m.addEventListener('input', run); run();
+  }
+};
+
+/* ================= FLOWCHARTS ================= */
+var GROUPS = [
+  { name: 'Protists, fungi & helminths · Mod 9–11', tag: 'euk', ids: ['protist', 'fungus', 'mycosis', 'helminth', 'helminthorg', 'vector', 'endo', 'drugs'] },
+  { name: 'DNA & replication · Mod 12', tag: 'dna', ids: ['basepct', 'complement', 'replenz', 'strands', 'dnaexp', 'genes'] },
+  { name: 'Gene expression & mutations · Mod 13', tag: 'gene', ids: ['express', 'codon', 'mutation', 'operon', 'uv'] },
+  { name: 'Genetic engineering · Mod 14', tag: 'tech', ids: ['hgt', 'recomb', 'pcr', 'pcrdx', 'crispr', 'germline'] },
+  { name: 'Viruses · Mod 15–17', tag: 'virus', ids: ['vstruct', 'phage', 'phagether', 'entry', 'infection', 'exit', 'flu', 'biosyn', 'culture', 'onco'] }
+];
+
+var NODES = {
+  /* ---------- MOD 9: PROTISTS ---------- */
+  protist: { title: 'Identify a protist / protozoan subgroup', hint: 'Archaezoan · Euglenozoan · Amoebozoan · Apicomplexan · algae',
+    q: 'Does it make its own food (autotroph) or eat (heterotroph)?', opts: ['pr_algae', 'pr_move'] },
+  pr_algae: { title: 'Photosynthetic (autotroph) → algae', notes: 'm9', result: 'ALGAE',
+    steps: ['Autotrophic protists = <b>algae</b>: unicellular or multicellular, mostly harmless.', '<b>Dinoflagellates</b>: a bloom of a neurotoxin-making dinoflagellate turns coastal water red = <b>red tide</b>. The toxin paralyzes and suffocates fish; shellfish store it and sicken people who eat them.', '<b>Diatoms</b>: marine algae with a two-piece <b>glass (silica)</b> cell wall ("two tiny pieces," like a petri dish base + lid). Shells pile up as <b>diatomaceous earth</b> — gardening (aerates soil, holds water, natural insecticide: glass shreds insect guts), reflective paint, tooth polish.', 'Lecture: diatoms float using <b>oil-filled vacuoles</b>; that oil collected on the ocean floor over millions of years → the petroleum we drill for; farming algae could make <b>biofuel</b>.', 'Kelp and seaweed are multicellular algae, not plants.'],
+    watch: ['<i>Euglena</i> is the odd one: it is both heterotrophic and autotrophic, but it is classified as a Euglenozoan (protozoan).'] },
+  pr_move: { title: 'Eats (heterotroph) → protozoan', q: 'How does it move?', opts: ['pr_flag', 'pr_pseudo', 'pr_nonmotile'] },
+  pr_flag: { title: 'Flagella', q: 'Does it have non-functional mitochondria (mitosomes) and live anaerobically?', opts: ['pr_arch', 'pr_eug'] },
+  pr_arch: { title: 'Yes — mitosomes, anaerobic → Archaezoan', notes: 'm9', result: 'ARCHAEZOAN',
+    steps: ['Two or more flagella; <b>mitosomes</b> (non-functional mitochondria); anaerobic.', '<i>Giardia</i>: 2 nuclei, 8 flagella; trophozoite + cyst stages → <b>fatty diarrhea (giardiasis)</b> from contaminated creek/lake water — boil or filter water. First seen by <b>Leeuwenhoek</b> in his own diarrhea.', '<i>Trichomonas</i>: 1 nucleus; trophozoite stage only (no cyst); an STD → <b>vaginitis</b> (protozoan vaginitis — vaginitis can also be bacterial, viral, or fungal).'],
+    watch: ['Trophozoite = active, feeding stage. Cyst = dormant stage, often the one transmitted. <i>Trichomonas</i> has no cyst stage.'] },
+  pr_eug: { title: 'No — each flagellum has a supportive rod → Euglenozoan', notes: 'm9', result: 'EUGLENOZOAN',
+    steps: ['Flagellum stiffened with a supportive <b>protein rod</b> (lecture: one large, robust flagellum).', '<i>Euglena</i>: both heterotrophic and autotrophic (chloroplasts); harmless. Its red <b>eye spot</b> is an endosymbiotic red alga that detects light.', '<i>Trypanosoma</i>: blood-borne pathogen swimming among red blood cells → <b>sleeping sickness (trypanosomiasis)</b>: its toxins shut down metabolism → catatonic, sleep-like state.'] },
+  pr_pseudo: { title: 'Pseudopods → Amoebozoan', notes: 'm9', result: 'AMOEBOZOAN',
+    steps: ['Moves with <b>pseudopods</b> ("false feet") — the cell takes down and rebuilds its cytoskeleton so cytoplasm can flow in that direction.', '<i>Amoeba</i>: harmless (ponds, damp soil).', '<i>Entamoeba histolytica</i> ("tissue-breaking amoeba of the intestine") → <b>amoebic dysentery</b> (bloody diarrhea — the intestinal wall is broken down). Has trophozoite and cyst stages.', '<i>Dictyostelium</i> (slime mold): single amoebas gather by <b>cyclic AMP</b> signals into a multicellular "slug," then a tower that reproduces sexually — harmless.'] },
+  pr_nonmotile: { title: 'Adults don\'t move → Apicomplexan', notes: 'm9', result: 'APICOMPLEXAN',
+    steps: ['Adults are <b>non-motile</b>; <b>obligate intracellular parasites</b>; specialized organelles at the cell\'s <b>apex</b> digest an opening into host tissue; complex life cycles.', '<i>Plasmodium</i> → <b>malaria</b> ("bad air" — swamps); spread by the <i>Anopheles</i> mosquito; ~10% of the world infected (300–500 million new cases/year).', 'Malaria cycle (lecture): mosquito salivary glands → human blood → <b>liver</b> cells → back to blood → into <b>red blood cells</b> (ring stage) → RBCs <b>lyse</b>, releasing waste → <b>fever and chills</b>; some become <b>gametocytes</b> that a mosquito drinks up → sexual reproduction in the mosquito. <b>Chloroquine</b> keeps trophozoites from degrading hemoglobin.', '<i>Cryptosporidium</i> → <b>recreational diarrhea</b>; lives inside intestinal cells; resistant to chlorine.'] },
+
+  /* ---------- MOD 10: FUNGI ---------- */
+  fungus: { title: 'Yeast or mold? Which spores?', hint: 'budding · hyphae · sporangiospores vs conidiospores',
+    q: 'Is it one cell or a multicellular network of filaments?', opts: ['fu_yeast', 'fu_mold'] },
+  fu_yeast: { title: 'One cell → yeast', notes: 'm10', result: 'YEAST',
+    steps: ['Unicellular; <b>facultative anaerobe</b> (prefers O₂, can ferment without it); reproduces asexually by <b>budding</b> (most common) or binary fission.', 'Budding: the cell grows a small "mini me" off the side, copies its chromosomes into it, and the bud breaks off — leaving a <b>bud scar</b> in the chitin wall. Under the scope: parent cells with small buds attached.', '<i>Saccharomyces cerevisiae</i> = baker\'s/brewer\'s yeast: ferments sugar → CO₂ (bread rises) + ethanol (beer, wine).', '<i>Candida albicans</i> → yeast infection (vaginitis) and thrush. It is <b>dimorphic</b>: a yeast at body temperature, filaments (pseudomycelium) when cooler.'] },
+  fu_mold: { title: 'Filaments (hyphae) → mold', q: 'What reproductive structure are you looking at?', opts: ['fu_sporang', 'fu_conid', 'fu_mush'] },
+  fu_sporang: { title: 'Spores enclosed in a sac on a sporangiophore', notes: 'm10', result: 'SPORANGIOSPORES',
+    steps: ['Asexual spores <b>enclosed</b> on a sporangiophore = <b>sporangiospores</b>.', 'Example: <i>Rhizopus</i> (common bread mold).', 'Molds: multicellular, <b>aerobic</b>, reproduce both asexually and sexually by spores. A spore lands on food → mitosis → <b>hyphae</b> (filaments) → <b>mycelium</b> (whole network). Hyphae release enzymes and digest food <b>outside</b> the cell, then absorb it.', 'Non-motile, so spores ride wind or water to new food.'],
+    watch: ['<i>Rhizopus</i> isn\'t named in the lecture or slides — it\'s the textbook\'s (Ch. 5) bread-mold example of sporangiospores.'] },
+  fu_conid: { title: 'Spores exposed on the outside of a conidiophore', notes: 'm10', result: 'CONIDIOSPORES',
+    steps: ['Asexual spores <b>exposed</b> on a conidiophore = <b>conidiospores</b> (Ascomycota).', '<i>Aspergillus</i> → "farmer\'s lung" from inhaled spores.', '<i>Penicillium</i> → <i>P. chrysogenum</i> is the source of penicillin (Alexander Fleming noticed bacteria dying near a contaminating <i>Penicillium</i> colony). Most antibiotics were first found in fungi.', '"Conidia" means dust — the spores blow off directly.'],
+    watch: ['That <i>Aspergillus</i> and <i>Penicillium</i> make conidiospores comes from the textbook (Ch. 5, Ascomycota), not the lecture.'] },
+  fu_mush: { title: 'A mushroom', notes: 'm10', result: 'SEXUAL REPRODUCTION',
+    steps: ['No male/female in fungi — <b>opposite mating types</b> (+ / −) sense each other\'s pheromones; their hyphae grow toward each other underground and fuse.', 'The fused hyphae grow up toward the surface, forming a mushroom that releases spores.'] },
+
+  mycosis: { title: 'Name the mycosis and its fungus', hint: 'yeast infection, thrush, ringworm, histoplasmosis…', notes: 'm10',
+    steps: ['<b>Mycosis</b> = fungal disease.', '<b>Yeast infection</b> (vaginal) and <b>thrush</b> (mouth/tongue) → <i>Candida albicans</i> — same organism, different body site.', '<b>Athlete\'s foot</b> is a type of <b>ringworm</b> → many fungi; ringworm is NOT a worm (often caught from cats).', '<b>Histoplasmosis</b> → <i>Histoplasma</i>; inhaled from <b>bat droppings in caves</b>; grows in the lungs.', '<b>Fungal meningitis</b> → <i>Candida</i>, <i>Histoplasma</i>, <i>Cryptococcus</i> and others (slides). Seen in CSF with India ink.', '<b>Farmer\'s lung</b> → <i>Aspergillus</i> spores inhaled while turning soil.', '<b>Nail infection</b> → fungi grow slowly in the nail, hidden from the immune system (little blood supply).'] },
+
+  /* ---------- MOD 11: HELMINTHS ---------- */
+  helminth: { title: 'Identify a helminth group', hint: 'Cestode · Trematode · Nematode',
+    q: 'Is the body flat or round?', opts: ['he_flat', 'he_round'] },
+  he_flat: { title: 'Flat (flatworm)', q: 'Is it made of repeating segments (proglottids) and attaches with a scolex?', opts: ['he_cest', 'he_trem'] },
+  he_cest: { title: 'Yes → Cestode (tapeworm)', notes: 'm11', result: 'CESTODE',
+    steps: ['Long, flat body (high surface area) — <b>no mouth or digestive tract</b>; absorbs nutrients the host already digested.', 'Made of identical <b>proglottids</b> — each <b>hermaphroditic</b> (ovaries + testes) and self-fertilizing (still sexual reproduction). End proglottids full of eggs break off and leave in the feces.', 'Attaches with a <b>scolex</b> — an anchor with barbed hooks, not a head (no eyes, mouth, or brain).', 'Example: <i>Taenia</i> (beef tapeworm: 20–30 ft).'] },
+  he_trem: { title: 'No → Trematode (fluke)', notes: 'm11', result: 'TREMATODE',
+    steps: ['Flat, much smaller, not segmented; <b>complex body systems</b>: <b>oral sucker</b> (mouth), intestine, eggs and testes (many are hermaphrodites).', 'Many are <b>fluid feeders</b> (e.g., drink blood); most are <b>host- and organ-specific</b> (liver, blood, kidney, brain flukes…).', 'Example: <i>Clonorchis</i> (liver fluke).'] },
+  he_round: { title: 'Round (roundworm) → Nematode', notes: 'm11', result: 'NEMATODE',
+    steps: ['Round (fluid-filled <b>hydrostatic skeleton</b>), <b>not segmented</b>; complex body systems (mouth, digestive tract); many have separate males and females. Most harmless (soil aerators); some cause common worldwide disease. Hookworms are roundworms.', '<i>Ascaris</i> (intestinal roundworm): eggs ingested → hatch in gut → larvae enter blood → lungs → coughed up the trachea and swallowed → adults in intestines.', '<i>Enterobius</i> = pinworm · <i>Dirofilaria</i> = heartworm · <i>Dracunculus</i> = Guinea worm.', '<i>C. elegans</i>: free-living model organism — 959 adult cells (eutely), 131 programmed cell deaths, 302 neurons.'],
+    watch: ['Instructor slides: ascariasis (<i>Ascaris</i>, a nematode) is treated with <b>albendazole (Albenza)</b> or mebendazole (Vermox). Which groups pyrantel and ivermectin target isn\'t in any of the provided materials — ask your professor.'] },
+  helminthorg: { title: 'Helminth organisms & how they spread', hint: 'Ascaris, pinworm, heartworm, Guinea worm, C. elegans', notes: 'm11',
+    steps: ['<i>Ascaris</i> (intestinal roundworm, ~1 ft, pencil-thick): eggs swallowed → hatch in gut → larvae need lots of O₂, so they enter blood → <b>lungs</b> → carried up the trachea (ciliary escalator) and swallowed → adults grow, mate, and can <b>block the intestines</b>. Disease: ascariasis.', '<i>Enterobius</i> (pinworm; males 2–5 mm, females 8–13 mm): eggs collect around the anus → <b>Scotch-tape test</b>. Chitin teeth latch on and drink blood.', '<i>Dirofilaria</i> (heartworm, dogs/cats): spread by <b>mosquitoes</b>; worms clog the heart, valves, and big vessels.', '<i>Dracunculus</i> (Guinea worm): from contaminated water; clogs lymphatics; pulled out slowly by winding on a stick (possible origin of the caduceus).', 'Blood feeders make <b>anticoagulants</b> in saliva so blood won\'t clot; e.g., <b>hirudin</b> is used as a blood thinner.', '<b>Helminthic therapy</b>: worms suppress inflammation → researched for allergies, Crohn\'s, IBS. <b>David Pritchard</b> (slides): injected himself with 50 hookworms; 10 was the "magic number."', '<i>C. elegans</i>: harmless model nematode — 959 adult cells (eutely), 131 programmed cell deaths, 302 neurons; used to study development, cell death, and nervous systems.'] },
+  vector: { title: 'Mechanical or biological vector?', hint: 'arthropods spreading disease', q: 'Does the pathogen reproduce inside the arthropod?', opts: ['ve_bio', 've_mech'] },
+  ve_bio: { title: 'Yes → biological vector', notes: 'm11', result: 'BIOLOGICAL', steps: ['The pathogen reproduces inside the vector.', 'Examples: mosquito → malaria; tick → Lyme disease.', 'Both squirt out the watery part of the blood so they can drink more. The vector doesn\'t cause the disease (the mosquito doesn\'t cause malaria — <i>Plasmodium</i> does).'] },
+  ve_mech: { title: 'No, it just carries it → mechanical vector', notes: 'm11', result: 'MECHANICAL', steps: ['Carries pathogens on its body parts.', 'Example: house fly.'] },
+  endo: { title: 'Endosymbiotic theory', hint: 'Lynn Margulis', notes: 'm9',
+    steps: ['A large prokaryotic cell engulfed smaller bacteria that lived and reproduced inside it instead of being destroyed → they became organelles.', 'Photosynthetic bacteria → <b>chloroplasts</b>; aerobic bacteria → <b>mitochondria</b>.', 'Evidence: bacteria-like rod shape (1–10 µm), <b>double membrane</b>, <b>prokaryotic ribosomes</b>, <b>circular chromosome</b>, divide by <b>binary fission</b>, DNA similar to bacteria.', 'Proposed by <b>Lynn Margulis</b> (1960s, in her 20s); her paper "On the Origin of Mitosing Cells" was rejected by ~15 journals. Slides add eukaryotic <b>cilia</b> as another product of endosymbiosis.', 'Eukaryotic cells: 10–100 µm, compartmentalized, nucleus ("eukaryotic" = true nugget).'],
+    watch: ['Timing differs between sources: the video says eukaryotes appear ~<b>2 billion</b> years ago; the instructor slides say ~<b>2.5 billion</b>. Ask which your professor wants.'] },
+  drugs: { title: 'Match a drug to how it works', hint: 'all modules: Flagyl, Monistat, Vermox, Cipro, Tamiflu…', notes: 'm10',
+    steps: ['<b>Metronidazole (Flagyl)</b> — blocks DNA synthesis in protozoans.', '<b>Chloroquine</b> — keeps <i>Plasmodium</i> trophozoites from degrading hemoglobin.', '<b>Miconazole (Monistat)</b> — inhibits <b>ergosterol</b> synthesis (fungal membrane).', '<b>Anidulafungin (Eraxis)</b> — inhibits fungal <b>cell wall (chitin)</b> synthesis.', '<b>Mebendazole (Vermox)</b> — inhibits sugar absorption in worms. <b>Albendazole (Albenza)</b> — slides list it for ascariasis (nematode).', '<b>Ciprofloxacin (Cipro)</b> — inhibits bacterial <b>DNA gyrase</b> → no uncoiling → no replication.', '<b>Oseltamivir (Tamiflu)</b> — <b>neuraminidase</b> inhibitor → blocks budding of flu viruses.', '<b>Remdesivir</b> — disrupts the viral <b>polymerase</b> (SARS-CoV-2).'],
+    watch: ['Antifungals are hard to make because fungal and human cells are so alike. The two targets that differ: the chitin cell wall and ergosterol (we use cholesterol).'] },
+
+  /* ---------- MOD 12: DNA ---------- */
+  basepct: { title: 'Base-percentage problem', hint: '"25% adenine — what % cytosine?"', notes: 'm12', tool: 'basepct',
+    steps: ['Its partner has the <b>same</b> %: A = T and G = C.', 'Add the pair, subtract from 100 → that\'s the other pair together.', 'Split the other pair evenly.', 'Slide examples: <i>E. coli</i> 25% A → C = 25%. <i>T. aquaticus</i> 34% G → T = 16%.'] },
+  complement: { title: 'Write the complementary DNA strand', hint: 'A–T, G–C, antiparallel, 5′/3′', notes: 'm12', tool: 'complement',
+    steps: ['Pair every base: <b>A ↔ T</b> (2 H-bonds), <b>G ↔ C</b> (3 H-bonds).', 'The strands are <b>antiparallel</b>: if yours is 5′→3′, the new one is 3′→5′.', '5′ end starts with a phosphate; 3′ end ends with an –OH.', 'Golden rule: nucleic acids are only <b>built 5′ → 3′</b>.'] },
+  replenz: { title: 'Which replication enzyme does this job?', hint: 'gyrase · helicase · primase · polymerase · ligase', notes: 'm12',
+    steps: ['<b>Gyrase</b> — uncoils supercoiled DNA. (Cipro blocks it.)', '<b>Helicase</b> — unzips and unwinds the double helix → replication fork.', '<b>Primase</b> — lays down a short <b>RNA primer</b>.', '<b>DNA polymerase</b> — adds complementary nucleotides 5′→3′, replaces primers with DNA, proofreads.', '<b>Ligase</b> — joins Okazaki fragments on the lagging strand.'],
+    watch: ['Order they act: gyrase → helicase → primase → polymerase → ligase.', 'Only gyrase differs between bacteria and us — that\'s why Cipro is safe for human cells.'] },
+  strands: { title: 'Leading vs lagging strand', hint: 'Okazaki fragments', notes: 'm12',
+    steps: ['Polymerase and primase only build <b>5′ → 3′</b>.', '<b>Leading</b> strand: built continuously, toward the fork, following helicase.', '<b>Lagging</b> strand: built away from the fork in short <b>Okazaki fragments</b>, each with its own primer, joined by <b>ligase</b>.', 'Bacteria: replication starts at the <b>origin</b>; two helicases go opposite ways → two forks around the loop. Takes ~30 min — most of the generation time.', '<b>Semi-conservative</b>: each new helix = one old strand + one new strand.'] },
+  dnaexp: { title: 'Which experiment showed what?', hint: 'Griffith · Avery · Hershey & Chase · Franklin', notes: 'm12',
+    steps: ['<b>Griffith (1928)</b>: <i>S. pneumoniae</i> smooth (capsule, pathogenic) vs rough (harmless). Heat-killed S + live R → mouse died, live S recovered → something transformed R into S.', '<b>Avery (1944)</b>: same mix + <b>protease</b> → mouse still died; + <b>DNase</b> → mouse lived → <b>DNA is the genetic material</b>.', '<b>Hershey & Chase (1952)</b> (slides): T2 phage, ³⁵S protein vs ³²P DNA → only DNA entered the bacteria → confirmed DNA.', '<b>Rosalind Franklin</b>: X-ray crystallography, <b>Photo 51</b> → double helix.', '<b>Watson & Crick</b>: first paper describing DNA structure (built models); Nobel 1962.', '<b>Craig Venter</b>: helped sequence the human genome; first artificial genome (<i>Mycoplasma genitalium</i>, 521 genes).'] },
+  genes: { title: 'Gene, genotype, phenotype, chromosomes', hint: 'definitions', notes: 'm12',
+    steps: ['<b>Gene</b>: region of a chromosome that encodes the primary structure of a specific protein.', '<b>Genotype</b>: the genes / nucleotide sequences in the genome. <b>Phenotype</b>: physical, behavioral, metabolic properties that result from it (genotype → phenotype).', 'Prokaryotic chromosome: double-stranded, <b>circular</b>, usually <b>one</b>. Eukaryotic: double-stranded, <b>linear</b>, <b>many</b> (humans 46).', 'DNA: deoxyribose, A G C T, double-stranded. RNA: ribose, A G C U, single-stranded. Nucleotide = phosphate + 5-carbon sugar + nitrogenous base.'] },
+
+  /* ---------- MOD 13: GENE EXPRESSION ---------- */
+  express: { title: 'Go from DNA → mRNA → protein', hint: 'transcribe, then translate', q: 'What sequence were you given?', opts: ['ex_coding', 'ex_template', 'ex_mrna'] },
+  ex_coding: { title: 'DNA coding strand (5′ → 3′)', notes: 'm13', tool: 'translate', preset: { k: 'coding', s: 'ATGGGAACTTAG' },
+    steps: ['The coding strand has the <b>same sequence as the mRNA</b> — just change every <b>T → U</b>.', 'Read the mRNA 5′ → 3′ and find the first <b>AUG</b> (start, Met).', 'Split into triplets (codons) from AUG.', 'Look each codon up on the chart; stop at a stop codon (UAA, UAG, UGA).'] },
+  ex_template: { title: 'DNA template / non-coding strand (3′ → 5′)', notes: 'm13', tool: 'translate', preset: { k: 'template', s: 'TACCCTTGAATC' },
+    steps: ['RNA polymerase reads the template: write the <b>complement</b> — A→U, T→A, G→C, C→G.', 'Template is 3′→5′, so the mRNA comes out <b>5′→3′</b>.', 'Find the first AUG, split into codons, use the chart, stop at a stop codon.'] },
+  ex_mrna: { title: 'mRNA (5′ → 3′)', notes: 'm13', tool: 'translate', preset: { k: 'mrna', s: 'GCUCGACAUGUUAGGUUUUAUGGCACUGUGAGACACAAAAA' },
+    steps: ['Scan from the 5′ end until you hit <b>AUG</b>. Letters before it are not translated.', 'From AUG on, divide into codons of 3.', 'An AUG in the middle is just Met.', 'Stop at the first stop codon — no tRNA matches it.'],
+    watch: ['Slide example: GCUCGAC<b>AUG</b>UUAGGUUUUAUGGCACUG<b>UGA</b>… → Met–Leu–Gly–Phe–Met–Ala–Leu.'] },
+  codon: { title: 'Codon, anticodon, tRNA & stages', hint: 'transcription / translation stages', notes: 'm13', tool: 'translate', preset: { k: 'mrna', s: 'AUGAAGUUUGGCGCAUAA' },
+    steps: ['<b>Codon</b>: 3 mRNA nucleotides → 1 amino acid. 64 codons, 20 amino acids.', '<b>Anticodon</b>: 3 nucleotides on tRNA, complementary to the codon (codon AUG ↔ anticodon UAC).', 'Transcription: <b>initiation</b> (RNA polymerase binds promoter) → <b>elongation</b> (builds mRNA off template) → <b>termination</b> (hits terminator, falls off).', 'Translation: <b>initiation</b> (ribosome + Met-tRNA at AUG) → <b>elongation</b> (tRNAs deliver amino acids, peptide bonds form) → <b>termination</b> (stop codon, polypeptide released).', 'Promoter = start of gene (upstream, A/T-rich); terminator = end (downstream, C/G-rich).'],
+    watch: ['Going backwards (amino acid → exact codon) isn\'t possible except Met — most amino acids have several codons.'] },
+  mutation: { title: 'Classify a mutation', hint: 'silent · missense · nonsense · frameshift', q: 'Did the number of nucleotides change?', opts: ['mu_frame', 'mu_sub'] },
+  mu_frame: { title: 'Yes — a base was inserted or deleted', notes: 'm13', result: 'FRAMESHIFT', tool: 'mutation', preset: { o: 'ATGGGAACTTAG', m: 'ATGGTGAACTTAG' },
+    steps: ['Insertion or deletion → the <b>reading frame shifts</b>.', 'Every codon after it is wrong → nonfunctional protein; can kill the cell.', 'Scantron analogy: skip one bubble and every answer after it is wrong.'] },
+  mu_sub: { title: 'No — one base swapped (substitution)', q: 'What happened to that codon\'s amino acid?', opts: ['mu_silent', 'mu_miss', 'mu_non'] },
+  mu_silent: { title: 'Same amino acid', notes: 'm13', result: 'SILENT', tool: 'mutation', preset: { o: 'ATGGGAACTTAG', m: 'ATGGGTACTTAG' }, steps: ['No change to the protein (several codons code for the same amino acid).'] },
+  mu_miss: { title: 'A different amino acid', notes: 'm13', result: 'MISSENSE', tool: 'mutation', preset: { o: 'ATGGGAACTTAG', m: 'ATGGGACCTTAG' }, steps: ['One amino acid changes to another. Often tolerated in a long protein.'] },
+  mu_non: { title: 'It became a stop codon', notes: 'm13', result: 'NONSENSE', tool: 'mutation', preset: { o: 'ATGGGAACTTAG', m: 'ATGTGAACTTAG' }, steps: ['Premature stop codon → the protein is cut short.'] },
+  operon: { title: 'Is the operon ON or OFF?', hint: 'lac (inducible) · trp (repressible)', q: 'Which type of operon?', opts: ['op_ind', 'op_rep'] },
+  op_ind: { title: 'Inducible (default OFF, like a lamp) — e.g., lac', q: 'Is the inducer (e.g., lactose) present?', opts: ['op_ind_y', 'op_ind_n'] },
+  op_ind_y: { title: 'Yes — inducer present', notes: 'm13', result: 'ON', steps: ['The inducer binds the repressor and <b>changes its shape</b> → repressor inactive, falls off the operator.', 'RNA polymerase can bind the promoter → genes transcribed.', 'lac: lactase genes (lacZ, lacY, lacA) make enzymes that break down lactose.'] },
+  op_ind_n: { title: 'No inducer', notes: 'm13', result: 'OFF', bad: true, steps: ['The regulatory gene always makes an <b>active repressor</b>.', 'Repressor binds the <b>operator</b>, blocking RNA polymerase from the promoter → no transcription.', 'lac: once the lactose is used up, the repressor goes back on — self-regulating.'] },
+  op_rep: { title: 'Repressible (default ON, like a refrigerator) — e.g., trp', q: 'Is the corepressor present?', opts: ['op_rep_y', 'op_rep_n'] },
+  op_rep_y: { title: 'Yes — corepressor present', notes: 'm13', result: 'OFF', bad: true, steps: ['(Instructor slides) The corepressor binds and <b>activates</b> the repressor.', 'Active repressor binds the operator → RNA polymerase blocked → genes off.'] },
+  op_rep_n: { title: 'No corepressor', notes: 'm13', result: 'ON', steps: ['(Instructor slides) The repressor is made <b>inactive</b> (wrong shape) and can\'t bind the operator.', 'RNA polymerase transcribes the genes.'] },
+  uv: { title: 'UV light, mutagens & thymine dimers', hint: 'why UV sterilizes', notes: 'm13',
+    steps: ['Mutagens: <b>chemicals, radiation, viruses</b>.', 'UV makes two <b>adjacent thymines covalently bond</b> = <b>thymine dimer</b>; the DNA kinks.', 'When transcribed → frameshift errors. More exposure → more dimers → eventually an essential gene is hit and the cell dies.', '254 nm is the most germicidal; kills endospores too. In humans it can lead to skin cancer.'] },
+
+  /* ---------- MOD 14: BIOTECH ---------- */
+  hgt: { title: 'Horizontal vs vertical gene transfer', hint: 'plasmids', notes: 'm14',
+    steps: ['<b>Vertical</b>: passed to the next generation (parents → offspring).', '<b>Horizontal</b>: passed <b>within a generation</b> between neighboring cells — bacteria do this.', '<b>Plasmid</b>: small loop of DNA separate from the chromosome, with accessory genes; bacteria swap plasmid copies.', 'Textbook: horizontal transfer happens by transformation, transduction, and <b>conjugation</b> (through a conjugation pilus).'] },
+  recomb: { title: 'Make recombinant DNA', hint: 'restriction enzymes, sticky ends, ligase, insulin', notes: 'm14',
+    steps: ['<b>Restriction enzymes</b> ("DNA scissors", from bacteria) cut DNA at a specific recognition sequence — EcoRI cuts <b>GAATTC</b>.', 'The zigzag cut leaves <b>sticky ends</b> (single-stranded overhangs). Cut both DNAs with the <b>same</b> enzyme so the ends match.', '<b>Ligase</b> ("DNA glue") seals the pieces together.', '<b>Paul Berg</b> (1970): first recombinant DNA (SV40 + lambda phage); refused to put it into <i>E. coli</i>.', '<b>Cohen & Boyer</b> (1973): first recombinant organism. Boyer + Swanson (Genentech) → <b>Humulin</b>, human insulin made by <i>E. coli</i>.'] },
+  pcr: { title: 'PCR: steps, temperatures, ingredients', hint: 'denature 96° · anneal 55° · extend 72°', notes: 'm14',
+    steps: ['<b>Denaturation ~94–96 °C</b> — heat separates the strands.', '<b>Annealing / priming ~55 °C</b> — primers bind the sequences flanking the target.', '<b>Extension ~72 °C</b> — Taq polymerase extends the primers.', 'Repeat <b>25–35 times</b> in a <b>thermal cycler</b>; copies grow exponentially.', 'Tube: template DNA, primers, nucleotides, DNA polymerase, buffers/MgCl₂. Only one enzyme — no helicase, primase, or ligase.', '<b>Taq polymerase</b> is thermostable, from <i>Thermus aquaticus</i> (Yellowstone hot springs). <b>Kary Mullis</b> invented PCR (Nobel 1993).'] },
+  pcrdx: { title: 'Interpret a diagnostic PCR test', hint: 'positive or negative', q: 'Was the target sequence amplified?', opts: ['dx_pos', 'dx_neg'] },
+  dx_pos: { title: 'Yes — copies were made', notes: 'm14', result: 'POSITIVE', bad: true, steps: ['Primers are designed to match a sequence <b>unique to the pathogen</b>.', 'They found that sequence in the sample, so it was amplified → the pathogen is present (e.g., COVID PCR test).'] },
+  dx_neg: { title: 'No amplification', notes: 'm14', result: 'NEGATIVE', steps: ['The sample had no matching sequence, so the primers had nothing to bind.', 'Even after 40 cycles nothing is amplified → pathogen absent.'] },
+  crispr: { title: 'CRISPR: knock-out or knock-in?', hint: 'Cas9 + guide RNA', q: 'After Cas9 cuts, did the scientists supply donor DNA?', opts: ['cr_in', 'cr_out'] },
+  cr_in: { title: 'Yes — donor DNA with matching ends', notes: 'm14', result: 'KNOCK-IN', steps: ['The cell uses <b>homology-directed repair</b>, treating the donor DNA like the homologous chromosome.', 'It copies the donor\'s new sequence into the cut → new gene inserted / faulty gene corrected (e.g., cystic fibrosis gene in cells in a dish).'] },
+  cr_out: { title: 'No donor DNA', notes: 'm14', result: 'KNOCK-OUT', bad: true, steps: ['The cell uses <b>non-homologous end joining</b>: glues in random nucleotides.', 'That mutation inactivates the gene.'],
+    watch: ['Cas9 = enzyme that cuts DNA. Guide RNA = ~20-nucleotide target sequence that tells Cas9 where to cut; swap it to reprogram Cas9. Discovered by Doudna & Charpentier (Nobel 2020). CRISPR is naturally a bacterial immune system against phages.'] },
+  germline: { title: 'CRISPR uses & germline editing rules', hint: 'what is allowed', notes: 'm14',
+    steps: ['Uses: <b>sickle cell</b> treatment (Victoria Gray — first FDA-approved CRISPR therapy), T cells edited to fight lung cancer (Lu You), pig organs for transplant (Jun Wu chimeras; pig kidney → Rick Slayman), longer-lasting mushrooms, edited livestock, animal disease models.', '<b>Germline editing</b> = editing sperm, eggs, or embryos → change is in every cell and is inherited.', 'National Academy of Sciences: research on embryos/germ cells OK, but edited embryos <b>cannot be implanted</b> — no CRISPR babies.', '<b>He Jiankui</b> (2018) did it anyway (twins, CCR5 for HIV resistance) → 3 years in prison.'],
+    watch: ['Cystic fibrosis is hard to fix in an adult (every cell carries the gene); easiest at the embryo stage — which raises consent and gene-pool concerns.'] },
+
+  /* ---------- MOD 15–17: VIRUSES ---------- */
+  vstruct: { title: 'Describe a virus\'s structure', hint: 'helical / polyhedral / complex, enveloped or naked', notes: 'm15',
+    steps: ['Every virus: <b>nucleic acid</b> (DNA <i>or</i> RNA) inside a protein <b>capsid</b> made of <b>capsomeres</b>. 20–1,000 nm.', 'Shape: <b>helical</b> tube (TMV, Ebola) · <b>polyhedral</b> (HPV) · <b>complex</b> = polyhedral head + helical sheath + tail fibers (bacteriophage).', 'Envelope: <b>naked</b> (HPV) or <b>enveloped</b> — phospholipid bilayer with <b>spike proteins</b> for attachment (influenza, SARS-CoV-2, HIV).', 'Genome: dsDNA (HPV), ssDNA, dsRNA (rotavirus), ssRNA ± (coronavirus = +ssRNA); linear or circular; simple or <b>segmented</b> (influenza).'],
+    watch: ['Influenza and SARS-CoV-2 have helical capsids inside their envelopes.'] },
+  phage: { title: 'Lytic or lysogenic cycle?', hint: 'bacteriophage steps', q: 'Does the phage DNA integrate into the bacterial chromosome?', opts: ['ph_lyso', 'ph_lytic'] },
+  ph_lytic: { title: 'No — straight to making phages', notes: 'm15', result: 'LYTIC',
+    steps: ['<b>1 Attachment</b> — phage proteins bind the cell surface.', '<b>2 Penetration</b> — DNA injected (lysozyme gets it through the wall); the capsid stays outside.', '<b>3 Biosynthesis</b> — host copies phage DNA and makes phage proteins.', '<b>4 Maturation</b> (assembly) — parts assembled into virions.', '<b>5 Release</b> (lysis) — lysozyme bursts the cell; ~hundreds of phages escape.'],
+    watch: ['Count phages with a <b>plaque assay</b>: each clear plaque in the bacterial lawn = one original phage.'] },
+  ph_lyso: { title: 'Yes — it becomes a prophage', notes: 'm15', result: 'LYSOGENIC',
+    steps: ['<b>1 Integration</b> — phage DNA joins the chromosome by recombination = <b>prophage</b>.', '<b>2 Reproduction</b> — the bacterium divides normally; every daughter cell gets the prophage.', '<b>3 Induction</b> — when the host is <b>stressed</b>, the prophage excises and enters the lytic cycle.'],
+    watch: ['<b>Lysogenic conversion</b>: prophage genes change the bacterium\'s phenotype — <i>S. pyogenes</i> → scarlet fever toxin; <i>C. botulinum</i> → botulism toxin.'] },
+  phagether: { title: 'Phage therapy vs antibiotics', hint: 'd\'Hérelle', notes: 'm15',
+    steps: ['<b>Félix d\'Hérelle (1916)</b> discovered phages (filtrate of a dying culture made plaques) and treated WWI soldiers\' dysentery with filtered feces from healthy soldiers.', 'Antibiotics: non-specific (kill good bacteria), large doses for 10–14 days, resistance.', 'Phages: highly specific, small self-amplifying dose, self-eliminating; they can\'t infect human cells → safe.', 'Downside: you must identify the exact bacterium. Fecal transplants treat <i>C. difficile</i>.'] },
+  entry: { title: 'How does the virus enter a eukaryotic cell?', hint: 'direct penetration · fusion · endocytosis', q: 'Does the virus have an envelope?', opts: ['en_naked', 'en_env'] },
+  en_naked: { title: 'No — naked virus', q: 'What gets inside?', opts: ['en_dp', 'en_endo_n'] },
+  en_dp: { title: 'Only the genome is injected', notes: 'm16', result: 'DIRECT PENETRATION', steps: ['Capsid attaches; genome is pushed into the cell (like a phage).', 'A few naked viruses; least common. Ex: <b>human enterovirus</b> (meningitis).', 'No uncoating needed — the capsid never enters.'] },
+  en_endo_n: { title: 'The cell engulfs the whole virus', notes: 'm16', result: 'ENDOCYTOSIS', steps: ['Host cell wraps the virus in pseudopods → vesicle.', 'Then <b>uncoating</b> releases the genome.', 'Used by naked AND enveloped viruses; ex: <b>influenza</b>.'] },
+  en_env: { title: 'Yes — enveloped virus', q: 'Does the envelope merge with the membrane, or does the cell engulf the virus?', opts: ['en_fus', 'en_endo_e'] },
+  en_fus: { title: 'Envelope merges with the membrane', notes: 'm16', result: 'MEMBRANE FUSION', steps: ['The phospholipid envelope "melts" into the host membrane; the capsid drops into the cytoplasm.', 'Then <b>uncoating</b> releases the genome.', 'Ex: <b>SARS-CoV-2</b> and <b>HIV</b>.'] },
+  en_endo_e: { title: 'The cell engulfs it', notes: 'm16', result: 'ENDOCYTOSIS', steps: ['Engulfed in a vesicle (pseudopods), released into the cytoplasm, then uncoated.', 'Ex: <b>influenza virus</b>.'] },
+  infection: { title: 'Acute, latent, or persistent infection?', hint: 'cold · cold sores · HIV', q: 'Does it start making lots of new viruses right away?', opts: ['in_acute', 'in_wait'] },
+  in_acute: { title: 'Yes — immediate productive phase', notes: 'm16', result: 'ACUTE', steps: ['Rapid spike in viruses (may lyse cells), then it resolves — like the lytic cycle.', 'Ex: <b>adenovirus</b> → common cold.'] },
+  in_wait: { title: 'No — it hides first', q: 'Is the viral genome integrated INTO the host chromosome?', opts: ['in_pers', 'in_lat'] },
+  in_pers: { title: 'Yes — as a provirus', notes: 'm16', result: 'PERSISTENT', steps: ['Viruses made at a <b>slow, detectable rate</b> without disease; may later become productive.', 'Ex: <b>HIV</b> — HIV-positive for years before AIDS.'] },
+  in_lat: { title: 'No — sits beside it as episomal DNA', notes: 'm16', result: 'LATENT', steps: ['Dormant for months/years, then a productive phase; can recur.', 'Ex: <b>herpes simplex</b> (cold sores); <b>varicella-zoster</b>: chickenpox → later shingles (slides).'] },
+  exit: { title: 'How does the virus leave the cell?', hint: 'lysis · budding · exocytosis', q: 'Is it naked or enveloped?', opts: ['xt_lysis', 'xt_env'] },
+  xt_lysis: { title: 'Naked', notes: 'm16', result: 'LYSIS', bad: true, steps: ['The cell ruptures and viruses burst out — the cell is destroyed.'] },
+  xt_env: { title: 'Enveloped', q: 'Is it SARS-CoV-2?', opts: ['xt_exo', 'xt_bud'] },
+  xt_bud: { title: 'No — a typical enveloped virus (flu, HIV)', notes: 'm16', result: 'BUDDING', steps: ['Viral spike proteins go into the host membrane; the capsid pushes out and wraps itself in that membrane = its <b>envelope</b>.', 'A few buds → cell may survive; thousands → cell destroyed.', 'Flu needs <b>neuraminidase</b> to cut the tethers and lift off.'] },
+  xt_exo: { title: 'Yes — SARS-CoV-2', notes: 'm16', result: 'EXOCYTOSIS', steps: ['Assembled inside with an envelope from rough ER/Golgi.', 'Enters lysosomes and <b>de-acidifies</b> them so it isn\'t digested.', 'Released as "waste" by exocytosis — doesn\'t directly harm the cell. Severe COVID = overactive immune response.'] },
+  flu: { title: 'Influenza, SARS-CoV-2 & antiviral drugs', hint: 'H1N1, Tamiflu, remdesivir, 1918', notes: 'm16',
+    steps: ['<b>Hemagglutinin (H)</b> — spike for attachment/entry. <b>Neuraminidase (N)</b> — enzyme that releases budding virus. Both are on influenza.', '<b>H1N1</b> = hemagglutinin type 1 + neuraminidase type 1.', '<b>Tamiflu</b> blocks neuraminidase → no successful budding. Useless on SARS-CoV-2 (exits by exocytosis).', '<b>SARS-CoV-2</b>: spike binds <b>ACE2</b> → membrane fusion. <b>Remdesivir</b> disrupts its polymerase; take early.', '<b>1918 flu</b>: ~500 million infected, ~100 million deaths (more than the Plague); killed healthy people; fought with mask mandates. Textbook: H1N1.', 'Host range: narrow — HIV infects only CD4+ helper T cells (spike must fit a specific receptor).'] },
+  biosyn: { title: 'Viral biosynthesis by genome type', hint: 'dsDNA, ssDNA, dsRNA, +ssRNA, −ssRNA, retrovirus', q: 'Is the genome DNA or RNA?', opts: ['bs_dna', 'bs_rna'] },
+  bs_dna: { title: 'DNA', q: 'Double- or single-stranded?', opts: ['bs_ds', 'bs_ss'] },
+  bs_ds: { title: 'dsDNA (e.g., HPV)', notes: 'm17', result: 'dsDNA', steps: ['Genome copied by normal DNA replication.', 'Transcribed to mRNA → translated into proteins.', 'Assemble and release.'] },
+  bs_ss: { title: 'ssDNA', notes: 'm17', result: 'ssDNA', steps: ['Host enzymes build the complementary strand → dsDNA.', 'That dsDNA is the template for new ssDNA genomes and for mRNA → proteins.'] },
+  bs_rna: { title: 'RNA', q: 'Which kind of RNA genome?', opts: ['bs_pos', 'bs_neg', 'bs_dsr', 'bs_rt'] },
+  bs_pos: { title: '+ssRNA ("sense", e.g., coronavirus)', notes: 'm17', result: '+ssRNA', steps: ['Genome can be <b>translated directly</b> — it acts like mRNA.', 'To copy it: make a complementary <b>−ssRNA template</b>, then use it to make many +ssRNA genomes.'] },
+  bs_neg: { title: '−ssRNA ("antisense")', notes: 'm17', result: '−ssRNA', steps: ['Can\'t be translated directly. Viral RNA-dependent RNA polymerase makes +ssRNA first.', 'That + strand is translated into proteins and is the template for new −ssRNA genomes.'] },
+  bs_dsr: { title: 'dsRNA (e.g., rotavirus)', notes: 'm17', result: 'dsRNA', steps: ['(Textbook) Viral RNA-dependent RNA polymerase uses the <b>− strand</b> as a template to make +ssRNA.', 'The +ssRNA is translated and serves as the template for new genome strands.'] },
+  bs_rt: { title: 'ssRNA with reverse transcriptase (retrovirus, e.g., HIV)', notes: 'm17', result: 'RETROVIRUS', steps: ['Membrane fusion → uncoating.', '<b>Reverse transcriptase</b> turns the +ssRNA genome into <b>dsDNA</b>.', 'dsDNA integrates into the host chromosome as a <b>provirus</b>.', 'Provirus is transcribed into new RNA genomes + mRNA → proteins (incl. spikes).', 'Released by <b>budding</b> — slowly = persistent infection.'],
+    watch: ['Rule from the slides: a template is always required — even viruses follow the Central Dogma.'] },
+  culture: { title: 'Grow (culture) a virus in the lab', hint: 'eggs, animals, cell cultures', notes: 'm17', q: 'What does the virus infect?', opts: ['cu_bact', 'cu_euk'] },
+  cu_bact: { title: 'Bacteria (bacteriophage)', notes: 'm17', result: 'BACTERIAL CULTURE', steps: ['Easy — grow the bacteria (solid or liquid culture) and add the phage.'] },
+  cu_euk: { title: 'Eukaryotic cells', notes: 'm17', result: '3 OPTIONS', steps: ['<b>Live animals</b> (e.g., mice) — costly, messy, ethical concerns.', '<b>Embryonated eggs</b> — cheap; <b>influenza</b> for vaccines grows here (why flu shots ask about egg allergy).', '<b>Cell cultures</b> — for viruses that need one cell type (e.g., <b>HIV</b>); costly, time-consuming.'] },
+  onco: { title: 'How viruses cause cancer', hint: 'p53, oncoviruses, HeLa', notes: 'm17',
+    steps: ['<b>Proto-oncogenes</b> turn cell division ON (gas pedal). <b>Tumor-suppressor genes</b> turn it OFF (brakes) — e.g., <b>p53</b>.', '<b>p53</b> ("guardian angel") stops division and manages damaged DNA; mutated in ~60% of human cancers.', 'Oncoviruses make proteins that <b>inactivate p53</b> → uncontrolled division (tumor) → mutations pile up → cancer.', 'Oncoviruses: <b>HPV</b> (cervical; textbook adds vulvar/vaginal), <b>hepatitis B & C</b> (liver), <b>Epstein-Barr</b> (lymphoma), <b>Rous sarcoma virus</b> (chickens).', '<b>Peyton Rous (1911)</b>: cell-free filtrate of chicken sarcoma caused sarcoma → first virus–cancer link. <b>Epstein & Barr</b>: first human link.', '<b>HeLa cells</b>: immortal cervical-cancer cells from <b>Henrietta Lacks</b> (HPV), taken without consent; used for polio, cancer, AIDS research and drugs.'] }
+};
+var PARENT = {};
+Object.keys(NODES).forEach(function (id) { (NODES[id].opts || []).forEach(function (c) { PARENT[c] = id; }); });
+
+/* ================= DRILL BANK (from the module study guides, lectures & slides) ================= */
+var FACTS = [];
+function F(m, pool, q, a, d) { FACTS.push({ id: m + '|' + q, m: m, pool: pool, q: q, a: a, d: d || null }); }
+
+/* ---- Module 9: protists ---- */
+[['Giardia', 'Archaezoan'], ['Trichomonas', 'Archaezoan'], ['Euglena', 'Euglenozoan'], ['Trypanosoma', 'Euglenozoan'], ['Amoeba', 'Amoebozoan'], ['Entamoeba histolytica', 'Amoebozoan'], ['Plasmodium', 'Apicomplexan'], ['Cryptosporidium', 'Apicomplexan'], ['Dinoflagellates', 'Algae'], ['Diatoms', 'Algae']]
+  .forEach(function (x) { F(9, 'prgrp', 'Which group is ' + x[0] + ' in?', x[1]); });
+[['Giardia', 'Fatty diarrhea (giardiasis)'], ['Trichomonas', 'Vaginitis (an STD)'], ['Trypanosoma', 'Sleeping sickness'], ['Entamoeba histolytica', 'Amoebic dysentery (bloody diarrhea)'], ['Plasmodium', 'Malaria'], ['Cryptosporidium', 'Recreational diarrhea']]
+  .forEach(function (x) { F(9, 'prdis', 'What does ' + x[0] + ' cause?', x[1]); });
+[['Archaezoans', 'Two or more flagella'], ['Euglenozoans', 'Flagellum stiffened with a protein rod'], ['Amoebozoans', 'Pseudopods'], ['Apicomplexans', 'Adults are non-motile']]
+  .forEach(function (x) { F(9, 'prmove', 'How do ' + x[0] + ' move?', x[1]); });
+F(9, 'm9t', 'Trophozoite', 'Active, feeding stage of a protozoan');
+F(9, 'm9t', 'Cyst (protozoan)', 'Dormant stage — often the one transmitted');
+F(9, 'm9t', 'Protozoa', 'Unicellular, heterotrophic protists');
+F(9, 'm9t', 'Algae', 'Autotrophic (photosynthetic) protists');
+F(9, 'm9t', 'Mitosomes', 'Non-functional mitochondria of archaezoans');
+F(9, 'm9t', 'Red tide', 'Bloom of a neurotoxin-producing dinoflagellate');
+F(9, 'm9t', 'Diatoms', 'Marine algae with a two-piece glass (silica) cell wall');
+F(9, 'm9t', 'Kingdom Protista', 'Diverse "miscellaneous" group of unicellular and multicellular eukaryotes');
+F(9, 'x', 'Which organism has 2 nuclei and 8 flagella?', 'Giardia', ['Trichomonas', 'Euglena', 'Trypanosoma']);
+F(9, 'x', 'Which protozoan has only a trophozoite stage (no cyst)?', 'Trichomonas', ['Giardia', 'Cryptosporidium', 'Entamoeba']);
+F(9, 'x', 'Which protist is both heterotrophic and autotrophic?', 'Euglena', ['Trypanosoma', 'Amoeba', 'Giardia']);
+F(9, 'x', 'Which mosquito transmits malaria?', 'Anopheles', ['Aedes', 'Culex', 'Tsetse fly']);
+F(9, 'x', 'Why is Cryptosporidium a recreational-water problem?', 'It is resistant to chlorine', ['It forms endospores', 'It photosynthesizes in pools', 'It is a mechanical vector']);
+F(9, 'x', 'What causes the fever and chills of malaria?', 'Lysing red blood cells release waste', ['Neurotoxin from dinoflagellates', 'Liver fluke eggs', 'Glass fragments in the gut']);
+F(9, 'x', 'Why are apicomplexans named that?', 'Organelles at the cell\'s apex digest an opening into host tissue', ['They have flagella at the apex', 'They live at the apex of food chains', 'They form apical spores']);
+F(9, 'x', 'What does the endosymbiotic theory propose?', 'Mitochondria and chloroplasts came from engulfed bacteria', ['Eukaryotes came before prokaryotes', 'Viruses became organelles', 'The nucleus came from an engulfed archaea']);
+F(9, 'x', 'Which is evidence for the endosymbiotic theory?', 'Mitochondria have a circular chromosome and prokaryotic ribosomes', ['Mitochondria have a cell wall of chitin', 'Mitochondria divide by mitosis', 'Mitochondria have a single membrane']);
+F(9, 'x', 'Engulfed photosynthetic bacteria became…', 'Chloroplasts', ['Mitochondria', 'Ribosomes', 'The nucleus']);
+F(9, 'x', 'Uses of diatomaceous earth', 'Gardening insecticide, reflective paint, tooth polish', ['Antibiotics and vaccines', 'Bread and beer', 'Plastic and rubber']);
+
+/* ---- Module 10: fungi ---- */
+F(10, 'm10t', 'Hyphae', 'Filaments of fungal cells that make up a mold');
+F(10, 'm10t', 'Mycelium', 'The entire network of hyphae');
+F(10, 'm10t', 'Mycosis', 'A fungal disease');
+F(10, 'm10t', 'Dimorphic', 'Able to grow in two forms depending on conditions');
+F(10, 'm10t', 'Chitin', 'Polysaccharide of the fungal cell wall (also arthropod exoskeletons)');
+F(10, 'm10t', 'Ergosterol', 'Sterol that regulates fungal membrane fluidity');
+F(10, 'm10t', 'Sporangiospores', 'Asexual spores enclosed on a sporangiophore');
+F(10, 'm10t', 'Conidiospores', 'Asexual spores exposed on a conidiophore');
+F(10, 'm10t', 'Spores (mold)', 'Small reproductive structures that start new growth');
+F(10, 'm10t', 'Bud scar', 'Mark left in the chitin wall where a yeast bud broke off');
+[['Unicellular, facultative anaerobe', 'Yeast'], ['Multicellular and aerobic', 'Mold'], ['Reproduces mainly by budding', 'Yeast'], ['Reproduces asexually and sexually by spores', 'Mold'], ['Made of hyphae', 'Mold'], ['Saccharomyces cerevisiae', 'Yeast'], ['Candida albicans', 'Yeast'], ['Aspergillus', 'Mold'], ['Penicillium', 'Mold']]
+  .forEach(function (x) { F(10, 'ym', 'Yeast or mold? — ' + x[0], x[1]); });
+[['Candida albicans', 'Yeast infection (vaginitis) and thrush'], ['Saccharomyces cerevisiae', 'Baker\'s / brewer\'s yeast'], ['Aspergillus', 'Farmer\'s lung (inhaled spores)'], ['Penicillium chrysogenum', 'Source of penicillin'], ['Cryptococcus', 'Fungal meningitis'], ['Histoplasma', 'Histoplasmosis']]
+  .forEach(function (x) { F(10, 'fuorg', 'What is ' + x[0] + ' known for?', x[1]); });
+[['Aspergillus', 'Conidiospores'], ['Penicillium', 'Conidiospores'], ['Rhizopus (bread mold)', 'Sporangiospores']]
+  .forEach(function (x) { F(10, 'spore', 'Which spores does ' + x[0] + ' make?', x[1], ['Conidiospores', 'Sporangiospores', 'Endospores', 'Cysts'].filter(function (y) { return y !== x[1]; })); });
+F(10, 'x', 'Is mushroom formation sexual or asexual?', 'Sexual — opposite mating types of hyphae fuse', ['Asexual — budding', 'Asexual — conidiospores', 'Asexual — binary fission']);
+F(10, 'x', 'Why are antifungal drugs hard to develop?', 'Fungal and human cells are biochemically very similar', ['Fungi have no cell wall', 'Fungi mutate faster than bacteria', 'Fungi live only inside cells']);
+F(10, 'x', 'Fungal membranes use ___; human membranes use ___', 'Ergosterol; cholesterol', ['Cholesterol; ergosterol', 'Chitin; peptidoglycan', 'Peptidoglycan; chitin']);
+F(10, 'x', 'Two most common antifungal targets', 'Ergosterol synthesis and cell wall (chitin) synthesis', ['Peptidoglycan and 70S ribosomes', 'DNA gyrase and neuraminidase', 'Flagella and pili']);
+F(10, 'x', 'Saccharomyces fermentation makes…', 'CO₂ (bread rises) and ethanol (beer, wine)', ['Lactic acid and O₂', 'Penicillin and CO₂', 'Methane and H₂S']);
+F(10, 'x', 'How did Fleming discover penicillin?', 'Bacteria near a contaminating Penicillium colony were dying', ['He extracted it from yeast', 'He heated mold spores', 'He filtered sick soldiers\' feces']);
+
+/* ---- Module 11: helminths ---- */
+[['Taenia', 'Cestode'], ['Clonorchis', 'Trematode'], ['Ascaris', 'Nematode'], ['Enterobius', 'Nematode'], ['Dirofilaria', 'Nematode'], ['Dracunculus', 'Nematode'], ['Caenorhabditis elegans', 'Nematode'], ['A tapeworm', 'Cestode'], ['A fluke', 'Trematode'], ['A roundworm', 'Nematode']]
+  .forEach(function (x) { F(11, 'hegrp', 'Which helminth group is ' + x[0] + '?', x[1]); });
+[['Taenia', 'Tapeworm'], ['Clonorchis', 'Liver fluke'], ['Enterobius', 'Pinworm'], ['Dirofilaria', 'Heartworm'], ['Dracunculus', 'Guinea worm'], ['Ascaris', 'Intestinal roundworm']]
+  .forEach(function (x) { F(11, 'hecom', 'Common name for ' + x[0] + '?', x[1]); });
+F(11, 'm11t', 'Scolex', 'Attachment structure at a tapeworm\'s head end');
+F(11, 'm11t', 'Proglottids', 'Repeating hermaphroditic tapeworm segments');
+F(11, 'm11t', 'Cuticle (helminth)', 'Covering made of collagen and chitin');
+F(11, 'm11t', 'Anticoagulant', 'Substance that prevents blood clotting');
+F(11, 'm11t', 'Vermicide', 'Substance that kills worms');
+F(11, 'm11t', 'Helminthic therapy', 'Using worms to treat allergies, Crohn\'s, IBS');
+F(11, 'm11t', 'Mechanical vector', 'Carries pathogens on its body parts (house fly)');
+F(11, 'm11t', 'Biological vector', 'Pathogen reproduces inside it (mosquito, tick)');
+F(11, 'm11t', 'Arthropods', 'Invertebrates (insects, ticks) that can act as vectors');
+F(11, 'x', 'Which group is round and NOT segmented?', 'Nematodes', ['Cestodes', 'Trematodes', 'Proglottids']);
+F(11, 'x', 'How are Trematodes different from Cestodes?', 'No proglottids and no scolex', ['They are round', 'They are segmented', 'They have no body systems']);
+F(11, 'x', 'Why do blood-feeding helminths make anticoagulants?', 'To keep the host\'s blood flowing while they feed', ['To digest the host\'s cuticle', 'To attach with the scolex', 'To avoid chlorine']);
+F(11, 'x', 'Why could worms treat allergies or Crohn\'s?', 'They suppress the host\'s inflammatory response', ['They produce antibiotics', 'They eat the allergens', 'They make anticoagulants']);
+F(11, 'x', 'How many cells does an adult C. elegans have?', '959', ['302', '131', '1,000']);
+F(11, 'x', 'How many neurons does C. elegans have?', '302', ['959', '131', '100']);
+F(11, 'x', 'Ascaris larvae travel from the blood to the…', 'Lungs, then up the trachea and are swallowed', ['Liver, then the bile duct', 'Heart, then the brain', 'Skin, then out of the body']);
+F(11, 'x', 'Hookworm "magic number" for allergy benefit (Pritchard)', '10', ['50', '5', '100']);
+
+
+/* ---- Modules 9–11: added after checking the original videos & slides ---- */
+F(9, 'x', 'Who first saw Giardia (in his own diarrhea)?', 'Anton Leeuwenhoek', ['Lynn Margulis', 'Louis Pasteur', 'Robert Koch']);
+F(9, 'x', 'What is Euglena\'s red eye spot?', 'An endosymbiotic red alga that detects light', ['A nucleus', 'A food vacuole', 'A cyst']);
+F(9, 'x', 'How does sleeping sickness put people in a sleep-like state?', 'Trypanosome toxins shut down metabolism', ['Parasites block the brain\'s blood vessels', 'Red blood cells lyse', 'Neurotoxin from shellfish']);
+F(9, 'x', 'Why is Entamoeba histolytica\'s diarrhea bloody?', 'It breaks down the intestinal wall tissue', ['It lyses red blood cells in the liver', 'It produces a neurotoxin', 'It blocks fat absorption']);
+F(9, 'x', 'How do amoebas form pseudopods?', 'Take down and rebuild the cytoskeleton so cytoplasm flows', ['Whip a flagellum', 'Beat cilia', 'Secrete a glass wall']);
+F(9, 'x', 'What signal gathers Dictyostelium amoebas into a slug?', 'Cyclic AMP', ['Pheromones', 'Lactose', 'Chlorine']);
+F(9, 'x', 'In malaria, after the blood the parasite first goes to the…', 'Liver', ['Lungs', 'Intestines', 'Brain']);
+F(9, 'x', 'Which malaria stage does the mosquito drink up to restart the cycle?', 'Gametocytes', ['Cysts', 'Ring stage only', 'Spores']);
+F(9, 'x', 'How do diatoms float despite glass walls?', 'Oil-filled vacuoles', ['Gas-filled flagella', 'Chitin floats', 'Pseudopods']);
+F(9, 'x', 'Size range of eukaryotic cells', '10–100 µm', ['1–10 µm', '20–1,000 nm', '1–10 mm']);
+F(9, 'x', 'Kelp and seaweed are…', 'Multicellular algae', ['Plants', 'Fungi', 'Protozoa']);
+F(10, 'x', 'Candida albicans is dimorphic because it…', 'Grows as yeast at body temperature, filaments when cooler', ['Has two nuclei', 'Makes two spore types', 'Infects two hosts']);
+F(10, 'x', 'Where do people catch histoplasmosis?', 'Inhaling fungi from bat droppings in caves', ['Contaminated creek water', 'Cat litter boxes', 'Mosquito bites']);
+F(10, 'x', 'Ringworm is caused by…', 'Fungi', ['Worms', 'Bacteria', 'Protozoa']);
+F(10, 'x', 'Which mycosis is Candida albicans in the mouth?', 'Thrush', ['Ringworm', 'Athlete\'s foot', 'Histoplasmosis']);
+F(10, 'x', 'Fungal meningitis can be caused by…', 'Candida, Histoplasma, Cryptococcus, and others', ['Only Aspergillus', 'Only Penicillium', 'Saccharomyces only']);
+F(10, 'x', 'How do mold hyphae eat?', 'Release enzymes, digest food outside the cell, absorb it', ['Engulf food with pseudopods', 'Photosynthesis', 'Through a mouth']);
+F(10, 'x', 'What draws opposite mating-type hyphae together?', 'Pheromones', ['Cyclic AMP', 'Light', 'Gravity']);
+F(10, 'x', 'Most antibiotics were originally discovered in…', 'Fungi', ['Algae', 'Viruses', 'Helminths']);
+F(11, 'x', 'Why can\'t we digest worms living in our intestines?', 'Their chitin cuticle is indigestible', ['They have glass walls', 'They are too small', 'They live inside our cells']);
+F(11, 'x', 'How does a tapeworm get food?', 'Absorbs pre-digested nutrients across its flat body', ['Oral sucker drinks blood', 'Photosynthesis', 'Chitin teeth']);
+F(11, 'x', 'Why do Ascaris larvae travel to the lungs?', 'They need lots of oxygen to develop', ['To lay eggs', 'To escape the immune system', 'To find a mate']);
+F(11, 'x', 'Scotch-tape test diagnoses…', 'Pinworms (Enterobius)', ['Tapeworms', 'Heartworms', 'Guinea worm']);
+F(11, 'x', 'How do dogs get heartworm (Dirofilaria)?', 'Mosquitoes transmit the eggs', ['Eating raw beef', 'Drinking pond water', 'Cat litter']);
+F(11, 'x', 'Helminth anticoagulant used as a blood thinner', 'Hirudin', ['Chitin', 'Ergosterol', 'Chloroquine']);
+F(11, 'x', 'Per the instructor slides, ascariasis is treated with…', 'Albendazole (Albenza) or mebendazole (Vermox)', ['Miconazole', 'Metronidazole (Flagyl)', 'Tamiflu']);
+F(11, 'x', 'Hookworms are what kind of helminth?', 'Roundworms (nematodes)', ['Flukes (trematodes)', 'Tapeworms (cestodes)', 'Arthropods']);
+F(11, 'x', 'Pritchard injected himself with how many hookworms?', '50', ['10', '959', '302']);
+F(11, 'x', 'How many programmed cell deaths in C. elegans development?', '131', ['959', '302', '50']);
+F(11, 'x', 'Tapeworm proglottids self-fertilize. That is…', 'Still sexual reproduction', ['Asexual budding', 'Binary fission', 'Spore formation']);
+
+/* ---- drugs (all modules) ---- */
+[[9, 'Metronidazole (Flagyl)', 'Blocks DNA synthesis in protozoans'], [9, 'Chloroquine', 'Keeps Plasmodium trophozoites from degrading hemoglobin'], [10, 'Miconazole (Monistat)', 'Inhibits ergosterol synthesis'], [10, 'Anidulafungin (Eraxis)', 'Inhibits cell wall (chitin) synthesis'], [11, 'Mebendazole (Vermox)', 'Inhibits sugar absorption in worms'], [12, 'Ciprofloxacin (Cipro)', 'Inhibits bacterial DNA gyrase'], [16, 'Oseltamivir (Tamiflu)', 'Inhibits neuraminidase → blocks budding'], [16, 'Remdesivir', 'Disrupts the viral polymerase']]
+  .forEach(function (x) { F(x[0], 'drug', 'How does ' + x[1] + ' work?', x[2]); });
+
+/* ---- scientists (all modules) ---- */
+[[9, 'Proposed the endosymbiotic theory', 'Lynn Margulis'], [10, 'Discovered penicillin', 'Alexander Fleming'], [11, 'Infected himself with hookworms to study allergies', 'David Pritchard'], [12, 'Heat-killed S + live R cells killed mice (1928)', 'Frederick Griffith'], [12, 'Showed DNase (not protease) blocked transformation', 'Oswald Avery'], [12, 'Used ³²P/³⁵S-labeled phage to confirm DNA is genetic material', 'Hershey & Chase'], [12, 'X-ray crystallography; Photo 51', 'Rosalind Franklin'], [12, 'Published the first paper describing DNA\'s structure', 'Watson & Crick'], [12, 'Created the first artificial genome', 'Craig Venter'], [13, 'Discovered the operon model', 'Jacques Monod'], [14, 'Made the first recombinant DNA (1970)', 'Paul Berg'], [14, 'Made the first recombinant organism (1973)', 'Cohen & Boyer'], [14, 'Developed PCR', 'Kary Mullis'], [14, 'Discovered CRISPR gene editing (Nobel 2020)', 'Doudna & Charpentier'], [14, 'Created the first CRISPR babies (2018)', 'He Jiankui'], [15, 'Discovered the first virus (filterable infectious poison, 1892)', 'Dmitri Ivanovsky'], [15, 'First to see (and crystallize) a virus, 1935', 'Wendell Stanley'], [15, 'Discovered bacteriophage; first phage therapy', 'Félix d\'Hérelle'], [17, 'First linked a virus to cancer in animals (chickens)', 'Peyton Rous'], [17, 'First linked a virus to cancer in humans', 'Epstein & Barr'], [17, 'Source of the immortal HeLa cell line', 'Henrietta Lacks']]
+  .forEach(function (x) { F(x[0], 'who', 'Who? — ' + x[1], x[2]); });
+
+/* ---- Module 12 ---- */
+[['Gyrase', 'Uncoils supercoiled DNA'], ['Helicase', 'Unzips and unwinds the double helix'], ['Primase', 'Lays down an RNA primer'], ['DNA polymerase', 'Adds complementary nucleotides 5′→3′'], ['Ligase', 'Joins Okazaki fragments']]
+  .forEach(function (x) { F(12, 'enz', 'What does ' + x[0] + ' do in replication?', x[1]); F(12, 'enzr', 'Which enzyme: ' + x[1].toLowerCase() + '?', x[0]); });
+F(12, 'm12t', 'Gene', 'Region of a chromosome encoding the primary structure of a protein');
+F(12, 'm12t', 'Genotype', 'The genes and nucleotide sequences in the genome');
+F(12, 'm12t', 'Phenotype', 'Physical, behavioral, metabolic properties resulting from the genotype');
+F(12, 'm12t', 'Replication fork', 'Y-shaped region where helicase has separated the strands');
+F(12, 'm12t', 'Origin of replication', 'Site where helicases bind and replication starts');
+F(12, 'm12t', 'Okazaki fragments', 'Short pieces of the lagging strand');
+F(12, 'm12t', 'Semi-conservative', 'Each new helix = one old strand + one new strand');
+F(12, 'm12t', 'Antiparallel', 'The two strands run in opposite directions');
+F(12, 'm12t', 'Coding strand (5′→3′)', 'Same sequence as the mRNA (T instead of U)');
+F(12, 'm12t', 'Template / non-coding strand (3′→5′)', 'Used as the template to make mRNA');
+F(12, 'x', 'Prokaryotic chromosome', 'Double-stranded, circular, usually one', ['Double-stranded, linear, many', 'Single-stranded, circular, one', 'Single-stranded, linear, many']);
+F(12, 'x', 'Eukaryotic chromosomes', 'Double-stranded, linear, many', ['Double-stranded, circular, usually one', 'Single-stranded, circular, one', 'Single-stranded, linear, many']);
+F(12, 'x', 'Three parts of a nucleotide', 'Phosphate, 5-carbon sugar, nitrogenous base', ['Amino acid, sugar, phosphate', 'Glycerol, fatty acid, phosphate', 'Ribosome, sugar, base']);
+F(12, 'x', 'Which part makes each nucleotide unique?', 'The nitrogenous base', ['The phosphate', 'The sugar', 'The hydrogen bonds']);
+F(12, 'x', 'RNA vs DNA', 'RNA: ribose, uracil, single-stranded', ['RNA: deoxyribose, thymine, double-stranded', 'RNA: ribose, thymine, double-stranded', 'RNA: deoxyribose, uracil, single-stranded']);
+F(12, 'x', 'H-bonds: A–T and G–C', 'A–T = 2, G–C = 3', ['A–T = 3, G–C = 2', 'Both = 2', 'Both = 3']);
+F(12, 'x', 'What holds the sugar-phosphate backbone together?', 'Covalent bonds', ['Hydrogen bonds', 'Ionic bonds', 'Peptide bonds']);
+F(12, 'x', 'What holds the two DNA strands together?', 'Hydrogen bonds between complementary bases', ['Covalent bonds between sugars', 'Peptide bonds', 'Ligase']);
+F(12, 'x', 'The 5′ end of a strand starts with…', 'A phosphate group', ['An –OH group', 'A nitrogenous base', 'An RNA primer']);
+F(12, 'x', 'Golden rule of nucleic acid synthesis', 'Only built 5′ → 3′', ['Only built 3′ → 5′', 'Built both ways', 'Only built on the lagging strand']);
+F(12, 'x', 'Leading strand', 'Built continuously toward the fork', ['Built in Okazaki fragments', 'Made of RNA', 'Never needs a primer of any kind']);
+F(12, 'x', 'Lagging strand', 'Built away from the fork in fragments joined by ligase', ['Built continuously toward the fork', 'Not copied at all', 'Copied by RNA polymerase']);
+F(12, 'x', 'Bacterial replication takes about…', '30 minutes (most of the generation time)', ['30 seconds', '3 hours', '1 day']);
+F(12, 'x', 'How many replication forks on a circular bacterial chromosome?', 'Two', ['One', 'Four', 'One per gene']);
+F(12, 'x', 'Why doesn\'t Cipro harm human cells?', 'Our gyrase is a different enzyme', ['We have no DNA polymerase', 'Our DNA is single-stranded', 'Human cells lack ribosomes']);
+F(12, 'x', 'Griffith: smooth vs rough S. pneumoniae', 'Smooth = capsule, pathogenic; rough = no capsule, harmless', ['Smooth = harmless; rough = pathogenic', 'Both pathogenic', 'Smooth = no capsule, pathogenic']);
+F(12, 'x', 'Photo 51 showed DNA is a…', 'Double helix', ['Single strand', 'Triple helix', 'Circle']);
+F(12, 'x', 'Venter\'s artificial genome organism', 'Mycoplasma genitalium (521 genes)', ['E. coli (5,000 genes)', 'Thermus aquaticus', 'Streptococcus pneumoniae']);
+
+/* ---- Module 13 ---- */
+[['RNA polymerase binds the promoter and starts RNA', 'Initiation'], ['RNA polymerase builds complementary RNA along the template', 'Elongation'], ['RNA polymerase reaches the terminator and falls off', 'Termination']]
+  .forEach(function (x) { F(13, 'txst', 'Transcription stage: ' + x[0], x[1], ['Initiation', 'Elongation', 'Termination', 'Translocation'].filter(function (y) { return y !== x[1]; })); });
+[['Ribosome + first Met-tRNA assemble at AUG', 'Initiation'], ['tRNAs bring amino acids; peptide bonds form', 'Elongation'], ['A stop codon is reached; polypeptide released', 'Termination']]
+  .forEach(function (x) { F(13, 'tlst', 'Translation stage: ' + x[0], x[1], ['Initiation', 'Elongation', 'Termination', 'Uncoating'].filter(function (y) { return y !== x[1]; })); });
+F(13, 'm13t', 'Central dogma', 'DNA → mRNA → protein');
+F(13, 'm13t', 'Transcription', 'Copying a DNA gene into single-stranded mRNA');
+F(13, 'm13t', 'Translation', 'Turning an mRNA sequence into an amino-acid sequence at the ribosome');
+F(13, 'm13t', 'Codon', 'Three mRNA nucleotides that specify an amino acid');
+F(13, 'm13t', 'Anticodon', 'Three tRNA nucleotides complementary to a codon');
+F(13, 'm13t', 'Promoter', 'Start of a gene where RNA polymerase binds');
+F(13, 'm13t', 'Terminator', 'End of a gene where RNA polymerase falls off');
+F(13, 'm13t', 'Stop codon', 'Codon with no matching tRNA — ends translation');
+F(13, 'm13t', 'Operon', 'Genes + regulatory sequences that control their expression');
+F(13, 'm13t', 'Operator', 'DNA site the repressor binds to block RNA polymerase');
+F(13, 'm13t', 'Mutation', 'Change in the nucleotide sequence of DNA');
+F(13, 'm13t', 'Point mutation', 'Change in a single nucleotide');
+F(13, 'm13t', 'Thymine dimer', 'Two adjacent thymines covalently bonded by UV');
+F(13, 'rna', 'mRNA', 'Carries the gene\'s codons to the ribosome');
+F(13, 'rna', 'tRNA', 'Carries an amino acid + anticodon');
+F(13, 'rna', 'rRNA', 'Combines with proteins to form the ribosome');
+F(13, 'rna', 'RNA polymerase', 'Enzyme that transcribes DNA into mRNA');
+[['Same amino acid after the substitution', 'Silent'], ['A different amino acid after the substitution', 'Missense'], ['Substitution creates a premature stop codon', 'Nonsense'], ['An insertion or deletion shifts the reading frame', 'Frameshift']]
+  .forEach(function (x) { F(13, 'mut', 'Mutation type: ' + x[0], x[1]); });
+F(13, 'x', 'Most common start codon', 'AUG (Met)', ['UAA', 'UGA', 'GGA (Gly)']);
+F(13, 'x', 'Number of codons vs amino acids', '64 codons, 20 amino acids', ['20 codons, 64 amino acids', '20 codons, 20 amino acids', '64 codons, 64 amino acids']);
+F(13, 'x', 'Inducible operon', 'Default OFF; inducer turns it ON (lamp)', ['Default ON; corepressor turns it OFF (refrigerator)', 'Always ON', 'Always OFF']);
+F(13, 'x', 'Repressible operon', 'Default ON; corepressor turns it OFF (refrigerator)', ['Default OFF; inducer turns it ON (lamp)', 'Always ON', 'Always OFF']);
+F(13, 'x', 'The lac operon is…', 'Inducible — lactose is the inducer', ['Repressible — lactose is the corepressor', 'Repressible — tryptophan is the inducer', 'Not regulated']);
+F(13, 'x', 'Example of a repressible operon', 'trp operon', ['lac operon', 'CRISPR', 'Origin of replication']);
+F(13, 'x', 'Lac operon with lactose present', 'Lactose inactivates the repressor → genes ON', ['Lactose binds the operator → genes OFF', 'Repressor binds operator → genes ON', 'RNA polymerase is destroyed']);
+F(13, 'x', 'Three kinds of mutagens', 'Chemicals, radiation, viruses', ['Heat, cold, pressure', 'Sugars, fats, proteins', 'Bacteria, fungi, worms']);
+F(13, 'x', 'Which mutation is usually most harmful?', 'Frameshift', ['Silent', 'Missense', 'Substitution that changes nothing']);
+F(13, 'x', 'Most germicidal UV wavelength', '254 nm', ['700 nm', '400 nm', '1,000 nm']);
+F(13, 'x', 'Why is mRNA destroyed after translation?', 'Otherwise the protein would be made nonstop', ['It turns into DNA', 'It becomes a tRNA', 'Ribosomes need it for energy']);
+
+/* ---- Module 14 ---- */
+[['~94–96 °C — strands separate', 'Denaturation'], ['~55 °C — primers bind', 'Annealing (priming)'], ['~72 °C — Taq builds new strands', 'Extension (synthesis)']]
+  .forEach(function (x) { F(14, 'pcrst', 'PCR step: ' + x[0], x[1], ['Denaturation', 'Annealing (priming)', 'Extension (synthesis)', 'Ligation'].filter(function (y) { return y !== x[1]; })); });
+F(14, 'm14t', 'Horizontal gene transfer', 'Genes passed within a generation between cells');
+F(14, 'm14t', 'Vertical gene transfer', 'Genes passed to the next generation');
+F(14, 'm14t', 'Plasmid', 'Small loop of DNA separate from the chromosome');
+F(14, 'm14t', 'Restriction enzyme', 'Cuts DNA at a specific recognition sequence');
+F(14, 'm14t', 'Sticky ends', 'Single-stranded overhangs from a staggered cut');
+F(14, 'm14t', 'Recombinant DNA', 'DNA combined from two different sources');
+F(14, 'm14t', 'PCR', 'Makes millions of copies of a specific DNA region');
+F(14, 'm14t', 'Primers (PCR)', 'Short DNA pieces flanking the region to copy');
+F(14, 'm14t', 'Taq polymerase', 'Heat-stable DNA polymerase from Thermus aquaticus');
+F(14, 'm14t', 'Thermal cycler', 'Machine that automates PCR temperature changes');
+F(14, 'm14t', 'Cas9', 'Enzyme that cuts DNA where the guide RNA directs');
+F(14, 'm14t', 'Guide RNA', '~20-nucleotide sequence telling Cas9 where to cut');
+F(14, 'm14t', 'Germline editing', 'Editing sperm, eggs, or embryos — inherited changes');
+F(14, 'm14t', 'Conjugation (textbook)', 'Gene transfer through a conjugation pilus');
+F(14, 'x', 'EcoRI recognition sequence', 'GAATTC', ['AUGGCA', 'TATAAT', 'GGATCC']);
+F(14, 'x', '"DNA glue" in genetic engineering', 'DNA ligase', ['Restriction enzyme', 'Helicase', 'Cas9']);
+F(14, 'x', 'Humulin is…', 'Human insulin made by genetically engineered E. coli', ['Pig insulin', 'A CRISPR-edited mushroom', 'A PCR test']);
+F(14, 'x', 'Where does Thermus aquaticus come from?', 'Yellowstone hot springs', ['The human gut', 'Ocean floor diatoms', 'Soil fungi']);
+F(14, 'x', 'Which enzyme is the ONLY one added to a PCR tube?', 'DNA polymerase', ['Helicase', 'Primase', 'Ligase']);
+F(14, 'x', 'PCR cycles usually repeated', '25–35 times', ['2–3 times', '1,000 times', 'Once']);
+F(14, 'x', 'Diagnostic PCR: no amplification means', 'Negative — pathogen\'s sequence not present', ['Positive', 'The primers were too long', 'The patient is immune']);
+F(14, 'x', 'Cas9 cut + no donor DNA →', 'Non-homologous end joining → gene knocked out', ['Homology-directed repair → gene knocked in', 'The gene is copied by PCR', 'Nothing happens']);
+F(14, 'x', 'Cas9 cut + donor DNA →', 'Homology-directed repair → new sequence knocked in', ['Non-homologous end joining → knock-out', 'The cell dies', 'Sticky ends form']);
+F(14, 'x', 'CRISPR in bacteria naturally is…', 'An adaptive immune system against phages', ['A replication enzyme', 'A type of plasmid', 'A toxin']);
+F(14, 'x', 'First FDA-approved CRISPR treatment', 'Sickle cell disease (Victoria Gray)', ['Cystic fibrosis', 'Lung cancer', 'Diabetes']);
+F(14, 'x', 'Germline editing rule (NAS)', 'Embryo research allowed, but no implantation', ['Fully allowed', 'All embryo research banned', 'Allowed only for food']);
+F(14, 'x', 'Why is CF hard to treat with CRISPR in adults?', 'Every cell carries the faulty gene', ['CF is caused by a virus', 'Cas9 can\'t cut human DNA', 'The CF gene is on a plasmid']);
+F(14, 'x', 'Do CRISPR-edited foods need GMO labels?', 'No — gene editing isn\'t classed as a GMO', ['Yes, always', 'Only mushrooms', 'Only livestock']);
+
+/* ---- Module 15 ---- */
+[['Tobacco mosaic virus', 'Helical'], ['Ebola virus', 'Helical'], ['Human papillomavirus', 'Polyhedral'], ['Bacteriophage', 'Complex']]
+  .forEach(function (x) { F(15, 'shape', 'Capsid shape of ' + x[0] + '?', x[1], ['Helical', 'Polyhedral', 'Complex', 'Spiral'].filter(function (y) { return y !== x[1]; })); });
+[['Human papillomavirus', 'Naked (non-enveloped)'], ['Influenza virus', 'Enveloped'], ['SARS-CoV-2', 'Enveloped'], ['HIV', 'Enveloped']]
+  .forEach(function (x) { F(15, 'env', 'Envelope? — ' + x[0], x[1], ['Naked (non-enveloped)', 'Enveloped', 'Complex', 'Segmented'].filter(function (y) { return y !== x[1]; })); });
+[['Human papillomavirus', 'dsDNA'], ['Rotavirus', 'dsRNA'], ['Coronavirus (SARS-CoV-2)', '+ssRNA'], ['HIV', 'ssRNA with reverse transcriptase']]
+  .forEach(function (x) { F(15, 'genome', 'Genome of ' + x[0] + '?', x[1]); });
+[['Phage proteins bind the host cell surface', 'Attachment'], ['Phage DNA is injected into the cell', 'Penetration'], ['Host makes phage DNA and proteins', 'Biosynthesis'], ['Parts are put together into virions', 'Maturation'], ['Cell lyses; phages burst out', 'Release']]
+  .forEach(function (x) { F(15, 'lytic', 'Lytic step: ' + x[0], x[1]); });
+[['Phage DNA joins the bacterial chromosome', 'Integration'], ['Bacterium divides, copying the prophage', 'Reproduction'], ['Prophage cuts itself out and goes lytic', 'Induction']]
+  .forEach(function (x) { F(15, 'lyso', 'Lysogenic step: ' + x[0], x[1], ['Integration', 'Reproduction', 'Induction', 'Uncoating'].filter(function (y) { return y !== x[1]; })); });
+F(15, 'm15t', 'Virus', 'Non-living obligate intracellular parasite');
+F(15, 'm15t', 'Capsid', 'Protein coat around the viral nucleic acid');
+F(15, 'm15t', 'Capsomere', 'Protein subunit of a capsid');
+F(15, 'm15t', 'Envelope', 'Phospholipid bilayer around some capsids');
+F(15, 'm15t', 'Spike proteins', 'Surface proteins that attach the virus to host cells');
+F(15, 'm15t', 'Bacteriophage', 'Virus that infects only bacteria');
+F(15, 'm15t', 'Prophage', 'Phage DNA integrated into the bacterial chromosome');
+F(15, 'm15t', 'Induction', 'Prophage excises and enters the lytic cycle');
+F(15, 'm15t', 'Lysogenic conversion', 'Prophage genes change the bacterium\'s phenotype');
+F(15, 'm15t', 'Plaque', 'Clear zone of lysed bacteria from one phage');
+F(15, 'm15t', 'Segmented genome', 'Genome in several separate pieces');
+F(15, 'm15t', 'Phage therapy', 'Using bacteriophages to treat bacterial infections');
+F(15, 'x', 'Size range of most viruses', '20–1,000 nm', ['1–10 µm', '0.1–1 mm', '2 nm']);
+F(15, 'x', 'What triggers induction?', 'Stress on the host cell', ['Lactose', 'Neuraminidase', 'Cold temperature']);
+F(15, 'x', 'Lysogenic conversion: Streptococcus pyogenes gains…', 'Scarlet fever toxin', ['Botulism toxin', 'A capsule', 'Penicillin resistance']);
+F(15, 'x', 'Lysogenic conversion: Clostridium botulinum gains…', 'Botulism toxin', ['Scarlet fever toxin', 'Spores', 'Flagella']);
+F(15, 'x', 'Role of lysozyme in phage infection', 'Digests the cell wall to get in and burst out', ['Copies phage DNA', 'Forms the capsid', 'Integrates the prophage']);
+F(15, 'x', 'Why is phage therapy safe?', 'Phages only infect (specific) bacteria and self-eliminate', ['Phages kill all bacteria', 'Phages boost antibiotics', 'Phages infect only human cells']);
+F(15, 'x', 'A downside of phage therapy', 'Must identify the exact bacterium', ['Huge doses for 14 days', 'Kills good bacteria', 'Causes resistance to all drugs']);
+F(15, 'x', 'Where did d\'Hérelle get his phages to treat dysentery?', 'Filtered feces of healthy soldiers', ['Tobacco plants', 'Chicken tumors', 'Hot springs']);
+F(15, 'x', 'Ivanovsky\'s key finding', 'The filtrate (not trapped bacteria) caused tobacco mosaic disease', ['Bacteria on the filter caused it', 'He saw the virus by light microscope', 'A fungus caused it']);
+
+/* ---- Module 16 ---- */
+[['SARS-CoV-2', 'Membrane fusion'], ['HIV', 'Membrane fusion'], ['Influenza virus', 'Endocytosis'], ['Human enterovirus', 'Direct penetration']]
+  .forEach(function (x) { F(16, 'entry', 'Entry mechanism of ' + x[0] + '?', x[1], ['Direct penetration', 'Membrane fusion', 'Endocytosis', 'Budding'].filter(function (y) { return y !== x[1]; })); });
+[['Envelope melts into the host membrane', 'Membrane fusion'], ['Host engulfs the virus with pseudopods', 'Endocytosis'], ['Capsid attaches; only the genome enters', 'Direct penetration']]
+  .forEach(function (x) { F(16, 'entry2', 'Entry: ' + x[0], x[1], ['Direct penetration', 'Membrane fusion', 'Endocytosis', 'Exocytosis'].filter(function (y) { return y !== x[1]; })); });
+[['Adenovirus (common cold)', 'Acute'], ['Herpes simplex (cold sores)', 'Latent'], ['Varicella-zoster (shingles)', 'Latent'], ['HIV', 'Persistent']]
+  .forEach(function (x) { F(16, 'inf', 'Infection type: ' + x[0], x[1], ['Acute', 'Latent', 'Persistent', 'Lysogenic'].filter(function (y) { return y !== x[1]; })); });
+[['Immediate productive phase; quick spike', 'Acute'], ['Dormant episomal DNA; recurs later', 'Latent'], ['Provirus; slow, detectable virus production', 'Persistent']]
+  .forEach(function (x) { F(16, 'inf2', 'Infection type: ' + x[0], x[1], ['Acute', 'Latent', 'Persistent', 'Lytic'].filter(function (y) { return y !== x[1]; })); });
+[['Naked viruses', 'Lysis'], ['Most enveloped viruses (flu, HIV)', 'Budding'], ['SARS-CoV-2', 'Exocytosis']]
+  .forEach(function (x) { F(16, 'exit', 'How do ' + x[0] + ' leave the cell?', x[1], ['Lysis', 'Budding', 'Exocytosis', 'Endocytosis'].filter(function (y) { return y !== x[1]; })); });
+F(16, 'm16t', 'Host range', 'The specific cell types/species a virus can infect');
+F(16, 'm16t', 'Uncoating', 'Breaking the capsid to release the genome');
+F(16, 'm16t', 'Hemagglutinin', 'Flu spike for attachment/entry');
+F(16, 'm16t', 'Neuraminidase', 'Flu enzyme that releases budding viruses');
+F(16, 'm16t', 'H1N1', 'Hemagglutinin type 1 + neuraminidase type 1');
+F(16, 'm16t', 'Provirus', 'Viral DNA integrated into the host chromosome');
+F(16, 'm16t', 'Episomal DNA', 'Viral DNA sitting beside (not in) the chromosome');
+F(16, 'x', 'Which entry methods need uncoating?', 'Membrane fusion and endocytosis', ['Direct penetration only', 'All three', 'None']);
+F(16, 'x', 'Source of a budding virus\'s envelope', 'The host cell\'s plasma membrane', ['Viral genes alone', 'The bacterial cell wall', 'The nucleus']);
+F(16, 'x', 'HIV infects only…', 'Human CD4+ helper T cells', ['Red blood cells', 'Respiratory cells with ACE2', 'Liver cells']);
+F(16, 'x', 'SARS-CoV-2 spike binds which receptor?', 'ACE2', ['CD4', 'Hemagglutinin', 'Neuraminidase']);
+F(16, 'x', 'Why doesn\'t Tamiflu work on SARS-CoV-2?', 'It exits by exocytosis, not neuraminidase budding', ['It has no envelope', 'It is a DNA virus', 'Tamiflu only blocks entry']);
+F(16, 'x', 'How does SARS-CoV-2 avoid lysosome digestion?', 'It de-acidifies the lysosome', ['It has a chitin wall', 'It integrates as a provirus', 'It makes neuraminidase']);
+F(16, 'x', 'Severe COVID symptoms come mainly from…', 'An overactive immune response', ['Lysis of every lung cell', 'Neurotoxin', 'Bacterial superinfection']);
+F(16, 'x', '1918 flu pandemic toll', '~500 million infected, ~100 million deaths', ['~50 million infected, ~5 million deaths', '~6 million deaths', '~1 million deaths']);
+F(16, 'x', 'Who did the 1918 flu kill most?', 'Healthy individuals with strong immune systems', ['Only the elderly', 'Only infants', 'Only soldiers']);
+F(16, 'x', 'Main 1918 public-health measure', 'State and local mask mandates', ['Tamiflu', 'Vaccines', 'Remdesivir']);
+F(16, 'x', 'Least common entry method', 'Direct penetration', ['Membrane fusion', 'Endocytosis', 'Budding']);
+
+/* ---- Module 17 ---- */
+F(17, 'm17t', '+ssRNA', 'Sense RNA — can be translated directly');
+F(17, 'm17t', '−ssRNA', 'Antisense RNA — must be copied to + first');
+F(17, 'm17t', 'Retrovirus', 'ssRNA virus that converts its genome into dsDNA');
+F(17, 'm17t', 'Reverse transcriptase', 'Enzyme that makes DNA from RNA');
+F(17, 'm17t', 'Proto-oncogene', 'Gene whose protein turns cell division ON');
+F(17, 'm17t', 'Tumor-suppressor gene', 'Gene whose protein turns cell division OFF');
+F(17, 'm17t', 'p53 protein', '"Guardian angel" — stops division, manages damaged DNA');
+F(17, 'm17t', 'Oncovirus', 'A cancer-causing virus');
+F(17, 'm17t', 'HeLa cells', 'Immortal cervical-cancer cells from Henrietta Lacks');
+F(17, 'm17t', 'Cancer', 'Uncontrolled cell division with accumulated mutations');
+[['HPV', 'Cervical cancer'], ['Hepatitis B and C viruses', 'Liver cancer'], ['Epstein-Barr virus', 'Lymphoma'], ['Rous sarcoma virus', 'Sarcoma in chickens']]
+  .forEach(function (x) { F(17, 'onc', 'Cancer linked to ' + x[0] + '?', x[1]); });
+[['dsDNA', 'Normal DNA replication; transcribe → translate'], ['ssDNA', 'Host builds complementary strand → dsDNA'], ['+ssRNA', 'Translated directly; copied via a − template'], ['−ssRNA', 'Copied into +ssRNA first, then translated'], ['ssRNA-RT', 'Reverse transcriptase → dsDNA → provirus']]
+  .forEach(function (x) { F(17, 'bios', 'Biosynthesis of a ' + x[0] + ' virus?', x[1]); });
+[['Live animals (e.g., mice)', 'Eukaryotic viruses'], ['Embryonated eggs', 'Influenza (vaccines)'], ['Specific human cell cultures', 'HIV'], ['Bacterial cultures', 'Bacteriophage']]
+  .forEach(function (x) { F(17, 'cult', 'What is grown in ' + x[0] + '?', x[1]); });
+F(17, 'x', 'Cell cycle phase for DNA synthesis', 'S', ['G1', 'G2', 'M']);
+F(17, 'x', 'Cell cycle phase where a cell does its normal job', 'G1', ['S', 'G2', 'M']);
+F(17, 'x', 'p53 mutations occur in about ___ of human cancers', '60%', ['6%', '25%', '100%']);
+F(17, 'x', 'How do HPV and hepatitis B/C cause tumors?', 'Proteins that inactivate p53', ['Thymine dimers', 'Reverse transcriptase in liver', 'Neuraminidase']);
+F(17, 'x', 'Why do flu shots ask about egg allergies?', 'Flu vaccine virus is grown in embryonated eggs', ['Eggs are an ingredient for flavor', 'Eggs carry the flu', 'Eggs contain neuraminidase']);
+F(17, 'x', 'Peyton Rous\'s method', 'Injected cell-free filtrate of chicken sarcoma', ['Edited chicken embryos with CRISPR', 'Grew sarcoma in eggs', 'Used X-ray crystallography']);
+F(17, 'x', 'Which viruses have reverse transcriptase?', 'Retroviruses (HIV, FIV)', ['Bacteriophages', 'Influenza', 'HPV']);
+F(17, 'x', 'Retroviral release', 'Budding — slow budding lets the cell survive', ['Lysis only', 'Exocytosis from lysosomes', 'Induction']);
+F(17, 'x', 'Normal cells divide in culture about…', '50 times, then die', ['Forever', 'Once', '959 times']);
+
+var NOTES_HTML = `
+<section id="n-m9"><h3>Module 9 — Protists</h3><ul>
+<li><b>Endosymbiotic theory</b> (Lynn Margulis): engulfed aerobic bacteria → mitochondria; photosynthetic bacteria → chloroplasts. Evidence: rod shape 1–10 µm, double membrane, prokaryotic ribosomes, circular chromosome, binary fission, DNA like bacteria. Video: eukaryotes appear ~2 BYA; instructor slides: ~2.5 BYA. Eukaryotic cells 10–100 µm.</li>
+<li>Protists = "miscellaneous" eukaryotes. <b>Protozoa</b> = unicellular heterotrophs (move by cilia, flagella, or pseudopods). <b>Algae</b> = autotrophs.</li>
+<li><b>Trophozoite</b> = active feeding stage. <b>Cyst</b> = dormant, often transmitted.</li>
+<li><b>Archaezoans</b> (2+ flagella, mitosomes, anaerobic): <i>Giardia</i> (2 nuclei, 8 flagella, cyst → fatty diarrhea; Leeuwenhoek saw it), <i>Trichomonas</i> (trophozoite only, STD → vaginitis).</li>
+<li><b>Euglenozoans</b> (flagellum with protein rod): <i>Euglena</i> (auto + hetero, red-algae eye spot, harmless), <i>Trypanosoma</i> (blood; toxins → sleeping sickness).</li>
+<li><b>Amoebozoans</b> (pseudopods): <i>Amoeba</i>, <i>Dictyostelium</i>, <i>Entamoeba histolytica</i> (amoebic dysentery — breaks intestinal tissue); <i>Dictyostelium</i> slime mold gathers by cyclic AMP.</li>
+<li><b>Apicomplexans</b> (adults non-motile, obligate intracellular, apical organelles, complex life cycles): <i>Plasmodium</i> (malaria, <i>Anopheles</i>; blood → liver → RBCs → lysis → fever/chills; gametocytes back to mosquito; ~10% of world), <i>Cryptosporidium</i> (recreational diarrhea; chlorine-resistant).</li>
+<li>Algae: <b>red tide</b> = neurotoxin dinoflagellate bloom (fish die-offs, shellfish poisoning). <b>Diatoms</b> = glass (silica) two-piece wall → diatomaceous earth (gardening, reflective paint, tooth polish); oil vacuoles for floating → petroleum / possible biofuel.</li>
+<li>Drugs: <b>metronidazole (Flagyl)</b> blocks DNA synthesis; <b>chloroquine</b> blocks <i>Plasmodium</i> hemoglobin breakdown.</li>
+</ul></section>
+<section id="n-m10"><h3>Module 10 — Fungi</h3><ul>
+<li>Fungi: uni- or multicellular, heterotrophic decomposers, non-motile, <b>chitin</b> cell wall; disease = <b>mycosis</b>.</li>
+<li><b>Yeast</b>: unicellular, facultative anaerobe, <b>budding</b> (bud scar) or binary fission. <i>Candida albicans</i> is dimorphic (yeast at body temp). <b>Mold</b>: multicellular, aerobic, spores (asexual + sexual). Hyphae → mycelium. Dimorphic = two forms.</li>
+<li><b>Sporangiospores</b> enclosed (sporangiophore; <i>Rhizopus</i>) vs <b>conidiospores</b> exposed (conidiophore; <i>Aspergillus</i>, <i>Penicillium</i>). Mushrooms = sexual (opposite mating types sense pheromones, hyphae fuse). <i>Rhizopus</i> and the Ascomycota spore facts come from the textbook.</li>
+<li><i>S. cerevisiae</i>: CO₂ + ethanol. <i>Candida albicans</i>: yeast infection, thrush. <i>Aspergillus</i>: farmer's lung. <i>Penicillium chrysogenum</i>: penicillin (Fleming). Fungal meningitis: <i>Candida</i>, <i>Histoplasma</i>, <i>Cryptococcus</i> & others. <i>Histoplasma</i>: histoplasmosis (bat droppings, caves). Athlete's foot & ringworm: many fungi (ringworm isn't a worm). Nail infections.</li>
+<li>Antifungals are hard (cells too similar). Targets: <b>ergosterol</b> (miconazole/Monistat) and <b>chitin wall</b> (anidulafungin/Eraxis). Humans use cholesterol, no wall.</li>
+</ul></section>
+<section id="n-m11"><h3>Module 11 — Helminths</h3><ul>
+<li>Multicellular heterotrophs; cuticle of collagen + chitin (slides; lecture: indigestible chitin protects them); most harmless.</li>
+<li><b>Cestodes</b> (tapeworms): flat, <b>proglottids</b> (hermaphroditic segments), <b>scolex</b> (hooked anchor); no mouth/gut — absorb nutrients; <i>Taenia</i>.</li>
+<li><b>Trematodes</b> (flukes): flat, no proglottids/scolex, oral sucker, fluid feeders, host/organ-specific; <i>Clonorchis</i> (liver fluke).</li>
+<li><b>Nematodes</b> (roundworms, incl. hookworms): round (hydrostatic skeleton), unsegmented; <i>Ascaris</i> (gut → blood → lungs → trachea → swallowed → intestines), <i>Enterobius</i> (pinworm; Scotch-tape test), <i>Dirofilaria</i> (heartworm, by mosquitoes), <i>Dracunculus</i> (Guinea worm), <i>C. elegans</i> (959 cells, 131 programmed deaths, 302 neurons).</li>
+<li>Anticoagulants keep host blood flowing (hirudin = blood thinner). Helminthic therapy suppresses inflammation (allergies, Crohn's, IBS) — David Pritchard, 10 hookworms.</li>
+<li><b>Mebendazole (Vermox)</b> inhibits sugar absorption. Slides: ascariasis treated with <b>albendazole (Albenza)</b> or mebendazole. Pyrantel / ivermectin targets: <i>not in the materials — ask</i>.</li>
+<li>Vectors: <b>mechanical</b> carries on body (house fly); <b>biological</b> pathogen reproduces inside (mosquito–malaria, tick–Lyme).</li>
+</ul></section>
+<section id="n-m12"><h3>Module 12 — DNA structure &amp; replication</h3><ul>
+<li>Gene = region encoding a protein's primary structure. Genotype (genes) → phenotype (traits).</li>
+<li>Prokaryote: circular, one chromosome. Eukaryote: linear, many. Both dsDNA.</li>
+<li>Griffith (heat-killed S + live R killed mice) → Avery (DNase stops it → DNA) → Hershey &amp; Chase (³²P DNA enters) → Franklin (Photo 51, double helix) → Watson &amp; Crick (model). Venter: artificial genome.</li>
+<li>Nucleotide = phosphate + pentose + base. DNA: A T G C, deoxyribose. RNA: A U G C, ribose, single-stranded.</li>
+<li>A–T (2 H-bonds), G–C (3). Covalent backbone. Antiparallel. 5′ = phosphate, 3′ = OH. Build only 5′→3′.</li>
+<li>Replication (semi-conservative, ~30 min): gyrase uncoils → helicase unzips (fork) → primase RNA primer → DNA polymerase builds → ligase joins Okazaki fragments. Leading = continuous; lagging = fragments. Origin → two forks.</li>
+<li><b>Cipro</b> inhibits bacterial gyrase. Coding strand 5′→3′ (= mRNA); template/non-coding 3′→5′.</li>
+</ul></section>
+<section id="n-m13"><h3>Module 13 — Gene expression, operons, mutations</h3><ul>
+<li>Central dogma: DNA → mRNA (transcription) → protein (translation).</li>
+<li>Transcription: RNA polymerase binds <b>promoter</b> (initiation) → builds mRNA off template (elongation) → <b>terminator</b> (termination).</li>
+<li>Translation at ribosome: start codon <b>AUG</b> (Met) → tRNA anticodons pair with codons, peptide bonds → <b>stop codon</b> (no tRNA). 64 codons, 20 amino acids.</li>
+<li>Operon (Monod) = repressor gene + promoter + operator + genes. <b>Inducible</b> (lac; default OFF; inducer/lactose inactivates repressor → ON). <b>Repressible</b> (trp; default ON; corepressor activates repressor → OFF).</li>
+<li>Mutation = DNA sequence change; mutagens = chemicals, radiation, viruses. Point mutation = one nucleotide. Substitution → <b>silent</b> / <b>missense</b> / <b>nonsense</b>. Insertion/deletion → <b>frameshift</b>.</li>
+<li>UV → <b>thymine dimers</b> → frameshift errors; 254 nm most germicidal; skin cancer.</li>
+</ul></section>
+<section id="n-m14"><h3>Module 14 — Genetic engineering</h3><ul>
+<li>Vertical (to offspring) vs <b>horizontal</b> (within a generation, bacteria). Plasmids carry accessory genes.</li>
+<li>Restriction enzymes cut at recognition sequences (EcoRI GAATTC) → sticky ends; ligase seals. Berg: first recombinant DNA (1970). Cohen &amp; Boyer: first recombinant organism (1973). Humulin = human insulin from <i>E. coli</i>.</li>
+<li><b>PCR</b> (Mullis): denature ~96 °C → anneal primers ~55 °C → extend ~72 °C; 25–35 cycles; thermal cycler; Taq from <i>Thermus aquaticus</i>. Diagnostic: amplified = positive.</li>
+<li><b>CRISPR</b> (Doudna &amp; Charpentier, 2020): bacterial anti-phage immunity → Cas9 cuts where guide RNA (~20 nt) matches. No donor → NHEJ → knock-out. Donor DNA → HDR → knock-in.</li>
+<li>Uses: sickle cell (first FDA-approved), T cells vs cancer, pig organs, mushrooms, livestock. Germline editing: research OK, no implantation (He Jiankui jailed). Cystic fibrosis = faulty CFTR gene.</li>
+</ul></section>
+<section id="n-m15"><h3>Module 15 — Viruses I</h3><ul>
+<li>Ivanovsky (1892, TMV filtrate). Stanley (1935, first seen/crystallized). Viruses = non-living obligate intracellular parasites, 20–1,000 nm.</li>
+<li>Nucleic acid + capsid (capsomeres) ± envelope with spikes. Helical (TMV, Ebola), polyhedral (HPV), complex (phage). Genomes: dsDNA, ssDNA, dsRNA, ±ssRNA; linear/circular; simple/segmented.</li>
+<li><b>Lytic</b>: attachment → penetration → biosynthesis → maturation → release (lysis; lysozyme). Plaque assay counts phages.</li>
+<li><b>Lysogenic</b>: integration (prophage) → reproduction → induction (stress). Lysogenic conversion: <i>S. pyogenes</i> scarlet fever toxin; <i>C. botulinum</i> botulism toxin.</li>
+<li>d'Hérelle (1916): phages + phage therapy. Phage therapy: specific, self-amplifying, self-eliminating; must ID the bacterium. Fecal transplants for <i>C. diff</i>.</li>
+</ul></section>
+<section id="n-m16"><h3>Module 16 — Viruses II</h3><ul>
+<li>Narrow host range (spike ↔ receptor): HIV → CD4+ T cells; SARS-CoV-2 → ACE2.</li>
+<li>Entry: direct penetration (few naked; enterovirus), membrane fusion (enveloped; SARS-CoV-2, HIV), endocytosis (either; influenza). Uncoating after fusion/endocytosis.</li>
+<li>Infections: acute (adenovirus, cold), latent (episomal DNA; herpes simplex, VZV → shingles), persistent (provirus; HIV → AIDS).</li>
+<li>Exit: lysis (naked), budding (enveloped; envelope = host membrane), exocytosis via de-acidified lysosomes (SARS-CoV-2).</li>
+<li>Influenza: hemagglutinin (attach), neuraminidase (release); H1N1. Tamiflu = neuraminidase inhibitor (not for COVID). Remdesivir disrupts viral polymerase.</li>
+<li>1918 flu: ~500 M infected, ~100 M dead, killed the healthy, mask mandates.</li>
+</ul></section>
+<section id="n-m17"><h3>Module 17 — Viruses III</h3><ul>
+<li>+ssRNA = sense (translate directly). −ssRNA = antisense (copy to + first). Retroviruses (HIV, FIV): reverse transcriptase RNA → dsDNA → provirus → budding.</li>
+<li>Biosynthesis: dsDNA (replicate, transcribe), ssDNA (make dsDNA first), dsRNA (RdRP: − strand → +RNA), +ssRNA (translate; copy via −), −ssRNA (make + first), ssRNA-RT (DNA provirus).</li>
+<li>Culture: bacteriophage in bacteria; eukaryotic viruses in live animals, embryonated eggs (flu vaccine), cell cultures (HIV).</li>
+<li>Rous (1911) chicken sarcoma filtrate → first virus–cancer link. Epstein &amp; Barr → first human (lymphoma).</li>
+<li>Cell cycle G1 → S → G2 → M. Proto-oncogenes = gas; tumor suppressors (p53) = brakes. p53 "guardian angel", mutated in 60% of cancers. Oncoviruses inactivate p53: HPV (cervical), hepatitis B/C (liver).</li>
+<li>HeLa cells: Henrietta Lacks, immortal, no consent; polio, cancer, AIDS research.</li>
+</ul></section>
+<section id="n-code"><h3>Codon chart (mRNA, 5′ → 3′)</h3><p class="hint">Start = AUG (Met), highlighted. Stops in red. Find the 1st base on the left, 2nd across the top, then the 3rd inside the box.</p>%%CHART%%</section>
+`;
+
+/* ================= APP: home, flowcharts, notes ================= */
+var GROUP_OF = {};
+GROUPS.forEach(function (g) { g.ids.forEach(function (id) { GROUP_OF[id] = g; }); });
+function topOf(id) { while (PARENT[id]) id = PARENT[id]; return id; }
+function chain(id) { var c = []; while (id) { c.unshift(id); id = PARENT[id]; } return c; }
+
+var app;
+function render() {
+  var h = location.hash.replace(/^#\/?/, '');
+  window.scrollTo(0, 0);
+  if (h === 'notes' || h.indexOf('notes/') === 0) return renderNotes(h.split('/')[1]);
+  if (h.indexOf('node/') === 0 && NODES[h.slice(5)]) return renderNode(h.slice(5));
+  if (h === 'drill' || h.indexOf('drill/') === 0) return renderDrill(h);
+  renderHome();
+}
+function crumbsHTML(id) {
+  var c = chain(id), g = GROUP_OF[c[0]];
+  var parts = ['<a href="#/" class="crumb">Start</a>'];
+  if (g) parts.push('<span class="crumb muted tag-' + g.tag + '">' + esc(g.name.split(' · ')[0]) + '</span>');
+  c.forEach(function (x, i) {
+    var t = NODES[x].title;
+    if (i < c.length - 1) parts.push('<a href="#/node/' + x + '" class="crumb">' + esc(t) + '</a>');
+    else parts.push('<span class="crumb here">' + esc(t) + '</span>');
+  });
+  return '<nav class="trail" aria-label="Your path">' + parts.join('<span class="sep">›</span>') + '</nav>';
+}
+function renderHome() {
+  var html = '<section class="hero"><p class="eyebrow">Microbiology · Modules 9–17</p><h1>What is your question asking you to do?</h1><p class="lede">Pick the kind of question. Follow the flowchart from your course materials, then check your own answer.</p></section>';
+  html += '<a class="drillcta" href="#/drill"><span><b>Drill mode</b><small>Quick-fire questions on organisms, terms, drugs, scientists, sequences, and mutations</small></span><span class="chev">→</span></a>';
+  html += '<div class="search"><input id="q" type="search" placeholder="Filter question types (e.g. operon, budding, tapeworm)" aria-label="Filter question types"></div>';
+  GROUPS.forEach(function (g) {
+    html += '<section class="group tag-' + g.tag + '"><h2>' + esc(g.name) + '</h2><div class="opts">';
+    g.ids.forEach(function (id) { html += optBtn(id, NODES[id]); });
+    html += '</div></section>';
+  });
+  app.innerHTML = html;
+  var q = document.getElementById('q');
+  q.addEventListener('input', function () {
+    var v = q.value.toLowerCase().trim();
+    app.querySelectorAll('.group').forEach(function (sec) {
+      var any = false;
+      sec.querySelectorAll('.opt').forEach(function (b) { var ok = !v || b.textContent.toLowerCase().indexOf(v) >= 0 || (b.dataset.kw || '').indexOf(v) >= 0; b.hidden = !ok; if (ok) any = true; });
+      sec.hidden = !any;
+    });
+  });
+}
+function kwFor(id) {
+  var n = NODES[id], s = (n.title + ' ' + (n.hint || '') + ' ' + (n.q || '')).toLowerCase();
+  (n.opts || []).forEach(function (c) { s += ' ' + kwFor(c); });
+  if (n.steps) s += ' ' + n.steps.join(' ').replace(/<[^>]+>/g, '').toLowerCase();
+  return s;
+}
+function optBtn(id, n) {
+  return '<a class="opt" href="#/node/' + id + '" data-kw="' + esc(kwFor(id)) + '"><span class="opt-t">' + esc(n.title) + '</span>' + (n.hint ? '<span class="opt-h">' + esc(n.hint) + '</span>' : '') + '<span class="chev" aria-hidden="true">→</span></a>';
+}
+function renderNode(id) {
+  var n = NODES[id], g = GROUP_OF[topOf(id)];
+  var html = crumbsHTML(id);
+  html += '<div class="card node tag-' + (g ? g.tag : '') + '">';
+  if (n.opts) {
+    html += '<p class="eyebrow">' + (PARENT[id] ? 'Next question' : 'Flowchart') + '</p><h1>' + esc(n.q) + '</h1><div class="opts">';
+    n.opts.forEach(function (c) { html += optBtn(c, NODES[c]); });
+    html += '</div>';
+  } else {
+    html += '<p class="eyebrow">From your course materials</p><h1>' + esc(n.title) + '</h1>';
+    if (n.result) html += '<p class="verdict ' + (n.bad ? 'v-bad' : 'v-ok') + '">' + esc(n.result) + '</p>';
+    html += '<ol class="steps">' + n.steps.map(function (s) { return '<li>' + s + '</li>'; }).join('') + '</ol>';
+    if (n.watch) html += '<div class="watch"><strong>Watch out</strong>' + n.watch.map(function (w) { return '<p>' + w + '</p>'; }).join('') + '</div>';
+    if (n.notes) html += '<p class="notes-link"><a href="#/notes/' + n.notes + '">Open this module in your notes →</a></p>';
+  }
+  html += '</div>';
+  if (n.tool && TOOLS[n.tool]) html += '<section class="card tool"><p class="eyebrow">Check my work</p><div id="tool"></div></section>';
+  html += '<div class="navrow"><a class="btn ghost" href="#/">← Start over</a>' + (PARENT[id] ? '<a class="btn ghost" href="#/node/' + PARENT[id] + '">Back one step</a>' : '') + '</div>';
+  app.innerHTML = html;
+  if (n.tool && TOOLS[n.tool]) TOOLS[n.tool](document.getElementById('tool'), n.preset || {});
+}
+function codonChart() {
+  var h = '<div class="chartwrap"><table class="chart"><thead><tr><th>1st ↓ / 2nd →</th>' + CODE_B.split('').map(function (b) { return '<th>' + b + '</th>'; }).join('') + '</tr></thead><tbody>';
+  CODE_B.split('').forEach(function (a) {
+    h += '<tr><th>' + a + '</th>';
+    CODE_B.split('').forEach(function (b) {
+      h += '<td>' + CODE_B.split('').map(function (c) { var x = CODON[a + b + c]; return '<span class="' + (x === '*' ? 'stp' : (a + b + c === 'AUG' ? 'stt' : '')) + '">' + a + b + c + ' ' + aa3(x) + '</span>'; }).join('<br>') + '</td>';
+    });
+    h += '</tr>';
+  });
+  return h + '</tbody></table></div>';
+}
+function renderNotes(sec) {
+  app.innerHTML = '<nav class="trail"><a href="#/" class="crumb">Start</a><span class="sep">›</span><span class="crumb here">Notes sheet</span></nav><article class="card notes"><p class="eyebrow">Condensed from the Module 9–17 study guides</p><h1>Notes sheet</h1>' +
+    '<p class="chips">' + ['m9', 'm10', 'm11', 'm12', 'm13', 'm14', 'm15', 'm16', 'm17', 'code'].map(function (k) { return '<a class="chip" href="#/notes/' + k + '">' + (k === 'code' ? 'Codon chart' : 'Mod ' + k.slice(1)) + '</a>'; }).join('') + '</p>' +
+    NOTES_HTML.replace('%%CHART%%', codonChart()) + '</article>';
+  if (sec) { var el = document.getElementById('n-' + sec); if (el) { el.classList.add('flash'); setTimeout(function () { el.scrollIntoView({ block: 'start' }); }, 0); } }
+}
+
+/* ================= DRILL ================= */
+var LS = {
+  get: function (k, d) { try { var v = localStorage.getItem('microdrill_' + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+  set: function (k, v) { try { localStorage.setItem('microdrill_' + k, JSON.stringify(v)); } catch (e) { } }
+};
+var MODS = [9, 10, 11, 12, 13, 14, 15, 16, 17];
+var MOD_NAME = { 9: 'Protists', 10: 'Fungi', 11: 'Helminths', 12: 'Bacterial genetics I', 13: 'Bacterial genetics II', 14: 'Bacterial genetics III', 15: 'Viruses I', 16: 'Viruses II', 17: 'Viruses III' };
+var TERM_POOL = /^m\d+t$/;
+var GEN_KINDS = { comp: 'Complementary DNA strand', mrna: 'Template → mRNA', codon: 'Codon → amino acid', anti: 'Codon → anticodon', pct: 'Base percentages', mut: 'Name the mutation' };
+var FACT_BY_ID = {}; FACTS.forEach(function (f) { FACT_BY_ID[f.id] = f; });
+
+function randDNA(n) { var s = ''; for (var i = 0; i < n; i++) s += 'ATGC'[Math.floor(Math.random() * 4)]; return s; }
+function randCodon(noStop) { var c; do { c = 'UCAG'[Math.floor(Math.random() * 4)] + 'UCAG'[Math.floor(Math.random() * 4)] + 'UCAG'[Math.floor(Math.random() * 4)]; } while (noStop && CODON[c] === '*'); return c; }
+function genMutSpec() {
+  var want = rnd(['Silent', 'Missense', 'Nonsense', 'ins', 'del']);
+  for (var tries = 0; tries < 400; tries++) {
+    var mid = '';
+    for (var i = 0; i < 3; i++) mid += randCodon(true);
+    var orig = 'ATG' + mid.replace(/U/g, 'T') + 'TAA';
+    var mut;
+    var pos = 3 + Math.floor(Math.random() * 9);
+    if (want === 'ins') mut = orig.slice(0, pos) + 'ATGC'[Math.floor(Math.random() * 4)] + orig.slice(pos);
+    else if (want === 'del') mut = orig.slice(0, pos) + orig.slice(pos + 1);
+    else { var b = 'ATGC'.replace(orig[pos], '')[Math.floor(Math.random() * 3)]; mut = orig.slice(0, pos) + b + orig.slice(pos + 1); }
+    var R = classifyMutation(orig, mut);
+    if (R.error) continue;
+    var kind = /^Frameshift/.test(R.kind) ? 'Frameshift' : R.kind;
+    if ((want === 'ins' || want === 'del') ? kind === 'Frameshift' : kind === want) return { t: 'g', k: 'mut', o: orig, m: mut, ans: kind };
+  }
+  return null;
+}
+function genSpec(set) {
+  var gens = [];
+  var mods = MODS.filter(function (m) { return set.mods[m]; });
+  var facts = FACTS.filter(function (f) { return set.mods[f.m]; });
+  if (facts.length) { var gf = function () { var f = rnd(facts); var rev = TERM_POOL.test(f.pool) && Math.random() < 0.4; return { t: 'f', id: f.id, rev: rev }; }; gens.push(gf, gf, gf); }
+  var kinds = Object.keys(GEN_KINDS).filter(function (k) { return set.gens[k]; });
+  if (kinds.length) {
+    var gk = function () {
+      var k = rnd(kinds);
+      if (k === 'comp') return { t: 'g', k: k, s: randDNA(8) };
+      if (k === 'mrna') return { t: 'g', k: k, s: randDNA(9) };
+      if (k === 'codon' || k === 'anti') return { t: 'g', k: k, c: randCodon(true) };
+      if (k === 'pct') { var b = rnd(['A', 'T', 'G', 'C']), p = 10 + Math.floor(Math.random() * 31), ask = rnd(['A', 'T', 'G', 'C'].filter(function (x) { return x !== b; })); return { t: 'g', k: k, b: b, p: p, ask: ask }; }
+      return genMutSpec();
+    };
+    gens.push(gk); if (set.weightSeq) gens.push(gk);
+  }
+  if (!gens.length) return null;
+  return rnd(gens)();
+}
+function specKey(s) { return JSON.stringify(s); }
+function mcOpts(answer, wrong, n) { var w = shuffle(wrong.filter(function (x, i, a) { return x !== answer && a.indexOf(x) === i; })).slice(0, (n || 4) - 1); return shuffle(w.concat([answer])); }
+function makeQ(spec) {
+  if (!spec) return null;
+  if (spec.t === 'f') {
+    var f = FACT_BY_ID[spec.id]; if (!f) return null;
+    var pool = FACTS.filter(function (x) { return x.pool === f.pool; });
+    var tag = 'Mod ' + f.m + ' · ' + MOD_NAME[f.m];
+    if (spec.rev) {
+      return { spec: spec, type: 'mc', tag: tag, prompt: 'Which term matches?', big: esc(f.a), small: true, opts: mcOpts(f.q, pool.map(function (x) { return x.q; })), answer: f.q, why: [esc(f.q) + ' — ' + esc(f.a)] };
+    }
+    var wrong = f.d ? f.d : pool.map(function (x) { return x.a; });
+    var term = TERM_POOL.test(f.pool);
+    return { spec: spec, type: 'mc', tag: tag, prompt: term ? 'What does this term mean?' : '', big: esc(f.q), small: !term, opts: mcOpts(f.a, wrong), answer: f.a, why: [] };
+  }
+  var k = spec.k;
+  if (k === 'comp') {
+    var c = spec.s.split('').map(function (x) { return DNA_COMP[x]; }).join('');
+    return { spec: spec, type: 'text', tag: 'Sequence · Mod 12', prompt: 'Type the complementary strand (lined up underneath, so it reads 3′ → 5′)', big: '<span class="mono">5′ ' + spec.s + ' 3′</span>', answer: c, answerHTML: '<span class="mono">3′ ' + c + ' 5′</span>', why: ['A ↔ T, G ↔ C. The new strand is antiparallel: 3′ on the left.'], check: checkSeq, ph: 'e.g. TCAG…' };
+  }
+  if (k === 'mrna') {
+    var m = spec.s.split('').map(function (x) { return RNA_FROM_TEMPLATE[x]; }).join('');
+    return { spec: spec, type: 'text', tag: 'Sequence · Mod 13', prompt: 'Template strand given — type the mRNA (5′ → 3′)', big: '<span class="mono">3′ ' + spec.s + ' 5′</span>', answer: m, answerHTML: '<span class="mono">5′ ' + m + ' 3′</span>', why: ['Template → mRNA is the complement with U for A: A→U, T→A, G→C, C→G.'], check: checkSeq, ph: 'e.g. AUG…' };
+  }
+  if (k === 'codon') {
+    var aa = CODON[spec.c], others = shuffle(Object.keys(AA_NAME).filter(function (x) { return x !== aa && x !== '*'; })).slice(0, 3);
+    return { spec: spec, type: 'mc', tag: 'Genetic code · Mod 13', prompt: 'Which amino acid does this mRNA codon code for? (use the chart)', big: '<span class="mono">' + spec.c + '</span>', opts: shuffle(others.concat([aa])).map(aaFull), answer: aaFull(aa), why: [spec.c + ' → ' + aaFull(aa) + '. Open the codon chart in Notes to practice reading it.'] };
+  }
+  if (k === 'anti') {
+    var ac = anticodon(spec.c);
+    return { spec: spec, type: 'text', tag: 'Genetic code · Mod 13', prompt: 'Type the tRNA anticodon for this mRNA codon', big: '<span class="mono">' + spec.c + '</span>', answer: ac, answerHTML: '<span class="mono">' + ac + '</span>', why: ['Anticodons are complementary to codons (A↔U, G↔C). This tRNA carries ' + aaFull(CODON[spec.c]) + '.'], check: checkSeq, ph: 'e.g. UAC' };
+  }
+  if (k === 'pct') {
+    var R = basePct(spec.b, spec.p), ans = R.r[spec.ask], f2 = function (n) { return (Math.round(n * 10) / 10) + '%'; };
+    var cand = [spec.p, 100 - spec.p, R.rest, 100 - 2 * spec.p, 50 - spec.p / 2, spec.p / 2].map(f2);
+    return { spec: spec, type: 'mc', tag: 'Base pairing · Mod 12', prompt: 'A double-stranded DNA genome is ' + spec.p + '% ' + spec.b + '. What percent is ' + spec.ask + '?', big: spec.p + '% ' + spec.b + ' → ? % ' + spec.ask, opts: mcOpts(f2(ans), cand), answer: f2(ans), why: [spec.b + ' = ' + R.pair + ' = ' + spec.p + '%; the other pair shares ' + (100 - 2 * spec.p) + '% → ' + f2(R.rest) + ' each.'] };
+  }
+  if (k === 'mut') {
+    var C = classifyMutation(spec.o, spec.m);
+    return { spec: spec, type: 'mc', tag: 'Mutations · Mod 13', prompt: 'Coding strands (5′ → 3′). What type of mutation is this?', big: '<span class="mono mutline">' + spec.o + '<br>' + markDiff(spec.o, spec.m) + '</span>', opts: ['Silent', 'Missense', 'Nonsense', 'Frameshift'], answer: spec.ans,
+      why: ['Original: ' + C.o.codons.join(' ') + ' → ' + proteinStr(C.o.aas), 'Mutated: ' + (C.m.error ? C.m.error : C.m.codons.join(' ') + ' → ' + proteinStr(C.m.aas)), C.why] };
+  }
+  return null;
+}
+function markDiff(a, b) {
+  if (a.length !== b.length) return b;
+  return b.split('').map(function (x, i) { return x === a[i] ? x : '<u>' + x + '</u>'; }).join('');
+}
+function checkSeq(q, u) {
+  var n = cleanSeq(u);
+  if (!n) return { ok: false, msg: 'Type a sequence first.' };
+  if (n === q.answer) return { ok: true };
+  if (n === q.answer.split('').reverse().join('')) return { ok: false, msg: 'Right bases, but written backwards — keep it lined up with the given strand.' };
+  if (/T/.test(n) && /U/.test(q.answer)) return { ok: false, msg: 'RNA uses U, not T.' };
+  if (/U/.test(n) && /T/.test(q.answer)) return { ok: false, msg: 'DNA uses T, not U.' };
+  if (n.length !== q.answer.length) return { ok: false, msg: 'Length is off — you should have ' + q.answer.length + ' letters.' };
+  var bad = 0; for (var i = 0; i < n.length; i++) if (n[i] !== q.answer[i]) bad++;
+  return { ok: false, msg: bad + ' letter' + (bad === 1 ? '' : 's') + ' wrong.' };
+}
+
+var DRILL = { set: null, run: null };
+(function () {
+  var d = { mods: {}, gens: {}, weightSeq: false };
+  MODS.forEach(function (m) { d.mods[m] = true; });
+  Object.keys(GEN_KINDS).forEach(function (k) { d.gens[k] = true; });
+  var s = LS.get('set', d);
+  if (!s.mods || !s.gens) s = d;
+  DRILL.set = s;
+})();
+function newRun(mode) { DRILL.run = { mode: mode, n: 0, right: 0, streak: 0, queue: [], misses: [], q: null, answered: false, lastKey: null }; }
+function savedMisses() { return LS.get('misses', []); }
+function addSavedMiss(spec) { var m = savedMisses(), k = specKey(spec); if (m.some(function (x) { return specKey(x) === k; })) return; m.unshift(spec); LS.set('misses', m.slice(0, 120)); }
+function removeSavedMiss(spec) { var k = specKey(spec); LS.set('misses', savedMisses().filter(function (x) { return specKey(x) !== k; })); }
+function nextQ() {
+  var R = DRILL.run, q = null, tries = 0;
+  var due = R.queue.findIndex(function (x) { return x.due <= R.n; });
+  if (due >= 0) { q = makeQ(R.queue[due].spec); if (q) q.retry = true; R.queue.splice(due, 1); }
+  else if (R.mode === 'misses') {
+    var m = savedMisses();
+    if (!m.length) { R.q = null; return; }
+    var cands = m.filter(function (s) { return specKey(s) !== R.lastKey; });
+    q = makeQ(rnd(cands.length ? cands : m));
+  }
+  while (!q && R.mode !== 'misses' && tries++ < 40) { var s = genSpec(DRILL.set); if (!s) break; if (specKey(s) === R.lastKey) continue; q = makeQ(s); }
+  R.q = q; R.answered = false;
+  if (q) R.lastKey = specKey(q.spec);
+}
+function renderDrill(h) {
+  var parts = h.split('/');
+  if (parts[1] === 'go' && parts[2]) { newRun(parts[2]); nextQ(); history.replaceState(null, '', '#/drill/run'); return renderDrillRun(); }
+  if (parts[1] === 'run' && DRILL.run) return renderDrillRun();
+  renderDrillSetup();
+}
+function tog(key, label, on, sub) { return '<label class="tog"><input type="checkbox" data-t="' + key + '"' + (on ? ' checked' : '') + '><span>' + label + (sub ? '<small>' + sub + '</small>' : '') + '</span></label>'; }
+function renderDrillSetup() {
+  var S = DRILL.set, mc = savedMisses().length, best = LS.get('best', 0);
+  var cnt = function (m) { return FACTS.filter(function (f) { return f.m === m; }).length; };
+  var html = '<nav class="trail"><a href="#/" class="crumb">Start</a><span class="sep">›</span><span class="crumb here">Drill</span></nav>';
+  html += '<section class="hero"><p class="eyebrow">Memorize</p><h1>Drill Modules 9–17</h1><p class="lede">Quick-fire questions. Anything you miss comes back a few questions later and stays on your miss list until you get it right.' + (best ? ' Best streak: <b>' + best + '</b>.' : '') + '</p></section>';
+  html += '<div class="drillgrid">';
+  html += '<section class="card dcard tag-virus"><h2>Modules</h2><div class="navrow small"><button type="button" class="btn small" id="allM">All</button><button type="button" class="btn small" id="noneM">None</button></div><div class="togs">' + MODS.map(function (m) { return tog('m_' + m, 'Module ' + m + ' — ' + MOD_NAME[m], S.mods[m], cnt(m) + ' questions'); }).join('') + '</div></section>';
+  html += '<section class="card dcard tag-gene"><h2>Sequence &amp; problem practice</h2><p class="hint">Freshly generated every time — works the skills, not memory.</p><div class="togs">' + Object.keys(GEN_KINDS).map(function (k) { return tog('g_' + k, GEN_KINDS[k], S.gens[k]); }).join('') + tog('weightSeq', 'Show these more often', S.weightSeq, 'doubles how often a problem comes up') + '</div></section>';
+  html += '</div><div class="navrow"><a class="btn primary" href="#/drill/go/mixed">Start drill</a>' + (mc ? '<a class="btn" href="#/drill/go/misses">Practice my misses (' + mc + ')</a><button type="button" class="btn ghost" id="clearMiss">Clear miss list</button>' : '') + '</div>';
+  app.innerHTML = html;
+  app.querySelectorAll('.tog input').forEach(function (i) {
+    i.addEventListener('change', function () {
+      var k = i.dataset.t;
+      if (k.indexOf('m_') === 0) DRILL.set.mods[k.slice(2)] = i.checked;
+      else if (k.indexOf('g_') === 0) DRILL.set.gens[k.slice(2)] = i.checked;
+      else DRILL.set[k] = i.checked;
+      LS.set('set', DRILL.set);
+    });
+  });
+  function setAll(v) { MODS.forEach(function (m) { DRILL.set.mods[m] = v; }); LS.set('set', DRILL.set); renderDrillSetup(); }
+  document.getElementById('allM').addEventListener('click', function () { setAll(true); });
+  document.getElementById('noneM').addEventListener('click', function () { setAll(false); });
+  var cm = document.getElementById('clearMiss'); if (cm) cm.addEventListener('click', function () { LS.set('misses', []); renderDrillSetup(); });
+}
+function scoreHTML(R) { return '<span><b>' + R.right + '</b> / ' + R.n + ' right</span><span>Streak <b>' + R.streak + '</b></span><span>Best <b>' + Math.max(LS.get('best', 0), R.streak) + '</b></span><span class="dim">' + (R.queue.length ? R.queue.length + ' coming back' : '') + '</span><a class="btn small" href="#/drill">Settings</a>'; }
+function renderDrillRun() {
+  var R = DRILL.run, q = R.q;
+  var title = { mixed: 'Drill', misses: 'Practicing misses' }[R.mode] || 'Drill';
+  var html = '<nav class="trail"><a href="#/" class="crumb">Start</a><span class="sep">›</span><a href="#/drill" class="crumb">Drill</a><span class="sep">›</span><span class="crumb here">' + title + '</span></nav>';
+  html += '<div class="scorebar">' + scoreHTML(R) + '</div>';
+  if (!q) {
+    html += '<div class="card"><h1>' + (R.mode === 'misses' ? 'Miss list cleared' : 'Nothing to drill') + '</h1><p class="lede">' + (R.mode === 'misses' ? 'You\'ve answered every saved miss correctly.' : 'Turn on at least one module or problem type in Settings.') + '</p><div class="navrow"><a class="btn" href="#/drill">Settings</a></div></div>';
+    app.innerHTML = html; return;
+  }
+  html += '<div class="card dq"><p class="eyebrow">' + esc(q.tag) + (q.retry ? ' · <span class="again">again</span>' : '') + '</p>' + (q.prompt ? '<p class="qprompt">' + esc(q.prompt) + '</p>' : '') + '<div class="qbig' + (q.small ? ' qmed' : '') + '">' + q.big + '</div>';
+  if (q.type === 'mc') html += '<div class="mc' + (q.opts.some(function (o) { return o.length > 28; }) ? ' wide' : '') + '">' + q.opts.map(function (o, i) { return '<button type="button" data-o="' + esc(o) + '"><span class="k">' + (i < 9 ? i + 1 : '') + '</span>' + esc(o) + '</button>'; }).join('') + '</div>';
+  else html += '<form class="ta" autocomplete="off"><input id="ans" class="mono" placeholder="' + esc(q.ph) + '" autocapitalize="characters" autocorrect="off" spellcheck="false"><button class="btn primary" type="submit">Check</button><button class="btn ghost" type="button" id="idk">Show answer</button></form>';
+  html += '<div id="fb"></div></div>';
+  if (R.misses.length) html += '<details class="card ref"><summary>Missed this round (' + R.misses.length + ')</summary><ul class="why">' + R.misses.map(function (m) { return '<li>' + m.big + ' → <b>' + m.ans + '</b></li>'; }).join('') + '</ul></details>';
+  app.innerHTML = html;
+  if (q.type === 'mc') {
+    app.querySelectorAll('.mc button').forEach(function (b) { b.addEventListener('click', function () { if (!R.answered) grade(b.dataset.o === q.answer, b.dataset.o); }); });
+  } else {
+    var inp = document.getElementById('ans');
+    if (window.matchMedia('(pointer:fine)').matches) inp.focus();
+    app.querySelector('form.ta').addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (R.answered) { advance(); return; }
+      var r = q.check(q, inp.value);
+      if (!r.ok && /first\.$/.test(r.msg || '')) { showFb('<p class="cmp cmp-bad">' + esc(r.msg) + '</p>'); return; }
+      grade(r.ok, inp.value, r.msg);
+    });
+    document.getElementById('idk').addEventListener('click', function () { if (!R.answered) grade(false, '', 'Skipped.'); });
+  }
+}
+function showFb(h) { document.getElementById('fb').innerHTML = h; }
+function grade(ok, given, msg) {
+  var R = DRILL.run, q = R.q;
+  R.answered = true; R.n++;
+  if (ok) { R.right++; R.streak++; if (R.streak > LS.get('best', 0)) LS.set('best', R.streak); removeSavedMiss(q.spec); }
+  else { R.streak = 0; R.queue.push({ spec: q.spec, due: R.n + 3 }); addSavedMiss(q.spec); R.misses.push({ big: q.big, ans: q.answerHTML || esc(q.answer) }); }
+  if (q.type === 'mc') {
+    app.querySelectorAll('.mc button').forEach(function (b) {
+      b.disabled = true;
+      if (b.dataset.o === q.answer) b.classList.add('right');
+      else if (b.dataset.o === given) b.classList.add('wrong');
+    });
+  } else { var i = document.getElementById('ans'); i.readOnly = true; i.classList.add(ok ? 'ok' : 'bad'); }
+  var fb = '<div class="res ' + (ok ? 'res-ok' : '') + '">' + (ok ? '<p class="verdict v-ok">Correct</p>' : '<p class="verdict v-bad">' + (given === '' ? 'Answer' : 'Not quite') + '</p>' + (msg && msg !== 'Skipped.' ? '<p><b>' + esc(msg) + '</b></p>' : '') + (q.type === 'text' ? '<p class="ansv">' + (q.answerHTML || esc(q.answer)) + '</p>' : '<p>Answer: <b>' + esc(q.answer) + '</b></p>'));
+  if (q.why && q.why.length) fb += '<ul class="why">' + q.why.map(function (w) { return '<li>' + w + '</li>'; }).join('') + '</ul>';
+  fb += '<button type="button" class="btn primary" id="nextq">Next <span class="kbd">(Enter)</span></button></div>';
+  showFb(fb);
+  document.getElementById('nextq').addEventListener('click', advance);
+  var sb = app.querySelector('.scorebar'); if (sb) sb.innerHTML = scoreHTML(R);
+  if (window.matchMedia('(pointer:fine)').matches) document.getElementById('nextq').focus();
+}
+function advance() { nextQ(); renderDrillRun(); window.scrollTo(0, 0); }
+document.addEventListener('keydown', function (e) {
+  if (!DRILL.run || location.hash.indexOf('#/drill/run') !== 0) return;
+  var R = DRILL.run, q = R.q; if (!q) return;
+  if (e.target && e.target.tagName === 'INPUT') return;
+  if (R.answered && e.key === 'Enter') { e.preventDefault(); advance(); return; }
+  if (!R.answered && q.type === 'mc' && /^[1-9]$/.test(e.key)) { var b = app.querySelectorAll('.mc button')[+e.key - 1]; if (b) b.click(); }
+});
+
+window.addEventListener('hashchange', render);
+document.addEventListener('DOMContentLoaded', function () { app = document.getElementById('app'); render(); });
+(function () { var b = document.getElementById('theme'), r = document.documentElement; try { var s = localStorage.getItem('microdrill_theme'); if (s) r.dataset.theme = s; } catch (e) { } b.addEventListener('click', function () { var dark = r.dataset.theme ? r.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches; r.dataset.theme = dark ? 'light' : 'dark'; try { localStorage.setItem('microdrill_theme', r.dataset.theme); } catch (e) { } }); })();
+
+
+</script>
+</body>
+</html>

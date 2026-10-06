@@ -1,0 +1,368 @@
+{
+ "slug": "mod15",
+ "title": "Module 15",
+ "subtitle": "Viruses — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "What made Ivanovsky conclude tobacco mosaic disease was caused by something other than bacteria?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The filtrate that passed through the filter caused the disease"
+    },
+    {
+     "letter": "B",
+     "text": "The disease responded to antibiotics"
+    },
+    {
+     "letter": "C",
+     "text": "He saw the virus under a light microscope"
+    },
+    {
+     "letter": "D",
+     "text": "Bacteria trapped by the filter caused the disease"
+    }
+   ],
+   "correct": "A",
+   "explanation": "None of the trapped bacteria caused the disease, but the cell-free filtrate did — a filterable infectious poison."
+  },
+  {
+   "num": 2,
+   "type": "Multi-statement",
+   "prompt": "Which statement about viruses is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Viruses are obligate intracellular parasites."
+    },
+    {
+     "letter": "B",
+     "text": "Most viruses are 20–1,000 nm in size."
+    },
+    {
+     "letter": "C",
+     "text": "Viruses can contain both DNA and RNA in their genome."
+    },
+    {
+     "letter": "D",
+     "text": "Viruses are not considered living organisms."
+    },
+    {
+     "letter": "E",
+     "text": "Viruses require an electron microscope to be seen."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False. A virus's genome is either DNA or RNA, not both."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "What are capsomeres?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Segments of the viral genome"
+    },
+    {
+     "letter": "B",
+     "text": "Protein subunits that make up the capsid"
+    },
+    {
+     "letter": "C",
+     "text": "The lipid envelope of a virus"
+    },
+    {
+     "letter": "D",
+     "text": "Receptors on the host cell"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Capsomeres are the individual protein units that assemble into the capsid."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "A bacteriophage with a polyhedral head, helical sheath, and tail fibers is classified as:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Polyhedral"
+    },
+    {
+     "letter": "B",
+     "text": "Enveloped"
+    },
+    {
+     "letter": "C",
+     "text": "Helical"
+    },
+    {
+     "letter": "D",
+     "text": "Complex"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Combining a polyhedral capsid with a helical sheath makes it a complex virus."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Influenza and SARS-CoV-2 both have a phospholipid bilayer around their capsids. They are:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enveloped viruses"
+    },
+    {
+     "letter": "B",
+     "text": "Naked viruses"
+    },
+    {
+     "letter": "C",
+     "text": "Bacteriophages"
+    },
+    {
+     "letter": "D",
+     "text": "Complex viruses"
+    }
+   ],
+   "correct": "A",
+   "explanation": "A phospholipid bilayer envelope (with spikes) makes them enveloped viruses."
+  },
+  {
+   "num": 6,
+   "type": "Open recall",
+   "prompt": "What do viral spikes do, and why are they important for vaccines?",
+   "options": [],
+   "correct": null,
+   "explanation": "Spikes are surface proteins that attach the virus to specific receptors on host cells, which determines which cells it can infect. Because they're exposed and essential for infection, vaccines (e.g., COVID vaccines targeting the spike protein) often aim at them."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "A virus whose genome comes in several separate pieces of RNA (like influenza) has a ____ genome.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Simple"
+    },
+    {
+     "letter": "B",
+     "text": "Circular"
+    },
+    {
+     "letter": "C",
+     "text": "Segmented"
+    },
+    {
+     "letter": "D",
+     "text": "Complex"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Segmented = multiple pieces of nucleic acid; simple = one piece."
+  },
+  {
+   "num": 8,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the lytic cycle is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "During biosynthesis the host cell makes phage DNA and proteins."
+    },
+    {
+     "letter": "B",
+     "text": "The entire phage, including the capsid, enters the bacterium."
+    },
+    {
+     "letter": "C",
+     "text": "Attachment requires phage proteins binding the host surface."
+    },
+    {
+     "letter": "D",
+     "text": "New virions are assembled during maturation."
+    },
+    {
+     "letter": "E",
+     "text": "Release occurs when the host cell lyses."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False. Only the genome (DNA) is injected; the capsid, sheath, and tail fibers stay outside."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which enzyme lets the phage genome get through the bacterial cell wall and later helps burst the cell?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "DNA gyrase"
+    },
+    {
+     "letter": "B",
+     "text": "Lysozyme"
+    },
+    {
+     "letter": "C",
+     "text": "Reverse transcriptase"
+    },
+    {
+     "letter": "D",
+     "text": "Neuraminidase"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Lysozyme digests peptidoglycan in the cell wall."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "On a plaque assay plate, what does each plaque represent?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "One endospore"
+    },
+    {
+     "letter": "B",
+     "text": "A contaminant"
+    },
+    {
+     "letter": "C",
+     "text": "One original phage that infected a cell and spread to its neighbors"
+    },
+    {
+     "letter": "D",
+     "text": "One bacterial colony"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Each clear zone of lysed bacteria started from a single phage, so counting plaques counts phages."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "In the lysogenic cycle, what is the integrated phage DNA called?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Plaque"
+    },
+    {
+     "letter": "B",
+     "text": "Plasmid"
+    },
+    {
+     "letter": "C",
+     "text": "Provirus"
+    },
+    {
+     "letter": "D",
+     "text": "Prophage"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Phage DNA integrated into a bacterial chromosome is a prophage. (Provirus is the term for animal viruses.)"
+  },
+  {
+   "num": 12,
+   "type": "Open recall",
+   "prompt": "What triggers induction, and why is it a good strategy for the phage?",
+   "options": [],
+   "correct": null,
+   "explanation": "Stress on the host cell. If the host is likely to die anyway, the prophage excises and enters the lytic cycle so new phages are made and released instead of being lost with the cell."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Strep throat bacteria acquire the ability to make scarlet fever toxin only after a phage infection. This is an example of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Transformation"
+    },
+    {
+     "letter": "B",
+     "text": "Lysogenic conversion"
+    },
+    {
+     "letter": "C",
+     "text": "Phage therapy"
+    },
+    {
+     "letter": "D",
+     "text": "Induction"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Expression of prophage genes changes the bacterium's phenotype — lysogenic conversion."
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "How did Félix d'Hérelle treat soldiers dying of bacterial dysentery?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gave them filtered fecal material from healthy soldiers containing bacteriophage"
+    },
+    {
+     "letter": "B",
+     "text": "Gave them penicillin"
+    },
+    {
+     "letter": "C",
+     "text": "Injected them with lysozyme"
+    },
+    {
+     "letter": "D",
+     "text": "Vaccinated them with heat-killed bacteria"
+    }
+   ],
+   "correct": "A",
+   "explanation": "He reasoned healthy soldiers carried phages that killed the dysentery bacteria — the start of phage therapy."
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement comparing phage therapy and antibiotics is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Phage therapy requires large doses taken for 10–14 days."
+    },
+    {
+     "letter": "B",
+     "text": "Antibiotics can kill beneficial bacteria."
+    },
+    {
+     "letter": "C",
+     "text": "Phage therapy is highly specific to one type of bacterium."
+    },
+    {
+     "letter": "D",
+     "text": "Phage doses amplify themselves inside the patient."
+    },
+    {
+     "letter": "E",
+     "text": "Phage therapy requires identifying the exact bacterium causing the infection."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False. Large doses over many days describe antibiotics; phages multiply in the target, so a small single dose can work."
+  },
+  {
+   "num": 16,
+   "type": "Open recall",
+   "prompt": "Why is phage therapy considered safe for humans and animals?",
+   "options": [],
+   "correct": null,
+   "explanation": "Bacteriophages infect only bacteria (each type only a specific bacterium), so they can't infect our cells, and they self-eliminate once the target bacteria are gone because they can't reproduce without a host."
+  }
+ ]
+}

@@ -1,0 +1,364 @@
+{
+ "slug": "mod17",
+ "title": "Module 17",
+ "subtitle": "Viruses — Part 3",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A virus's RNA genome can be read directly by host ribosomes to make proteins. Its genome is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "+ssRNA"
+    },
+    {
+     "letter": "B",
+     "text": "−ssRNA"
+    },
+    {
+     "letter": "C",
+     "text": "dsDNA"
+    },
+    {
+     "letter": "D",
+     "text": "ssDNA"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Positive-sense (sense) RNA acts like mRNA and can be translated directly."
+  },
+  {
+   "num": 2,
+   "type": "Multi-statement",
+   "prompt": "Which statement about negative-sense RNA viruses is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Their genome must be transcribed into a + strand first."
+    },
+    {
+     "letter": "B",
+     "text": "Their genome can be translated directly into protein."
+    },
+    {
+     "letter": "C",
+     "text": "Their genome is complementary to positive-sense RNA."
+    },
+    {
+     "letter": "D",
+     "text": "Their genome is also called antisense RNA."
+    },
+    {
+     "letter": "E",
+     "text": "\"Negative\" has nothing to do with electrical charge."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False. A −ssRNA genome can't be translated directly; it must be copied into + sense RNA first."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "What does reverse transcriptase do?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cuts DNA at palindromes"
+    },
+    {
+     "letter": "B",
+     "text": "Makes RNA from a DNA template"
+    },
+    {
+     "letter": "C",
+     "text": "Makes DNA from an RNA template"
+    },
+    {
+     "letter": "D",
+     "text": "Joins Okazaki fragments"
+    }
+   ],
+   "correct": "C",
+   "explanation": "It reverse-transcribes the retroviral ssRNA genome into dsDNA."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "After HIV's genome is converted to dsDNA, what happens next?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It integrates into the host chromosome as a provirus"
+    },
+    {
+     "letter": "B",
+     "text": "It is translated directly by ribosomes"
+    },
+    {
+     "letter": "C",
+     "text": "It leaves the cell by exocytosis"
+    },
+    {
+     "letter": "D",
+     "text": "It is immediately packaged into new virions"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The dsDNA integrates as a provirus, which is then transcribed into new genomes and mRNAs."
+  },
+  {
+   "num": 5,
+   "type": "Open recall",
+   "prompt": "Why does a retroviral infection like HIV tend to be persistent?",
+   "options": [],
+   "correct": null,
+   "explanation": "Its DNA copy integrates into the host chromosome as a provirus, which is copied whenever the cell divides and is hard for the immune system to detect. New viruses bud out slowly — few enough that the host cell can survive — so the virus stays at low, detectable levels for years."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Influenza virus for vaccine production is grown cheaply and easily in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Embryonated eggs"
+    },
+    {
+     "letter": "B",
+     "text": "Agar plates"
+    },
+    {
+     "letter": "C",
+     "text": "Bacterial cultures"
+    },
+    {
+     "letter": "D",
+     "text": "Live mice"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Embryonated eggs form a self-contained culture system — why flu shots ask about egg allergies."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Which virus is most likely to require costly cultures of a specific human cell type?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "HIV"
+    },
+    {
+     "letter": "B",
+     "text": "Influenza"
+    },
+    {
+     "letter": "C",
+     "text": "Bacteriophage"
+    },
+    {
+     "letter": "D",
+     "text": "Tobacco mosaic virus"
+    }
+   ],
+   "correct": "A",
+   "explanation": "HIV only grows in specific human cells (CD4+ T cells), which must be cultured and passaged."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Peyton Rous's 1911 chicken experiment resembled whose earlier method?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Kary Mullis's PCR"
+    },
+    {
+     "letter": "B",
+     "text": "Griffith's mouse injections"
+    },
+    {
+     "letter": "C",
+     "text": "Ivanovsky's filtration of diseased tobacco plants"
+    },
+    {
+     "letter": "D",
+     "text": "Avery's enzyme treatments"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Both passed diseased tissue through a filter and showed the cell-free filtrate caused disease (here, sarcoma)."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which scientists first linked a virus to human cancer?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Doudna & Charpentier"
+    },
+    {
+     "letter": "B",
+     "text": "Epstein & Barr"
+    },
+    {
+     "letter": "C",
+     "text": "Watson & Crick"
+    },
+    {
+     "letter": "D",
+     "text": "Hershey & Chase"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Michael Anthony Epstein and Yvonne Barr — the Epstein-Barr virus, linked to lymphoma."
+  },
+  {
+   "num": 10,
+   "type": "Multi-statement",
+   "prompt": "Which statement about cell-cycle control genes is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "p53 mutations occur in about 60% of human cancers."
+    },
+    {
+     "letter": "B",
+     "text": "Proto-oncogenes encode proteins that turn on cell division."
+    },
+    {
+     "letter": "C",
+     "text": "p53 is a proto-oncogene that acts as the gas pedal."
+    },
+    {
+     "letter": "D",
+     "text": "p53 helps manage damaged and mutated DNA."
+    },
+    {
+     "letter": "E",
+     "text": "Tumor-suppressor genes encode proteins that turn off cell division."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False. p53 is a tumor-suppressor gene — the brake, not the gas pedal."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "HPV and hepatitis B/C promote tumor formation mainly by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Inactivating the p53 protein"
+    },
+    {
+     "letter": "B",
+     "text": "Causing thymine dimers"
+    },
+    {
+     "letter": "C",
+     "text": "Producing reverse transcriptase"
+    },
+    {
+     "letter": "D",
+     "text": "Lysing liver cells"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Viral proteins that inactivate p53 remove the brake on cell division."
+  },
+  {
+   "num": 12,
+   "type": "Open recall",
+   "prompt": "Explain how inactivating p53 can lead first to a tumor and then to cancer.",
+   "options": [],
+   "correct": null,
+   "explanation": "p53 normally stops cell division and handles damaged DNA. Without it, cells keep cycling → uncontrolled growth (tumor). Because p53 also manages DNA damage, mutations accumulate and are passed on to daughter cells, turning uncontrolled growth into true cancer."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "What makes HeLa cells so valuable for research?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They never divide"
+    },
+    {
+     "letter": "B",
+     "text": "They are resistant to all viruses"
+    },
+    {
+     "letter": "C",
+     "text": "They are immortal and divide indefinitely in culture"
+    },
+    {
+     "letter": "D",
+     "text": "They contain no DNA"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Normal cells divide ~50 times in culture; HeLa cells keep dividing, giving a continuous cell line."
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Which genome type is replicated by host enzymes first making a complementary strand to form dsDNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "dsRNA"
+    },
+    {
+     "letter": "B",
+     "text": "+ssRNA"
+    },
+    {
+     "letter": "C",
+     "text": "ssDNA"
+    },
+    {
+     "letter": "D",
+     "text": "−ssRNA"
+    }
+   ],
+   "correct": "C",
+   "explanation": "For ssDNA viruses, host enzymes synthesize the complementary strand, producing dsDNA that's then used like normal DNA."
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "To replicate its genome, a +ssRNA virus such as a coronavirus must first make:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A DNA primer"
+    },
+    {
+     "letter": "B",
+     "text": "A complementary −ssRNA template"
+    },
+    {
+     "letter": "C",
+     "text": "A dsDNA provirus"
+    },
+    {
+     "letter": "D",
+     "text": "Reverse transcriptase"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The −strand copy serves as the template for producing many new +ssRNA genomes."
+  },
+  {
+   "num": 16,
+   "type": "Open recall",
+   "prompt": "Describe biosynthesis for a −ssRNA virus: how are proteins made and how is the genome replicated?",
+   "options": [],
+   "correct": null,
+   "explanation": "The −ssRNA genome can't be translated, so a viral RNA-dependent RNA polymerase first transcribes it into complementary +ssRNA. That +ssRNA is translated into viral proteins and also serves as the template for making new −ssRNA genomes."
+  }
+ ]
+}

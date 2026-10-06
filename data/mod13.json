@@ -1,0 +1,368 @@
+{
+ "slug": "mod13",
+ "title": "Module 13",
+ "subtitle": "Bacterial Genetics — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multi-statement",
+   "prompt": "Which statement about transcription is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Transcription ends when RNA polymerase reaches the terminator."
+    },
+    {
+     "letter": "B",
+     "text": "The entire chromosome is transcribed into one mRNA."
+    },
+    {
+     "letter": "C",
+     "text": "The mRNA produced is complementary to the template strand."
+    },
+    {
+     "letter": "D",
+     "text": "The product is single-stranded."
+    },
+    {
+     "letter": "E",
+     "text": "RNA polymerase binds the promoter to begin."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False. Only the gene region (promoter to terminator) is transcribed, not the whole chromosome."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "During which stage of transcription does RNA polymerase slide along the gene building the growing mRNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Termination"
+    },
+    {
+     "letter": "B",
+     "text": "Initiation"
+    },
+    {
+     "letter": "C",
+     "text": "Translocation"
+    },
+    {
+     "letter": "D",
+     "text": "Elongation"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Elongation — RNA polymerase keeps unzipping DNA and adding complementary RNA nucleotides."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "An mRNA reads 5'-GCUAUGUUUGGCUAA-3'. What is the first amino acid of the protein?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Phenylalanine"
+    },
+    {
+     "letter": "B",
+     "text": "Methionine"
+    },
+    {
+     "letter": "C",
+     "text": "Alanine"
+    },
+    {
+     "letter": "D",
+     "text": "Leucine"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Translation begins at the first AUG (start codon), which codes for methionine; the GCU before it isn't translated."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "A tRNA carries the anticodon UAC. Which mRNA codon does it pair with?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "AUG"
+    },
+    {
+     "letter": "B",
+     "text": "GUA"
+    },
+    {
+     "letter": "C",
+     "text": "UAC"
+    },
+    {
+     "letter": "D",
+     "text": "ATG"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Anticodons are complementary to codons: U–A, A–U, C–G → AUG (the start codon, methionine)."
+  },
+  {
+   "num": 5,
+   "type": "Open recall",
+   "prompt": "Why does translation stop at a stop codon?",
+   "options": [],
+   "correct": null,
+   "explanation": "No tRNA has an anticodon complementary to a stop codon, so nothing can bring in an amino acid; the ribosome lets go of the mRNA and the polypeptide is released."
+  },
+  {
+   "num": 6,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the genetic code is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Codons are groups of three mRNA nucleotides."
+    },
+    {
+     "letter": "B",
+     "text": "AUG is the most common start codon."
+    },
+    {
+     "letter": "C",
+     "text": "There are 64 possible codons."
+    },
+    {
+     "letter": "D",
+     "text": "Each amino acid has exactly one codon."
+    },
+    {
+     "letter": "E",
+     "text": "The code is essentially universal across organisms."
+    }
+   ],
+   "correct": "D",
+   "explanation": "False. 64 codons code for only 20 amino acids, so most amino acids have several codons."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Which molecule actually 'knows' the genetic code and delivers the correct amino acid to the ribosome?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "RNA polymerase"
+    },
+    {
+     "letter": "B",
+     "text": "rRNA"
+    },
+    {
+     "letter": "C",
+     "text": "mRNA"
+    },
+    {
+     "letter": "D",
+     "text": "tRNA"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Each tRNA carries a specific amino acid matched to its anticodon, which base-pairs with the mRNA codon."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "In the lac operon, what happens when lactose is present?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lactose binds the repressor, changing its shape so it can't bind the operator"
+    },
+    {
+     "letter": "B",
+     "text": "The repressor gene stops being expressed"
+    },
+    {
+     "letter": "C",
+     "text": "Lactose binds the operator and blocks RNA polymerase"
+    },
+    {
+     "letter": "D",
+     "text": "RNA polymerase is destroyed"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Lactose is the inducer: it inactivates the repressor, freeing the operator so RNA polymerase can transcribe the lactase genes."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "A refrigerator is a good analogy for which type of operon?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Repressible — default off"
+    },
+    {
+     "letter": "B",
+     "text": "Inducible — default off"
+    },
+    {
+     "letter": "C",
+     "text": "Inducible — default on"
+    },
+    {
+     "letter": "D",
+     "text": "Repressible — default on"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Repressible operons are on by default and turned off when needed (trp operon); inducible ones are like a lamp."
+  },
+  {
+   "num": 10,
+   "type": "Open recall",
+   "prompt": "Explain why the lac operon is described as self-regulating.",
+   "options": [],
+   "correct": null,
+   "explanation": "The genes are off by default (active repressor on the operator). Lactose turns them on by inactivating the repressor. Once the lactase enzymes break down the lactose, nothing is left to bind the repressor, so it returns to its active shape, rebinds the operator, and the genes shut off again."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Who developed the operon model of gene regulation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Frederick Griffith"
+    },
+    {
+     "letter": "B",
+     "text": "Kary Mullis"
+    },
+    {
+     "letter": "C",
+     "text": "Oswald Avery"
+    },
+    {
+     "letter": "D",
+     "text": "Jacques Monod"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Jacques Monod (Nobel Prize 1965)."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "A substitution changes a codon from GGA (Gly) to GGU (Gly). This is a:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Frameshift mutation"
+    },
+    {
+     "letter": "B",
+     "text": "Silent mutation"
+    },
+    {
+     "letter": "C",
+     "text": "Nonsense mutation"
+    },
+    {
+     "letter": "D",
+     "text": "Missense mutation"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The amino acid doesn't change, so it is silent (possible because of codon redundancy)."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "A substitution changes a codon to UGA in the middle of a gene. This is a:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Missense mutation"
+    },
+    {
+     "letter": "B",
+     "text": "Nonsense mutation"
+    },
+    {
+     "letter": "C",
+     "text": "Frameshift mutation"
+    },
+    {
+     "letter": "D",
+     "text": "Silent mutation"
+    }
+   ],
+   "correct": "B",
+   "explanation": "UGA is a stop codon, so the protein is cut short — a nonsense mutation."
+  },
+  {
+   "num": 14,
+   "type": "Multi-statement",
+   "prompt": "Which statement about frameshift mutations is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They usually change only a single amino acid."
+    },
+    {
+     "letter": "B",
+     "text": "They are caused by insertions or deletions."
+    },
+    {
+     "letter": "C",
+     "text": "Every codon downstream of the mutation can be changed."
+    },
+    {
+     "letter": "D",
+     "text": "They shift the reading frame of codons."
+    },
+    {
+     "letter": "E",
+     "text": "They can kill the cell if an important protein is affected."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False. Changing only one amino acid is typical of a substitution; a frameshift scrambles everything downstream."
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "How does UV light (254 nm) kill microbes, including endospores?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It inhibits DNA gyrase"
+    },
+    {
+     "letter": "B",
+     "text": "It denatures RNA polymerase"
+    },
+    {
+     "letter": "C",
+     "text": "It breaks the sugar-phosphate backbone into nucleotides"
+    },
+    {
+     "letter": "D",
+     "text": "It causes adjacent thymines to bond, forming thymine dimers that lead to frameshift errors"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Thymine dimers kink DNA; as they accumulate, one eventually disrupts an essential gene."
+  },
+  {
+   "num": 16,
+   "type": "Open recall",
+   "prompt": "Compare substitution mutations with frameshift mutations in terms of how harmful they usually are, and explain why.",
+   "options": [],
+   "correct": null,
+   "explanation": "Substitutions affect a single codon, so at worst one amino acid changes (or a premature stop forms) — often harmless in a protein hundreds of amino acids long. Insertions/deletions shift the reading frame so every downstream codon is wrong, usually producing a nonfunctional protein that can kill the cell."
+  }
+ ]
+}
