@@ -236,16 +236,37 @@ table.chart .stp{color:var(--bad);font-weight:700} table.chart .stt{color:var(--
 .navrow.small{margin-bottom:6px}
 .chips a.chip{text-decoration:none}
 .brand .mark{font-family:'Fraunces',Georgia,serif}
+.sgcta{background:var(--card);color:var(--ink);border:1px solid var(--line);border-left:5px solid var(--gene)}
+.sgcta small{color:var(--muted)} .sgcta .chev{color:var(--gene)}
+.sgbar{display:flex;height:6px;border-radius:4px;overflow:hidden;background:var(--soft);margin-top:6px}
+.sgbar span{display:block;height:100%} .b-got{background:var(--ok)} .b-part{background:#C9952B} .b-miss{background:var(--bad)}
+.t-got{color:var(--ok)} .t-part{color:#A9781A} .t-miss{color:var(--bad)}
+.progress{height:6px;border-radius:4px;background:var(--soft);overflow:hidden;margin:-4px 0 12px}
+.progress span{display:block;height:100%;background:var(--ok)}
+.sgq textarea{margin-top:12px;font-size:16px;line-height:1.45}
+.sgbtns{margin-top:10px;align-items:center}
+.flag{color:var(--warn-ink);background:var(--warn-bg);padding:6px 10px;border-radius:8px;display:inline-block}
+.yours{background:var(--soft);border-radius:10px;padding:10px 12px;font-size:15px;white-space:normal;overflow-wrap:anywhere}
+.keypts{list-style:none;padding:0;margin:4px 0 0;display:grid;gap:6px}
+.keypts label{display:flex;gap:10px;align-items:flex-start;padding:9px 11px;border:1px solid var(--line);border-radius:10px;background:var(--bg);cursor:pointer;line-height:1.45}
+.keypts input{width:18px;height:18px;flex:none;margin-top:2px;accent-color:var(--ok)}
+.keypts label:has(input:checked){border-color:var(--ok);background:var(--ok-bg)}
+.grade{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.grade button{font:inherit;font-size:15px;font-weight:700;display:flex;gap:8px;align-items:center;justify-content:center;padding:12px 8px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;min-height:48px}
+.grade .k{width:22px;height:22px;border-radius:6px;display:grid;place-items:center;font-size:12px;background:var(--soft);color:var(--muted)}
+.g-got:hover{border-color:var(--ok);background:var(--ok-bg)} .g-part:hover{border-color:#C9952B;background:var(--warn-bg)} .g-miss:hover{border-color:var(--bad);background:var(--bad-bg)}
+.dcard h2 + .seg{margin-bottom:14px}
+.dcard .seg.sgseg{grid-template-columns:repeat(2,1fr)}
 .tool .res p,.tool .ansv{overflow-wrap:anywhere;word-break:break-word}
 .tool{min-width:0;overflow-wrap:anywhere}
 .watch p,.steps li{overflow-wrap:anywhere}
-@media (max-width:520px){.brand span:not(.mark){display:none} header.top nav{gap:4px}}
+@media (max-width:520px){.brand span:not(.mark){display:none} header.top nav{gap:4px} .hide-sm{display:none!important}}
 </style>
 </head>
 <body>
 <header class="top"><div class="in">
   <a class="brand" href="#/"><span class="mark">Mi</span><span>Micro <span class="full-name">Navigator</span></span></a>
-  <nav><a class="btn" href="#/">Start</a><a class="btn" href="#/drill">Drill</a><a class="btn" href="#/notes">Notes</a><a class="btn ghost" href="../index.html" title="Back to the quiz bank">Quizzes</a><button class="btn" id="theme" type="button" aria-label="Toggle dark mode">◐</button></nav>
+  <nav><a class="btn hide-sm" href="#/">Start</a><a class="btn" href="#/sg" title="Study guide questions">Q&amp;A</a><a class="btn" href="../drill/index.html">Drill</a><a class="btn" href="#/notes">Notes</a><a class="btn ghost" href="../index.html" title="Back to the quiz bank">Quizzes</a><button class="btn" id="theme" type="button" aria-label="Toggle dark mode">◐</button></nav>
 </div></header>
 <main id="app"></main>
 <footer>Built only from the Module 9–17 study guides, video lectures, instructor slides, and assigned textbook chapters. Items the sources don't cover are flagged, not filled in.</footer>
@@ -975,7 +996,8 @@ function render() {
   window.scrollTo(0, 0);
   if (h === 'notes' || h.indexOf('notes/') === 0) return renderNotes(h.split('/')[1]);
   if (h.indexOf('node/') === 0 && NODES[h.slice(5)]) return renderNode(h.slice(5));
-  if (h === 'drill' || h.indexOf('drill/') === 0) return renderDrill(h);
+  if (h === 'drill' || h.indexOf('drill/') === 0) { location.replace('../drill/index.html'); return; }
+  if (h === 'sg' || h.indexOf('sg/') === 0) return renderSG(h);
   renderHome();
 }
 function crumbsHTML(id) {
@@ -991,7 +1013,8 @@ function crumbsHTML(id) {
 }
 function renderHome() {
   var html = '<section class="hero"><p class="eyebrow">Microbiology · Modules 9–17</p><h1>What is your question asking you to do?</h1><p class="lede">Pick the kind of question. Follow the flowchart from your course materials, then check your own answer.</p></section>';
-  html += '<a class="drillcta" href="#/drill"><span><b>Drill mode</b><small>Quick-fire questions on organisms, terms, drugs, scientists, sequences, and mutations</small></span><span class="chev">→</span></a>';
+  html += '<a class="drillcta sgcta" href="#/sg"><span><b>Study guide questions</b><small>Answer the numbered study-guide questions from memory, reveal the answer, grade yourself — misses come back</small></span><span class="chev">→</span></a>';
+  html += '<a class="drillcta" href="../drill/index.html"><span><b>Practice bank</b><small>730 scenario and direct questions (Modules 9–17), synced to your Google Sheet, misses tracked</small></span><span class="chev">→</span></a>';
   html += '<div class="search"><input id="q" type="search" placeholder="Filter question types (e.g. operon, budding, tapeworm)" aria-label="Filter question types"></div>';
   GROUPS.forEach(function (g) {
     html += '<section class="group tag-' + g.tag + '"><h2>' + esc(g.name) + '</h2><div class="opts">';
@@ -1290,6 +1313,1917 @@ document.addEventListener('keydown', function (e) {
 window.addEventListener('hashchange', render);
 document.addEventListener('DOMContentLoaded', function () { app = document.getElementById('app'); render(); });
 (function () { var b = document.getElementById('theme'), r = document.documentElement; try { var s = localStorage.getItem('microdrill_theme'); if (s) r.dataset.theme = s; } catch (e) { } b.addEventListener('click', function () { var dark = r.dataset.theme ? r.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches; r.dataset.theme = dark ? 'light' : 'dark'; try { localStorage.setItem('microdrill_theme', r.dataset.theme); } catch (e) { } }); })();
+
+var SG = [
+{
+"m": 9,
+"n": 1,
+"q": "What is the endosymbiotic theory and what evidence supports it?",
+"a": [
+"Eukaryotic cells arose when a <b>larger cell engulfed smaller bacteria</b> that lived and reproduced inside it instead of being digested; they became organelles.",
+"Engulfed <b>aerobic bacteria → mitochondria</b>; engulfed <b>photosynthetic bacteria → chloroplasts</b> (slides also list eukaryotic cilia).",
+"<b>Evidence:</b> rod shape (1–10 µm), <b>double membrane</b>, <b>prokaryotic ribosomes</b>, <b>circular chromosome</b>, replicate by <b>binary fission</b>, <b>DNA sequence homology</b> to bacteria."
+],
+"x": false
+},
+{
+"m": 9,
+"n": 2,
+"q": "Who proposed the endosymbiotic theory?",
+"a": [
+"<b>Lynn Margulis</b> (1960s); her paper \"On the Origin of Mitosing Cells\" was rejected by ~15 journals before publication."
+],
+"x": false
+},
+{
+"m": 9,
+"n": 3,
+"q": "What are some distinguishing characteristics of protists?",
+"a": [
+"Kingdom Protista: a <b>diverse \"miscellaneous\" group</b> of <b>unicellular and multicellular eukaryotes</b> (not fungi, plants, or animals).",
+"Divided into <b>protozoa (heterotrophs)</b> and <b>algae (autotrophs)</b>."
+],
+"x": false
+},
+{
+"m": 9,
+"n": 4,
+"q": "What are protozoans and what are some of their mechanisms of motility?",
+"a": [
+"\"First animal\": <b>unicellular, heterotrophic, motile</b> protists.",
+"Move by <b>cilia, flagella, or pseudopods</b>."
+],
+"x": false
+},
+{
+"m": 9,
+"n": 5,
+"q": "What are trophozoites?",
+"a": [
+"The <b>active, feeding</b> stage of a protozoan."
+],
+"x": false
+},
+{
+"m": 9,
+"n": 6,
+"q": "What are cysts?",
+"a": [
+"A <b>dormant</b> (hibernation-like) stage of a protozoan, often the stage that is <b>transmitted</b> to a new host. Resilient, but not as tough as endospores."
+],
+"x": false
+},
+{
+"m": 9,
+"n": 7,
+"q": "Describe the four major subgroups of protozoans (example genera, motility, distinguishing characteristics).",
+"a": [
+"<b>Archaezoans</b> — <i>Giardia</i>, <i>Trichomonas</i>; <b>two or more flagella</b>; non-functional mitochondria (<b>mitosomes</b>), <b>anaerobic</b>.",
+"<b>Euglenozoans</b> — <i>Euglena</i>, <i>Trypanosoma</i>; <b>flagellum stiffened with a protein rod</b>.",
+"<b>Amoebozoans</b> — <i>Entamoeba</i> (also <i>Amoeba</i>, <i>Dictyostelium</i>); move by <b>pseudopods</b>.",
+"<b>Apicomplexans</b> — <i>Plasmodium</i>, <i>Cryptosporidium</i>; <b>adults non-motile</b>; <b>obligate intracellular parasites</b>; organelles at the <b>apex</b> digest an opening into host tissue; complex life cycles."
+],
+"x": false
+},
+{
+"m": 9,
+"n": 8,
+"q": "How does metronidazole (Flagyl) work?",
+"a": [
+"<b>Blocks DNA synthesis</b> in protozoans, so they can't reproduce."
+],
+"x": false
+},
+{
+"m": 9,
+"n": 9,
+"q": "What are algae?",
+"a": [
+"<b>Autotrophic (photosynthetic)</b> protists; <b>unicellular or multicellular</b> (kelp and seaweed are multicellular algae); <b>mostly harmless</b>. Examples: dinoflagellates and marine diatoms."
+],
+"x": false
+},
+{
+"m": 9,
+"n": 10,
+"q": "What is a red tide? Organisms involved? Why are red tides important?",
+"a": [
+"A <b>bloom of a dinoflagellate</b> that makes a <b>neurotoxin</b>, turning coastal water red.",
+"The toxin <b>paralyzes and suffocates fish</b> (mass die-offs); <b>shellfish</b> take it up, and people who eat them can be poisoned."
+],
+"x": false
+},
+{
+"m": 9,
+"n": 11,
+"q": "What are diatoms? Why are diatoms important (i.e. what are their uses)?",
+"a": [
+"Marine algae with a <b>two-piece cell wall made of glass (silica)</b>.",
+"Dead shells pile up as <b>diatomaceous earth</b>: gardening (aerates soil, holds water, kills insects that eat the glass), <b>reflective paint</b>, <b>tooth polish</b>.",
+"Lecture: their <b>oil vacuoles</b> (for floating) accumulated over millions of years → the <b>petroleum</b> we drill; farmed algae could make <b>biofuel</b>."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 1,
+"q": "What are some distinguishing characteristics of fungi?",
+"a": [
+"<b>Unicellular (yeast) or multicellular (mold)</b>; <b>heterotrophic decomposers</b>; <b>non-motile</b>; <b>cell wall of chitin</b>; some cause disease (<b>mycosis</b>)."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 2,
+"q": "How do yeasts differ from molds?",
+"a": [
+"<b>Yeasts:</b> unicellular, <b>facultative anaerobes</b>, reproduce <b>asexually by budding or binary fission</b>.",
+"<b>Molds:</b> multicellular, <b>aerobic</b>, reproduce <b>asexually and sexually by spores</b>."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 3,
+"q": "What is the most common process used by yeasts for reproduction? Describe the process and the microscopic appearance of reproducing yeasts.",
+"a": [
+"<b>Budding</b>: the cell grows a small \"mini me\" off its side, copies its chromosomes into it, and the bud breaks off.",
+"Under the microscope: parent cells with small <b>buds</b> attached (sometimes several generations still connected); a broken-off bud leaves a <b>bud scar</b> in the chitin wall."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 4,
+"q": "Why is Saccharomyces cerevisiae important?",
+"a": [
+"<b>Baker's and brewer's yeast</b> (\"the fungus that turns sugar into beer\").",
+"Fermentation makes <b>CO₂</b> (bread rises) and <b>ethanol</b> (alcoholic beverages)."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 5,
+"q": "What are hyphae?",
+"a": [
+"<b>Filaments of fungal cells</b> that make up a mold (one = hypha). The whole network = <b>mycelium</b>. Hyphae release enzymes, digest food outside the cell, and absorb it."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 6,
+"q": "What are spores?",
+"a": [
+"Small reproductive cells a mold releases (by wind, water, etc.); one landing on a food source divides by mitosis into new hyphae. How a non-motile fungus reaches new food."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 7,
+"q": "How do mold sporangiospores differ from conidiospores?",
+"a": [
+"<b>Sporangiospores:</b> asexual spores <b>enclosed</b> in a container on a <b>sporangiophore</b>.",
+"<b>Conidiospores:</b> asexual spores <b>exposed</b> on the outside of a <b>conidiophore</b> (\"conidia\" = dust)."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 8,
+"q": "What type of spores do Aspergillus and Penicillium produce?",
+"a": [
+"<b>Conidiospores</b> (textbook, Ch. 5: they are Ascomycota, which make conidia)."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 9,
+"q": "How do mushrooms form? Does this involve asexual or sexual reproduction?",
+"a": [
+"<b>Sexual reproduction.</b> Hyphae of <b>opposite mating types</b> (+/−, detected by pheromones) grow toward each other underground and <b>fuse</b>.",
+"The fused hyphae send many hyphae up to the surface, forming a <b>mushroom</b> that releases spores."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 10,
+"q": "What is a mycosis?",
+"a": [
+"A <b>fungal disease</b> (e.g., yeast infection, thrush, athlete's foot, ringworm, histoplasmosis, fungal meningitis, nail infection)."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 11,
+"q": "Why are antifungal drugs difficult to develop?",
+"a": [
+"Fungal and human cells are <b>biochemically and metabolically very similar</b>, so there are few differences to exploit as drug targets."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 12,
+"q": "How do fungal cells differ from human and animal cells?",
+"a": [
+"Fungi have a <b>chitin cell wall</b> (human cells have no wall).",
+"Fungal membranes use <b>ergosterol</b>; human membranes use <b>cholesterol</b>."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 13,
+"q": "What are the two most common cellular targets of antifungal medications?",
+"a": [
+"<b>Ergosterol synthesis</b> (membrane) and <b>cell wall (chitin) synthesis</b>. Most antifungals inhibit ergosterol synthesis."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 14,
+"q": "How does miconazole (Monistat) work?",
+"a": [
+"<b>Inhibits ergosterol synthesis</b> → fungal membrane can't regulate fluidity and may rupture."
+],
+"x": false
+},
+{
+"m": 10,
+"n": 15,
+"q": "How does anidulafungin (Eraxis) work?",
+"a": [
+"<b>Inhibits cell wall synthesis.</b>"
+],
+"x": false
+},
+{
+"m": 10,
+"n": 16,
+"q": "Who discovered penicillin? How?",
+"a": [
+"<b>Alexander Fleming.</b> His bacterial plate was contaminated by a <b><i>Penicillium</i></b> mold colony; bacteria <b>near the mold died</b> while those farther away survived → the mold released a bacteria-killing substance (from <i>P. chrysogenum</i>)."
+],
+"x": false
+},
+{
+"m": 11,
+"n": 1,
+"q": "What are some distinguishing characteristics of helminths?",
+"a": [
+"<b>Multicellular heterotrophs</b>; <b>micro- or macroscopic</b>.",
+"<b>Cuticle</b> (covering) of <b>collagen and chitin</b> (slides); the chitin is indigestible, so the host can't digest them.",
+"Most are harmless, but <b>some parasitic species cause disease</b>. Three groups: <b>Cestodes, Trematodes, Nematodes</b>."
+],
+"x": false
+},
+{
+"m": 11,
+"n": 2,
+"q": "What are Cestodes?",
+"a": [
+"<b>Tapeworms</b>: <b>long, flat bodies</b> (high surface area) with no mouth or gut — they absorb nutrients the host digested.",
+"Attach with a <b>scolex</b>; body of many identical <b>proglottids</b>, each with ovaries and testes (<b>hermaphrodite</b>). Example: <i>Taenia</i>."
+],
+"x": false
+},
+{
+"m": 11,
+"n": 3,
+"q": "What is a scolex?",
+"a": [
+"The <b>attachment structure</b> of a tapeworm — an anchor with barbed hooks that burrows into the intestinal wall (not a real head)."
+],
+"x": false
+},
+{
+"m": 11,
+"n": 4,
+"q": "What are proglottids?",
+"a": [
+"The <b>many identical segments</b> of a tapeworm's body; each contains <b>ovaries and testes</b> (hermaphroditic). End proglottids fill with fertilized eggs, break off, and leave in feces."
+],
+"x": false
+},
+{
+"m": 11,
+"n": 5,
+"q": "What are Trematodes? How are they different from Cestodes?",
+"a": [
+"<b>Flukes</b>: <b>flat</b> bodies, <b>complex body systems</b> (oral sucker, intestine, testes); many are <b>fluid feeders</b>; most are <b>host- and organ-specific</b> (e.g., <i>Clonorchis</i>, liver fluke).",
+"Unlike cestodes: smaller, <b>not segmented into proglottids</b>, no scolex, and have a mouth (oral sucker) and gut."
+],
+"x": false
+},
+{
+"m": 11,
+"n": 6,
+"q": "What are Nematodes? How are they different from Cestodes and Trematodes?",
+"a": [
+"<b>Roundworms</b>: complex body systems; most harmless, but some cause <b>common worldwide disease</b>.",
+"Different: <b>round</b> (fluid-filled, hydrostatic skeleton) rather than flat, and <b>not segmented</b>."
+],
+"x": false
+},
+{
+"m": 11,
+"n": 7,
+"q": "What are anticoagulants?",
+"a": [
+"Substances that <b>prevent blood from clotting</b> (e.g., <b>hirudin</b>, used as a blood thinner)."
+],
+"x": false
+},
+{
+"m": 11,
+"n": 8,
+"q": "Why do some helminths make anticoagulants?",
+"a": [
+"<b>Blood-feeding</b> helminths put anticoagulants in their <b>saliva</b> so the host's blood stays fluid and they can keep drinking."
+],
+"x": false
+},
+{
+"m": 11,
+"n": 9,
+"q": "What types of diseases are helminths a useful treatment for?",
+"a": [
+"Parasitic worms <b>suppress the inflammatory response</b>, so they're researched for <b>allergies, Crohn's disease, and irritable bowel syndrome</b> (David Pritchard)."
+],
+"x": false
+},
+{
+"m": 11,
+"n": 10,
+"q": "How does the antihelminthic drug mebendazole (Vermox) work?",
+"a": [
+"<b>Inhibits sugar absorption</b> by the worms."
+],
+"x": false
+},
+{
+"m": 11,
+"n": 11,
+"q": "What is Caenorhabditis elegans? How is this organism used in science?",
+"a": [
+"A <b>harmless, microscopic nematode</b> and major <b>model organism</b>.",
+"<b>959 cells</b> in the adult (<b>eutely</b>), <b>131 programmed cell deaths</b>, <b>302 interconnected neurons</b> → used to study embryological development, programmed cell death, and how nervous systems work."
+],
+"x": false
+},
+{
+"m": 11,
+"n": 12,
+"q": "What are arthropods and how can they contribute to the spread of disease?",
+"a": [
+"Invertebrate animals such as <b>insects and ticks</b>. Many don't cause disease themselves but serve as <b>vectors</b> that transmit pathogens."
+],
+"x": false
+},
+{
+"m": 11,
+"n": 13,
+"q": "What are vectors? How do biological vectors differ from mechanical vectors?",
+"a": [
+"<b>Vectors</b> carry a pathogen from one host/place to another.",
+"<b>Mechanical:</b> pathogens just <b>stick to body parts</b> (house fly).",
+"<b>Biological:</b> the pathogen <b>reproduces inside</b> the vector (mosquito → malaria; tick → Lyme disease)."
+],
+"x": false
+},
+{
+"m": 11,
+"n": 14,
+"q": "Which group(s) of helminths are targeted by albendazole (Albenza)? (not in video lectures)",
+"a": [
+"<b>Instructor slides:</b> ascariasis (<i>Ascaris</i>, a <b>nematode</b>) is treated with <b>albendazole</b> or mebendazole. The slides don't say whether it also targets cestodes or trematodes — confirm with your professor."
+],
+"x": true
+},
+{
+"m": 11,
+"n": 15,
+"q": "Which group(s) of helminths are targeted by pyrantel (Pin X)? (not in video lectures)",
+"a": [
+"<b>Not covered in the provided materials</b> — the slides only list the drug name. Check the textbook drug table or ask your professor."
+],
+"x": true
+},
+{
+"m": 11,
+"n": 16,
+"q": "Which group(s) of helminths are targeted by ivermectin? (not in video lectures)",
+"a": [
+"<b>Not covered in the provided materials.</b> Check the textbook drug table or ask your professor."
+],
+"x": true
+},
+{
+"m": 12,
+"n": 1,
+"q": "What is a chromosome?",
+"a": [
+"A <b>closed loop of double-stranded DNA</b> (in bacteria) that <b>stores the genetic information</b> of the cell.",
+"It is very long but only ~2 nm wide, so it is <b>supercoiled</b> to fit inside the cell (picture an old phone cord coiling on itself)."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 2,
+"q": "How are prokaryotic and eukaryotic chromosomes similar and different?",
+"a": [
+"<b>Similar:</b> both are made of <b>double-stranded DNA</b> with the same basic structure.",
+"<b>Prokaryotic:</b> <b>circular</b> (a closed loop — like two braided rubber bands); usually a <b>single chromosome</b>.",
+"<b>Eukaryotic:</b> <b>linear</b> (has ends — like two braided shoelaces); <b>multiple chromosomes</b> (humans have 46)."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 3,
+"q": "What is a gene?",
+"a": [
+"A <b>region of a chromosome that encodes the primary structure</b> (the amino-acid sequence) <b>of a specific protein</b> — a \"recipe\" for one protein.",
+"<i>E. coli</i> has ~5,000 genes."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 4,
+"q": "What is a genotype?",
+"a": [
+"The <b>genes and other nucleotide sequences present in the genome</b> — i.e., what the DNA letters actually say."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 5,
+"q": "What is a phenotype and how do phenotypes relate to genotypes?",
+"a": [
+"The <b>physical, behavioral, and metabolic properties</b> of an organism that <b>result from the genotype</b>.",
+"<b>Genotype determines phenotype.</b> Example (<i>E. coli</i>): rod shape, Gram-negative cell wall, facultative anaerobe — all phenotypes made possible by its genes."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 6,
+"q": "What did Craig Venter do?",
+"a": [
+"<b>Helped sequence the human genome</b> (developed a fast DNA-sequencing method).",
+"<b>Created the first artificial genome:</b> removed and sequenced the chromosome of <i>Mycoplasma genitalium</i> (only <b>521 genes</b>), synthesized an artificial copy, and injected it into a cell that had lost its chromosome — the cell \"rebooted\" and ran on it.",
+"Called \"artificial life\" by some; Venter disagrees, since he relied on the existing cell's membrane, ribosomes, etc."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 7,
+"q": "What happened during Frederick Griffith's experiment?",
+"a": [
+"(1928) Used two strains of <i>Streptococcus pneumoniae</i>: <b>smooth (S)</b> — has a capsule, <b>pathogenic</b>; <b>rough (R)</b> — no capsule, <b>harmless</b>.",
+"Live S → mouse <b>died</b>. Live R → mouse <b>lived</b>. Heat-killed S → mouse <b>lived</b>.",
+"<b>Heat-killed S + live R → mouse died</b>, and its body was full of <b>living S cells</b>.",
+"Conclusion: some \"genetic material\" leaked from the dead S cells and was taken up by the R cells, <b>transforming</b> them into pathogenic S cells — but <i>what</i> that material was remained unknown."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 8,
+"q": "How did Avery's experiment demonstrate that DNA is the genetic material?",
+"a": [
+"(1944; Avery–MacLeod–McCarty) Repeated Griffith's heat-killed S + live R mix, in two versions:",
+"<b>+ Protease</b> (destroys protein) → mouse <b>still died</b> → protein is <i>not</i> the transforming material.",
+"<b>+ DNase</b> (destroys DNA) → mouse <b>lived</b> → destroying DNA blocked transformation.",
+"Therefore <b>DNA is the genetic material</b>."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 9,
+"q": "Who were Alfred Hershey and Martha Chase? (not in recorded lecture)",
+"a": [
+"<b>Sourced from instructor slides + textbook (Ch. 10)</b> — not in the video.",
+"(1952) Their experiments <b>confirmed that DNA (not protein) is the genetic material</b>.",
+"Used the <b>T2 bacteriophage</b> infecting <i>E. coli</i>: labeled phage <b>protein with radioactive sulfur (³⁵S)</b> in one batch and <b>DNA with radioactive phosphorus (³²P)</b> in another.",
+"After infection, blending, and centrifuging, the <b>³²P (DNA) was inside the bacterial cells</b>, while the ³⁵S (protein) stayed outside → the phage injects <b>DNA</b>, which directs production of new phages."
+],
+"x": true
+},
+{
+"m": 12,
+"n": 10,
+"q": "Which two scientists published the first paper describing the structure of DNA?",
+"a": [
+"<b>James Watson and Francis Crick</b> — a one-page paper in <i>Nature</i> with no experimental data; they built <b>molecular models</b> of the four nucleotides until one fit the known data.",
+"Nobel Prize in <b>1962</b> (shared with Maurice Wilkins, Franklin's boss)."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 11,
+"q": "What was Rosalind Franklin's contribution to the structure of DNA?",
+"a": [
+"Pioneered <b>X-ray crystallography</b>: crystallized DNA, bombarded it with X-rays, and produced <b>Photo 51</b>, which showed that <b>DNA is a double helix</b> (her notes: phosphates on the outside).",
+"Watson saw Photo 51 without her permission; it guided their model.",
+"She died at 38 (likely from X-ray exposure) and the Nobel Prize is not awarded posthumously."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 12,
+"q": "What is the structure of DNA?",
+"a": [
+"A <b>double-stranded polymer of nucleotides</b> twisted into a <b>double helix</b>.",
+"<b>Sugar-phosphate backbone</b> (covalent bonds) on the outside; <b>complementary base pairs</b> (A–T, G–C) on the inside, held by <b>hydrogen bonds</b> — like a twisted ladder.",
+"The two strands are <b>antiparallel</b> (one runs 5'→3', the other 3'→5').",
+"Constant width of ~<b>2 nm</b>, but can be extremely long."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 13,
+"q": "What is the structure of RNA?",
+"a": [
+"Typically <b>single-stranded</b>; sugar is <b>ribose</b> (not deoxyribose); bases <b>A, G, C, and U (uracil)</b> — no thymine."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 14,
+"q": "What are nucleotides?",
+"a": [
+"The <b>monomers</b> of nucleic acids (DNA and RNA); linked by dehydration synthesis.",
+"Three parts: a <b>phosphate group</b> (negative charge), a <b>5-carbon (pentose) sugar</b> (deoxyribose in DNA, ribose in RNA), and a <b>nitrogenous base</b> — the base is what makes each nucleotide unique."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 15,
+"q": "Which nucleotides are used in DNA?",
+"a": [
+"<b>Adenine (A), Guanine (G), Cytosine (C), Thymine (T).</b>"
+],
+"x": false
+},
+{
+"m": 12,
+"n": 16,
+"q": "Which nucleotides are used in RNA?",
+"a": [
+"<b>Adenine (A), Guanine (G), Cytosine (C), Uracil (U).</b> Uracil replaces thymine and still pairs with A."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 17,
+"q": "What is complementary base pairing and how does it occur?",
+"a": [
+"Specific bases hydrogen-bond with each other across the two strands: <b>A pairs with T</b> (U in RNA) and <b>G pairs with C</b>.",
+"<b>A–T = 2 hydrogen bonds; G–C = 3 hydrogen bonds</b> (slides).",
+"Consequence: in dsDNA, <b>%A = %T and %G = %C</b>. (Slide challenge: 25% A → 25% T, 25% G, 25% C; 34% G → 34% C, 16% A, 16% T.)"
+],
+"x": false
+},
+{
+"m": 12,
+"n": 18,
+"q": "What is meant by 5' and 3' (as it relates to nucleic acid structure)?",
+"a": [
+"Refers to the <b>numbered carbons of the sugar</b>. The <b>5' end</b> starts with a <b>phosphate</b> attached to the 5th carbon; the <b>3' end</b> ends with an <b>–OH</b> on the 3rd carbon.",
+"The two DNA strands run in <b>opposite directions (antiparallel)</b>.",
+"\"Golden rule\" (slides): nucleic acids can <b>only be synthesized 5' → 3'</b>."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 19,
+"q": "What roles do hydrogen bonds play in DNA structure?",
+"a": [
+"<b>Hold the two strands together</b> down the middle (between complementary bases).",
+"Repetitive hydrogen bonding also <b>twists the molecule into its helical shape</b>.",
+"Because H-bonds are weak (unlike the covalent backbone), the strands can be <b>separated</b> for replication."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 20,
+"q": "What is the purpose of DNA replication?",
+"a": [
+"To <b>duplicate (copy) the chromosome</b> so each daughter cell receives a copy during <b>binary fission</b>.",
+"It is <b>semi-conservative</b>: each new double helix has <b>one old (parent) strand + one new (daughter) strand</b>.",
+"Takes ~<b>30 minutes</b> under ideal conditions — most of a bacterium's <b>generation time</b>."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 21,
+"q": "What do gyrase, helicase, primase, polymerase, and ligase do in replication?",
+"a": [
+"<b>Gyrase</b> — <b>uncoils the supercoiled DNA</b>.",
+"<b>Helicase</b> — <b>unzips and unwinds</b> the double helix, forming the replication fork.",
+"<b>Primase</b> — lays down a short <b>RNA primer</b> that gives polymerase a starting point.",
+"<b>DNA polymerase</b> — <b>adds complementary nucleotides</b> (5'→3') to build the new strand; replaces primers with DNA; proofreads.",
+"<b>Ligase</b> — <b>glues (joins) Okazaki fragments</b> on the lagging strand."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 22,
+"q": "What is a replication fork?",
+"a": [
+"The <b>Y-shaped region</b> where helicase has separated the two DNA strands — two \"prongs\" like a fork in the road."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 23,
+"q": "What is an origin of replication?",
+"a": [
+"The specific site on a bacterial chromosome (or plasmid) <b>where helicases bind and replication begins</b>.",
+"<b>Two helicases</b> leave the origin in <b>opposite directions</b>, creating <b>two replication forks</b> that travel around the loop until they meet — giving two identical copies."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 24,
+"q": "How does synthesis differ between the leading and lagging daughter strands?",
+"a": [
+"Because polymerase/primase can only build <b>5' → 3'</b>:",
+"<b>Leading strand</b> — built <b>continuously</b> in one piece, <b>toward the fork</b>, following the helicase.",
+"<b>Lagging strand</b> — built <b>away from the fork</b> in short pieces (<b>Okazaki fragments</b>), each needing its own primer; fragments are joined by <b>ligase</b>, so it \"lags\" behind."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 25,
+"q": "How does the antibiotic ciprofloxacin (Cipro) work?",
+"a": [
+"<b>Inhibits bacterial DNA gyrase</b> → DNA <b>can't be uncoiled</b> → <b>can't be replicated</b> → bacteria can't grow.",
+"<b>Broad-spectrum</b>; doesn't harm human cells because our version of the enzyme is different."
+],
+"x": false
+},
+{
+"m": 12,
+"n": 26,
+"q": "What is the name given to the 5' → 3' DNA strand? (not in recorded lecture)",
+"a": [
+"<b>Sourced from instructor slides.</b> The <b>coding strand</b> — it has the <b>same sequence and orientation as the mRNA</b> (with T instead of U)."
+],
+"x": true
+},
+{
+"m": 12,
+"n": 27,
+"q": "What is the name given to the 3' → 5' DNA strand? (not in recorded lecture)",
+"a": [
+"<b>Sourced from instructor slides.</b> The <b>non-coding (template) strand</b> — it is used as the <b>template</b> to synthesize mRNA during transcription."
+],
+"x": true
+},
+{
+"m": 13,
+"n": 1,
+"q": "What does the Central Dogma of Molecular Genetics state?",
+"a": [
+"Genetic information flows <b>DNA → RNA → protein</b>.",
+"A gene (DNA) is <b>transcribed</b> into <b>messenger RNA</b>, which travels to the ribosome and is <b>translated</b> into a protein (the correct sequence of amino acids, which then folds on its own)."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 2,
+"q": "What is transcription?",
+"a": [
+"The process by which a <b>double-stranded DNA gene is copied (transcribed) into a single-stranded RNA</b> (mRNA) molecule — the first stage of <b>gene expression</b>.",
+"Only the gene region is copied, not the whole chromosome. The product is an <b>mRNA transcript</b>."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 3,
+"q": "What are the three stages of transcription and what happens during each?",
+"a": [
+"<b>Initiation</b> — <b>RNA polymerase binds the promoter</b>, begins unzipping the DNA, and starts RNA synthesis.",
+"<b>Elongation</b> — RNA polymerase slides along the gene reading the <b>template strand</b>, adding <b>complementary RNA nucleotides</b> (U opposite A); the DNA re-zips behind it.",
+"<b>Termination</b> — RNA polymerase reaches the <b>terminator sequence</b>, <b>falls off</b>, and the finished mRNA is released."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 4,
+"q": "What is RNA polymerase? What does it do during transcription?",
+"a": [
+"The <b>enzyme that carries out transcription</b>: it <b>binds the promoter, unzips/unwinds the DNA</b>, and <b>synthesizes a complementary mRNA</b> using the template strand."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 5,
+"q": "Where are promoter and terminator sequences found?",
+"a": [
+"<b>Promoter</b> — at the <b>beginning</b> of a gene (\"<b>upstream</b>\").",
+"<b>Terminator</b> — at the <b>end</b> of a gene (\"<b>downstream</b>\")."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 6,
+"q": "What role do promoter and terminator sequences play during transcription?",
+"a": [
+"<b>Promoter</b> signals <b>where the gene begins</b>; RNA polymerase is strongly attracted to (binds) it. Slides: A/T-rich.",
+"<b>Terminator</b> signals <b>where the gene ends</b>; RNA polymerase <b>can't bind</b> there and falls off, ending transcription. Slides: C/G-rich."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 7,
+"q": "What is translation?",
+"a": [
+"The process of <b>translating the mRNA nucleotide sequence into an amino-acid sequence</b> (a polypeptide/protein) at the <b>ribosome</b> — the second stage of gene expression (also called <b>protein synthesis</b>).",
+"Major players: <b>mRNA, ribosomes, tRNA, amino acids</b>."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 8,
+"q": "What are the three stages of translation and what happens during each?",
+"a": [
+"<b>Initiation</b> — ribosomal subunits assemble on the mRNA at the <b>start codon (AUG)</b>; the first tRNA (anticodon <b>UAC</b>) carrying <b>methionine</b> pairs with it.",
+"<b>Elongation</b> — the ribosome reads the next codon; the matching tRNA brings its amino acid; a <b>peptide bond</b> forms (slides: requires ATP); the ribosome moves down the mRNA, the empty tRNA leaves, and the chain grows.",
+"<b>Termination</b> — the ribosome reaches a <b>stop codon</b>; <b>no tRNA matches it</b>, so the ribosome lets go, the components separate, and the <b>polypeptide is released</b> to fold. (The mRNA is then destroyed so the protein isn't made nonstop.)"
+],
+"x": false
+},
+{
+"m": 13,
+"n": 9,
+"q": "What are codons?",
+"a": [
+"Groups of <b>three consecutive mRNA nucleotides</b> that specify a particular amino acid (or start/stop).",
+"4 bases taken 3 at a time = <b>64 codons</b> for only <b>20 amino acids</b>, so most amino acids have several codons (redundancy). The genetic code is essentially <b>universal</b>."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 10,
+"q": "What is the most commonly used start codon? (identify its nucleotide sequence)",
+"a": [
+"<b>AUG</b> — it also codes for <b>methionine (Met)</b>."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 11,
+"q": "What is a stop codon?",
+"a": [
+"An mRNA codon that <b>does not code for an amino acid</b> and has <b>no complementary tRNA</b>; it signals the <b>end of translation</b>. (UAA, UAG, UGA — slides say no need to memorize.)"
+],
+"x": false
+},
+{
+"m": 13,
+"n": 12,
+"q": "What roles do start and stop codons play during translation?",
+"a": [
+"<b>Start codon (AUG):</b> marks where translation <b>begins</b>, where the ribosome binds, and <b>sets the reading frame</b> (everything after is read in triplets).",
+"<b>Stop codon:</b> <b>terminates translation</b> — the ribosome releases the mRNA and the finished polypeptide."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 13,
+"q": "What is an anti-codon and where are anti-codons found?",
+"a": [
+"A set of <b>three nucleotides on a tRNA</b> that is <b>complementary to an mRNA codon</b>.",
+"Found at one end (the bottom loop) of each <b>tRNA</b>; the anticodon determines which amino acid that tRNA carries (e.g., anticodon AAG ↔ phenylalanine)."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 14,
+"q": "How do mRNA, ribosomes, and tRNA work together during translation?",
+"a": [
+"<b>mRNA</b> carries the gene's message as a series of <b>codons</b>.",
+"The <b>ribosome</b> (rRNA + proteins) binds the mRNA, reads the codons, and <b>forms peptide bonds</b> between amino acids.",
+"Each <b>tRNA</b> carries a specific amino acid; its <b>anticodon base-pairs with the matching codon</b>, delivering the right amino acid in the right order. tRNAs are recycled (recharged with a new amino acid)."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 15,
+"q": "What is an operon?",
+"a": [
+"A <b>functional genetic unit consisting of genes and regulatory sequences that control the expression of one or more genes</b>.",
+"Parts: <b>regulatory (repressor) gene, promoter, operator, and the structural genes</b>."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 16,
+"q": "Who discovered operons?",
+"a": [
+"<b>Jacques Monod</b> — operon model of gene regulation (Nobel Prize 1965)."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 17,
+"q": "What is a repressible operon and how does it work?",
+"a": [
+"<b>Default state = ON</b>, but it can be turned <b>OFF</b> when needed (analogy: a <b>refrigerator</b>). Example: <b>trp operon</b>.",
+"<b>Mechanism (instructor slides):</b> the repressor protein is made <b>inactive</b> (wrong shape), so RNA polymerase transcribes the genes. When a <b>corepressor</b> binds and <b>activates</b> the repressor, it binds the <b>operator</b> and blocks transcription → OFF."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 18,
+"q": "What is an inducible operon and how does it work?",
+"a": [
+"<b>Default state = OFF</b>, but it can be turned <b>ON</b> when needed (analogy: a <b>lamp</b>). Example: <b>lac operon</b>.",
+"The regulatory gene constantly makes an <b>active repressor protein</b> that binds the <b>operator</b>, blocking RNA polymerase from the promoter → genes OFF.",
+"When an <b>inducer</b> is present, it binds the repressor and <b>changes its shape</b> → repressor becomes <b>inactive</b> and falls off → RNA polymerase transcribes the genes → ON."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 19,
+"q": "What is the purpose of the Lac operon? What type of operon is the Lac operon?",
+"a": [
+"It controls the <b>lactase genes</b> (lacZ, lacY, lacA) that encode <b>enzymes to break down lactose</b>, so they're made <b>only when lactose is present</b>.",
+"It is an <b>inducible operon</b>; <b>lactose is the inducer</b>. Once the lactose is used up, the repressor returns to its active shape, rebinds the operator, and the genes shut off — a <b>self-regulating negative feedback</b> loop."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 20,
+"q": "What is a mutation?",
+"a": [
+"A <b>change in the nucleotide sequence of DNA</b>.",
+"Caused by <b>mutagens</b> — <b>chemicals, radiation, or viruses</b> (induced) — or by random replication errors (spontaneous, slides).",
+"Usually harmful, occasionally beneficial (raw material for evolution); permanent and heritable."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 21,
+"q": "What are point mutations?",
+"a": [
+"Mutations that change a <b>single nucleotide</b> — <b>substitution, insertion, or deletion</b>."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 22,
+"q": "What are substitution point mutations?",
+"a": [
+"One nucleotide is <b>replaced by a different nucleotide</b> (e.g., A replaces G). Only <b>one codon</b> is affected, so they are <b>often harmless</b>."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 23,
+"q": "What are the 3 types of substitution point mutations and their effect(s) on cells?",
+"a": [
+"<b>From instructor slides</b> (the video shows only a missense example):",
+"<b>Silent</b> — <b>no change</b> in the amino acid (the new codon codes for the same one) → no effect.",
+"<b>Missense</b> — the amino acid <b>changes to a different amino acid</b> → one wrong amino acid; often tolerable, sometimes harmful.",
+"<b>Nonsense</b> — the codon becomes a <b>premature stop codon</b> → protein is cut short, usually nonfunctional."
+],
+"x": false
+},
+{
+"m": 13,
+"n": 24,
+"q": "What are frame-shift errors (frameshift mutations) and their effect(s) on cells?",
+"a": [
+"Caused by <b>insertion or deletion</b> of nucleotide(s), which <b>shifts the reading frame</b> — <b>every codon after the mutation is wrong</b>.",
+"Produces a protein nothing like the intended one; if it's an important protein, the <b>cell may die</b>. (Scantron analogy: skip one question and every answer after it is marked wrong.)"
+],
+"x": false
+},
+{
+"m": 13,
+"n": 25,
+"q": "How does UV radiation mutate DNA?",
+"a": [
+"UV causes <b>thymine dimers</b> — two <b>adjacent thymines covalently bond</b> to each other, kinking the DNA.",
+"When transcribed, these cause <b>frameshift errors</b>; longer exposure → more dimers → eventually an <b>essential gene</b> is hit and the cell dies.",
+"Basis of <b>UV sterilization</b> (254 nm is most germicidal; also kills endospores) and of <b>skin cancer</b> in humans."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 1,
+"q": "What is meant by horizontal gene transfer?",
+"a": [
+"Genetic information passed <b>within a generation</b> — between neighboring cells — rather than from parent to offspring.",
+"Contrast: <b>vertical gene transfer</b> = genetic information passed <b>to the next generation</b> (parents → child).",
+"Horizontal transfer is what makes genetic engineering possible."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 2,
+"q": "Which living things can transfer genes horizontally?",
+"a": [
+"<b>Bacteria (prokaryotes)</b>; eukaryotes rely on vertical gene transfer (lecture).",
+"Textbook (Ch. 11): HGT is most prevalent in prokaryotes, occurring by <b>transformation, transduction, and conjugation</b>."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 3,
+"q": "What are plasmids and what role do plasmids play in horizontal gene transfer?",
+"a": [
+"A <b>small loop of DNA separate from the chromosome</b> that carries <b>accessory (\"bonus\") genes</b>.",
+"Bacteria <b>exchange copies of plasmids with neighboring cells</b> — the main vehicle of horizontal gene transfer.",
+"Scientists can remove plasmids, insert a gene of interest, and get bacteria to take them back up."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 4,
+"q": "How do restriction enzymes work? What are sticky ends?",
+"a": [
+"<b>\"DNA scissors\"</b> — enzymes naturally found in bacteria that <b>cut (cleave) double-stranded DNA at a specific recognition sequence</b> (slides: palindromic). Example: <b>EcoRI</b> cuts at <b>GAATTC</b>.",
+"They make a <b>staggered (zigzag) cut</b>, leaving short <b>single-stranded overhangs</b> = <b>sticky ends</b>, which readily <b>base-pair with complementary sticky ends</b> made by the same enzyme.",
+"Discovered by Arber, Nathans, and Smith (Nobel 1978)."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 5,
+"q": "Who created the first recombinant DNA molecule?",
+"a": [
+"<b>Paul Berg</b> (Stanford, <b>1970</b>; Nobel 1980) — combined DNA from <b>SV40 virus</b> and <b>lambda phage</b>.",
+"He refused to put it into <i>E. coli</i> (too risky — SV40 causes cancer in monkeys and <i>E. coli</i> lives in the human gut)."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 6,
+"q": "What role do restriction enzymes and ligase play in creating recombinant DNA?",
+"a": [
+"<b>Restriction enzymes</b> cut both DNA sources (using the <b>same enzyme</b> so the sticky ends match).",
+"<b>DNA ligase</b> (\"DNA glue\" — the same enzyme that joins Okazaki fragments) <b>seals the pieces together</b> into one recombinant molecule."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 7,
+"q": "What is the goal of traditional genetic engineering? How is this helpful?",
+"a": [
+"To <b>put a gene of interest into an organism</b> (e.g., into a plasmid taken up by bacteria) so it <b>expresses that protein</b> — creating new products and GMOs.",
+"Helpful because bacteria can then <b>mass-produce useful proteins cheaply</b> (e.g., human insulin) and support research.",
+"<b>Cohen &amp; Boyer (1973)</b> made the first <b>recombinant organism</b>."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 8,
+"q": "What was the first FDA-approved genetically engineered medication?",
+"a": [
+"<b>Humulin</b> — <b>human insulin</b> made by genetically engineered <i>E. coli</i> (Boyer &amp; Swanson; company <b>Genentech</b>).",
+"They built a synthetic insulin gene by working the central dogma backward from insulin's amino-acid sequence. Replaced pig insulin for type 1 diabetics.",
+"Note: the lecture presents Humulin as the landmark product; the \"first FDA-approved\" wording isn't stated verbatim in the sources."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 9,
+"q": "What is PCR?",
+"a": [
+"<b>Polymerase Chain Reaction</b> — a technique that makes <b>millions to billions of copies of a specific region of DNA</b> in a test tube within a few hours (DNA <b>amplification</b>).",
+"Uses template DNA, <b>primers</b>, spare <b>nucleotides</b>, a heat-stable <b>DNA polymerase</b>, and repeated temperature cycles. Copies increase <b>exponentially</b>."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 10,
+"q": "Who developed and first used PCR technology?",
+"a": [
+"<b>Kary Mullis</b> (mid-1980s; idea came to him while driving on a date; Nobel Prize <b>1993</b>)."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 11,
+"q": "What role do primers play in PCR?",
+"a": [
+"<b>Short synthetic DNA pieces of known sequence</b> that bind the sequences <b>flanking the target region</b>, marking <b>where amplification begins</b>.",
+"DNA polymerase can't start from scratch — it can only <b>extend a primer</b>. Primers decide <b>which region</b> is copied (and, in diagnostics, what is detected)."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 12,
+"q": "What is Taq polymerase?",
+"a": [
+"A <b>thermostable DNA polymerase</b> isolated from <b><i>Thermus aquaticus</i></b>, a thermophilic bacterium from <b>Yellowstone hot springs</b>.",
+"It survives PCR's near-boiling denaturation temperatures without denaturing."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 13,
+"q": "What happens during the three major steps of a PCR cycle?",
+"a": [
+"<b>1. Denaturation (~94–96 °C)</b> — heat breaks hydrogen bonds; the DNA strands separate.",
+"<b>2. Annealing / Priming (~55 °C)</b> — cooled so <b>primers bind</b> their complementary sequences.",
+"<b>3. Extension / Synthesis (~72 °C)</b> — <b>Taq polymerase extends the primers</b>, building new complementary strands.",
+"Repeat <b>25–35×</b>; copies of the target region double each cycle."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 14,
+"q": "What is a thermal cycler (thermocycler)?",
+"a": [
+"A <b>machine (programmable hot plate)</b> that <b>automates the repeated temperature changes</b> of PCR cycles. (Mullis originally moved tubes between water baths by hand.)"
+],
+"x": false
+},
+{
+"m": 14,
+"n": 15,
+"q": "How is PCR used to diagnose disease?",
+"a": [
+"Design <b>primers specific to a pathogen's unique DNA/RNA sequence</b>, then run PCR on the patient's sample.",
+"Pathogen present → primers bind → <b>amplification → positive</b> result. Pathogen absent → nothing for primers to bind → <b>no amplification → negative</b>.",
+"Example: <b>COVID PCR test</b> (RT-PCR). PCR finds the \"needle in a haystack.\" Also used for genetic-marker tests (Ancestry/23andMe) and forensics."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 16,
+"q": "What is CRISPR?",
+"a": [
+"<b>Clustered Regularly Interspaced Short Palindromic Repeats</b> — naturally an <b>adaptive immune system in bacteria (and archaea)</b>: they store bits of phage DNA (spacers) and use them to <b>cut up invading viral DNA</b>.",
+"Scientists have harnessed it as a <b>programmable gene-editing tool</b> (Cas9 + guide RNA)."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 17,
+"q": "Which two scientists discovered and first used CRISPR technology?",
+"a": [
+"<b>Jennifer Doudna</b> and <b>Emmanuelle Charpentier</b> — Nobel Prize <b>2020</b>."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 18,
+"q": "What is Cas9? What is guide RNA? Why is guide RNA important?",
+"a": [
+"<b>Cas9</b> — an <b>enzyme that cuts DNA</b> (like a restriction enzyme, but programmable).",
+"<b>Guide RNA</b> — a piece of RNA inside Cas9 whose ~<b>20-nucleotide target sequence</b> base-pairs with matching DNA.",
+"Guide RNA <b>tells Cas9 where to cut</b>. 20 letters is long enough to be <b>unique in the genome</b> (precise), and the guide can be <b>swapped</b> to target any gene — that's what makes CRISPR <b>programmable</b>."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 19,
+"q": "How does CRISPR gene editing work?",
+"a": [
+"Design a guide RNA matching the target gene → Cas9 + guide RNA <b>scan the DNA</b>, bind the target by <b>complementary base pairing</b>, and <b>cut</b> it.",
+"The cell repairs the break one of two ways:",
+"<b>Non-homologous end joining</b> — random nucleotides glued in → <b>mutation</b> → gene <b>knocked out</b> (inactivated).",
+"<b>Homology-directed repair</b> — scientists supply <b>donor DNA</b> whose ends match the cut; the cell copies it in → new sequence <b>knocked in</b>."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 20,
+"q": "What are some current applications of CRISPR technology?",
+"a": [
+"<b>Treating disease:</b> correcting the cystic fibrosis gene in cells in a dish (Clevers, 2015); editing T cells to attack lung cancer (Lu You, 2016); <b>sickle cell disease</b> (Victoria Gray, 2019 — first FDA-approved CRISPR treatment).",
+"<b>Organ transplants:</b> pig–human chimeras (Jun Wu); pig kidney with antigen genes knocked out transplanted into Rick Slayman (2024).",
+"<b>Food and livestock:</b> longer-lasting white button mushrooms (first approved CRISPR food); edited cows, pigs, chickens.",
+"<b>Research:</b> animal models of disease (e.g., edited monkeys). Many targets: blindness, cancer, CF, deafness, diabetes, HIV, muscular dystrophy, sickle cell."
+],
+"x": false
+},
+{
+"m": 14,
+"n": 21,
+"q": "What is germline gene editing? When is it allowed in the United States?",
+"a": [
+"Editing the DNA of <b>sperm, eggs, or embryos</b>, so the change is in <b>every cell</b> and is <b>passed on to future generations</b> (no consent from the embryo).",
+"The National Academy of Sciences (2017) <b>supports gene-editing research on human embryos and germ cells</b>, but <b>edited embryos may not be implanted</b> — <b>no CRISPR babies</b> (a worldwide moratorium).",
+"He Jiankui (China) broke this in 2018 — twin girls Lulu and Nana, CCR5 gene inactivated for HIV resistance; served 3 years in prison."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 1,
+"q": "Who discovered viruses? How?",
+"a": [
+"<b>Dmitri Ivanovsky (1892)</b>, while hunting for the bacterial cause of <b>tobacco mosaic disease</b>.",
+"He ground infected plants, passed the material through a <b>membrane filter</b> (which should trap bacteria), and cultured everything trapped — <b>none of the bacterial cultures caused the disease</b>.",
+"When he poured the <b>filtrate</b> (what passed through) onto a healthy plant, the plant got the disease → a <b>\"filterable infectious poison\"</b> smaller than cells. The word <i>virus</i> wasn't used until the 1930s."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 2,
+"q": "Who was the first to purify and crystallize viruses?",
+"a": [
+"<b>Wendell Stanley (1935)</b> — lecture: the <b>first to see viruses with the electron microscope</b> (tobacco mosaic virus, which looked like tiny sticks).",
+"Textbook (Ch. 6): Stanley was the <b>first to crystallize</b> TMV and showed it is made of RNA and protein."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 3,
+"q": "What is the size range of most viruses?",
+"a": [
+"<b>20–1,000 nanometers</b> (nm) — much smaller than bacteria; an <b>electron microscope</b> is needed to see them. (TMV ≈ 250 × 18 nm; <i>E. coli</i> ≈ 3,000 × 1,000 nm.)"
+],
+"x": false
+},
+{
+"m": 15,
+"n": 4,
+"q": "What are the basic components of a virus? (i.e., which macromolecules?)",
+"a": [
+"<b>Nucleic acid</b> (the genome — <b>DNA or RNA</b>, never both) inside a <b>protein</b> coat (<b>capsid</b>).",
+"Some also have a <b>lipid envelope</b> (phospholipid bilayer) with <b>protein spikes</b>."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 5,
+"q": "What are capsids?",
+"a": [
+"The <b>protein coat (container)</b> that surrounds and protects the viral nucleic acid."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 6,
+"q": "What are capsomeres?",
+"a": [
+"The <b>individual protein subunits</b> that assemble to form the capsid (\"-mere\" = subunit)."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 7,
+"q": "How are helical, polyhedral, and complex viruses different from each other? Provide an example for each.",
+"a": [
+"<b>Helical</b> — capsomeres wind into a <b>tube</b> (toilet-paper tube → paper-towel tube → garden hose). Ex: <b>tobacco mosaic virus</b>, <b>Ebola</b> (very long).",
+"<b>Polyhedral</b> (also called icosahedral) — capsomeres form a <b>many-faceted, diamond-like geometric</b> shape. Ex: <b>human papillomavirus (HPV)</b>.",
+"<b>Complex</b> — a combination: <b>polyhedral head + helical sheath + tail fibers</b> (\"landing gear\"). Ex: <b>bacteriophage</b>."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 8,
+"q": "How do non-enveloped and enveloped viruses differ? Provide an example for each.",
+"a": [
+"<b>Non-enveloped (naked)</b> — just <b>capsid + nucleic acid</b>, no outer layer. Ex: <b>HPV</b>.",
+"<b>Enveloped</b> — capsid surrounded by an <b>envelope</b>, a <b>phospholipid bilayer</b> (membrane-like, but not called a membrane) studded with <b>spike proteins</b>. Ex: <b>influenza virus</b>, <b>SARS-CoV-2</b>."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 9,
+"q": "What are viral spikes and what is their function?",
+"a": [
+"<b>Proteins protruding from the viral surface</b> (envelope).",
+"They <b>attach the virus to receptors on host cells</b>, determining which cells it can infect. Ex: influenza's hemagglutinin &amp; neuraminidase; SARS-CoV-2's spike protein (the main <b>vaccine target</b>)."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 10,
+"q": "What types of genomes can viruses have? Be sure to define each.",
+"a": [
+"<b>Type of nucleic acid:</b> <b>DNA or RNA</b>.",
+"<b>Strandedness:</b> <b>dsDNA</b> (double-stranded DNA — e.g., HPV), <b>ssDNA</b> (single-stranded DNA), <b>dsRNA</b> (double-stranded RNA — e.g., rotavirus), <b>ssRNA</b> (single-stranded RNA, + or − sense — e.g., coronavirus is +ssRNA).",
+"<b>Format:</b> <b>linear</b> (free ends) or <b>circular</b> (closed loop).",
+"<b>Structure:</b> <b>simple</b> (one piece of nucleic acid) or <b>segmented</b> (multiple pieces — e.g., influenza)."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 11,
+"q": "What are bacteriophages?",
+"a": [
+"<b>Viruses that infect only bacteria</b> (\"bacteria eaters\"); <b>complex</b> shape with capsid, sheath, and tail fibers."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 12,
+"q": "What are the steps in the lytic cycle and what occurs during each step?",
+"a": [
+"<b>1. Attachment (adsorption)</b> — phage lands and its proteins <b>bind molecules on the host cell surface</b>.",
+"<b>2. Penetration (entry)</b> — phage <b>injects its DNA</b> through the cell wall (helped by <b>lysozyme</b>) and membrane like a spring-loaded syringe; the capsid/sheath stays outside as an empty husk.",
+"<b>3. Biosynthesis</b> — the <b>host cell copies the phage genome</b> and <b>makes phage proteins</b> (capsids, sheaths, tail fibers) following the viral DNA.",
+"<b>4. Maturation (assembly)</b> — components are <b>assembled into new virions</b>.",
+"<b>5. Release (lysis)</b> — the cell <b>lyses (bursts)</b>, releasing ~hundreds (~300) of phages that infect neighboring cells."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 13,
+"q": "What does lysozyme do during a bacteriophage infection?",
+"a": [
+"<b>Digests peptidoglycan</b> in the bacterial cell wall: helps the phage genome <b>get through the wall during penetration</b>, and (made from viral genes) <b>breaks open the cell wall to release</b> new phages."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 14,
+"q": "How are lytic bacteriophage quantified (counted)? What is a plaque?",
+"a": [
+"By a <b>plaque assay</b>: <b>serially dilute</b> the phage sample, mix with bacteria that grow as a <b>lawn</b> on a plate, then <b>count plaques</b> and back-calculate the original concentration (like serial-dilution colony counts).",
+"<b>Plaque</b> = a <b>clear zone of dead (lysed) bacteria</b> in the lawn — an expanding \"ring of death\"; <b>each plaque represents one original phage</b>."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 15,
+"q": "What are the steps in the lysogenic cycle?",
+"a": [
+"(After attachment and penetration, the phage DNA circularizes.)",
+"<b>1. Integration</b> — phage DNA <b>integrates into the bacterial chromosome</b> by recombination → becomes a <b>prophage</b>.",
+"<b>2. Reproduction</b> — the lysogenic bacterium <b>reproduces normally</b>, copying the prophage into every daughter cell.",
+"<b>3. Induction</b> — the prophage may <b>excise</b> from the chromosome and <b>enter the lytic cycle</b> (doesn't always occur)."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 16,
+"q": "How does the lysogenic cycle relate to the lytic cycle?",
+"a": [
+"It's essentially a <b>delayed lytic cycle</b>: both start with attachment and penetration, then there's a <b>decision point</b> — go lytic now, or integrate (lysogenic).",
+"Lysogeny multiplies the phage's instructions into many cells; <b>induction</b> later sends the prophage <b>back into the lytic cycle</b>. Not all phages can do lysogeny."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 17,
+"q": "What is a prophage?",
+"a": [
+"<b>Phage DNA integrated into the bacterial chromosome</b> — not an actual virus yet, but capable of becoming one (\"pro\" = before)."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 18,
+"q": "What is induction?",
+"a": [
+"When the <b>prophage excises (cuts itself out)</b> of the bacterial chromosome and <b>initiates the lytic cycle</b>."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 19,
+"q": "What causes induction to occur during the lysogenic cycle?",
+"a": [
+"<b>Stress on the host cell</b> — the prophage senses the host may die and switches to lytic (\"if the host is going to die, we might as well make new viruses\")."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 20,
+"q": "What is lysogenic conversion? Why is it important medically?",
+"a": [
+"A <b>change in the phenotype</b> (appearance, behavior, metabolism) of a bacterium <b>caused by the presence of prophage</b> — the cell expresses some prophage genes.",
+"Medically: prophage genes can encode <b>toxins</b>, turning otherwise harmless bacteria into dangerous ones:",
+"<b><i>Streptococcus pyogenes</i></b> + prophage → <b>scarlet fever toxin</b>; <b><i>Clostridium botulinum</i></b> + prophage → <b>botulism toxin</b>."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 21,
+"q": "Who discovered and named bacteriophage? How were they discovered?",
+"a": [
+"<b>Félix d'Hérelle (1916)</b>.",
+"He filtered a bacterial culture in which cells were dying, added the <b>filtrate</b> to fresh bacteria, and saw <b>plaques</b> — the same filtrate method Ivanovsky used."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 22,
+"q": "What is bacteriophage therapy and what infections can it treat?",
+"a": [
+"<b>Using bacteriophages to treat bacterial infections</b>.",
+"d'Hérelle gave <b>filtered feces from healthy WWI soldiers</b> to soldiers dying of <b>bacterial dysentery</b> — and cured them.",
+"Faded after penicillin, now being revived for <b>antibiotic-resistant infections</b>; <b>fecal transplant therapy</b> is used for <b><i>C. difficile</i></b> infections."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 23,
+"q": "Why is phage therapy safe for use in humans and animals?",
+"a": [
+"Phages <b>infect only bacteria</b> — they can't infect human/animal cells — and each is <b>highly specific</b> to one type of bacterium.",
+"They are <b>self-eliminating</b>: once the target bacteria are gone, the (non-living) phages have no hosts and degrade."
+],
+"x": false
+},
+{
+"m": 15,
+"n": 24,
+"q": "What are pros and cons of phage therapy compared to traditional antibiotics?",
+"a": [
+"<b>Antibiotics:</b> <b>non-specific</b> (kill good bacteria too → e.g., yeast infections), require <b>large doses</b> over many days (10–14), and face growing <b>resistance</b>.",
+"<b>Phage therapy pros:</b> <b>highly specific</b> (spares good bacteria), <b>small doses</b> (<b>self-amplifying</b> — phages multiply in the target), <b>self-eliminating</b>.",
+"<b>Phage therapy con:</b> you must <b>identify the exact bacterium</b> to match the right phage → extra testing/expense."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 1,
+"q": "What is meant by viral host range?",
+"a": [
+"The <b>specific types of host cells (species and/or cell types) a virus can infect</b>. Most viruses have a <b>narrow host range</b>.",
+"Ex: <b>HIV</b> infects only <b>human CD4+ helper T cells</b>; cats have FIV and monkeys SIV — each limited to its own host."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 2,
+"q": "What makes virus-host interactions specific?",
+"a": [
+"<b>Viral surface proteins (spikes) must bind specific receptor/attachment sites on the host cell</b> — a lock-and-key fit.",
+"Ex: HIV binds <b>CD4</b>; SARS-CoV-2's spike binds the <b>ACE2</b> receptor."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 3,
+"q": "What occurs during direct penetration? Name a virus using this method.",
+"a": [
+"The <b>capsid attaches</b> to host-cell receptors and the <b>viral genome is injected</b> through the membrane into the cell (similar to bacteriophage).",
+"Used by a <b>few non-enveloped viruses</b>; the <b>least common</b> entry method. Ex: <b>human enterovirus</b> (meningitis)."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 4,
+"q": "What occurs during membrane fusion? Name a virus using this method.",
+"a": [
+"The <b>viral envelope fuses (\"melts\") into the host cell membrane</b> (both are phospholipid), releasing the capsid into the cytoplasm; <b>uncoating</b> then frees the genome.",
+"Used by many <b>enveloped</b> viruses. Ex: <b>SARS-CoV-2</b> and <b>HIV</b>."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 5,
+"q": "What occurs during entry by endocytosis? Name a virus using this method.",
+"a": [
+"The <b>host cell engulfs the virus</b> with pseudopods into a vesicle; the capsid is released from the vesicle and <b>uncoated</b> to free the genome.",
+"Used by <b>enveloped and non-enveloped</b> viruses. Ex: <b>influenza virus</b>."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 6,
+"q": "What is uncoating? Which types of viral entry require uncoating?",
+"a": [
+"<b>Breaking apart the capsid to release the viral genome</b> inside the cell.",
+"Required after <b>membrane fusion</b> and <b>endocytosis</b> (the whole capsid gets in). <b>Not</b> needed for direct penetration, since only the genome enters."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 7,
+"q": "How do acute, latent, and persistent viral infections differ from each other? Provide an example virus for each.",
+"a": [
+"<b>Acute</b> — the virus <b>immediately enters a productive phase</b>, making many new viruses quickly (may lyse cells); rapid spike then resolves (similar to the phage lytic cycle). Ex: <b>adenovirus</b> (common cold).",
+"<b>Latent</b> — viral genome sits in the nucleus as <b>episomal DNA</b> (not part of the chromosome), <b>dormant</b> for months/years, then becomes productive; can <b>recur</b>. Ex: <b>herpes simplex virus</b> (cold sores); also <b>varicella-zoster</b> (chickenpox → shingles, slides).",
+"<b>Persistent</b> — viral genome <b>integrates into the host chromosome as a provirus</b>; new viruses are made at a <b>slow, detectable rate</b> without disease; may later become productive. Ex: <b>HIV</b> (HIV-positive → later AIDS)."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 8,
+"q": "How do naked viruses exit host cells? How does this affect the host cell?",
+"a": [
+"By <b>lysis</b> — the cell <b>ruptures</b> and the viruses burst out to infect neighbors (like the lytic cycle).",
+"The host cell is <b>destroyed</b>."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 9,
+"q": "How do enveloped viruses typically exit host cells?",
+"a": [
+"By <b>budding</b> — viral spike proteins are inserted into the host's plasma membrane, then the <b>capsid pushes out through the membrane</b>, wrapping itself in it (\"wolf in sheep's clothing\").",
+"A few viruses budding may let the cell survive; <b>thousands budding at once</b> strip so much membrane that the <b>cell is destroyed</b>.",
+"(Exception: SARS-CoV-2 exits by <b>exocytosis</b> — see Q16.)"
+],
+"x": false
+},
+{
+"m": 16,
+"n": 10,
+"q": "What is the typical source of the viral envelope?",
+"a": [
+"The <b>host cell's plasma membrane</b> — a patch of host membrane containing viral proteins, acquired during budding.",
+"(SARS-CoV-2 instead gets its envelope from <b>rough ER/Golgi</b> membranes inside the cell.)"
+],
+"x": false
+},
+{
+"m": 16,
+"n": 11,
+"q": "What role does hemagglutinin play in the viral life cycle?",
+"a": [
+"A spike protein used for <b>attachment</b> — binds receptors on host cells so the virus can <b>enter</b>."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 12,
+"q": "What role does neuraminidase play in the viral life cycle?",
+"a": [
+"A spike <b>enzyme</b> needed for <b>release (budding)</b>: it <b>digests the proteins tethering the budding virus</b> to the cell so it can \"lift off\" (like cutting a hot-air balloon's ropes)."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 13,
+"q": "Which viruses have hemagglutinin and neuraminidase?",
+"a": [
+"<b>Influenza viruses.</b>"
+],
+"x": false
+},
+{
+"m": 16,
+"n": 14,
+"q": "What is H1N1?",
+"a": [
+"An <b>influenza virus subtype</b> named for its spikes: <b>hemagglutinin type 1</b> and <b>neuraminidase type 1</b> (other combos: H1N2, H2N1, etc.).",
+"Textbook: H1N1 strains caused the <b>1918</b> and <b>2009</b> flu pandemics."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 15,
+"q": "How does the antiviral drug Tamiflu work?",
+"a": [
+"<b>Tamiflu (oseltamivir)</b> is a <b>neuraminidase inhibitor</b> → <b>prevents successful budding/release</b> of new flu viruses.",
+"It doesn't kill viruses or block entry; slowing release gives the immune system time. <b>Not effective against SARS-CoV-2</b> (which exits by exocytosis, not neuraminidase-dependent budding)."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 16,
+"q": "How does SARS-CoV-2 enter, infect, and exit host cells?",
+"a": [
+"<b>Attachment &amp; entry:</b> <b>spike protein binds ACE2 receptors</b> on respiratory cells; the envelope <b>fuses</b> with the cell membrane (membrane fusion) and the <b>ssRNA genome</b> is released.",
+"<b>Biosynthesis &amp; assembly:</b> host <b>replicates the viral genome</b> and <b>makes viral proteins</b>; new viruses assemble in the cytoplasm, getting their envelope from <b>rough ER/Golgi</b> membranes.",
+"<b>Release:</b> new viruses enter <b>lysosomes</b>, which they <b>de-acidify</b> so they can't be digested; viruses are released as \"waste\" by <b>exocytosis</b> — which doesn't directly harm the cell.",
+"Severe COVID symptoms come mainly from an <b>overactive immune response</b>."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 17,
+"q": "How does the antiviral drug remdesivir work?",
+"a": [
+"<b>Disrupts the viral polymerase</b> (copying of the viral genome); it resembles a <b>nucleotide</b> and introduces errors/mutations into new genomes.",
+"Moderately effective at preventing severe disease/hospitalization, especially if taken <b>early</b>."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 18,
+"q": "What caused the Flu Pandemic of 1918?",
+"a": [
+"An <b>influenza virus</b> (textbook: an <b>H1N1</b> strain). ~<b>500 million infected, ~100 million deaths</b> — more deaths than the Plague (50 million).",
+"Unusually deadly to <b>healthy individuals</b> with strong immune systems (severe hypersensitive response). No one had seen a virus yet in 1918."
+],
+"x": false
+},
+{
+"m": 16,
+"n": 19,
+"q": "What did people do to try to stop Flu Pandemic of 1918?",
+"a": [
+"<b>State and local mask mandates</b> — masks were found to reduce transmission (with pro- and anti-mask camps, like during COVID). There were no antivirals or knowledge of viral structure."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 1,
+"q": "What is meant by positive sense single-stranded viral RNA (+ ssRNA)?",
+"a": [
+"Also called <b>\"sense\" RNA</b> — its sequence <b>can be directly translated into protein</b> by ribosomes (it acts like mRNA). Nothing to do with electrical charge.",
+"Ex: <b>coronavirus</b>."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 2,
+"q": "What is meant by negative sense single-stranded viral RNA (- ssRNA)?",
+"a": [
+"Also called <b>\"antisense\" RNA</b> — <b>complementary to + sense RNA</b>, so it <b>cannot be directly translated</b>; it must first be transcribed into a complementary + strand."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 3,
+"q": "Which viruses have reverse transcriptase?",
+"a": [
+"<b>Retroviruses</b> — e.g., <b>HIV</b> (and <b>FIV</b>, feline immunodeficiency virus). The enzyme is carried inside the virion."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 4,
+"q": "What is reverse transcriptase and what does it do?",
+"a": [
+"A viral <b>enzyme that reverse-transcribes RNA into DNA</b> — it converts the retrovirus's <b>single-stranded RNA genome into double-stranded DNA</b> (\"retro\" = backward from normal transcription)."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 5,
+"q": "What occurs when a retrovirus infects a host cell? Provide an example virus.",
+"a": [
+"Ex: <b>HIV</b>.",
+"<b>Entry</b> by <b>membrane fusion</b> → <b>uncoating</b>.",
+"<b>Reverse transcriptase</b> converts the <b>+ssRNA genome into dsDNA</b>.",
+"The dsDNA <b>integrates into the host chromosome as a provirus</b> (copied whenever the cell divides).",
+"<b>Biosynthesis:</b> the provirus is <b>transcribed into new RNA genomes and mRNAs</b>; mRNAs are translated into viral proteins (including spike proteins).",
+"<b>Release</b> by <b>budding</b> — slow budding lets the cell survive (<b>persistent infection</b>); mass budding destroys it."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 6,
+"q": "What are the three methods used to cultivate eukaryotic viruses in a lab?",
+"a": [
+"Viruses only grow inside living cells (bacteriophages are easy — just grow bacteria).",
+"<b>1. Live animals</b> (e.g., mice) — costly, messy, ethical concerns.",
+"<b>2. Embryonated (fertilized) eggs</b> — cheap and self-contained; inject amniotic fluid, embryo, or yolk sac. <b>Influenza</b> for vaccines grows here (why flu shots ask about egg allergies).",
+"<b>3. Cell (tissue) cultures</b> — needed when a virus only grows in specific cell types (e.g., <b>HIV</b>); costly, time-consuming passaging."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 7,
+"q": "Who was the first to link a virus with cancer in animals? How?",
+"a": [
+"<b>Peyton Rous (1911)</b>: removed a <b>sarcoma</b> (muscle-tissue cancer) from a chicken, ground it with sand, passed it through a <b>filter</b>, and injected the <b>cell-free filtrate</b> into a young chicken, which <b>developed sarcoma</b> → the <b>Rous sarcoma virus</b>. Nobel Prize <b>1966</b>."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 8,
+"q": "Which two scientists first linked a virus with cancer in humans?",
+"a": [
+"<b>Michael Anthony Epstein and Yvonne Barr</b> (~1964) — discovered the <b>Epstein-Barr virus</b>, linked to <b>lymphoma</b> and other human cancers."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 9,
+"q": "How do proto-oncogenes and tumor-suppressor genes normally function?",
+"a": [
+"<b>Proto-oncogenes</b> encode proteins that <b>turn ON cell division</b> (the <b>gas pedal</b>).",
+"<b>Tumor-suppressor genes</b> encode proteins that <b>turn OFF cell division</b> (the <b>brakes</b>) — ex: <b>p53</b>.",
+"Together they keep the <b>cell cycle (G1 → S → G2 → M)</b> balanced so cells divide only when they should."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 10,
+"q": "What can happen to a cell if these genes are not functioning normally?",
+"a": [
+"The cell cycle runs <b>out of control</b> — cells keep dividing without stopping in G1 → <b>uncontrolled cell growth/division → a tumor</b>; with accumulated mutations, <b>cancer</b>."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 11,
+"q": "What is the p53 protein and what does it normally do in cells?",
+"a": [
+"The protein encoded by the <b>p53 tumor-suppressor gene</b> — the <b>\"guardian angel\" protein</b>.",
+"<b>Regulates (stops) cell division</b> and <b>helps manage damaged/mutated DNA</b>.",
+"p53 mutations occur in <b>~60% of all human cancers</b>."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 12,
+"q": "How can viruses lead to tumor formation?",
+"a": [
+"Some viruses <b>produce proteins that inactivate the p53 protein</b> — taking the brakes off → <b>uncontrolled cell division (tumor)</b>.",
+"Without p53, the cell also <b>accumulates DNA mutations</b>, which get passed on — the transition from uncontrolled growth to <b>cancer</b>."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 13,
+"q": "What are examples of viruses that are able to cause cancer (i.e. oncoviruses)?",
+"a": [
+"<b>Human papillomavirus (HPV)</b> — cervical cancer.",
+"<b>Hepatitis B and C viruses</b> — liver cancer.",
+"<b>Epstein-Barr virus</b> — lymphoma and other human cancers.",
+"<b>Rous sarcoma virus</b> — sarcoma in chickens."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 14,
+"q": "Which virus is associated with cervical cancer? What other cancers can this virus cause?",
+"a": [
+"<b>Human papillomavirus (HPV)</b>; detected early by the <b>Pap smear</b>.",
+"Other: textbook (Ch. 6) lists <b>vulvar and vaginal cancer</b> (plus genital warts/papillomas). Other HPV-linked cancers aren't named in the provided sources — check with your professor if the exam expects more."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 15,
+"q": "What are HeLa cells?",
+"a": [
+"An <b>immortal line of cancer cells</b> grown from a cervical-cancer biopsy taken from <b>Henrietta Lacks</b> (1920–1951) at Johns Hopkins; her cancer was caused by <b>HPV</b>.",
+"Extremely <b>aggressive, rapidly dividing</b> cells that <b>never stop dividing</b> (normal cells divide ~50 times in culture, then die). Taken without her knowledge or consent."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 16,
+"q": "How have HeLa cells been used for scientific and biomedical research?",
+"a": [
+"The <b>most-studied human cells</b>: shipped to labs worldwide; textbook: the <b>first continuous cell line</b>, establishing <b>tissue culture</b> for cell biology, virology, and medicine.",
+"Used in research on <b>polio, cancer, and AIDS</b>, and in developing many <b>drugs and treatments</b> — generating billions of dollars, while her family received no compensation (ethics issue; book: <i>The Immortal Life of Henrietta Lacks</i>)."
+],
+"x": false
+},
+{
+"m": 17,
+"n": 17,
+"q": "For each viral genome type, describe the process of biosynthesis: How is the genome replicated? How is the genome used to make proteins?",
+"a": [
+"<b>dsDNA</b> (ex: HPV) — <b>Replicated</b> by normal <b>DNA replication</b>; <b>proteins:</b> genome <b>transcribed into mRNA</b>, then translated.",
+"<b>ssDNA</b> — host enzymes <b>synthesize a complementary strand → dsDNA</b>, which serves as a template to <b>make new ssDNA genomes</b> and to <b>transcribe mRNA</b> for proteins.",
+"<b>dsRNA</b> (ex: rotavirus) — viral <b>RNA-dependent RNA polymerase</b> uses the <b>− strand as a template to make +ssRNA</b>, which is <b>translated</b> into proteins; + strands also serve as templates for new genome strands. <i>(Textbook, Ch. 6.)</i>",
+"<b>+ssRNA</b> (ex: coronavirus) — <b>proteins:</b> genome is <b>translated directly</b> (acts as mRNA); <b>replicated</b> by first making a <b>complementary −ssRNA template</b>, which is copied into many new +ssRNA genomes.",
+"<b>−ssRNA</b> (ex: influenza, textbook) — <b>proteins:</b> must first be <b>transcribed into +ssRNA</b> (by viral RNA-dependent RNA polymerase), then translated; <b>replicated</b> by using that + strand as a template to make new −ssRNA genomes.",
+"<b>ssRNA-RT</b> (retrovirus, ex: HIV) — <b>reverse transcriptase</b> makes <b>dsDNA</b> from the +ssRNA genome → integrates as a <b>provirus</b> → host <b>transcribes</b> the provirus into <b>new +ssRNA genomes</b> and <b>mRNAs</b> (translated into proteins).",
+"Key rule (slides): <b>a template is always required</b> — even viruses are bound by the Central Dogma."
+],
+"x": false
+}
+];
+
+/* ================= STUDY GUIDE MODE ================= */
+var SG_BY_ID = {}; SG.forEach(function (s) { s.id = s.m + '-' + s.n; SG_BY_ID[s.id] = s; });
+var SGS = {
+  set: (function () { var d = { mods: {}, order: 'inorder', which: 'all' }; MODS.forEach(function (m) { d.mods[m] = true; }); var s = LS.get('sg_set', d); return (s && s.mods) ? s : d; })(),
+  run: null
+};
+function sgStatus() { return LS.get('sg_status', {}); }
+function sgSaveGrade(id, g) { var st = sgStatus(), o = st[id] || { c: 0 }; o.g = g; o.c = (o.c || 0) + 1; o.t = Date.now(); st[id] = o; LS.set('sg_status', st); }
+function sgCounts(m) {
+  var st = sgStatus(), r = { got: 0, part: 0, miss: 0, none: 0, total: 0 };
+  SG.forEach(function (s) { if (s.m !== m) return; r.total++; var g = st[s.id] && st[s.id].g; r[g || 'none']++; });
+  return r;
+}
+function sgPick() {
+  var st = sgStatus(), S = SGS.set;
+  var list = SG.filter(function (s) { return S.mods[s.m]; });
+  if (S.which === 'weak') list = list.filter(function (s) { var g = st[s.id] && st[s.id].g; return g === 'miss' || g === 'part'; });
+  else if (S.which === 'unseen') list = list.filter(function (s) { return !st[s.id]; });
+  else if (S.which === 'weakunseen') list = list.filter(function (s) { var g = st[s.id] && st[s.id].g; return g !== 'got'; });
+  var ids = list.map(function (s) { return s.id; });
+  return S.order === 'shuffle' ? shuffle(ids) : ids;
+}
+function sgStart(ids) {
+  SGS.run = { queue: ids.slice(), total: ids.length, done: 0, revealed: false, tally: { got: 0, part: 0, miss: 0 }, log: {}, typed: '' };
+}
+function renderSG(h) {
+  var parts = h.split('/');
+  if (parts[1] === 'go') {
+    var ids = parts[2] === 'again' && SGS.run ? Object.keys(SGS.run.log).filter(function (k) { return SGS.run.log[k] !== 'got'; }) : sgPick();
+    sgStart(ids);
+    history.replaceState(null, '', '#/sg/run');
+    return renderSGRun();
+  }
+  if (parts[1] === 'run' && SGS.run) return renderSGRun();
+  renderSGSetup();
+}
+function sgBar(c) {
+  var w = function (n) { return c.total ? (100 * n / c.total) : 0; };
+  return '<div class="sgbar" aria-hidden="true"><span class="b-got" style="width:' + w(c.got) + '%"></span><span class="b-part" style="width:' + w(c.part) + '%"></span><span class="b-miss" style="width:' + w(c.miss) + '%"></span></div>';
+}
+function renderSGSetup() {
+  var S = SGS.set;
+  var html = '<nav class="trail"><a href="#/" class="crumb">Start</a><span class="sep">›</span><span class="crumb here">Study guide questions</span></nav>';
+  html += '<section class="hero"><p class="eyebrow">Recall, then check</p><h1>Study guide questions</h1><p class="lede">The numbered questions from your Module 9–17 study guides. Answer from memory — type it or say it out loud — then reveal the written answer and grade yourself honestly. Partial answers come back 5 questions later, misses come back after 3. Your grades are saved on this device.</p></section>';
+  html += '<div class="drillgrid"><section class="card dcard tag-dna"><h2>Modules</h2><div class="navrow small"><button type="button" class="btn small" id="sgAll">All</button><button type="button" class="btn small" id="sgNone">None</button></div><div class="togs">';
+  MODS.forEach(function (m) {
+    var c = sgCounts(m);
+    html += '<label class="tog"><input type="checkbox" data-sgm="' + m + '"' + (S.mods[m] ? ' checked' : '') + '><span>Module ' + m + ' — ' + MOD_NAME[m] + '<small>' + c.total + ' questions · <b class="t-got">' + c.got + ' got</b> · <b class="t-part">' + c.part + ' partial</b> · <b class="t-miss">' + c.miss + ' missed</b> · ' + c.none + ' not tried</small>' + sgBar(c) + '</span></label>';
+  });
+  html += '</div></section><section class="card dcard tag-gene"><h2>Which questions</h2><div class="seg sgseg" data-k="which">' +
+    [['all', 'All'], ['weakunseen', 'Not mastered'], ['weak', 'Missed + partial'], ['unseen', 'Not tried yet']].map(function (o) { return '<button type="button" data-v="' + o[0] + '" class="' + (S.which === o[0] ? 'on' : '') + '">' + o[1] + '</button>'; }).join('') +
+    '</div><h2>Order</h2><div class="seg sgseg" data-k="order">' + [['inorder', 'Study guide order'], ['shuffle', 'Shuffled']].map(function (o) { return '<button type="button" data-v="' + o[0] + '" class="' + (S.order === o[0] ? 'on' : '') + '">' + o[1] + '</button>'; }).join('') +
+    '</div><p class="hint" id="sgCount"></p><p class="hint">Tip: shuffled + "Not mastered" is the best review before an exam. Study guide order is best the first time through a module.</p><button type="button" class="btn ghost small" id="sgReset">Reset my saved grades</button></section></div>';
+  html += '<div class="navrow"><a class="btn primary" id="sgGo" href="#/sg/go">Start</a></div>';
+  app.innerHTML = html;
+  function save() { LS.set('sg_set', SGS.set); var n = sgPick().length; document.getElementById('sgCount').innerHTML = '<b>' + n + '</b> question' + (n === 1 ? '' : 's') + ' match these settings.'; }
+  app.querySelectorAll('[data-sgm]').forEach(function (i) { i.addEventListener('change', function () { SGS.set.mods[i.dataset.sgm] = i.checked; save(); }); });
+  app.querySelectorAll('.sgseg').forEach(function (seg) {
+    seg.querySelectorAll('button').forEach(function (b) { b.addEventListener('click', function () { SGS.set[seg.dataset.k] = b.dataset.v; seg.querySelectorAll('button').forEach(function (x) { x.classList.toggle('on', x === b); }); save(); }); });
+  });
+  function setAll(v) { MODS.forEach(function (m) { SGS.set.mods[m] = v; }); LS.set('sg_set', SGS.set); renderSGSetup(); }
+  document.getElementById('sgAll').addEventListener('click', function () { setAll(true); });
+  document.getElementById('sgNone').addEventListener('click', function () { setAll(false); });
+  document.getElementById('sgReset').addEventListener('click', function () { if (this.dataset.armed) { LS.set('sg_status', {}); renderSGSetup(); } else { this.dataset.armed = '1'; this.textContent = 'Tap again to erase all saved grades'; } });
+  save();
+}
+function renderSGRun() {
+  var R = SGS.run;
+  var html = '<nav class="trail"><a href="#/" class="crumb">Start</a><span class="sep">›</span><a href="#/sg" class="crumb">Study guide questions</a><span class="sep">›</span><span class="crumb here">Session</span></nav>';
+  var left = R.queue.length;
+  html += '<div class="scorebar"><span><b class="t-got">' + R.tally.got + '</b> got</span><span><b class="t-part">' + R.tally.part + '</b> partial</span><span><b class="t-miss">' + R.tally.miss + '</b> missed</span><span class="dim">' + left + ' left</span><a class="btn small" href="#/sg">Settings</a></div>';
+  html += '<div class="progress"><span style="width:' + (R.total ? 100 * Object.keys(R.log).filter(function (k) { return R.log[k] === 'got'; }).length / R.total : 0) + '%"></span></div>';
+  if (!left) {
+    var weak = Object.keys(R.log).filter(function (k) { return R.log[k] !== 'got'; });
+    html += '<div class="card"><p class="eyebrow">Session done</p><h1>' + (R.total ? 'Nice work.' : 'No questions matched') + '</h1>';
+    if (R.total) {
+      html += '<p class="lede">' + R.total + ' question' + (R.total === 1 ? '' : 's') + '. Every partial and miss was repeated until you graded it "Got it". First tries: <b class="t-got">' + R.first.got + ' got</b>, <b class="t-part">' + R.first.part + ' partial</b>, <b class="t-miss">' + R.first.miss + ' missed</b>.</p>';
+      var hard = Object.keys(R.first.byId).filter(function (k) { return R.first.byId[k] !== 'got'; });
+      if (hard.length) html += '<p class="lbl">Didn\'t get on the first try</p><ul class="why">' + hard.map(function (k) { var s = SG_BY_ID[k]; return '<li>Mod ' + s.m + ' Q' + s.n + ' — ' + esc(s.q) + '</li>'; }).join('') + '</ul>';
+    } else html += '<p class="lede">Change the module or "Which questions" settings.</p>';
+    html += '<div class="navrow"><a class="btn primary" href="#/sg/go">Start another session</a><a class="btn" href="#/sg">Settings</a></div></div>';
+    app.innerHTML = html; return;
+  }
+  var s = SG_BY_ID[R.queue[0]], again = R.log[s.id];
+  html += '<div class="card dq sgq"><p class="eyebrow">Module ' + s.m + ' · ' + esc(MOD_NAME[s.m]) + ' · Study guide Q' + s.n + (again ? ' · <span class="again">again</span>' : '') + '</p>';
+  html += '<div class="qbig qmed">' + esc(s.q) + '</div>' + (s.x ? '<p class="hint flag">Marked on the study guide as not in the recorded lecture — answer comes from the slides/textbook.</p>' : '');
+  if (!R.revealed) {
+    html += '<textarea id="sgAns" rows="4" placeholder="Type your answer, or say it out loud — then reveal.">' + esc(R.typed) + '</textarea>';
+    html += '<div class="navrow sgbtns"><button type="button" class="btn primary" id="sgReveal">Reveal answer <span class="kbd">(Ctrl+Enter)</span></button><a class="btn ghost small" href="#/notes/m' + s.m + '">Peek at notes</a></div>';
+  } else {
+    if (R.typed.trim()) html += '<p class="lbl">Your answer</p><div class="yours">' + esc(R.typed).replace(/\n/g, '<br>') + '</div>';
+    html += '<p class="lbl">Study guide answer — check off what you got</p><ul class="keypts">' + s.a.map(function (b, i) { return '<li><label><input type="checkbox" data-k="' + i + '"><span>' + b + '</span></label></li>'; }).join('') + '</ul>';
+    html += '<p class="lbl">How did you do?</p><div class="grade"><button type="button" class="g-got" data-g="got"><span class="k">1</span>Got it</button><button type="button" class="g-part" data-g="part"><span class="k">2</span>Partial</button><button type="button" class="g-miss" data-g="miss"><span class="k">3</span>Missed</button></div><p class="hint" id="sgSuggest"></p>';
+  }
+  html += '</div>';
+  app.innerHTML = html;
+  if (!R.revealed) {
+    var ta = document.getElementById('sgAns');
+    ta.addEventListener('input', function () { R.typed = ta.value; });
+    ta.addEventListener('keydown', function (e) { if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); sgReveal(); } });
+    if (window.matchMedia('(pointer:fine)').matches) ta.focus();
+    document.getElementById('sgReveal').addEventListener('click', sgReveal);
+  } else {
+    var boxes = app.querySelectorAll('.keypts input'), sug = document.getElementById('sgSuggest');
+    boxes.forEach(function (b) { b.addEventListener('change', function () {
+      var n = Array.prototype.filter.call(boxes, function (x) { return x.checked; }).length, t = boxes.length;
+      sug.textContent = n === t ? 'You checked every point → Got it.' : n === 0 ? '' : n + ' of ' + t + ' points → probably Partial.';
+    }); });
+    app.querySelectorAll('.grade button').forEach(function (b) { b.addEventListener('click', function () { sgGrade(b.dataset.g); }); });
+  }
+}
+function sgReveal() { var R = SGS.run, ta = document.getElementById('sgAns'); if (ta) R.typed = ta.value; R.revealed = true; renderSGRun(); window.scrollTo(0, 0); }
+function sgGrade(g) {
+  var R = SGS.run, id = R.queue.shift();
+  if (!R.first) R.first = { got: 0, part: 0, miss: 0, byId: {} };
+  if (!(id in R.first.byId)) { R.first.byId[id] = g; R.first[g]++; }
+  R.tally[g]++; R.log[id] = g; sgSaveGrade(id, g);
+  if (g === 'miss') R.queue.splice(Math.min(3, R.queue.length), 0, id);
+  else if (g === 'part') R.queue.splice(Math.min(5, R.queue.length), 0, id);
+  R.revealed = false; R.typed = '';
+  renderSGRun(); window.scrollTo(0, 0);
+}
+document.addEventListener('keydown', function (e) {
+  if (!SGS.run || location.hash.indexOf('#/sg/run') !== 0 || !SGS.run.revealed) return;
+  if (e.target && /INPUT|TEXTAREA/.test(e.target.tagName) && e.target.type !== 'checkbox') return;
+  var map = { '1': 'got', '2': 'part', '3': 'miss' };
+  if (map[e.key]) { e.preventDefault(); sgGrade(map[e.key]); }
+});
 
 
 </script>
