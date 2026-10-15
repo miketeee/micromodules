@@ -1,0 +1,360 @@
+{
+ "slug": "mod13-3",
+ "title": "Module 13 — Quiz 3",
+ "subtitle": "Bacterial Genetics — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Three extra nucleotides are inserted together, right between two codons in the middle of a gene. Based on how reading frames work, what is the most likely result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Every amino acid after the insertion is wrong, just as with a single insertion"
+    },
+    {
+     "letter": "B",
+     "text": "Nothing changes, since insertions are removed before translation"
+    },
+    {
+     "letter": "C",
+     "text": "The protein is cut off at the insertion, since three nucleotides always form a stop codon"
+    },
+    {
+     "letter": "D",
+     "text": "One extra amino acid is added, and the codons after it are read normally, since the frame is restored"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Codons are read in threes. Adding exactly three nucleotides between codons adds one codon but doesn't shift the frame."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "A gene has a single-nucleotide deletion at codon 10 and a single-nucleotide insertion at codon 14. What happens to the protein?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Only codon 10 and codon 14 are changed; the codons between them are read correctly"
+    },
+    {
+     "letter": "B",
+     "text": "Nothing is changed, since a deletion and an insertion always cancel exactly at the same codon"
+    },
+    {
+     "letter": "C",
+     "text": "Codons 10 through 14 are misread, but the frame is restored after the insertion, so later amino acids are correct"
+    },
+    {
+     "letter": "D",
+     "text": "Every codon from 10 to the end is misread, since two frameshifts double the damage"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The deletion shifts the frame; the insertion shifts it back. Only the stretch between them is read in the wrong frame."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "In a repressible operon, a mutation stops the corepressor from binding the repressor protein. What happens to the genes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They switch on and off normally, since the corepressor isn't needed"
+    },
+    {
+     "letter": "B",
+     "text": "They stay ON all the time, even when the product is plentiful, since the repressor can never be activated"
+    },
+    {
+     "letter": "C",
+     "text": "They turn on only when the corepressor is present"
+    },
+    {
+     "letter": "D",
+     "text": "They stay OFF all the time, since the repressor binds the operator permanently"
+    }
+   ],
+   "correct": "B",
+   "explanation": "In a repressible operon the repressor is made inactive; the corepressor is what activates it to shut the genes off."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "A mutation in the lac operon's PROMOTER stops RNA polymerase from binding there. What happens when lactose is added?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The lac genes still aren't expressed — lactose inactivates the repressor, but RNA polymerase still can't bind, so the cell can't use the lactose"
+    },
+    {
+     "letter": "B",
+     "text": "The lac genes are expressed all the time, even with no lactose, since the repressor can no longer block a damaged promoter"
+    },
+    {
+     "letter": "C",
+     "text": "The repressor gene stops being expressed instead, so the lac genes switch on and lactose is broken down as usual"
+    },
+    {
+     "letter": "D",
+     "text": "The lac genes are expressed normally, since lactose binds the damaged promoter and pulls RNA polymerase onto it"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Removing the repressor doesn't help if RNA polymerase can't bind the promoter. No transcription → no lactase enzymes."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "A hospital room is exposed to UV light for 30 minutes instead of 5. Why is the longer exposure much more likely to kill the microbes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The longer the exposure, the more thymine dimers build up, so it becomes more likely that one damages an essential gene"
+    },
+    {
+     "letter": "B",
+     "text": "Longer exposure turns the thymine dimers into silent mutations, which shut down every gene in the cell"
+    },
+    {
+     "letter": "C",
+     "text": "UV only begins forming thymine dimers after about 30 minutes, so the 5-minute exposure does no DNA damage at all"
+    },
+    {
+     "letter": "D",
+     "text": "Longer exposure heats the room's surfaces enough to denature the microbes' proteins, the way an autoclave does"
+    }
+   ],
+   "correct": "A",
+   "explanation": "UV keeps creating thymine dimers wherever two Ts sit next to each other; statistically, an error eventually hits an important gene."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Which DNA stretch is most vulnerable to forming a UV thymine dimer?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "5'–ATATATA–3'"
+    },
+    {
+     "letter": "B",
+     "text": "5'–GCGCGCG–3'"
+    },
+    {
+     "letter": "C",
+     "text": "5'–CAGTCAG–3'"
+    },
+    {
+     "letter": "D",
+     "text": "5'–GATTTAC–3'"
+    }
+   ],
+   "correct": "D",
+   "explanation": "A thymine dimer forms where two thymines sit next to each other on the same strand. Only GATTTAC has adjacent Ts."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Why can a bacterium begin translating an mRNA before transcription of that mRNA is even finished?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bacteria have no nucleus, so transcription and translation can happen at the same time in the same place"
+    },
+    {
+     "letter": "B",
+     "text": "Bacterial ribosomes are located inside the nucleus, right next to the DNA"
+    },
+    {
+     "letter": "C",
+     "text": "Bacterial mRNA is double-stranded, so one strand can be translated while the other is copied"
+    },
+    {
+     "letter": "D",
+     "text": "Bacteria skip transcription and translate their DNA directly"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Instructor slides: in prokaryotes, transcription and translation can occur simultaneously; in eukaryotes they are separated in space and time."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "A ribosome mistakenly starts reading one nucleotide AFTER the AUG start codon. What would the result look like?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "No protein at all, since translation can only begin at the 5' end"
+    },
+    {
+     "letter": "B",
+     "text": "Like a silent mutation — the protein would be the same minus one amino acid"
+    },
+    {
+     "letter": "C",
+     "text": "Like a frameshift — nearly every codon would be read wrong, because the reading frame is off"
+    },
+    {
+     "letter": "D",
+     "text": "Like a nonsense mutation — the protein would stop at the next codon"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The start codon sets the reading frame. Starting one nucleotide off shifts every codon that follows."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Of the 64 codons, 3 are stop codons. How many codons specify an amino acid?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "20"
+    },
+    {
+     "letter": "B",
+     "text": "61"
+    },
+    {
+     "letter": "C",
+     "text": "60"
+    },
+    {
+     "letter": "D",
+     "text": "64"
+    }
+   ],
+   "correct": "B",
+   "explanation": "64 − 3 stop codons = 61 codons for the 20 amino acids (AUG = Met is also the start codon)."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Why is the lac operon described as a self-regulating, negative-feedback system?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The enzymes it makes destroy the repressor protein, so the genes stay on until the cell divides"
+    },
+    {
+     "letter": "B",
+     "text": "The enzymes it makes break down lactose — the very inducer that turned the genes on — so the genes shut themselves back off"
+    },
+    {
+     "letter": "C",
+     "text": "The cell destroys its lactase mRNA, which deletes the lac genes from the chromosome"
+    },
+    {
+     "letter": "D",
+     "text": "Lactose builds up until it physically blocks the promoter, shutting the genes off"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Lactose (inducer) turns the genes on → lactase digests lactose → no inducer left → the repressor becomes active again → genes off."
+  },
+  {
+   "num": 11,
+   "type": "Multi-statement",
+   "prompt": "Which statement comparing transcription and DNA replication is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Transcription makes a single-stranded RNA copy; replication makes double-stranded DNA."
+    },
+    {
+     "letter": "B",
+     "text": "Transcription is carried out by DNA polymerase, the same enzyme that builds DNA in replication."
+    },
+    {
+     "letter": "C",
+     "text": "RNA polymerase falls off at the terminator sequence."
+    },
+    {
+     "letter": "D",
+     "text": "RNA polymerase reads only one DNA strand, the template strand."
+    },
+    {
+     "letter": "E",
+     "text": "After RNA polymerase passes, the DNA zips back together."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — transcription is done by RNA polymerase, which unzips the DNA and builds RNA."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about substitution mutation types (instructor slides) is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A nonsense mutation changes one amino acid into a different amino acid."
+    },
+    {
+     "letter": "B",
+     "text": "All three are point mutations, because they involve a single nucleotide."
+    },
+    {
+     "letter": "C",
+     "text": "A missense mutation changes one amino acid into another."
+    },
+    {
+     "letter": "D",
+     "text": "A nonsense mutation changes an amino acid codon into a premature stop codon."
+    },
+    {
+     "letter": "E",
+     "text": "A silent mutation causes no change to the amino acid."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — that describes missense. Nonsense creates a premature stop codon."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about tRNA is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A tRNA is a single-stranded RNA that folds into a clover-leaf shape."
+    },
+    {
+     "letter": "B",
+     "text": "The amino acid a tRNA carries depends on its anticodon."
+    },
+    {
+     "letter": "C",
+     "text": "Each tRNA can be used only once and is destroyed after delivering its amino acid."
+    },
+    {
+     "letter": "D",
+     "text": "tRNAs bring amino acids to the ribosome during translation."
+    },
+    {
+     "letter": "E",
+     "text": "A tRNA's anticodon binds an mRNA codon by complementary base pairing."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False — tRNAs are recyclable; after delivering an amino acid, a tRNA leaves to pick up another."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "E. coli growing with no lactose is moved into a medium where lactose is the only sugar. Describe what happens at the lac operon from the moment lactose appears until it has all been used up.",
+   "options": [],
+   "correct": null,
+   "explanation": "Before lactose: the regulatory gene constantly makes active repressor, which sits on the operator and blocks RNA polymerase from the promoter, so the lac genes are off (inducible = default off). When lactose arrives, it acts as the inducer: it binds the repressor, changes its shape, and inactivates it, so the repressor leaves the operator. RNA polymerase binds the promoter and transcribes the three lac genes; the mRNA is translated into lactase enzymes that break down lactose. As lactose runs out, nothing is left to bind the repressor; it returns to its active shape, binds the operator again, and transcription stops — the genes turn themselves off."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Trace one bacterial gene from DNA to a folded protein. Name the molecules and enzymes involved in each step, and explain why the mRNA is destroyed at the end.",
+   "options": [],
+   "correct": null,
+   "explanation": "Transcription: RNA polymerase binds the gene's promoter (initiation), unzips the DNA, and builds a complementary single-stranded mRNA from the template strand (elongation) until it reaches the terminator and falls off (termination). The mRNA's sequence matches the coding strand, with U instead of T. Translation: ribosomal subunits bind the mRNA at the start codon AUG; tRNAs with complementary anticodons bring amino acids, which are joined by peptide bonds codon by codon; at a stop codon no tRNA binds and the ribosome breaks apart. The amino acid chain (primary structure) then folds into its 3-D shape on its own. The mRNA is destroyed so the protein isn't made nonstop; more can be made by transcribing a new mRNA."
+  }
+ ]
+}

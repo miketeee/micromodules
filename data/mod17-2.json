@@ -1,0 +1,356 @@
+{
+ "slug": "mod17-2",
+ "title": "Module 17 — Quiz 2",
+ "subtitle": "Viruses — Part 3",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Which viral genome type must be converted the MOST times before its genes can be translated into protein?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "+ssRNA (like coronavirus): it can be read by ribosomes directly"
+    },
+    {
+     "letter": "B",
+     "text": "dsDNA (like HPV): it is transcribed once into mRNA"
+    },
+    {
+     "letter": "C",
+     "text": "−ssRNA: it is copied once into + sense RNA, which is then translated"
+    },
+    {
+     "letter": "D",
+     "text": "ssRNA-RT (a retrovirus like HIV): RNA → DNA → built into the chromosome → transcribed into mRNA"
+    }
+   ],
+   "correct": "D",
+   "explanation": "A retrovirus reverse-transcribes its RNA into dsDNA, integrates as a provirus, and is then transcribed into mRNA. +ssRNA needs no conversion at all."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "What does reverse transcriptase do in BOTH an HIV infection and a COVID RT-PCR test (Module 14)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It glues DNA fragments together"
+    },
+    {
+     "letter": "B",
+     "text": "It builds RNA using a DNA template"
+    },
+    {
+     "letter": "C",
+     "text": "It builds DNA using an RNA template"
+    },
+    {
+     "letter": "D",
+     "text": "It cuts DNA at a specific recognition sequence"
+    }
+   ],
+   "correct": "C",
+   "explanation": "In HIV it turns the RNA genome into DNA; in RT-PCR it turns viral RNA into DNA that DNA polymerase can then copy."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Ivanovsky, d'Hérelle, and Rous all ran 'filtrate' experiments. Which set of results is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "All three filtrates were sterile, which proved diseases were caused by bacteria"
+    },
+    {
+     "letter": "B",
+     "text": "All three filtrates caused cancer in the hosts they were tested on"
+    },
+    {
+     "letter": "C",
+     "text": "Ivanovsky's filtrate caused tobacco mosaic disease; d'Hérelle's killed bacteria (plaques); Rous's caused sarcoma in chickens"
+    },
+    {
+     "letter": "D",
+     "text": "Ivanovsky's filtrate caused sarcoma in chickens; d'Hérelle's caused tobacco mosaic disease; Rous's killed bacteria"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Each passed diseased material through a filter that trapped cells and found a cell-free infectious agent — a virus — in the filtrate."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Peyton Rous did his chicken sarcoma experiment in 1911 and won the Nobel Prize in 1966. About how long did the recognition take?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "About 75 years"
+    },
+    {
+     "letter": "B",
+     "text": "About 35 years"
+    },
+    {
+     "letter": "C",
+     "text": "About 55 years"
+    },
+    {
+     "letter": "D",
+     "text": "About 15 years"
+    }
+   ],
+   "correct": "C",
+   "explanation": "1966 − 1911 = 55 years. Epstein and Barr linked a virus to human cancer around 1964."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Using the car analogy, which change would act like a 'stuck gas pedal' rather than 'failed brakes'?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A virus protein inactivates p53, so nothing tells the cell to stop dividing"
+    },
+    {
+     "letter": "B",
+     "text": "A tumor suppressor gene is deleted, so its protein is never made"
+    },
+    {
+     "letter": "C",
+     "text": "A p53 mutation prevents the cell from managing damaged DNA"
+    },
+    {
+     "letter": "D",
+     "text": "A proto-oncogene's protein stays switched on, so it keeps telling the cell to divide"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Proto-oncogenes = gas (turn division on). Tumor suppressors such as p53 = brakes (turn division off)."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Why is a Pap smear such an effective test for cervical cancer, even though it looks at cells rather than testing for HPV itself?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It catches abnormal, rapidly dividing cervical cells early, when cervical cancer is very treatable — and it is inexpensive"
+    },
+    {
+     "letter": "B",
+     "text": "It detects bleeding from new tumor blood vessels, which only happens in the earliest stage of cancer"
+    },
+    {
+     "letter": "C",
+     "text": "It measures how much p53 protein is in the blood, which drops as soon as HPV infects the cervix"
+    },
+    {
+     "letter": "D",
+     "text": "The brush used to take the sample also scrapes away and kills the HPV infecting the cervix"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The Pap smear brushes cells from the cervix to look for abnormal growth. Caught early, cervical cancer is very treatable."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "According to the lecture, what does the Lacks family currently receive from HeLa research?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Full ownership of all HeLa cell lines, which they license to labs around the world"
+    },
+    {
+     "letter": "B",
+     "text": "A royalty from the HeLa genome sequence data — but nothing from the cell cultures themselves"
+    },
+    {
+     "letter": "C",
+     "text": "Nothing at all from any part of the research, including the sequence data"
+    },
+    {
+     "letter": "D",
+     "text": "A royalty on every HeLa cell culture sold, but nothing from the genome sequence data"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The instructor's understanding: the family gets a royalty from the sequence data of her cells, not from the actual cultures."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which statement about oncoviruses matches the lecture?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "All cancers are caused by viruses that inactivate p53"
+    },
+    {
+     "letter": "B",
+     "text": "Not all viruses can cause cancer, and not all cancers are caused by viruses"
+    },
+    {
+     "letter": "C",
+     "text": "All viruses can cause cancer if an infection lasts long enough"
+    },
+    {
+     "letter": "D",
+     "text": "Oncoviruses cause cancer by bursting cells, which then regrow as tumors"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Some viruses (HPV, hepatitis B and C, Epstein-Barr, Rous sarcoma virus) are linked to cancer, often by inactivating p53."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "In which two course topics do '+' and '−' mean opposite types rather than electric charge?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Positive-sense RNA and the 5' phosphate end of DNA, which carries a positive charge"
+    },
+    {
+     "letter": "B",
+     "text": "Fungal mating types (Module 10) and positive- vs negative-sense RNA (Module 17)"
+    },
+    {
+     "letter": "C",
+     "text": "Gram-positive bacteria and positive-sense RNA, which both carry a positive charge"
+    },
+    {
+     "letter": "D",
+     "text": "Fungal mating types and the negative charge of DNA's sugar-phosphate backbone"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Lecture: fungal ± mating types are 'nothing to do with charge,' and ± RNA sense 'has nothing to do with charge.' DNA's backbone really is negatively charged."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Remdesivir disrupts the viral polymerase of SARS-CoV-2, a +ssRNA virus. Which of the virus's biosynthesis steps depend on that enzyme?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Making the −ssRNA template from the + genome, and then making new + genomes from that template"
+    },
+    {
+     "letter": "B",
+     "text": "Building the envelope from rough ER membrane before the virions are released"
+    },
+    {
+     "letter": "C",
+     "text": "Reverse-transcribing the RNA genome into DNA that joins the host chromosome"
+    },
+    {
+     "letter": "D",
+     "text": "Translating the + genome into viral proteins at the host's ribosomes"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Host ribosomes translate the + genome directly. Copying the genome (+ → − → +) requires the viral polymerase that remdesivir disrupts."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Why does the lecture say a dsDNA virus's biosynthesis should look familiar?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The host uses its ordinary DNA replication to copy the genome and ordinary transcription and translation to make viral proteins — much like a phage's lytic cycle"
+    },
+    {
+     "letter": "B",
+     "text": "It works just like a retrovirus — reverse transcriptase turns its DNA into RNA, which is built into the host chromosome"
+    },
+    {
+     "letter": "C",
+     "text": "It works like a −ssRNA virus — it must first make a + copy of its genome before ribosomes can read it"
+    },
+    {
+     "letter": "D",
+     "text": "dsDNA viruses skip biosynthesis; the capsid proteins inside the virion assemble around new genomes right away"
+    }
+   ],
+   "correct": "A",
+   "explanation": "dsDNA genome → regular transcription to mRNA → translation; regular DNA replication copies the genome."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the retrovirus (HIV) infection cycle is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "New virions bud out, and the host cell may survive if they leave slowly."
+    },
+    {
+     "letter": "B",
+     "text": "The provirus must leave the host chromosome before new viral RNA can be made."
+    },
+    {
+     "letter": "C",
+     "text": "Reverse transcriptase converts the ssRNA genome into dsDNA."
+    },
+    {
+     "letter": "D",
+     "text": "HIV enters by membrane fusion and is then uncoated."
+    },
+    {
+     "letter": "E",
+     "text": "The dsDNA copy is built into the host chromosome as a provirus."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — the provirus can stay in the chromosome and serve as the template for new RNA genomes and mRNAs."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the history of viruses and cancer is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Peyton Rous won the Nobel Prize in 1911 for his sarcoma experiment."
+    },
+    {
+     "letter": "B",
+     "text": "The cell-free filtrate caused sarcoma when injected into young chickens."
+    },
+    {
+     "letter": "C",
+     "text": "Rous's work is the first link between viruses and cancer in animals."
+    },
+    {
+     "letter": "D",
+     "text": "Rous ground chicken sarcoma tissue with sand and filtered it."
+    },
+    {
+     "letter": "E",
+     "text": "Epstein and Barr found a virus linked to lymphoma and other human cancers."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — Rous did the experiment in 1911 and won the Nobel Prize in 1966."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Describe biosynthesis for three genome types — dsDNA (e.g., HPV), +ssRNA (e.g., coronavirus), and ssRNA-RT (e.g., HIV). For each, explain how the genome is copied and how proteins are made.",
+   "options": [],
+   "correct": null,
+   "explanation": "dsDNA: the host uses ordinary DNA replication to copy the genome and ordinary transcription to make viral mRNAs, which are translated into proteins. +ssRNA: the genome is 'sense' RNA, so ribosomes translate it directly; to copy it, a viral polymerase first makes a complementary −ssRNA, which then serves as the template for new + genomes (and mRNAs). ssRNA-RT: reverse transcriptase converts the RNA genome into dsDNA, which is built into the host chromosome as a provirus; the provirus is transcribed into new RNA genomes and mRNAs, which are translated into viral proteins. Slides: even viruses are bound by the central dogma — a template is always required."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Tell the story of HeLa cells: where they came from, how they connect to HPV and cancer, why they are so useful, and the ethical issue they raise.",
+   "options": [],
+   "correct": null,
+   "explanation": "Henrietta Lacks, an African American woman in Baltimore, had an HPV infection that led to cervical cancer. At Johns Hopkins a biopsy showed late-stage, very aggressive cancer cells; instead of destroying the sample, the doctor cultured it. The cells — named HeLa — divide rapidly and are immortal (normal biopsy cells divide about 50 times and die), so they were shared with labs worldwide and are the most studied human cells, used to develop many drugs and treatments worth billions of dollars. Ethics: she had signed away rights to the biopsy, as was routine since biopsies were normally destroyed, and neither she nor her family was compensated for the cell cultures; the family reportedly receives a royalty only from the genome sequence data."
+  }
+ ]
+}

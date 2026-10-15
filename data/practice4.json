@@ -1,0 +1,1137 @@
+{
+ "slug": "practice4",
+ "title": "Practice Test 4",
+ "subtitle": "Cumulative — Modules 9–17",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Which statement about Giardia is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Leeuwenhoek discovered it in his own diarrhea; it has two nuclei and eight flagella"
+    },
+    {
+     "letter": "B",
+     "text": "It is a Euglenozoan with one rod-stiffened flagellum that lives in the blood"
+    },
+    {
+     "letter": "C",
+     "text": "It is an Apicomplexan that lives inside intestinal cells and resists chlorine"
+    },
+    {
+     "letter": "D",
+     "text": "It has a single nucleus, no cyst stage, and is sexually transmitted"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Giardia (Archaezoan): two nuclei, ~8 flagella, trophozoite and cyst stages, fatty diarrhea. The last choice describes Trichomonas."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "How do eukaryotic cells compare in size with bacteria, according to the lecture?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Eukaryotic cells are usually 1–10 µm; bacteria are about 10–100 µm"
+    },
+    {
+     "letter": "B",
+     "text": "Eukaryotic cells are usually 10–100 µm; bacteria are about 1–10 µm"
+    },
+    {
+     "letter": "C",
+     "text": "Both are usually 20–1,000 nm"
+    },
+    {
+     "letter": "D",
+     "text": "Both are usually 10–100 µm, but bacteria are wider"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Eukaryotic cells are larger and highly compartmentalized. Viruses are measured in nanometers."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "In the malaria cycle, what is happening in the mosquito's salivary glands?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Plasmodium is being killed by chloroquine"
+    },
+    {
+     "letter": "B",
+     "text": "Red blood cells are bursting and releasing waste that causes fever"
+    },
+    {
+     "letter": "C",
+     "text": "Mature Plasmodium parasites are waiting to be passed into the next person the mosquito bites"
+    },
+    {
+     "letter": "D",
+     "text": "Liver cells are being infected"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The cycle begins with parasites growing in the mosquito's salivary glands; a bite delivers them into the bloodstream."
+  },
+  {
+   "num": 4,
+   "type": "Multi-statement",
+   "prompt": "Which statement about Trypanosoma is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It forms ring stages inside red blood cells."
+    },
+    {
+     "letter": "B",
+     "text": "It belongs to the Euglenozoans."
+    },
+    {
+     "letter": "C",
+     "text": "It causes sleeping sickness (trypanosomiasis)."
+    },
+    {
+     "letter": "D",
+     "text": "It releases toxins that can put a person into a catatonic state."
+    },
+    {
+     "letter": "E",
+     "text": "It is a bloodborne pathogen."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — trypanosomes swim among red blood cells without getting inside them; ring stages are Plasmodium."
+  },
+  {
+   "num": 5,
+   "type": "Open recall",
+   "prompt": "Explain the difference between a trophozoite and a cyst, why cysts matter for transmission, and name protozoa that do and don't form cysts.",
+   "options": [],
+   "correct": null,
+   "explanation": "The trophozoite is the active feeding stage, moving (flagella, cilia, or pseudopods) and engulfing food. A cyst is a dormant, balled-up stage — somewhat resilient, though far less than a bacterial endospore — often used to survive outside the host and get transmitted to a new one. Giardia and Entamoeba form cysts (passed in contaminated water or food); Trichomonas is trophozoite only, with no cyst, and is passed by sexual contact."
+  },
+  {
+   "num": 6,
+   "type": "Open recall",
+   "prompt": "Describe red tides and diatoms, and explain why each matters to people.",
+   "options": [],
+   "correct": null,
+   "explanation": "Red tide: a bloom of a dinoflagellate (an alga) that makes a neurotoxin; the water turns red, fish are paralyzed and suffocated and wash ashore, and shellfish take in the toxin without dying, so people who eat them can be harmed. Diatoms: marine algae with a two-piece glass (silica) cell wall. Their inert walls pile up as diatomaceous earth, used in gardens (aerates soil, holds water, and kills insects by shredding their guts), reflective paint, and tooth polish. Their oil-filled vacuoles (for floating) accumulated over millions of years into petroleum, and farmed algae could produce biofuel."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Which statement about molds is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They are multicellular, aerobic, and reproduce both asexually and sexually by spores"
+    },
+    {
+     "letter": "B",
+     "text": "They are unicellular facultative anaerobes that reproduce by budding"
+    },
+    {
+     "letter": "C",
+     "text": "They are photosynthetic and use chlorophyll to make sugar"
+    },
+    {
+     "letter": "D",
+     "text": "They are motile and digest food inside their cells"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Molds: multicellular, aerobic, spores (asexual sporangiospores/conidiospores, sexual spores from mushrooms)."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "What does the name Saccharomyces cerevisiae mean, and what is it used for?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "'The fungus that turns sugar into beer' — it is baker's and brewer's yeast"
+    },
+    {
+     "letter": "B",
+     "text": "'Dust spore' — it releases conidiospores"
+    },
+    {
+     "letter": "C",
+     "text": "'White yeast' — it causes thrush and yeast infections"
+    },
+    {
+     "letter": "D",
+     "text": "'Sugar mold of the lung' — it causes farmer's lung"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Its fermentation makes CO2 (dough rises) and ethanol (alcoholic drinks)."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Puffballs and earth stars from lecture are examples of…",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sexual fungal structures that release spores"
+    },
+    {
+     "letter": "B",
+     "text": "Unicellular yeasts growing in colonies"
+    },
+    {
+     "letter": "C",
+     "text": "Lichens made of algae and fungi"
+    },
+    {
+     "letter": "D",
+     "text": "Asexual sporangia on top of hyphae"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Like mushrooms, they are products of sexual reproduction that get spores above ground and into the air."
+  },
+  {
+   "num": 10,
+   "type": "Multi-statement",
+   "prompt": "Which statement about mycoses is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Athlete's foot is a type of ringworm."
+    },
+    {
+     "letter": "B",
+     "text": "Ringworm is caused by a parasitic worm."
+    },
+    {
+     "letter": "C",
+     "text": "Histoplasmosis can come from inhaling fungi in bat droppings."
+    },
+    {
+     "letter": "D",
+     "text": "Thrush is Candida growing in the mouth."
+    },
+    {
+     "letter": "E",
+     "text": "A mycosis is a fungal disease."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — despite its name, ringworm is a fungal infection, often picked up from cats."
+  },
+  {
+   "num": 11,
+   "type": "Open recall",
+   "prompt": "Compare sporangiospores and conidiospores, and name the spore type Aspergillus and Penicillium produce.",
+   "options": [],
+   "correct": null,
+   "explanation": "Both are asexual spores, genetically identical to the mold that makes them. Sporangiospores are enclosed in a container (sporangium) on top of a stalk (sporangiophore), like a gumball machine, and are released when the container breaks. Conidiospores are exposed on the outside of the stalk (conidiophore) and released directly, like dust ('conidia' = dust). Aspergillus and Penicillium produce conidiospores."
+  },
+  {
+   "num": 12,
+   "type": "Open recall",
+   "prompt": "Name five mycoses from the course, the fungus behind each, and how it is typically acquired or where it occurs.",
+   "options": [],
+   "correct": null,
+   "explanation": "Vaginal yeast infection — Candida (often after antibiotics kill good bacteria). Thrush — Candida in the mouth. Athlete's foot and ringworm — many fungi; ringworm is often caught from cats. Histoplasmosis — Histoplasma, inhaled from bat droppings in caves. Fungal meningitis — Candida, Histoplasma, Cryptococcus, and others, in the meninges/CSF. Nail infection — various fungi growing slowly in nails with little blood supply. (Also farmer's lung — Aspergillus spores inhaled from soil.)"
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Which helminth–diagnosis pairing is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Taenia (tapeworm) — blood smear for ring stages"
+    },
+    {
+     "letter": "B",
+     "text": "Dracunculus (Guinea worm) — stool sample for proglottids"
+    },
+    {
+     "letter": "C",
+     "text": "Dirofilaria (heartworm) — scotch-tape test of the skin"
+    },
+    {
+     "letter": "D",
+     "text": "Enterobius (pinworm) — scotch-tape test for eggs around the anus"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Female pinworms lay eggs that collect around the anus, so tape pressed there picks them up for the microscope."
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "What does the lecture say about most worms?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Most are trematodes that live in the liver of one host species"
+    },
+    {
+     "letter": "B",
+     "text": "Most are microscopic and are found only in rivers and creeks"
+    },
+    {
+     "letter": "C",
+     "text": "Most are parasites of humans, which is why deworming is so common"
+    },
+    {
+     "letter": "D",
+     "text": "Most are harmless, and some are beneficial, such as those aerating the soil"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Only some parasitic species cause disease."
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "What is the helminth cuticle, and why does it matter for intestinal worms?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "An indigestible chitin coating that protects the worm from the host's digestive enzymes"
+    },
+    {
+     "letter": "B",
+     "text": "The lining of the worm's digestive tract, which breaks down the host's food before absorbing it"
+    },
+    {
+     "letter": "C",
+     "text": "A sticky mucus coat that lets the worm absorb fats directly from the host's food as it passes by"
+    },
+    {
+     "letter": "D",
+     "text": "A layer of living skin cells that the worm sheds whenever the host's enzymes start to digest it"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Lecture: it's not a cellular skin but a deposited chemical coating of indigestible chitin."
+  },
+  {
+   "num": 16,
+   "type": "Multi-statement",
+   "prompt": "Which statement about Ascaris is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Its larvae travel to the lungs to develop."
+    },
+    {
+     "letter": "B",
+     "text": "There are separate male and female worms."
+    },
+    {
+     "letter": "C",
+     "text": "Adult Ascaris worms are microscopic."
+    },
+    {
+     "letter": "D",
+     "text": "Its eggs are swallowed in contaminated food or water."
+    },
+    {
+     "letter": "E",
+     "text": "Adults reproduce in the intestines."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False — adults are about a foot long and as thick as a pencil."
+  },
+  {
+   "num": 17,
+   "type": "Open recall",
+   "prompt": "Explain why Caenorhabditis elegans is a valuable research organism. Describe eutely and what its 959 cells, 131 cell deaths, and 302 neurons let scientists study.",
+   "options": [],
+   "correct": null,
+   "explanation": "C. elegans is a tiny, harmless nematode and one of the most studied organisms. It shows eutely ('wonderful end point'): the adult (male) always has 959 cells, so its embryonic divisions play out the same way every time, letting scientists follow development in detail, including which genes turn on in what order. Exactly 131 programmed cell deaths occur during development, so programmed cell death can be studied precisely. Its brain has just 302 interconnected neurons, a simple system for studying how nerves respond to stimuli and form connections."
+  },
+  {
+   "num": 18,
+   "type": "Open recall",
+   "prompt": "Describe the structure and reproduction of a tapeworm (scolex, proglottids, hermaphrodite), and explain why its self-fertilization still counts as sexual reproduction.",
+   "options": [],
+   "correct": null,
+   "explanation": "A tapeworm (cestode, e.g., Taenia) has a long, flat body with a high surface area for absorbing predigested food (no mouth or gut) and a chitin cuticle. It attaches with a scolex — an anchor with hooks, not a real head. Its body is many identical segments called proglottids, each containing ovaries and testes (a hermaphrodite). Sperm leave one proglottid and fertilize eggs in another. It's still sexual because the sperm and eggs are not genetically identical. Egg-filled proglottids break off and leave in the feces to infect a new host."
+  },
+  {
+   "num": 19,
+   "type": "Multiple choice",
+   "prompt": "How are nucleotides linked into a single DNA strand, according to the lecture?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "By dehydration synthesis, forming the covalent sugar-phosphate backbone"
+    },
+    {
+     "letter": "B",
+     "text": "By peptide bonds formed at the ribosome"
+    },
+    {
+     "letter": "C",
+     "text": "By hydrogen bonds between neighboring bases on the same strand"
+    },
+    {
+     "letter": "D",
+     "text": "By ligase gluing every nucleotide to the next one"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Nucleotides are linked by dehydration synthesis into a covalent backbone; hydrogen bonds join the two strands."
+  },
+  {
+   "num": 20,
+   "type": "Multiple choice",
+   "prompt": "Which statement about Craig Venter is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "He showed that DNA, not protein, is the genetic material"
+    },
+    {
+     "letter": "B",
+     "text": "He discovered the structure of DNA"
+    },
+    {
+     "letter": "C",
+     "text": "He helped sequence the human genome and created the first artificial genome"
+    },
+    {
+     "letter": "D",
+     "text": "He discovered restriction enzymes"
+    }
+   ],
+   "correct": "C",
+   "explanation": "He synthesized the Mycoplasma genitalium chromosome (521 genes) and put it into a cell."
+  },
+  {
+   "num": 21,
+   "type": "Multiple choice",
+   "prompt": "Which statement comparing DNA and RNA is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "DNA is single-stranded with uracil; RNA is double-stranded with thymine, which pairs with adenine"
+    },
+    {
+     "letter": "B",
+     "text": "DNA has deoxyribose and thymine and is usually double-stranded; RNA has ribose and uracil and is usually single-stranded"
+    },
+    {
+     "letter": "C",
+     "text": "Both use deoxyribose and thymine, but only RNA is double-stranded, which is why it can carry codons"
+    },
+    {
+     "letter": "D",
+     "text": "DNA has ribose and uracil and is usually single-stranded; RNA has deoxyribose and thymine and is usually double-stranded"
+    }
+   ],
+   "correct": "B",
+   "explanation": "DNA: A, G, C, T; RNA: A, G, C, U."
+  },
+  {
+   "num": 22,
+   "type": "Multi-statement",
+   "prompt": "Which statement about Avery's experiment is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "He repeated Griffith's heat-killed S + live R mixture."
+    },
+    {
+     "letter": "B",
+     "text": "Many scientists had expected proteins to be the genetic material."
+    },
+    {
+     "letter": "C",
+     "text": "The experiment showed DNA is the genetic material."
+    },
+    {
+     "letter": "D",
+     "text": "When Avery added protease, the mouse stayed healthy."
+    },
+    {
+     "letter": "E",
+     "text": "When he added DNase, the mouse stayed healthy."
+    }
+   ],
+   "correct": "D",
+   "explanation": "False — with protease, the mouse still died; destroying protein didn't block transformation."
+  },
+  {
+   "num": 23,
+   "type": "Open recall",
+   "prompt": "Explain what semi-conservative replication means and why complementary base pairing makes replication so accurate.",
+   "options": [],
+   "correct": null,
+   "explanation": "Semi-conservative: each new double helix has one original (parent) strand paired with one newly built strand. Because A always pairs with T and G with C, each separated strand carries the information to rebuild its partner. The cell separates the strands and adds nucleotides according to the pairing rules, producing two identical copies of the original sequence — what Watson and Crick meant when they said the pairing 'immediately suggests a possible copying mechanism.'"
+  },
+  {
+   "num": 24,
+   "type": "Open recall",
+   "prompt": "Explain how ciprofloxacin (Cipro) stops bacterial growth and why it doesn't harm our own cells.",
+   "options": [],
+   "correct": null,
+   "explanation": "Cipro inhibits bacterial gyrase, the enzyme that uncoils supercoiled DNA. If the chromosome can't be uncoiled, it can't be replicated, so the bacterium can't divide and the population stops growing. Other replication enzymes (helicase, primase, polymerase, ligase) are fairly interchangeable between species, but gyrase is not — our cells use a different version, so Cipro doesn't affect them. It is a broad-spectrum antibiotic."
+  },
+  {
+   "num": 25,
+   "type": "Multiple choice",
+   "prompt": "In a bacterium, which statement about transcription and translation is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Transcription builds the protein at the ribosome; translation copies the gene into mRNA using RNA polymerase"
+    },
+    {
+     "letter": "B",
+     "text": "Translation copies the gene first, and transcription then reads the copy to build the protein at the ribosome"
+    },
+    {
+     "letter": "C",
+     "text": "Transcription copies a gene into mRNA using RNA polymerase; translation turns the mRNA into a protein at the ribosome"
+    },
+    {
+     "letter": "D",
+     "text": "Both processes copy the gene into more DNA, one for each daughter cell, before binary fission"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Central dogma: DNA → (transcription) mRNA → (translation) protein."
+  },
+  {
+   "num": 26,
+   "type": "Multiple choice",
+   "prompt": "Where are anticodons found, and what do they pair with?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "On the ribosome; they pair with amino acids"
+    },
+    {
+     "letter": "B",
+     "text": "On DNA; they pair with the promoter"
+    },
+    {
+     "letter": "C",
+     "text": "On tRNA; they pair with complementary codons on mRNA"
+    },
+    {
+     "letter": "D",
+     "text": "On mRNA; they pair with codons on tRNA"
+    }
+   ],
+   "correct": "C",
+   "explanation": "A tRNA's anticodon base-pairs with an mRNA codon, so it delivers the right amino acid."
+  },
+  {
+   "num": 27,
+   "type": "Multiple choice",
+   "prompt": "Which operon–type–default state set is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "trp operon — inducible — off by default"
+    },
+    {
+     "letter": "B",
+     "text": "trp operon — repressible — on by default"
+    },
+    {
+     "letter": "C",
+     "text": "lac operon — inducible — on by default"
+    },
+    {
+     "letter": "D",
+     "text": "lac operon — repressible — on by default"
+    }
+   ],
+   "correct": "B",
+   "explanation": "lac: inducible, default off (lamp). trp: repressible, default on (refrigerator)."
+  },
+  {
+   "num": 28,
+   "type": "Multi-statement",
+   "prompt": "Which statement about start and stop codons is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "AUG is the most common start codon."
+    },
+    {
+     "letter": "B",
+     "text": "Stop codons code for the amino acid methionine."
+    },
+    {
+     "letter": "C",
+     "text": "There are three stop codons (UAA, UAG, UGA)."
+    },
+    {
+     "letter": "D",
+     "text": "The start codon sets the reading frame."
+    },
+    {
+     "letter": "E",
+     "text": "No tRNA matches a stop codon."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — AUG (the start codon) codes for methionine; stop codons code for no amino acid."
+  },
+  {
+   "num": 29,
+   "type": "Open recall",
+   "prompt": "Explain how UV radiation damages DNA, why it can kill microbes (including endospores), and why it matters for human skin.",
+   "options": [],
+   "correct": null,
+   "explanation": "UV light (most germicidal around 254 nm) causes two thymines next to each other on a strand to form a covalent bond — a thymine dimer — which pinches the DNA. When that region is transcribed, nucleotides are skipped or misread, causing frameshift errors. The longer the exposure, the more dimers form, until one hits an essential gene and the cell dies — this works even on endospores, which is why UV lamps are used to disinfect rooms. Thymine dimers also form in our skin cells' DNA and can lead to skin cancer, so UV exposure should be limited."
+  },
+  {
+   "num": 30,
+   "type": "Open recall",
+   "prompt": "Compare DNA and RNA: name, sugar, number of strands, and bases.",
+   "options": [],
+   "correct": null,
+   "explanation": "DNA (deoxyribonucleic acid): sugar is deoxyribose; usually double-stranded; bases A, G, C, T. RNA (ribonucleic acid): sugar is ribose; usually single-stranded; bases A, G, C, and U (uracil, which pairs with A just like thymine)."
+  },
+  {
+   "num": 31,
+   "type": "Multiple choice",
+   "prompt": "Which scientist–achievement–year set is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Doudna and Charpentier — PCR — 1993"
+    },
+    {
+     "letter": "B",
+     "text": "Cohen and Boyer — first recombinant DNA — 1980"
+    },
+    {
+     "letter": "C",
+     "text": "Kary Mullis — CRISPR — 2020"
+    },
+    {
+     "letter": "D",
+     "text": "Paul Berg — first recombinant DNA — 1970"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Berg 1970 (Nobel 1980); Cohen & Boyer first recombinant organism 1973; Mullis PCR (Nobel 1993); Doudna & Charpentier CRISPR (Nobel 2020)."
+  },
+  {
+   "num": 32,
+   "type": "Multiple choice",
+   "prompt": "In a diagnostic PCR test, what does a positive result mean?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The patient's own DNA was copied, which shows the sample was collected correctly"
+    },
+    {
+     "letter": "B",
+     "text": "The primer-targeted sequence was in the sample and was copied many times"
+    },
+    {
+     "letter": "C",
+     "text": "No DNA at all was present in the sample, so the primers bound to each other"
+    },
+    {
+     "letter": "D",
+     "text": "The Taq polymerase was damaged by the heat, so nothing could be read"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Primers designed for the pathogen's DNA can only bind and amplify if that DNA is present."
+  },
+  {
+   "num": 33,
+   "type": "Multiple choice",
+   "prompt": "Which CRISPR repair option is matched with its result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Non-homologous end joining — a donor sequence is copied in, knocking a gene in"
+    },
+    {
+     "letter": "B",
+     "text": "Non-homologous end joining — random nucleotides fill the cut, knocking the gene out"
+    },
+    {
+     "letter": "C",
+     "text": "Homology-directed repair with donor DNA — random nucleotides inactivate the gene"
+    },
+    {
+     "letter": "D",
+     "text": "Homology-directed repair — the gene is cut a second time"
+    }
+   ],
+   "correct": "B",
+   "explanation": "NHEJ = quick 'duct tape' repair → mutation (knock-out). HDR with donor DNA → new sequence copied in (knock-in)."
+  },
+  {
+   "num": 34,
+   "type": "Multi-statement",
+   "prompt": "Which statement about Humulin is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Humulin is pig insulin purified from pancreas tissue."
+    },
+    {
+     "letter": "B",
+     "text": "It is human insulin made by genetically engineered E. coli."
+    },
+    {
+     "letter": "C",
+     "text": "Before it, diabetics injected pig insulin."
+    },
+    {
+     "letter": "D",
+     "text": "It was developed by Boyer and Swanson's company, Genentech."
+    },
+    {
+     "letter": "E",
+     "text": "Its gene was made by working the central dogma backward from insulin's amino acid sequence."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — Humulin is human insulin of recombinant DNA origin."
+  },
+  {
+   "num": 35,
+   "type": "Open recall",
+   "prompt": "Describe the three steps of a PCR cycle with their temperatures, what goes into the tube, and why Taq polymerase is used.",
+   "options": [],
+   "correct": null,
+   "explanation": "Tube: the template DNA, two primers flanking the target region, spare nucleotides, DNA polymerase (Taq), and buffers/ions (MgCl2). Denaturation (~96 °C): heat breaks hydrogen bonds and separates the strands. Annealing (~55 °C): primers bind their complementary sequences. Extension (~72 °C): polymerase extends the primers. Repeating 25–35 times in a thermal cycler gives billions of copies (exponential growth). Taq polymerase, from Thermus aquaticus, survives the repeated high heat that would destroy ordinary polymerase."
+  },
+  {
+   "num": 36,
+   "type": "Open recall",
+   "prompt": "Describe how CRISPR was used for Rick Slayman's kidney transplant and for Victoria Gray's sickle cell disease, and give one bioethical concern raised in the lecture.",
+   "options": [],
+   "correct": null,
+   "explanation": "Slayman: scientists used CRISPR to turn off (knock out) the pig genes that make antigens our bodies reject; a kidney from that pig was transplanted into him, and it was still working with no rejection when he died 51 days later of an unrelated cardiac event. Gray: her cells were removed, edited with CRISPR to make the correct form of hemoglobin, and put back — the first FDA-approved CRISPR treatment. Concerns: editing embryos without consent and changing the human gene pool, cost and unequal access (most sickle-cell patients are in Africa), and animal research such as monkeys edited to have sleep disorders, anxiety, and depression."
+  },
+  {
+   "num": 37,
+   "type": "Multiple choice",
+   "prompt": "Which statement about Félix d'Hérelle is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "He discovered penicillin, which quickly replaced the phage therapy others had developed"
+    },
+    {
+     "letter": "B",
+     "text": "He was the first to see a virus, using an electron microscope to view tobacco mosaic virus"
+    },
+    {
+     "letter": "C",
+     "text": "He discovered tobacco mosaic virus in 1892 by filtering juice from diseased tobacco plants"
+    },
+    {
+     "letter": "D",
+     "text": "He discovered bacteriophage around 1916 and used fecal filtrates from healthy soldiers to treat dysentery"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Ivanovsky discovered TMV; Stanley first saw viruses (1935); Fleming discovered penicillin."
+  },
+  {
+   "num": 38,
+   "type": "Multiple choice",
+   "prompt": "Which is one of the criteria used to classify viruses, with a correct example?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Number of nuclei — Ebola has two"
+    },
+    {
+     "letter": "B",
+     "text": "Cell wall type — HPV has a peptidoglycan wall"
+    },
+    {
+     "letter": "C",
+     "text": "Type of ribosome — SARS-CoV-2 has prokaryotic ribosomes"
+    },
+    {
+     "letter": "D",
+     "text": "Genome structure — influenza has a segmented genome"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Viruses are classified by shape, envelope, nucleic acid type/strandedness/form, and simple vs segmented genome. They have no walls, nuclei, or ribosomes."
+  },
+  {
+   "num": 39,
+   "type": "Multiple choice",
+   "prompt": "In the lysogenic cycle, induction is…",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The prophage cutting itself out of the chromosome and entering the lytic cycle, usually when the host is stressed"
+    },
+    {
+     "letter": "B",
+     "text": "The phage DNA first splicing itself into the bacterial chromosome by recombination"
+    },
+    {
+     "letter": "C",
+     "text": "The host making toxins from prophage genes, which changes its phenotype"
+    },
+    {
+     "letter": "D",
+     "text": "The lysogenized bacterium dividing normally and copying the prophage into every daughter cell"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Integration → reproduction → induction. Toxin production from prophage genes is lysogenic conversion."
+  },
+  {
+   "num": 40,
+   "type": "Multi-statement",
+   "prompt": "Which statement about naked and enveloped viruses is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "An envelope is not called a membrane, since that word is kept for cells."
+    },
+    {
+     "letter": "B",
+     "text": "Influenza is an enveloped virus."
+    },
+    {
+     "letter": "C",
+     "text": "HPV is an enveloped virus."
+    },
+    {
+     "letter": "D",
+     "text": "A naked virus has a capsid with no outer envelope."
+    },
+    {
+     "letter": "E",
+     "text": "SARS-CoV-2 is an enveloped virus."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False — HPV is a naked (non-enveloped) polyhedral virus."
+  },
+  {
+   "num": 41,
+   "type": "Open recall",
+   "prompt": "List and describe the five steps of the bacteriophage lytic cycle.",
+   "options": [],
+   "correct": null,
+   "explanation": "1. Attachment: the phage binds to molecules on the bacterial surface (tail fibers act as landing gear). 2. Penetration: lysozyme helps get through the peptidoglycan wall and the genome (DNA) is injected through the membrane like a syringe, powered by energy stored in the phage's structure; the capsid stays outside. 3. Biosynthesis: the host, following the phage genes, copies the phage genome and makes phage proteins (capsids, sheaths, tail fibers). 4. Maturation (assembly): parts are put together into new virions. 5. Release: lysozyme helps lyse the cell, and ~300 phages burst out to infect neighbors."
+  },
+  {
+   "num": 42,
+   "type": "Open recall",
+   "prompt": "Describe how phage therapy began and why there is renewed interest in it today.",
+   "options": [],
+   "correct": null,
+   "explanation": "During World War I, d'Hérelle noticed that some soldiers in the trenches died of bacterial dysentery while others nearby stayed healthy. He reasoned the healthy soldiers carried bacteriophages that killed the dysentery bacteria, so he filtered their fecal samples and gave the filtrate to sick soldiers, curing many — the start of phage therapy. It faded after Fleming discovered penicillin and antibiotics became 'magic pills.' Today antibiotics have been overused, many bacteria are resistant, and new antibiotics aren't being found as fast, so phage therapy (highly specific, small self-amplifying doses, self-eliminating) is being studied again, and fecal transplants are being used against C. difficile."
+  },
+  {
+   "num": 43,
+   "type": "Multiple choice",
+   "prompt": "Which influenza surface protein is matched with the step it helps?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hemagglutinin — uncoating; neuraminidase — biosynthesis"
+    },
+    {
+     "letter": "B",
+     "text": "Hemagglutinin — release; neuraminidase — attachment"
+    },
+    {
+     "letter": "C",
+     "text": "Hemagglutinin — attachment; neuraminidase — release"
+    },
+    {
+     "letter": "D",
+     "text": "Both — membrane fusion"
+    }
+   ],
+   "correct": "C",
+   "explanation": "H binds host receptors; N digests the proteins holding the budding virus so it can break free."
+  },
+  {
+   "num": 44,
+   "type": "Multiple choice",
+   "prompt": "Which describes a persistent infection, with the course's example?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The virus immediately makes many new viruses and the infection ends quickly — adenovirus"
+    },
+    {
+     "letter": "B",
+     "text": "Viral DNA sits dormant as episomal DNA, then flares up — herpes simplex"
+    },
+    {
+     "letter": "C",
+     "text": "The viral genome joins the host chromosome as a provirus, and new viruses are made slowly and detectable at all times — HIV"
+    },
+    {
+     "letter": "D",
+     "text": "The virus is destroyed in lysosomes — SARS-CoV-2"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Persistent: provirus, slow constant production, may become productive later (HIV-positive → AIDS)."
+  },
+  {
+   "num": 45,
+   "type": "Multiple choice",
+   "prompt": "How does SARS-CoV-2 attach to and enter a respiratory cell?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Its neuraminidase digests a hole in the cell wall"
+    },
+    {
+     "letter": "B",
+     "text": "Its hemagglutinin binds CD4, and the cell engulfs it by endocytosis"
+    },
+    {
+     "letter": "C",
+     "text": "Its capsid attaches and injects RNA directly through the membrane"
+    },
+    {
+     "letter": "D",
+     "text": "Its spike protein binds the ACE2 receptor, and its envelope fuses with the cell membrane"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Spike → ACE2, then membrane fusion releases the ssRNA genome."
+  },
+  {
+   "num": 46,
+   "type": "Multi-statement",
+   "prompt": "Which statement about Tamiflu is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "By slowing the release of new viruses, it gives the immune system time to respond."
+    },
+    {
+     "letter": "B",
+     "text": "It prevents successful budding of new influenza viruses."
+    },
+    {
+     "letter": "C",
+     "text": "Tamiflu is a neuraminidase inhibitor."
+    },
+    {
+     "letter": "D",
+     "text": "It doesn't work against SARS-CoV-2."
+    },
+    {
+     "letter": "E",
+     "text": "Tamiflu kills influenza viruses inside infected cells."
+    }
+   ],
+   "correct": "E",
+   "explanation": "False — Tamiflu doesn't destroy viruses or stop them entering cells; it slows their release."
+  },
+  {
+   "num": 47,
+   "type": "Open recall",
+   "prompt": "List the steps of the animal-virus life cycle and explain how they differ from the bacteriophage lytic cycle.",
+   "options": [],
+   "correct": null,
+   "explanation": "Animal virus: attachment, entry (direct penetration, membrane fusion, or endocytosis), uncoating, biosynthesis, assembly, and release. Differences from the phage lytic cycle: entry often brings in the whole capsid (or the virus in a vesicle), so an uncoating step is needed to free the genome; instead of lysogeny, an animal virus may go latent (or persistent); and release can be lysis (naked viruses), budding (enveloped viruses, which take host membrane as their envelope), or exocytosis (either type, e.g., SARS-CoV-2), rather than only lysis."
+  },
+  {
+   "num": 48,
+   "type": "Open recall",
+   "prompt": "Describe the 1918 flu pandemic: how many were infected and died, how it compared with the Plague and COVID, what people did about it, and who it was most likely to kill.",
+   "options": [],
+   "correct": null,
+   "explanation": "About 500 million people were infected and about 100 million died — more deaths than the Plague (about 50 million), although the Plague killed a larger share of the population. COVID (at the time of the lecture) had about 536 million cases but about 6.31 million deaths. No one had ever seen a virus in 1918, but people noticed masks seemed to reduce transmission, leading to many state and local mask mandates (with supporters and anti-maskers). It was more likely to kill healthy people with strong immune systems, which mounted very severe hypersensitive responses, while the elderly and very young were less susceptible."
+  },
+  {
+   "num": 49,
+   "type": "Multiple choice",
+   "prompt": "According to the instructor's slides, which host molecules do some retroviruses 'borrow' for their own use?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The host cell's tRNA molecules"
+    },
+    {
+     "letter": "B",
+     "text": "The host cell's ergosterol"
+    },
+    {
+     "letter": "C",
+     "text": "The host cell's chitin"
+    },
+    {
+     "letter": "D",
+     "text": "The host cell's gyrase enzyme"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Slides, 'Other substances in the viral particle': host ribosomes can be taken, and some retroviruses borrow the host's tRNA."
+  },
+  {
+   "num": 50,
+   "type": "Multiple choice",
+   "prompt": "What did Peyton Rous's 1911 experiment show?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Epstein-Barr virus causes lymphoma in humans, using filtrates of human tumor tissue"
+    },
+    {
+     "letter": "B",
+     "text": "A cell-free filtrate of chicken sarcoma tissue caused cancer in other chickens — the first link between viruses and cancer"
+    },
+    {
+     "letter": "C",
+     "text": "Chicken sarcoma is caused by bacteria, since the tumor tissue trapped on the filter caused cancer"
+    },
+    {
+     "letter": "D",
+     "text": "HPV causes cervical cancer, by injecting filtered cervical tissue into chickens"
+    }
+   ],
+   "correct": "B",
+   "explanation": "He discovered Rous sarcoma virus; he won the Nobel Prize in 1966."
+  },
+  {
+   "num": 51,
+   "type": "Multiple choice",
+   "prompt": "What makes HeLa cells unusual?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They are bacteria isolated from Henrietta Lacks's cervical infection and grown on agar"
+    },
+    {
+     "letter": "B",
+     "text": "They are immortal — they keep dividing in culture, while normal biopsy cells divide about 50 times and die"
+    },
+    {
+     "letter": "C",
+     "text": "They are HPV particles grown in embryonated eggs from Henrietta Lacks's biopsy"
+    },
+    {
+     "letter": "D",
+     "text": "They are normal cervical cells that stopped dividing, so they never change over time"
+    }
+   ],
+   "correct": "B",
+   "explanation": "From Henrietta Lacks's aggressive cervical cancer; now the most studied human cells."
+  },
+  {
+   "num": 52,
+   "type": "Multi-statement",
+   "prompt": "Which statement about p53 is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The p53 protein is called the 'guardian angel' protein."
+    },
+    {
+     "letter": "B",
+     "text": "p53 helps manage damaged and mutated DNA."
+    },
+    {
+     "letter": "C",
+     "text": "p53 mutations occur in about 60% of human cancers."
+    },
+    {
+     "letter": "D",
+     "text": "p53 is a proto-oncogene that turns cell division on."
+    },
+    {
+     "letter": "E",
+     "text": "p53 is encoded by a tumor-suppressor gene."
+    }
+   ],
+   "correct": "D",
+   "explanation": "False — p53 is a tumor suppressor (a brake), not a proto-oncogene."
+  },
+  {
+   "num": 53,
+   "type": "Open recall",
+   "prompt": "Describe biosynthesis for an ssDNA virus and a dsRNA virus: how each genome is copied and how proteins are made.",
+   "options": [],
+   "correct": null,
+   "explanation": "ssDNA: host enzymes first build the complementary strand to make a double-stranded DNA template; that dsDNA is transcribed into mRNA (then translated into proteins) and is used as a template to make new single-stranded genomes. dsRNA: one strand serves as a template to make + sense RNA, which acts as mRNA for translation and as a template for copying the genome (the virus brings or makes an RNA-copying enzyme, since host cells can't copy RNA from RNA). Either way, a template is always required."
+  },
+  {
+   "num": 54,
+   "type": "Open recall",
+   "prompt": "Explain how an HPV infection can lead to cervical cancer, and why the Pap smear is so important.",
+   "options": [],
+   "correct": null,
+   "explanation": "HPV infects the cervix and can cause papillomas (small warts), which are often harmless. HPV makes a protein that inactivates p53, the tumor-suppressor 'brake' on cell division, so cells divide uncontrollably and form a tumor. Because p53 also manages damaged DNA, mutations accumulate and are passed on, moving the tumor toward true cancer; tumors grow their own blood vessels, causing bleeding. A Pap smear brushes cells from the cervix to look for abnormal, rapidly dividing cells. It is cheap and catches problems early, when cervical cancer is very treatable; caught late, it can be fatal."
+  },
+  {
+   "num": 55,
+   "type": "Multiple choice",
+   "prompt": "Which organism–category pairing is WRONG?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dictyostelium — amoebozoan protist"
+    },
+    {
+     "letter": "B",
+     "text": "Aspergillus — mold"
+    },
+    {
+     "letter": "C",
+     "text": "Caenorhabditis elegans — protist"
+    },
+    {
+     "letter": "D",
+     "text": "Thermus aquaticus — bacterium"
+    }
+   ],
+   "correct": "C",
+   "explanation": "C. elegans is a nematode (a roundworm, Kingdom Animalia)."
+  },
+  {
+   "num": 56,
+   "type": "Multiple choice",
+   "prompt": "Which two pathogens from this unit are both carried by mosquitoes, according to the lecture?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lyme disease bacteria and Plasmodium"
+    },
+    {
+     "letter": "B",
+     "text": "Dracunculus and Ascaris"
+    },
+    {
+     "letter": "C",
+     "text": "Giardia and Cryptosporidium"
+    },
+    {
+     "letter": "D",
+     "text": "Plasmodium (malaria) and Dirofilaria (heartworm)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Anopheles mosquitoes transmit Plasmodium; heartworm eggs are transmitted by mosquitoes. Ticks carry Lyme disease."
+  }
+ ]
+}

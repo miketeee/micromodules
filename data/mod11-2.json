@@ -1,0 +1,356 @@
+{
+ "slug": "mod11-2",
+ "title": "Module 11 — Quiz 2",
+ "subtitle": "Eukaryotes — Helminths",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Which statement correctly matches each helminth group with how it takes in food?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cestodes take food in through an oral sucker; trematodes have no mouth and absorb predigested nutrients; nematodes absorb food through a flat body"
+    },
+    {
+     "letter": "B",
+     "text": "Cestodes and nematodes drink blood through chitin teeth; trematodes absorb predigested food across their segments"
+    },
+    {
+     "letter": "C",
+     "text": "Cestodes have no mouth and absorb nutrients your gut already digested; trematodes take food in through an oral sucker into an intestine; nematodes have a mouth and digestive tract"
+    },
+    {
+     "letter": "D",
+     "text": "All three groups lack a digestive tract and absorb nutrients across a chitin cuticle, which is why they are flat"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Tapeworms: no mouth or gut, high surface area for absorption. Flukes: oral sucker → intestine. Roundworms: mouth and digestive tract."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Chitin shows up again and again in Modules 10 and 11. Which structure from this unit is NOT made of chitin?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The fungal cell wall"
+    },
+    {
+     "letter": "B",
+     "text": "The helminth cuticle"
+    },
+    {
+     "letter": "C",
+     "text": "The diatom cell wall"
+    },
+    {
+     "letter": "D",
+     "text": "A pinworm's teeth"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Diatom walls are glass (silica). Chitin makes fungal cell walls, the worm cuticle, pinworm teeth, and arthropod exoskeletons."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Which pair of worms both have separate males and females?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ascaris and Enterobius"
+    },
+    {
+     "letter": "B",
+     "text": "Taenia and Clonorchis"
+    },
+    {
+     "letter": "C",
+     "text": "Clonorchis and Enterobius"
+    },
+    {
+     "letter": "D",
+     "text": "Taenia and Ascaris"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Ascaris males have a curved, hook-like tail; pinworm males are smaller than females. Taenia proglottids are hermaphrodites, and many flukes are hermaphrodites."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Which worm–transmission pairing matches the lecture?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ascaris — eggs injected by a house fly bite"
+    },
+    {
+     "letter": "B",
+     "text": "Dirofilaria (heartworm) — eggs transmitted by mosquitoes"
+    },
+    {
+     "letter": "C",
+     "text": "Taenia — larvae carried by mosquitoes into the blood"
+    },
+    {
+     "letter": "D",
+     "text": "Dracunculus (Guinea worm) — eggs transmitted by ticks"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Heartworm eggs are carried by mosquitoes; Guinea-worm eggs are in rivers and creeks; Ascaris eggs are swallowed in contaminated food or water; Taenia eggs leave in proglottids in feces."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Based on how they feed, which helminths gain the most from putting anticoagulants in their saliva?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "All nematodes in the soil, because they aerate soil by drinking water"
+    },
+    {
+     "letter": "B",
+     "text": "Only Ascaris, because its larvae travel through blood vessels to the lungs"
+    },
+    {
+     "letter": "C",
+     "text": "Fluid (blood) feeders such as flukes and pinworms, because clotting would stop the flow they drink from"
+    },
+    {
+     "letter": "D",
+     "text": "Tapeworms, because they absorb predigested food and clotting would block their scolex"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Blood-feeding helminths (e.g., pinworms tapping a vessel; many flukes are fluid feeders) need blood to stay liquid. Tapeworms simply absorb nutrients."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Why would the same worm therapy studied for allergies also be studied for Crohn's disease and irritable bowel syndrome?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Parasitic worms hold back the host's inflammatory response, and these conditions involve too much inflammation"
+    },
+    {
+     "letter": "B",
+     "text": "Worms block sugar absorption, which starves the immune cells behind these conditions"
+    },
+    {
+     "letter": "C",
+     "text": "Worms release hirudin, which dissolves the clots that cause these conditions"
+    },
+    {
+     "letter": "D",
+     "text": "Worms eat the bacteria that cause allergies, Crohn's, and IBS"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Pritchard's idea: worms must suppress inflammation to survive; allergies are an exaggerated inflammatory response. Worms are being researched for allergies, Crohn's, and IBS."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "What do a heavy heartworm infection in a dog and a heavy Ascaris infection in a person have in common?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Both are spread by mosquitoes, and the adults live inside red blood cells and burst them, releasing waste"
+    },
+    {
+     "letter": "B",
+     "text": "Both are tapeworms that anchor with a scolex and absorb so much food that the host starves"
+    },
+    {
+     "letter": "C",
+     "text": "Both release a neurotoxin in their saliva that paralyzes the heart or gut muscles of the host"
+    },
+    {
+     "letter": "D",
+     "text": "Adult worms physically clog a passage — heart valves, chambers, and vessels in one; the digestive tract in the other"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Heartworms clog the valves, chambers, pulmonary artery and aorta. Adult Ascaris block the digestive tract and can be fatal."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "What single question decides whether an arthropod is a mechanical or a biological vector?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Does the arthropod drink blood and excrete water, or does it feed on dead and rotting material?"
+    },
+    {
+     "letter": "B",
+     "text": "Does the pathogen reproduce or develop inside the arthropod, or does it just ride along on its body parts?"
+    },
+    {
+     "letter": "C",
+     "text": "Does the arthropod bite through the skin, or does it only land on food and surfaces?"
+    },
+    {
+     "letter": "D",
+     "text": "Does the arthropod cause the disease itself, or does it only carry the pathogen to the next host?"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Mechanical vectors carry pathogens on body parts (house fly). Biological vectors host pathogen reproduction inside them (mosquito–malaria, tick–Lyme)."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Cestodes and trematodes are flat; nematodes are round. What explains the difference?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Flat bodies give a lot of surface area; nematodes are inflated with fluid in a chamber (a hydrostatic skeleton)"
+    },
+    {
+     "letter": "B",
+     "text": "Round worms are built from stacked proglottid segments that fill with eggs and swell up"
+    },
+    {
+     "letter": "C",
+     "text": "Flat worms live in fluid-filled organs that flatten them, while round worms live in open air in the soil"
+    },
+    {
+     "letter": "D",
+     "text": "Flat worms have a chitin cuticle that presses them flat, while round worms have no cuticle at all"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Lecture: tapeworms and flukes are flat (surface area); roundworms have a fluid-filled hydrostatic skeleton that gives them a round, 3-D body."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Many helminths are big enough to see with the naked eye. Why do they still belong in a microbiology course?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adult helminths shrink to microscopic size inside the host, which is when they cause disease"
+    },
+    {
+     "letter": "B",
+     "text": "Helminths carry bacteria inside their cuticle, and microbiology studies those bacteria rather than the worm"
+    },
+    {
+     "letter": "C",
+     "text": "Only the microscopic helminths can cause disease, so the large ones are covered just for comparison"
+    },
+    {
+     "letter": "D",
+     "text": "Their eggs or larval stages are microscopic, and those are often the stages that get transmitted"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Helminths can be micro- or macroscopic; even large worms matter because their eggs and larvae are microscopic and are what spreads."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Vermox (mebendazole) works against tapeworms and pinworms even though one absorbs predigested food and the other drinks blood. Why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It inhibits ergosterol synthesis, which both kinds of worm need for their cell membranes"
+    },
+    {
+     "letter": "B",
+     "text": "It inhibits sugar absorption, and both kinds of worm depend on absorbing sugars such as glucose from the host"
+    },
+    {
+     "letter": "C",
+     "text": "It dissolves the chitin cuticle that both kinds of worm share, so the host's digestive enzymes can attack them"
+    },
+    {
+     "letter": "D",
+     "text": "It blocks DNA synthesis, which both kinds of worm need in order to make eggs inside the host"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Vermox inhibits sugar absorption. Whether worms absorb food from the gut or drink blood, sugars like glucose are a main thing they take in."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about Taenia (tapeworm) is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Its scolex contains a mouth that leads into a digestive tract."
+    },
+    {
+     "letter": "B",
+     "text": "Each proglottid contains both ovaries and testes."
+    },
+    {
+     "letter": "C",
+     "text": "A beef tapeworm can reach roughly 20–30 feet long."
+    },
+    {
+     "letter": "D",
+     "text": "Barbed hooks on the scolex anchor it to the intestinal wall."
+    },
+    {
+     "letter": "E",
+     "text": "The last proglottids, full of fertilized eggs, break off and leave in the feces."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — the scolex is just an attachment organ (no eyes, mouth, or brain). Tapeworms have no mouth or digestive tract."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about trematodes (flukes) is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Most flukes are specific to one host and one organ."
+    },
+    {
+     "letter": "B",
+     "text": "Like tapeworms, flukes are long and made of repeated proglottid segments."
+    },
+    {
+     "letter": "C",
+     "text": "Flukes have an oral sucker that leads into an intestine."
+    },
+    {
+     "letter": "D",
+     "text": "Many flukes are fluid feeders that drink the host's blood."
+    },
+    {
+     "letter": "E",
+     "text": "Many flukes are hermaphrodites."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — flukes are flat but much smaller, not segmented like tapeworms, and have more complex bodies."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Compare cestodes, trematodes, and nematodes. For each, give the common name, body shape, whether it has a mouth and digestive tract, and the course's example genus.",
+   "options": [],
+   "correct": null,
+   "explanation": "Cestodes — tapeworms; long, flat, segmented (proglottids); no mouth or digestive tract, absorb predigested nutrients across the body; Taenia. Trematodes — flukes; flat, small, not segmented; oral sucker and intestine, many are fluid feeders, host- and organ-specific; Clonorchis (liver fluke). Nematodes — roundworms; round, fluid-filled (hydrostatic skeleton); mouth and digestive tract; examples Ascaris, Enterobius, Dirofilaria, Dracunculus, and harmless C. elegans."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Explain the chain of observations and reasoning that led a mission doctor to suggest parasitic worms could treat allergies, and how he tested it.",
+   "options": [],
+   "correct": null,
+   "explanation": "While deworming people in less developed regions, he followed the same populations for years. They became worm-free but developed allergies, which are almost unheard of there. He reasoned that worms must suppress the host's inflammatory response to survive in the intestine, and that allergies are an exaggerated inflammatory response — so removing the worms removed the brake. He tested it on himself: he infected himself with a low number of worms (the slides credit David Pritchard and hookworms), monitored them through stool samples, and his own allergies went away. Worms are now being researched for allergies, Crohn's disease, and IBS."
+  }
+ ]
+}

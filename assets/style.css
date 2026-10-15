@@ -147,6 +147,17 @@ p.site-lede{
   color: #fff;
 }
 
+.quiz-pill.pill-3{
+  color: #7A2E2E;
+  background: var(--red-wash);
+  border-color: var(--red);
+}
+
+.quiz-pill.pill-3:hover{
+  background: var(--red);
+  color: #fff;
+}
+
 .quiz-pill.pill-qa{
   color: #445A3A;
   background: #E4E9DA;
@@ -160,7 +171,7 @@ p.site-lede{
 
 @media (max-width: 480px){
   .m-row{ flex-wrap: wrap; }
-  .quiz-links{ width: 100%; margin-left: calc(1.6rem + 0.9rem); flex-wrap: wrap; }
+  .quiz-links{ width: calc(100% - 1.6rem - 0.9rem); margin-left: calc(1.6rem + 0.9rem); flex-wrap: wrap; }
 }
 
 .slide-grid{

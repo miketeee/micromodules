@@ -1,0 +1,360 @@
+{
+ "slug": "mod16-3",
+ "title": "Module 16 — Quiz 3",
+ "subtitle": "Viruses — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A patient with HIV asks whether Tamiflu would slow the release of new HIV particles, since HIV also buds out of cells. What is the best answer?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "No — HIV leaves only by lysis, so a drug that targets budding has nothing to act on"
+    },
+    {
+     "letter": "B",
+     "text": "Yes — Tamiflu also blocks reverse transcriptase, which HIV needs to bud out"
+    },
+    {
+     "letter": "C",
+     "text": "No — Tamiflu blocks neuraminidase, which the course describes on influenza, not HIV"
+    },
+    {
+     "letter": "D",
+     "text": "Yes — every budding virus uses neuraminidase to break free, so Tamiflu works on all of them"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Tamiflu is a neuraminidase inhibitor. The course names hemagglutinin and neuraminidase as influenza proteins; HIV buds without that target."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "A new drug blocks uncoating. Which viruses would it stop?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Only naked viruses, since an enveloped virus's genome is freed when the envelope fuses with the membrane"
+    },
+    {
+     "letter": "B",
+     "text": "Only those entering by direct penetration, such as human enterovirus, since they release a capsid into the cell"
+    },
+    {
+     "letter": "C",
+     "text": "Every virus equally, including bacteriophages, since every virus must uncoat in the same way"
+    },
+    {
+     "letter": "D",
+     "text": "Those entering by membrane fusion or endocytosis (e.g., SARS-CoV-2, HIV, influenza), but not those entering by direct penetration (e.g., human enterovirus)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Direct penetration pushes the genome straight in. Fusion and endocytosis deliver a capsid (or vesicle) that must be uncoated."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "SARS-CoV-2 deacidifies the lysosomes it travels through. What would you predict if a drug kept those lysosomes acidic?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The virus would switch to budding out through the plasma membrane, using neuraminidase to break free"
+    },
+    {
+     "letter": "B",
+     "text": "Nothing would change, since lysosomes don't contain digestive enzymes and only act as transport bubbles"
+    },
+    {
+     "letter": "C",
+     "text": "The acid would burst the host cell, releasing even more virions than exocytosis would"
+    },
+    {
+     "letter": "D",
+     "text": "The lysosomes could digest the new virions instead of carrying them out, reducing the release of new viruses"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Lecture: lysosomes are de-acidified by the viruses 'and thus unable to digest them.' Keeping them acidic should restore digestion."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Which step of the animal-virus life cycle has no counterpart in a bacteriophage infection?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Biosynthesis"
+    },
+    {
+     "letter": "B",
+     "text": "Uncoating"
+    },
+    {
+     "letter": "C",
+     "text": "Attachment"
+    },
+    {
+     "letter": "D",
+     "text": "Release"
+    }
+   ],
+   "correct": "B",
+   "explanation": "A phage injects only its genome; animal viruses that enter by fusion or endocytosis must uncoat the capsid to free the genome."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "According to the instructor's slides, why is HIV so hard for the body to clear once it becomes a provirus?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The viral DNA is built into the host's own DNA, where host defenses find it extremely hard to recognize and destroy"
+    },
+    {
+     "letter": "B",
+     "text": "The provirus floats freely in the blood where antibodies can't reach it"
+    },
+    {
+     "letter": "C",
+     "text": "The provirus is coated in chitin, which immune cells can't digest"
+    },
+    {
+     "letter": "D",
+     "text": "The provirus makes thousands of new virions immediately, overwhelming the immune system"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Slides: 'It is incredibly difficult for host defense systems to recognize & destroy a provirus.'"
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Host cells don't normally copy RNA into RNA. How does SARS-CoV-2 get its RNA genome copied?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Each virus brings a spare finished copy of its genome, so no copying is needed inside the cell"
+    },
+    {
+     "letter": "B",
+     "text": "The host makes a viral enzyme (a polymerase/replicase) from the virus's own gene, and that enzyme copies the genome"
+    },
+    {
+     "letter": "C",
+     "text": "Reverse transcriptase turns the RNA into DNA, which is built into the host chromosome as a provirus"
+    },
+    {
+     "letter": "D",
+     "text": "The host's own DNA polymerase copies the RNA genome directly, using RNA nucleotides"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Lecture: the host transcribes and translates viral proteins, 'including an enzyme that makes copies of the viral genome.' Slides: replicases copy RNA."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "A budding virus is called a 'wolf in sheep's clothing.' Based on that idea, why would the immune system (and vaccines) target spike proteins rather than the envelope itself?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The envelope is made of chitin, which the immune system can't recognize or digest"
+    },
+    {
+     "letter": "B",
+     "text": "Spike proteins sit inside the capsid, which is where antibodies collect after infection"
+    },
+    {
+     "letter": "C",
+     "text": "The envelope is a patch of the host's own membrane; the viral proteins sticking out of it are the foreign part"
+    },
+    {
+     "letter": "D",
+     "text": "The envelope is shed as soon as the virus leaves the cell, so only spikes are left exposed"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The envelope comes from the host cell membrane, so the virus looks like the host except for its viral proteins (Module 15: vaccines target the spike)."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "During the 1918 flu pandemic, why were measures limited to things like mask mandates rather than antiviral drugs?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tamiflu was available in 1918, but the strain's neuraminidase was a type the drug couldn't block"
+    },
+    {
+     "letter": "B",
+     "text": "No one had ever seen a virus (that didn't happen until 1935), so its structure was unknown and no antivirals existed"
+    },
+    {
+     "letter": "C",
+     "text": "Influenza was thought to be caused by a fungus at the time, so doctors relied on antifungal drugs"
+    },
+    {
+     "letter": "D",
+     "text": "Antiviral drugs had already been developed, but they were banned for civilians during World War I"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Viruses were discovered in 1892 but not seen until Wendell Stanley used the electron microscope in 1935."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which entry–exit pair fits HIV?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enters by membrane fusion; leaves by budding"
+    },
+    {
+     "letter": "B",
+     "text": "Enters by direct penetration; leaves by exocytosis"
+    },
+    {
+     "letter": "C",
+     "text": "Enters by membrane fusion; leaves by exocytosis inside lysosomes"
+    },
+    {
+     "letter": "D",
+     "text": "Enters by endocytosis; leaves by lysis"
+    }
+   ],
+   "correct": "A",
+   "explanation": "HIV enters by membrane fusion (like SARS-CoV-2) and is seen budding out of CD4 helper T cells."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "A new drug blocks influenza's hemagglutinin. At which step would it act, and what would happen?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Attachment — the virus couldn't bind the host cell's receptors, so it couldn't enter"
+    },
+    {
+     "letter": "B",
+     "text": "Biosynthesis — the host couldn't copy the segmented RNA genome"
+    },
+    {
+     "letter": "C",
+     "text": "Uncoating — the capsid couldn't break apart inside the vesicle"
+    },
+    {
+     "letter": "D",
+     "text": "Release — new virions would stay tethered to the host cell after budding"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Hemagglutinin is used for attachment; neuraminidase is used for release."
+  },
+  {
+   "num": 11,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the SARS-CoV-2 infection cycle is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "New virions get their envelope as they bud through the plasma membrane."
+    },
+    {
+     "letter": "B",
+     "text": "New virions leave the cell by exocytosis as 'waste products.'"
+    },
+    {
+     "letter": "C",
+     "text": "Its spike protein binds the ACE2 receptor on respiratory cells."
+    },
+    {
+     "letter": "D",
+     "text": "New virions are assembled with envelopes made from rough ER and Golgi membrane."
+    },
+    {
+     "letter": "E",
+     "text": "It enters by membrane fusion, releasing its single-stranded RNA genome."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — SARS-CoV-2 virions already have their envelope before release; they don't need to bud through the plasma membrane."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about how viruses leave host cells is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Exocytosis can be used by both naked and enveloped viruses."
+    },
+    {
+     "letter": "B",
+     "text": "When thousands of virions bud at once, the cell loses so much membrane that it is likely to die."
+    },
+    {
+     "letter": "C",
+     "text": "Budding always kills the host cell, even when only a few virions leave."
+    },
+    {
+     "letter": "D",
+     "text": "Enveloped viruses are typically released by budding."
+    },
+    {
+     "letter": "E",
+     "text": "Naked viruses are typically released by lysis."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False — if only a couple of viruses bud out, the cell isn't harmed much."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about retroviruses (instructor slides) is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "HIV is a retrovirus."
+    },
+    {
+     "letter": "B",
+     "text": "A retrovirus uses reverse transcriptase to turn its DNA genome into RNA."
+    },
+    {
+     "letter": "C",
+     "text": "The reverse-transcribed viral DNA is built into the host's DNA."
+    },
+    {
+     "letter": "D",
+     "text": "Retroviruses have RNA genomes."
+    },
+    {
+     "letter": "E",
+     "text": "A retrovirus built into the host's DNA is called a provirus."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — reverse transcriptase makes DNA from the RNA genome."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Compare influenza and SARS-CoV-2 in four ways: how each enters the cell, where each gets its envelope, how each leaves, and which drug from the course works against each (and why not the other).",
+   "options": [],
+   "correct": null,
+   "explanation": "Entry: influenza binds receptors with hemagglutinin and is taken in by endocytosis; SARS-CoV-2's spike binds ACE2 and enters by membrane fusion. Envelope: influenza takes a patch of plasma membrane as it buds out; SARS-CoV-2 is assembled inside with envelope from rough ER and Golgi membrane. Exit: influenza buds and needs neuraminidase to break free; SARS-CoV-2 travels in de-acidified lysosomes and leaves by exocytosis. Drugs: Tamiflu blocks neuraminidase, so it works on influenza but not SARS-CoV-2 (which doesn't bud); remdesivir disrupts the viral polymerase copying SARS-CoV-2's RNA genome, best taken early."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Explain how a person can be HIV-positive for many years before developing AIDS. Use host range, membrane fusion, retrovirus, reverse transcriptase, provirus, and persistent infection in your answer.",
+   "options": [],
+   "correct": null,
+   "explanation": "HIV has a narrow host range: its proteins bind CD4, found on human CD4+ helper T cells. It enters by membrane fusion. HIV is a retrovirus: its RNA genome is turned into DNA by reverse transcriptase, and that DNA is built into the host chromosome as a provirus, which is copied whenever the cell divides and is very hard for host defenses to recognize and destroy. This is a persistent infection: new viruses are made at a very slow rate — enough to be detected (HIV-positive) but not enough to cause disease. Months or many years later it may shift into a productive phase, producing lots of virus; that is when the person develops AIDS."
+  }
+ ]
+}

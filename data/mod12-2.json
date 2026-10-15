@@ -1,0 +1,356 @@
+{
+ "slug": "mod12-2",
+ "title": "Module 12 — Quiz 2",
+ "subtitle": "Bacterial Genetics — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Why did Griffith need his first three injections (live S, live R, heat-killed S) before the mixture result meant anything?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They showed that mice resist pneumonia after one injection, so the final mouse had to be a new, untreated animal"
+    },
+    {
+     "letter": "B",
+     "text": "They showed live S kills, live R is harmless, and dead S alone is harmless — so a death from the mixture had to come from something passing from dead S into live R"
+    },
+    {
+     "letter": "C",
+     "text": "They showed that the capsule is made of DNA, so the mixture could be used to measure how much DNA the S cells contained"
+    },
+    {
+     "letter": "D",
+     "text": "They showed that heat makes R cells pathogenic, so the mixture death came from the heating step rather than from the S cells"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The controls ruled out each ingredient alone. Only the mixture killed — and the dead mouse was full of living S cells."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "If PROTEIN had been the genetic material, what results would Avery have expected from his two enzyme trials?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Protease added: mouse lives. DNase added: mouse dies."
+    },
+    {
+     "letter": "B",
+     "text": "Both trials: mouse dies, since the enzymes can't enter the S cells."
+    },
+    {
+     "letter": "C",
+     "text": "Both trials: mouse lives, since both enzymes destroy the capsule."
+    },
+    {
+     "letter": "D",
+     "text": "Protease added: mouse dies. DNase added: mouse lives."
+    }
+   ],
+   "correct": "A",
+   "explanation": "Destroying the true genetic material should block transformation. Avery actually saw the reverse (protease → dies, DNase → lives), pointing to DNA."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "The lecture compares DNA to a house key. Which two jobs of genetic material does the key represent?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Its metal stands for the sugar-phosphate backbone, and its teeth stand for the hydrogen bonds between strands"
+    },
+    {
+     "letter": "B",
+     "text": "Its shape stands for the capsule, and unlocking a door stands for transformation in Griffith's experiment"
+    },
+    {
+     "letter": "C",
+     "text": "Its grooves stand for stored information, and the puzzle of a key copying itself stands for replication with great accuracy"
+    },
+    {
+     "letter": "D",
+     "text": "Its grooves stand for the double helix, and turning it in a lock stands for gyrase uncoiling the DNA"
+    }
+   ],
+   "correct": "C",
+   "explanation": "DNA must (1) copy itself with great fidelity and (2) encode genetic information — the key's grooves are encoded information."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "The lecture describes bacterial DNA as 'two rubber bands braided together' and eukaryotic DNA as 'two shoelaces braided together.' What does the comparison capture, along with the matching chromosome count?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bacterial DNA is single-stranded and stretchy; eukaryotic DNA is double-stranded and stiff, with a single chromosome in each case"
+    },
+    {
+     "letter": "B",
+     "text": "Bacterial DNA is linear with many chromosomes; eukaryotic DNA is circular with one chromosome inside the nucleus"
+    },
+    {
+     "letter": "C",
+     "text": "Both are circular, but bacterial loops are smaller, so bacteria have more chromosomes than eukaryotes"
+    },
+    {
+     "letter": "D",
+     "text": "Bacterial DNA is double-stranded and circular with a single chromosome; eukaryotic DNA is double-stranded and linear with multiple chromosomes"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Rubber bands = closed loops (circular); shoelaces = ends (linear). Bacteria typically have one chromosome; humans have 46."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Which two enzymes does the LAGGING strand need over and over, while the leading strand needs them only once or not at all?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Helicase (to restart the fork) and DNA polymerase (which only works on the lagging strand)"
+    },
+    {
+     "letter": "B",
+     "text": "Primase (a new primer for each fragment) and ligase (to glue the Okazaki fragments together)"
+    },
+    {
+     "letter": "C",
+     "text": "Gyrase (to supercoil each fragment) and primase (to remove the RNA primers)"
+    },
+    {
+     "letter": "D",
+     "text": "Gyrase (to uncoil each fragment) and helicase (to unzip each fragment separately)"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The lagging strand is built in Okazaki fragments, each starting from a new RNA primer and later joined by ligase. The leading strand is one continuous piece."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "How does a bacterium copy one of its plasmids?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "By cutting the plasmid open with ligase so it becomes linear like eukaryotic DNA, then copying it from each free end inward"
+    },
+    {
+     "letter": "B",
+     "text": "By transcribing the plasmid into RNA and then copying that RNA back into DNA, because plasmids are too small for helicase to bind"
+    },
+    {
+     "letter": "C",
+     "text": "By building one continuous leading strand all the way around the loop from a single primer, since a circle has no lagging strand"
+    },
+    {
+     "letter": "D",
+     "text": "The same way it copies its chromosome — starting at an origin where helicases bind, with two replication forks moving in opposite directions around the loop"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Lecture: 'this is also how plasmids get copied' — origin, two helicases, two forks."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Cipro stops a bacterial population from doubling. Which explanation links its target to the generation time?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It inhibits DNA polymerase in both bacteria and humans, which is why it is only given in small doses that slow, rather than stop, bacterial growth"
+    },
+    {
+     "letter": "B",
+     "text": "It inhibits ligase, so the cell can't seal its membrane during binary fission — the chromosome is copied normally, but splitting fails and the cell bursts"
+    },
+    {
+     "letter": "C",
+     "text": "It inhibits gyrase, so the supercoiled chromosome can't be uncoiled and copied — and copying the chromosome is most of the generation time and must happen before binary fission"
+    },
+    {
+     "letter": "D",
+     "text": "It inhibits helicase, so the two finished chromosomes stay zipped together and can't be separated into the two daughter cells at division"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Cipro inhibits bacterial gyrase → no uncoiling → no replication → no division. Replication takes most of the ~30-minute generation time."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "According to the lecture, what would happen if E. coli's DNA polymerase were put into a human cell?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It would not work at all, because DNA polymerase is the one enzyme that differs between bacteria and humans"
+    },
+    {
+     "letter": "B",
+     "text": "It would only work on the lagging strand, because human cells build their leading strand with gyrase"
+    },
+    {
+     "letter": "C",
+     "text": "It would build DNA just fine, adding nucleotides complementary to the human DNA, because polymerase is fairly interchangeable between species"
+    },
+    {
+     "letter": "D",
+     "text": "It would build bacterial DNA sequences instead of human ones, because the enzyme carries E. coli's genes with it"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Ligase, polymerase, primase, and helicase are pretty interchangeable. Gyrase is the one that is not."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Why does Craig Venter say he did NOT create artificial life with Mycoplasma genitalium?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "He built the chromosome from the human genome he had helped sequence, so the result was a human-bacterial hybrid, not new life"
+    },
+    {
+     "letter": "B",
+     "text": "He built and inserted the 'software' (a synthetic chromosome), but still relied on the existing cell's membrane, ribosomes, and other machinery"
+    },
+    {
+     "letter": "C",
+     "text": "He only sequenced the 521 genes and never synthesized a new chromosome, so nothing artificial was ever put into the cell"
+    },
+    {
+     "letter": "D",
+     "text": "The synthetic chromosome never worked, so the cell only survived because some of its original chromosome had been left inside"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Venter's view: he provided the programming but used a cell that already had its membrane and ribosomes. He is now trying to build a whole cell."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "What does the 'deoxy' in deoxyribose refer to?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "One carbon of the sugar has just an H where ribose has an OH — the sugar is 'without' that oxygen atom"
+    },
+    {
+     "letter": "B",
+     "text": "The sugar has no phosphate group attached, so it can't join the backbone"
+    },
+    {
+     "letter": "C",
+     "text": "The sugar contains four carbons instead of the five found in ribose"
+    },
+    {
+     "letter": "D",
+     "text": "The sugar has lost its nitrogenous base, so it can't pair with another strand"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Deoxyribose is a 5-carbon sugar like ribose, minus one oxygen (H instead of OH)."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Since primase and DNA polymerase can only build in the 5'→3' direction, to which end of a growing strand is each new nucleotide added?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The 3' end, which finishes with an OH group"
+    },
+    {
+     "letter": "B",
+     "text": "The 5' end, which begins with a phosphate group"
+    },
+    {
+     "letter": "C",
+     "text": "Either end, depending on which strand is the template"
+    },
+    {
+     "letter": "D",
+     "text": "The middle of the strand, where the replication fork opens"
+    }
+   ],
+   "correct": "A",
+   "explanation": "A strand runs from a 5' phosphate to a 3' OH. Building 5'→3' means each new nucleotide is added at the 3' OH end."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the DNA replication enzymes is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Helicase unzips and unwinds the double helix, forming a replication fork."
+    },
+    {
+     "letter": "B",
+     "text": "Primase builds a short primer out of DNA nucleotides."
+    },
+    {
+     "letter": "C",
+     "text": "Gyrase removes the supercoiling from the chromosome."
+    },
+    {
+     "letter": "D",
+     "text": "Ligase glues Okazaki fragments together."
+    },
+    {
+     "letter": "E",
+     "text": "DNA polymerase extends the new strand and later replaces the primer with DNA."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — the primer is made of RNA, not DNA."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the history of DNA discovery is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "After Griffith's mixture killed the mouse, its body held only living R cells."
+    },
+    {
+     "letter": "B",
+     "text": "The 1962 Nobel Prize went to Watson, Crick, and Wilkins."
+    },
+    {
+     "letter": "C",
+     "text": "Avery's protease/DNase experiment was done in 1944."
+    },
+    {
+     "letter": "D",
+     "text": "Griffith's experiment was done in 1928."
+    },
+    {
+     "letter": "E",
+     "text": "Hershey and Chase confirmed in 1952 that DNA is the genetic material."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — the dead mouse was swarming with living S cells, even though no living S cells had been injected."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Explain how three features of DNA's structure — complementary base pairing, hydrogen bonds between strands, and antiparallel strands — each matter for replication.",
+   "options": [],
+   "correct": null,
+   "explanation": "Complementary base pairing (A–T, G–C) means each strand carries the information to rebuild the other, so replication is accurate: separate the strands and add the matching nucleotides, giving two identical molecules (each with one old and one new strand — semi-conservative). Hydrogen bonds between the bases are weak enough for helicase to unzip the strands into a replication fork, while the covalent sugar-phosphate backbone keeps each strand intact. Antiparallel strands run in opposite directions, and since primase and polymerase only build 5'→3', one daughter strand (leading) is built continuously toward the fork while the other (lagging) is built away from it in Okazaki fragments that ligase joins."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Using E. coli, explain the difference between genotype and phenotype and how a gene connects the two.",
+   "options": [],
+   "correct": null,
+   "explanation": "Genotype is the genes and other nucleotide sequences in the genome — the order of A, G, C, and T. Phenotype is the physical, behavioral, and metabolic traits that result, such as E. coli's rod shape, being Gram-negative, and being a facultative anaerobe. A gene is a region of the chromosome that encodes the primary structure (amino acid order) of a specific protein; the proteins a cell makes carry out its functions and build its structures, so the genotype determines the phenotype. E. coli has about 5,000 genes."
+  }
+ ]
+}

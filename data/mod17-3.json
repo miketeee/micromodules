@@ -1,0 +1,360 @@
+{
+ "slug": "mod17-3",
+ "title": "Module 17 — Quiz 3",
+ "subtitle": "Viruses — Part 3",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A new drug blocks reverse transcriptase. Why would it stop new HIV infections of cells but not cure cells that are already infected?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It blocks membrane fusion, which already-infected cells no longer need, so they keep making virus"
+    },
+    {
+     "letter": "B",
+     "text": "It blocks RNA → DNA conversion in newly entered virions, but cells that already carry a provirus can keep transcribing it into new viral RNA"
+    },
+    {
+     "letter": "C",
+     "text": "It destroys the provirus in infected cells, but it can't get into uninfected cells to protect them"
+    },
+    {
+     "letter": "D",
+     "text": "It blocks budding, which only happens in newly infected cells, so older infected cells keep releasing virus"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Reverse transcription happens right after uncoating. Once the dsDNA is in the chromosome, the provirus is the template — no reverse transcriptase needed."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "If one normal cell divided 50 times and every daughter cell survived and also divided, about how many cells would result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "About 10^15 (2^50 ≈ 1.1 quadrillion)"
+    },
+    {
+     "letter": "B",
+     "text": "About 100 (two new cells from each of the 50 divisions)"
+    },
+    {
+     "letter": "C",
+     "text": "About 10^6 (one million, the size of a small tumor)"
+    },
+    {
+     "letter": "D",
+     "text": "About 2,500 (50 cells, each dividing 50 times)"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Each division doubles the count: 2^50 ≈ 1.1 × 10^15. Normal biopsy cells stop after about 50 divisions; HeLa cells never stop."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "A newly discovered human virus infects only one type of human liver cell. Which culture method from the course would most likely be needed?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bacterial cultures in solid or liquid media, as with phages, since bacteria are easy to grow"
+    },
+    {
+     "letter": "B",
+     "text": "Plain nutrient agar, since viruses grow on any rich medium once they are in a lab"
+    },
+    {
+     "letter": "C",
+     "text": "Cultures of that specific human cell type, as with HIV — costly and time-consuming"
+    },
+    {
+     "letter": "D",
+     "text": "Embryonated eggs, as with influenza, since eggs are cheap and support most viruses"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Viruses only grow in living cells; a narrow host range means you must grow the specific cells it infects."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Why was filtering the ground-up tumor essential to Rous's conclusion that a virus caused the sarcoma?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The filter removed the cells, so the new tumor couldn't have come from transplanted cancer cells — the cause had to be something smaller"
+    },
+    {
+     "letter": "B",
+     "text": "The filter concentrated the cancer cells, so the injection held enough of them to start a new tumor"
+    },
+    {
+     "letter": "C",
+     "text": "The filter removed the sand, which would otherwise have irritated the muscle and caused the tumor"
+    },
+    {
+     "letter": "D",
+     "text": "The filter trapped the virus, and the bacteria that passed through were shown to cause the sarcoma"
+    }
+   ],
+   "correct": "A",
+   "explanation": "A cell-free filtrate causing cancer means the agent passed through a filter that traps cells — a virus."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Why must HIV cultures of human cells be passaged (moved to fresh cultures) again and again?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Passaging removes the egg proteins that would otherwise block HIV from entering"
+    },
+    {
+     "letter": "B",
+     "text": "The cells turn into immortal HeLa-like cells unless they are moved to new dishes"
+    },
+    {
+     "letter": "C",
+     "text": "HIV only grows in cells younger than one day, so fresh cells are added each morning"
+    },
+    {
+     "letter": "D",
+     "text": "The viruses destroy the cells while replicating, so new cells are needed to keep the culture going"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Lecture: you have to passage the cells from generation to generation because the viruses destroy them in the process of replicating."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "When culturing viruses in embryonated eggs, why might different viruses be injected at different marked spots?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Viruses must always be injected away from the embryo so the embryo isn't infected"
+    },
+    {
+     "letter": "B",
+     "text": "Each spot is for a different dose of the same virus"
+    },
+    {
+     "letter": "C",
+     "text": "The marks show where the egg-allergy proteins collect, so they can be avoided"
+    },
+    {
+     "letter": "D",
+     "text": "Different viruses grow best in different regions — the amniotic fluid, the embryo itself, or the yolk sac"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Injection sites include the amniotic fluid, the embryo, or the yolk sac, depending on where the virus grows best."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Why did signing away rights to her biopsy seem routine for Henrietta Lacks at the time?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Immortal cell lines had already been grown from many other patients' biopsies"
+    },
+    {
+     "letter": "B",
+     "text": "Biopsy samples were normally just used for a diagnosis and then incinerated"
+    },
+    {
+     "letter": "C",
+     "text": "Hospitals routinely sold biopsy samples to drug companies, and patients expected it"
+    },
+    {
+     "letter": "D",
+     "text": "She had been told her cells would be used to make a cervical cancer vaccine"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Lecture: normally a biopsy is diagnosed and then the cells are destroyed — but her cells 'took a life of their own on.'"
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Cats get FIV, which replicates like HIV. Combining Modules 16 and 17, which statement is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "FIV is a dsDNA virus that can infect both cats and humans who handle infected cats"
+    },
+    {
+     "letter": "B",
+     "text": "FIV is a retrovirus using reverse transcriptase like HIV, but its narrow host range keeps it from infecting humans"
+    },
+    {
+     "letter": "C",
+     "text": "FIV and HIV are the same virus, adapted to the different body temperatures of cats and humans"
+    },
+    {
+     "letter": "D",
+     "text": "FIV is a −ssRNA virus, so unlike HIV it never forms a provirus in the cat's cells"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Immunodeficiency viruses are retroviruses (FIV for cats, SIV for monkeys, HIV for humans); each has its own narrow host range."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Suppose the naked +ssRNA genome of a coronavirus (no capsid, no envelope) were injected straight into a host cell's cytoplasm. Could it start an infection?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "No — + sense RNA must first be reverse-transcribed into DNA, and the virion's enzyme was left behind"
+    },
+    {
+     "letter": "B",
+     "text": "No — without its spike proteins attached, the genome can't be transcribed or translated by the host"
+    },
+    {
+     "letter": "C",
+     "text": "Yes — ribosomes can translate + sense RNA directly, including the gene for the polymerase that copies the genome"
+    },
+    {
+     "letter": "D",
+     "text": "No — + sense RNA can't be read by ribosomes until it is copied into − sense by an enzyme in the capsid"
+    }
+   ],
+   "correct": "C",
+   "explanation": "+ssRNA is 'sense' RNA: it can be directly translated into protein. The host makes the viral polymerase from it and copying begins."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "About how many years passed between Rous linking a virus to cancer in chickens (1911) and Epstein and Barr linking a virus to human cancer (around 1964)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "About 53 years"
+    },
+    {
+     "letter": "B",
+     "text": "About 23 years"
+    },
+    {
+     "letter": "C",
+     "text": "About 73 years"
+    },
+    {
+     "letter": "D",
+     "text": "About 13 years"
+    }
+   ],
+   "correct": "A",
+   "explanation": "1964 − 1911 ≈ 53 years."
+  },
+  {
+   "num": 11,
+   "type": "Multi-statement",
+   "prompt": "Which statement about culturing viruses is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Growing viruses in animals like mice raises cost and ethical concerns."
+    },
+    {
+     "letter": "B",
+     "text": "People with egg allergies are asked about them before a flu shot because the vaccine virus is grown in eggs."
+    },
+    {
+     "letter": "C",
+     "text": "Bacteriophages can only be grown in liquid cultures."
+    },
+    {
+     "letter": "D",
+     "text": "Viruses of eukaryotic cells can be grown in live animals, embryonated eggs, or cell cultures."
+    },
+    {
+     "letter": "E",
+     "text": "Viruses will only grow in living cells."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False — phages can be grown easily in bacterial cultures, both solid and liquid."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about HPV and cervical cancer is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "HPV papillomas on the cervix always turn into cancer."
+    },
+    {
+     "letter": "B",
+     "text": "The cervix is a sphincter between the vagina and the uterus."
+    },
+    {
+     "letter": "C",
+     "text": "As tumors advance they grow their own blood vessels, which causes bleeding."
+    },
+    {
+     "letter": "D",
+     "text": "HPV makes a protein that inactivates p53."
+    },
+    {
+     "letter": "E",
+     "text": "Cervical cancer caught early is very treatable."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — papillomas are often harmless; an HPV infection can lead to cancer but doesn't always."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about viral biosynthesis is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A −ssRNA genome must be copied into + sense before it can be translated."
+    },
+    {
+     "letter": "B",
+     "text": "A dsDNA virus needs reverse transcriptase to make its mRNA."
+    },
+    {
+     "letter": "C",
+     "text": "A retrovirus's dsDNA copy becomes a provirus in the host chromosome."
+    },
+    {
+     "letter": "D",
+     "text": "Whether making proteins or copying the genome, a template is always required."
+    },
+    {
+     "letter": "E",
+     "text": "A +ssRNA genome can be translated directly by ribosomes."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — a dsDNA virus uses ordinary transcription. Reverse transcriptase belongs to retroviruses."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "A lab needs to culture three viruses: a bacteriophage, influenza (for a vaccine), and HIV. Describe the best method for each and explain why.",
+   "options": [],
+   "correct": null,
+   "explanation": "All viruses only grow inside living cells. Bacteriophage: grow it in a bacterial culture (solid or liquid), since bacteria are easy and cheap to culture. Influenza: inject it into embryonated (fertilized) eggs — a cheap, self-contained, easily disposed of system; flu grows very well in eggs, which is why people are asked about egg allergies before a flu shot. HIV: it has a narrow host range (CD4+ helper T cells), so the lab must culture those specific human cells, passaging them repeatedly because the virus destroys them — costly and time-consuming. Live animals are another option for some viruses but bring cost, mess, and ethical concerns."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Compare the filtrate experiments of Ivanovsky, d'Hérelle, and Rous. For each, give the starting material, what the filtrate did, and what it showed.",
+   "options": [],
+   "correct": null,
+   "explanation": "Ivanovsky (1892): ground-up diseased tobacco plants passed through a filter that traps bacteria; the cell-free filtrate gave healthy plants tobacco mosaic disease — the first 'filterable infectious poison' (virus). d'Hérelle (1916): a culture of dying bacteria passed through a filter; the filtrate killed bacteria in fresh cultures, making plaques — he discovered bacteriophage (and went on to phage therapy). Rous (1911): chicken sarcoma tissue ground with sand and filtered; the cell-free filtrate caused sarcoma in young chickens — the first link between a virus and cancer (Rous sarcoma virus; Nobel 1966). In all three, something smaller than a cell passed through the filter and caused the effect."
+  }
+ ]
+}

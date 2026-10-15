@@ -1,0 +1,360 @@
+{
+ "slug": "mod15-3",
+ "title": "Module 15 — Quiz 3",
+ "subtitle": "Viruses — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A technician plates 0.1 mL of a 1/1,000,000 dilution of phage stock on a bacterial lawn and counts 50 plaques. About how many phages per mL were in the original stock?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "5 × 10^7 (50 million)"
+    },
+    {
+     "letter": "B",
+     "text": "5 × 10^6 (5 million)"
+    },
+    {
+     "letter": "C",
+     "text": "5 × 10^5 (500 thousand)"
+    },
+    {
+     "letter": "D",
+     "text": "5 × 10^8 (500 million)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Each plaque = one original phage. 50 plaques ÷ 0.1 mL = 500 per mL of the dilution; × 1,000,000 = 5 × 10^8 per mL."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "One phage infects a bacterium and about 300 phages burst out. If each of those infects a new cell and each cell releases about 300, how many phages are there after the second round?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "About 90,000"
+    },
+    {
+     "letter": "B",
+     "text": "About 900"
+    },
+    {
+     "letter": "C",
+     "text": "About 3,000"
+    },
+    {
+     "letter": "D",
+     "text": "About 600"
+    }
+   ],
+   "correct": "A",
+   "explanation": "300 × 300 = 90,000 — why phage therapy is described as self-amplifying."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "A patient with an E. coli infection is mistakenly given a phage that infects only Streptococcus pyogenes. What happens?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The phage infects E. coli anyway, since any phage can infect any bacterium once it is inside the body"
+    },
+    {
+     "letter": "B",
+     "text": "The phage enters the lysogenic cycle in the patient's cells and waits until S. pyogenes shows up"
+    },
+    {
+     "letter": "C",
+     "text": "The phage switches to infecting the patient's own gut-lining cells, since it can't find its usual host"
+    },
+    {
+     "letter": "D",
+     "text": "The phage finds no host cells it can infect, can't reproduce, and eventually degrades — and the E. coli infection continues"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Phages are highly specific. Without matching host cells they can't multiply and simply break down (self-eliminating)."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "A throat culture grows Streptococcus pyogenes, but no scarlet fever toxin is detected. Which explanation fits the lecture?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Scarlet fever toxin is made only by Clostridium botulinum"
+    },
+    {
+     "letter": "B",
+     "text": "This strain doesn't carry the prophage that has the scarlet fever toxin gene"
+    },
+    {
+     "letter": "C",
+     "text": "The patient's antibodies erased the toxin gene from the bacterial chromosome"
+    },
+    {
+     "letter": "D",
+     "text": "The bacteria are in the lytic cycle, which stops all toxin production"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The toxin gene is on prophage DNA, not in the bacterial genome. Only lysogenized strains can make it."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "A lysogenized culture is kept in ideal, stress-free conditions for months. What happens to the prophage?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It bursts all the cells within a day or two, since a prophage always switches to the lytic cycle quickly"
+    },
+    {
+     "letter": "B",
+     "text": "It is cut out and digested by the host, since the host recognizes the prophage as foreign DNA"
+    },
+    {
+     "letter": "C",
+     "text": "It stays integrated and is copied into every new cell; no phages are made, since there is no stress to trigger induction"
+    },
+    {
+     "letter": "D",
+     "text": "It turns into a plasmid and is passed to neighboring cells, so the original cells lose it over time"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Induction occurs when host cells become stressed. Without stress, the prophage rides along through every division."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Which pair of course viruses differ in ALL three features: nucleic acid type, capsid shape, and envelope?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "HPV and SARS-CoV-2"
+    },
+    {
+     "letter": "B",
+     "text": "Influenza and tobacco mosaic virus"
+    },
+    {
+     "letter": "C",
+     "text": "SARS-CoV-2 and influenza"
+    },
+    {
+     "letter": "D",
+     "text": "Ebola virus and tobacco mosaic virus"
+    }
+   ],
+   "correct": "A",
+   "explanation": "HPV: DNA, polyhedral, naked. SARS-CoV-2: RNA, helical, enveloped. SARS-CoV-2/influenza are both RNA, helical, enveloped; Ebola and TMV are both helical."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Why does the amount of phage in phage therapy rise and fall with the infection?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The patient's own cells make more phages when the infection is worse, and stop when the fever breaks"
+    },
+    {
+     "letter": "B",
+     "text": "Phages multiply only inside the target bacteria, so their numbers rise with the infection and fall once no hosts are left"
+    },
+    {
+     "letter": "C",
+     "text": "The doctor adds more phages each day based on the patient's symptoms, the same way antibiotic doses are adjusted"
+    },
+    {
+     "letter": "D",
+     "text": "Phages sense how many bacteria are present and release a chemical signal that tells them how fast to divide"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Small dose, self-amplifying, self-eliminating: a phage is a non-living obligate intracellular parasite."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which item from the instructor's 'properties of viruses' checklist is something viruses SHARE with living organisms?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They have their own machinery for synthesizing proteins"
+    },
+    {
+     "letter": "B",
+     "text": "They can mutate and acquire adaptations"
+    },
+    {
+     "letter": "C",
+     "text": "They replicate themselves without a host"
+    },
+    {
+     "letter": "D",
+     "text": "They process energy"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The checklist says viruses lack metabolic enzymes and protein-synthesis machinery, don't process energy, and can't replicate themselves — but they can mutate and adapt."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "If a C. botulinum culture were 'cured' of its prophage, what would change?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It could no longer make botulism toxin, since that gene is on the prophage"
+    },
+    {
+     "letter": "B",
+     "text": "It would immediately burst, since every lysogenized cell needs its prophage to survive"
+    },
+    {
+     "letter": "C",
+     "text": "Nothing — the toxin gene is in the bacterial chromosome"
+    },
+    {
+     "letter": "D",
+     "text": "It would make more botulism toxin, since the phage no longer competes for resources"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Botulism toxin is encoded on prophage DNA, not the bacterial genome."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "A phage's DNA is destroyed right after it is injected, but the empty capsid stays attached outside. What happens?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The bacterium uses the capsid as a template to copy the phage"
+    },
+    {
+     "letter": "B",
+     "text": "The empty capsid enters the cell and builds new phages"
+    },
+    {
+     "letter": "C",
+     "text": "No new phages are made, since the genome carries all the instructions"
+    },
+    {
+     "letter": "D",
+     "text": "The cell bursts anyway, releasing about 300 empty capsids"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Only the genome enters; it directs biosynthesis. Without it, the host has no instructions to build phages."
+  },
+  {
+   "num": 11,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the history of virology is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The word 'virus' wasn't used until the 1930s."
+    },
+    {
+     "letter": "B",
+     "text": "Wendell Stanley saw the first virus with an electron microscope in 1892."
+    },
+    {
+     "letter": "C",
+     "text": "Félix d'Hérelle discovered bacteriophage around 1916."
+    },
+    {
+     "letter": "D",
+     "text": "The first virus seen with the electron microscope was tobacco mosaic virus."
+    },
+    {
+     "letter": "E",
+     "text": "Ivanovsky discovered the 'filterable infectious poison' around 1892."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — Stanley saw viruses in 1935; electron microscopes were invented in the 1930s."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the lytic cycle is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "During release, the host cell lyses and new virions burst out."
+    },
+    {
+     "letter": "B",
+     "text": "Lysozyme helps the phage genome get through the peptidoglycan cell wall."
+    },
+    {
+     "letter": "C",
+     "text": "During biosynthesis, the phage uses its own ribosomes to make capsid proteins."
+    },
+    {
+     "letter": "D",
+     "text": "The phage stores energy in its structure when assembled, like a jack-in-the-box."
+    },
+    {
+     "letter": "E",
+     "text": "During maturation, viral components are assembled into new virions."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False — viruses have no ribosomes; the host cell's machinery makes the phage parts."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about plaque assays is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Each plaque is a colony of phages growing on top of the agar."
+    },
+    {
+     "letter": "B",
+     "text": "Serial dilution lets you back-calculate the phage concentration."
+    },
+    {
+     "letter": "C",
+     "text": "Each plaque represents one phage in the original sample."
+    },
+    {
+     "letter": "D",
+     "text": "The bacteria are plated thickly enough to form a lawn."
+    },
+    {
+     "letter": "E",
+     "text": "A plaque is a clear zone where phages killed bacteria and spread to neighbors."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — a plaque is a zone of dead bacteria (a 'ring of death'), not a colony."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Explain why viruses are called non-living obligate intracellular parasites. Use the lytic cycle to show what a phage brings to the infection and what the host cell must supply.",
+   "options": [],
+   "correct": null,
+   "explanation": "Viruses don't meet the criteria for life: they lack enzymes for metabolism and machinery for making proteins, don't process energy, and can't reproduce on their own. They are obligated to get inside a cell to be reproduced, and the cell is harmed or killed in the process (parasite). In the lytic cycle the phage brings only a few things: attachment proteins/tail fibers to bind the host, lysozyme, and its genome (DNA) — the instructions — which is injected using energy stored when the phage was assembled. The host supplies everything else: it copies the phage genome and transcribes and translates its genes (biosynthesis), and the parts are assembled into new virions (maturation) until the cell lyses and releases them."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "A patient has a resistant bacterial gut infection. Compare treating it with a broad antibiotic, with phage therapy, and with a fecal transplant, giving one advantage and one drawback of each.",
+   "options": [],
+   "correct": null,
+   "explanation": "Broad antibiotic (e.g., Cipro): advantage — works without knowing the exact microbe; drawbacks — non-specific, killing good bacteria (setting up other infections like yeast infections), needs large doses for 10–14 days, and resistance is growing. Phage therapy: advantages — highly specific (only the target bacteria), small self-amplifying dose, self-eliminating; drawback — you must identify the exact bacterium to match a phage, which adds tests and cost. Fecal transplant (from a healthy donor, like d'Hérelle's filtrate idea without filtering): advantage — delivers a mix of good phages and microbes without isolating a specific phage, and it is working against C. difficile; drawback — it is non-specific and less controlled."
+  }
+ ]
+}

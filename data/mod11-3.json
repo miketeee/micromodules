@@ -1,0 +1,360 @@
+{
+ "slug": "mod11-3",
+ "title": "Module 11 — Quiz 3",
+ "subtitle": "Eukaryotes — Helminths",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "An adult C. elegans has 959 cells, and 131 cells are told to destroy themselves during development. How many cells did development produce in all?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "1,261"
+    },
+    {
+     "letter": "B",
+     "text": "1,090"
+    },
+    {
+     "letter": "C",
+     "text": "959"
+    },
+    {
+     "letter": "D",
+     "text": "828"
+    }
+   ],
+   "correct": "B",
+   "explanation": "959 surviving cells + 131 programmed deaths = 1,090 cells produced. The deaths explain the odd final number."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "A small, flat, unsegmented worm found only in the liver of one host species is first suspected to be a tapeworm. Which observation rules out a cestode?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It has an oral sucker leading into an intestine"
+    },
+    {
+     "letter": "B",
+     "text": "It has a chitin cuticle"
+    },
+    {
+     "letter": "C",
+     "text": "It produces both eggs and sperm"
+    },
+    {
+     "letter": "D",
+     "text": "It is flat, giving it a large surface area"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Cestodes have no mouth or digestive tract. An oral sucker and intestine point to a trematode (fluke) — here, Clonorchis, the liver fluke. Cuticle, flat body, and hermaphroditism are shared."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Guinea-worm eggs are found in rivers and creeks. Which step would most directly cut new Guinea-worm infections in a village?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Screening children with the scotch-tape test, since the eggs collect around the anus"
+    },
+    {
+     "letter": "B",
+     "text": "Treating village dogs with heartworm pills, since Guinea worms spread to people from pets"
+    },
+    {
+     "letter": "C",
+     "text": "Giving people safe drinking water instead of untreated river and creek water"
+    },
+    {
+     "letter": "D",
+     "text": "Handing out mosquito nets, since Guinea-worm eggs are carried by the same mosquitoes as malaria"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Dracunculus eggs live in rivers and creeks. Mosquito nets target malaria and heartworm; the tape test is for pinworms."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Suppose a drug stopped Ascaris larvae from leaving the intestine and entering blood vessels. What would happen?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Nothing would change, because Ascaris larvae only visit the lungs to avoid the host's digestive enzymes"
+    },
+    {
+     "letter": "B",
+     "text": "The larvae couldn't reach the oxygen-rich lungs, so they couldn't complete the stage needed to grow into adults"
+    },
+    {
+     "letter": "C",
+     "text": "The larvae would grow into adults faster, since staying in the gut keeps them close to the host's food"
+    },
+    {
+     "letter": "D",
+     "text": "The larvae would skip the adult stage and lay eggs in the intestine right away, so more eggs would be shed"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Larval development needs lots of oxygen, which the gut lacks — so larvae go via blood to the lungs, then up the trachea and are swallowed."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Which organism reproduces sexually even though only ONE individual is involved?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A bread mold making sporangiospores inside a sporangium at the top of its stalk"
+    },
+    {
+     "letter": "B",
+     "text": "Taenia, whose proglottids make both sperm and eggs that are not genetically identical"
+    },
+    {
+     "letter": "C",
+     "text": "Candida, whose buds carry a mix of genes from the parent cell and the cell it budded from"
+    },
+    {
+     "letter": "D",
+     "text": "A bacterium copying its chromosome and dividing in two by binary fission"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Tapeworm self-fertilization is still sexual, because its sperm and eggs differ genetically. Budding, sporangiospores, and binary fission are asexual."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "The lecture says the name 'blood thinner' is misleading for drugs like hirudin. Why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The drug actually thickens the blood but slows the heart"
+    },
+    {
+     "letter": "B",
+     "text": "The drug removes red blood cells so less blood is left"
+    },
+    {
+     "letter": "C",
+     "text": "The drug only works inside worms, not in people"
+    },
+    {
+     "letter": "D",
+     "text": "The drug doesn't actually thin the blood; it prevents clotting"
+    }
+   ],
+   "correct": "D",
+   "explanation": "'That's not really what we're doing' — anticoagulants keep blood from clotting, as worm saliva does."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "The mosquito is called a BIOLOGICAL vector for malaria. Which Module 9 fact best justifies that label?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Plasmodium gametocytes fuse inside the mosquito and develop into new parasites there before the next bite"
+    },
+    {
+     "letter": "B",
+     "text": "The mosquito excretes pure water while drinking, which concentrates the parasites it carries"
+    },
+    {
+     "letter": "C",
+     "text": "The mosquito's saliva itself causes the fever and chills, and Plasmodium only rides along"
+    },
+    {
+     "letter": "D",
+     "text": "Plasmodium sticks to the mosquito's legs and mouthparts and simply rubs off onto the next person it bites"
+    }
+   ],
+   "correct": "A",
+   "explanation": "A biological vector hosts pathogen reproduction. In malaria, the sexual stage (gametocytes fusing) happens in the mosquito."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which drug–organism–mechanism set is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Flagyl — protozoa — blocks DNA synthesis; Monistat — fungi — inhibits ergosterol synthesis; Vermox — helminths — inhibits sugar absorption"
+    },
+    {
+     "letter": "B",
+     "text": "Flagyl — fungi — inhibits sugar absorption; Monistat — helminths — blocks DNA synthesis; Vermox — protozoa — inhibits ergosterol synthesis"
+    },
+    {
+     "letter": "C",
+     "text": "Flagyl — protozoa — prevents hemoglobin breakdown; Monistat — fungi — inhibits cell walls; Vermox — helminths — blocks DNA synthesis"
+    },
+    {
+     "letter": "D",
+     "text": "Flagyl — helminths — inhibits ergosterol synthesis; Monistat — protozoa — inhibits cell walls; Vermox — fungi — blocks DNA synthesis"
+    }
+   ],
+   "correct": "A",
+   "explanation": "One representative drug per module: Flagyl (DNA synthesis), Monistat (ergosterol), Vermox (sugar absorption)."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which result would most WEAKEN the hypothesis that parasitic worms prevent allergies?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Allergies became common in a region only after mass deworming"
+    },
+    {
+     "letter": "B",
+     "text": "Allergies are rare where worm infections are common"
+    },
+    {
+     "letter": "C",
+     "text": "People who were dewormed developed allergies no more often than people who kept their worms"
+    },
+    {
+     "letter": "D",
+     "text": "A doctor's allergies went away after he infected himself with a low number of worms"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The hypothesis predicts more allergies after deworming. Equal allergy rates with or without worms would undercut it; the others support it."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Which C. elegans fact–research use pairing is MISMATCHED?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "131 programmed cell deaths — studying how cells are told to destroy themselves"
+    },
+    {
+     "letter": "B",
+     "text": "302 interconnected neurons — mapping how a simple brain responds to a stimulus"
+    },
+    {
+     "letter": "C",
+     "text": "Always 959 adult cells — studying embryonic development step by step"
+    },
+    {
+     "letter": "D",
+     "text": "302 interconnected neurons — studying programmed cell death"
+    }
+   ],
+   "correct": "D",
+   "explanation": "The 302 neurons are used to study nervous systems; the 131 deaths are used for programmed cell death."
+  },
+  {
+   "num": 11,
+   "type": "Multi-statement",
+   "prompt": "Which statement about nematodes is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adult Ascaris can be about a foot long and as thick as a pencil."
+    },
+    {
+     "letter": "B",
+     "text": "Most nematodes are parasites, which is why they cause some of the most common diseases worldwide."
+    },
+    {
+     "letter": "C",
+     "text": "A tablespoon of garden soil can hold many microscopic nematodes."
+    },
+    {
+     "letter": "D",
+     "text": "Female pinworms (about 8–13 mm) are larger than males (about 2–5 mm)."
+    },
+    {
+     "letter": "E",
+     "text": "Soil nematodes help aerate the soil."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — most nematodes are harmless; only some cause disease (though those are among the most common diseases worldwide)."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the Ascaris life cycle is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Larvae grow into adults in the lungs and lay their eggs there."
+    },
+    {
+     "letter": "B",
+     "text": "Adults grow and reproduce in the intestines."
+    },
+    {
+     "letter": "C",
+     "text": "Larvae are carried up the trachea and swallowed again."
+    },
+    {
+     "letter": "D",
+     "text": "Larvae enter blood vessels and travel to the lungs."
+    },
+    {
+     "letter": "E",
+     "text": "Eggs are swallowed in contaminated food or water and hatch in the digestive tract."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — larvae only pass a developmental stage in the lungs; adults grow and reproduce in the intestines."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about arthropod vectors is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A house fly carrying bacteria from a dead possum to a sandwich is a mechanical vector."
+    },
+    {
+     "letter": "B",
+     "text": "Many arthropods don't cause disease directly but spread it."
+    },
+    {
+     "letter": "C",
+     "text": "Any arthropod that bites is a biological vector, and mechanical vectors never bite."
+    },
+    {
+     "letter": "D",
+     "text": "The tick is the course's biological vector for Lyme disease."
+    },
+    {
+     "letter": "E",
+     "text": "Mosquitoes and ticks excrete water while feeding so they can take in more blood."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False — biting isn't the test. A vector is biological if the pathogen reproduces inside it, mechanical if it just rides on body parts."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "A child has itching around the anus at night. Explain how the infection would be diagnosed, how the worm feeds without the blood clotting, and how the course's antihelminthic drug would clear it.",
+   "options": [],
+   "correct": null,
+   "explanation": "This suggests Enterobius (pinworm). Females lay eggs that collect around the anus, so a scotch-tape test — tape pressed to the area, then viewed under the microscope — shows the eggs. The worm latches onto the intestinal wall with chitin teeth, taps a blood vessel, and drinks blood; anticoagulants in its saliva keep the blood from clotting. Vermox (mebendazole) inhibits the worms' sugar absorption, starving them of glucose."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Trace Taenia's life cycle from an egg-filled proglottid to a new host's intestine, and explain how each body feature (cuticle, scolex, flat body, proglottids) helps it.",
+   "options": [],
+   "correct": null,
+   "explanation": "The last proglottids, full of fertilized eggs, break off and leave the host in the feces, ending up in water or on the ground. A new host swallows the eggs, which hatch in its intestine. The worm anchors to the intestinal wall with the hooks of its scolex so it isn't passed out. Its chitin cuticle can't be digested, so the host's digestive system doesn't destroy it. Its long, flat body gives a large surface area to absorb nutrients the host already digested (it has no mouth). As it grows, new proglottids — each with ovaries and testes — self-fertilize and fill with eggs, and the cycle repeats."
+  }
+ ]
+}

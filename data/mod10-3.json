@@ -1,0 +1,360 @@
+{
+ "slug": "mod10-3",
+ "title": "Module 10 — Quiz 3",
+ "subtitle": "Eukaryotes — Fungi",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A fungus grows as single budding cells in a patient's tissue at body temperature but forms filaments on a lab plate at room temperature. It causes both a vaginal infection and white patches on the tongue. Which over-the-counter drug and target fit?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Histoplasma — miconazole (Monistat), which inhibits cell wall synthesis"
+    },
+    {
+     "letter": "B",
+     "text": "Candida albicans — anidulafungin (Eraxis), which inhibits ergosterol synthesis"
+    },
+    {
+     "letter": "C",
+     "text": "Saccharomyces cerevisiae — metronidazole (Flagyl), which blocks DNA synthesis"
+    },
+    {
+     "letter": "D",
+     "text": "Candida albicans — miconazole (Monistat), which inhibits ergosterol synthesis"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Dimorphic, vaginal yeast infection + thrush = Candida albicans. Monistat is the OTC drug and blocks ergosterol synthesis; Eraxis targets the cell wall."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Eraxis works by inhibiting fungal cell wall synthesis. If a drug blocked chitin production itself, which non-fungal organisms might also be affected, based on the lecture?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Humans, because human cell membranes are made of chitin"
+    },
+    {
+     "letter": "B",
+     "text": "Diatoms, because their glass cell walls are made of chitin"
+    },
+    {
+     "letter": "C",
+     "text": "Arthropods such as crickets and shrimp, whose exoskeletons are made of chitin"
+    },
+    {
+     "letter": "D",
+     "text": "Bacteria, because peptidoglycan is a form of chitin"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Lecture: chitin (a polymer of glucosamine) also makes up arthropod exoskeletons — the cricket's crunchy shell and the shrimp's peel."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "A yeast culture given plenty of oxygen grows faster but makes little alcohol. The same culture sealed off from oxygen grows slowly but makes alcohol and CO2. What explains this?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "With oxygen, yeast uses aerobic respiration (about 38 ATP per glucose, no ethanol); without oxygen it ferments (about 2 ATP) and releases ethanol and CO2"
+    },
+    {
+     "letter": "B",
+     "text": "Without oxygen, yeast switches into its multicellular mold form, which breaks down its own chitin wall into ethanol and CO2"
+    },
+    {
+     "letter": "C",
+     "text": "With oxygen, yeast puts its energy into forming spores instead of budding; without oxygen it buds rapidly and releases ethanol as a waste product"
+    },
+    {
+     "letter": "D",
+     "text": "Oxygen is toxic to yeast, so most cells die and fewer are left to make alcohol; without oxygen the survivors grow slowly but ferment"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Yeasts are facultative anaerobes: they prefer oxygen (more ATP) but ferment without it. Forcing anaerobic metabolism yields CO2 (dough) and ethanol (beer)."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "The stinkhorn fungus smells like rotting meat. Which plant strategy from the lecture is its spore-spreading method most like?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Plants that use sunlight to make sugar, the way the stinkhorn photosynthesizes to produce its rotting-meat odor"
+    },
+    {
+     "letter": "B",
+     "text": "Flowering plants that get insects to carry pollen directly to another flower, instead of throwing pollen into the wind like pine trees"
+    },
+    {
+     "letter": "C",
+     "text": "Pine trees that throw clouds of pollen into the wind and rely on chance to land it on another tree of the same species"
+    },
+    {
+     "letter": "D",
+     "text": "Plants that keep their seeds underground, the way the stinkhorn waits for pigs to dig it up by smell"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The stinkhorn draws flies, which pick up spores and carry them straight to a new food source (roadkill) — like insect-pollinated flowers."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Put the events of fungal sexual reproduction in order: (1) mushroom forms and releases spores, (2) opposite mating types release pheromones, (3) hyphae fuse, (4) hyphae grow toward each other underground, (5) many hyphae grow up toward the surface.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "5 → 2 → 4 → 3 → 1"
+    },
+    {
+     "letter": "B",
+     "text": "2 → 3 → 4 → 1 → 5"
+    },
+    {
+     "letter": "C",
+     "text": "2 → 4 → 3 → 5 → 1"
+    },
+    {
+     "letter": "D",
+     "text": "4 → 2 → 5 → 3 → 1"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Pheromones are released and detected → hyphae grow toward each other → fuse → grow upward → mushroom forms and releases spores."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Which spores carry a combination of genetic material from two parent fungi?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Spores released from a mushroom"
+    },
+    {
+     "letter": "B",
+     "text": "Buds released from a yeast cell"
+    },
+    {
+     "letter": "C",
+     "text": "Sporangiospores released from a sporangium"
+    },
+    {
+     "letter": "D",
+     "text": "Conidiospores released from a conidiophore"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Mushrooms are made by sexual reproduction (two mating types). Sporangiospores and conidiospores are asexual; budding is asexual."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "A spinal tap fluid sample is stained with India ink and shows round, unstained cells. Which conclusion is best supported by the lecture and slides?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "This is normal, since cerebrospinal fluid always carries a few harmless fungi from the skin that the India ink leaves unstained"
+    },
+    {
+     "letter": "B",
+     "text": "This is an infection, since cerebrospinal fluid should always be sterile, and it is fungal meningitis — possibly Cryptococcus, though Candida and Histoplasma can also cause it"
+    },
+    {
+     "letter": "C",
+     "text": "This is bacterial meningitis, since India ink stains every fungal cell dark and only leaves bacteria as clear round spots"
+    },
+    {
+     "letter": "D",
+     "text": "This is fungal meningitis, and it must be Histoplasma, because the slides list it as the only fungus that infects the meninges"
+    }
+   ],
+   "correct": "B",
+   "explanation": "CSF should never contain microbes. India ink: unstained round areas are fungal cells. Slide table lists Candida, Histoplasma, Cryptococcus, and others."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Why can't a drug that targets prokaryotic ribosomes treat a fungal infection?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fungal ribosomes are protected by the chitin cell wall"
+    },
+    {
+     "letter": "B",
+     "text": "Fungi have prokaryotic ribosomes, but the drug can't get through ergosterol"
+    },
+    {
+     "letter": "C",
+     "text": "Fungi have no ribosomes; they absorb proteins directly from their food"
+    },
+    {
+     "letter": "D",
+     "text": "Fungi are eukaryotes with eukaryotic ribosomes like ours, so the drug has no target in them"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Prokaryotic ribosomes are a bacterial target. Fungi are eukaryotes — so similar to human cells that few targets exist."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which pairing of fungus and the activity linked to it is INCORRECT?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Saccharomyces cerevisiae — vaginal yeast infections"
+    },
+    {
+     "letter": "B",
+     "text": "Histoplasma — exploring caves with bat droppings"
+    },
+    {
+     "letter": "C",
+     "text": "Aspergillus — turning over soil on a farm"
+    },
+    {
+     "letter": "D",
+     "text": "Ringworm — cleaning cats' litter boxes"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Saccharomyces is baker's/brewer's yeast. Vaginal yeast infections are caused by Candida albicans."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "The ergosterol synthesis pathway has many steps, and different drugs block different steps. According to the lecture, which drug would be expected to be safest?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "One that blocks ergosterol and chitin at the same time"
+    },
+    {
+     "letter": "B",
+     "text": "One that blocks a step closest to the final ergosterol stage"
+    },
+    {
+     "letter": "C",
+     "text": "One that blocks cholesterol synthesis in human cells as well"
+    },
+    {
+     "letter": "D",
+     "text": "One that blocks the very first step of the pathway"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Lecture: the closer to the ergosterol stage the drug acts, the safer it is."
+  },
+  {
+   "num": 11,
+   "type": "Multi-statement",
+   "prompt": "Which statement about yeast reproduction is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "When a bud breaks off it leaves a scar in the chitin cell wall."
+    },
+    {
+     "letter": "B",
+     "text": "A bud can start budding while still attached to its parent."
+    },
+    {
+     "letter": "C",
+     "text": "In budding, the parent cell splits into two equal halves."
+    },
+    {
+     "letter": "D",
+     "text": "Yeasts can also reproduce by binary fission."
+    },
+    {
+     "letter": "E",
+     "text": "A bud receives a copy of the chromosomes before it breaks off."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False — in budding the cell does NOT split in half; it grows a small 'mini me' off to the side."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about ergosterol and antifungal drugs is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ergosterol and cholesterol do different jobs, so blocking ergosterol doesn't affect membrane fluidity."
+    },
+    {
+     "letter": "B",
+     "text": "Most antifungal drugs inhibit ergosterol synthesis."
+    },
+    {
+     "letter": "C",
+     "text": "Ergosterol and cholesterol have remarkably similar structures."
+    },
+    {
+     "letter": "D",
+     "text": "Monistat (miconazole) is an over-the-counter ergosterol inhibitor."
+    },
+    {
+     "letter": "E",
+     "text": "Without ergosterol, a fungal membrane is at risk of rupturing."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — both sterols do the same job (regulating membrane fluidity); they are just different compounds."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about mold structures is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A sporangiophore is the stalk that carries a packet of spores."
+    },
+    {
+     "letter": "B",
+     "text": "'Conidia' means 'container,' describing spores sealed inside a sac."
+    },
+    {
+     "letter": "C",
+     "text": "The mycelium is the whole network of hyphae."
+    },
+    {
+     "letter": "D",
+     "text": "A sporangium eventually breaks open to release its spores."
+    },
+    {
+     "letter": "E",
+     "text": "A hypha is a filament of fungal cells."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — 'conidia' means dust; conidiospores are exposed on the outside of the conidiophore."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Compare how a yeast and a mold each live and spread. Cover: number of cells, oxygen use, how each reproduces, and how new individuals reach new food.",
+   "options": [],
+   "correct": null,
+   "explanation": "Yeast: unicellular; facultative anaerobe (prefers oxygen, can ferment without it); reproduces asexually by budding or binary fission, so new cells form right next to the parent. Mold: multicellular (hyphae forming a mycelium); aerobic; reproduces asexually by spores (sporangiospores enclosed, conidiospores exposed) and sexually (opposite mating types fuse and form a mushroom that releases spores). Because fungi are non-motile, mold spores are released in huge numbers and carried by wind, water, or animals (even flies, in the stinkhorn) to new food."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "One patient has a fungal toenail infection; another has fungal meningitis. For each, explain how the body location shapes how the infection behaves or how it is detected.",
+   "options": [],
+   "correct": null,
+   "explanation": "Nail infection: the toenail has very little blood supply, so the fungi are largely safe from the immune system; hyphae grow slowly through the nail over a long time, making it persistent. Meningitis: the meninges and the cerebrospinal fluid should be sterile, so any microbe found in CSF from a spinal tap means infection. Staining CSF with India ink leaves the fungal cells as round unstained areas, showing it is fungal meningitis (Candida, Histoplasma, Cryptococcus, and others), as opposed to bacterial or viral meningitis."
+  }
+ ]
+}

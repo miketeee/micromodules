@@ -1,0 +1,360 @@
+{
+ "slug": "mod12-3",
+ "title": "Module 12 — Quiz 3",
+ "subtitle": "Bacterial Genetics — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A mutant primase can lay down only ONE primer per replication fork. What happens to the two daughter strands at that fork?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Both strands are built normally, because DNA polymerase can start new fragments without a primer"
+    },
+    {
+     "letter": "B",
+     "text": "The leading strand can still be built continuously, but the lagging strand stops after its first Okazaki fragment"
+    },
+    {
+     "letter": "C",
+     "text": "The lagging strand is built normally, but the leading strand stops because it needs a new primer every few nucleotides"
+    },
+    {
+     "letter": "D",
+     "text": "Neither strand can be built, because gyrase needs a primer before it can uncoil the DNA"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The leading strand needs one primer and then follows helicase. The lagging strand needs a new primer for every Okazaki fragment."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "One double-stranded DNA molecule replicates twice, giving four molecules. How many of the four still contain one of the original parent strands?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "None"
+    },
+    {
+     "letter": "B",
+     "text": "Four"
+    },
+    {
+     "letter": "C",
+     "text": "Two"
+    },
+    {
+     "letter": "D",
+     "text": "One"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Semi-conservative: round 1 → two molecules, each with one parent strand. Round 2 → four molecules; the two parent strands sit in two of them."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Suppose Griffith had instead mixed heat-killed R cells with LIVING S cells. Why would that version tell him nothing about transformation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Live S cells would take up the R cells' DNA and become harmless, so the mouse would live either way"
+    },
+    {
+     "letter": "B",
+     "text": "Heat-killed R cells release a toxin, so the mouse would die from poisoning instead of pneumonia"
+    },
+    {
+     "letter": "C",
+     "text": "Live S cells kill the mouse on their own, so the mouse would die whether or not anything passed between the cells"
+    },
+    {
+     "letter": "D",
+     "text": "The R cells' capsules would protect the S cells, so the mouse would survive and give no result"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Living S is pathogenic by itself (his first control), so a death couldn't show that harmless cells had been transformed."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "If human cells used exactly the same gyrase as bacteria, what would that mean for Cipro?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It would stop working on bacteria, since the bacteria would borrow human gyrase"
+    },
+    {
+     "letter": "B",
+     "text": "It would block DNA replication in human cells too, so it would no longer be a safe antibiotic"
+    },
+    {
+     "letter": "C",
+     "text": "Nothing would change, because Cipro targets bacterial polymerase rather than gyrase"
+    },
+    {
+     "letter": "D",
+     "text": "It would work even better, since it could attack bacteria living inside human cells"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The 'holy grail' is a difference between our cells and theirs. Cipro is safe because bacterial gyrase differs from ours."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "During transcription, which DNA strand is used as the template, and which strand has the same sequence as the mRNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The non-coding (3'→5') strand is the template; the coding (5'→3') strand matches the mRNA, with T in place of U"
+    },
+    {
+     "letter": "B",
+     "text": "The coding (5'→3') strand is the template; the non-coding (3'→5') strand matches the mRNA exactly"
+    },
+    {
+     "letter": "C",
+     "text": "The lagging strand is the template; the leading strand matches the mRNA"
+    },
+    {
+     "letter": "D",
+     "text": "Both strands are used as templates at the same time, so the mRNA matches neither one"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Instructor slides: the non-coding strand is transcribed; the coding strand shares the same sequence and orientation as the mRNA."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "A bacterial chromosome normally replicates with two forks moving in opposite directions from one origin. If only ONE fork formed, about how would copying time change, all else being equal?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It would never finish, since a single fork can't copy circular DNA"
+    },
+    {
+     "letter": "B",
+     "text": "It would take about the same time, since one fork moves twice as fast"
+    },
+    {
+     "letter": "C",
+     "text": "It would take half as long, since the two helicases would no longer collide"
+    },
+    {
+     "letter": "D",
+     "text": "It would take roughly twice as long, since one fork would have to travel the whole loop alone"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Two helicases each copy about half the circle until they meet, like two train engines going around a track in opposite directions."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Why can't gyrase simply uncoil the whole bacterial chromosome at once before replication starts?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The chromosome is linear, so gyrase must start from each end and work inward"
+    },
+    {
+     "letter": "B",
+     "text": "Uncoiled DNA immediately falls apart into single nucleotides"
+    },
+    {
+     "letter": "C",
+     "text": "Gyrase only works on Okazaki fragments, so it has to wait for the lagging strand"
+    },
+    {
+     "letter": "D",
+     "text": "The fully uncoiled chromosome is far too long to fit in the cell, so gyrase uncoils it a region at a time"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Supercoiling packs the long chromosome into the cell. Lecture: there's no space to uncoil it all at once."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Two genes contain exactly the same numbers of A, G, C, and T nucleotides, yet they code for completely different proteins. What differs between them?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The type of sugar in each gene's backbone"
+    },
+    {
+     "letter": "B",
+     "text": "The ORDER of the nucleotides, which encodes the order of amino acids"
+    },
+    {
+     "letter": "C",
+     "text": "Which genes use uracil instead of thymine"
+    },
+    {
+     "letter": "D",
+     "text": "The number of hydrogen bonds holding the backbone together"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Like a key's grooves, the information is in the sequence. A gene encodes a protein's primary structure — its amino acids in order."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "In Griffith's experiment, harmless R cells became deadly S cells. How do genotype and phenotype explain the change?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The R cells took up DNA (genotype) from the dead S cells, which gave them the capsule (phenotype) that makes Streptococcus pneumoniae pathogenic"
+    },
+    {
+     "letter": "B",
+     "text": "The R cells' phenotype changed in response to the mouse's immune system, while their genotype stayed exactly the same as before"
+    },
+    {
+     "letter": "C",
+     "text": "Heating changed the dead S cells' phenotype into free capsules, which coated the R cells and then rewrote their genotype from the outside"
+    },
+    {
+     "letter": "D",
+     "text": "The R cells took up capsule protein (their new genotype), which then switched on capsule genes already sitting in their own DNA (phenotype)"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The genetic material passed into R cells; the new genes produced a capsule — a phenotypic trait — making them smooth and pathogenic."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "If the step that replaces RNA primers with DNA failed, where would RNA be left in the new DNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "At the start of each newly built piece — once on the leading strand and at the start of every Okazaki fragment on the lagging strand"
+    },
+    {
+     "letter": "B",
+     "text": "Nowhere, because RNA primers fall off on their own as soon as DNA polymerase begins adding nucleotides"
+    },
+    {
+     "letter": "C",
+     "text": "Spread through both strands wherever uracil was needed, since DNA polymerase can't add thymine opposite adenine"
+    },
+    {
+     "letter": "D",
+     "text": "Only at the very end of replication, in the short stretch where the two forks meet on the far side of the loop"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Primase lays an RNA primer wherever synthesis starts; polymerase normally replaces primers with DNA."
+  },
+  {
+   "num": 11,
+   "type": "Multi-statement",
+   "prompt": "Which statement comparing prokaryotic and eukaryotic DNA is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Eukaryotic DNA is single-stranded, while prokaryotic DNA is double-stranded."
+    },
+    {
+     "letter": "B",
+     "text": "Humans have 46 chromosomes in their cells."
+    },
+    {
+     "letter": "C",
+     "text": "Prokaryotic DNA is circular; eukaryotic DNA is linear."
+    },
+    {
+     "letter": "D",
+     "text": "Bacteria use a different gyrase than human cells do."
+    },
+    {
+     "letter": "E",
+     "text": "Bacteria typically have a single chromosome."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — both are double-stranded; the structure is the same. They differ in shape (circular vs linear) and number."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about DNA's physical structure is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hydrogen bonds also help twist DNA into its helical shape."
+    },
+    {
+     "letter": "B",
+     "text": "A G–C base pair is wider than an A–T base pair, so the helix bulges at G–C pairs."
+    },
+    {
+     "letter": "C",
+     "text": "DNA is about 2 nanometers wide along its whole length."
+    },
+    {
+     "letter": "D",
+     "text": "A–T pairs share 2 hydrogen bonds and G–C pairs share 3."
+    },
+    {
+     "letter": "E",
+     "text": "The sugar-phosphate backbone is held together by covalent bonds and carries a negative charge."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — G–C and A–T pairs are the same width, which is why DNA's width stays constant."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about Craig Venter's work is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "He is now trying to build an entire cell, including membranes and ribosomes, from scratch."
+    },
+    {
+     "letter": "B",
+     "text": "He helped sequence the human genome using a fast new sequencing method."
+    },
+    {
+     "letter": "C",
+     "text": "His synthetic chromosome was a copy of E. coli's roughly 5,000 genes."
+    },
+    {
+     "letter": "D",
+     "text": "He removed and sequenced the chromosome, then synthesized an artificial copy and put it into the cell."
+    },
+    {
+     "letter": "E",
+     "text": "Mycoplasma genitalium has only 521 genes, close to the fewest a cell can have and still live."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False — he used Mycoplasma genitalium (521 genes), not E. coli."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Using the lecture's 'holy grail of drug research,' explain why gyrase is a good antibiotic target but DNA polymerase would be a poor one.",
+   "options": [],
+   "correct": null,
+   "explanation": "The goal is to find a difference between how our cells and bacterial cells do something, and exploit it. Gyrase uncoils supercoiled DNA so it can be replicated, and bacterial gyrase is different from the version our cells use. Cipro (ciprofloxacin) inhibits bacterial gyrase, so bacterial DNA can't be uncoiled or replicated and the bacteria can't grow, while our cells are unaffected — a broad-spectrum antibiotic. DNA polymerase (like ligase, primase, and helicase) is fairly interchangeable between bacteria and humans, so a drug that blocked it would likely block our own DNA replication too."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Describe how a bacterium replicates its circular chromosome from start to finish, including the origin, the two forks, the leading and lagging strands at each fork, and why this takes up most of its generation time.",
+   "options": [],
+   "correct": null,
+   "explanation": "Gyrase uncoils supercoiled DNA in regions. At the origin, two helicases bind and move in opposite directions, unzipping the DNA into two replication forks. At each fork, primase lays RNA primers and DNA polymerase builds new DNA 5'→3' using complementary base pairing: one daughter strand (leading) is built continuously following the helicase; the other (lagging) is built away from the fork in Okazaki fragments, each with its own primer, then primers are replaced with DNA and ligase joins the fragments. The forks travel around the loop until the helicases meet, leaving two identical chromosomes, each with one old and one new strand. Copying the chromosome takes most of the ~30-minute generation time; the cell then splits quickly by binary fission."
+  }
+ ]
+}

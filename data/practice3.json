@@ -1,0 +1,1137 @@
+{
+ "slug": "practice3",
+ "title": "Practice Test 3",
+ "subtitle": "Cumulative — Modules 9–17",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Which protozoan is matched with BOTH its correct subgroup and its disease?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cryptosporidium — Apicomplexa — recreational diarrhea"
+    },
+    {
+     "letter": "B",
+     "text": "Entamoeba — Apicomplexa — amoebic dysentery"
+    },
+    {
+     "letter": "C",
+     "text": "Giardia — Euglenozoa — fatty diarrhea"
+    },
+    {
+     "letter": "D",
+     "text": "Trypanosoma — Archaezoa — sleeping sickness"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Giardia is an Archaezoan, Trypanosoma a Euglenozoan, Entamoeba an Amoebozoan."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Which of these organisms is NOT a protozoan?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A marine diatom with a glass wall"
+    },
+    {
+     "letter": "B",
+     "text": "Entamoeba, the intestinal amoeba"
+    },
+    {
+     "letter": "C",
+     "text": "Euglena, the green flagellate"
+    },
+    {
+     "letter": "D",
+     "text": "Giardia, the cause of fatty diarrhea"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Diatoms are algae (autotrophic protists with silica walls). Euglena is technically a protozoan even though it can photosynthesize."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "The word 'protozoa' literally means…",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Wonderful nugget"
+    },
+    {
+     "letter": "B",
+     "text": "Feeding animal"
+    },
+    {
+     "letter": "C",
+     "text": "Animal without a shape"
+    },
+    {
+     "letter": "D",
+     "text": "First attempt at an animal"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Proto (as in prototype) + zoa (animal). 'Eukaryotic' = wonderful nugget; 'amoeba' = without shape; 'trophozoite' = feeding animal."
+  },
+  {
+   "num": 4,
+   "type": "Multi-statement",
+   "prompt": "Which statement about protists is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "'Amoeba' comes from words meaning 'without shape.'"
+    },
+    {
+     "letter": "B",
+     "text": "Diatoms live inside a two-piece cell wall made of glass (silica)."
+    },
+    {
+     "letter": "C",
+     "text": "A bloom of a neurotoxin-making dinoflagellate causes a red tide."
+    },
+    {
+     "letter": "D",
+     "text": "Euglena's eye spot lets it see detailed images of its surroundings."
+    },
+    {
+     "letter": "E",
+     "text": "Kingdom Protista includes both unicellular and multicellular eukaryotes."
+    }
+   ],
+   "correct": "D",
+   "explanation": "False — the eye spot only detects the presence of light; it can't form an image."
+  },
+  {
+   "num": 5,
+   "type": "Open recall",
+   "prompt": "Describe the four protozoan subgroups from lecture. For each, give how it moves, one distinguishing trait, and its example genera.",
+   "options": [],
+   "correct": null,
+   "explanation": "Archaezoans: two or more flagella; non-functional mitochondria (mitosomes), so anaerobic; Giardia and Trichomonas. Euglenozoans: a single flagellum stiffened with a protein rod; Euglena and Trypanosoma. Amoebozoans: move by pseudopods; Entamoeba (and harmless Amoeba and Dictyostelium). Apicomplexa: adults are non-motile; obligate intracellular parasites with apex organelles that digest into host tissue, complex life cycles; Plasmodium and Cryptosporidium."
+  },
+  {
+   "num": 6,
+   "type": "Open recall",
+   "prompt": "State the endosymbiotic theory, who proposed it, and give at least four pieces of evidence that mitochondria came from bacteria.",
+   "options": [],
+   "correct": null,
+   "explanation": "Proposed by Lynn Margulis (1960s): eukaryotic cells arose when a larger cell engulfed smaller bacteria and kept them instead of digesting them; engulfed aerobic bacteria became mitochondria and engulfed photosynthetic bacteria became chloroplasts, and over time the arrangement became codependent. Evidence: mitochondria are rod-shaped and 1–10 µm like bacteria; they have a double membrane; they have prokaryotic ribosomes; they have their own circular chromosome; they replicate by binary fission; their DNA has strong sequence homology to bacterial DNA."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Which fungus is NOT correctly matched with a disease or use?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Candida albicans — thrush"
+    },
+    {
+     "letter": "B",
+     "text": "Aspergillus — farmer's lung"
+    },
+    {
+     "letter": "C",
+     "text": "Saccharomyces cerevisiae — baking and brewing"
+    },
+    {
+     "letter": "D",
+     "text": "Penicillium — histoplasmosis"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Histoplasmosis is caused by Histoplasma. Penicillium is known for penicillin."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which two features do fungi share with plants but not with animals?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Chitin walls and cellulose walls"
+    },
+    {
+     "letter": "B",
+     "text": "A cell wall and being non-motile"
+    },
+    {
+     "letter": "C",
+     "text": "Being photosynthetic and non-motile"
+    },
+    {
+     "letter": "D",
+     "text": "Chloroplasts and a cell wall"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Fungi have chitin walls (similar to plant cellulose) and are non-motile, but they are heterotrophs, not photosynthetic."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "How do truffles differ from most mushrooms?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Their sexual spore-producing structure forms and stays underground"
+    },
+    {
+     "letter": "B",
+     "text": "They grow on living strawberries rather than dead material"
+    },
+    {
+     "letter": "C",
+     "text": "They reproduce only asexually, by budding"
+    },
+    {
+     "letter": "D",
+     "text": "They are unicellular yeasts rather than molds"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Truffles are a 'mushroom of sorts' that never come above ground — which is why pigs are used to find them."
+  },
+  {
+   "num": 10,
+   "type": "Multi-statement",
+   "prompt": "Which statement about yeasts is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Yeasts are unicellular fungi."
+    },
+    {
+     "letter": "B",
+     "text": "Candida albicans can grow as a yeast or as filaments (dimorphic)."
+    },
+    {
+     "letter": "C",
+     "text": "Yeasts are typically facultative anaerobes."
+    },
+    {
+     "letter": "D",
+     "text": "Yeasts reproduce asexually by budding or binary fission."
+    },
+    {
+     "letter": "E",
+     "text": "Saccharomyces cerevisiae is the yeast that causes thrush."
+    }
+   ],
+   "correct": "E",
+   "explanation": "False — thrush is caused by Candida albicans. Saccharomyces is baker's and brewer's yeast."
+  },
+  {
+   "num": 11,
+   "type": "Open recall",
+   "prompt": "Compare yeasts and molds: number of cells, how they use oxygen, how they reproduce, and one example of each.",
+   "options": [],
+   "correct": null,
+   "explanation": "Yeasts: unicellular; facultative anaerobes (prefer oxygen but can ferment); reproduce asexually by budding or binary fission; examples Candida albicans and Saccharomyces cerevisiae. Molds: multicellular (hyphae forming a mycelium); aerobic; reproduce asexually and sexually by spores; example Aspergillus (also Penicillium)."
+  },
+  {
+   "num": 12,
+   "type": "Open recall",
+   "prompt": "Describe how Alexander Fleming discovered penicillin, and explain why fungi turned out to be a good source of antibiotics.",
+   "options": [],
+   "correct": null,
+   "explanation": "Fleming's bacterial plate was contaminated by a mold (Penicillium). Instead of throwing it out, he noticed bacteria near the mold were dying while those farther away survived, suggesting the mold released a substance that killed bacteria and spread out as a gradient. That substance was penicillin, the first antibiotic. Because fungal and human cells are so similar, a chemical that is safe for the mold is likely to be safe for us — so fungi became the source of most of our antibiotics."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Which worm–group–common name set is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dirofilaria — trematode — heartworm"
+    },
+    {
+     "letter": "B",
+     "text": "Clonorchis — trematode — liver fluke"
+    },
+    {
+     "letter": "C",
+     "text": "Ascaris — cestode — intestinal roundworm"
+    },
+    {
+     "letter": "D",
+     "text": "Taenia — nematode — tapeworm"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Taenia is a cestode; Ascaris and Dirofilaria are nematodes."
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Which helminth from lecture is presented mainly as a parasite of pets rather than people?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dirofilaria (heartworm)"
+    },
+    {
+     "letter": "B",
+     "text": "Enterobius (pinworm)"
+    },
+    {
+     "letter": "C",
+     "text": "Dracunculus (Guinea worm)"
+    },
+    {
+     "letter": "D",
+     "text": "Ascaris (intestinal worm)"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Heartworms infect dogs and cats; the lecture covers Dracunculus, Ascaris, and Enterobius as human parasites."
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "According to the lecture, what are the two main jobs in most medical mission work?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Vaccinating children and treating malaria"
+    },
+    {
+     "letter": "B",
+     "text": "Testing water and handing out mosquito nets"
+    },
+    {
+     "letter": "C",
+     "text": "Delivering babies and treating burns"
+    },
+    {
+     "letter": "D",
+     "text": "Removing rotting teeth and deworming people"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Lecture: dental work and deworming are the two main things that have to be done."
+  },
+  {
+   "num": 16,
+   "type": "Multi-statement",
+   "prompt": "Which statement about Caenorhabditis elegans is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is a common parasite of the human intestine."
+    },
+    {
+     "letter": "B",
+     "text": "It has 302 interconnected neurons."
+    },
+    {
+     "letter": "C",
+     "text": "It is a microscopic nematode."
+    },
+    {
+     "letter": "D",
+     "text": "The adult (male) always has 959 cells."
+    },
+    {
+     "letter": "E",
+     "text": "131 programmed cell deaths occur during its development."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — C. elegans is harmless; it is one of the most studied model organisms."
+  },
+  {
+   "num": 17,
+   "type": "Open recall",
+   "prompt": "Explain what anticoagulants are, why blood-feeding helminths make them, and how one is used in medicine.",
+   "options": [],
+   "correct": null,
+   "explanation": "An anticoagulant prevents blood from clotting. When a worm such as a pinworm taps a blood vessel, the host's blood would normally clot and stop the flow, so blood-feeding helminths put anticoagulants in their saliva to keep the blood fluid. Some are used as 'blood thinners' — really clot preventers — for patients at risk of strokes and heart attacks; hirudin is the course example."
+  },
+  {
+   "num": 18,
+   "type": "Open recall",
+   "prompt": "Describe how heartworm (Dirofilaria) is transmitted and how it harms a dog.",
+   "options": [],
+   "correct": null,
+   "explanation": "Heartworm eggs are transmitted by mosquitoes. Inside the host they hatch and grow into worms that live in the circulatory system. They grow in the heart, clogging the valves and chambers, and even the pulmonary artery and aorta, so very little blood is pumped out — ultimately killing the pet. Preventive pills can be used to avoid it."
+  },
+  {
+   "num": 19,
+   "type": "Multiple choice",
+   "prompt": "Which part of a nucleotide is the same in A, G, C, and T nucleotides of DNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The phosphate and the deoxyribose sugar"
+    },
+    {
+     "letter": "B",
+     "text": "The ribose sugar and the base"
+    },
+    {
+     "letter": "C",
+     "text": "The hydrogen bonds"
+    },
+    {
+     "letter": "D",
+     "text": "The nitrogenous base"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Every DNA nucleotide has a phosphate and deoxyribose; the nitrogenous base is the unique part."
+  },
+  {
+   "num": 20,
+   "type": "Multiple choice",
+   "prompt": "The lecture compares a supercoiled chromosome to an old phone cord coiled on itself. Which enzyme undoes that supercoiling?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ligase"
+    },
+    {
+     "letter": "B",
+     "text": "Gyrase"
+    },
+    {
+     "letter": "C",
+     "text": "Helicase"
+    },
+    {
+     "letter": "D",
+     "text": "Primase"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Gyrase uncoils supercoiled DNA; helicase then unzips the double helix."
+  },
+  {
+   "num": 21,
+   "type": "Multiple choice",
+   "prompt": "Who published the first paper on DNA's structure, and how did they reach it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Rosalind Franklin, in the journal Nature — by building tinker-toy models of the four nucleotides until one fit her X-ray data"
+    },
+    {
+     "letter": "B",
+     "text": "Watson and Crick, in the journal Nature — by library research, model building, and seeing Franklin's Photo 51, with no experiments of their own"
+    },
+    {
+     "letter": "C",
+     "text": "Avery and Griffith — by injecting mice with heat-killed bacteria and then treating the mixture with DNase"
+    },
+    {
+     "letter": "D",
+     "text": "Hershey and Chase — by labeling phages with radioactive elements and tracing which part entered the cell"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Their one-page paper had no data tables; Franklin's X-ray work showed the double helix."
+  },
+  {
+   "num": 22,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the daughter strands in replication is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Primase and DNA polymerase can only build in the 5'→3' direction."
+    },
+    {
+     "letter": "B",
+     "text": "The leading strand is built continuously, following the helicase."
+    },
+    {
+     "letter": "C",
+     "text": "The leading strand is built in Okazaki fragments."
+    },
+    {
+     "letter": "D",
+     "text": "Ligase joins the fragments on the lagging strand."
+    },
+    {
+     "letter": "E",
+     "text": "The lagging strand is built away from the moving fork."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False — the lagging strand is built in Okazaki fragments."
+  },
+  {
+   "num": 23,
+   "type": "Open recall",
+   "prompt": "Describe Griffith's four injections and their results, and explain what the experiment suggested.",
+   "options": [],
+   "correct": null,
+   "explanation": "Living smooth (S, capsule, pathogenic) Streptococcus pneumoniae → mouse died. Living rough (R, no capsule, harmless) → mouse lived. Heat-killed S → mouse lived. Heat-killed S mixed with living R → mouse died, and its body was full of living S cells. Something (genetic material) from the dead S cells had passed into the R cells and transformed them into S cells; Avery later showed it was DNA."
+  },
+  {
+   "num": 24,
+   "type": "Open recall",
+   "prompt": "Compare prokaryotic and eukaryotic chromosomes, and define gene, genotype, and phenotype.",
+   "options": [],
+   "correct": null,
+   "explanation": "Both are double-stranded DNA. Prokaryotic: circular (closed loop) and usually a single chromosome. Eukaryotic: linear and multiple chromosomes (46 in humans). Gene: a region of a chromosome that encodes the primary structure of a specific protein. Genotype: the genes and other nucleotide sequences present in the genome. Phenotype: the physical, behavioral, and metabolic properties that result from the genotype (e.g., E. coli's rod shape, Gram-negative wall, facultative anaerobe)."
+  },
+  {
+   "num": 25,
+   "type": "Multiple choice",
+   "prompt": "Which list correctly gives each RNA type's job?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "mRNA brings amino acids to the ribosome; tRNA joins proteins to form the ribosome; rRNA carries the gene's message as codons"
+    },
+    {
+     "letter": "B",
+     "text": "All three carry copies of the gene's message as codons, but only tRNA is actually translated into protein"
+    },
+    {
+     "letter": "C",
+     "text": "mRNA joins proteins to form the ribosome; tRNA carries the gene's message as codons; rRNA brings amino acids with its anticodon"
+    },
+    {
+     "letter": "D",
+     "text": "mRNA carries the gene's message as codons; tRNA brings amino acids using its anticodon; rRNA joins proteins to form ribosomes"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Instructor slides: rRNA + proteins = ribosomes; mRNA carries codons; tRNA carries an amino acid and an anticodon."
+  },
+  {
+   "num": 26,
+   "type": "Multiple choice",
+   "prompt": "In the order of an operon (slides), where is the operator located?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Before the repressor gene"
+    },
+    {
+     "letter": "B",
+     "text": "After the terminator"
+    },
+    {
+     "letter": "C",
+     "text": "Inside the repressor gene"
+    },
+    {
+     "letter": "D",
+     "text": "Between the promoter and the genes"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Order: repressor gene – promoter – operator – genes – terminator. A repressor on the operator blocks RNA polymerase."
+  },
+  {
+   "num": 27,
+   "type": "Multiple choice",
+   "prompt": "Which pairing of transcription stage and event is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Initiation — the ribosome binds the start codon"
+    },
+    {
+     "letter": "B",
+     "text": "Termination — RNA polymerase binds the promoter"
+    },
+    {
+     "letter": "C",
+     "text": "Initiation — RNA polymerase binds the promoter and begins RNA synthesis"
+    },
+    {
+     "letter": "D",
+     "text": "Elongation — RNA polymerase falls off at the terminator"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Initiation (bind promoter, begin), elongation (keep building mRNA), termination (reach terminator and fall off)."
+  },
+  {
+   "num": 28,
+   "type": "Multi-statement",
+   "prompt": "Which statement about UV damage to DNA is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A thymine dimer forms between a T on one strand and the A across from it."
+    },
+    {
+     "letter": "B",
+     "text": "About 254 nm is the most germicidal UV wavelength."
+    },
+    {
+     "letter": "C",
+     "text": "The two thymines in a dimer form a covalent bond, which pinches the DNA."
+    },
+    {
+     "letter": "D",
+     "text": "UV light causes thymine dimers."
+    },
+    {
+     "letter": "E",
+     "text": "Thymine dimers cause frameshift errors when the region is transcribed."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — a dimer forms between two thymines next to each other on the same strand."
+  },
+  {
+   "num": 29,
+   "type": "Open recall",
+   "prompt": "Describe the three stages of transcription and the roles of the promoter, RNA polymerase, template strand, and terminator.",
+   "options": [],
+   "correct": null,
+   "explanation": "Initiation: RNA polymerase binds the promoter, the sequence at the start of the gene, and begins unzipping the DNA. Elongation: RNA polymerase slides along the gene, reading the template strand and adding complementary RNA nucleotides (U pairs with A), building a single-stranded mRNA; the DNA zips back up behind it, and the mRNA matches the coding strand. Termination: when RNA polymerase reaches the terminator (where it can't stay bound), it falls off and the mRNA is released."
+  },
+  {
+   "num": 30,
+   "type": "Open recall",
+   "prompt": "Define silent, missense, nonsense, and frameshift mutations, and give the usual effect of each on the protein.",
+   "options": [],
+   "correct": null,
+   "explanation": "Silent: a substitution that changes a codon but not the amino acid (no effect). Missense: a substitution that changes one amino acid into another (often harmless in a long protein). Nonsense: a substitution that turns an amino acid codon into a premature stop codon (shortened protein). Frameshift: an insertion or deletion that shifts the reading frame, so every codon after it is wrong — usually destroying the protein and possibly killing the cell."
+  },
+  {
+   "num": 31,
+   "type": "Multiple choice",
+   "prompt": "Which order and temperatures describe one PCR cycle?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Annealing (~96 °C) → denaturation (~72 °C) → extension (~55 °C)"
+    },
+    {
+     "letter": "B",
+     "text": "Denaturation (~55 °C) → extension (~96 °C) → annealing (~72 °C)"
+    },
+    {
+     "letter": "C",
+     "text": "Extension (~55 °C) → denaturation (~72 °C) → annealing (~96 °C)"
+    },
+    {
+     "letter": "D",
+     "text": "Denaturation (~96 °C) → annealing (~55 °C) → extension (~72 °C)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Separate strands at ~96 °C, let primers anneal at ~55 °C, extend with polymerase at ~72 °C; repeat 25–35 times."
+  },
+  {
+   "num": 32,
+   "type": "Multiple choice",
+   "prompt": "In CRISPR, what are the separate jobs of Cas9 and the guide RNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cas9 scans the DNA to find the target; the guide RNA is the part that cuts it"
+    },
+    {
+     "letter": "B",
+     "text": "Both cut DNA, but only at the six-letter sequence GAATTC"
+    },
+    {
+     "letter": "C",
+     "text": "Cas9 cuts DNA; the guide RNA's ~20-letter target sequence tells it where"
+    },
+    {
+     "letter": "D",
+     "text": "Cas9 glues cut DNA back together; the guide RNA supplies the donor sequence"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Cas9 is a programmable DNA-cutting enzyme; swapping the guide RNA reprograms where it cuts."
+  },
+  {
+   "num": 33,
+   "type": "Multiple choice",
+   "prompt": "Which CRISPR treatment worked by removing a patient's cells, editing them, and putting them back — and became the first FDA-approved CRISPR treatment?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Rick Slayman's pig kidney transplant"
+    },
+    {
+     "letter": "B",
+     "text": "Victoria Gray's treatment for sickle cell disease"
+    },
+    {
+     "letter": "C",
+     "text": "Hans Clevers's correction of the cystic fibrosis gene"
+    },
+    {
+     "letter": "D",
+     "text": "He Jiankui's editing of the CCR5 gene"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Her cells were edited to make the correct hemoglobin and returned."
+  },
+  {
+   "num": 34,
+   "type": "Multi-statement",
+   "prompt": "Which statement about PCR is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The number of copies grows exponentially with each cycle."
+    },
+    {
+     "letter": "B",
+     "text": "Kary Mullis developed PCR and won the Nobel Prize in 1993."
+    },
+    {
+     "letter": "C",
+     "text": "PCR copies the entire chromosome during every cycle."
+    },
+    {
+     "letter": "D",
+     "text": "A thermal cycler automates the temperature changes."
+    },
+    {
+     "letter": "E",
+     "text": "Primers are designed to flank the region to be copied."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False — PCR copies just the region between the primers."
+  },
+  {
+   "num": 35,
+   "type": "Open recall",
+   "prompt": "Explain how restriction enzymes and DNA ligase are used together to make recombinant DNA. Include sticky ends.",
+   "options": [],
+   "correct": null,
+   "explanation": "A restriction enzyme (DNA scissors) cuts DNA at a specific recognition sequence — EcoRI cuts GAATTC with a zigzag cut, leaving short single-stranded 'sticky ends.' Cutting two DNA sources (e.g., a plasmid and a gene) with the same enzyme gives matching sticky ends, which hydrogen-bond to each other. DNA ligase (DNA glue, the same enzyme that joins Okazaki fragments) then seals the pieces together, creating recombinant DNA — DNA combined from two sources, first made by Paul Berg in 1970."
+  },
+  {
+   "num": 36,
+   "type": "Open recall",
+   "prompt": "What is germline gene editing? Describe the He Jiankui case and what is currently allowed.",
+   "options": [],
+   "correct": null,
+   "explanation": "Germline editing changes the DNA of embryos or sperm and egg cells, so the edits pass to future generations and into the human gene pool (and the embryo can't consent). In 2018 He Jiankui used CRISPR to edit twin embryos (Lulu and Nana), inactivating the CCR5 gene to make them resistant to HIV; they were implanted and born. It was illegal in China and he served three years in prison. The National Academy of Sciences (2017) supports gene-editing research on human embryos and germ cells, but edited embryos may not be implanted — no country permits CRISPR babies."
+  },
+  {
+   "num": 37,
+   "type": "Multiple choice",
+   "prompt": "What are the basic components of every virus?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A phospholipid envelope around a cell wall made of chitin"
+    },
+    {
+     "letter": "B",
+     "text": "A cell membrane, ribosomes, and a single circular DNA chromosome"
+    },
+    {
+     "letter": "C",
+     "text": "Nucleic acid (DNA or RNA) inside a protein capsid — some also have an envelope"
+    },
+    {
+     "letter": "D",
+     "text": "Both DNA and RNA together inside a protein capsid"
+    }
+   ],
+   "correct": "C",
+   "explanation": "A virus has one type of nucleic acid and a protein capsid made of capsomeres; some add an envelope."
+  },
+  {
+   "num": 38,
+   "type": "Multiple choice",
+   "prompt": "Which virus is correctly matched with its capsid shape?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bacteriophage — helical only"
+    },
+    {
+     "letter": "B",
+     "text": "HPV — helical"
+    },
+    {
+     "letter": "C",
+     "text": "Ebola virus — helical"
+    },
+    {
+     "letter": "D",
+     "text": "Tobacco mosaic virus — polyhedral"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Ebola is a long helical 'garden hose.' HPV is polyhedral, TMV helical, and phages are complex."
+  },
+  {
+   "num": 39,
+   "type": "Multiple choice",
+   "prompt": "What is one advantage antibiotics have over phage therapy?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They work with one small dose that multiplies on its own"
+    },
+    {
+     "letter": "B",
+     "text": "They remove themselves once the infection is gone"
+    },
+    {
+     "letter": "C",
+     "text": "They kill only the harmful bacteria and spare good ones"
+    },
+    {
+     "letter": "D",
+     "text": "You don't need to know the exact bacterium causing the infection"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Phage therapy requires matching a phage to the exact microbe; the other choices describe phage therapy's advantages."
+  },
+  {
+   "num": 40,
+   "type": "Multi-statement",
+   "prompt": "Which statement about viral structure is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The capsid is a protein container around the nucleic acid."
+    },
+    {
+     "letter": "B",
+     "text": "Capsomeres are the lipid molecules that make up a viral envelope."
+    },
+    {
+     "letter": "C",
+     "text": "An envelope is a phospholipid bilayer."
+    },
+    {
+     "letter": "D",
+     "text": "A naked virus has no envelope."
+    },
+    {
+     "letter": "E",
+     "text": "Spike proteins help a virus attach to host cells."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — capsomeres are the protein subunits that make up the capsid."
+  },
+  {
+   "num": 41,
+   "type": "Open recall",
+   "prompt": "Describe Ivanovsky's experiment step by step and explain why he called the agent a 'filterable infectious poison.'",
+   "options": [],
+   "correct": null,
+   "explanation": "He ground up infected tobacco plants and passed the juice through a membrane filter that should trap all bacteria. He grew the trapped microbes on agar, isolated colonies, grew each in pure culture, and applied each to healthy plants — none caused tobacco mosaic disease. He then applied the filtrate (what passed through the filter), and the healthy plant got the disease (1892). 'Filterable': it passed through a filter that traps cells, so it was smaller than any cell. 'Infectious poison': he thought it was a chemical that caused harm — yet it multiplied. The word 'virus' wasn't used until the 1930s."
+  },
+  {
+   "num": 42,
+   "type": "Open recall",
+   "prompt": "Explain how a plaque assay is used to count bacteriophages.",
+   "options": [],
+   "correct": null,
+   "explanation": "The phage sample is serially diluted, and each dilution is mixed with enough bacteria to form a lawn on a plate. Wherever one phage infects a cell, the cell bursts and phages spread to neighbors, creating a growing clear spot of dead bacteria — a plaque. Each plaque represents one phage in the plated sample, so you count plaques on a countable plate and back-calculate (as with serial dilution plate counts) the phage concentration in the original stock."
+  },
+  {
+   "num": 43,
+   "type": "Multiple choice",
+   "prompt": "Which entry mechanism–example pairing is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Endocytosis — influenza virus"
+    },
+    {
+     "letter": "B",
+     "text": "Direct penetration — SARS-CoV-2"
+    },
+    {
+     "letter": "C",
+     "text": "Membrane fusion — human enterovirus"
+    },
+    {
+     "letter": "D",
+     "text": "Endocytosis — only naked viruses"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Direct penetration: human enterovirus. Membrane fusion: SARS-CoV-2 and HIV. Endocytosis: influenza (used by naked and enveloped viruses)."
+  },
+  {
+   "num": 44,
+   "type": "Multiple choice",
+   "prompt": "Which virus and disease does the course use as its example of an acute infection?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Varicella-zoster — shingles"
+    },
+    {
+     "letter": "B",
+     "text": "HIV — AIDS"
+    },
+    {
+     "letter": "C",
+     "text": "Adenovirus — the common cold"
+    },
+    {
+     "letter": "D",
+     "text": "Herpes simplex virus — cold sores"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Acute: immediately productive, quick spike and decline. Herpes is latent; HIV is persistent."
+  },
+  {
+   "num": 45,
+   "type": "Multiple choice",
+   "prompt": "Which statement about viral host range matches the instructor's slides?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Viruses infect only animal cells; plants, fungi, and bacteria are immune to them"
+    },
+    {
+     "letter": "B",
+     "text": "Viruses can infect almost any kind of cell, but each one typically infects specific cells in one host"
+    },
+    {
+     "letter": "C",
+     "text": "Each virus can infect every cell type in every species, once it gets past the skin"
+    },
+    {
+     "letter": "D",
+     "text": "Host range is set mainly by the host's diet and body temperature, not by proteins"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Viruses infect bacteria, archaea, algae, fungi, protozoa, plants, and animals — but specificity comes from attachment sites."
+  },
+  {
+   "num": 46,
+   "type": "Multi-statement",
+   "prompt": "Which statement about viral entry is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "In endocytosis, the host cell engulfs the virus."
+    },
+    {
+     "letter": "B",
+     "text": "Membrane fusion is used mainly by naked viruses."
+    },
+    {
+     "letter": "C",
+     "text": "In membrane fusion, the envelope melts into the host membrane."
+    },
+    {
+     "letter": "D",
+     "text": "Endocytosis requires uncoating after entry."
+    },
+    {
+     "letter": "E",
+     "text": "Direct penetration is the least common entry method into eukaryotic cells."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — membrane fusion needs an envelope, so it's used by enveloped viruses."
+  },
+  {
+   "num": 47,
+   "type": "Open recall",
+   "prompt": "Explain budding: how an enveloped virus gets its envelope as it leaves, and when budding harms the host cell.",
+   "options": [],
+   "correct": null,
+   "explanation": "Viral spike proteins are placed in the host's plasma membrane. The assembled capsid (with genome) pushes through the membrane, wrapping itself in a patch of it; when the patch pinches off, the virus has an envelope made of host membrane studded with viral proteins (a 'wolf in sheep's clothing'). For influenza, neuraminidase is needed to release the bud. If only a few viruses bud, the cell may survive; if thousands bud at once, the cell loses so much membrane that it is likely destroyed."
+  },
+  {
+   "num": 48,
+   "type": "Open recall",
+   "prompt": "Why are COVID symptoms often severe, and how does remdesivir work?",
+   "options": [],
+   "correct": null,
+   "explanation": "SARS-CoV-2 leaves cells by exocytosis, which doesn't itself harm the cell, but releases many viruses; severe COVID symptoms generally result from an overactive immune response to the virus. Remdesivir disrupts the viral polymerase that copies the RNA genome — it resembles a nucleotide and can introduce mutations — and is moderately effective at preventing severe disease and hospitalization when taken early."
+  },
+  {
+   "num": 49,
+   "type": "Multiple choice",
+   "prompt": "Which genome type–course example pairing is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "dsDNA — HPV; +ssRNA — coronavirus; ssRNA-RT — HIV"
+    },
+    {
+     "letter": "B",
+     "text": "dsDNA — coronavirus; +ssRNA — HIV; ssRNA-RT — HPV"
+    },
+    {
+     "letter": "C",
+     "text": "dsDNA — HPV; +ssRNA — HIV; ssRNA-RT — coronavirus"
+    },
+    {
+     "letter": "D",
+     "text": "dsDNA — HIV; +ssRNA — HPV; ssRNA-RT — coronavirus"
+    }
+   ],
+   "correct": "A",
+   "explanation": "HPV is the DNA example, coronavirus the RNA example, and HIV the retrovirus example."
+  },
+  {
+   "num": 50,
+   "type": "Multiple choice",
+   "prompt": "Which oncovirus–cancer pairing is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Rous sarcoma virus — human lymphoma"
+    },
+    {
+     "letter": "B",
+     "text": "Epstein-Barr virus — lymphoma"
+    },
+    {
+     "letter": "C",
+     "text": "Hepatitis B — cervical cancer"
+    },
+    {
+     "letter": "D",
+     "text": "HPV — liver cancer"
+    }
+   ],
+   "correct": "B",
+   "explanation": "HPV — cervical cancer; hepatitis B and C — liver cancer; Rous sarcoma virus — sarcoma in chickens."
+  },
+  {
+   "num": 51,
+   "type": "Multiple choice",
+   "prompt": "Which is NOT a way to culture viruses that infect eukaryotic cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Plain nutrient agar plates"
+    },
+    {
+     "letter": "B",
+     "text": "Embryonated eggs"
+    },
+    {
+     "letter": "C",
+     "text": "Cell cultures"
+    },
+    {
+     "letter": "D",
+     "text": "Live animals"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Viruses only grow inside living cells."
+  },
+  {
+   "num": 52,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the cell cycle is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "M stands for mitosis."
+    },
+    {
+     "letter": "B",
+     "text": "The phases are G1, S, G2, and M."
+    },
+    {
+     "letter": "C",
+     "text": "DNA is replicated in the S phase."
+    },
+    {
+     "letter": "D",
+     "text": "Cells divide during the S phase."
+    },
+    {
+     "letter": "E",
+     "text": "In G1 a cell does its normal job."
+    }
+   ],
+   "correct": "D",
+   "explanation": "False — S is DNA synthesis; division happens in M (mitosis)."
+  },
+  {
+   "num": 53,
+   "type": "Open recall",
+   "prompt": "Explain how proto-oncogenes and tumor-suppressor genes normally regulate the cell cycle, using the car analogy, and explain p53's two jobs.",
+   "options": [],
+   "correct": null,
+   "explanation": "Proto-oncogenes encode proteins that turn cell division ON — the gas pedal. Tumor-suppressor genes encode proteins that turn division OFF — the brakes. Balanced, the cell divides only when it should. p53 is a tumor-suppressor gene whose protein (the 'guardian angel') regulates cell division (a brake) and also helps manage damaged and mutated DNA. p53 mutations occur in about 60% of human cancers, and some oncoviruses (HPV, hepatitis B and C) make proteins that inactivate p53, leading to uncontrolled division."
+  },
+  {
+   "num": 54,
+   "type": "Open recall",
+   "prompt": "Describe how a retrovirus such as HIV infects a cell, step by step.",
+   "options": [],
+   "correct": null,
+   "explanation": "Attachment and entry: HIV binds CD4 on a helper T cell and enters by membrane fusion. Uncoating releases the ssRNA genome. Reverse transcriptase, carried in the virion, reverse-transcribes the RNA into dsDNA. The dsDNA is built into the host chromosome as a provirus (copied whenever the cell divides). Biosynthesis: the provirus is transcribed into new viral RNA genomes and mRNAs, which are translated into viral proteins (including spike proteins). Assembly and release: new virions bud out; if slowly, the host cell may survive, giving a persistent infection."
+  },
+  {
+   "num": 55,
+   "type": "Multiple choice",
+   "prompt": "Which drug–target pairing is MISMATCHED?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tamiflu — neuraminidase"
+    },
+    {
+     "letter": "B",
+     "text": "Cipro — bacterial gyrase"
+    },
+    {
+     "letter": "C",
+     "text": "Vermox — viral polymerase"
+    },
+    {
+     "letter": "D",
+     "text": "Monistat — ergosterol synthesis"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Vermox (mebendazole) inhibits sugar absorption in worms. Remdesivir is the drug that disrupts viral polymerase."
+  },
+  {
+   "num": 56,
+   "type": "Multiple choice",
+   "prompt": "Which pair are BOTH obligate intracellular parasites?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Giardia and Candida"
+    },
+    {
+     "letter": "B",
+     "text": "Ascaris and Taenia"
+    },
+    {
+     "letter": "C",
+     "text": "Plasmodium and viruses"
+    },
+    {
+     "letter": "D",
+     "text": "Saccharomyces and Euglena"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Apicomplexa such as Plasmodium are obligate intracellular parasites, as are all viruses."
+  }
+ ]
+}

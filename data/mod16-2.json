@@ -1,0 +1,356 @@
+{
+ "slug": "mod16-2",
+ "title": "Module 16 — Quiz 2",
+ "subtitle": "Viruses — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "The instructor's slides line up the bacteriophage lytic cycle against the animal-virus life cycle. Which pairing is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Phages are released by budding; naked animal viruses are released by exocytosis only"
+    },
+    {
+     "letter": "B",
+     "text": "A phage's penetration includes uncoating; an animal virus's penetration never does"
+    },
+    {
+     "letter": "C",
+     "text": "A phage can enter lysogeny instead of biosynthesis; an animal virus can enter latency instead"
+    },
+    {
+     "letter": "D",
+     "text": "Animal viruses skip biosynthesis because the host already has viral proteins"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Slides: lysogeny ↔ latency. Animal-virus entry adds uncoating; release can be budding (enveloped), lysis (naked), or exocytosis (both)."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Which statement correctly contrasts a prophage, a provirus, and episomal viral DNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Prophage: phage DNA built into a bacterial chromosome. Provirus: animal-virus DNA built into a host chromosome (HIV). Episomal DNA: viral DNA sitting beside the chromosomes (herpes)"
+    },
+    {
+     "letter": "B",
+     "text": "All three are viral DNA built into a host chromosome. They differ only in the host: prophage in bacteria, provirus in humans, episomal DNA in plants"
+    },
+    {
+     "letter": "C",
+     "text": "Episomal DNA is a phage genome inside bacteria. A provirus is a herpes genome sitting beside the chromosomes. A prophage is HIV's DNA"
+    },
+    {
+     "letter": "D",
+     "text": "Prophage and provirus float free in the cytoplasm as loops. Episomal DNA is the one form that is spliced into the host chromosome (herpes)"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Integration: prophage (bacteria) and provirus (HIV). Episomal = 'on top of' the chromosomes, not part of them (latent herpes)."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "According to the instructor's slides, why must HIV carry reverse transcriptase?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "HIV is a retrovirus with an RNA genome; reverse transcriptase turns that RNA into DNA, which is built into the host's DNA as a provirus"
+    },
+    {
+     "letter": "B",
+     "text": "Reverse transcriptase is the surface protein HIV uses to bind CD4 on helper T cells"
+    },
+    {
+     "letter": "C",
+     "text": "HIV has a DNA genome that must be turned into RNA before the host's ribosomes can read it"
+    },
+    {
+     "letter": "D",
+     "text": "Reverse transcriptase digests the patch of host membrane that holds a budding HIV particle in place"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Retroviruses have RNA genomes and use reverse transcriptase to make DNA (the same enzyme used in RT-PCR, Module 14)."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "At which stages of the viral life cycle do Tamiflu and remdesivir act?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Both act at entry — Tamiflu stops endocytosis and remdesivir stops the capsid from uncoating"
+    },
+    {
+     "letter": "B",
+     "text": "Tamiflu — release (blocks neuraminidase so budding viruses can't break free); remdesivir — biosynthesis (disrupts the viral polymerase copying the genome)"
+    },
+    {
+     "letter": "C",
+     "text": "Tamiflu — biosynthesis (blocks the viral polymerase); remdesivir — entry (blocks the envelope from fusing with the membrane)"
+    },
+    {
+     "letter": "D",
+     "text": "Tamiflu — attachment (blocks hemagglutinin from binding receptors); remdesivir — release (blocks exocytosis from lysosomes)"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Tamiflu is a neuraminidase inhibitor that prevents successful budding. Remdesivir disrupts the viral polymerase."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Remdesivir looks a lot like a nucleotide. Why does that matter for how it works?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It pairs with the spike protein, so the virus can no longer attach to ACE2 receptors"
+    },
+    {
+     "letter": "B",
+     "text": "The viral polymerase mistakes it for a nucleotide, which disrupts genome copying and adds mutations"
+    },
+    {
+     "letter": "C",
+     "text": "It is built into human DNA, where it switches off the gene for the ACE2 receptor"
+    },
+    {
+     "letter": "D",
+     "text": "It forms thymine dimers in the viral genome, the same way UV light damages DNA"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Lecture: it 'gets in there and acts like a nucleotide and can introduce mutations into the genomes that are being replicated.'"
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "When a host cell takes in an influenza virus by endocytosis, it wraps the virus using the same kind of structure that which Module 9 organism uses to move and feed?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Euglena — a rod-stiffened flagellum"
+    },
+    {
+     "letter": "B",
+     "text": "Giardia — flagella"
+    },
+    {
+     "letter": "C",
+     "text": "Amoeba — pseudopods"
+    },
+    {
+     "letter": "D",
+     "text": "Plasmodium — organelles at the apex"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Endocytosis: the host cell engulfs the virus using pseudopods — the same 'false feet' amoebas (and white blood cells) use."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Which way of leaving a host cell is a normal cell process that doesn't itself damage the cell?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Exocytosis — used by SARS-CoV-2, which leaves inside lysosomes as 'waste'"
+    },
+    {
+     "letter": "B",
+     "text": "Budding of influenza with the help of neuraminidase"
+    },
+    {
+     "letter": "C",
+     "text": "Lysis — used by naked viruses"
+    },
+    {
+     "letter": "D",
+     "text": "Budding of thousands of virions at once — used by HIV"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Cells release waste by exocytosis all the time. Lysis bursts the cell; mass budding strips away so much membrane that the cell likely dies."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Influenza and SARS-CoV-2 are both enveloped. Where does each get its envelope?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Both build their envelopes from phospholipids encoded by genes in their own viral genomes"
+    },
+    {
+     "letter": "B",
+     "text": "Influenza — from rough ER and Golgi inside the cell; SARS-CoV-2 — from the plasma membrane as it buds"
+    },
+    {
+     "letter": "C",
+     "text": "Both take their envelopes from lysosome membranes as they leave the cell by exocytosis"
+    },
+    {
+     "letter": "D",
+     "text": "Influenza — from the host's plasma membrane as it buds out; SARS-CoV-2 — from rough ER and Golgi membrane inside the cell, before it leaves"
+    }
+   ],
+   "correct": "D",
+   "explanation": "A viral genome can't encode a phospholipid bilayer; enveloped viruses borrow host membrane — plasma membrane (budding) or ER/Golgi (SARS-CoV-2)."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "What single idea explains BOTH why HIV infects only CD4+ helper T cells AND why phage therapy (Module 15) leaves human cells alone?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Viruses can only infect cells that have a cell wall for their tail fibers to grip"
+    },
+    {
+     "letter": "B",
+     "text": "Host range is set by viral attachment proteins that must bind specific receptors on the host cell"
+    },
+    {
+     "letter": "C",
+     "text": "Viruses can only enter cells that are close to their own size"
+    },
+    {
+     "letter": "D",
+     "text": "Viruses only infect cells that are already damaged or dying"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Narrow host range: lock-and-key binding between viral proteins and specific host attachment sites."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "What do severe COVID and the deadliness of the 1918 flu have in common, according to the lecture?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Both killed mostly the elderly and very young, whose weaker immune systems couldn't fight the virus off"
+    },
+    {
+     "letter": "B",
+     "text": "Both spread fastest among healthy adults but were stopped quickly by antiviral drugs once identified"
+    },
+    {
+     "letter": "C",
+     "text": "In both, an overactive immune response caused much of the harm — in 1918, healthy people with strong immune systems died most"
+    },
+    {
+     "letter": "D",
+     "text": "Both directly burst every respiratory cell they infected, so the lungs were destroyed by the virus itself"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Severe COVID results from an overactive immune response. In 1918, healthy people with robust immune systems had very severe hypersensitive responses."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Using the lecture's numbers, about what fraction of infected people died in the 1918 flu pandemic compared with COVID worldwide (at the time of the video)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "About 1 in 5 for COVID (100 million of 536 million) versus about 1 in 85 for 1918 (6.31 million of 500 million)"
+    },
+    {
+     "letter": "B",
+     "text": "About 1 in 2 for 1918 (250 million of 500 million) versus about 1 in 5 for COVID (100 million of 536 million)"
+    },
+    {
+     "letter": "C",
+     "text": "About 1 in 50 for both pandemics, since the case numbers were nearly the same (about 500 million each)"
+    },
+    {
+     "letter": "D",
+     "text": "About 1 in 5 for 1918 (100 million of 500 million) versus about 1 in 85 for COVID (6.31 million of 536 million)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "100/500 = 20%; 6.31/536 ≈ 1.2%. Similar case numbers, very different death tolls."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about acute, latent, and persistent infections is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "In a persistent infection, no virus can be detected until the productive phase begins."
+    },
+    {
+     "letter": "B",
+     "text": "Latent herpes infections can recur, with cold sores appearing again later."
+    },
+    {
+     "letter": "C",
+     "text": "In a latent infection, viral DNA stays dormant as episomal DNA before becoming productive."
+    },
+    {
+     "letter": "D",
+     "text": "A persistent HIV infection makes new viruses slowly before it may become productive."
+    },
+    {
+     "letter": "E",
+     "text": "In an acute infection, the virus immediately enters a productive phase."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — in a persistent infection new viruses are made at a very slow rate and are detectable at all times."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the influenza virus is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hemagglutinin helps it attach to host cells."
+    },
+    {
+     "letter": "B",
+     "text": "Its genome is a single piece of DNA."
+    },
+    {
+     "letter": "C",
+     "text": "It has a helical capsid inside an envelope."
+    },
+    {
+     "letter": "D",
+     "text": "It enters cells by endocytosis."
+    },
+    {
+     "letter": "E",
+     "text": "Neuraminidase helps budding virions break free."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — influenza has a segmented RNA genome."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Follow an influenza virus from attachment to release, naming the surface proteins involved and the step where Tamiflu acts.",
+   "options": [],
+   "correct": null,
+   "explanation": "Attachment: hemagglutinin on the envelope binds receptors on a respiratory cell (H in 'H1N1'). Entry: the cell engulfs the virus by endocytosis using pseudopods, then uncoating releases the segmented RNA genome (from the vesicle and the capsid). Biosynthesis: the host copies the viral genome and transcribes/translates viral genes; spike proteins are placed in the host's plasma membrane. Assembly: capsids form around the genome. Release: the capsid buds through the plasma membrane, taking a patch as its envelope; neuraminidase (N) digests the proteins tethering the bud so it can break free. Tamiflu inhibits neuraminidase, preventing successful budding and giving the immune system time."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Explain why there are so few antiviral drugs, and how each of the course's two antivirals finds a target that our own cells don't use in the same way.",
+   "options": [],
+   "correct": null,
+   "explanation": "Viruses are so different from living cells — they have no metabolism of their own and use the host's machinery — that there are few targets to hit without harming our cells. Tamiflu (oseltamivir) targets neuraminidase, a viral enzyme on influenza that is needed to release budding virions; blocking it stops new viruses from breaking free. Remdesivir targets the viral polymerase that copies the SARS-CoV-2 genome; it resembles a nucleotide, gets taken in during copying, and disrupts it (introducing mutations). It works best taken early."
+  }
+ ]
+}

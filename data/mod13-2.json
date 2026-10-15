@@ -1,0 +1,356 @@
+{
+ "slug": "mod13-2",
+ "title": "Module 13 — Quiz 2",
+ "subtitle": "Bacterial Genetics — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Why does a cell destroy an mRNA after it has been translated?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Because leftover mRNA would bind the promoter and block RNA polymerase from that gene"
+    },
+    {
+     "letter": "B",
+     "text": "Because the ribosome uses the mRNA's nucleotides to build the protein's amino acids"
+    },
+    {
+     "letter": "C",
+     "text": "So the protein isn't made nonstop; if more is needed, a new mRNA is transcribed"
+    },
+    {
+     "letter": "D",
+     "text": "Because mRNA turns into DNA once translation ends and would add an extra gene to the chromosome"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Lecture: if not destroyed, the mRNA would be translated over and over and the cell would make that protein nonstop."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "RNA polymerase does work that takes two separate enzymes during DNA replication. Which two?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Primase (laying primers) and ligase (sealing the finished strand)"
+    },
+    {
+     "letter": "B",
+     "text": "Gyrase (uncoiling) and ligase (gluing fragments together)"
+    },
+    {
+     "letter": "C",
+     "text": "Helicase (unzipping) and gyrase (uncoiling supercoils)"
+    },
+    {
+     "letter": "D",
+     "text": "Helicase (unzipping the DNA) and DNA polymerase (building a complementary strand)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Lecture: RNA polymerase unzips the DNA 'kind of like what helicase did' and brings in complementary RNA nucleotides to build the mRNA."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Which set correctly matches each DNA sequence to its role?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Promoter — where the ribosome lands to start translation; operator — where tRNAs pick up their amino acids; terminator — the stop codon that ends the protein"
+    },
+    {
+     "letter": "B",
+     "text": "Promoter — the end of a gene, where RNA polymerase lets go; operator — the start codon that sets the reading frame; terminator — where helicase starts to unzip"
+    },
+    {
+     "letter": "C",
+     "text": "Promoter — the gene that makes the repressor protein; operator — where RNA polymerase falls off the DNA; terminator — where lactose binds to end transcription"
+    },
+    {
+     "letter": "D",
+     "text": "Promoter — draws RNA polymerase to the start of a gene; operator — where a repressor can sit to block transcription; terminator — where RNA polymerase can't stay bound and falls off"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Promoter: 'like a magnet' for RNA polymerase. Operator: binding site for the repressor. Terminator: polymerase can't bind and falls off."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "RNA uses uracil where DNA uses thymine. Why doesn't this change the message carried by the mRNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Uracil pairs with adenine just as thymine does, so the mRNA still matches the coding strand except for U in place of T"
+    },
+    {
+     "letter": "B",
+     "text": "Uracil only appears in tRNA and rRNA, while mRNA keeps thymine so it can match the coding strand letter for letter"
+    },
+    {
+     "letter": "C",
+     "text": "Uracil pairs with guanine, and the ribosome is built to read those G–U pairs as if they were the missing thymines"
+    },
+    {
+     "letter": "D",
+     "text": "Uracil is converted back into thymine at the ribosome, so the codons are read exactly as they appear in the DNA"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Uracil is so similar to thymine that it binds adenine the same way."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "There are 64 possible codons but only 20 kinds of amino acids. How does that help explain why many substitution mutations are harmless?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The ribosome skips any codon that doesn't match one of the 20 amino acids"
+    },
+    {
+     "letter": "B",
+     "text": "The extra codons are all stop codons, which end translation before the mutation can be read"
+    },
+    {
+     "letter": "C",
+     "text": "Most amino acids have more than one codon, so a changed nucleotide can still code for the same amino acid (a silent mutation)"
+    },
+    {
+     "letter": "D",
+     "text": "Each amino acid has exactly three codons, so one change is always corrected by the other two"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Redundancy: multiple codons code for the same amino acid. A substitution may change the codon but not the amino acid."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "A gene only encodes a protein's primary structure. Why is that enough for the cell to get a working, 3-D protein?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Once the amino acids are linked in the right order, the chain folds into its secondary and tertiary structure on its own"
+    },
+    {
+     "letter": "B",
+     "text": "RNA polymerase adds the secondary and tertiary structure during the termination stage of transcription"
+    },
+    {
+     "letter": "C",
+     "text": "The tRNAs bend the chain into its final shape as each one leaves the ribosome after delivering its amino acid"
+    },
+    {
+     "letter": "D",
+     "text": "The mRNA serves as a mold that the growing chain wraps around, so the mRNA's shape becomes the protein's shape"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Lecture: get the amino acids in the right order and 'laws of physics just take over' — the chain spontaneously folds."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "The lac operon has three lactase genes. How are all three controlled together?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The three genes are on separate chromosomes but are read by the same ribosome"
+    },
+    {
+     "letter": "B",
+     "text": "They share one promoter, so when the active repressor sits on the operator and blocks RNA polymerase, all three are off together"
+    },
+    {
+     "letter": "C",
+     "text": "Each gene has its own repressor gene, but all three repressors respond to lactose at the same time"
+    },
+    {
+     "letter": "D",
+     "text": "Each gene has its own promoter, but they share one terminator that turns them off together"
+    }
+   ],
+   "correct": "B",
+   "explanation": "An operon = regulatory gene + promoter + operator + genes. One promoter serves all three lac genes."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which comparison of the lac and trp operons is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "lac is repressible — lactose activates the repressor to turn genes OFF; trp is inducible — tryptophan inactivates the repressor"
+    },
+    {
+     "letter": "B",
+     "text": "Both are inducible, but lac uses a corepressor and trp uses an inducer"
+    },
+    {
+     "letter": "C",
+     "text": "lac is inducible — the inducer (lactose) inactivates the repressor to turn genes ON; trp is repressible — a corepressor activates the repressor to turn genes OFF"
+    },
+    {
+     "letter": "D",
+     "text": "lac is inducible — lactose binds the operator directly; trp is repressible — tryptophan binds the promoter directly"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Inducible = default off (lamp); repressible = default on (refrigerator). Inducer inactivates the repressor; corepressor activates it."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "A single-nucleotide deletion happens in the LAST few codons before the stop codon of a long gene. What is the likely result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The gene can no longer be transcribed, since the promoter is lost"
+    },
+    {
+     "letter": "B",
+     "text": "Only the last few amino acids are changed; everything before the deletion is translated normally"
+    },
+    {
+     "letter": "C",
+     "text": "Nothing changes, because deletions are always silent"
+    },
+    {
+     "letter": "D",
+     "text": "Every amino acid in the protein is changed, since a frameshift affects the whole gene"
+    }
+   ],
+   "correct": "B",
+   "explanation": "A frameshift alters codons from the mutation forward. Near the end of the gene, few codons follow it."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "In a 300-amino-acid protein, which single substitution is most likely to wreck the protein?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "One that turns codon 299 into a stop codon (nonsense)"
+    },
+    {
+     "letter": "B",
+     "text": "One that turns codon 5 into a stop codon (nonsense)"
+    },
+    {
+     "letter": "C",
+     "text": "One that changes codon 5 to a different codon for the same amino acid (silent)"
+    },
+    {
+     "letter": "D",
+     "text": "One that changes codon 150 to code for a different amino acid (missense)"
+    }
+   ],
+   "correct": "B",
+   "explanation": "A premature stop early in the gene cuts the protein off after a few amino acids. Missense changes one amino acid; a silent change does nothing."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "A mutation arises because DNA polymerase made a copying error, with no chemicals, radiation, or viruses involved. How do the instructor slides classify it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Spontaneous mutation"
+    },
+    {
+     "letter": "B",
+     "text": "Thymine dimer"
+    },
+    {
+     "letter": "C",
+     "text": "Inducible mutation"
+    },
+    {
+     "letter": "D",
+     "text": "Induced mutation"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Slides: induced = caused by mutagens (radiation, chemicals, viruses); spontaneous = random errors in DNA replication or recombination."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about translation is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Neighboring amino acids are joined by peptide bonds."
+    },
+    {
+     "letter": "B",
+     "text": "The ribosome starts translating at the very first nucleotide at the 5' end of the mRNA."
+    },
+    {
+     "letter": "C",
+     "text": "Each tRNA's anticodon pairs with an mRNA codon by complementary base pairing."
+    },
+    {
+     "letter": "D",
+     "text": "Ribosomal subunits bind the mRNA at the start codon, AUG."
+    },
+    {
+     "letter": "E",
+     "text": "No tRNA matches a stop codon, so the ribosome breaks apart there."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — translation begins at the first AUG start codon; the region upstream of it is not translated."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the lac operon is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The regulatory gene that makes the repressor is only switched on when lactose is present."
+    },
+    {
+     "letter": "B",
+     "text": "The repressor protein is made in its active shape."
+    },
+    {
+     "letter": "C",
+     "text": "The lac genes encode enzymes that break down lactose."
+    },
+    {
+     "letter": "D",
+     "text": "The active repressor binds the operator and blocks RNA polymerase."
+    },
+    {
+     "letter": "E",
+     "text": "Lactose binds the repressor and changes its shape."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — the regulatory gene is always on; it constantly makes active repressor."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Describe how mRNA, tRNA, and the ribosome work together to translate a gene, from the start codon to the stop codon.",
+   "options": [],
+   "correct": null,
+   "explanation": "The mRNA carries the gene's message as codons (groups of three nucleotides). Ribosomal subunits bind the mRNA at the start codon AUG. A tRNA whose anticodon (UAC) is complementary to AUG arrives carrying methionine. The next tRNA, with an anticodon complementary to the next codon, brings its amino acid, and a peptide bond joins the two. The first tRNA leaves to be reloaded (tRNAs are recyclable), and the ribosome moves on, codon by codon, lengthening the chain. At a stop codon no tRNA can pair, so the ribosome breaks apart, the mRNA and last tRNA leave, and the amino acid chain folds into the protein. The mRNA is then destroyed."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Compare inducible and repressible operons. Give the lecture's household analogy for each, the course example, and what the inducer or corepressor does to the repressor.",
+   "options": [],
+   "correct": null,
+   "explanation": "Inducible operon: default OFF, turned ON when needed — like a lamp. Example: the lac operon. The inducer (lactose) binds the active repressor, changes its shape, and inactivates it, so it leaves the operator and RNA polymerase can transcribe the genes. Repressible operon: default ON, turned OFF when needed — like a refrigerator. Example: the trp operon. The repressor is made inactive (wrong shape); a corepressor binds and activates it, so it binds the operator and blocks transcription."
+  }
+ ]
+}

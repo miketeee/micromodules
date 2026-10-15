@@ -1,0 +1,356 @@
+{
+ "slug": "mod10-2",
+ "title": "Module 10 — Quiz 2",
+ "subtitle": "Eukaryotes — Fungi",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A fungus is sealed in an oxygen-free jar of sugar water and keeps multiplying by budding. Which kind of fungus is it most likely to be, and why can it survive?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A yeast — yeasts are obligate anaerobes that are killed by oxygen"
+    },
+    {
+     "letter": "B",
+     "text": "A yeast — yeasts are facultative anaerobes that prefer oxygen but can ferment without it"
+    },
+    {
+     "letter": "C",
+     "text": "A mold — molds reproduce by budding and form spores when oxygen runs out"
+    },
+    {
+     "letter": "D",
+     "text": "A mold — molds are anaerobic and grow best where oxygen is absent"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Yeasts are facultative anaerobes and reproduce by budding or binary fission. Molds are aerobic and reproduce by spores."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Protozoa and fungi are both heterotrophs. How does the way fungi get food differ from protozoa?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Protozoa digest food outside the cell with enzymes; fungi engulf food particles and spread by swimming trophozoites"
+    },
+    {
+     "letter": "B",
+     "text": "Both are motile, but fungi use pseudopods while protozoa use spores carried by the wind"
+    },
+    {
+     "letter": "C",
+     "text": "Protozoa are motile and move to find food; fungi are non-motile, grow into the food, digest it outside the cell with enzymes, and spread by releasing spores"
+    },
+    {
+     "letter": "D",
+     "text": "Fungi photosynthesize when food runs out, while protozoa form cysts and wait for food to arrive"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Protozoa move by cilia, flagella, or pseudopods. Fungi are non-motile: hyphae grow into food, release digestive enzymes, absorb nutrients, and release spores to reach new food."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Why does the lecture call fungi especially important decomposers?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They are the only organisms that can digest dead animals, because of their chitin walls"
+    },
+    {
+     "letter": "B",
+     "text": "They are autotrophs that recycle carbon dioxide from dead plants into sugar"
+    },
+    {
+     "letter": "C",
+     "text": "They feed on dead material and are among the few organisms that can break down wood"
+    },
+    {
+     "letter": "D",
+     "text": "They break down dead matter inside their cells after engulfing it with pseudopods"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Fungi are heterotrophic decomposers (dead rabbits, leaves, trees) and are some of the few organisms that can break down wood."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Penicillin attacks bacterial peptidoglycan; Eraxis (anidulafungin) attacks fungi. Which statement correctly pairs each drug's target with why human cells are spared?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Penicillin — chitin in the cell wall; Eraxis — peptidoglycan. Human cells are protected by cholesterol"
+    },
+    {
+     "letter": "B",
+     "text": "Penicillin — peptidoglycan cell wall; Eraxis — fungal cell wall (made of chitin). Human cells have no cell wall, so neither target exists in us"
+    },
+    {
+     "letter": "C",
+     "text": "Penicillin — prokaryotic ribosomes; Eraxis — ergosterol. Humans use cholesterol and eukaryotic ribosomes instead"
+    },
+    {
+     "letter": "D",
+     "text": "Penicillin — peptidoglycan cell wall; Eraxis — fungal DNA synthesis. Human DNA is copied by a different enzyme"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Eraxis inhibits fungal cell wall synthesis; the fungal wall is chitin. Animal cells lack cell walls entirely."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "On the instructor's mycosis table, which diseases are listed as caused by 'many' fungi rather than one specific genus?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Athlete's foot and ringworm"
+    },
+    {
+     "letter": "B",
+     "text": "Thrush and histoplasmosis"
+    },
+    {
+     "letter": "C",
+     "text": "Histoplasmosis and fungal meningitis"
+    },
+    {
+     "letter": "D",
+     "text": "Thrush and yeast infection"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Table: yeast infection and thrush — Candida; histoplasmosis — Histoplasma; meningitis — Candida, Histoplasma, Cryptococcus, others; athlete's foot and ringworm — many."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "The instructor warns that 'vaginitis' (Module 9) and 'meningitis' (Module 10) are both broad terms. What does he mean?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Each names only WHERE the infection is; the cause could be a protozoan, fungus, bacterium, or virus"
+    },
+    {
+     "letter": "B",
+     "text": "Each is a fungal disease that can only be identified with an India ink stain"
+    },
+    {
+     "letter": "C",
+     "text": "Each is always caused by Candida albicans, but at different body sites"
+    },
+    {
+     "letter": "D",
+     "text": "Each refers only to sexually transmitted infections of different organs"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Vaginitis = infection of the vagina (protozoan, viral, bacterial, or fungal). Meningitis = infection of the meninges (bacterial, viral, or fungal)."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "What do sporangiospores and conidiospores have in common?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Both are sexual spores formed after hyphae of opposite mating types fuse underground"
+    },
+    {
+     "letter": "B",
+     "text": "Both are asexual spores, genetically identical to the mold that made them; they differ only in being enclosed vs. exposed on their stalk"
+    },
+    {
+     "letter": "C",
+     "text": "Both are made inside mushrooms after fusion, so each spore carries genes from two mating types; they differ only in spore size"
+    },
+    {
+     "letter": "D",
+     "text": "Both are dormant, resistant stages like protozoan cysts, made only when the mold runs out of food; they differ in oxygen use"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Both are asexual (clones). Sporangiospores are enclosed in a sporangium on a sporangiophore; conidiospores are exposed on a conidiophore."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "The similarity between human and fungal cells makes antifungal drugs hard to develop. How does the lecture turn that same fact into an advantage?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Antibacterial chemicals that molds make to protect themselves are likely to be safe for humans too, so fungi are a great source of antibiotics"
+    },
+    {
+     "letter": "B",
+     "text": "Because fungi resemble us, any drug that is safe for human cells can be assumed to kill fungi as well, so testing is quick"
+    },
+    {
+     "letter": "C",
+     "text": "Because our cells are so alike, human immune cells can easily recognize fungi, so most mycoses clear up without any drug at all"
+    },
+    {
+     "letter": "D",
+     "text": "Because fungi resemble us, antifungal drugs can be built by copying human cholesterol, which fungal membranes then reject"
+    }
+   ],
+   "correct": "A",
+   "explanation": "'What's good for the mold might be good for the human' — most antibiotics were originally found in fungi (e.g., penicillin from Penicillium)."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which two mycoses are caught by breathing in fungi, and from what sources?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Histoplasmosis from Histoplasma in turned-over farm soil, and farmer's lung from Aspergillus in bat caves"
+    },
+    {
+     "letter": "B",
+     "text": "Athlete's foot from damp shower floors, and fungal meningitis from Cryptococcus in bat droppings in caves"
+    },
+    {
+     "letter": "C",
+     "text": "Thrush from Candida spores drifting in the air, and ringworm from spores stirred up while cleaning cat litter"
+    },
+    {
+     "letter": "D",
+     "text": "Farmer's lung from Aspergillus spores in soil, and histoplasmosis from Histoplasma in bat droppings in caves"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Aspergillus causes farmer's lung (inhaled while turning soil). Histoplasmosis comes from inhaling Histoplasma found in bat droppings."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "A classmate calls a mushroom 'a kind of plant.' Which facts from the module show it belongs in Kingdom Fungi instead?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is motile and digests food inside the cell with pseudopods"
+    },
+    {
+     "letter": "B",
+     "text": "It is photosynthetic but has a cell wall made of glass (silica)"
+    },
+    {
+     "letter": "C",
+     "text": "It is heterotrophic (not photosynthetic) and its cells have walls made of chitin"
+    },
+    {
+     "letter": "D",
+     "text": "It is unicellular and reproduces only by budding"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Fungi are heterotrophic decomposers, non-motile, with chitin cell walls. A mushroom is the sexual structure of a multicellular fungus."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Moldy bread under magnification shows white threads topped with black, dandelion-like heads. What are those black heads, and what do they release?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mushrooms formed by sexual reproduction, releasing spores from two mating types"
+    },
+    {
+     "letter": "B",
+     "text": "Budding yeast cells, each leaving a scar on the chitin wall when it breaks off"
+    },
+    {
+     "letter": "C",
+     "text": "Conidiophores with spores exposed on the outside like dust"
+    },
+    {
+     "letter": "D",
+     "text": "Sporangia on top of sporangiophores, full of asexual sporangiospores released when the container breaks"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Lecture's bread-mold image: hyphae with 'dandelion' heads full of spores — the gumball-machine container of sporangiospores."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the mycoses in this module is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Histoplasmosis can be caused by many different fungi."
+    },
+    {
+     "letter": "B",
+     "text": "Thrush is caused by Candida, the same organism behind vaginal yeast infections."
+    },
+    {
+     "letter": "C",
+     "text": "Athlete's foot is a type of ringworm."
+    },
+    {
+     "letter": "D",
+     "text": "Nail infections grow slowly in tissue with very little blood supply."
+    },
+    {
+     "letter": "E",
+     "text": "Candida, Histoplasma, and Cryptococcus can all cause fungal meningitis."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — histoplasmosis is caused by Histoplasma specifically. 'Many' applies to athlete's foot and ringworm."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about sexual reproduction in fungi is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "After hyphae fuse, many hyphae grow up toward the surface and form a mushroom."
+    },
+    {
+     "letter": "B",
+     "text": "Fungi make sperm and egg cells, like plants and animals do."
+    },
+    {
+     "letter": "C",
+     "text": "A mushroom's job is to get the fungus above ground so it can release spores."
+    },
+    {
+     "letter": "D",
+     "text": "Each mating type releases a pheromone and has a receptor for the opposite type's pheromone."
+    },
+    {
+     "letter": "E",
+     "text": "Fungi have opposite mating types instead of males and females."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — fungi do not produce sperm and egg; they have opposite (+/−) mating types."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Explain why there are so few kinds of antifungal drugs compared with antibacterial drugs. Then describe the two most common antifungal targets, name a drug for each, and explain why each target spares human cells.",
+   "options": [],
+   "correct": null,
+   "explanation": "Fungal and human (animal) cells are both eukaryotic and remarkably similar in biochemistry and metabolism, so there are few differences to exploit — unlike bacteria, which have peptidoglycan, prokaryotic ribosomes, and gyrase as targets. Target 1: ergosterol, the sterol fungi use to regulate membrane fluidity (humans use cholesterol). Miconazole (Monistat) inhibits ergosterol synthesis; without it the fungal membrane can rupture. Target 2: the fungal cell wall, made of chitin. Anidulafungin (Eraxis) inhibits cell wall synthesis. Human cells have no cell wall, so it is spared."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Trace a bread mold from one spore landing on a slice of bread to the release of new spores. Use the terms hypha, mycelium, extracellular digestion, sporangiophore, and sporangiospore.",
+   "options": [],
+   "correct": null,
+   "explanation": "A spore carried by air lands on the bread and divides by mitosis into a filament of cells (a hypha). Hyphae keep growing into the bread; the whole network is the mycelium. The fungus has no mouth, so it releases digestive enzymes into the bread (extracellular digestion) and absorbs the nutrients across the hyphae. Some hyphae grow upward as stalks (sporangiophores) with a container (sporangium) on top filled with asexual sporangiospores. When the container breaks, the spores are released to drift to new food."
+  }
+ ]
+}

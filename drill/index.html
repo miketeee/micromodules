@@ -113,7 +113,7 @@ summary{cursor:pointer;font-weight:600}
 .back:hover{text-decoration:underline}
 .chip.bank-S{background:#F3DCE2;color:#8E3B53}
 .mrow details{border:0;padding:0;background:none}
-.mgroup{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:18px 0 2px;padding-bottom:6px;border-bottom:1.5px solid var(--line)}.mgroup h3{margin:0;font:600 1.05rem/1.3 var(--display)}.mgroup .gmeta{color:var(--muted);font-size:.86rem}.mgroup .btn{margin-left:auto;padding:5px 12px;font-size:.85rem}
+.mgwrap{margin-top:10px;border:0;padding:0;background:none}.mgroup .gtitle{display:flex;gap:8px;align-items:baseline;flex:1 1 220px;min-width:0}.mgroup h3{overflow-wrap:anywhere}.mgwrap>.stack{margin-top:10px}.mgroup{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;list-style:none}.mgroup::-webkit-details-marker{display:none}.mgroup:hover{border-color:var(--accent)}.mgroup .chev{color:var(--accent);transition:transform .15s;display:inline-block}.mgwrap[open] .mgroup .chev{transform:rotate(90deg)}.mgroup h3{margin:0;font:600 1.05rem/1.3 var(--display)}.mgroup .gmeta{color:var(--muted);font-size:.86rem}.mgroup .btn{margin-left:auto;padding:5px 12px;font-size:.85rem}
 .misslog{margin:10px 0 0;padding-left:1.3em;font-size:.86rem;display:grid;gap:3px}
 .mrow summary{font-weight:600;line-height:1.4}
 .mmeta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px;font-size:.8rem;color:var(--muted)}
@@ -514,6 +514,7 @@ function missedGroups() {
   }
   return Object.values(g).filter(m => m.wrong > 0).sort((a, b) => b.wrong - a.wrong || (a.last === b.last ? 0 : a.last ? 1 : -1));
 }
+const OPEN_GROUPS = new Set();   // groups you've expanded this visit; all start collapsed
 const MISS_SORTS = [['count', 'Most missed'], ['module', 'Module'], ['bank', 'Bank'], ['recent', 'Most recent miss']];
 const lastMiss = m => Math.max(0, ...m.ids.map(id => { const l = missLog(id); return l.length ? l[l.length - 1].ts : 0; }));
 function missSections(ms) {
@@ -546,12 +547,13 @@ function renderMissed() {
       <p style="margin:10px 0 4px"><strong>Answer:</strong> ${q.answer.map(i => L[i] + ') ' + esc(q.options[i])).join('; ')}</p><p class="note" style="margin:0">${esc(q.explanation)}</p></details>
       <div class="mmeta" style="grid-column:2"><span class="pill ${m.last ? 'ok' : 'bad'}">Last: ${m.last ? 'right' : 'wrong'}</span><span>${m.right} right</span><span>· ${esc(q.topic)}</span><span>· ${esc(also)}</span></div></div>`;
   };
-  $('missedList').innerHTML = missSections(ms).map((s, i) => (s.title
-    ? `<div class="mgroup"><h3>${esc(s.title)}</h3><span class="gmeta">${s.list.length} problem${s.list.length > 1 ? 's' : ''} · ${s.list.reduce((t, m) => t + m.wrong, 0)} wrong</span><button class="btn small" data-g="${i}">Practice this group</button></div>`
-    : '') + s.list.map(row).join('')).join('');
+  $('missedList').innerHTML = missSections(ms).map((s, i) => s.title
+    ? `<details class="mgwrap" data-t="${esc(s.title)}"${OPEN_GROUPS.has(s.title) ? ' open' : ''}><summary class="mgroup"><span class="gtitle"><span class="chev" aria-hidden="true">▸</span><h3>${esc(s.title)}</h3></span><span class="gmeta">${s.list.length} problem${s.list.length > 1 ? 's' : ''} · ${s.list.reduce((t, m) => t + m.wrong, 0)} wrong</span><button class="btn small" data-g="${i}">Practice this group</button></summary><div class="stack">${s.list.map(row).join('')}</div></details>`
+    : s.list.map(row).join('')).join('');
 }
 $('missSortSeg').onclick = e => { const b = e.target.closest('button'); if (!b) return; store.prefs.missSort = b.dataset.v; save(); renderMissed(); };
-$('missedList').addEventListener('click', e => { const b = e.target.closest('button[data-g]'); if (!b) return;
+$('missedList').addEventListener('toggle', e => { const d = e.target; if (!d.classList || !d.classList.contains('mgwrap')) return; d.open ? OPEN_GROUPS.add(d.dataset.t) : OPEN_GROUPS.delete(d.dataset.t); }, true);
+$('missedList').addEventListener('click', e => { const b = e.target.closest('button[data-g]'); if (!b) return; e.preventDefault();
   const s = missSections(missedGroups())[+b.dataset.g]; if (s) begin(shuffle(s.list.map(m => m.worst))); });
 /* dated misses for one question: from the Sheet when connected (all devices), plus this device's unsent ones; otherwise this device's history */
 function missLog(id) {

@@ -1,6 +1,6 @@
 # Micro Quiz Bank
 
-A static, self-grading quiz site built from the Module 1–17 study guides plus two cumulative practice tests.
+A static, self-grading quiz site built from the Module 1–17 course materials: Quiz 1 and Quiz 2 for every module, Quiz 3 for Modules 9–17, and four cumulative practice tests (1–2 cover Modules 1–8; 3–4 cover Modules 9–17).
 
 ## Publishing to GitHub Pages
 

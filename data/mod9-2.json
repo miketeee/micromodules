@@ -1,0 +1,356 @@
+{
+ "slug": "mod9-2",
+ "title": "Module 9 — Quiz 2",
+ "subtitle": "Eukaryotes — Protists",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A stool sample shows a protozoan with two nuclei and eight flagella. Based on its subgroup, which other features should you predict?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It has a single rod-stiffened flagellum, lives in the bloodstream, and has no cyst stage"
+    },
+    {
+     "letter": "B",
+     "text": "It is aerobic with working mitochondria, carries chloroplasts, and is usually harmless"
+    },
+    {
+     "letter": "C",
+     "text": "It is anaerobic, has non-functional mitochondria (mitosomes), and can form a cyst for transmission"
+    },
+    {
+     "letter": "D",
+     "text": "It is an obligate intracellular parasite that digests its way into intestinal cells with apex organelles"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Two nuclei + eight flagella = Giardia, an Archaezoan. Archaezoans have mitosomes, so they are anaerobic, and Giardia has trophozoite and cyst stages."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Metronidazole (Flagyl) is useful against several different protozoa, while chloroquine is reserved for malaria. Which explanation fits both drugs' mechanisms?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Flagyl stops trophozoites from degrading hemoglobin; chloroquine blocks DNA synthesis, which only matters for a parasite that multiplies in liver cells"
+    },
+    {
+     "letter": "B",
+     "text": "Flagyl breaks open protozoan cysts so they can't be transmitted; chloroquine kills the parasite inside the Anopheles mosquito before it can bite"
+    },
+    {
+     "letter": "C",
+     "text": "Both block DNA synthesis in every protozoan, but chloroquine is held back for malaria because it is too toxic for routine intestinal infections"
+    },
+    {
+     "letter": "D",
+     "text": "Flagyl blocks DNA synthesis, which every protozoan needs to reproduce; chloroquine stops trophozoites from degrading hemoglobin, which only matters for a parasite living in red blood cells"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Flagyl targets DNA synthesis (a universal need). Chloroquine targets hemoglobin breakdown, which is specific to Plasmodium inside red blood cells."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Giardia has mitosomes — mitochondria that no longer work. How does this fit the endosymbiotic theory and Giardia's metabolism?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Its ancestors carried aerobic endosymbionts that have degraded over time, so Giardia now relies on anaerobic metabolism (2 ATP per glucose instead of 38)"
+    },
+    {
+     "letter": "B",
+     "text": "Mitosomes are newly forming mitochondria, so Giardia is becoming aerobic and will soon get 38 ATP per glucose"
+    },
+    {
+     "letter": "C",
+     "text": "Giardia never had mitochondria at all, which shows some eukaryotes formed without endosymbiosis and so must rely on anaerobic metabolism"
+    },
+    {
+     "letter": "D",
+     "text": "Mitosomes are degraded chloroplasts, so Giardia was once photosynthetic and now gets its energy by engulfing other algae"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Lecture: Archaezoan mitochondria are 'devolving' to non-functional mitosomes, so these organisms are anaerobic. Aerobic respiration yields 38 ATP vs 2 for anaerobic."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Which order matches the lecture's timeline of life on Earth, from earliest to latest?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Unicellular eukaryotes → anaerobic prokaryotes → aerobic prokaryotes → photosynthetic prokaryotes → humans"
+    },
+    {
+     "letter": "B",
+     "text": "Anaerobic prokaryotic heterotrophs → photosynthetic prokaryotes → aerobic prokaryotes → unicellular eukaryotes → multicellular eukaryotes"
+    },
+    {
+     "letter": "C",
+     "text": "Photosynthetic prokaryotes → anaerobic prokaryotes → unicellular eukaryotes → aerobic prokaryotes → multicellular eukaryotes"
+    },
+    {
+     "letter": "D",
+     "text": "Aerobic prokaryotes → anaerobic prokaryotes → photosynthetic prokaryotes → multicellular eukaryotes → unicellular eukaryotes"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Video timeline: anaerobic heterotrophs ~3.5 BYA, photosynthetic prokaryotes ~3.0, aerobic prokaryotes ~2.5, unicellular eukaryotes ~2.0, multicellular ~1.5."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Why did photosynthetic prokaryotes have to appear before the first eukaryotic cells could form by endosymbiosis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Photosynthesis made the glucose that anaerobic eukaryotes needed, and the aerobic step came only after eukaryotes appeared"
+    },
+    {
+     "letter": "B",
+     "text": "Photosynthesis released the oxygen that aerobic bacteria needed — and engulfed aerobic bacteria became the mitochondria"
+    },
+    {
+     "letter": "C",
+     "text": "Engulfed photosynthetic bacteria became the nucleus, giving the first eukaryote a membrane around its chromosomes"
+    },
+    {
+     "letter": "D",
+     "text": "Oxygen from photosynthesis was needed to build the nuclear envelope and endoplasmic reticulum out of the cell membrane"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Photosynthesis put O2 into the atmosphere; aerobic prokaryotes then evolved to use it, and engulfed aerobic bacteria became mitochondria."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "The lecture uses Euglena's red eye spot to make which two points?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is a non-functional mitochondrion (mitosome), and it shows that Euglena is an anaerobic Archaezoan"
+    },
+    {
+     "letter": "B",
+     "text": "It is a red-pigmented cyst that protects Euglena, and the same pigment causes the color of red tides"
+    },
+    {
+     "letter": "C",
+     "text": "It is an endosymbiotic red algal cell living inside the protozoan, and red algal pigments are the evolutionary origin of the photoreceptors in our retina"
+    },
+    {
+     "letter": "D",
+     "text": "It is an engulfed photosynthetic bacterium that became a chloroplast, and it lets Euglena form true images like an eye"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The eye spot is an endosymbiotic red alga that detects light (not images). Lecture ties these pigments to the origin of retinal photoreceptors."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Which pair of protozoa both form a cyst stage that helps them pass to a new host through contaminated water or food, yet belong to DIFFERENT subgroups?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Giardia (Archaezoan) and Entamoeba (Amoebozoan)"
+    },
+    {
+     "letter": "B",
+     "text": "Entamoeba and Dictyostelium (both Amoebozoans)"
+    },
+    {
+     "letter": "C",
+     "text": "Giardia and Trichomonas (both Archaezoans)"
+    },
+    {
+     "letter": "D",
+     "text": "Plasmodium and Trypanosoma (both bloodborne)"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Giardia and Entamoeba both have trophozoite and cyst stages but are in different subgroups. Trichomonas has no cyst; Plasmodium and Trypanosoma are bloodborne."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Trypanosoma and Plasmodium are both bloodborne. How do they differ in where they live in the blood and what that causes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Plasmodium stays in the liver for its whole human stage; trypanosomes burst red blood cells, which releases waste that causes chills"
+    },
+    {
+     "letter": "B",
+     "text": "Trypanosomes swim among red blood cells and release toxins that shut down metabolism; Plasmodium enters red blood cells and bursts them, causing fever and chills"
+    },
+    {
+     "letter": "C",
+     "text": "Both form a ring stage inside red blood cells, but only trypanosomes go to the liver first, which causes the sleep-like state"
+    },
+    {
+     "letter": "D",
+     "text": "Trypanosomes enter red blood cells and burst them, causing a catatonic state; Plasmodium swims among the cells releasing a neurotoxin that causes fever"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Lecture: trypanosomes don't get inside blood cells; they release toxins (sleeping sickness). Plasmodium has a ring stage inside RBCs and lyses them."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Cryptosporidium lives inside intestinal cells; Plasmodium lives inside liver cells and red blood cells. What shared trait of their subgroup explains this?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Both are Amoebozoans — protozoa that crawl into host cells by taking down and rebuilding their cytoskeleton into pseudopods"
+    },
+    {
+     "letter": "B",
+     "text": "Both are Archaezoans — anaerobic protozoa with mitosomes that swim into host cells using two or more flagella"
+    },
+    {
+     "letter": "C",
+     "text": "Both are Euglenozoans — protozoa that bore into host cells using a single flagellum stiffened with a protein rod"
+    },
+    {
+     "letter": "D",
+     "text": "Both are Apicomplexa — obligate intracellular parasites that use organelles at their apex to digest an opening into host tissue"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Apicomplexa: obligate intracellular parasites, apex organelles digest into host tissue, non-motile adults, complex life cycles."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "The malaria life-cycle slide splits the cycle into sexual and asexual reproduction. Where does each happen?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Both happen in the human: sexual reproduction in the liver, then asexual multiplication in red blood cells"
+    },
+    {
+     "letter": "B",
+     "text": "Sexual reproduction happens in human red blood cells; asexual in the mosquito's gut"
+    },
+    {
+     "letter": "C",
+     "text": "Sexual reproduction (gametocytes fusing) happens in the mosquito; asexual multiplication happens in the human liver and red blood cells"
+    },
+    {
+     "letter": "D",
+     "text": "Plasmodium reproduces only asexually; the mosquito simply carries parasites from one person's salivary glands to another"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Gametocytes are drunk up by the mosquito and fuse (sexual). In the human, parasites multiply in liver cells and then red blood cells (asexual)."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Which human cells move the same way an amoeba does — by taking down and rebuilding the cytoskeleton so cytoplasm flows into a pseudopod?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "White blood cells, which crawl through tissues"
+    },
+    {
+     "letter": "B",
+     "text": "Red blood cells, which squeeze through capillaries"
+    },
+    {
+     "letter": "C",
+     "text": "Cells lining the intestine, which Cryptosporidium enters"
+    },
+    {
+     "letter": "D",
+     "text": "Sperm cells, which swim with a whipping flagellum"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Lecture: white blood cells move through the body much like amoebas crawling by pseudopods."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about protozoan life stages is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Trichomonas forms a cyst that lets it survive outside the body between hosts."
+    },
+    {
+     "letter": "B",
+     "text": "The trophozoite is the active, feeding stage."
+    },
+    {
+     "letter": "C",
+     "text": "A protozoan cyst is resilient, but much less so than a bacterial endospore."
+    },
+    {
+     "letter": "D",
+     "text": "Giardia has both a trophozoite stage and a cyst stage."
+    },
+    {
+     "letter": "E",
+     "text": "When you can see a pseudopod on Entamoeba, you are looking at the trophozoite."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — Trichomonas is trophozoite only; it has no cyst stage and is passed by sexual contact."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about malaria is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "There are about 300–500 million new cases each year."
+    },
+    {
+     "letter": "B",
+     "text": "The Anopheles mosquito itself is the cause of the disease."
+    },
+    {
+     "letter": "C",
+     "text": "Plasmodium infects about 10% of the world's population."
+    },
+    {
+     "letter": "D",
+     "text": "After a bite, the parasite travels to the liver before infecting red blood cells."
+    },
+    {
+     "letter": "E",
+     "text": "Waste released when red blood cells lyse causes the fever and chills."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — the mosquito transmits Plasmodium; the parasite causes the disease."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "An alga contains both mitochondria and chloroplasts. Using the endosymbiotic theory, explain the engulfing events that would produce such a cell and why the arrangement became permanent.",
+   "options": [],
+   "correct": null,
+   "explanation": "A larger ancestral cell (possibly with an infolded membrane forming a nucleus) engulfed an aerobic bacterium but kept it instead of digesting it; it became the mitochondrion, giving efficient aerobic metabolism. The cell (or its descendants) also engulfed a photosynthetic bacterium such as a cyanobacterium, which became the chloroplast — it makes glucose that the mitochondria then use. Over time the cells within cells became codependent (the engulfed cells could no longer live on their own and transferred genes to the host), so the whole system became one photosynthetic eukaryotic cell."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Compare fatty diarrhea, bloody diarrhea (dysentery), and recreational diarrhea: for each, name the protozoan genus, its subgroup, and one feature that explains how it spreads or why it is hard to control.",
+   "options": [],
+   "correct": null,
+   "explanation": "Fatty diarrhea (giardiasis) — Giardia, Archaezoan; spreads in contaminated water as a cyst, so boil or filter water. Bloody diarrhea (amoebic dysentery) — Entamoeba (E. histolytica), Amoebozoan; 'histolytica' = tissue-breaking, it breaks down the intestinal wall, and it passes as a cyst. Recreational diarrhea — Cryptosporidium, Apicomplexan; lives inside intestinal cells and is resistant to chlorine, so it is hard to remove from swimming pools."
+  }
+ ]
+}

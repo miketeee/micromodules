@@ -1,0 +1,360 @@
+{
+ "slug": "mod14-3",
+ "title": "Module 14 — Quiz 3",
+ "subtitle": "Bacterial Genetics — Part 3",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A PCR run goes 30 cycles. Roughly how many copies of the target can one starting molecule produce?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "About 900 (30 × 30)"
+    },
+    {
+     "letter": "B",
+     "text": "About a billion (2 to the 30th power)"
+    },
+    {
+     "letter": "C",
+     "text": "About 60 (2 per cycle × 30 cycles)"
+    },
+    {
+     "letter": "D",
+     "text": "About 30,000"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Exponential doubling: 2^30 ≈ 1.07 billion — the lecture's 'billions and billions' of copies."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "A researcher places her two PCR primers on either side of a 500-base-pair region of a long chromosome. After many cycles, what makes up nearly all of the product?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Copies of the entire chromosome"
+    },
+    {
+     "letter": "B",
+     "text": "Copies of just that 500-bp region, from one primer to the other"
+    },
+    {
+     "letter": "C",
+     "text": "Copies of everything outside the region between the primers"
+    },
+    {
+     "letter": "D",
+     "text": "Random fragments of every size from across the chromosome"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Early cycles leave some long strands, but within a few cycles nearly every copy runs primer to primer."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "He Jiankui wanted to INACTIVATE the CCR5 gene, not replace it. Which repair outcome after a Cas9 cut would accomplish that without any donor DNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Homology-directed repair using the homologous chromosome, which restores the original gene"
+    },
+    {
+     "letter": "B",
+     "text": "Ligase rejoining the cut perfectly, which leaves the gene working"
+    },
+    {
+     "letter": "C",
+     "text": "Homology-directed repair using donor DNA, which inserts a corrected copy of CCR5"
+    },
+    {
+     "letter": "D",
+     "text": "Non-homologous end joining, which inserts random nucleotides and knocks out the gene"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Knock-out = cut + sloppy NHEJ repair → mutation inactivates the gene. Knock-in requires donor DNA."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Jun Wu's pig–human chimera embryos had to be destroyed after 100 days. Which concern from the lecture explains why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The brain is an organ too, so it could also have been built from human cells, and no one knows what that would mean"
+    },
+    {
+     "letter": "B",
+     "text": "The pig organs began to be rejected by the human stem cells after about 100 days of growth"
+    },
+    {
+     "letter": "C",
+     "text": "The chimeras carried the CCR5 edit, which could have spread HIV resistance through farm pigs"
+    },
+    {
+     "letter": "D",
+     "text": "The chimeras were making human insulin from their human cells, which would have poisoned the pig tissue"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Lecture: heart, lungs, liver — 'but interestingly so would the brain… we really just don't know what we've got here.'"
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Which earlier example from the lecture best parallels the worry that a CRISPR cure for sickle cell disease may not reach most patients who have it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pig organs are the same size as human organs"
+    },
+    {
+     "letter": "B",
+     "text": "Kary Mullis moved tubes between water baths before thermal cyclers existed"
+    },
+    {
+     "letter": "C",
+     "text": "Insulin could be mass-produced for pennies, yet it sold for hundreds of dollars for a long time"
+    },
+    {
+     "letter": "D",
+     "text": "Paul Berg refused to put his recombinant DNA into E. coli"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Both are about cost and access: most sickle-cell cases are in Africa, in populations unable to afford the treatment."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Why did Junjiu Huang's 2015 embryo-editing results strengthen the case for Doudna's caution?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "His editing caused many off-target mutations and only worked in a couple of embryos, and no journal would publish it"
+    },
+    {
+     "letter": "B",
+     "text": "He used restriction enzymes instead of Cas9, so the test was invalid"
+    },
+    {
+     "letter": "C",
+     "text": "He proved CRISPR could fix heart disease perfectly, making the conference unnecessary"
+    },
+    {
+     "letter": "D",
+     "text": "His edited embryos were implanted and born with HIV resistance"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Huang tried to correct a heart-disease-linked gene; results were poor, with off-target mutations."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "A patient who truly has an infection gets a negative diagnostic PCR. Based on how PCR works, which explanation fits?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The thermal cycler ran too many cycles, and the extra heating destroyed the copies that were made"
+    },
+    {
+     "letter": "B",
+     "text": "The pathogen's DNA was amplified, but PCR only reports amplified human DNA as a positive result"
+    },
+    {
+     "letter": "C",
+     "text": "The primer-targeted sequence wasn't present in the sample tested (or didn't match the primers), so nothing could be amplified"
+    },
+    {
+     "letter": "D",
+     "text": "The patient's own DNA bound the primers first and blocked Taq polymerase from copying anything"
+    }
+   ],
+   "correct": "C",
+   "explanation": "No primer binding site → no amplification → negative, even after 40 cycles."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "A thermal cycler is mistakenly programmed to go straight from 96 °C to 72 °C, skipping the 55 °C step. What is the likely result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Normal amplification, since Taq polymerase can lay its own primers at 72 °C"
+    },
+    {
+     "letter": "B",
+     "text": "Little or no amplification, since the primers can't bind (anneal) while the reaction is that hot"
+    },
+    {
+     "letter": "C",
+     "text": "Faster amplification, since skipping a step saves time each cycle"
+    },
+    {
+     "letter": "D",
+     "text": "The DNA would be copied but stuck as single strands, which still counts as positive"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Primers anneal at ~55 °C. Without that step, polymerase has no primer to extend."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Why can E. coli make real human insulin from a synthetic gene, when E. coli and humans are so different?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The plasmid carries human ribosomes that translate it"
+    },
+    {
+     "letter": "B",
+     "text": "E. coli already has a human insulin gene that the synthetic gene switches on"
+    },
+    {
+     "letter": "C",
+     "text": "Insulin folds itself without needing to be translated"
+    },
+    {
+     "letter": "D",
+     "text": "The genetic code is universal, so E. coli reads the codons the same way a human cell would"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Module 13: the genetic code is used by humans, goldfish, trees, fungi, and bacteria alike."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "In PCR, why isn't ligase needed, even though cells need it to finish replication?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Each new strand is built in one continuous piece from its primer, so there are no Okazaki fragments to join"
+    },
+    {
+     "letter": "B",
+     "text": "The 96 °C step welds any DNA fragments together automatically before they are separated again"
+    },
+    {
+     "letter": "C",
+     "text": "Taq polymerase also works as a ligase at 72 °C, so it seals each fragment as it finishes building it"
+    },
+    {
+     "letter": "D",
+     "text": "PCR copies only one strand of the template, so a second strand never has to be built or joined"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Ligase glues Okazaki fragments. In PCR, polymerase extends each primer straight to the end of its template."
+  },
+  {
+   "num": 11,
+   "type": "Multi-statement",
+   "prompt": "Which statement about CRISPR applications is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "CRISPR has been used to treat sickle cell disease, the first FDA-approved CRISPR treatment."
+    },
+    {
+     "letter": "B",
+     "text": "The first CRISPR-edited food approved for people was a tomato that ripens faster."
+    },
+    {
+     "letter": "C",
+     "text": "CRISPR is naturally a bacterial immune system that cuts up viral DNA."
+    },
+    {
+     "letter": "D",
+     "text": "CRISPR-edited (gene-edited) foods don't have to be labeled as GMOs."
+    },
+    {
+     "letter": "E",
+     "text": "CRISPR is being used to edit livestock such as cows, pigs, and chickens."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — the first approved CRISPR-edited food was white button mushrooms edited to delay spoilage."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about germline editing and bioethics is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "In the U.S., an edited embryo may be implanted if both parents consent."
+    },
+    {
+     "letter": "B",
+     "text": "An embryo can't consent to being edited."
+    },
+    {
+     "letter": "C",
+     "text": "The National Academy of Sciences (2017) supports gene-editing research on human embryos and germ cells."
+    },
+    {
+     "letter": "D",
+     "text": "Edited embryos may not be implanted in a mother — there is a worldwide moratorium on CRISPR babies."
+    },
+    {
+     "letter": "E",
+     "text": "Germline edits would pass to the person's children and enter the human gene pool."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — research is allowed, but no country permits implanting an edited embryo. He Jiankui served three years in prison."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about gene transfer is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Vertical gene transfer passes genetic information to the next generation."
+    },
+    {
+     "letter": "B",
+     "text": "Bacteria can exchange plasmid copies with neighboring cells."
+    },
+    {
+     "letter": "C",
+     "text": "Humans and other eukaryotes routinely use horizontal gene transfer."
+    },
+    {
+     "letter": "D",
+     "text": "Horizontal gene transfer passes genetic information within a generation."
+    },
+    {
+     "letter": "E",
+     "text": "Horizontal gene transfer is what makes genetic engineering in bacteria possible."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False — the lecture contrasts eukaryotes (vertical gene transfer) with bacteria (capable of horizontal transfer)."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Compare Paul Berg's decision in 1970 with Jennifer Doudna's conference in 2015. What did each urge, why, and what happened anyway?",
+   "options": [],
+   "correct": null,
+   "explanation": "Berg made the first recombinant DNA (SV40 + lambda phage) but refused to put it into E. coli — not never, just too soon — because E. coli lives in the human gut and DNA from a virus that causes cancer in monkeys could escape the lab and pose a cancer risk. In 1973 Cohen and Boyer created the first recombinant organism anyway. Doudna, co-discoverer of CRISPR, gathered leading biologists, who agreed not to edit human embryos yet because the technology was new and untested (and embryos can't consent). During the meeting, Junjiu Huang announced he had already edited human embryos (2015, poor results with off-target mutations), and in 2018 He Jiankui produced the first CRISPR babies, Lulu and Nana."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "A company wants bacteria to make a human protein whose amino acid sequence is known. Outline the steps, naming the tools used, from the sequence to protein harvested from vats.",
+   "options": [],
+   "correct": null,
+   "explanation": "Work the central dogma backward: from the amino acid sequence, figure out mRNA codons, then the DNA sequence, and chemically synthesize that gene. Cut a plasmid with a restriction enzyme to make sticky ends (cutting the gene's ends to match), and use DNA ligase ('DNA glue') to splice the gene into the plasmid — recombinant DNA. Get E. coli to take up the plasmid (horizontal gene transfer). Because the genetic code is universal, the bacteria transcribe and translate the human gene. Grow huge numbers in vats and extract the protein — as Boyer and Swanson did to make human insulin (Humulin) at Genentech."
+  }
+ ]
+}

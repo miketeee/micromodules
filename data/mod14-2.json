@@ -1,0 +1,356 @@
+{
+ "slug": "mod14-2",
+ "title": "Module 14 — Quiz 2",
+ "subtitle": "Bacterial Genetics — Part 3",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "How do the primers used in PCR differ from the primers a cell uses in DNA replication?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "PCR primers are made of RNA by primase in the tube; a cell's primers are short DNA stretches made by polymerase"
+    },
+    {
+     "letter": "B",
+     "text": "PCR primers bind anywhere on the DNA at random; a cell's primers bind only at the origin of replication"
+    },
+    {
+     "letter": "C",
+     "text": "PCR primers are short DNA stretches made in the lab and chosen to flank the target; a cell's primers are RNA laid down by primase"
+    },
+    {
+     "letter": "D",
+     "text": "PCR primers are made of protein that holds the strands apart; a cell's primers are made of RNA"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Mullis built short stretches of DNA matching the letters that flank the region to copy. In cells, primase makes RNA primers."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Each PCR cycle roughly doubles the target. Starting from one target molecule, about how many copies are there after 10 cycles?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "About 10 (one new copy per cycle)"
+    },
+    {
+     "letter": "B",
+     "text": "About 20 (2 copies per cycle × 10 cycles)"
+    },
+    {
+     "letter": "C",
+     "text": "About 100 (10 × 10)"
+    },
+    {
+     "letter": "D",
+     "text": "About 1,000 (2 to the 10th power = 1,024)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Copies increase exponentially: 2, 4, 8 … 2^10 = 1,024."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Why doesn't binary fission count as horizontal gene transfer?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is cloning — it passes identical genetic information to the next generation rather than swapping genes with a neighbor"
+    },
+    {
+     "letter": "B",
+     "text": "It copies only the plasmids, never the chromosome, so no genes are actually passed along to the new cell"
+    },
+    {
+     "letter": "C",
+     "text": "It mixes genes from two parent cells into each daughter cell, which makes it a form of vertical transfer"
+    },
+    {
+     "letter": "D",
+     "text": "It needs restriction enzymes to cut the chromosome in half, and bacteria can only get those from scientists"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Lecture: binary fission 'is just cloning.' Horizontal transfer = exchanging genetic information with neighbors within a generation."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Why did genetic engineering in bacteria focus on plasmids rather than the bacterial chromosome?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Plasmids are made of RNA, so a gene placed in one can be translated right away without being transcribed first"
+    },
+    {
+     "letter": "B",
+     "text": "Plasmids hold all of the bacterium's essential genes, so editing a plasmid changes every trait the cell has"
+    },
+    {
+     "letter": "C",
+     "text": "Plasmids are the only DNA in a bacterium that restriction enzymes can't cut, so a gene placed there is protected from damage"
+    },
+    {
+     "letter": "D",
+     "text": "Plasmids are small, separate loops of 'bonus' genes that bacteria naturally swap with neighbors — and scientists can remove them and get bacteria to take them back up"
+    }
+   ],
+   "correct": "D",
+   "explanation": "A plasmid is a small DNA loop separate from the chromosome with accessory genes; bacteria exchange copies by horizontal gene transfer."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Why must the primers in a diagnostic PCR test match a sequence found in the pathogen but NOT in human DNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pathogen DNA is single-stranded, so only it can bind primers"
+    },
+    {
+     "letter": "B",
+     "text": "If they matched human DNA, the patient's own DNA would be amplified and every test would come back positive"
+    },
+    {
+     "letter": "C",
+     "text": "Human DNA can't be denatured at 96 °C, so the primers would never find it"
+    },
+    {
+     "letter": "D",
+     "text": "If they matched human DNA, Taq polymerase would be destroyed by human enzymes"
+    }
+   ],
+   "correct": "B",
+   "explanation": "A positive result means the primer-targeted sequence was present and amplified. The target must be unique to the microbe."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "The COVID PCR test is an RT-PCR. Why is the reverse transcriptase step needed?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Reverse transcriptase replaces Taq polymerase, which can't survive the 96 °C step"
+    },
+    {
+     "letter": "B",
+     "text": "Reverse transcriptase destroys human DNA so only viral DNA is left in the tube"
+    },
+    {
+     "letter": "C",
+     "text": "SARS-CoV-2 has an RNA genome, and reverse transcriptase makes a DNA copy that DNA polymerase can then amplify"
+    },
+    {
+     "letter": "D",
+     "text": "SARS-CoV-2 has a DNA genome that must be turned into RNA before the primers can bind"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Reverse transcriptase makes DNA from an RNA template. PCR's DNA polymerase copies DNA. SARS-CoV-2's genome is RNA."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "When Cas9 cuts a gene, why usually can't the cell repair it by copying its homologous chromosome?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Human cells are haploid, like bacteria, so there is never a homologous chromosome to copy from in the first place"
+    },
+    {
+     "letter": "B",
+     "text": "Cas9 probably finds and cuts the same target on both homologous chromosomes, so there is no intact copy to copy from"
+    },
+    {
+     "letter": "C",
+     "text": "Homology-directed repair only works on RNA, so it can repair the guide RNA but not the cut chromosome"
+    },
+    {
+     "letter": "D",
+     "text": "Cas9 stays clamped to the cut site and permanently blocks DNA polymerase from reaching the broken ends"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Lecture: Cas9 'would actually cut both chromosomes,' so scientists supply donor DNA whose ends match the cut to direct repair."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Liu You's lung-cancer treatment and Victoria Gray's sickle cell treatment share what key feature that a CRISPR treatment for cystic fibrosis lacks?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The cells to be edited (T cells, blood-forming cells) could be removed, edited outside the body, and put back; CF would require editing cells throughout the airways inside the body"
+    },
+    {
+     "letter": "B",
+     "text": "Both diseases are caused by viruses whose DNA Cas9 can cut out of the cells, while CF is caused by a bacterial infection of the lungs"
+    },
+    {
+     "letter": "C",
+     "text": "Both used non-homologous end joining to knock genes out, while CF needs a knock-in that has never worked in human cells"
+    },
+    {
+     "letter": "D",
+     "text": "Both were done on embryos before birth, so every cell inherited the fix, while CF can only be treated after symptoms appear in adults"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Removing, editing, and returning cells makes adult treatment feasible. CF affects every cell, so you'd need Cas9 in at least all respiratory cells."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "What attitude did Paul Berg (1970) and Jennifer Doudna (2015) share about new genetic technology?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Both rushed to be first, announcing results before other labs could repeat the experiment"
+    },
+    {
+     "letter": "B",
+     "text": "Neither said 'never' — both said it was too soon to take the next step (putting recombinant DNA in E. coli; editing human embryos)"
+    },
+    {
+     "letter": "C",
+     "text": "Both refused to publish their discoveries in journals so the methods couldn't be copied"
+    },
+    {
+     "letter": "D",
+     "text": "Both believed the technology was too dangerous ever to use and called for a permanent worldwide ban"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Berg: not never, just not yet. Doudna convened scientists who agreed not to edit human embryos yet."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "How do the two CRISPR strategies for pig-to-human organ transplants differ?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "One knocks out a pig embryo's organ-development genes and adds human stem cells so the organs grow from human cells; the other knocks out the pig genes for antigens our bodies reject"
+    },
+    {
+     "letter": "B",
+     "text": "One edits the human patient's T cells so they accept pig tissue; the other edits the pig's DNA polymerase so pig cells copy human genes"
+    },
+    {
+     "letter": "C",
+     "text": "One inserts the human insulin gene into pigs so their organs match ours; the other removes the pig CCR5 gene so organs resist HIV"
+    },
+    {
+     "letter": "D",
+     "text": "One uses PCR to grow extra copies of a pig's organs in a dish; the other uses restriction enzymes to shrink pig organs to human size"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Jun Wu: pig blastocyst + human stem cells (chimera). Other approach: turn off pig antigen genes — the kidney transplanted into Rick Slayman."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Why is a PCR reaction cooled from 96 °C to about 55 °C before extension?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cooling restarts Taq polymerase, which is inactive above 55 °C and would otherwise never extend the strands"
+    },
+    {
+     "letter": "B",
+     "text": "Cooling lets ligase glue the Okazaki fragments from the last cycle together before the next round begins"
+    },
+    {
+     "letter": "C",
+     "text": "At 96 °C hydrogen bonds break and strands separate; cooling lets the primers form hydrogen bonds with their complementary sequences (annealing)"
+    },
+    {
+     "letter": "D",
+     "text": "Cooling lets the helicase in the tube rebind the DNA and unzip the next region to be copied"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Denaturation (96 °C) breaks H-bonds; annealing (~55 °C) lets primers bind; extension (~72 °C) is when polymerase works."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the history of genetic engineering is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cohen and Boyer created the first recombinant organism in 1973."
+    },
+    {
+     "letter": "B",
+     "text": "Cohen and Boyer created the first recombinant DNA molecule in 1970."
+    },
+    {
+     "letter": "C",
+     "text": "Boyer and Swanson formed Genentech and produced human insulin in E. coli."
+    },
+    {
+     "letter": "D",
+     "text": "Restriction enzymes were discovered by Smith, Nathans, and Arber (Nobel 1978)."
+    },
+    {
+     "letter": "E",
+     "text": "Paul Berg joined DNA from SV40 and lambda phage using a restriction enzyme and ligase."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — Paul Berg made the first recombinant DNA (1970). Cohen and Boyer made the first recombinant organism (1973)."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the steps of a PCR cycle is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "At about 72 °C, the primers anneal to the single strands."
+    },
+    {
+     "letter": "B",
+     "text": "At about 55 °C, the primers bind (anneal) to their complementary sequences."
+    },
+    {
+     "letter": "C",
+     "text": "At about 96 °C, the DNA is denatured into single strands."
+    },
+    {
+     "letter": "D",
+     "text": "The cycle is usually repeated about 25–35 times."
+    },
+    {
+     "letter": "E",
+     "text": "A thermal cycler switches between the temperatures automatically."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — 72 °C is extension, when DNA polymerase extends the primers. Annealing is ~55 °C."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Compare restriction enzymes and Cas9 as tools for cutting DNA. Explain what decides where each one cuts and why Cas9 is more precise and more flexible.",
+   "options": [],
+   "correct": null,
+   "explanation": "A restriction enzyme cuts (cleaves) DNA at its own specific short recognition sequence — e.g., EcoRI cuts GAATTC with a staggered cut that leaves sticky ends. That short sequence probably appears many times in a genome, and each enzyme is stuck with its one sequence. Cas9 is an enzyme that cuts DNA wherever its guide RNA's ~20-letter target sequence matches the DNA by complementary base pairing. A 20-letter sequence is unlikely to occur more than once, so the cut is precise, and Cas9 is programmable — swap in a guide RNA with a different target sequence to cut a different gene."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Explain how CRISPR can be used to knock a gene OUT and to knock a gene IN, and which approach would be needed to treat cystic fibrosis.",
+   "options": [],
+   "correct": null,
+   "explanation": "Cas9, guided by its guide RNA, cuts the gene at the target sequence. Knock-out: with no donor DNA, the cell repairs the break by non-homologous end joining, sticking in random nucleotides; the mutation inactivates the gene. Knock-in: scientists add synthetic donor DNA whose ends match the cut site; the cell treats it as the homologous chromosome and uses homology-directed repair to copy the new sequence in. Cystic fibrosis is caused by a faulty CFTR gene that already doesn't work, so cutting it alone doesn't help — it requires knock-in with donor DNA carrying the correct CFTR sequence (as Hans Clevers did in cells in a dish)."
+  }
+ ]
+}

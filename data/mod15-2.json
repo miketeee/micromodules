@@ -1,0 +1,356 @@
+{
+ "slug": "mod15-2",
+ "title": "Module 15 — Quiz 2",
+ "subtitle": "Viruses — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "What did Ivanovsky's discovery of tobacco mosaic virus and d'Hérelle's discovery of bacteriophage have in common?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Both first saw the agent with an electron microscope before they knew it caused disease"
+    },
+    {
+     "letter": "B",
+     "text": "Both found the agent in a diseased plant and then tested it on bacteria"
+    },
+    {
+     "letter": "C",
+     "text": "Both passed a diseased sample through a filter that traps bacteria and found the infectious agent in the filtrate"
+    },
+    {
+     "letter": "D",
+     "text": "Both grew the agent as colonies on agar plates and then tested each colony on a healthy host"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Ivanovsky (1892) used juice of diseased tobacco; d'Hérelle (1916) used a culture of dying bacteria. In each, the filtrate carried the agent."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "E. coli is about 3,000 nm long. About how many tobacco mosaic viruses (250 nm long) laid end to end would match that length?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "About 1.2"
+    },
+    {
+     "letter": "B",
+     "text": "About 12"
+    },
+    {
+     "letter": "C",
+     "text": "About 120"
+    },
+    {
+     "letter": "D",
+     "text": "About 1,200"
+    }
+   ],
+   "correct": "B",
+   "explanation": "3,000 ÷ 250 = 12. Viruses are measured in nanometers; bacteria are a few micrometers (thousands of nanometers)."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Which virus–structure–genome profile is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "SARS-CoV-2 — polyhedral capsid, non-enveloped, DNA genome"
+    },
+    {
+     "letter": "B",
+     "text": "Tobacco mosaic virus — polyhedral capsid, enveloped, DNA genome"
+    },
+    {
+     "letter": "C",
+     "text": "HPV — polyhedral capsid, non-enveloped (naked), DNA genome"
+    },
+    {
+     "letter": "D",
+     "text": "Influenza — complex capsid with tail fibers, naked, DNA genome"
+    }
+   ],
+   "correct": "C",
+   "explanation": "HPV: polyhedral, naked, DNA. SARS-CoV-2 and influenza: helical, enveloped, RNA. TMV: helical, RNA."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Lysogenic conversion can be described in Module 12 terms. Which description fits?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A change in phenotype (making a toxin) rewrites the bacterium's genotype"
+    },
+    {
+     "letter": "B",
+     "text": "A change in genotype with no effect on phenotype, since prophage genes are never expressed"
+    },
+    {
+     "letter": "C",
+     "text": "A change in genotype (prophage genes added to the chromosome) produces a change in phenotype (e.g., making a toxin)"
+    },
+    {
+     "letter": "D",
+     "text": "A loss of the bacterial chromosome, replaced entirely by the phage genome"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The prophage adds genes; when the host transcribes and translates some of them, its phenotype changes (scarlet fever toxin, botulism toxin)."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "During biosynthesis, how does the host bacterium end up making phage capsid proteins?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The phage injects its own ribosomes along with its DNA, and they translate the phage genes using the host's amino acids"
+    },
+    {
+     "letter": "B",
+     "text": "The host's own RNA polymerase and ribosomes transcribe and translate the phage genes, while the host also copies the phage genome"
+    },
+    {
+     "letter": "C",
+     "text": "The phage genome folds directly into capsid proteins, so no transcription or translation is needed inside the host"
+    },
+    {
+     "letter": "D",
+     "text": "The capsid left outside the cell is broken down by lysozyme, and its pieces are carried inside and rebuilt into new capsids"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Biosynthesis: phage DNA directs the synthesis of phage components by the host cell — the virus has no machinery of its own."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Rosalind Franklin's X-ray crystallography helped reveal the structure of which two things covered in this course?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "DNA (Photo 51, the double helix) and tobacco mosaic virus (a helical virus)"
+    },
+    {
+     "letter": "B",
+     "text": "DNA and the bacterial ribosome"
+    },
+    {
+     "letter": "C",
+     "text": "Tobacco mosaic virus and the bacteriophage tail fibers"
+    },
+    {
+     "letter": "D",
+     "text": "Penicillin and the bacterial cell wall"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Module 12: Photo 51 showed DNA is a double helix. Module 15: her X-ray image of crystallized TMV showed its helical structure."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Why did Ivanovsky expect to find a bacterium behind tobacco mosaic disease?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Electron microscopes had already shown bacteria inside the diseased leaves"
+    },
+    {
+     "letter": "B",
+     "text": "Pasteur and Koch's germ theory (1870s) had led scientists to assume diseases were caused by bacteria"
+    },
+    {
+     "letter": "C",
+     "text": "Tobacco plants were already known to carry only bacterial diseases"
+    },
+    {
+     "letter": "D",
+     "text": "Viruses had been discovered earlier and ruled out as the cause"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The germ theory suggested diseases were caused by bacteria, so he used Koch-like methods to hunt for the bacterial cause."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which steps do the lytic and lysogenic cycles share before they diverge?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Biosynthesis and maturation — then the phage either releases or integrates"
+    },
+    {
+     "letter": "B",
+     "text": "Integration and reproduction — then the phage decides whether to burst the cell"
+    },
+    {
+     "letter": "C",
+     "text": "Only release — every phage bursts its host before entering the lysogenic cycle"
+    },
+    {
+     "letter": "D",
+     "text": "Attachment and penetration — then the injected genome circularizes and the 'decision' is made"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Both begin with attachment and penetration; the genome circularizes; then it goes lytic or integrates as a prophage."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which two viruses does the lecture name as among the smallest and the largest?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Polio virus (small) and Ebola virus (large)"
+    },
+    {
+     "letter": "B",
+     "text": "SARS-CoV-2 (small) and influenza (large)"
+    },
+    {
+     "letter": "C",
+     "text": "Tobacco mosaic virus (small) and HPV (large)"
+    },
+    {
+     "letter": "D",
+     "text": "Ebola virus (small) and polio virus (large)"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Most viruses are 20–1,000 nm. Lecture: some of the smallest are polio virus; some of the largest, Ebola."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Why can't a phage be grown on plain agar the way Ivanovsky grew bacterial colonies?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Phages only reproduce in liquid broth, so they must be grown in tubes and can never be counted on solid plates"
+    },
+    {
+     "letter": "B",
+     "text": "Plain agar contains lysozyme, which breaks down phage capsids, so a lawn of bacteria is needed to soak up the enzyme"
+    },
+    {
+     "letter": "C",
+     "text": "It does grow on plain agar, but its colonies are too small to see, so a bacterial lawn is added just to make them visible"
+    },
+    {
+     "letter": "D",
+     "text": "It is an obligate intracellular parasite that can only be reproduced inside a host cell — so it is grown on a lawn of bacteria, where it shows up as plaques"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Viruses can't reproduce on their own. Plaques are clear zones in a bacterial lawn where phages killed the cells."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "A single phage attaches to and penetrates a bacterium. What actually enters the cell, and why is that enough?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Only the genome — it is the set of instructions, and the host cell builds everything else"
+    },
+    {
+     "letter": "B",
+     "text": "Only the tail fibers — they carry the enzymes that make new phages"
+    },
+    {
+     "letter": "C",
+     "text": "The whole virus — the capsid is needed inside to protect the genome during biosynthesis"
+    },
+    {
+     "letter": "D",
+     "text": "The capsid and genome — the sheath stays outside to keep the hole open"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The capsid, sheath, and tail fibers stay outside as an empty husk. The DNA genome is the recipe; the host supplies the machinery and materials."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about classifying viruses is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Every virus with an RNA genome is enveloped."
+    },
+    {
+     "letter": "B",
+     "text": "Viruses can be classified as helical, polyhedral, or complex."
+    },
+    {
+     "letter": "C",
+     "text": "A viral genome can be linear or circular."
+    },
+    {
+     "letter": "D",
+     "text": "A viral genome can be simple (one piece) or segmented (several pieces)."
+    },
+    {
+     "letter": "E",
+     "text": "A viral genome can be single- or double-stranded, DNA or RNA."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — RNA viruses can be naked: rotavirus (dsRNA) is non-enveloped, and TMV is a naked RNA virus."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the lysogenic cycle is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The prophage is copied into every daughter cell as the bacterium divides."
+    },
+    {
+     "letter": "B",
+     "text": "The host cell detects the prophage and stops dividing until it is removed."
+    },
+    {
+     "letter": "C",
+     "text": "Under stress, the prophage may excise itself and enter the lytic cycle (induction)."
+    },
+    {
+     "letter": "D",
+     "text": "The integrated phage DNA is called a prophage."
+    },
+    {
+     "letter": "E",
+     "text": "The phage genome integrates into the bacterial chromosome by recombination."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — the host has no idea the prophage is there and reproduces normally."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Compare the lytic and lysogenic cycles: what they share, where they split, the three lysogenic steps, and why lysogeny is a clever strategy for the phage.",
+   "options": [],
+   "correct": null,
+   "explanation": "Both begin with attachment and penetration (only the genome enters, then it circularizes). Lytic: biosynthesis (host makes phage genomes and parts), maturation (assembly), and release (lysis, ~300 phages burst out). Lysogenic: (1) integration — phage DNA splices into the chromosome as a prophage; (2) reproduction — the bacterium divides normally, copying the prophage into many cells; (3) induction — when the host is stressed, the prophage excises and enters the lytic cycle. The strategy: don't kill the host right away; multiply the phage's instructions into potentially millions of cells, and if the hosts are going to die anyway, burst them and make new phages."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Explain how a normally harmless bacterium can become dangerous through lysogenic conversion. Use both course examples.",
+   "options": [],
+   "correct": null,
+   "explanation": "Lysogenic conversion is a change in a bacterium's phenotype caused by a prophage in its genome. The host doesn't make new phages, but it transcribes and translates some prophage genes, producing proteins encoded by the virus. Streptococcus pyogenes (strep throat) can cause scarlet fever only if it carries a prophage with the gene for scarlet fever toxin. Clostridium botulinum causes botulism only if it carries a prophage encoding botulism toxin. Many otherwise fairly harmless bacteria become dangerous only after being infected by such phages."
+  }
+ ]
+}

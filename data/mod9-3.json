@@ -1,0 +1,360 @@
+{
+ "slug": "mod9-3",
+ "title": "Module 9 — Quiz 3",
+ "subtitle": "Eukaryotes — Protists",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A protozoan outbreak is traced to a public pool. The organism is non-motile as an adult, gets inside intestinal cells by digesting through tissue, and has a complex life cycle. Which control measure from the lecture would be LEAST effective against it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Relying on the pool's normal chlorine levels"
+    },
+    {
+     "letter": "B",
+     "text": "Filtering the pool water"
+    },
+    {
+     "letter": "C",
+     "text": "Draining and cleaning the pool"
+    },
+    {
+     "letter": "D",
+     "text": "Keeping people with diarrhea out of the water"
+    }
+   ],
+   "correct": "A",
+   "explanation": "This is Cryptosporidium (Apicomplexa), the main cause of recreational diarrhea — and it is resistant to chlorine."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "A drug that only stopped parasites from breaking down hemoglobin would be useless against Giardia. Why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Giardia lives in the intestine and does not live inside red blood cells feeding on hemoglobin the way Plasmodium does"
+    },
+    {
+     "letter": "B",
+     "text": "Giardia degrades hemoglobin only in the liver, where the drug can't reach it"
+    },
+    {
+     "letter": "C",
+     "text": "Giardia is anaerobic, and a hemoglobin-targeting drug only works on parasites that use oxygen"
+    },
+    {
+     "letter": "D",
+     "text": "Giardia's cyst stage has a glass (silica) wall that keeps any drug out until the cyst hatches"
+    }
+   ],
+   "correct": "A",
+   "explanation": "That is chloroquine's mechanism, which targets Plasmodium trophozoites in red blood cells. Giardia is an intestinal Archaezoan; Flagyl (blocks DNA synthesis) is the fit."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "A Euglena culture is kept in total darkness in a nutrient-rich broth and keeps growing. What is the best explanation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Euglena is heterotrophic as well as autotrophic, so it can engulf food particles when it can't photosynthesize"
+    },
+    {
+     "letter": "B",
+     "text": "It balls up into a cyst and stays dormant, so it only appears to be growing"
+    },
+    {
+     "letter": "C",
+     "text": "Its red eye spot is a photosynthetic red alga that keeps making glucose without light"
+    },
+    {
+     "letter": "D",
+     "text": "It shuts down its mitochondria and switches to anaerobic metabolism using stored oil"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Lecture: Euglena is technically a protozoan with chloroplasts — both heterotrophic and autotrophic."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Why does the lecture spend time on two HARMLESS protists, Euglena and Dictyostelium?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They are close relatives of disease-causing protozoa, so they are used to test antiprotozoal drugs like Flagyl"
+    },
+    {
+     "letter": "B",
+     "text": "They are early stages of disease-causing protozoa — Euglena turns into Trypanosoma and Dictyostelium into Entamoeba"
+    },
+    {
+     "letter": "C",
+     "text": "They each use cyclic AMP to gather into a multicellular slug, which shows how multicellular animals evolved"
+    },
+    {
+     "letter": "D",
+     "text": "Each one blurs a category line: Euglena is both autotroph and heterotroph; Dictyostelium is both unicellular and multicellular"
+    }
+   ],
+   "correct": "D",
+   "explanation": "The instructor points out that human categories have fuzzy boundaries — Euglena (auto vs hetero) and slime mold (uni vs multicellular) are his examples."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Which finding would most WEAKEN the endosymbiotic theory if it were discovered?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mitochondria were found to copy their own circular chromosome and split in half to make more"
+    },
+    {
+     "letter": "B",
+     "text": "Mitochondria were found to contain ribosomes of the prokaryotic type, unlike those in the cytoplasm"
+    },
+    {
+     "letter": "C",
+     "text": "Mitochondria were found to be rod-shaped, 1–10 µm long, and surrounded by a double membrane"
+    },
+    {
+     "letter": "D",
+     "text": "Cells built new mitochondria from scratch using only nuclear genes, and mitochondrial DNA showed no resemblance to bacterial DNA"
+    }
+   ],
+   "correct": "D",
+   "explanation": "The theory's evidence includes binary fission and bacterial DNA homology. Building them from scratch with no bacterial DNA similarity would contradict it; the other choices are existing evidence."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Using the video's timeline, about how long did life on Earth consist only of prokaryotes before unicellular eukaryotes appeared?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "About 3.0 billion years (≈4.6 to ≈1.5 billion years ago)"
+    },
+    {
+     "letter": "B",
+     "text": "About 1.5 billion years (≈3.5 to ≈2.0 billion years ago)"
+    },
+    {
+     "letter": "C",
+     "text": "About 0.5 billion years (≈2.5 to ≈2.0 billion years ago)"
+    },
+    {
+     "letter": "D",
+     "text": "About 1.0 billion years (≈3.0 to ≈2.0 billion years ago)"
+    }
+   ],
+   "correct": "B",
+   "explanation": "First (anaerobic) prokaryotes ≈3.5 BYA; unicellular eukaryotes ≈2.0 BYA → ~1.5 billion years."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "A drug kills Plasmodium only while it is developing in liver cells. If given right after an infected mosquito's bite, what would it prevent?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Only the passing of gametocytes to the next mosquito — the person would still get fever and chills from the liver stage"
+    },
+    {
+     "letter": "B",
+     "text": "Only the sexual reproduction that takes place in the liver — red blood cells would still be infected and burst"
+    },
+    {
+     "letter": "C",
+     "text": "Red blood cell infection and lysis — so no fever and chills, and no gametocytes for the next mosquito"
+    },
+    {
+     "letter": "D",
+     "text": "Nothing — Plasmodium goes straight into red blood cells and only reaches the liver after they burst"
+    }
+   ],
+   "correct": "C",
+   "explanation": "After the bite, the parasite goes to the liver first, then back to the blood to infect RBCs. Blocking the liver stage stops everything downstream."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which organism–transmission–stage combination is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Entamoeba — sexual contact — passed as a trophozoite, since it has no cyst"
+    },
+    {
+     "letter": "B",
+     "text": "Plasmodium — swallowed cysts in contaminated water — passed as a gametocyte"
+    },
+    {
+     "letter": "C",
+     "text": "Trichomonas — sexual contact — passed as a trophozoite, since it has no cyst"
+    },
+    {
+     "letter": "D",
+     "text": "Giardia — contaminated creek water — passed as a trophozoite, since it has no cyst"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Trichomonas is an STD with only a trophozoite. Giardia and Entamoeba pass as cysts; Plasmodium is transmitted by the Anopheles mosquito."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "A student assumes sleeping sickness kills by bursting red blood cells, like malaria. What is the correct picture?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Trypanosomes form a ring stage inside red blood cells, and the anemia from lost blood cells causes the catatonic state"
+    },
+    {
+     "letter": "B",
+     "text": "Trypanosomes swim among the red blood cells without entering them and release toxins that shut down metabolism, causing a catatonic, sleep-like state"
+    },
+    {
+     "letter": "C",
+     "text": "Trypanosomes form cysts in the intestine that release a neurotoxin, the same way red tide paralyzes fish"
+    },
+    {
+     "letter": "D",
+     "text": "Trypanosomes go to the liver first, then enter and burst red blood cells, releasing waste that causes a sleep-like state"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Lecture: the trypanosome doesn't get inside blood cells; it releases toxins that slow breathing and heart rate."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Why might a free mitochondrion be hard to tell apart from a bacterium under a microscope, while a Giardia cell would not be?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Both are 1–10 µm, but only Giardia has a double membrane, which shows up clearly in a light microscope"
+    },
+    {
+     "letter": "B",
+     "text": "Mitochondria are rod-shaped and 1–10 µm like bacteria, while Giardia is a eukaryotic cell with two nuclei and several flagella"
+    },
+    {
+     "letter": "C",
+     "text": "Mitochondria have their own nucleus like bacteria do, while Giardia's nuclei are hidden by its flagella"
+    },
+    {
+     "letter": "D",
+     "text": "Mitochondria are 10–100 µm like eukaryotic cells, while Giardia is only 1–10 µm like a bacterium"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Mitochondria match bacteria in shape and size (1–10 µm). Giardia is a whole eukaryotic cell with nuclei."
+  },
+  {
+   "num": 11,
+   "type": "Multi-statement",
+   "prompt": "Which statement about Lynn Margulis and her theory is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "She set out to explain the origin of the nucleus, and explaining mitochondria came later."
+    },
+    {
+     "letter": "B",
+     "text": "Her paper was rejected by around fifteen journals before it was published."
+    },
+    {
+     "letter": "C",
+     "text": "Symbiogenesis is now called one of the great achievements of twentieth-century evolutionary biology."
+    },
+    {
+     "letter": "D",
+     "text": "She was in her 20s, studying microbiology, when she proposed it in the 1960s."
+    },
+    {
+     "letter": "E",
+     "text": "Her paper's title, On the Origin of Mitosing Cells, echoes Darwin's On the Origin of Species."
+    }
+   ],
+   "correct": "A",
+   "explanation": "False — she set out to explain mitochondria and chloroplasts; explaining eukaryotic cells came along with it."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about algae is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Kelp and seaweed are multicellular algae, not plants."
+    },
+    {
+     "letter": "B",
+     "text": "Algae are autotrophs and are mostly harmless."
+    },
+    {
+     "letter": "C",
+     "text": "Diatom glass cell walls break down within a few years, so they don't build up on the ocean floor."
+    },
+    {
+     "letter": "D",
+     "text": "Shellfish can take in red-tide toxin without dying, and people who eat them can be harmed."
+    },
+    {
+     "letter": "E",
+     "text": "A red tide's neurotoxin paralyzes and suffocates fish."
+    }
+   ],
+   "correct": "C",
+   "explanation": "False — the glass (silica) is inert and doesn't break down even over thousands of years, which is why diatomaceous earth deposits exist."
+  },
+  {
+   "num": 13,
+   "type": "Multi-statement",
+   "prompt": "Which statement comparing the four protozoan subgroups is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Archaezoans have two or more flagella."
+    },
+    {
+     "letter": "B",
+     "text": "Adult Apicomplexa such as Plasmodium swim using whip-like flagella."
+    },
+    {
+     "letter": "C",
+     "text": "Euglenozoans have a flagellum stiffened with a protein rod."
+    },
+    {
+     "letter": "D",
+     "text": "Amoebozoans move by pseudopods."
+    },
+    {
+     "letter": "E",
+     "text": "Apicomplexa have complex life cycles."
+    }
+   ],
+   "correct": "B",
+   "explanation": "False — adult Apicomplexa are non-motile."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "A traveler could have one of three protozoan infections: (1) cycles of fever and chills, (2) greasy diarrhea after drinking creek water, (3) bloody diarrhea. For each, name the genus, the drug from this module that fits, and how that drug works.",
+   "options": [],
+   "correct": null,
+   "explanation": "(1) Plasmodium (malaria) — chloroquine, which prevents trophozoites from degrading hemoglobin inside red blood cells. (2) Giardia (giardiasis/fatty diarrhea) — metronidazole (Flagyl), which blocks DNA synthesis so the protozoan can't reproduce. (3) Entamoeba (amoebic dysentery) — Flagyl as the general antiprotozoal, again by blocking DNA synthesis. Chloroquine wouldn't fit 2 or 3 because those parasites don't live in red blood cells."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Explain why Giardia outbreaks are tied to creeks and lakes while Cryptosporidium outbreaks are tied to swimming pools, and name the prevention step that works for creek water but fails in a chlorinated pool.",
+   "options": [],
+   "correct": null,
+   "explanation": "Giardia passes as a cyst in untreated natural water, so hikers and travelers who drink creek or lake water get it; boiling or filtering water first prevents it. Cryptosporidium lives in intestinal cells and is resistant to chlorine, so it survives in properly chlorinated pools and spreads among swimmers (recreational diarrhea). Chemical treatment with chlorine is the step that fails against it in a pool."
+  }
+ ]
+}
