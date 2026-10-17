@@ -114,6 +114,12 @@ summary{cursor:pointer;font-weight:600}
 .chip.bank-S{background:#F3DCE2;color:#8E3B53}
 .mrow details{border:0;padding:0;background:none}
 .mgwrap{margin-top:10px;border:0;padding:0;background:none}.mgroup .gtitle{display:flex;gap:8px;align-items:baseline;flex:1 1 220px;min-width:0}.mgroup h3{overflow-wrap:anywhere}.mgwrap>.stack{margin-top:10px}.mgroup{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;list-style:none}.mgroup::-webkit-details-marker{display:none}.mgroup:hover{border-color:var(--accent)}.mgroup .chev{color:var(--accent);transition:transform .15s;display:inline-block}.mgwrap[open] .mgroup .chev{transform:rotate(90deg)}.mgroup h3{margin:0;font:600 1.05rem/1.3 var(--display)}.mgroup .gmeta{color:var(--muted);font-size:.86rem}.mgroup .btn{margin-left:auto;padding:5px 12px;font-size:.85rem}
+.goal{padding:16px 18px}.goalhead{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 12px}
+.goaldate{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.goaldate input{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+.goaldate .btn{padding:5px 10px;font-size:.82rem}
+.goalbar{height:10px;border-radius:999px;background:var(--line);overflow:hidden;margin:14px 0 12px}.goalbar i{display:block;height:100%;width:0;background:var(--accent);border-radius:999px;transition:width .3s}
+.goalstats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.goalstats b{display:block;font:700 1.45rem/1.1 var(--display)}.goalstats .ok{color:var(--good)}.goalstats .bad{color:var(--bad)}
+@media (max-width:480px){.goalstats b{font-size:1.2rem}}
 .misslog{margin:10px 0 0;padding-left:1.3em;font-size:.86rem;display:grid;gap:3px}
 .mrow summary{font-weight:600;line-height:1.4}
 .mmeta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px;font-size:.8rem;color:var(--muted)}
@@ -139,6 +145,16 @@ summary{cursor:pointer;font-weight:600}
     </div>
 
     <div class="summary" id="summary"></div>
+
+    <div class="panel goal" id="goal">
+      <div class="goalhead">
+        <div class="label">Deadline goal</div>
+        <label class="goaldate"><span class="note">Finish by</span> <input type="date" id="goalDate"> <button type="button" class="btn quiet" id="goalClear" hidden>Clear</button></label>
+      </div>
+      <div class="goalbar"><i id="goalFill"></i></div>
+      <div class="goalstats" id="goalStats"></div>
+      <p class="note" id="goalNote" style="margin:10px 0 0"></p>
+    </div>
 
     <div class="row" style="justify-content:space-between">
       <button class="btn ghost" id="missedBtn">Missed list</button>
@@ -266,7 +282,51 @@ function pool() {
   if (p.mode === 'new') qs = qs.filter(q => !store.stats[q.id]);
   return qs;
 }
+/* ---------- deadline goal: questions answered at least once, out of the modules + banks switched on ---------- */
+const dayKey = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+function firstAnswered(id) {   // earliest known time this question was answered (local history, Sheet misses, a single Sheet answer, unsent answers)
+  let t = Infinity;
+  for (const x of store.history || []) if (x.id === id && x.ts < t) t = x.ts;
+  const r = store.remote && store.remote[id];
+  if (r) { for (const [ts] of r.misses || []) if (ts < t) t = ts; if (r.seen === 1 && r.lastAt && r.lastAt < t) t = r.lastAt; }
+  for (const a of store.pending || []) if (a.id === id && !a.source && a.ts < t) t = a.ts;
+  return t;
+}
+function renderGoal() {
+  const p = store.prefs, st = store.stats;
+  const goal = BANK.filter(q => p.topics.includes(q.topic) && p.exams.includes(q.bank));
+  const done = goal.filter(q => st[q.id] && st[q.id].seen);
+  const total = goal.length, left = total - done.length, pct = total ? Math.round(100 * done.length / total) : 0;
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const doneToday = done.filter(q => firstAnswered(q.id) >= today.getTime()).length;
+  $('goalFill').style.width = (total ? 100 * done.length / total : 0) + '%';
+  $('goalDate').min = dayKey(today);
+  $('goalDate').value = p.deadline || '';
+  $('goalClear').hidden = !p.deadline;
+  const tile = (label, val, cls) => `<div><span class="label">${label}</span><b class="mono ${cls || ''}">${val}</b></div>`;
+  let perDay = '—', perCls = '', days = '—', note;
+  if (!total) note = 'Switch on at least one module and bank to set a goal.';
+  else if (!left) { perDay = '0'; perCls = 'ok'; note = 'Every question in your selected modules and banks has been answered at least once.'; }
+  else if (!p.deadline) note = 'Pick a finish-by date to see how many new questions you need each day.';
+  else {
+    const [y, m, d] = p.deadline.split('-').map(Number), end = new Date(y, m - 1, d);
+    const nDays = Math.round((end - today) / 86400000) + 1;          // today and the deadline day both count
+    if (nDays < 1) { days = '0'; perCls = 'bad'; perDay = left; note = `That date has passed with ${left} question${left === 1 ? '' : 's'} still unanswered. Pick a new date.`; }
+    else {
+      const need = Math.ceil((left + doneToday) / nDays);              // fixed for the day: based on where you started this morning
+      const todayLeft = Math.max(0, need - doneToday);
+      days = nDays; perDay = need;
+      if (todayLeft) note = `Today: ${doneToday} of ${need} new questions done, ${todayLeft} to go.`;
+      else { perCls = 'ok'; note = `Today's target is met (${doneToday} new today). Anything extra lowers tomorrow's number.`; }
+    }
+  }
+  $('goalStats').innerHTML = tile('Complete', `${pct}%`) + tile('Days left', days) + tile('Per day', perDay, perCls);
+  $('goalNote').textContent = note + (total ? ` ${done.length} of ${total} answered.` : '');
+}
+$('goalDate').onchange = e => { store.prefs.deadline = e.target.value || ''; save(); renderGoal(); };
+$('goalClear').onclick = () => { store.prefs.deadline = ''; save(); renderGoal(); };
 function renderSetup() {
+  renderGoal();
   const st = store.stats, IN = BANK.filter(q => store.prefs.exams.includes(q.bank)), seen = IN.filter(q => st[q.id]);
   const right = seen.filter(q => st[q.id].last).length;
   $('summary').innerHTML =
