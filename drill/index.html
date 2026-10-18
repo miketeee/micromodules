@@ -116,7 +116,8 @@ summary{cursor:pointer;font-weight:600}
 .mgwrap{margin-top:10px;border:0;padding:0;background:none}.mgroup .gtitle{display:flex;gap:8px;align-items:baseline;flex:1 1 220px;min-width:0}.mgroup h3{overflow-wrap:anywhere}.mgwrap>.stack{margin-top:10px}.mgroup{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;list-style:none}.mgroup::-webkit-details-marker{display:none}.mgroup:hover{border-color:var(--accent)}.mgroup .chev{color:var(--accent);transition:transform .15s;display:inline-block}.mgwrap[open] .mgroup .chev{transform:rotate(90deg)}.mgroup h3{margin:0;font:600 1.05rem/1.3 var(--display)}.mgroup .gmeta{color:var(--muted);font-size:.86rem}.mgroup .btn{margin-left:auto;padding:5px 12px;font-size:.85rem}
 .goal{padding:16px 18px}.goalhead{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 12px}
 .goaldate{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.goaldate input{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
-.goaldate .btn{padding:5px 10px;font-size:.82rem}
+.goaldate .btn,.goalscope .btn{padding:5px 10px;font-size:.82rem}
+.goalscope{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
 .goalbar{height:10px;border-radius:999px;background:var(--line);overflow:hidden;margin:14px 0 12px}.goalbar i{display:block;height:100%;width:0;background:var(--accent);border-radius:999px;transition:width .3s}
 .goalstats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.goalstats b{display:block;font:700 1.45rem/1.1 var(--display)}.goalstats .ok{color:var(--good)}.goalstats .bad{color:var(--bad)}
 @media (max-width:480px){.goalstats b{font-size:1.2rem}}
@@ -154,6 +155,7 @@ summary{cursor:pointer;font-weight:600}
       <div class="goalbar"><i id="goalFill"></i></div>
       <div class="goalstats" id="goalStats"></div>
       <p class="note" id="goalNote" style="margin:10px 0 0"></p>
+      <div class="goalscope"><span class="note" id="goalScope"></span><button type="button" class="btn quiet" id="goalUseSel" hidden>Use current module selection</button></div>
     </div>
 
     <div class="row" style="justify-content:space-between">
@@ -282,7 +284,21 @@ function pool() {
   if (p.mode === 'new') qs = qs.filter(q => !store.stats[q.id]);
   return qs;
 }
-/* ---------- deadline goal: questions answered at least once, out of the modules + banks switched on ---------- */
+/* ---------- deadline goal ----------
+   store.goal = { deadline: 'YYYY-MM-DD' or '', topics: [...] or null (= all), banks: [...] or null (= all), at: last-change time, dirty: not yet sent }
+   The goal syncs through the Google Sheet (newest change wins); the module/bank toggles for a practice session stay per-device. */
+if (!store.goal) store.goal = { deadline: store.prefs.deadline || '', topics: null, banks: null, at: store.prefs.deadline ? Date.now() : 0, dirty: !!store.prefs.deadline };
+delete store.prefs.deadline;
+const goalTopics = () => (store.goal.topics || TOPICS).filter(t => TOPICS.includes(t));
+const goalBanks = () => (store.goal.banks || EXAMS).filter(b => EXAMS.includes(b));
+function setGoal(change) { Object.assign(store.goal, change, { at: Date.now(), dirty: true }); save(); renderGoal(); flushSoon(); }
+function mergeGoal(remote) {   // called with the goal the Sheet returns; adopt it if it is newer than ours
+  if (!remote || !remote.at || remote.at <= (store.goal.at || 0)) return false;
+  store.goal = { deadline: remote.deadline || '', topics: remote.topics || null, banks: remote.banks || null, at: remote.at, dirty: false };
+  return true;
+}
+const goalForSheet = () => ({ deadline: store.goal.deadline, topics: store.goal.topics, banks: store.goal.banks, at: store.goal.at });
+const sameSet = (a, b) => a.length === b.length && a.every(x => b.includes(x));
 const dayKey = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 function firstAnswered(id) {   // earliest known time this question was answered (local history, Sheet misses, a single Sheet answer, unsent answers)
   let t = Infinity;
@@ -293,23 +309,23 @@ function firstAnswered(id) {   // earliest known time this question was answered
   return t;
 }
 function renderGoal() {
-  const p = store.prefs, st = store.stats;
-  const goal = BANK.filter(q => p.topics.includes(q.topic) && p.exams.includes(q.bank));
+  const st = store.stats, gt = goalTopics(), gb = goalBanks(), dl = store.goal.deadline;
+  const goal = BANK.filter(q => gt.includes(q.topic) && gb.includes(q.bank));
   const done = goal.filter(q => st[q.id] && st[q.id].seen);
   const total = goal.length, left = total - done.length, pct = total ? Math.round(100 * done.length / total) : 0;
   const today = new Date(); today.setHours(0, 0, 0, 0);
   const doneToday = done.filter(q => firstAnswered(q.id) >= today.getTime()).length;
   $('goalFill').style.width = (total ? 100 * done.length / total : 0) + '%';
   $('goalDate').min = dayKey(today);
-  $('goalDate').value = p.deadline || '';
-  $('goalClear').hidden = !p.deadline;
+  if (document.activeElement !== $('goalDate')) $('goalDate').value = dl || '';
+  $('goalClear').hidden = !dl;
   const tile = (label, val, cls) => `<div><span class="label">${label}</span><b class="mono ${cls || ''}">${val}</b></div>`;
   let perDay = '—', perCls = '', days = '—', note;
-  if (!total) note = 'Switch on at least one module and bank to set a goal.';
-  else if (!left) { perDay = '0'; perCls = 'ok'; note = 'Every question in your selected modules and banks has been answered at least once.'; }
-  else if (!p.deadline) note = 'Pick a finish-by date to see how many new questions you need each day.';
+  if (!total) note = 'Your goal has no modules in it. Switch some on and tap “Use current module selection.”';
+  else if (!left) { perDay = '0'; perCls = 'ok'; note = 'Every question in your goal has been answered at least once.'; }
+  else if (!dl) note = 'Pick a finish-by date to see how many new questions you need each day.';
   else {
-    const [y, m, d] = p.deadline.split('-').map(Number), end = new Date(y, m - 1, d);
+    const [y, m, d] = dl.split('-').map(Number), end = new Date(y, m - 1, d);
     const nDays = Math.round((end - today) / 86400000) + 1;          // today and the deadline day both count
     if (nDays < 1) { days = '0'; perCls = 'bad'; perDay = left; note = `That date has passed with ${left} question${left === 1 ? '' : 's'} still unanswered. Pick a new date.`; }
     else {
@@ -322,9 +338,17 @@ function renderGoal() {
   }
   $('goalStats').innerHTML = tile('Complete', `${pct}%`) + tile('Days left', days) + tile('Per day', perDay, perCls);
   $('goalNote').textContent = note + (total ? ` ${done.length} of ${total} answered.` : '');
+  const mods = gt.length === TOPICS.length ? `all ${TOPICS.length} modules` : gt.length === 1 ? gt[0] : `${gt.length} of ${TOPICS.length} modules`;
+  const banks = gb.length === EXAMS.length ? EXAMS.map(x => BANKNAME[x]).join(' + ') : gb.map(x => BANKNAME[x]).join(' + ') || 'no banks';
+  const synced = connected() ? (store.goal.dirty ? ' · saving to your Sheet…' : ' · synced with your Sheet') : '';
+  $('goalScope').textContent = `Goal covers ${mods} · ${banks}${synced}`;
+  $('goalUseSel').hidden = sameSet(gt, store.prefs.topics) && sameSet(gb, store.prefs.exams);
 }
-$('goalDate').onchange = e => { store.prefs.deadline = e.target.value || ''; save(); renderGoal(); };
-$('goalClear').onclick = () => { store.prefs.deadline = ''; save(); renderGoal(); };
+$('goalDate').onchange = e => setGoal({ deadline: e.target.value || '' });
+$('goalClear').onclick = () => setGoal({ deadline: '' });
+$('goalUseSel').onclick = () => setGoal({
+  topics: sameSet(store.prefs.topics, TOPICS) ? null : store.prefs.topics.slice(),
+  banks: sameSet(store.prefs.exams, EXAMS) ? null : store.prefs.exams.slice() });
 function renderSetup() {
   renderGoal();
   const st = store.stats, IN = BANK.filter(q => store.prefs.exams.includes(q.bank)), seen = IN.filter(q => st[q.id]);
@@ -518,10 +542,12 @@ async function flush() {
   if (!connected() || busy) return;
   busy = true;
   try {
-    if (!store.remote) { const d = await call('GET'); store.remote = d.stats; }
-    while (store.pending.length) {
-      const batch = store.pending.slice(0, 200);
-      const d = await call('POST', { key: store.sync.key, attempts: batch });
+    if (!store.remote) { const d = await call('GET'); store.remote = d.stats; mergeGoal(d.goal); }
+    while (store.pending.length || store.goal.dirty) {
+      const batch = store.pending.slice(0, 200), sendGoal = store.goal.dirty, sentAt = store.goal.at;
+      const d = await call('POST', sendGoal ? { key: store.sync.key, attempts: batch, goal: goalForSheet() } : { key: store.sync.key, attempts: batch });
+      if (sendGoal && store.goal.at === sentAt) store.goal.dirty = false;
+      mergeGoal(d.goal);
       const sent = new Set(batch.map(a => a.uid));
       store.pending = store.pending.filter(a => !sent.has(a.uid));
       store.remote = d.stats; save();
@@ -535,7 +561,7 @@ async function flush() {
 }
 async function pull() {
   if (!connected()) return syncLabel();
-  try { const d = await call('GET'); store.remote = d.stats; rebuildStats(); save(); } catch (e) { return syncError(e); }
+  try { const d = await call('GET'); store.remote = d.stats; mergeGoal(d.goal); rebuildStats(); save(); if (!$('setup').hidden) renderGoal(); } catch (e) { return syncError(e); }
   flush();
 }
 $('syncBtn').onclick = () => {

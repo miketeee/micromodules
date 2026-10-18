@@ -15,9 +15,11 @@ Same setup as the CCMA practice site, but with its own new Sheet so micro answer
 What you'll see in the Sheet:
 - **Attempts** — one row per answer (when, device, bank, module, question, what you picked, right/wrong). Nothing is ever deleted.
 - **Summary** — one row per question: times seen, right, wrong, last result. Rebuilt after every sync.
+- **Goal** — your deadline goal (finish-by date, modules, and banks). Set it on any device and the others pick it up; the newest change wins.
 
 Notes:
 - Answers are saved in the browser first, then sent. If the connection drops, they wait and go through on the next try.
 - Use the same URL and phrase on your phone and computer and both share one history.
 - If you edit `Code.gs` later, use **Deploy → Manage deployments → Edit → New version** so the URL stays the same.
+- **Already set up before the deadline goal was added?** Paste the new `Code.gs` over the old one, keep your same SECRET line, then **Deploy → Manage deployments → Edit (pencil) → Version: New version → Deploy**. Your URL and phrase stay the same, and nothing on the site needs re-entering.
 - The claude.ai preview can't reach Google; sync only works from your GitHub Pages copy.

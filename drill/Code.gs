@@ -8,6 +8,8 @@
  * The site sends every answer here. Each answer becomes one row on the "Attempts" tab and
  * is never deleted, so the Sheet keeps your full history. The "Summary" tab is rebuilt after
  * every sync with one row per question (times seen, times right, last result).
+ * The "Goal" tab shows your deadline goal (finish-by date and which modules/banks it covers);
+ * every device reads it from here, and the newest change from any device wins.
  */
 const SECRET = 'change-this-phrase';
 
@@ -19,7 +21,7 @@ const LETTERS = 'ABCD';
 function doGet(e) {
   const key = e && e.parameter ? e.parameter.key : '';
   if (key !== SECRET) return out_({ ok: false, error: 'Wrong secret phrase' });
-  return out_({ ok: true, stats: stats_() });
+  return out_({ ok: true, stats: stats_(), goal: goal_() });
 }
 
 function doPost(e) {
@@ -42,9 +44,10 @@ function doPost(e) {
                  picked, a.ok ? 'right' : 'wrong', a.source || 'answer', a.source === 'baseline' ? (a.seen || 0) : 1, a.source === 'baseline' ? (a.right || 0) : (a.ok ? 1 : 0)]);
     });
     if (rows.length) sh.getRange(sh.getLastRow() + 1, 1, rows.length, HEAD.length).setValues(rows);
+    if (body.goal && Number(body.goal.at) > Number((goal_() || {}).at || 0)) saveGoal_(body.goal);
     const stats = stats_();
     summary_(stats);
-    return out_({ ok: true, stats: stats, added: rows.length });
+    return out_({ ok: true, stats: stats, goal: goal_(), added: rows.length });
   } finally {
     lock.releaseLock();
   }
@@ -85,6 +88,25 @@ function attempts_() {
   let sh = ss.getSheetByName(ATTEMPTS);
   if (!sh) { sh = ss.insertSheet(ATTEMPTS); sh.getRange(1, 1, 1, HEAD.length).setValues([HEAD]); sh.setFrozenRows(1); sh.hideColumns(1); sh.hideColumns(3); }
   return sh;
+}
+
+/* deadline goal: { deadline: 'YYYY-MM-DD' or '', topics: [...] or null (all), banks: [...] or null (all), at: ms timestamp } */
+function goal_() {
+  const raw = PropertiesService.getScriptProperties().getProperty('goal');
+  return raw ? JSON.parse(raw) : null;
+}
+function saveGoal_(g) {
+  const clean = { deadline: String(g.deadline || ''), topics: Array.isArray(g.topics) ? g.topics : null,
+                  banks: Array.isArray(g.banks) ? g.banks : null, at: Number(g.at) };
+  PropertiesService.getScriptProperties().setProperty('goal', JSON.stringify(clean));
+  const ss = SpreadsheetApp.getActive();
+  const sh = ss.getSheetByName('Goal') || ss.insertSheet('Goal');
+  sh.clearContents();
+  sh.getRange(1, 1, 4, 2).setValues([
+    ['Finish by', clean.deadline || '(none)'],
+    ['Modules', clean.topics ? clean.topics.join(', ') : 'All modules'],
+    ['Banks', clean.banks ? clean.banks.map(function (b) { return b === 'S' ? 'Scenarios' : b === 'D' ? 'Direct' : b; }).join(', ') : 'Scenarios, Direct'],
+    ['Last changed', new Date(clean.at)]]);
 }
 
 function out_(obj) {
