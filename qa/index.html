@@ -25,10 +25,25 @@
           content.innerHTML = html;
           const h1 = content.querySelector('h1');
           if (h1) document.title = h1.textContent + ' — Micro Quiz Bank';
+          addWalkLinks();
         })
         .catch(() => {
           content.innerHTML = '<p>Could not load that study guide. <a href="../index.html">Back to all quizzes.</a></p>';
         });
+    }
+    /* Modules 9-17: a Walkthrough link after each study-guide question (numbered in page order, matching data/walkthroughs.json) */
+    function addWalkLinks() {
+      const m = /^mod(\d+)$/.exec(slug || ''); if (!m || +m[1] < 9) return;
+      const h2 = [...content.querySelectorAll('h2')].find(h => /Study Guide Questions/i.test(h.textContent)); if (!h2) return;
+      const items = [];
+      for (let el = h2.nextElementSibling; el && el.tagName !== 'H2'; el = el.nextElementSibling)
+        if (el.tagName === 'OL') items.push(...[...el.children].filter(li => li.tagName === 'LI'));
+      items.forEach((li, k) => {
+        const strong = li.querySelector('p > strong') || li.querySelector('strong'); if (!strong) return;
+        const a = document.createElement('a');
+        a.className = 'qa-walk'; a.href = '../walkthrough/index.html#W' + m[1] + '-' + (k + 1); a.textContent = 'Walkthrough';
+        strong.insertAdjacentElement('afterend', a);
+      });
     }
   </script>
 </body>

@@ -20,6 +20,7 @@ A static, self-grading quiz site built from the Module 1–17 course materials: 
 ## File structure
 
 ```
+walkthrough/index.html  Walkthroughs: every Module 9–17 study-guide question worked step by step (data in data/walkthroughs.json)
 navigator/index.html  Micro Navigator — flowcharts, check-my-work tools, and study-guide Q&A for Modules 9–17
 drill/index.html      Micro Practice Bank — 730 questions (306 scenarios + 424 direct), Modules 9–17, Google Sheet sync
 drill/Code.gs         Apps Script for the practice bank's Google Sheet (setup steps in drill/SHEET_SETUP.md)

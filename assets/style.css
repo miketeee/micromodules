@@ -552,3 +552,12 @@ p.quiz-sub{
   padding-left: 1.3rem;
 }
 #qa-content ol ul li::marker{ color: var(--violet-deep); }
+
+/* Walkthrough pills (Modules 9-17) */
+.quiz-pill.pill-walk{ color:#2C6670; background:#D9E9EA; border-color:#2C6670; }
+.quiz-pill.pill-walk:hover{ background:#2C6670; color:#fff; }
+.quiz-links{ flex-wrap: wrap; justify-content: flex-end; flex-shrink: 1; max-width: 62%; row-gap: 0.4rem; }
+.m-row .titles{ min-width: 9rem; }
+@media (max-width: 480px){ .quiz-links{ max-width: none; justify-content: flex-start; } }
+.qa-walk{ display:inline-block; margin-left:.5rem; font-family:'IBM Plex Mono',monospace; font-size:.7rem; font-weight:500; text-decoration:none; color:#2C6670; background:#D9E9EA; border:1px solid #2C6670; border-radius:3px; padding:.15rem .45rem; vertical-align:2px; white-space:nowrap; }
+.qa-walk:hover{ background:#2C6670; color:#fff; }
