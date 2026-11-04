@@ -11,7 +11,7 @@
   --bg:#EEF0E6; --card:#F8F9F3; --ink:#20261F; --muted:#59614F; --line:#D3D8C5; --soft:#E4E8D9;
   --accent:#5B3A73; --accent-soft:#E7DEEC; --ok:#2F6A3C; --ok-bg:#E1EEDC; --bad:#9A3B3B; --bad-bg:#F3DCE2;
   --warn-bg:#F6EBD3; --warn-ink:#6B4A12;
-  --euk:#7A8471; --dna:#5B3A73; --gene:#B9536F; --tech:#2E7A78; --virus:#A0612A;
+  --euk:#7A8471; --dna:#5B3A73; --gene:#B9536F; --tech:#2E7A78; --virus:#A0612A; --dis:#9A3B3B; --inn:#3F6E9E; --adp:#5E7F2E; --rx:#8A5A9E;
   --radius:14px; --shadow:0 1px 2px rgba(30,40,20,.05),0 4px 16px rgba(30,40,20,.05);
   --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
 }
@@ -20,14 +20,14 @@
     --bg:#16181A; --card:#1F2224; --ink:#E8EAE3; --muted:#A3A99A; --line:#33373A; --soft:#272B2D;
     --accent:#B99BD0; --accent-soft:#2E2538; --ok:#9BD8A6; --ok-bg:#1A2E1F; --bad:#F0A6B6; --bad-bg:#3A1D25;
     --warn-bg:#352A12; --warn-ink:#F1CF86;
-    --euk:#AEB8A2; --dna:#B99BD0; --gene:#E58DA5; --tech:#6CC6C2; --virus:#E0A16A; --shadow:none;
+    --euk:#AEB8A2; --dna:#B99BD0; --gene:#E58DA5; --tech:#6CC6C2; --virus:#E0A16A; --dis:#E08A8A; --inn:#8CB6E6; --adp:#AFCB7A; --rx:#CDA3E0; --shadow:none;
   }
 }
 :root[data-theme="dark"]{
   --bg:#16181A; --card:#1F2224; --ink:#E8EAE3; --muted:#A3A99A; --line:#33373A; --soft:#272B2D;
   --accent:#B99BD0; --accent-soft:#2E2538; --ok:#9BD8A6; --ok-bg:#1A2E1F; --bad:#F0A6B6; --bad-bg:#3A1D25;
   --warn-bg:#352A12; --warn-ink:#F1CF86;
-  --euk:#AEB8A2; --dna:#B99BD0; --gene:#E58DA5; --tech:#6CC6C2; --virus:#E0A16A; --shadow:none;
+  --euk:#AEB8A2; --dna:#B99BD0; --gene:#E58DA5; --tech:#6CC6C2; --virus:#E0A16A; --dis:#E08A8A; --inn:#8CB6E6; --adp:#AFCB7A; --rx:#CDA3E0; --shadow:none;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -52,7 +52,7 @@ h1{font-size:clamp(24px,5vw,32px);line-height:1.2;margin:0 0 8px;letter-spacing:
 .group{margin:22px 0}
 .group h2{font-size:14px;letter-spacing:.06em;text-transform:uppercase;margin:0 0 10px;color:var(--tc,var(--muted));display:flex;align-items:center;gap:8px}
 .group h2::before{content:"";width:10px;height:10px;border-radius:3px;background:var(--tc,var(--muted))}
-.tag-euk{--tc:var(--euk)} .tag-dna{--tc:var(--dna)} .tag-gene{--tc:var(--gene)} .tag-tech{--tc:var(--tech)} .tag-virus{--tc:var(--virus)}
+.tag-euk{--tc:var(--euk)} .tag-dna{--tc:var(--dna)} .tag-gene{--tc:var(--gene)} .tag-tech{--tc:var(--tech)} .tag-virus{--tc:var(--virus)} .tag-dis{--tc:var(--dis)} .tag-inn{--tc:var(--inn)} .tag-adp{--tc:var(--adp)} .tag-rx{--tc:var(--rx)}
 .opts{display:grid;gap:8px}
 .opt{display:grid;grid-template-columns:1fr auto;grid-template-areas:"t c" "h c";align-items:center;gap:2px 12px;padding:13px 16px;border:1px solid var(--line);border-left:4px solid var(--tc,var(--accent));background:var(--card);border-radius:12px;text-decoration:none;color:var(--ink);box-shadow:var(--shadow);transition:transform .08s,border-color .15s}
 .opt:hover{border-color:var(--tc,var(--accent));transform:translateY(-1px)}
@@ -597,6 +597,157 @@ var NODES = {
 var PARENT = {};
 Object.keys(NODES).forEach(function (id) { (NODES[id].opts || []).forEach(function (c) { PARENT[c] = id; }); });
 
+/* ================= UNIT 3 FLOWCHARTS (Modules 18–24) ================= */
+GROUPS.push(
+  { name: 'Principles of disease · Mod 18–19', tag: 'dis', ids: ['symb', 'freq', 'course', 'dstage', 'transmit', 'portal', 'vfactor', 'toxin'] },
+  { name: 'Nonspecific defenses · Mod 20–21', tag: 'inn', ids: ['line', 'barrier', 'inflam', 'phago', 'compl', 'cyto'] },
+  { name: 'Specific defenses · Mod 22–23', tag: 'adp', ids: ['abclass', 'abmech', 'immtype', 'bact', 'killer', 'mab'] },
+  { name: 'Vaccines & antimicrobials · Mod 24', tag: 'rx', ids: ['vax', 'abx', 'spectrum', 'resist'] }
+);
+
+Object.assign(NODES, {
+  /* ---------- MOD 18 ---------- */
+  symb: { title: 'Classify a microbe–host relationship', hint: 'mutualism, commensalism, parasitism, opportunist', q: 'Is the host harmed?', opts: ['sy_no', 'sy_yes'] },
+  sy_no: { title: 'No — host is not harmed', q: 'Does the host benefit?', opts: ['sy_mut', 'sy_com'] },
+  sy_mut: { title: 'Yes → mutualism (+/+)', notes: 'm18', result: 'MUTUALISM', steps: ['Both benefit. Ex: <i>E. coli</i> in the colon — gets food and shelter; makes most of our <b>vitamin K</b> and <b>bacteriocins</b> against <i>Salmonella</i>/<i>Shigella</i>.', 'Mutualists + commensals = <b>normal flora</b> (resident microbiota).'] },
+  sy_com: { title: 'No → commensalism (+/0)', notes: 'm18', result: 'COMMENSALISM', steps: ['Microbe benefits; host unaffected. Ex: <i>Candida albicans</i> on the skin; <i>S. aureus</i> on unbroken skin.'] },
+  sy_yes: { title: 'Yes — host is harmed', q: 'Is the microbe harmless in its usual body site?', opts: ['sy_opp', 'sy_par'] },
+  sy_opp: { title: 'Yes → opportunistic pathogen', notes: 'm18', result: 'OPPORTUNIST', steps: ['Harmless in its normal location but causes disease elsewhere (or when defenses are down).', '<i>E. coli</i> → UTI or wound infection; <i>S. aureus</i> → wound infection through burns/cuts/surgery.', 'Two main UTI causes: <i>E. coli</i> (Gram −) and <i>S. aureus</i> (Gram +). Females at higher risk → wipe front to back.'] },
+  sy_par: { title: 'No → parasitism (+/−) / true pathogen', notes: 'm18', result: 'PARASITISM', steps: ['Microbe benefits, host harmed (may die). Ex: <i>Vibrio cholerae</i> → cholera.', 'True pathogens cause disease even in healthy people with working immune systems (slides).'] },
+
+  freq: { title: 'How often / how widely does a disease occur?', hint: 'sporadic, endemic, epidemic, pandemic; incidence vs prevalence', notes: 'm18',
+    steps: ['<b>Sporadic</b> — only occasionally (cholera after floods).', '<b>Endemic</b> — constantly present (common cold).', '<b>Epidemic</b> — many hosts in an area in a short time (flu epidemic).', '<b>Pandemic</b> — worldwide epidemic (1918 Spanish flu, AIDS).', '<b>Incidence</b> = new cases in a time period (spread). <b>Prevalence</b> = new + existing cases at a time (burden). US AIDS 2014: incidence ≈ 37,600; prevalence ≈ 1.1 million.', '<b>Herd immunity</b> = immunity in most of a population (vaccination) protects the rest; falling vaccination → measles returns.'] },
+
+  course: { title: 'Describe an infection\'s course or location', hint: 'acute, chronic, latent, local, systemic, subclinical, primary, secondary', q: 'What are you being asked about?', opts: ['co_time', 'co_place', 'co_blood'] },
+  co_time: { title: 'Timing / severity', notes: 'm18', result: 'TIMING', steps: ['<b>Acute</b>: fast onset, short (food poisoning).', '<b>Chronic</b>: slow, long-lasting or recurring (tuberculosis).', '<b>Latent</b>: pathogen stays dormant, then reactivates (herpes fever blisters).', '<b>Subclinical</b>: infection with no noticeable illness (hepatitis A).', '<b>Primary</b>: initial acute illness (sinusitis). <b>Secondary</b>: opportunist after defenses weaken (pneumonia from <i>S. pneumoniae</i> carried down by drainage).'] },
+  co_place: { title: 'Location', notes: 'm18', result: 'LOCATION', steps: ['<b>Local</b>: confined to a small area (abscess, boil, wart).', '<b>Systemic</b>: throughout the body via blood or lymph (measles, chickenpox, typhoid fever, syphilis).'] },
+  co_blood: { title: 'What\'s in the blood?', notes: 'm18', result: 'BLOOD', steps: ['<b>Bacteremia</b> = bacteria in blood. <b>Viremia</b> = viruses. <b>Toxemia</b> = toxins (bacteria may stay local).', '<b>Septicemia</b> = pathogens multiplying in blood ("blood poisoning").', '<b>Sepsis</b> = extreme immune reaction to pathogens/toxins → septic shock (BP drop) or very high fever.'] },
+
+  dstage: { title: 'Which stage of infectious disease?', hint: 'incubation, prodromal, illness, decline, convalescence', q: 'Are there any signs or symptoms?', opts: ['ds_none', 'ds_some'] },
+  ds_none: { title: 'None', q: 'Is the patient recovering from an illness that already happened?', opts: ['ds_conv', 'ds_inc'] },
+  ds_inc: { title: 'No → incubation period', notes: 'm18', result: 'INCUBATION', steps: ['Microbes multiplying slowly; numbers too low for signs/symptoms.', 'Textbook: active carriers can already transmit during incubation.'] },
+  ds_conv: { title: 'Yes → convalescence', notes: 'm18', result: 'CONVALESCENCE', steps: ['Patient feels normal, but microbe numbers haven\'t reached zero.', '<b>Finish the antibiotic course</b> — the survivors are the most resistant and could start the next infection.'] },
+  ds_some: { title: 'Some', q: 'How bad are they, and which way are they heading?', opts: ['ds_pro', 'ds_ill', 'ds_dec'] },
+  ds_pro: { title: 'Mild, getting worse → prodromal', notes: 'm18', result: 'PRODROMAL', steps: ['"I feel like I\'m coming down with something" — scratchy throat, achy, tired.'] },
+  ds_ill: { title: 'Most severe → period of illness', notes: 'm18', result: 'ILLNESS', steps: ['Exponential (log) growth of the pathogen; fever, vomiting, diarrhea, mucus.', 'Death, if it happens, occurs near the peak.'] },
+  ds_dec: { title: 'Subsiding → period of decline', notes: 'm18', result: 'DECLINE', steps: ['Immune system or antibiotics reduce microbe numbers; signs and symptoms fade.'] },
+
+  /* ---------- MOD 19 ---------- */
+  transmit: { title: 'Identify a transmission route', hint: 'direct, indirect (fomite), droplet, vehicle, vector', q: 'Is something living carrying it (an arthropod)?', opts: ['tr_vec', 'tr_notvec'] },
+  tr_vec: { title: 'Yes → vector', q: 'Does the pathogen reproduce inside the arthropod?', opts: ['tr_bio', 'tr_mech'] },
+  tr_bio: { title: 'Yes → biological vector', notes: 'm19', result: 'BIOLOGICAL VECTOR', steps: ['Ex: <i>Anopheles</i> mosquito → <i>Plasmodium</i> (malaria).'] },
+  tr_mech: { title: 'No → mechanical vector', notes: 'm19', result: 'MECHANICAL VECTOR', steps: ['Pathogens ride on the body parts. Ex: housefly from a dead possum to your food.'] },
+  tr_notvec: { title: 'No vector', q: 'Did the reservoir and host touch, or did something non-living move it?', opts: ['tr_contact', 'tr_vehicle'] },
+  tr_contact: { title: 'Contact', q: 'Which kind of contact?', opts: ['tr_direct', 'tr_indirect', 'tr_droplet'] },
+  tr_direct: { title: 'Touching → direct contact', notes: 'm19', result: 'DIRECT', steps: ['Handshake, kissing, intercourse, <b>patient care</b>.'] },
+  tr_indirect: { title: 'Through an object → indirect contact', notes: 'm19', result: 'INDIRECT (FOMITE)', steps: ['A non-living <b>fomite</b> is the middleman: doorknob, cell phone, daycare toys, medical equipment.'] },
+  tr_droplet: { title: 'Sneeze/cough/talking within 1 m → droplet', notes: 'm19', result: 'DROPLET', steps: ['Less than <b>1 meter</b>. Farther than that = airborne (vehicle).'] },
+  tr_vehicle: { title: 'Non-living thing moved it → vehicle', notes: 'm19', result: 'VEHICLE', steps: ['<b>Airborne</b> (&gt; 1 m), <b>waterborne</b> (contaminated well, farm sewage downstream), <b>foodborne</b>.', 'Exposure to <b>lab specimens</b> (blood, urine) also counts as vehicle transmission.'] },
+
+  portal: { title: 'Steps of infection & portals of entry', hint: 'reservoir → … → exit; skin, mucous membranes, parenteral', notes: 'm19',
+    steps: ['<b>Reservoir</b> (human, animal → zoonosis like rabies, non-living: water/soil/air) → <b>transmission</b> → <b>portal of entry</b> → <b>adherence</b> → <b>avoid host defenses</b> → <b>host damage</b> → <b>portal of exit</b>.', 'Portals: <b>broken skin</b>; <b>mucous membranes</b> (most common — respiratory, digestive); <b>parenteral</b> (needle, nail, bite through intact skin).', 'Exit is usually the same as entry; the host becomes a reservoir.', '<b>HAIs</b> (~15% of patients): many reservoirs, invasive procedures, compromised hosts. Most common: <b>UTIs</b> (catheter biofilms), surgical sites. Organisms: <b>MRSA</b>, C. diff, <i>Pseudomonas</i>, <i>Klebsiella</i>, <i>Enterococcus</i>.', 'Prevention: <b>hand washing</b>, PPE, aseptic technique, isolation, education.'],
+    watch: ['Normal flora complete every step except host damage — that\'s what makes a pathogen.'] },
+
+  vfactor: { title: 'Classify a virulence factor by its job', hint: 'adhere, avoid defenses, damage host', q: 'What does it help the pathogen do?', opts: ['vf_adh', 'vf_avoid', 'vf_dmg'] },
+  vf_adh: { title: 'Stick (adherence)', notes: 'm19', result: 'ADHERENCE', steps: ['<b>Fimbriae</b> — <i>E. coli</i> on bladder cells.', '<b>Capsule</b> — biofilms; <i>S. mutans</i> on teeth (also catheters, contact lenses).', '<b>M-protein</b> — <i>S. pyogenes</i> in the throat.', '<b>Invasins</b> — <i>Salmonella typhimurium</i> enters host cells.'] },
+  vf_avoid: { title: 'Avoid host defenses', notes: 'm19', result: 'AVOID DEFENSES', steps: ['<b>Capsule</b> blocks phagocytosis (<i>S. pneumoniae</i>; unencapsulated strains are harmless). <b>M-protein</b> too (<i>S. pyogenes</i>).', '<b>Invasins</b> hide the pathogen inside host cells.', '<b>Coagulase</b> clots blood to wall off WBCs (<i>S. aureus</i>). <b>Kinase</b> dissolves the host\'s clot to escape (<i>S. pyogenes</i>).', '<b>IgA protease</b> destroys mucosal IgA (<i>S. pneumoniae</i>, gonorrhea).'] },
+  vf_dmg: { title: 'Damage the host', notes: 'm19', result: 'HOST DAMAGE', steps: ['<b>Direct cell lysis</b> — multiplies inside cells until they burst (<i>Salmonella</i>).', '<b>Siderophores</b> — steal iron (<i>Yersinia pestis</i>).', '<b>Collagenase + hyaluronidase</b> — digest connective tissue → gangrene (<i>Clostridium perfringens</i>).', '<b>Toxins</b> — exotoxins and endotoxins (see the toxin chart).'] },
+
+  toxin: { title: 'Identify a bacterial toxin', hint: 'exotoxin types I–III vs endotoxin (LPS)', q: 'Is it a secreted protein, or part of a Gram-negative cell wall?', opts: ['tx_exo', 'tx_endo'] },
+  tx_endo: { title: 'Cell-wall component → endotoxin', notes: 'm19', result: 'ENDOTOXIN', steps: ['<b>LPS</b> in the Gram-negative outer membrane; released when cells die and break apart.', 'Causes excessive immune responses — fever, shock, vomiting.'] },
+  tx_exo: { title: 'Secreted protein → exotoxin', q: 'What does it do to the host?', opts: ['tx_1', 'tx_2', 'tx_3'] },
+  tx_1: { title: 'Overstimulates the immune system → Type I superantigen', notes: 'm19', result: 'TYPE I', steps: ['Excessive fever, shock, vomiting, diarrhea. Ex: <i>S. aureus</i> toxic shock syndrome.'] },
+  tx_2: { title: 'Bursts red blood cells → Type II hemolysin', notes: 'm19', result: 'TYPE II', steps: ['Ex: <i>Streptococcus pyogenes</i>.'] },
+  tx_3: { title: 'Blocks protein synthesis or nerves → Type III A-B toxin', notes: 'm19', result: 'TYPE III', steps: ['<b>B</b> binds the host cell; <b>A</b> (active) is toxic.', 'Ex: <i>Clostridium botulinum</i> neurotoxin blocks neuron→muscle signals → botulism; <b>Botox</b> (wrinkles, migraines, sweating).'],
+    watch: ['Exotoxins: mostly Gram-positive, often encoded by prophage genes (lysogenic conversion). Discovered by Émile Roux (diphtheria toxin, guinea pigs, 2-week filtrate).'] },
+
+  /* ---------- MOD 20–21 ---------- */
+  line: { title: 'Which line of defense is it?', hint: 'first, second, third; innate vs adaptive', q: 'Does it target one specific antigen and remember it?', opts: ['ln_3', 'ln_12'] },
+  ln_3: { title: 'Yes → third line (adaptive, specific)', notes: 'm22', result: 'THIRD LINE', steps: ['Antibody-mediated (B cells; extracellular pathogens) and cell-mediated (T cells; intracellular pathogens).', 'Acquired, improves with exposure (memory); only vertebrates.'] },
+  ln_12: { title: 'No → innate (nonspecific)', q: 'Does it stop microbes at the surface, before they invade tissue?', opts: ['ln_1', 'ln_2'] },
+  ln_1: { title: 'Yes → first line', notes: 'm20', result: 'FIRST LINE', steps: ['Physical barriers: <b>intact skin</b> (best), mucous membranes, ciliary escalator, lacrimal apparatus.', 'Chemicals: sebum, lysozyme, saliva, sweat, gastric juice, vaginal secretions, urine, earwax.', 'Resident microbiota (microbial antagonism).'] },
+  ln_2: { title: 'No → second line', notes: 'm20', result: 'SECOND LINE', steps: ['Inflammation, phagocytosis, fever, complement, interferon, natural killer cells.'] },
+
+  barrier: { title: 'First-line barriers & antimicrobial fluids', hint: 'skin, mucus, cilia, tears, sebum, lysozyme, pH', notes: 'm20',
+    steps: ['<b>Skin</b>: dry, salty, acidic (sebum, pH 3–5), shedding, <i>S. epidermidis</i>.', '<b>Mucous membranes</b>: goblet-cell mucus traps microbes; flushed by sneezing, coughing, vomiting, diarrhea, urination.', '<b>Ciliary escalator</b>: 1–3 cm/hr up the trachea → swallowed → stomach acid. Smoking destroys it (smoker\'s cough).', '<b>Lacrimal apparatus</b>: tears (lysozyme) → nasolacrimal duct → nose.', '<b>Lysozyme</b> (tears, saliva, sweat, urine) digests peptidoglycan. <b>Saliva</b>: + IgA, pH ~6.5. <b>Sweat</b>: + salt. <b>Gastric juice</b>: HCl pH ~2. <b>Vaginal</b>: lactic acid pH 3–5. <b>Urine</b>: pH ~6, flushing. <b>Earwax</b>: sebum, pH 3–5.'] },
+
+  inflam: { title: 'Walk through inflammation', hint: 'histamine, 4 cardinal signs, pus, abscess', notes: 'm20',
+    steps: ['Trigger: tissue damage (direct or indirect) — or complement (C3a/C5a) or antigen on IgE.', '<b>Mast cells</b> release <b>histamine</b> (a vasodilator).', 'Vasodilation → more blood → <b>redness, heat</b>; lower blood pressure.', 'Leaky vessels → fluid → <b>swelling → pain</b>; WBCs crawl out (diapedesis).', '<b>Neutrophils</b> (first responders) eat and die; <b>monocytes → macrophages</b> keep eating.', 'Clotting walls in the infection → <b>abscess</b>; <b>pus</b> = dead neutrophils + waste + fluid; macrophages clean up; large sites scar.'] },
+
+  phago: { title: 'Steps of phagocytosis', hint: 'TLR → pseudopods → phagosome → phagolysosome → exocytosis', notes: 'm20',
+    steps: ['(Slides: <b>chemotaxis</b> draws the phagocyte in.)', 'Bind: <b>Toll-like receptors</b> recognize common molecules (mannose, LPS) — or C3b/antibody coating (opsonization).', 'Ingest: <b>pseudopods</b> surround the microbe → <b>phagosome</b>.', 'Digest: <b>lysosome</b> fuses → <b>phagolysosome</b>; hydrolytic enzymes break it down.', 'Eliminate: waste released by <b>exocytosis</b>.'],
+    watch: ['Capsules and M-protein block the binding step; invasins hide the pathogen inside host cells.'] },
+
+  compl: { title: 'Complement activation & outcomes', hint: 'C3a, C3b, C5a, MAC', q: 'What triggered it?', opts: ['cp_ns', 'cp_sp'] },
+  cp_ns: { title: 'Mannose or LPS → nonspecific activation', notes: 'm21', result: 'NONSPECIFIC', steps: ['Common microbial molecules knock over the first "domino."', 'Outcomes below are the same either way.'], watch: ['Three outcomes: <b>opsonization</b> (C3b coats → macrophage C3b receptors), <b>inflammation</b> (C3a + C5a → mast cells → histamine), <b>MAC</b> (C5b + C6–C9; C9 ring pore → lysis).'] },
+  cp_sp: { title: 'Antibodies → specific activation', notes: 'm22', result: 'SPECIFIC', steps: ['Adjacent antibodies bound to antigen activate complement.'], watch: ['Three outcomes: <b>opsonization</b> (C3b), <b>inflammation</b> (C3a + C5a → mast cells), <b>MAC</b> (C5b–C9 → lysis).'] },
+
+  cyto: { title: 'Cytokines: fever & interferon', hint: 'interleukin, pyrogen, AVPs', q: 'Is the problem a virus inside cells, or do you need a fever?', opts: ['cy_ifn', 'cy_fev'] },
+  cy_ifn: { title: 'Virus → interferon', notes: 'm21', result: 'INTERFERON', steps: ['Virus-infected cell secretes interferon (it won\'t save itself).', 'Neighbors\' receptors bind it → they make <b>antiviral proteins (AVPs)</b> → AVPs destroy viral RNA.', 'Nonspecific, local; can stimulate NK cells.', 'As a drug: AVPs destroy cells\' own RNA and injected interferon spreads everywhere → strong side effects.'] },
+  cy_fev: { title: 'Fever → pyrogenic interleukins', notes: 'm21', result: 'FEVER', steps: ['Some <b>interleukins</b> ("between the whites") act as <b>pyrogens</b> → reset the <b>hypothalamus</b> thermostat.', 'Bacterial enzymes drop off faster than ours above 37 °C → a low-grade fever helps; ~44–46 °C can be fatal.'] },
+
+  /* ---------- MOD 22–23 ---------- */
+  abclass: { title: 'Identify an antibody class', hint: 'IgG, IgM, IgA, IgD, IgE', q: 'How many Y-shaped units?', opts: ['ab_5', 'ab_2', 'ab_1'] },
+  ab_5: { title: 'Five (pentamer) → IgM', notes: 'm22', result: 'IgM', steps: ['First antibody made after exposure; great at agglutination.', 'Monomer form = the <b>B cell receptor</b>.'] },
+  ab_2: { title: 'Two (dimer) → IgA', notes: 'm22', result: 'IgA', steps: ['Mucus, saliva, breast milk; works mainly by <b>neutralization</b>.'] },
+  ab_1: { title: 'One (monomer)', q: 'Where is it, or what is it known for?', opts: ['ab_g', 'ab_e', 'ab_d'] },
+  ab_g: { title: 'Most of serum; crosses placenta → IgG', notes: 'm22', result: 'IgG', steps: ['~80% of serum antibody; most mechanisms except triggering mast cells.'] },
+  ab_e: { title: 'On mast cells; allergies → IgE', notes: 'm22', result: 'IgE', steps: ['Antigen on IgE → histamine → inflammation; hypersensitivities.'] },
+  ab_d: { title: 'Function unclear → IgD', notes: 'm22', result: 'IgD', steps: ['Few made; sometimes on B cells.'] },
+
+  abmech: { title: 'Which antibody mechanism?', hint: 'opsonize, agglutinate, neutralize, complement, inflammation, ADCC', notes: 'm22',
+    steps: ['<b>Opsonization</b> — coat specific pathogens; phagocytes bind the <b>constant region</b>.', '<b>Agglutination</b> — two binding sites cross-link pathogens into clumps.', '<b>Neutralization</b> — block attachment of pathogens or toxins (antivenom; COVID spike → ACE2).', '<b>Complement activation</b> — adjacent bound antibodies trigger the cascade.', '<b>Inflammation</b> — antigen binds IgE on mast cells → histamine.', '<b>Antibody-dependent cytotoxicity</b> — eosinophils/NK cells bind antibody-coated worms and release killing chemicals.'],
+    watch: ['Variable region = binding site (specificity). Constant region = class + receptor "USB port."'] },
+
+  immtype: { title: 'Natural/artificial × active/passive', hint: 'vaccine, antivenom, breast milk, infection', q: 'Did the person\'s own B cells make the antibodies?', opts: ['im_act', 'im_pas'] },
+  im_act: { title: 'Yes → active (memory, long-lasting)', q: 'How did the antigen get in?', opts: ['im_na', 'im_aa'] },
+  im_na: { title: 'Everyday infection → natural active', notes: 'm22', result: 'NATURAL ACTIVE', steps: ['Ex: recovering from chickenpox.'] },
+  im_aa: { title: 'Injected on purpose → artificial active', notes: 'm24', result: 'ARTIFICIAL ACTIVE', steps: ['Vaccines (attenuated, inactivated, subunit, toxoid, nucleic acid).'] },
+  im_pas: { title: 'No → passive (preformed antibodies; immediate but temporary)', q: 'Where did the antibodies come from?', opts: ['im_np', 'im_ap'] },
+  im_np: { title: 'Mother → natural passive', notes: 'm22', result: 'NATURAL PASSIVE', steps: ['IgG across the placenta; IgA in breast milk.'] },
+  im_ap: { title: 'Injection → artificial passive', notes: 'm22', result: 'ARTIFICIAL PASSIVE', steps: ['Antivenom; COVID monoclonal antibodies (Regeneron). Antibody half-life ~3 weeks; no memory.'] },
+
+  bact: { title: 'How is a B cell activated?', hint: 'clonal selection; T-independent vs T-dependent', q: 'Is the antigen a repeating (polymerized) molecule that binds many receptors at once?', opts: ['ba_ti', 'ba_td'] },
+  ba_ti: { title: 'Yes → T-independent', notes: 'm23', result: 'T-INDEPENDENT', steps: ['Strong multi-receptor binding selects the B cell on its own (slides: non-protein antigens).', 'Clonal expansion → <b>plasma cells</b> (secrete antibody) + <b>memory B cells</b>.'] },
+  ba_td: { title: 'No → T-dependent (protein antigens)', notes: 'm23', result: 'T-DEPENDENT', steps: ['Phagocyte (macrophage/dendritic cell) engulfs pathogen → antigen on <b>MHC-2</b> (APC).', 'Helper T binds: TCR → antigen, <b>CD4 → MHC-2</b>; APC\'s interleukin activates it → clones.', 'Helper T\'s interleukin attracts B cells; matching B cell binds antigen, displays it on MHC-2.', 'Helper T binds the B cell (TCR + CD4) and secretes interleukin → B cell activated → plasma + memory cells.'],
+    watch: ['Burnet\'s clonal selection (1960 Nobel): the antigen selects the B cell whose receptor already fits. Primary response lags ~1 week; secondary is fast with much more IgG.'] },
+
+  killer: { title: 'Which cell kills this target?', hint: 'cytotoxic T cell vs NK cell; MHC-1', q: 'Does the target display MHC-1?', opts: ['kl_mhc', 'kl_nomhc'] },
+  kl_mhc: { title: 'Yes', q: 'Is there a foreign antigen displayed on that MHC-1?', opts: ['kl_ctl', 'kl_safe'] },
+  kl_ctl: { title: 'Yes → cytotoxic T cell (CD8+)', notes: 'm23', result: 'CYTOTOXIC T', steps: ['TCR binds antigen; <b>CD8 binds MHC-1</b>.', 'Releases <b>perforin</b> (holes) + <b>granzyme</b> (triggers <b>apoptosis</b>).', 'Targets: virus-infected cells, cancer cells, transplanted cells.'] },
+  kl_safe: { title: 'No → left alone', notes: 'm23', result: 'SPARED', steps: ['Healthy self cell: MHC-1 binding inhibits NK cells; no foreign antigen for T cells.'] },
+  kl_nomhc: { title: 'No (or antibody-coated) → natural killer cell', notes: 'm23', result: 'NK CELL', steps: ['<b>MHC-1 receptor</b>: missing MHC-1 removes the "don\'t kill" signal — e.g., some cancer cells.', '<b>Fc receptor</b>: binds antibodies on coated parasites (antibody-dependent cytotoxicity).', 'Kills with perforin and granzymes.'],
+    watch: ['Apoptosis = tidy programmed death (blebbing; macrophages clean up; no inflammation). Necrosis = messy, inflammatory.'] },
+
+  mab: { title: 'Monoclonal antibodies & rapid tests', hint: 'hybridoma, magic bullets, T and C lines', notes: 'm23',
+    steps: ['Inject antigen into a mouse → isolate the B cell → fuse with an immortal cancer cell (ethylene glycol) → <b>hybridoma</b> makes one antibody forever (Köhler; slides add Milstein, Jerne).', 'Uses: rapid COVID, pregnancy, strep tests; cancer "magic bullets" carrying chemo; COVID treatment (Regeneron) by neutralization — <b>passive</b> immunity.', 'Rapid antigen strip: <b>T line</b> = antigen present (dyed antibody–antigen–fixed antibody sandwich). <b>C line</b> = test ran (chicken antibodies caught by rabbit antibodies). No C line = <b>invalid</b>.', 'HIV destroys <b>helper T cells (CD4+)</b> → low WBC count → AIDS.'] },
+
+  /* ---------- MOD 24 ---------- */
+  vax: { title: 'Identify a vaccine type', hint: 'attenuated, inactivated, subunit, toxoid, nucleic acid', q: 'What is injected?', opts: ['vx_whole', 'vx_sub', 'vx_tox', 'vx_na'] },
+  vx_whole: { title: 'The whole pathogen', q: 'Can it still reproduce?', opts: ['vx_att', 'vx_inact'] },
+  vx_att: { title: 'Yes, weakly → attenuated whole agent', notes: 'm24', result: 'ATTENUATED', steps: ['Closely mimics infection → strong immunity. Ex: <b>MMR</b>, <b>Sabin polio</b>.'] },
+  vx_inact: { title: 'No → inactivated whole agent', notes: 'm24', result: 'INACTIVATED', steps: ['Ex: <b>flu shot</b>, <b>rabies</b>, <b>Salk polio</b>. You can\'t get the flu from it — symptoms are your immune response.', 'Flu viruses are grown in eggs → egg-allergy question.'] },
+  vx_sub: { title: 'One antigen → subunit', notes: 'm24', result: 'SUBUNIT', steps: ['Ex: <b>hepatitis B</b>, <b>HPV</b>.'] },
+  vx_tox: { title: 'A denatured toxin → toxoid', notes: 'm24', result: 'TOXOID', steps: ['Ex: <b>tetanus</b>, <b>diphtheria</b> — most bacterial vaccines.'] },
+  vx_na: { title: 'DNA or mRNA → nucleic acid', notes: 'm24', result: 'NUCLEIC ACID', steps: ['Ex: COVID — encodes the <b>spike protein</b>; cells make and display it → B cells selected → antibodies + memory.', '<b>mRNA</b> (Pfizer, Moderna): lipid nanoparticles, ultra-cold, adjuvant via interferon, 2 doses.', '<b>DNA</b> (J&J, AstraZeneca): adenoviral vector into the nucleus, room temperature, 1 dose.'],
+    watch: ['History: Chinese inhaled scabs (1400s) → European variolation (1700s) → <b>Jenner</b> cowpox → <b>Pasteur</b> coined "vaccine" (vacca = cow), rabies vaccine.'] },
+
+  abx: { title: 'Match an antibiotic to its target', hint: 'tetracycline, penicillin, Cipro, sulfa…', q: 'What does the drug block?', opts: ['ax_prot', 'ax_wall', 'ax_na', 'ax_enz'] },
+  ax_prot: { title: 'Protein synthesis', notes: 'm24', result: 'PROTEIN SYNTHESIS', steps: ['<b>Tetracycline, streptomycin, erythromycin</b> — bacterial 70S ribosome.'] },
+  ax_wall: { title: 'Cell wall synthesis', notes: 'm24', result: 'CELL WALL', steps: ['<b>Penicillin, cephalosporin, vancomycin</b> — peptidoglycan cross-links (narrow; hits Gram-positives hardest).'] },
+  ax_na: { title: 'Nucleic acid synthesis', notes: 'm24', result: 'NUCLEIC ACID', steps: ['<b>Cipro / quinolones</b> — DNA gyrase (broad-spectrum).'] },
+  ax_enz: { title: 'Enzyme function', notes: 'm24', result: 'ENZYME', steps: ['<b>Sulfanilamide, trimethoprim</b> — folic acid pathway (broad-spectrum).'],
+    watch: ['Slides add a 5th target: cell membrane (polymyxins). Non-bacterial: Flagyl (protozoan DNA), Monistat (ergosterol), Vermox (worm sugar uptake), Tamiflu (neuraminidase), remdesivir (viral polymerase).'] },
+
+  spectrum: { title: 'Broad- or narrow-spectrum?', hint: 'when to use each', q: 'Is the pathogen identified?', opts: ['sp_narrow', 'sp_broad'] },
+  sp_narrow: { title: 'Yes → narrow-spectrum', notes: 'm24', result: 'NARROW', steps: ['Targets few bacteria (penicillin, vancomycin) → spares normal flora, fewer side effects, less resistance.'] },
+  sp_broad: { title: 'No → broad-spectrum', notes: 'm24', result: 'BROAD', steps: ['Hits many bacteria (sulfanilamide, Cipro) — e.g., walk-in clinic, unknown respiratory infection.', 'Risk: kills normal flora → <b>superinfection</b> (C. diff, Candida) and resistance. Narrow down once cultures return.'] },
+
+  resist: { title: 'History & new approaches to resistant bacteria', hint: 'Ehrlich, Fleming, phage therapy, quorum sensing', notes: 'm24',
+    steps: ['<b>Lister</b>\'s germicides were too toxic for inside the body.', '<b>Paul Ehrlich</b>: magic bullets — <b>Preparation 606 (Salvarsan)</b>, arsenic + dye → trypanosomes and syphilis; first synthetic antimicrobial.', '<b>Fleming</b>: <i>Penicillium</i> zone of inhibition → penicillin; <b>Chain & Florey</b> mass-produced it in WWII.', 'Resistance = natural selection on a short time scale.', '<b>Phage therapy</b> (d\'Hérelle): highly specific, small self-amplifying dose, self-eliminating — must know the pathogen.', '<b>Quorum sensing</b> (Bonnie Bassler; <i>Vibrio fischeri</i> on the bobtail squid): bacteria count neighbors and act together. Inhibitors block the receptors so pathogens never turn toxic.'] }
+});
+Object.keys(NODES).forEach(function (id) { (NODES[id].opts || []).forEach(function (c) { PARENT[c] = id; }); });
+
 /* ================= DRILL BANK (from the module study guides, lectures & slides) ================= */
 var FACTS = [];
 function F(m, pool, q, a, d) { FACTS.push({ id: m + '|' + q, m: m, pool: pool, q: q, a: a, d: d || null }); }
@@ -984,6 +1135,64 @@ var NOTES_HTML = `
 <section id="n-code"><h3>Codon chart (mRNA, 5′ → 3′)</h3><p class="hint">Start = AUG (Met), highlighted. Stops in red. Find the 1st base on the left, 2nd across the top, then the 3rd inside the box.</p>%%CHART%%</section>
 `;
 
+NOTES_HTML = NOTES_HTML.replace('<section id="n-code">', `
+<section id="n-m18"><h3>Module 18 — Principles of Disease I</h3><ul>
+<li><b>Pathology</b> = study of disease; <b>etiology</b> = cause; <b>pathogenesis</b> = how it develops. <b>Infection</b> = pathogen invades/grows; <b>disease</b> = health is impaired.</li>
+<li>Symbiosis: <b>mutualism</b> (+/+; <i>E. coli</i> makes vitamin K and bacteriocins), <b>commensalism</b> (+/0), <b>parasitism</b> (+/−). <b>Opportunist</b> = harmless in its usual site, harmful elsewhere (<i>E. coli</i> UTI).</li>
+<li>Normal flora: acquired during vaginal delivery; Protect by <b>microbial antagonism</b> (competition, pH, bacteriocins).</li>
+<li><b>Koch's postulates</b>: same pathogen in every case → pure culture → causes disease in healthy host → re-isolated. Exceptions: can't culture (syphilis, leprosy), many pathogens → one disease, one pathogen → many diseases.</li>
+<li><b>Symptoms</b> = subjective; <b>signs</b> = measurable; <b>syndrome</b> = group of both. Communicable vs contagious.</li>
+<li>Frequency: <b>sporadic, endemic, epidemic, pandemic</b>. <b>Incidence</b> = new cases; <b>prevalence</b> = new + existing. <b>Herd immunity</b>.</li>
+<li>Course: <b>acute, chronic, latent, subclinical</b>; <b>local vs systemic</b>; <b>primary vs secondary</b>. Bacteremia, viremia, toxemia, septicemia, sepsis.</li>
+<li>Stages: <b>incubation → prodromal → illness → decline → convalescence</b>. Finish antibiotics during convalescence.</li>
+<li>Predisposing factors: gender, genetics, age, climate, lifestyle, stress, other illness.</li>
+</ul></section>
+<section id="n-m19"><h3>Module 19 — Principles of Disease II</h3><ul>
+<li>Steps: <b>reservoir → transmission → portal of entry → adherence → avoid defenses → host damage → portal of exit</b>. Normal flora do everything except damage.</li>
+<li>Reservoirs: human, animal (<b>zoonosis</b>), non-living (water, soil, air). Transmission: <b>direct</b>, <b>indirect (fomite)</b>, <b>droplet (&lt; 1 m)</b>, <b>vehicle</b> (airborne &gt; 1 m, water, food), <b>vector</b> (mechanical vs biological).</li>
+<li>Portals: broken skin, <b>mucous membranes</b> (most common), <b>parenteral</b>.</li>
+<li><b>HAIs</b>: UTIs most common (catheter biofilms); MRSA, C. diff, <i>Pseudomonas</i>, <i>Klebsiella</i>, <i>Enterococcus</i>. Prevent with hand washing.</li>
+<li>Adherence: fimbriae, capsule/biofilm, M-protein, invasins. Avoid defenses: capsule, M-protein, invasins, <b>coagulase</b> (clot), <b>kinase</b> (dissolve clot), <b>IgA protease</b>.</li>
+<li>Damage: direct lysis, <b>siderophores</b> (iron), <b>collagenase + hyaluronidase</b> (gangrene), toxins.</li>
+<li><b>Exotoxins</b> (secreted proteins, mostly Gram +, often phage genes): Type I superantigen (toxic shock), Type II hemolysin (<i>S. pyogenes</i>), Type III A-B (botulinum). <b>Endotoxin</b> = Gram − LPS → fever, shock. (Textbook numbering of exotoxin types differs — go with the manual.)</li>
+</ul></section>
+<section id="n-m20"><h3>Module 20 — Nonspecific Defenses I</h3><ul>
+<li><b>Immunity</b> vs <b>susceptibility</b>. Innate (1st + 2nd lines, nonspecific) vs adaptive (3rd line, specific, memory).</li>
+<li>First line: intact skin, mucous membranes, <b>ciliary escalator</b>, lacrimal apparatus, flushing; sebum, <b>lysozyme</b>, saliva (IgA), sweat, gastric juice (pH ~2), vaginal secretions, urine, earwax; normal flora.</li>
+<li>Key cells: <b>neutrophils</b> (first responders), <b>mast cells</b> (histamine), <b>monocytes → macrophages</b>.</li>
+<li><b>Phagocytosis</b>: chemotaxis → adherence (TLRs, opsonins) → pseudopods → phagosome → <b>phagolysosome</b> → exocytosis.</li>
+<li><b>Inflammation</b>: histamine → vasodilation (redness, heat) → leaky vessels (swelling, pain) → diapedesis → neutrophils, then macrophages → pus, abscess, repair.</li>
+</ul></section>
+<section id="n-m21"><h3>Module 21 — Nonspecific Defenses II</h3><ul>
+<li><b>Fever</b>: pyrogenic interleukins reset the hypothalamus; helps by stressing bacterial enzymes; ~44–46 °C can be fatal.</li>
+<li><b>Cytokines</b> = small regulatory proteins (interleukins, interferons). <b>Interferon</b>: infected cell → neighbors make <b>AVPs</b> → destroy viral RNA.</li>
+<li><b>Complement</b> (~30 proteins, domino cascade): activated nonspecifically (mannose, LPS) or by antibodies. Outcomes: <b>opsonization (C3b)</b>, <b>inflammation (C3a, C5a)</b>, <b>MAC (C5b–C9)</b> → lysis.</li>
+<li>NK cells kill cells lacking MHC-1 (also covered in Mod 23).</li>
+</ul></section>
+<section id="n-m22"><h3>Module 22 — Specific Defenses I</h3><ul>
+<li>Adaptive immunity: <b>antibody-mediated</b> (B cells; extracellular) and <b>cell-mediated</b> (T cells; intracellular). B cells mature in bone marrow; T cells in thymus.</li>
+<li><b>Antigen</b> = foreign substance that triggers immunity. Antibody: 2 heavy + 2 light chains; <b>variable region</b> binds antigen; <b>constant region</b> sets class and docks on receptors.</li>
+<li>Classes: <b>IgG</b> (80% serum, crosses placenta), <b>IgM</b> (pentamer, first made; monomer = BCR), <b>IgA</b> (dimer, secretions), <b>IgE</b> (mast cells, allergy), <b>IgD</b>.</li>
+<li>Mechanisms: opsonization, agglutination, neutralization, complement activation, inflammation, antibody-dependent cytotoxicity.</li>
+<li>Primary response lags ~1 week (IgM then IgG); secondary is faster and bigger (memory cells). Immunity types: natural/artificial × active/passive.</li>
+</ul></section>
+<section id="n-m23"><h3>Module 23 — Specific Defenses II</h3><ul>
+<li><b>Clonal selection</b> (Burnet): antigen selects the B cell whose receptor fits → clonal expansion → <b>plasma cells</b> + <b>memory cells</b>. T-independent vs T-dependent activation.</li>
+<li><b>MHC-1</b> on all nucleated cells (self ID; shows internal antigens to CD8 cells). <b>MHC-2</b> on APCs (macrophages, dendritic cells, B cells) → CD4 helper T cells.</li>
+<li>T cells: <b>helper (CD4)</b> activate T and B cells via interleukins; <b>cytotoxic (CD8)</b> kill with perforin + granzyme → apoptosis.</li>
+<li><b>NK cells</b>: kill cells missing MHC-1 or coated with antibody. Apoptosis (tidy) vs necrosis (inflammatory).</li>
+<li><b>Monoclonal antibodies</b>: hybridoma (B cell + cancer cell). Rapid tests: T line = positive, C line = control. HIV destroys helper T cells → AIDS.</li>
+</ul></section>
+<section id="n-m24"><h3>Module 24 — Vaccines &amp; Antimicrobials</h3><ul>
+<li>History: variolation → <b>Jenner</b> (cowpox) → <b>Pasteur</b> ("vaccine," rabies). Vaccines = artificial active immunity.</li>
+<li>Types: <b>attenuated</b> (MMR, Sabin polio), <b>inactivated</b> (flu shot, rabies, Salk polio), <b>subunit</b> (hep B, HPV), <b>toxoid</b> (tetanus, diphtheria), <b>nucleic acid</b> (COVID mRNA: Pfizer/Moderna; DNA: J&amp;J/AstraZeneca). Adjuvants boost response.</li>
+<li><b>Ehrlich</b>: magic bullets, Salvarsan (606). <b>Fleming</b>: penicillin; <b>Chain &amp; Florey</b> mass production. <b>Selective toxicity</b> (slides).</li>
+<li>Targets: <b>cell wall</b> (penicillin, cephalosporin, vancomycin), <b>protein synthesis</b> (tetracycline, streptomycin, erythromycin), <b>nucleic acids</b> (Cipro), <b>enzymes/folic acid</b> (sulfanilamide, trimethoprim); slides add membrane (polymyxins).</li>
+<li><b>Broad vs narrow spectrum</b>; superinfection (C. diff, Candida). Resistance = natural selection. New approaches: <b>phage therapy</b>, <b>quorum-sensing inhibitors</b> (Bassler).</li>
+<li>Non-bacterial drugs: Flagyl, Monistat, Vermox, Tamiflu, remdesivir.</li>
+</ul></section>
+<section id="n-code">`);
+
 /* ================= APP: home, flowcharts, notes ================= */
 var GROUP_OF = {};
 GROUPS.forEach(function (g) { g.ids.forEach(function (id) { GROUP_OF[id] = g; }); });
@@ -1012,9 +1221,9 @@ function crumbsHTML(id) {
   return '<nav class="trail" aria-label="Your path">' + parts.join('<span class="sep">›</span>') + '</nav>';
 }
 function renderHome() {
-  var html = '<section class="hero"><p class="eyebrow">Microbiology · Modules 9–17</p><h1>What is your question asking you to do?</h1><p class="lede">Pick the kind of question. Follow the flowchart from your course materials, then check your own answer.</p></section>';
+  var html = '<section class="hero"><p class="eyebrow">Microbiology · Modules 9–24</p><h1>What is your question asking you to do?</h1><p class="lede">Pick the kind of question. Follow the flowchart from your course materials, then check your own answer.</p></section>';
   html += '<a class="drillcta sgcta" href="#/sg"><span><b>Study guide questions</b><small>Answer the numbered study-guide questions from memory, reveal the answer, grade yourself — misses come back</small></span><span class="chev">→</span></a>';
-  html += '<a class="drillcta" href="../drill/index.html"><span><b>Practice bank</b><small>1,446 scenario and direct questions (Modules 1–17), synced to your Google Sheet, misses tracked</small></span><span class="chev">→</span></a>';
+  html += '<a class="drillcta" href="../drill/index.html"><span><b>Practice bank</b><small>2,032 scenario and direct questions (Modules 1–24), synced to your Google Sheet, misses tracked</small></span><span class="chev">→</span></a>';
   html += '<div class="search"><input id="q" type="search" placeholder="Filter question types (e.g. operon, budding, tapeworm)" aria-label="Filter question types"></div>';
   GROUPS.forEach(function (g) {
     html += '<section class="group tag-' + g.tag + '"><h2>' + esc(g.name) + '</h2><div class="opts">';
@@ -1074,8 +1283,8 @@ function codonChart() {
   return h + '</tbody></table></div>';
 }
 function renderNotes(sec) {
-  app.innerHTML = '<nav class="trail"><a href="#/" class="crumb">Start</a><span class="sep">›</span><span class="crumb here">Notes sheet</span></nav><article class="card notes"><p class="eyebrow">Condensed from the Module 9–17 study guides</p><h1>Notes sheet</h1>' +
-    '<p class="chips">' + ['m9', 'm10', 'm11', 'm12', 'm13', 'm14', 'm15', 'm16', 'm17', 'code'].map(function (k) { return '<a class="chip" href="#/notes/' + k + '">' + (k === 'code' ? 'Codon chart' : 'Mod ' + k.slice(1)) + '</a>'; }).join('') + '</p>' +
+  app.innerHTML = '<nav class="trail"><a href="#/" class="crumb">Start</a><span class="sep">›</span><span class="crumb here">Notes sheet</span></nav><article class="card notes"><p class="eyebrow">Condensed from the Module 9–24 study guides</p><h1>Notes sheet</h1>' +
+    '<p class="chips">' + ['m9', 'm10', 'm11', 'm12', 'm13', 'm14', 'm15', 'm16', 'm17', 'm18', 'm19', 'm20', 'm21', 'm22', 'm23', 'm24', 'code'].map(function (k) { return '<a class="chip" href="#/notes/' + k + '">' + (k === 'code' ? 'Codon chart' : 'Mod ' + k.slice(1)) + '</a>'; }).join('') + '</p>' +
     NOTES_HTML.replace('%%CHART%%', codonChart()) + '</article>';
   if (sec) { var el = document.getElementById('n-' + sec); if (el) { el.classList.add('flash'); setTimeout(function () { el.scrollIntoView({ block: 'start' }); }, 0); } }
 }
@@ -1085,8 +1294,8 @@ var LS = {
   get: function (k, d) { try { var v = localStorage.getItem('microdrill_' + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
   set: function (k, v) { try { localStorage.setItem('microdrill_' + k, JSON.stringify(v)); } catch (e) { } }
 };
-var MODS = [9, 10, 11, 12, 13, 14, 15, 16, 17];
-var MOD_NAME = { 9: 'Protists', 10: 'Fungi', 11: 'Helminths', 12: 'Bacterial genetics I', 13: 'Bacterial genetics II', 14: 'Bacterial genetics III', 15: 'Viruses I', 16: 'Viruses II', 17: 'Viruses III' };
+var MODS = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24];
+var MOD_NAME = { 9: 'Protists', 10: 'Fungi', 11: 'Helminths', 12: 'Bacterial genetics I', 13: 'Bacterial genetics II', 14: 'Bacterial genetics III', 15: 'Viruses I', 16: 'Viruses II', 17: 'Viruses III', 18: 'Principles of disease I', 19: 'Principles of disease II', 20: 'Nonspecific defenses I', 21: 'Nonspecific defenses II', 22: 'Specific defenses I', 23: 'Specific defenses II', 24: 'Vaccines & antimicrobials' };
 var TERM_POOL = /^m\d+t$/;
 var GEN_KINDS = { comp: 'Complementary DNA strand', mrna: 'Template → mRNA', codon: 'Codon → amino acid', anti: 'Codon → anticodon', pct: 'Base percentages', mut: 'Name the mutation' };
 var FACT_BY_ID = {}; FACTS.forEach(function (f) { FACT_BY_ID[f.id] = f; });
@@ -1229,7 +1438,7 @@ function renderDrillSetup() {
   var S = DRILL.set, mc = savedMisses().length, best = LS.get('best', 0);
   var cnt = function (m) { return FACTS.filter(function (f) { return f.m === m; }).length; };
   var html = '<nav class="trail"><a href="#/" class="crumb">Start</a><span class="sep">›</span><span class="crumb here">Drill</span></nav>';
-  html += '<section class="hero"><p class="eyebrow">Memorize</p><h1>Drill Modules 9–17</h1><p class="lede">Quick-fire questions. Anything you miss comes back a few questions later and stays on your miss list until you get it right.' + (best ? ' Best streak: <b>' + best + '</b>.' : '') + '</p></section>';
+  html += '<section class="hero"><p class="eyebrow">Memorize</p><h1>Drill Modules 9–24</h1><p class="lede">Quick-fire questions. Anything you miss comes back a few questions later and stays on your miss list until you get it right.' + (best ? ' Best streak: <b>' + best + '</b>.' : '') + '</p></section>';
   html += '<div class="drillgrid">';
   html += '<section class="card dcard tag-virus"><h2>Modules</h2><div class="navrow small"><button type="button" class="btn small" id="allM">All</button><button type="button" class="btn small" id="noneM">None</button></div><div class="togs">' + MODS.map(function (m) { return tog('m_' + m, 'Module ' + m + ' — ' + MOD_NAME[m], S.mods[m], cnt(m) + ' questions'); }).join('') + '</div></section>';
   html += '<section class="card dcard tag-gene"><h2>Sequence &amp; problem practice</h2><p class="hint">Freshly generated every time — works the skills, not memory.</p><div class="togs">' + Object.keys(GEN_KINDS).map(function (k) { return tog('g_' + k, GEN_KINDS[k], S.gens[k]); }).join('') + tog('weightSeq', 'Show these more often', S.weightSeq, 'doubles how often a problem comes up') + '</div></section>';
@@ -3096,6 +3305,1449 @@ var SG = [
 }
 ];
 
+SG.push.apply(SG, [
+{
+"m": 18,
+"n": 1,
+"q": "What is pathology? Etiology? Pathogenesis?",
+"a": [
+"<b>Pathology</b> = the <b>study of disease</b> (pathos = suffering, logos = science). It has two subdisciplines:",
+"<b>Etiology</b> = the study of the <b>cause</b> of a disease. Ex: the cause of <b>syphilis</b> is <b><i>Treponema pallidum</i></b>. Non-infectious diseases (diabetes, cystic fibrosis) have etiologies too.",
+"<b>Pathogenesis</b> = the <b>manner in which a disease develops</b> — transmission, how it affects the body, signs and symptoms, how long it lasts."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 2,
+"q": "What is disease? Infection? How do they differ?",
+"a": [
+"<b>Disease</b> = a <b>change in the body away from a state of health</b> (away from homeostasis). Ex: <b>AIDS</b>.",
+"<b>Infection</b> = the <b>growth of microorganisms in/on the body</b>. Ex: <b>HIV</b> — infection with HIV can lead to the disease AIDS, so the two terms are not interchangeable.",
+"Not every disease is infectious (diabetes, cystic fibrosis). Infectious disease is the <b>leading cause of death in the world</b> but the <b>4th</b> in the US."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 3,
+"q": "What are three types of symbiosis? How do they differ from each other?",
+"a": [
+"<b>Symbiosis</b> = the living together of two different organisms. The human microbiome can exceed <b>1,000 species</b>.",
+"<b>Mutualism (+/+)</b>: microbe and host both benefit. Ex: <b><i>E. coli</i></b> in the colon (makes most of our <b>vitamin K</b>, inhibits <i>Salmonella</i>).",
+"<b>Commensalism (+/0)</b>: microbe benefits, host is unaffected. Ex: <b><i>Candida albicans</i></b> on the skin.",
+"<b>Parasitism (+/−)</b>: microbe benefits, host is harmed (may die). Ex: <b><i>Vibrio cholerae</i></b> → cholera."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 4,
+"q": "What are resident microbiota (normal flora)?",
+"a": [
+"The <b>mutualistic and commensal microorganisms living in/on the body at all times</b>.",
+"Three big players: <b><i>Lactobacillus acidophilus</i></b>, <b><i>Staphylococcus epidermidis</i></b>, and <b><i>Escherichia coli</i></b>.",
+"Slides: we carry ~30 trillion microbial cells (roughly 1:1 with our own cells); residents include bacteria, archaea, fungi, protozoa, and viruses."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 5,
+"q": "How does the diversity of resident microbiota influence human health?",
+"a": [
+"<b>The more diverse the microbiome, the healthier you are likely to be</b> — more species of normal flora means less room for pathogens (more microbial antagonism).",
+"Lecture: a family's <b>last child</b> usually has the most diverse microbiome (parents are less overprotective and exposure is greater).",
+"Slides: loss of balance (<b>dysbiosis</b>) is linked to many conditions (allergies, asthma, obesity, IBD, and more)."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 6,
+"q": "What is microbial antagonism? What are 3 common examples in humans?",
+"a": [
+"<b>Microbial antagonism</b> = normal flora <b>inhibiting the growth of other microbes, preventing infection by pathogens</b>.",
+"<b>Outcompete</b>: <b><i>S. epidermidis</i></b> covers the skin, leaving no space or nutrients for <b><i>S. aureus</i></b>.",
+"<b>Change the environment</b>: <b><i>Lactobacillus acidophilus</i></b> makes acid, dropping vaginal pH to ~4–5 → <b><i>Candida albicans</i></b> can't grow (antibiotics that kill Lactobacillus → yeast infection).",
+"<b>Secrete bacteriocins</b>: <b><i>E. coli</i></b> releases bacteriocins that inhibit <b><i>Salmonella</i></b> and <b><i>Shigella</i></b> in the intestines."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 7,
+"q": "How are normal flora acquired (3 examples)?",
+"a": [
+"The fetus starts <b>sterile</b> in the amniotic sac.",
+"<b><i>Lactobacillus acidophilus</i></b> → <b>vaginal delivery</b> (mother's Lactobacillus population surges just before birth).",
+"<b><i>Staphylococcus epidermidis</i></b> → <b>nursing and handling</b> (skin-to-skin contact). <i>S. aureus</i> comes along too → baby acne until <i>S. epidermidis</i> outcompetes it.",
+"<b><i>E. coli</i></b> → <b>contaminated food and objects</b> put in the mouth. Newborns lack it, so they get a <b>vitamin K injection</b>.",
+"Slides: breast milk is a second wave (probiotics + prebiotics); the microbiome nears stability around <b>age 2</b>."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 8,
+"q": "What are opportunistic pathogens? Examples?",
+"a": [
+"Microbes that are <b>harmless in their normal bodily location but cause disease when introduced into other locations</b> (or when host defenses are compromised — slides).",
+"<b><i>E. coli</i></b>: harmless in the colon → <b>UTI</b> or wound infection elsewhere.",
+"<b><i>S. aureus</i></b>: commensal on unbroken skin → wound infection through burns/cuts/surgery; also UTIs.",
+"The two main causes of UTIs: <b>E. coli (Gram-negative UTIs)</b> and <b>S. aureus (Gram-positive UTIs)</b>. Females are at higher risk (short distance anus → urethra, short urethra) — wipe <b>front to back</b>.",
+"Contrast: <b>true pathogens</b> cause disease in healthy people with working immune systems (slides)."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 9,
+"q": "What are Koch's postulates? What are some limitations to Koch's postulates?",
+"a": [
+"<b>Robert Koch</b>'s procedure for finding the <b>etiological cause</b> of an infectious disease:",
+"1. Start with a <b>diseased</b> organism and <b>isolate</b> its microbes.",
+"2. Grow and identify each in <b>pure culture</b> (drove pure culturing and differential stains — Gram, endospore, capsule).",
+"3. <b>Inject</b> each pure culture into a <b>healthy</b> organism until one <b>recreates the disease</b>.",
+"4. <b>Re-isolate</b> that microbe, grow it in pure culture, and <b>re-identify</b> it.",
+"<b>Limitations:</b> some diseases have <b>multiple causes</b> (sinusitis, UTI); some microbes <b>can't be pure-cultured</b>; <b>ethical concerns</b> for human-only pathogens (Koch's postulates have never been completed for HIV → AIDS). Slides also list human-specific pathogens and pathogens that cause different disease states.",
+"Workaround: <b>Barry Marshall</b> (with Robin Warren) <b>drank <i>H. pylori</b></i> and gave himself ulcers."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 10,
+"q": "What are symptoms? Signs? Examples?",
+"a": [
+"<b>Sign</b> = an <b>objective</b> change that an observer can <b>see or measure</b>: fever, blood pressure, spots/rash.",
+"<b>Symptom</b> = a <b>subjective</b> change <b>felt by the patient</b>: pain, tiredness, achiness, malaise, headache. (\"Rate your pain 1–10.\")"
+],
+"x": false
+},
+{
+"m": 18,
+"n": 11,
+"q": "What is a communicable disease? Contagious? Non-communicable?",
+"a": [
+"<b>Communicable</b> = can be <b>spread from one host to another</b>. Ex: flu.",
+"<b>Contagious</b> = <b>easily spread</b> from one host to another. Ex: <b>measles</b> (slides: pox diseases, influenza, COVID, TB, MRSA). All contagious diseases are communicable, but not all communicable diseases are contagious.",
+"<b>Non-communicable</b> = <b>not transmitted</b> between hosts. All non-infectious diseases (diabetes, cancer, heart disease) are non-communicable; some infectious ones are too — <b>tetanus</b> (slides add Lyme disease)."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 12,
+"q": "How does incidence differ from prevalence?",
+"a": [
+"<b>Incidence</b> = <b>new cases</b> during a time period (indicator of <b>spread</b>). Ex: US AIDS incidence 2014 ≈ <b>37,600</b>.",
+"<b>Prevalence</b> = <b>all cases (new + existing)</b> at a given time (indicator of <b>burden</b>). Ex: US AIDS prevalence 2014 ≈ <b>1.1 million</b>.",
+"Marble jar: incidence = marbles coming in; deaths and cures take marbles out; prevalence = marbles in the jar."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 13,
+"q": "How do sporadic, endemic, epidemic, and pandemics differ from each other?",
+"a": [
+"<b>Sporadic</b>: occurs <b>occasionally</b> (outbreaks). Ex: <b>cholera</b> after flooding.",
+"<b>Endemic</b>: <b>constantly present</b> in a population. Ex: <b>common cold</b>.",
+"<b>Epidemic</b>: acquired by <b>many hosts in a given area in a short time</b>. Ex: a <b>flu</b> epidemic.",
+"<b>Pandemic</b>: a <b>worldwide epidemic</b>. Ex: <b>1918 Spanish flu</b>, <b>AIDS</b>."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 14,
+"q": "What is herd immunity? Why is it important?",
+"a": [
+"<b>Immunity in most of a population</b>, bolstered by <b>vaccination</b>.",
+"When most people are immune, the pathogen can't spread, so even unvaccinated people are protected. Falling vaccination rates → rising <b>measles</b> incidence."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 15,
+"q": "How do acute, chronic, and latent infections differ from each other?",
+"a": [
+"<b>Acute</b>: symptoms develop <b>rapidly</b> but last a <b>short</b> time. Ex: <b>food poisoning</b>.",
+"<b>Chronic</b>: develops <b>slowly</b>, continues or recurs for <b>long periods</b>. Ex: <b>tuberculosis</b> (alveoli scar over time).",
+"<b>Latent</b>: the pathogen <b>stays in the host for long periods without producing disease</b>, then can reactivate. Ex: <b>herpes fever blisters</b> (provirus)."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 16,
+"q": "How do local and systemic infections differ?",
+"a": [
+"<b>Local</b>: pathogens <b>limited to a small area</b>. Ex: <b>abscess</b> (boil, pimple, abscessed tooth); slides add fungal skin infections and warts.",
+"<b>Systemic</b>: infection <b>throughout the body</b> — the microbe or its toxins spread, usually by blood or lymph. Ex: <b>measles</b> (spots everywhere); slides add chickenpox, typhoid fever, syphilis."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 17,
+"q": "What are subclinical (asymptomatic) infections?",
+"a": [
+"An infection that <b>does not cause a noticeable illness</b> — infected, but no signs or symptoms. Ex: <b>hepatitis A</b>."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 18,
+"q": "What are carriers [of disease]?",
+"a": [
+"Not covered in the lecture or slides — from <b>textbook Ch. 16</b>:",
+"A <b>carrier</b> can <b>transmit a pathogen without showing symptoms</b>.",
+"<b>Passive carrier</b>: contaminated but <b>not infected</b>; spreads it mechanically (e.g., a health-care worker who doesn't wash hands).",
+"<b>Active carrier</b>: <b>infected</b> and can transmit (during incubation or convalescence). <b>Asymptomatic carriers</b> never show signs — ex: <b>Typhoid Mary</b> (Mary Mallon, <i>Salmonella typhi</i>)."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 19,
+"q": "What is bacteremia? Toxemia? Sepsis?",
+"a": [
+"<b>Bacteremia</b> = <b>bacteria in the blood</b> (blood should be sterile).",
+"<b>Toxemia</b> = <b>toxins in the blood</b> (the bacteria may stay in one spot).",
+"<b>Sepsis</b> = an <b>acute, extreme (hypersensitive) immune reaction</b> to pathogens or toxins in the blood/tissues → can cause <b>septic shock</b> (blood pressure drop) or very high fever.",
+"Slides add: <b>septicemia</b> = pathogens multiplying in blood (\"blood poisoning\"); <b>viremia</b> = viruses in the blood."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 20,
+"q": "What are primary and secondary infections?",
+"a": [
+"<b>Primary</b>: an <b>acute infection that causes the initial illness</b>. Ex: <b>sinusitis</b>.",
+"<b>Secondary</b>: caused by an <b>opportunistic microbe after the primary infection weakens host defenses</b>. Ex: sinus drainage carries <b><i>S. pneumoniae</i></b> from the upper to the lower respiratory tract → <b>pneumonia</b>."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 21,
+"q": "What are predisposing factors? Examples?",
+"a": [
+"<b>Anything that makes the body more susceptible to disease or alters its course</b>.",
+"<b>Sex/gender</b>: females → more UTIs. <b>Age</b>: elderly → pneumonia.",
+"Slides add: climate, surgery/transplants, vaccination status, chemotherapy/immunosuppressive drugs, genetic defects, AIDS, cancer, diabetes, other infections, poor hygiene/nutrition, alcohol/drugs, smoking, pregnancy, physical and mental stress."
+],
+"x": false
+},
+{
+"m": 18,
+"n": 22,
+"q": "What are the five stages of infectious disease? What is happening during each?",
+"a": [
+"Like a growth curve inside the body (number of microbes vs time):",
+"1. <b>Incubation period</b>: microbes slowly increasing; <b>no signs or symptoms</b>.",
+"2. <b>Prodromal period</b>: numbers rising; <b>mild signs/symptoms</b> (\"I'm coming down with something\").",
+"3. <b>Period of illness</b>: exponential growth; <b>most severe</b> signs and symptoms (fever, vomiting, mucus). Death may occur at the peak.",
+"4. <b>Period of decline</b>: immune system or antibiotics reduce microbe numbers; signs and symptoms subside.",
+"5. <b>Period of convalescence</b>: <b>no signs or symptoms</b>, but microbes aren't gone yet → <b>finish the whole antibiotic course</b>, or the most resistant survivors start the next infection."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 1,
+"q": "Refresher: What is pathogenesis?",
+"a": [
+"The <b>manner in which a disease develops</b> — the second branch of pathology (etiology is the first)."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 2,
+"q": "Refresher: What stages are associated with the development of an infection?",
+"a": [
+"It takes a \"perfect storm\" to put you on the disease curve:",
+"<b>Reservoir → transmission → portal of entry → adherence → avoid host defenses → host damage → portal of exit.</b>",
+"Disease curve stages (Module 18): incubation → prodromal → illness → decline → convalescence."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 3,
+"q": "What is a reservoir of infection? Three kinds of reservoirs?",
+"a": [
+"A <b>continual source of infection</b> — a place where the pathogen is already <b>abundant</b>.",
+"<b>Human</b> (a sick person), <b>animal</b> (zoonoses), and <b>non-living</b> (water, soil, air)."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 4,
+"q": "What are zoonoses? Examples? What are examples of non-living reservoirs?",
+"a": [
+"<b>Zoonosis</b> = a disease that moves <b>from an animal to a human</b>. Ex: <b>rabies</b> (reservoirs: bats, skunks, foxes, dogs, raccoons).",
+"<b>Non-living reservoirs</b>: contaminated <b>water, soil, air</b>."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 5,
+"q": "How do direct contact, indirect contact, and droplet transmission differ?",
+"a": [
+"<b>Direct contact</b>: reservoir touches host — handshake, kissing, intercourse, <b>patient care</b>.",
+"<b>Indirect contact</b>: a non-living <b>fomite</b> is the middleman — doorknob, cell phone, toys, medical equipment.",
+"<b>Droplet</b>: sneeze, cough, talking, laughter within <b>less than 1 meter</b>. Beyond 1 m it counts as airborne (vehicle)."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 6,
+"q": "What is a fomite? Examples?",
+"a": [
+"A <b>non-living object</b> that carries pathogens between hosts in <b>indirect contact</b>: doorknobs, cell phones, daycare <b>toys</b>, <b>medical equipment</b>."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 7,
+"q": "What is vehicle transmission? Examples?",
+"a": [
+"Transmission by something <b>non-living that moves</b> the pathogen:",
+"<b>Waterborne</b> (contaminated well/creek; farm sewage downstream), <b>foodborne</b> (contaminated food shipped far away), <b>airborne</b> (&gt; 1 meter).",
+"Exposure to <b>laboratory specimens</b> (blood, urine) is also counted as vehicle transmission."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 8,
+"q": "What is vector transmission (name and distinguish between 2 types)?",
+"a": [
+"A <b>living arthropod</b> carries the pathogen (vs a non-living vehicle).",
+"<b>Mechanical vector</b>: carries pathogens <b>on its body parts</b>. Ex: <b>housefly</b>.",
+"<b>Biological vector</b>: the pathogen <b>reproduces inside</b> the vector. Ex: <b>Anopheles mosquito</b> → <i>Plasmodium</i> (malaria)."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 9,
+"q": "What are the 3 primary portals of entry? Which is most commonly used?",
+"a": [
+"<b>Broken skin</b> (unbroken skin is one of our best defenses).",
+"<b>Mucous membranes</b> — the <b>most common</b> portal; they line surfaces that exchange materials with the outside (digestive and respiratory tracts) → why respiratory infections are so common.",
+"<b>Parenteral route</b>: something <b>plunges through intact skin</b> — injection, stab wound, rusty nail, bite or sting."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 10,
+"q": "What are HAIs? Why are healthcare facilities sources of infection?",
+"a": [
+"<b>Healthcare-associated infections</b> (formerly <b>nosocomial</b>): infections a patient <b>acquires at a healthcare facility</b> — hospitals, clinics, dental offices, nursing homes, PT facilities. About <b>15%</b> of patients get one, and the number is rising.",
+"Why: <b>many reservoirs</b> (sick patients), <b>many invasive procedures</b> (catheters, surgery, dressing changes) = transmission opportunities, and <b>many compromised hosts</b> (predisposing factors like immunosuppressive drugs, burns)."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 11,
+"q": "What are some organisms commonly associated with HAIs?",
+"a": [
+"Most common HAIs: <b>UTIs</b> and <b>surgical-site infections</b>.",
+"<b><i>Staphylococcus aureus</i></b> — the \"problem child,\" especially <b>MRSA</b> (methicillin-resistant, multidrug-resistant).",
+"Also <b><i>C. difficile</i></b>, <b><i>Pseudomonas aeruginosa</i></b> (the big problem in the 1980s), <b><i>Klebsiella pneumoniae</i></b>, and <b><i>Enterococcus</i></b>."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 12,
+"q": "What precautions can help to prevent HAIs?",
+"a": [
+"<b>Hand washing</b> (most effective) — between patients and procedures.",
+"<b>PPE</b> — gloves, masks, gowns.",
+"<b>Aseptic technique</b> — culturing, specimen handling, wound dressing.",
+"<b>Isolation</b> (quarantine) — keep compromised hosts away from reservoirs (burn ward away from infectious patients; sick vs well side of the waiting room).",
+"<b>Education</b> — the plain name \"healthcare-associated infection\" helps public awareness."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 13,
+"q": "Why must organisms adhere to host tissues to cause disease? How do they adhere (discuss 3 bacterial structures that allow for adherence)?",
+"a": [
+"To avoid being <b>washed away</b> by sneezing, coughing, urination, defecation, vomiting (why UTI patients are told to drink fluids).",
+"Usually a <b>binding event</b>: a pathogen molecule binds a <b>receptor</b> on the host cell.",
+"<b>Fimbriae</b>: polymerized protein hairs → <b><i>E. coli</i></b> on bladder cells.",
+"<b>Capsule</b>: sticky carbohydrate coat → biofilms; <b><i>Streptococcus mutans</i></b> on teeth.",
+"<b>M-protein</b>: tiny protein hairs → <b><i>Streptococcus pyogenes</i></b> in the throat.",
+"<b>Invasins</b>: let bacteria <b>enter</b> host cells → <b><i>Salmonella typhimurium</i></b> (can't be washed away from inside a cell)."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 14,
+"q": "What are biofilms? Examples? Why are biofilms relevant to healthcare & HAIs?",
+"a": [
+"A <b>thin layer of life</b> — many bacteria adhering to a surface, often using a <b>capsule</b>.",
+"Examples: <b><i>S. mutans</i></b> on teeth, <b>contact lenses</b>, <b>catheters</b>.",
+"Catheters left in too long grow biofilms → the main culprit behind <b>UTIs, the most common HAI</b>."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 15,
+"q": "What are M-proteins? Example?",
+"a": [
+"Very <b>short protein hairs</b> (smaller than fimbriae) that <b>bind host receptors</b> for adherence and also <b>inhibit phagocytosis</b>. Ex: <b><i>Streptococcus pyogenes</i></b> (strep throat)."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 16,
+"q": "How do pathogens avoid host defenses?",
+"a": [
+"They must avoid defenses such as <b>phagocytosis</b> (white blood cells eating them) and <b>antibodies</b> (proteins that mark them for disposal).",
+"Tools: <b>capsule</b>, <b>M-protein</b>, <b>invasins</b>, <b>coagulase</b>, <b>kinase</b>, <b>IgA protease</b>."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 17,
+"q": "How do capsules and M-proteins contribute to avoiding host defenses?",
+"a": [
+"Both <b>inhibit phagocytosis</b> — the white blood cell can't grab the slippery cell (\"greased pig\").",
+"Capsule ex: <b><i>Streptococcus pneumoniae</i></b> — <b>encapsulated strains cause pneumonia</b>; strains without a capsule are fairly harmless.",
+"M-protein ex: <b><i>Streptococcus pyogenes</i></b>."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 18,
+"q": "What are invasins and IgA proteases? How does each contribute to avoiding host defenses?",
+"a": [
+"<b>Invasins</b>: secreted substances that let bacteria <b>move through the host cell membrane into the cell</b> → hidden from phagocytes and antibodies. Ex: <b><i>Salmonella typhimurium</i></b>.",
+"<b>IgA protease</b>: an <b>enzyme that destroys IgA antibodies</b>, which are most abundant in <b>mucus/mucous membranes</b>. Ex: <b><i>Streptococcus pneumoniae</i></b>; the gonorrhea bacterium also needs it."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 19,
+"q": "What do coagulase and kinase enzymes do? How do they contribute to avoiding host defenses? Examples?",
+"a": [
+"<b>Coagulase</b> <b>clots blood</b> → the pathogen walls itself inside a clot so white blood cells can't get in. Ex: <b><i>S. aureus</i></b> (coagulase-positive; MRSA infections).",
+"<b>Kinase</b> <b>digests clotted blood</b> → when white blood cells trap the infection inside a clot, the pathogen dissolves it and escapes. Ex: <b><i>S. pyogenes</i></b> (kinase-positive)."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 20,
+"q": "How does direct cell lysis harm a host?",
+"a": [
+"Bacteria that use <b>invasins</b> enter host cells, <b>multiply by binary fission inside</b>, and the host cell <b>lyses</b> (bursts) and dies, releasing the bacteria. Ex: <b><i>Salmonella typhimurium</i></b> → severe GI disease.",
+"Host damage is what separates pathogens from normal flora (which go through all the other steps too)."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 21,
+"q": "What are siderophores? How do they harm a host?",
+"a": [
+"Substances that <b>bind host nutrients — usually iron — very strongly</b>, leaching it out of red blood cells and other cells.",
+"RBCs lose oxygen-carrying ability; enzymes lose their iron <b>cofactors</b>. Ex: <b><i>Yersinia pestis</i></b> (the Plague)."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 22,
+"q": "How do collagenase and hyaluronidase damage host tissue?",
+"a": [
+"They <b>digest collagen</b> and <b>hyaluronic acid</b>, the extracellular matrix of <b>connective tissue</b> — including the connective tissue of blood vessels feeding the area → tissue dies (necrosis) → <b>gangrene</b>.",
+"Ex: <b><i>Clostridium perfringens</i></b> (common cause of gangrene; Civil War wounds; diabetic feet)."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 23,
+"q": "Who discovered bacterial exotoxins? How?",
+"a": [
+"<b>Émile Roux</b> (Pasteur's lab) — <b>diphtheria toxin</b>.",
+"Diphtheria bacteria stay in the throat yet cause body-wide effects → he suspected a toxin. He <b>filtered a broth culture</b> and injected the cell-free <b>filtrate into guinea pigs</b>.",
+"At 24–48 h of culture nothing happened; after letting the culture grow <b>~2 weeks</b>, tiny doses killed the guinea pigs (their livers are poor at removing toxins)."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 24,
+"q": "What are other names for Type I, Type II, and Type III exotoxins? How does each damage a host? Examples?",
+"a": [
+"<b>Exotoxins</b> = <b>protein</b> toxins <b>secreted</b> mostly by <b>Gram-positive</b> bacteria; often from <b>lysogenic conversion</b> (prophage genes).",
+"<b>Type I = superantigens</b>: cause an <b>excessive immune response</b> (very high fever, shock, vomiting, diarrhea). Ex: <b><i>S. aureus</i></b> → <b>toxic shock syndrome</b>.",
+"<b>Type II = hemolysins</b>: <b>lyse red blood cells</b> (often to get nutrients). Ex: <b><i>S. pyogenes</i></b>.",
+"<b>Type III = A-B toxins</b>: <b>B</b> subunit <b>binds</b> (and may enter) the host cell; <b>A</b> (active) subunit is toxic — <b>inhibits protein synthesis</b> or acts as a <b>neurotoxin</b>. Ex: <b><i>Clostridium botulinum</i></b> → botulism (blocks neuron→muscle signals → paralysis); <b>Botox</b> (wrinkles, migraines, excess sweating)."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 25,
+"q": "What are endotoxins? What kind of microorganisms are associated with them? How do endotoxins damage a host?",
+"a": [
+"Toxic substances that are <b>part of the cell wall of Gram-negative bacteria</b> — not secreted.",
+"Ex: <b>lipopolysaccharide (LPS)</b> in the outer leaflet of the outer membrane.",
+"Released when the bacterium <b>dies and breaks apart</b>; in blood/tissues they trigger an <b>excessive immune response</b> (fever, blood-pressure drop/shock, vomiting) — similar to superantigens."
+],
+"x": false
+},
+{
+"m": 19,
+"n": 26,
+"q": "How do portals of exit relate to portals of entry? Why is awareness of both kinds of portals important medically?",
+"a": [
+"The exit portal is <b>usually the same as the portal of entry</b> (with exceptions).",
+"Once the pathogen exits, the host has become a <b>reservoir</b> and the cycle begins again — knowing the portals tells you how to block transmission."
+],
+"x": false
+},
+{
+"m": 20,
+"n": 1,
+"q": "Who discovered phagocytes and phagocytosis? How?",
+"a": [
+"<b>Élie (Eli) Metchnikoff</b>. Combining Pasteur/Koch's <b>germ theory</b> with Darwin's <b>evolution</b>, he reasoned that if microbes evolve to cause disease, hosts must evolve defenses.",
+"He poked bacteria into <b>transparent starfish larvae</b> with a <b>rose thorn</b> and watched cells crawl over and <b>eat</b> the bacteria → named them <b>phagocytes</b> (eating cells) and the process <b>phagocytosis</b>. <b>Nobel Prize 1908</b>.",
+"Critics first thought the cells were parasitic <b>amoebas</b>. He also founded the idea of <b>probiotics</b> (buttermilk / <i>Lactobacillus acidophilus</i> in a long-lived Italian dairy village)."
+],
+"x": false
+},
+{
+"m": 20,
+"n": 2,
+"q": "What distinguishes innate from adaptive defenses? Which is nonspecific (define)? Specific (define)?",
+"a": [
+"<b>Innate = nonspecific</b>: <b>inborn</b> (present from birth), <b>does not target a specific antigen</b>, rapid, and <b>does not improve</b> with repeated exposure. Ex: <b>fever</b>.",
+"<b>Adaptive (acquired) = specific</b>: develops through life, <b>targets a specific antigen</b>, slower, and <b>improves with each exposure</b> (memory). Only <b>vertebrates</b> have it.",
+"<b>Antigen</b> = a foreign substance (e.g., on a pathogen's surface) that triggers an immune reaction."
+],
+"x": false
+},
+{
+"m": 20,
+"n": 3,
+"q": "What are first-, second-, and third-line defenses? Provide examples for each and indicate which are nonspecific and/or specific.",
+"a": [
+"<b>First line (innate, nonspecific)</b>: <b>physical barriers</b> (skin, mucous membranes, ciliary escalator, lacrimal apparatus), <b>chemical/antimicrobial substances</b> (sebum, lysozyme, gastric juice…), and <b>resident microbiota</b>.",
+"<b>Second line (mostly innate, nonspecific)</b>: <b>inflammation, phagocytosis, fever, complement, natural killer cells</b> (plus interferon and other cytokines).",
+"<b>Third line (adaptive, specific)</b>: <b>antibody-mediated</b> (B cells, extracellular pathogens) and <b>cell-mediated</b> (T cells, intracellular pathogens) immunity — where <b>memory</b> lives."
+],
+"x": false
+},
+{
+"m": 20,
+"n": 4,
+"q": "What physical barriers are involved with immunity? Which is the best, most effective and protective physical barrier? What defensive features are associated with it? How do each of these features protect the host?",
+"a": [
+"Physical barriers: <b>intact skin, mucous membranes (mucus), ciliary escalator, lacrimal apparatus</b>.",
+"<b>Intact skin</b> is the <b>best</b> barrier — the main reason you aren't sick right now.",
+"<b>Dry</b> → too little moisture for bacteria. <b>Salty</b> (sweat evaporates, leaving salt) → most bacteria can't tolerate it. <b>Acidic</b> (pH ~3–5 from fatty acids in <b>sebum</b>) → denatures enzymes. <b>Constant shedding (exfoliation)</b> carries microbes away. <b>Normal flora</b> (<b><i>S. epidermidis</i></b>) outcompetes pathogens like <i>S. aureus</i>."
+],
+"x": false
+},
+{
+"m": 20,
+"n": 5,
+"q": "Where are mucous membranes located? How does mucus provide protection?",
+"a": [
+"They line surfaces that <b>exchange materials with the outside</b>: <b>respiratory, digestive, urinary, and reproductive tracts</b> (and eyes — slides).",
+"<b>Goblet cells</b> secrete <b>sticky mucus</b> that <b>traps</b> microbes; the mucosa also hosts normal flora (<b><i>L. acidophilus</i></b>).",
+"The mucus is flushed by <b>sneezing, coughing, vomiting, diarrhea, urination</b>, and the <b>ciliary escalator</b>."
+],
+"x": false
+},
+{
+"m": 20,
+"n": 6,
+"q": "What is the ciliary escalator and how does it contribute to defense?",
+"a": [
+"<b>Cilia</b> on cells lining the respiratory tract beat like a car-wash brush, moving mucus and trapped microbes/debris at about <b>1–3 cm per hour</b> <b>up the trachea</b> to the throat → swallowed → destroyed by <b>stomach acid</b>.",
+"<b>Smoking destroys</b> it → <b>smoker's cough</b> (coughing is the only way left to clear mucus). Slides: <i>Bordetella pertussis</i> (whooping cough) toxin destroys it too."
+],
+"x": false
+},
+{
+"m": 20,
+"n": 7,
+"q": "How do resident microbiota (normal flora) protect body surfaces from infection? Where is S. epidermidis located and what defensive role does it play? Where is L. acidophilus located and what are its defensive roles?",
+"a": [
+"Through <b>microbial antagonism</b>: competing for nutrients, occupying space, and creating unfavorable conditions (acids, antimicrobial compounds).",
+"<b><i>S. epidermidis</i></b> — on the <b>skin</b>; <b>outcompetes <i>S. aureus</b></i> (more <i>S. epidermidis</i> = fewer staph infections).",
+"<b><i>L. acidophilus</i></b> — in the <b>digestive and reproductive (vaginal)</b> mucous membranes; makes <b>acid</b> (vaginal pH 3–5) → inhibits <b><i>Candida albicans</i></b>; antibiotics that kill it → yeast infection."
+],
+"x": false
+},
+{
+"m": 20,
+"n": 8,
+"q": "Which 8 fluids protect body surfaces? Identify chemicals associated with each. How does each chemical affect microorganisms? How does washing action contribute to defense (examples)?",
+"a": [
+"<b>Sebum</b> (sebaceous glands): <b>fatty acids</b> → skin pH <b>3–5</b> (denatures enzymes); also lubricates skin so it doesn't crack into a portal of entry.",
+"<b>Lysozyme</b> (in saliva, sweat, <b>tears</b>, urine): <b>digests peptidoglycan</b> (mainly Gram-positive cell walls).",
+"<b>Saliva</b>: lysozyme + <b>IgA antibodies</b>, pH ~<b>6.5</b>.",
+"<b>Sweat</b>: lysozyme + <b>salt</b> (salty residue when it dries).",
+"<b>Gastric juice</b>: <b>HCl</b>, pH ~<b>2</b> (slides 2–3) — like battery acid; destroys most microbes.",
+"<b>Vaginal secretions</b>: <b>lactic acid</b> from <i>L. acidophilus</i>, pH <b>3–5</b>.",
+"<b>Urine</b>: lysozyme, pH ~<b>6</b>; its flow flushes the urinary tract.",
+"<b>Earwax</b>: <b>sebum/fatty acids</b>, pH ~<b>3–5</b>.",
+"(Tears — via the lacrimal apparatus — also carry lysozyme.) <b>Washing action</b>: tears + blinking (\"windshield wipers\"), urination, sneezing, coughing, vomiting, and diarrhea physically flush microbes away."
+],
+"x": false
+},
+{
+"m": 20,
+"n": 9,
+"q": "What causes inflammation?",
+"a": [
+"<b>Tissue damage</b> — either <b>directly</b> (e.g., a blade punctures skin and introduces microbes) or <b>indirectly</b> in response to infection (toxins, lysed cells).",
+"Damaged <b>mast cells</b> release <b>histamine</b>, which triggers the inflammatory response. (Histamine can also be released in response to <b>complement</b> and <b>antibodies</b>.)"
+],
+"x": false
+},
+{
+"m": 20,
+"n": 10,
+"q": "What are the functions of mast cells and histamine in inflammation?",
+"a": [
+"<b>Mast cells</b> — \"mall cops\" scattered through tissues — hold <b>vesicles full of histamine</b> and release it when tissue is damaged, sounding the alarm.",
+"<b>Histamine</b> is a <b>vasodilator</b>: vessels widen → more blood flow (<b>redness, heat</b>) and <b>lower blood pressure</b>; widened vessels become <b>leaky</b> → fluid accumulates (<b>swelling, pain</b>) and <b>WBCs crawl out</b> (diapedesis) to the site."
+],
+"x": false
+},
+{
+"m": 20,
+"n": 11,
+"q": "What are neutrophils? Monocytes? Macrophages?",
+"a": [
+"<b>Neutrophils</b>: <b>first responders</b>; begin <b>phagocytosis immediately</b> and eat so much they <b>die</b> (most common WBC — slides).",
+"<b>Monocytes</b>: arrive and <b>differentiate into macrophages</b> (or dendritic cells — slides).",
+"<b>Macrophages</b> (\"big eaters\"): eat more bacteria than neutrophils <b>without dying</b> because they <b>digest and exocytose the waste</b>; eventually also clean up pus. Slides: they also present antigens and secrete signaling compounds."
+],
+"x": false
+},
+{
+"m": 20,
+"n": 12,
+"q": "What are the steps in phagocytosis? What is happening at each step?",
+"a": [
+"1. <b>Recognition/adherence</b>: <b>Toll-like receptors</b> on the macrophage bind common foreign molecules (e.g., the sugar <b>mannose</b>, <b>LPS</b>) — still nonspecific. (Slides start with <b>chemotaxis</b> — chemical signals attract the phagocyte.)",
+"2. <b>Ingestion</b>: <b>pseudopods</b> wrap around the microbe and join → <b>phagosome</b> (vesicle holding the bacterium).",
+"3. <b>Digestion</b>: a <b>lysosome</b> (hydrolytic enzymes) fuses with the phagosome → <b>phagolysosome</b>; the bacterium is hydrolyzed into waste.",
+"4. <b>Elimination</b>: the waste is released by <b>exocytosis</b>."
+],
+"x": false
+},
+{
+"m": 20,
+"n": 13,
+"q": "How do some pathogens avoid phagocytosis? Relate this back to module 19: \"How do pathogens avoid host defenses?\"",
+"a": [
+"<b>Capsule</b> (<i>S. pneumoniae</i>) and <b>M-protein</b> (<i>S. pyogenes</i>) <b>inhibit phagocytosis</b> — the cell is hard to grab.",
+"<b>Invasins</b> (<i>Salmonella</i>) hide the pathogen <b>inside host cells</b>.",
+"<b>Coagulase</b> (<i>S. aureus</i>) walls the infection off in a clot; <b>kinase</b> (<i>S. pyogenes</i>) dissolves the host's clot to escape.",
+"<b>IgA protease</b> destroys antibodies in mucus (not phagocytosis itself, but another host defense)."
+],
+"x": false
+},
+{
+"m": 20,
+"n": 14,
+"q": "What are the four signs and symptoms of inflammation? Why does each occur during an inflammatory response? What protective roles can clotting play in response to cell damage?",
+"a": [
+"<b>Redness</b> and <b>heat</b> — vasodilation brings more blood (carrying body heat).",
+"<b>Swelling</b> — dilated vessels become <b>leaky</b>, so fluid leaks into the tissue.",
+"<b>Pain</b> — the swelling causes pain.",
+"<b>Clotting</b>: blood in the area clots to <b>wall in the infection</b> and contain it, forming an <b>abscess</b>; later a <b>scab</b> forms a barrier while tissue heals."
+],
+"x": false
+},
+{
+"m": 20,
+"n": 15,
+"q": "What is pus? An abscess? What is responsible for clearing them away during the healing process?",
+"a": [
+"<b>Pus</b> = <b>dead neutrophils, phagocytic waste products, and tissue fluids</b>.",
+"<b>Abscess</b> = a walled-off (clotted) collection of the infection and pus at the inflamed site (pimple, boil).",
+"<b>Macrophages</b> engulf the pus and debris; the abscess scabs over and heals — small ones leave no trace; large ones (boils) may fill in with <b>scar tissue</b>."
+],
+"x": false
+},
+{
+"m": 21,
+"n": 1,
+"q": "What is the complement system?",
+"a": [
+"A group of <b>blood serum proteins</b> (slides: 30+) that circulate in an <b>inactive</b> state and can be <b>activated</b> to defend against pathogens.",
+"Activation is a <b>cascade</b> — like dominoes: activating one protein (often by <b>splitting</b> it, e.g., <b>C3 → C3a + C3b</b>) activates the next.",
+"Mostly a <b>nonspecific</b> (second-line) defense, but it <b>bridges</b> nonspecific and specific immunity because antibodies can trigger it too."
+],
+"x": false
+},
+{
+"m": 21,
+"n": 2,
+"q": "What can activate the complement system (three things)?",
+"a": [
+"<b>Mannose</b> and <b>lipopolysaccharide (LPS)</b> — common microbial molecules → <b>nonspecific</b> triggers.",
+"<b>Antibodies</b> → a <b>specific</b> trigger."
+],
+"x": false
+},
+{
+"m": 21,
+"n": 3,
+"q": "What three things happen when complement is activated?",
+"a": [
+"<b>Opsonization</b> — coating microbes to enhance phagocytosis.",
+"<b>Inflammation</b> — triggering mast cells to release histamine.",
+"<b>Membrane attack complex (MAC)</b> — punching pores that <b>lyse</b> the microbe (cytolysis)."
+],
+"x": false
+},
+{
+"m": 21,
+"n": 4,
+"q": "What is mannose? Where is it found?",
+"a": [
+"A very <b>common sugar on the surface of bacteria</b> (many species), so recognizing it is <b>nonspecific</b>. It can trigger complement and is recognized by <b>Toll-like receptors</b> on macrophages (Module 20)."
+],
+"x": false
+},
+{
+"m": 21,
+"n": 5,
+"q": "What is endotoxin (lipopolysaccharide, or LPS)? Where is it found?",
+"a": [
+"<b>LPS</b> = a lipid + sugar-chain molecule in the <b>outer membrane (outer leaflet) of Gram-negative bacteria</b> — the classic <b>endotoxin</b> (Module 19). Released when Gram-negative cells die; causes excessive immune responses.",
+"Because many bacteria have it, it is a <b>nonspecific</b> complement trigger."
+],
+"x": false
+},
+{
+"m": 21,
+"n": 6,
+"q": "What is opsonization? How does complement activation lead to opsonization?",
+"a": [
+"<b>Opsonization</b> = <b>coating a microbe to mark it for disposal and enhance phagocytosis</b> (opsonize = \"to cater/prepare for eating\").",
+"Activated <b>C3 splits into C3a and C3b</b>; <b>C3b coats the bacteria</b>. Macrophages have <b>C3b receptors</b>, which help them grab the microbe and wrap pseudopods around it."
+],
+"x": false
+},
+{
+"m": 21,
+"n": 7,
+"q": "How does activated complement trigger inflammation?",
+"a": [
+"<b>C3b</b> activates (splits) <b>C5 → C5a + C5b</b>.",
+"<b>C3a and C5a bind receptors on mast cells</b> → mast cells <b>release histamine</b> → inflammation (vasodilation, leaky vessels, redness, heat, swelling, pain, WBCs arrive).",
+"Same outcome as Module 20 — just a different trigger (complement instead of tissue damage)."
+],
+"x": false
+},
+{
+"m": 21,
+"n": 8,
+"q": "What is the MAC (membrane attack complex)? What does it do?",
+"a": [
+"<b>C5b</b> activates <b>C6</b>, which recruits <b>C7, C8, and C9</b>; together they <b>insert into the bacterial membrane</b>, and <b>C9 forms a ring-shaped pore (channel)</b>.",
+"Several pores → the bacterium <b>lyses</b> (bursts) = <b>cytolysis</b>."
+],
+"x": false
+},
+{
+"m": 21,
+"n": 9,
+"q": "What are cytokines? List several examples.",
+"a": [
+"<b>Small proteins released by host cells that regulate the immune response</b> — like little hormones controlling immune cells.",
+"Examples: <b>interleukins</b> (\"between the whites\" — released by WBCs; some are <b>pyrogens</b>) and <b>interferons</b> (antiviral). Slides: hundreds exist — pro-inflammatory, anti-inflammatory, vasodilators/constrictors, growth factors."
+],
+"x": false
+},
+{
+"m": 21,
+"n": 10,
+"q": "What chemicals generate a fever and what kind of cytokines are they?",
+"a": [
+"<b>Pyrogens</b> (\"fire generators\") — some <b>interleukins</b> act as pyrogenic <b>cytokines</b>.",
+"Slides: <b>endogenous</b> pyrogens come from within the body; some pathogens make <b>exogenous</b> pyrogens."
+],
+"x": false
+},
+{
+"m": 21,
+"n": 11,
+"q": "How is a fever generated? How does a fever defend against disease?",
+"a": [
+"Pyrogenic interleukins reach the <b>hypothalamus</b> and <b>reset the body's thermostat</b> higher.",
+"Human and bacterial enzymes both peak near <b>37 °C</b>, but <b>bacterial enzyme activity falls off more steeply</b> — a <b>low-grade fever</b> denatures bacterial enzymes while ours still work.",
+"A <b>high fever (~44–46 °C)</b> is potentially fatal because our enzymes denature too — so don't rush to eliminate a mild fever.",
+"Slides add: fever limits nutrient access for bacteria and boosts host metabolism and immune reactions."
+],
+"x": false
+},
+{
+"m": 21,
+"n": 12,
+"q": "How does interferon defend against disease?",
+"a": [
+"A <b>nonspecific antiviral cytokine</b> produced and secreted by <b>virus-infected cells</b>.",
+"1. A virus infects a cell and starts making new viruses. 2. The infected cell makes and <b>secretes interferon</b>. 3. Interferon <b>binds receptors on neighboring cells</b>, which make <b>antiviral proteins (AVPs)</b>. 4. When released viruses enter those cells and make viral RNA, <b>AVPs destroy the RNA</b> → no successful infection.",
+"It is a <b>local</b> response; interferon can also <b>stimulate natural killer cells</b>."
+],
+"x": false
+},
+{
+"m": 21,
+"n": 13,
+"q": "Does interferon protect the cell that makes it (explain)?",
+"a": [
+"<b>No</b> — the infected cell's fate is sealed (it will likely lyse). Interferon <b>warns and protects neighboring cells</b>."
+],
+"x": false
+},
+{
+"m": 21,
+"n": 14,
+"q": "Why does interferon used to treat disease cause harmful side effects?",
+"a": [
+"<b>AVPs destroy RNA in general</b>, not just viral RNA — so cells making AVPs shut down their own protein production.",
+"<b>Injected</b> interferon is spread <b>everywhere by the circulatory system</b>, so cells all over the body make AVPs → significant side effects. Local delivery would be better."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 1,
+"q": "Who discovered humoral immunity? How?",
+"a": [
+"<b>Emil von Behring</b> (Koch's lab), following up on Roux's diphtheria toxin work.",
+"A guinea pig unexpectedly <b>survived diphtheria toxin</b>. He <b>transferred its blood</b> to another guinea pig, which was <b>also immune</b> → something in the <b>blood</b> gave immunity (lasting only ~<b>3 weeks</b> in the second animal).",
+"He called it <b>humoral immunity</b> (blood was one of the four humors) and found the factor: <b>antibodies</b>. <b>Nobel Prize 1901</b>."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 2,
+"q": "What are antibodies (immunoglobulins; IG)?",
+"a": [
+"<b>Large glycoproteins that bind specific antigens</b>; also called <b>immunoglobulins (Ig)</b> (globular immune proteins).",
+"Produced by <b>B cells (B lymphocytes)</b>; half-life about <b>3 weeks</b> once released."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 3,
+"q": "What is the structure of an antibody? Constant and variable regions?",
+"a": [
+"A <b>Y-shaped</b>, <b>bilaterally symmetrical</b> molecule of <b>four polypeptide chains</b> — <b>2 heavy + 2 light</b> — held together by <b>disulfide bonds</b>.",
+"<b>Constant region (Fc)</b>: amino acid sequence the <b>same within a class</b> — the stem and part of the arms.",
+"<b>Variable region (V)</b>: at the <b>tips of the arms</b>; differs between antibodies and forms the <b>antigen-binding sites</b> (two identical sites per antibody)."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 4,
+"q": "Do constant or variable regions determine an antibody's class?",
+"a": [
+"The <b>constant region</b> determines the class (IgG, IgM, IgA, IgD, IgE).",
+"Immune cells have <b>receptors for the constant region</b> — like a universal <b>USB port / wall outlet</b> that fits any antibody of that class regardless of what it recognizes."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 5,
+"q": "What is the function of an antibody's variable regions?",
+"a": [
+"They form the <b>unique antigen-binding site</b> — a <b>lock-and-key fit</b> with one specific antigen shape. This is where <b>specificity/recognition</b> happens."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 6,
+"q": "What are antigens? How do they interact with antibodies?",
+"a": [
+"<b>Antigen</b> = a <b>foreign substance</b> (often on a pathogen's surface) that <b>binds an antibody and may elicit an immune response</b>. Antigen ≠ pathogen: one bacterium can carry many different antigens.",
+"Each antibody binds only its matching antigen shape in its variable region; with <b>two binding sites</b>, one antibody can bind <b>two antigens at once</b>.",
+"Slides: name = <b>ANTI</b>body <b>GEN</b>erator; most are proteins, lipoproteins, glycoproteins, nucleoproteins, or polysaccharides/LPS."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 7,
+"q": "How do antibodies perform opsonization, agglutination, neutralization, complement activation, inflammation, and antibody-mediated cytotoxicity?",
+"a": [
+"<b>Opsonization</b>: antibodies coat <b>specific</b> pathogens; phagocytes' <b>constant-region receptors</b> grab them for phagocytosis.",
+"<b>Agglutination</b>: two binding sites <b>cross-link pathogens into clumps</b> → a phagocyte engulfs many at once (raking leaves into a pile).",
+"<b>Neutralization</b>: antibodies <b>block attachment sites</b> so pathogens (or <b>toxins</b>, e.g., snake venom) can't bind host cells — solves the problem immediately.",
+"<b>Complement activation</b>: <b>adjacent antibodies</b> bound to antigen activate complement <b>specifically</b> → opsonization, inflammation, MAC.",
+"<b>Inflammation</b>: antigen binds <b>antibodies (IgE) anchored on mast cells</b> → histamine release.",
+"<b>Antibody-dependent cytotoxicity</b>: antibodies coat large foreign cells (fungi, <b>parasitic worms</b>); <b>eosinophils</b> or <b>NK cells</b> bind the antibodies and release chemicals (perforins, granzymes — slides) that destroy the target.",
+"These mechanisms happen <b>at the same time</b> — they aren't mutually exclusive."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 8,
+"q": "How does each class function? (indicate which are monomers, dimers, pentamers) IgG, IgM, IgA, IgD, IgE",
+"a": [
+"<b>IgG — monomer</b>: <b>most abundant (~80% of serum antibodies)</b>; works by most mechanisms <b>except triggering mast cells</b>; <b>crosses the placenta</b>.",
+"<b>IgM — pentamer</b> when secreted: <b>first antibody made</b> after exposure; great at <b>agglutination</b>. Its <b>monomer</b> form sits on the B cell as the <b>B cell receptor</b>.",
+"<b>IgA — dimer</b>: abundant in <b>mucus, saliva, and breast milk</b>; works mainly by <b>neutralization</b>.",
+"<b>IgD — monomer</b>: few made; sometimes on B cell surfaces; <b>function unclear</b>.",
+"<b>IgE — monomer</b>: on the surface of <b>mast cells</b> (mast cells have IgE-specific receptors) → triggers <b>histamine</b>/inflammation; involved in <b>hypersensitivities (allergies)</b>."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 9,
+"q": "Which class of antibody is most abundant in blood serum? Why is the antibody above important during pregnancy?",
+"a": [
+"<b>IgG</b> (~80%).",
+"It <b>crosses the placenta</b>, giving the fetus the mother's antibodies (<b>natural passive immunity</b>)."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 10,
+"q": "Which class is abundant in mucus? How can it be shared by a mother with her newborn?",
+"a": [
+"<b>IgA</b> (dimer) — mucus, saliva, breast milk.",
+"Through <b>breast milk</b> after birth (once the umbilical cord is cut and IgG transfer ends)."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 11,
+"q": "Who discovered clonal selection?",
+"a": [
+"<b>Frank Macfarlane Burnet</b> (1950s), inspired by his hero <b>Charles Darwin</b> (natural selection; Galápagos finch beaks). <b>Nobel Prize 1960</b>."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 12,
+"q": "How does clonal selection occur?",
+"a": [
+"<b>Stem cells</b> in the <b>bone marrow</b> give rise to <b>billions of B cells</b>, each with its <b>own unique B cell receptor</b> (like finches with different beaks).",
+"An <b>antigen</b> arrives and binds the <b>one B cell whose receptor fits</b> → that B cell is <b>selected</b>.",
+"The selected B cell <b>clones itself</b> (clonal expansion) into two \"armies\": <b>plasma cells</b> and <b>memory B cells</b>.",
+"Slides: protein antigens require <b>helper T cells</b> to activate B cells (T-dependent); non-protein antigens can activate B cells directly (T-independent) — see Module 23."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 13,
+"q": "What selects an immune cell to clone?",
+"a": [
+"The <b>antigen</b> — specifically, the antigen <b>binding to a matching B cell receptor</b>."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 14,
+"q": "What are B cells and B cell receptors?",
+"a": [
+"<b>B cells</b> = <b>lymphocytes</b> (white blood cells) that <b>mature in the bone marrow</b> and make antibodies.",
+"<b>B cell receptors</b> = <b>membrane-bound antibodies (IgM monomers)</b> on the B cell surface; all have the <b>same binding site</b>, \"advertising\" (like a floor model) the one antibody that B cell can make."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 15,
+"q": "What are plasma cells and what are their functions?",
+"a": [
+"Cloned B cells that <b>secrete massive quantities of antibodies</b> (lots of <b>rough ER</b>) with the <b>same binding site</b> as the selected B cell. They <b>lack B cell receptors</b> — they don't need to recognize anything."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 16,
+"q": "What are memory B cells and what are their functions?",
+"a": [
+"Cloned B cells that <b>keep B cell receptors</b>, <b>don't secrete antibodies now</b>, and <b>remain in circulation</b> to make the response <b>faster and stronger on a secondary exposure</b> (\"millions of needles in the haystack\")."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 17,
+"q": "How do primary and secondary responses differ? (consider drawing a graph)",
+"a": [
+"Graph: <b>antibody titer</b> (concentration) vs time.",
+"<b>Primary (initial) exposure</b>: a <b>lag of ~a week</b> while the right B cell is found and cloned → you likely get sick. <b>IgM rises first</b>, then <b>IgG</b> (higher), then titers fall (half-life).",
+"<b>Secondary exposure</b>: <b>memory cells</b> respond <b>immediately</b>; IgM about the same, but <b>IgG is much higher and stays high longer</b> → usually no disease. This is <b>active immunity</b>."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 18,
+"q": "What is meant by natural immunity and artificial immunity? Provide examples.",
+"a": [
+"<b>Natural</b>: exposure through everyday life — <b>natural active</b> (getting infected and making your own antibodies) or <b>natural passive</b> (<b>IgG across the placenta</b>, <b>IgA in breast milk</b>).",
+"<b>Artificial</b>: exposure by medical means — <b>artificial active</b> (<b>vaccine</b> = injected antigens) or <b>artificial passive</b> (<b>injected preformed antibodies</b>: <b>antivenom</b>, COVID <b>monoclonal antibodies</b>)."
+],
+"x": false
+},
+{
+"m": 22,
+"n": 19,
+"q": "What is meant by active immunity and passive immunity?",
+"a": [
+"<b>Active</b>: <b>your own B cells</b> recognize the antigen and make <b>plasma and memory cells</b> → <b>long-lasting</b> (\"permanent\").",
+"<b>Passive</b>: you <b>receive preformed antibodies</b>; your B cells aren't selected, so there's <b>no memory</b> → <b>temporary</b> (lasts as long as the antibodies, ~3-week half-life) — but <b>immediate</b>."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 1,
+"q": "How does T-cell independent B-cell activation differ from T-cell dependent B-cell activation?",
+"a": [
+"<b>T-independent</b>: a <b>polymerized (repeating) antigen</b> binds <b>many B cell receptors at once</b>, giving a signal strong enough to <b>select the B cell on its own</b> — no T cells needed. Slides: typical of <b>non-protein antigens</b> (polysaccharides, lipids).",
+"<b>T-dependent</b>: the B cell binds the antigen but is <b>not activated</b> until a <b>helper T cell confirms</b> the antigen and releases <b>interleukin</b>. Slides: needed for <b>protein antigens</b>."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 2,
+"q": "What are helper T cells? T cell receptors?",
+"a": [
+"<b>T cells</b> mature in the <b>thymus</b>. <b>Helper T cells</b> (<b>CD4+</b>) <b>help activate B cells</b> (and macrophages) by recognizing presented antigens and secreting <b>interleukins</b>.",
+"<b>T cell receptor</b>: a surface recognition protein with <b>one antigen-binding site</b> (lock and key) — <b>not an antibody</b> and <b>never secreted</b>."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 3,
+"q": "What occurs during T-cell dependent B-cell activation?",
+"a": [
+"1. A <b>phagocyte</b> (macrophage or dendritic cell) <b>engulfs a pathogen</b> and displays <b>antigen fragments on MHC-2</b> → it is now an <b>antigen-presenting cell (APC)</b>.",
+"2. The matching <b>helper T cell</b> binds: <b>T cell receptor → antigen</b> and <b>CD4 → MHC-2</b> (double binding).",
+"3. The APC secretes <b>interleukin</b> → the helper T cell is <b>activated</b> and clones itself.",
+"4. The helper T cell secretes <b>interleukin to attract B cells</b>.",
+"5. A matching <b>B cell binds the antigen but isn't activated</b>; it <b>displays the antigen on its own MHC-2</b>.",
+"6. The helper T cell binds that display (TCR + CD4) and secretes <b>interleukin</b> → the <b>B cell is activated</b> → clonal expansion into <b>plasma and memory cells</b>."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 4,
+"q": "What do antigen presenting cells do?",
+"a": [
+"They <b>engulf/digest pathogens and display antigen fragments on MHC-2</b> so <b>helper T cells</b> can inspect them and confirm they are foreign; they also <b>secrete interleukin</b> to activate the helper T cell."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 5,
+"q": "What kinds of cells act as antigen presenting cells (APCs)?",
+"a": [
+"<b>Macrophages</b>, <b>dendritic cells</b>, and <b>B cells</b> (all display antigen with MHC-2)."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 6,
+"q": "What roles are played by MHC-2 and CD4?",
+"a": [
+"<b>MHC-2</b> = the <b>\"display stand\" used by immune cells</b> (APCs, B cells) to present antigen fragments.",
+"<b>CD4</b> on <b>helper T cells</b> binds <b>MHC-2</b>, while the T cell receptor binds the antigen — a <b>double-binding check</b>."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 7,
+"q": "What kinds of cells have surface MHC-2?",
+"a": [
+"<b>Immune cells that present antigens</b>: <b>macrophages, dendritic cells, and B cells</b>."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 8,
+"q": "What kinds of cells have surface CD4?",
+"a": [
+"<b>Helper T cells</b> (CD4+ cells)."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 9,
+"q": "How do interleukins contribute to specific defense?",
+"a": [
+"They are <b>cytokine signals between white blood cells</b>: the <b>APC's interleukin activates the helper T cell</b>; the <b>helper T cell's interleukin attracts B cells</b> and then <b>activates the selected B cell</b>. (Some interleukins are also pyrogens — Module 21.)"
+],
+"x": false
+},
+{
+"m": 23,
+"n": 10,
+"q": "Why are multi-cell interactions and T cell double-binding necessary during adaptive immune responses?",
+"a": [
+"They act as <b>multiple confirmations</b> that an antigen is truly <b>foreign</b> before launching a response — the phagocyte, helper T cell, and B cell must all agree.",
+"Double binding (<b>TCR + CD4/MHC-2</b> or <b>TCR + CD8/MHC-1</b>) makes sure each T cell talks only to the right kind of cell: <b>cytotoxic T cells can't kill immune cells</b> that display antigens on MHC-2. When this recognition system fails, <b>autoimmune diseases</b> can arise."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 11,
+"q": "What are cytotoxic T cells? What do they do?",
+"a": [
+"<b>CD8+ T cells</b> (\"killer T cells\") that <b>destroy your own cells that have gone bad</b> — <b>virus-infected cells</b>, <b>cancer cells</b>, and foreign cells such as <b>transplanted tissue</b> (slides).",
+"They bind a foreign antigen displayed on <b>MHC-1</b> and secrete <b>perforin and granzyme</b>, inducing <b>apoptosis</b> — sacrificing the cell before it releases new viruses."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 12,
+"q": "What roles are played by MHC-1 and CD8?",
+"a": [
+"<b>MHC-1</b> = the display stand used by <b>regular body cells</b> to show what they're making (e.g., <b>viral antigens</b>) — a marker of <b>self</b>.",
+"<b>CD8</b> on cytotoxic T cells binds <b>MHC-1</b> (it <b>can't bind MHC-2</b>) while the TCR binds the antigen."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 13,
+"q": "What kinds of cells have surface MHC-1?",
+"a": [
+"<b>All nucleated body cells</b> (slides) — regular host cells like skin, liver, heart, and intestinal cells."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 14,
+"q": "What kinds of cells have surface CD8?",
+"a": [
+"<b>Cytotoxic T cells</b> (CD8+ cells)."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 15,
+"q": "What are perforin and granzymes? What do they do? What cells make them?",
+"a": [
+"<b>Perforin</b> <b>perforates</b> (punches holes in) the target cell's membrane; <b>granzymes</b> enter through the holes, go to the nucleus, and <b>trigger apoptosis</b> (slides: they destroy the cell's proteins).",
+"Made by <b>cytotoxic T cells</b> and <b>natural killer cells</b>."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 16,
+"q": "What is apoptosis? What role does it play in defense against disease?",
+"a": [
+"<b>Pre-programmed cell death</b>: the <b>genome is degraded</b>, the membrane <b>bulges (blebbing)</b>, and the cell <b>signals macrophages</b> to clean up its debris.",
+"Because the mess is cleaned up quickly, there is <b>no inflammatory response</b> — unlike <b>necrosis</b> (messy death from injury/infection that triggers inflammation).",
+"In defense, it destroys infected or cancerous cells <b>before</b> they release viruses or keep dividing."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 17,
+"q": "How do the roles of MHC-1 and MHC-2 differ?",
+"a": [
+"<b>MHC-1</b>: on <b>all nucleated body cells</b>; shows antigens from <b>inside</b> the cell (e.g., viral) to <b>cytotoxic T cells (CD8)</b> → can lead to the cell's destruction.",
+"<b>MHC-2</b>: on <b>immune cells</b> (macrophages, dendritic cells, B cells); presents antigens from <b>engulfed</b> pathogens to <b>helper T cells (CD4)</b> → leads to activation, not destruction."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 18,
+"q": "What are two things Natural Killer cells (NK cells) do? How?",
+"a": [
+"<b>Destroy parasites</b> (and other antibody-coated cells): <b>Fc receptors</b> bind antibodies' <b>constant region</b> on the target → NK cells release lytic chemicals (antibody-dependent cytotoxicity).",
+"<b>Destroy damaged host cells that lack MHC-1</b> — e.g., <b>cancer cells</b> that stop making MHC-1. They kill with <b>perforin and granzymes</b>."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 19,
+"q": "What types of receptors are located on NK cells and how do they work?",
+"a": [
+"<b>Fc receptor</b>: binds the <b>constant (Fc) region of antibodies</b> stuck to a target — NK cells recognize antigens <b>indirectly</b> (\"specific-ish\").",
+"<b>MHC-1 receptor</b>: binding MHC-1 <b>inhibits</b> the NK cell (it's a healthy self cell); a cell <b>missing MHC-1</b> is attacked."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 20,
+"q": "Which white blood cells are HIV's main host cells? What does this mean for HIV infected individuals?",
+"a": [
+"<b>Helper T cells (CD4+)</b>.",
+"HIV destroys the very cells that <b>activate B cells and coordinate defenses</b> → <b>low WBC count</b> and weakened immunity (<b>AIDS</b>), leaving patients vulnerable to other infections."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 21,
+"q": "What are monoclonal antibodies? How are they produced?",
+"a": [
+"<b>Large quantities of identical antibodies with the exact same binding site</b>.",
+"Inject an <b>antigen into an animal</b> (mouse) → isolate a <b>B cell</b> making the desired antibody → <b>fuse it with an immortal cancer (myeloma) cell</b> using <b>ethylene glycol</b> → a <b>hybridoma</b> that divides indefinitely and keeps secreting the antibody (\"golden goose\").",
+"Developed in the late <b>1970s</b> by <b>Georges Köhler</b> (with César Milstein and Niels Jerne, per the module slides)."
+],
+"x": false
+},
+{
+"m": 23,
+"n": 22,
+"q": "How are monoclonal antibodies used medically?",
+"a": [
+"<b>Diagnostic tests</b>: <b>rapid antigen tests</b> (COVID), <b>pregnancy tests</b>, <b>rapid strep tests</b>. In a COVID strip: dyed monoclonals bind antigen → antigen–antibody–antibody \"sandwich\" at the <b>test (T) line</b>; chicken antibodies bind rabbit antibodies at the <b>control (C) line</b>. No C line = <b>invalid</b>.",
+"<b>Treatments</b>: <b>cancer \"magic bullets\"</b> (antibodies carrying chemotherapy straight to tumor cells); COVID monoclonals (e.g., <b>Regeneron</b>) that <b>neutralize</b> the spike protein so it can't bind <b>ACE2</b>.",
+"Monoclonal treatment is <b>passive immunity</b> — temporary and doesn't create memory, unlike a vaccine."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 1,
+"q": "What kind of pathogen caused smallpox?",
+"a": [
+"A <b>virus</b> (variola — the root of \"variolation\"); it killed many millions through history."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 2,
+"q": "What were the Chinese doing by the early 1400's to prevent smallpox?",
+"a": [
+"Taking a <b>scab from a smallpox patient</b> — a \"Goldilocks\" scab, not too moist or too dry — and having a healthy person <b>inhale</b> it. It didn't always work but lowered the chance of getting smallpox."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 3,
+"q": "What were Europeans doing by the early 1700's to prevent smallpox?",
+"a": [
+"<b>Variolation</b>: placing <b>smallpox scabs directly beneath the skin</b> through a small cut (parenteral route) — a small dose of virus meant to cause immunity without full disease. Risk: you could give the person smallpox."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 4,
+"q": "How did Jenner develop a smallpox vaccine? How was Jenner's approach different from earlier approaches?",
+"a": [
+"<b>Edward Jenner</b> (variolated himself as a child) noticed <b>milkmaids who caught cowpox rarely got smallpox</b>.",
+"He placed <b>cowpox scabs beneath the skin</b> (tested on children) → immunity to smallpox.",
+"Difference: he used a <b>related, much milder virus (cowpox)</b> instead of smallpox itself, so it was far <b>safer</b>.",
+"<b>Vaccine</b> comes from Latin <b><i>vacca</i> (cow)</b>; the word was coined later by <b>Louis Pasteur</b>, who made other vaccines (famously <b>rabies</b>)."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 5,
+"q": "What are five different types of vaccines? How do they differ from one another?",
+"a": [
+"Goal of all vaccines: <b>artificially expose you to an antigen</b> so B cells are selected → <b>plasma cells, memory cells, and a titer in advance</b> (artificial active immunity); a real exposure then acts like a <b>secondary</b> one.",
+"<b>Attenuated whole agent</b>: whole pathogen, <b>weakened</b> but still able to reproduce a little → mimics infection closely. Ex: <b>MMR</b>, <b>Sabin polio</b>.",
+"<b>Inactivated whole agent</b>: whole pathogen that <b>can't reproduce</b>. Ex: <b>rabies</b>, <b>influenza (flu shot)</b>, <b>Salk polio</b>. (You can't get the flu from the shot; symptoms are your immune response.)",
+"<b>Subunit</b>: just <b>one antigen</b> (e.g., a surface protein). Ex: <b>hepatitis B</b>, <b>HPV</b>.",
+"<b>Toxoid</b>: a <b>denatured bacterial toxin</b>. Ex: <b>tetanus</b>, <b>diphtheria</b> (most bacterial vaccines are toxoids).",
+"<b>Nucleic acid</b>: <b>DNA or mRNA</b> encoding an antigen; your cells make it. Ex: <b>COVID</b>.",
+"Viruses for some vaccines (flu) are grown in <b>eggs</b> → you're asked about egg allergies (cell culture is a costlier alternative)."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 6,
+"q": "How do mRNA COVID vaccines work?",
+"a": [
+"<b>Lipid nanoparticles</b> (phospholipid bubbles) carrying <b>mRNA for the spike protein</b> are injected → they <b>fuse with host cells</b> (ideally immune cells like dendritic cells/macrophages) and release the mRNA.",
+"<b>Ribosomes translate</b> it into spike protein → fragments loaded on <b>MHC-2</b> → the cell acts as an <b>APC</b> → a matching <b>B cell</b> (with helper T cell help) is selected → <b>plasma cells</b> (anti-spike antibodies that <b>neutralize</b> the virus's binding to <b>ACE2</b>) and <b>memory cells</b>.",
+"<b>mRNA (Pfizer, Moderna)</b>: stored <b>ultra-cold</b> (RNA is unstable); mRNA also acts as an <b>adjuvant</b> boosting response via <b>interferon</b>; <b>two doses</b> (~2 weeks apart → higher titer); second dose can bring stronger side effects (cytokines).",
+"<b>DNA (Johnson &amp; Johnson, AstraZeneca)</b>: <b>room-temperature</b> stable; DNA carried into the <b>nucleus</b> by an <b>inactivated adenoviral vector</b>, transcribed to mRNA; <b>single dose</b> — better for remote areas worldwide."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 7,
+"q": "Who pioneered development of synthetic antimicrobial medications?",
+"a": [
+"<b>Paul Ehrlich</b> — fascinated by <b>stains/dyes</b>; saw a dye travel to specific spots in a rabbit and imagined <b>\"magic bullets\"</b> (a toxic drug attached to a stain that targets a pathogen).",
+"Background: <b>Lister's germicides</b> sterilized surfaces but were far too toxic to put inside the body."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 8,
+"q": "How did Preparation 606 (\"Salvarsan\") work?",
+"a": [
+"<b>Arsenic attached to a dye</b> — the dye carried the toxic arsenic to the target pathogen (a magic bullet). Hundreds of versions failed before <b>#606</b> worked.",
+"It was the <b>first synthetic antimicrobial drug</b> (first magic bullet). Some patients were allergic and died, which haunted Ehrlich, though it saved far more."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 9,
+"q": "What was Preparation 606 (\"Salvarsan\") used to treat?",
+"a": [
+"<b>Trypanosomes</b> (protozoa → <b>sleeping sickness</b>) and then <b>syphilis</b> (<b><i>Treponema pallidum</i></b>, a spirochete bacterium) — Ehrlich thought they looked similar under the microscope."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 10,
+"q": "Who discovered penicillin? How?",
+"a": [
+"<b>Alexander Fleming</b> (inspired by Ehrlich): returning from vacation, he found a <b>staphylococcal plate contaminated with <i>Penicillium</i> mold</b> and a <b>zone of inhibition</b> around it → the mold released a bacteria-killing substance → <b>penicillin</b>.",
+"Promising in mice, but he was <b>denied funding</b>. During <b>WWII</b>, <b>Ernst Chain and Howard Florey</b> revived and mass-produced it; all three shared the <b>Nobel Prize</b> (story: <i>The Mold in Dr. Florey's Coat</i>)."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 11,
+"q": "What do the major types of antibiotics target and how do they function?",
+"a": [
+"<b>Inhibit nucleic acid synthesis</b>: <b>Cipro / quinolones</b> (block DNA gyrase).",
+"<b>Inhibit protein synthesis</b>: <b>tetracycline, streptomycin, erythromycin</b> — target the bacterial <b>70S ribosome</b>.",
+"<b>Inhibit cell wall synthesis</b>: <b>penicillin, cephalosporin, vancomycin</b> (block peptidoglycan cross-linking).",
+"<b>Interfere with enzyme function</b>: <b>sulfanilamide, trimethoprim</b> (folic acid pathway).",
+"Slides add a fifth target: <b>disrupting the cell membrane</b> (polymyxin B, colistin). Other antimicrobials: <b>Flagyl</b> (protozoan DNA), <b>Monistat</b> (ergosterol), <b>Vermox</b> (worm sugar absorption), <b>Tamiflu</b> (neuraminidase), <b>remdesivir</b> (viral polymerase)."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 12,
+"q": "How do narrow spectrum and broad spectrum antibiotics differ?",
+"a": [
+"<b>Narrow spectrum</b>: effective against <b>only certain types</b> of bacteria (e.g., mainly Gram-positive). Ex: <b>penicillin, vancomycin</b>.",
+"<b>Broad spectrum</b>: effective against <b>many types</b>, by targeting a near-universal process. Ex: <b>sulfanilamide, Cipro</b>."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 13,
+"q": "When should broad spectrum drugs be used? Why?",
+"a": [
+"When the <b>pathogen is unknown</b> (e.g., a walk-in clinic patient with a respiratory infection) or sensitivity is unknown — slides: also mixed infections; faster and often cheaper.",
+"Downside: they <b>kill good normal flora</b> too, raising the risk of <b>resistance</b> and <b>superinfections</b> (C. diff, yeast infections — slides)."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 14,
+"q": "When should narrow spectrum drugs be used? Why?",
+"a": [
+"When the <b>pathogen is known</b> — they target the bad guys while <b>sparing the mutualistic normal flora</b>; fewer side effects and lower resistance risk (slides)."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 15,
+"q": "What are two new approaches to treating antibiotic-resistant infections?",
+"a": [
+"Resistance = <b>evolution by natural selection</b> on a short time scale; new antibiotics aren't being found fast enough.",
+"<b>Phage therapy</b> (pioneered by <b>Félix d'Hérelle</b>): inject bacteriophages that infect the specific pathogen — <b>highly specific</b> (spares good bacteria), <b>small dose</b> (self-amplifying), <b>self-eliminating</b> once the pathogen is gone.",
+"<b>Quorum-sensing inhibitors</b> (<b>Bonnie Bassler</b>, Princeton) — block bacterial communication so they never turn toxic."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 16,
+"q": "What is quorum sensing? How does it normally work in bacteria?",
+"a": [
+"Bacteria <b>release a signal molecule</b> and have <b>receptors</b> for it to sense <b>how many of their kind are nearby</b>. With <b>enough cells (a quorum)</b>, signal binds neighbors' receptors and they <b>all switch on together</b>.",
+"Discovered via <b><i>Vibrio fischeri</i></b> on the <b>bobtail squid</b>, which all <b>bioluminesce at once</b>. Pathogens use it to <b>release toxins simultaneously</b> and overwhelm the immune system (a lone toxin-maker would just attract the immune system)."
+],
+"x": false
+},
+{
+"m": 24,
+"n": 17,
+"q": "How might future antimicrobial medications be used to block bacterial quorum sensing? Why might this be helpful medically?",
+"a": [
+"A <b>signal inhibitor</b> binds the receptors <b>without triggering</b> the response → cells never learn they have a quorum → they <b>never turn toxic</b>, and the immune system can clear them.",
+"Helpful because it <b>disarms</b> pathogens without killing them broadly — a new option as antibiotic resistance grows. (Not yet in human trials, per the lecture.)"
+],
+"x": false
+}
+]);
+
 /* ================= STUDY GUIDE MODE ================= */
 var SG_BY_ID = {}; SG.forEach(function (s) { s.id = s.m + '-' + s.n; SG_BY_ID[s.id] = s; });
 var SGS = {
@@ -3139,7 +4791,7 @@ function sgBar(c) {
 function renderSGSetup() {
   var S = SGS.set;
   var html = '<nav class="trail"><a href="#/" class="crumb">Start</a><span class="sep">›</span><span class="crumb here">Study guide questions</span></nav>';
-  html += '<section class="hero"><p class="eyebrow">Recall, then check</p><h1>Study guide questions</h1><p class="lede">The numbered questions from your Module 9–17 study guides. Answer from memory — type it or say it out loud — then reveal the written answer and grade yourself honestly. Partial answers come back 5 questions later, misses come back after 3. Your grades are saved on this device.</p></section>';
+  html += '<section class="hero"><p class="eyebrow">Recall, then check</p><h1>Study guide questions</h1><p class="lede">The numbered questions from your Module 9–24 study guides. Answer from memory — type it or say it out loud — then reveal the written answer and grade yourself honestly. Partial answers come back 5 questions later, misses come back after 3. Your grades are saved on this device.</p></section>';
   html += '<div class="drillgrid"><section class="card dcard tag-dna"><h2>Modules</h2><div class="navrow small"><button type="button" class="btn small" id="sgAll">All</button><button type="button" class="btn small" id="sgNone">None</button></div><div class="togs">';
   MODS.forEach(function (m) {
     var c = sgCounts(m);
