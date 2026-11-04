@@ -1,0 +1,352 @@
+{
+ "slug": "mod19-2",
+ "title": "Module 19 — Quiz 2",
+ "subtitle": "Principles of Disease — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Salmonella typhimurium's invasins help it at THREE steps of infection. Which three?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Portal of entry, portal of exit, and transmission"
+    },
+    {
+     "letter": "B",
+     "text": "Reservoir, transmission, and portal of entry"
+    },
+    {
+     "letter": "C",
+     "text": "Avoiding defenses, toxin secretion, and siderophore release"
+    },
+    {
+     "letter": "D",
+     "text": "Adherence, avoiding host defenses, and host damage"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Entering cells keeps it from being washed away, hides it from phagocytes and antibodies, and lets it lyse the cells."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "A nurse's unwashed hands carry bacteria from one patient's wound to the next patient. This is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Direct contact, with the nurse acting as a passive carrier"
+    },
+    {
+     "letter": "B",
+     "text": "Biological vector transmission, because the nurse is living"
+    },
+    {
+     "letter": "C",
+     "text": "Vehicle transmission, because the hands moved the bacteria"
+    },
+    {
+     "letter": "D",
+     "text": "Indirect contact, with the nurse's hands acting as a fomite"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Patient care is direct contact; a nurse who isn't infected but carries the microbe is a passive carrier (Module 18)."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Which pair shows the difference between a vehicle and a vector?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Contaminated well water vs a mosquito"
+    },
+    {
+     "letter": "B",
+     "text": "A housefly vs an Anopheles mosquito"
+    },
+    {
+     "letter": "C",
+     "text": "A sneeze at 0.5 m vs a cough at 3 m"
+    },
+    {
+     "letter": "D",
+     "text": "A contaminated doorknob vs a cell phone"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Vehicles are non-living but move pathogens; vectors are living arthropods."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "A lab technician gets sick after a blood specimen splashes on her. How is this transmission classified?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Vehicle"
+    },
+    {
+     "letter": "B",
+     "text": "Mechanical vector"
+    },
+    {
+     "letter": "C",
+     "text": "Direct contact"
+    },
+    {
+     "letter": "D",
+     "text": "Droplet"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The lecture classifies exposure to laboratory specimens as vehicle transmission."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Which bacterium would most need IgA protease?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "One that is injected parenterally deep into muscle by a contaminated needle"
+    },
+    {
+     "letter": "B",
+     "text": "One that stays inside a biofilm on a tooth surface above the gum line"
+    },
+    {
+     "letter": "C",
+     "text": "One that enters through a mucous membrane, like the gonorrhea bacterium"
+    },
+    {
+     "letter": "D",
+     "text": "One that lives only on unbroken skin and never touches mucus at all"
+    }
+   ],
+   "correct": "C",
+   "explanation": "IgA antibodies are most abundant in mucus, so mucosal invaders must destroy them."
+  },
+  {
+   "num": 6,
+   "type": "Multi-statement",
+   "prompt": "Which statement about host damage is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Normal flora like Lactobacillus damage the host just as pathogens do."
+    },
+    {
+     "letter": "B",
+     "text": "Collagenase can contribute to gangrene."
+    },
+    {
+     "letter": "C",
+     "text": "Siderophores steal iron the host needs."
+    },
+    {
+     "letter": "D",
+     "text": "Salmonella damages cells by multiplying inside them until they lyse."
+    },
+    {
+     "letter": "E",
+     "text": "Host damage is what separates pathogens from normal flora."
+    }
+   ],
+   "correct": "A",
+   "explanation": "Normal flora go through reservoir, transmission, entry, adherence, and avoiding defenses — but they don't harm the host."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Why were guinea pigs especially useful for detecting diphtheria toxin?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They are resistant to diphtheria bacteria"
+    },
+    {
+     "letter": "B",
+     "text": "Their livers are poor at removing toxins"
+    },
+    {
+     "letter": "C",
+     "text": "They make more IgA than other mammals"
+    },
+    {
+     "letter": "D",
+     "text": "They can't develop immune responses"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Toxic effects show up clearly without the liver neutralizing them."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "A patient develops toxic shock syndrome with a very high fever and life-threatening low blood pressure. Which toxin type and organism fit?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Type II hemolysin from S. pyogenes"
+    },
+    {
+     "letter": "B",
+     "text": "Type I superantigen from S. aureus"
+    },
+    {
+     "letter": "C",
+     "text": "Endotoxin from S. aureus"
+    },
+    {
+     "letter": "D",
+     "text": "Type III A-B toxin from C. botulinum"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Superantigens cause an excessive immune response."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Why might a bacterium only become pathogenic after being infected by a bacteriophage?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Phages add a thick protein capsule that blocks phagocytosis"
+    },
+    {
+     "letter": "B",
+     "text": "Phages destroy the bacterium's ribosomes, releasing toxins"
+    },
+    {
+     "letter": "C",
+     "text": "Phages convert the bacterium's endotoxins into exotoxins"
+    },
+    {
+     "letter": "D",
+     "text": "Prophage genes from lysogenic conversion can encode exotoxins"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Several exotoxins are encoded by prophage genes."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Treating a Gram-negative bloodstream infection with an antibiotic that rapidly kills the bacteria can make a patient's fever spike. Why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The antibiotic itself acts as a superantigen that overstimulates the immune system"
+    },
+    {
+     "letter": "B",
+     "text": "The bacteria secrete extra exotoxin as they die, which raises the fever"
+    },
+    {
+     "letter": "C",
+     "text": "Dying cells release endotoxin (LPS), triggering an excessive immune response"
+    },
+    {
+     "letter": "D",
+     "text": "The antibiotic acts as a hemolysin, bursting red blood cells and raising fever"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Endotoxins are released when Gram-negative cells die and break apart."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "S. aureus walls itself inside a blood clot, but S. pyogenes dissolves a clot. Which statement explains both?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Coagulase and kinase both steal iron from red blood cells inside the clot"
+    },
+    {
+     "letter": "B",
+     "text": "Both use coagulase to attract more WBCs to the site so they can be eaten"
+    },
+    {
+     "letter": "C",
+     "text": "Both use kinase to feed on blood and grow faster inside the clot itself"
+    },
+    {
+     "letter": "D",
+     "text": "Coagulase helps S. aureus hide from WBCs; kinase helps S. pyogenes escape them"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Both enzymes help avoid host defenses, in opposite ways."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Which HAI prevention step most directly targets the 'compromised host' problem?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Using careful aseptic technique when handling lab specimens"
+    },
+    {
+     "letter": "B",
+     "text": "Replacing the old term 'nosocomial' in hospital paperwork"
+    },
+    {
+     "letter": "C",
+     "text": "Isolating burn patients away from infectious-disease patients"
+    },
+    {
+     "letter": "D",
+     "text": "Teaching the public the plain-language term 'HAI' on posters"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Isolation keeps compromised hosts away from reservoirs."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "A UTI patient is told to drink lots of fluids. Which step of infection is this meant to work against?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Portal of exit"
+    },
+    {
+     "letter": "B",
+     "text": "Adherence"
+    },
+    {
+     "letter": "C",
+     "text": "Host damage"
+    },
+    {
+     "letter": "D",
+     "text": "Reservoir"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Urine flow tries to wash away bacteria that haven't adhered."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Describe the three types of exotoxins, how each damages the host, and one example each.",
+   "options": [],
+   "correct": null,
+   "explanation": "Type I superantigens cause an excessive immune response (S. aureus, toxic shock syndrome). Type II hemolysins lyse red blood cells (S. pyogenes). Type III A-B toxins: B binds the host cell and A inhibits protein synthesis or acts as a neurotoxin (C. botulinum, botulism/Botox)."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "List the steps a pathogen must complete to cause an infection and then spread to a new host.",
+   "options": [],
+   "correct": null,
+   "explanation": "Reservoir → transmission (contact, vehicle, or vector) → portal of entry (broken skin, mucous membranes, parenteral) → adherence → avoid host defenses → host damage → portal of exit (usually the same as entry), after which the host becomes a reservoir."
+  }
+ ]
+}

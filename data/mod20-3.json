@@ -1,0 +1,352 @@
+{
+ "slug": "mod20-3",
+ "title": "Module 20 — Quiz 3",
+ "subtitle": "Nonspecific Defenses — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A patient with a stomach acid–reducing drug gets more foodborne infections. What is the best explanation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The drug blocks histamine release from gastric mast cells"
+    },
+    {
+     "letter": "B",
+     "text": "Gastric juice (pH ~2) normally destroys swallowed microbes"
+    },
+    {
+     "letter": "C",
+     "text": "The drug kills the S. epidermidis that protects the gut"
+    },
+    {
+     "letter": "D",
+     "text": "The drug destroys the ciliary escalator in the trachea"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The stomach is the end point for mucus swallowed from the airway and eyes."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Whooping cough's tracheal cytotoxin progressively destroys the ciliary escalator (slides). What problem would follow?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mucus and trapped microbes pile up, causing violent coughing"
+    },
+    {
+     "letter": "B",
+     "text": "Skin pH rises because sebum production in the airway drops"
+    },
+    {
+     "letter": "C",
+     "text": "Gastric acid production stops because less mucus is swallowed"
+    },
+    {
+     "letter": "D",
+     "text": "Tears stop draining through the nasolacrimal duct into the nose"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Without cilia, coughing is the only way to clear mucus."
+  },
+  {
+   "num": 3,
+   "type": "Multi-statement",
+   "prompt": "Which statement comparing defenses is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Starfish have both nonspecific and specific defenses."
+    },
+    {
+     "letter": "B",
+     "text": "Fever does not get better with repeated infections."
+    },
+    {
+     "letter": "C",
+     "text": "Adaptive defenses improve with repeated exposure."
+    },
+    {
+     "letter": "D",
+     "text": "Only vertebrates have specific (adaptive) defenses."
+    },
+    {
+     "letter": "E",
+     "text": "Innate defenses are present from birth."
+    }
+   ],
+   "correct": "A",
+   "explanation": "Metchnikoff's starfish only have nonspecific defenses."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "A blood pressure reading can hint that an internal infection is under way. Why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bacteria consume blood, so the total blood volume drops"
+    },
+    {
+     "letter": "B",
+     "text": "Neutrophils constrict the vessels near the infection site"
+    },
+    {
+     "letter": "C",
+     "text": "Pus collects in the vessels and raises the blood pressure"
+    },
+    {
+     "letter": "D",
+     "text": "Histamine-driven vasodilation during inflammation lowers BP"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Vasodilation lowers peripheral resistance."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "In which order do events occur after a splinter carries bacteria into the skin?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pus forms → histamine → mast cells release → redness → WBCs exit → healing"
+    },
+    {
+     "letter": "B",
+     "text": "Histamine → vasodilation → leaky vessels → WBCs exit → phagocytosis → pus → healing"
+    },
+    {
+     "letter": "C",
+     "text": "Abscess → splinter → WBCs exit → vasodilation → histamine → pus → healing"
+    },
+    {
+     "letter": "D",
+     "text": "Phagocytosis → histamine → vasodilation → leaky vessels → injury → pus → healing"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Histamine release starts the cascade."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Which pairing of first-line defense and mechanism is INCORRECT?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Earwax — digests peptidoglycan with HCl"
+    },
+    {
+     "letter": "B",
+     "text": "Sebum — lowers skin pH"
+    },
+    {
+     "letter": "C",
+     "text": "Tears — flush the eye and contain lysozyme"
+    },
+    {
+     "letter": "D",
+     "text": "Mucus — traps microbes"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Earwax is acidic from sebum/fatty acids; HCl is in gastric juice."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Neutrophils arrive first, but macrophages ultimately clear more bacteria. What explains this pattern?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Macrophages arrive first but wait for neutrophils before they start eating"
+    },
+    {
+     "letter": "B",
+     "text": "Neutrophils don't do phagocytosis; they only release histamine at the site"
+    },
+    {
+     "letter": "C",
+     "text": "Neutrophils eat at once but die; monocytes must first become macrophages"
+    },
+    {
+     "letter": "D",
+     "text": "Macrophages only eat pus, so they can keep going after neutrophils stop"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Monocytes differentiate on site."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "A drug blocks the fusion of lysosomes with phagosomes. Which step of phagocytosis fails?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Extension of pseudopods around the microbe"
+    },
+    {
+     "letter": "B",
+     "text": "Digestion of the microbe in a phagolysosome"
+    },
+    {
+     "letter": "C",
+     "text": "Binding of the microbe through Toll-like receptors"
+    },
+    {
+     "letter": "D",
+     "text": "Release of histamine from nearby mast cells"
+    }
+   ],
+   "correct": "B",
+   "explanation": "No lysosome fusion means no hydrolytic enzymes reach the microbe."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Why might a person with a weakened sense of 'search, recognize, destroy' (slides) get infections from normally harmless microbes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Their skin becomes too acidic, killing the S. epidermidis on it"
+    },
+    {
+     "letter": "B",
+     "text": "Their mast cells release far too much histamine all the time"
+    },
+    {
+     "letter": "C",
+     "text": "Their normal flora disappear because of the immune changes"
+    },
+    {
+     "letter": "D",
+     "text": "Their immune cells fail to tell self from non-self and destroy invaders"
+    }
+   ],
+   "correct": "D",
+   "explanation": "The three mandates of the immune system are surveillance, recognition, and destruction."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Which two antimicrobial fluids share sebum as a key ingredient?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Vaginal secretions and sweat"
+    },
+    {
+     "letter": "B",
+     "text": "Gastric juice and urine"
+    },
+    {
+     "letter": "C",
+     "text": "Skin secretions and earwax"
+    },
+    {
+     "letter": "D",
+     "text": "Saliva and tears"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Both are acidic (pH ~3–5) because of fatty acids."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Which defense would an antihistamine most directly reduce?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The redness, heat, and swelling of inflammation"
+    },
+    {
+     "letter": "B",
+     "text": "The acidity of the gastric juice in the stomach"
+    },
+    {
+     "letter": "C",
+     "text": "The lysozyme present in tears and saliva"
+    },
+    {
+     "letter": "D",
+     "text": "The beating of the cilia in the trachea"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Histamine triggers vasodilation and leaky vessels."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Why is the inflammatory response described as a 'bridge' between nonspecific and specific defenses?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It only happens in vertebrates, which are the only animals with immunity"
+    },
+    {
+     "letter": "B",
+     "text": "It only occurs after a vaccination has trained the immune system"
+    },
+    {
+     "letter": "C",
+     "text": "It is carried out mainly by B cells and the antibodies they make"
+    },
+    {
+     "letter": "D",
+     "text": "Histamine can be released after damage or in response to complement and antibodies"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Antibodies (specific) and complement can also trigger it."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Metchnikoff drank buttermilk daily. Which modern concept did he found, and which organism was he relying on?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Antibiotics; Penicillium"
+    },
+    {
+     "letter": "B",
+     "text": "Probiotics; S. epidermidis"
+    },
+    {
+     "letter": "C",
+     "text": "Probiotics; Lactobacillus acidophilus"
+    },
+    {
+     "letter": "D",
+     "text": "Vaccination; Lactobacillus acidophilus"
+    }
+   ],
+   "correct": "C",
+   "explanation": "He linked a long-lived dairy village to good bacteria."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Explain how intact skin uses at least four features to prevent infection.",
+   "options": [],
+   "correct": null,
+   "explanation": "It is dry (little moisture), salty (sweat residue), acidic (sebum fatty acids, pH ~3–5, denatures enzymes), and constantly shedding (removes attached microbes), and it carries S. epidermidis that outcompetes pathogens like S. aureus."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Describe what pus and an abscess are, and how the site is cleaned up and healed.",
+   "options": [],
+   "correct": null,
+   "explanation": "Pus is dead neutrophils, phagocytic waste, and tissue fluid; an abscess is the clotted, walled-off site containing the infection and pus. Macrophages engulf the pus and debris, the abscess scabs over, and tissue heals — small sites leave no trace, large ones may scar."
+  }
+ ]
+}

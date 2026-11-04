@@ -1,0 +1,381 @@
+{
+ "slug": "mod20",
+ "title": "Module 20",
+ "subtitle": "Nonspecific Defenses — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "How did Metchnikoff first observe phagocytosis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "He grew white blood cells on agar plates"
+    },
+    {
+     "letter": "B",
+     "text": "He stained human blood with crystal violet"
+    },
+    {
+     "letter": "C",
+     "text": "He filtered bacteria from broth and injected guinea pigs"
+    },
+    {
+     "letter": "D",
+     "text": "He poked bacteria into transparent starfish larvae and watched cells eat them"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Starfish larvae are see-through, so he could watch phagocytes engulf the bacteria."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "A fever attacks any microbe and is no stronger the tenth time you get sick. Fever is therefore part of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Antibody-mediated immunity"
+    },
+    {
+     "letter": "B",
+     "text": "The third line of defense"
+    },
+    {
+     "letter": "C",
+     "text": "Innate (nonspecific) immunity"
+    },
+    {
+     "letter": "D",
+     "text": "Adaptive (specific) immunity"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Innate defenses are inborn, target no specific antigen, and don't improve."
+  },
+  {
+   "num": 3,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the lines of defense is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Inflammation is part of the third line of defense."
+    },
+    {
+     "letter": "B",
+     "text": "Phagocytosis is part of the second line of defense."
+    },
+    {
+     "letter": "C",
+     "text": "Intact skin is part of the first line of defense."
+    },
+    {
+     "letter": "D",
+     "text": "Memory is a feature of the third line of defense."
+    },
+    {
+     "letter": "E",
+     "text": "Antibody-mediated immunity is part of the third line."
+    }
+   ],
+   "correct": "A",
+   "explanation": "Inflammation is a second-line defense."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Which feature does NOT help skin resist microbes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Constant shedding"
+    },
+    {
+     "letter": "B",
+     "text": "Acidic sebum"
+    },
+    {
+     "letter": "C",
+     "text": "Salt"
+    },
+    {
+     "letter": "D",
+     "text": "High moisture"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Skin is dry — low moisture limits bacterial growth."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "A heavy smoker has a constant 'smoker's cough.' Which defense has been damaged?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gastric juice"
+    },
+    {
+     "letter": "B",
+     "text": "The ciliary escalator"
+    },
+    {
+     "letter": "C",
+     "text": "Sebum production"
+    },
+    {
+     "letter": "D",
+     "text": "The lacrimal apparatus"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Without beating cilia, coughing is the only way to move mucus up the airway."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Lysozyme in tears, saliva, sweat, and urine kills bacteria by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Clotting nearby blood"
+    },
+    {
+     "letter": "B",
+     "text": "Lowering the pH to 2"
+    },
+    {
+     "letter": "C",
+     "text": "Digesting peptidoglycan"
+    },
+    {
+     "letter": "D",
+     "text": "Binding up host iron"
+    }
+   ],
+   "correct": "C",
+   "explanation": "It mainly attacks Gram-positive cell walls."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Which body fluid has the lowest pH, about 2?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Saliva"
+    },
+    {
+     "letter": "B",
+     "text": "Urine"
+    },
+    {
+     "letter": "C",
+     "text": "Sweat"
+    },
+    {
+     "letter": "D",
+     "text": "Gastric juice"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Hydrochloric acid in the stomach destroys most swallowed microbes."
+  },
+  {
+   "num": 8,
+   "type": "Open recall",
+   "prompt": "Trace what happens to mucus and trapped bacteria from the trachea to the point where they are destroyed.",
+   "options": [],
+   "correct": null,
+   "explanation": "Goblet cells secrete sticky mucus that traps inhaled bacteria; the ciliary escalator moves the mucus (1–3 cm/hr) up the trachea to the throat; it is swallowed and the bacteria are destroyed by stomach acid (pH ~2)."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "What triggers the inflammatory response after a cut?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Macrophages release sebum"
+    },
+    {
+     "letter": "B",
+     "text": "Damaged mast cells release histamine"
+    },
+    {
+     "letter": "C",
+     "text": "Skin cells release HCl"
+    },
+    {
+     "letter": "D",
+     "text": "Neutrophils release lysozyme"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Histamine is the key chemical trigger."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Why does an inflamed area become red and warm?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Histamine dilates vessels, bringing more warm blood"
+    },
+    {
+     "letter": "B",
+     "text": "Bacteria in the tissue produce heat as they grow"
+    },
+    {
+     "letter": "C",
+     "text": "Pus is red and hot, so it colors the skin"
+    },
+    {
+     "letter": "D",
+     "text": "Vessels constrict and trap blood under the skin"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Vasodilation increases blood flow."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Why does an inflamed area swell?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dilated vessels become leaky and fluid collects"
+    },
+    {
+     "letter": "B",
+     "text": "Mast cells swell up after releasing histamine"
+    },
+    {
+     "letter": "C",
+     "text": "Macrophages release gas as they digest bacteria"
+    },
+    {
+     "letter": "D",
+     "text": "Bacteria multiply into a lump under the skin"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The swelling also causes the pain."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about phagocytes is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Macrophages help clear away pus."
+    },
+    {
+     "letter": "B",
+     "text": "Monocytes differentiate into macrophages."
+    },
+    {
+     "letter": "C",
+     "text": "Macrophages exocytose digested waste."
+    },
+    {
+     "letter": "D",
+     "text": "Neutrophils are first responders."
+    },
+    {
+     "letter": "E",
+     "text": "Macrophages die from overeating, just like neutrophils."
+    }
+   ],
+   "correct": "E",
+   "explanation": "Macrophages survive because they digest and excrete the waste; neutrophils eat themselves to death."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "In phagocytosis, what forms when a lysosome fuses with a phagosome?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A phagolysosome"
+    },
+    {
+     "letter": "B",
+     "text": "A pseudopod"
+    },
+    {
+     "letter": "C",
+     "text": "An abscess"
+    },
+    {
+     "letter": "D",
+     "text": "A Toll-like receptor"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Hydrolytic enzymes then digest the microbe."
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Toll-like receptors on macrophages recognize which kind of molecules?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Common foreign molecules like mannose and LPS"
+    },
+    {
+     "letter": "B",
+     "text": "The patient's own proteins on healthy cells"
+    },
+    {
+     "letter": "C",
+     "text": "Only one specific antigen per macrophage"
+    },
+    {
+     "letter": "D",
+     "text": "Histamine released by nearby mast cells"
+    }
+   ],
+   "correct": "A",
+   "explanation": "They recognize broad features shared by many microbes, so phagocytosis stays nonspecific."
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Pus is made mostly of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Histamine, sebum, and dead skin cells"
+    },
+    {
+     "letter": "B",
+     "text": "Dead neutrophils, phagocytic waste, and fluid"
+    },
+    {
+     "letter": "C",
+     "text": "Live bacteria and nothing else at all"
+    },
+    {
+     "letter": "D",
+     "text": "Red blood cells and platelets only"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Macrophages eventually clean it up."
+  },
+  {
+   "num": 16,
+   "type": "Open recall",
+   "prompt": "Name the four signs and symptoms of inflammation and explain the cause of each.",
+   "options": [],
+   "correct": null,
+   "explanation": "Redness and heat come from histamine-driven vasodilation bringing more blood; swelling comes from leaky dilated vessels letting fluid into tissue; pain comes from the swelling."
+  }
+ ]
+}

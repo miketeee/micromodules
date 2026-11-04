@@ -1,0 +1,352 @@
+{
+ "slug": "mod23-2",
+ "title": "Module 23 — Quiz 2",
+ "subtitle": "Specific Defenses — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Why would a person with very few helper T cells struggle to make antibodies against most protein antigens?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Without helper T cells, MHC-1 disappears from every body cell"
+    },
+    {
+     "letter": "B",
+     "text": "Protein antigens need T-dependent activation, which needs helper T cells"
+    },
+    {
+     "letter": "C",
+     "text": "Helper T cells are the cells that actually secrete antibodies"
+    },
+    {
+     "letter": "D",
+     "text": "B cells mature in the thymus, which helper T cells control"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Links to HIV/AIDS."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "A B cell binds an antigen but is NOT activated. What does it do next in T-dependent activation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Becomes a plasma cell immediately and starts secreting IgM"
+    },
+    {
+     "letter": "B",
+     "text": "Undergoes apoptosis so it can't make a mistaken response"
+    },
+    {
+     "letter": "C",
+     "text": "Displays it on MHC-2 and waits for a helper T cell to confirm it"
+    },
+    {
+     "letter": "D",
+     "text": "Displays it on MHC-1 so a cytotoxic T cell can confirm it"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The helper T cell's interleukin then activates it."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Which double binding activates a helper T cell?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "CD8 binds MHC-2"
+    },
+    {
+     "letter": "B",
+     "text": "Fc receptor binds IgE"
+    },
+    {
+     "letter": "C",
+     "text": "TCR binds the antigen and CD4 binds MHC-2"
+    },
+    {
+     "letter": "D",
+     "text": "TCR binds MHC-1 and CD8 binds the antigen"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Two confirmations at once."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Which pairing is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cytotoxic T cell — CD8 — MHC-1"
+    },
+    {
+     "letter": "B",
+     "text": "Cytotoxic T cell — CD4 — MHC-2"
+    },
+    {
+     "letter": "C",
+     "text": "NK cell — CD4 — MHC-2"
+    },
+    {
+     "letter": "D",
+     "text": "Helper T cell — CD8 — MHC-1"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Remember 'CD8 × MHC-1 = 8' and 'CD4 × MHC-2 = 8'."
+  },
+  {
+   "num": 5,
+   "type": "Multi-statement",
+   "prompt": "Which statement about apoptosis is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It spills contents that cause strong inflammation."
+    },
+    {
+     "letter": "B",
+     "text": "It can be induced by granzyme."
+    },
+    {
+     "letter": "C",
+     "text": "The membrane shows blebbing."
+    },
+    {
+     "letter": "D",
+     "text": "It is pre-programmed cell death."
+    },
+    {
+     "letter": "E",
+     "text": "The cell's genome is degraded."
+    }
+   ],
+   "correct": "A",
+   "explanation": "Apoptosis avoids inflammation; necrosis causes it."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Why does a cytotoxic T cell sacrifice a virus-infected host cell?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It converts the infected cell into an antibody-making plasma cell"
+    },
+    {
+     "letter": "B",
+     "text": "The infected cell will heal faster after going through apoptosis"
+    },
+    {
+     "letter": "C",
+     "text": "It needs the infected cell's MHC-2 to activate other T cells"
+    },
+    {
+     "letter": "D",
+     "text": "Killing it before it releases new viruses protects nearby cells"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Similar logic to interferon: sacrifice one to save many."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Organ transplant patients take immunosuppressive drugs. Which cells would otherwise attack the transplant?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Plasma cells only, which release antibodies against the graft"
+    },
+    {
+     "letter": "B",
+     "text": "Mast cells, which release histamine into the transplant"
+    },
+    {
+     "letter": "C",
+     "text": "Red blood cells, which clot inside the transplanted organ"
+    },
+    {
+     "letter": "D",
+     "text": "Cytotoxic T cells, which destroy cells from other people"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Slides list transplanted tissue as a cytotoxic T cell target."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "An NK cell meets a healthy liver cell displaying MHC-1. What happens?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "MHC-1 binding inhibits the NK cell, so it leaves"
+    },
+    {
+     "letter": "B",
+     "text": "It secretes antibodies to coat the liver cell"
+    },
+    {
+     "letter": "C",
+     "text": "It turns into a cytotoxic T cell and checks MHC-1"
+    },
+    {
+     "letter": "D",
+     "text": "It kills the liver cell with perforin and granzyme"
+    }
+   ],
+   "correct": "A",
+   "explanation": "MHC-1 is a 'self' signal."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "A patient's centrifuged blood shows an unusually thick buffy coat. What does this most likely suggest?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Anemia (too few red blood cells)"
+    },
+    {
+     "letter": "B",
+     "text": "An infection (high WBC count)"
+    },
+    {
+     "letter": "C",
+     "text": "AIDS (a low WBC count)"
+    },
+    {
+     "letter": "D",
+     "text": "Dehydration (too little plasma)"
+    }
+   ],
+   "correct": "B",
+   "explanation": "WBCs form the middle grayish layer."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Why did Köhler fuse B cells with cancer cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "To make sure every antibody produced was specific for cancer"
+    },
+    {
+     "letter": "B",
+     "text": "Isolated B cells die after a few divisions; cancer cells are immortal"
+    },
+    {
+     "letter": "C",
+     "text": "Cancer cells make better antibodies than B cells ever could"
+    },
+    {
+     "letter": "D",
+     "text": "B cells can't make any antibodies outside the body on their own"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The hybridoma keeps making the antibody indefinitely."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "In a rapid antigen test, what makes the test line visible?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dyed chicken antibodies bind directly to the test line"
+    },
+    {
+     "letter": "B",
+     "text": "The nasal sample dries red wherever the strip is wettest"
+    },
+    {
+     "letter": "C",
+     "text": "A dyed antibody–antigen complex is caught by fixed antibodies"
+    },
+    {
+     "letter": "D",
+     "text": "The viral antigen itself is red and sticks to the paper"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The dye rides on the constant region of the conjugate antibody."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "A test strip shows a T line but no C line. What should you conclude?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Positive — the T line shows antigen"
+    },
+    {
+     "letter": "B",
+     "text": "Negative — a T line alone means nothing"
+    },
+    {
+     "letter": "C",
+     "text": "Positive, but only if repeated twice"
+    },
+    {
+     "letter": "D",
+     "text": "Invalid — the test didn't run correctly"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Always need the control line."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Why are COVID monoclonal antibody treatments not a substitute for a vaccine?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They give passive immunity that fades and may not create memory"
+    },
+    {
+     "letter": "B",
+     "text": "They are made by T cells, which can't neutralize the coronavirus"
+    },
+    {
+     "letter": "C",
+     "text": "They only work in mice, the animals they were first made in"
+    },
+    {
+     "letter": "D",
+     "text": "They cause allergies by triggering IgE on the patient's mast cells"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Vaccines produce active immunity."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Describe two ways NK cells identify targets and how they kill them.",
+   "options": [],
+   "correct": null,
+   "explanation": "Fc receptors bind the constant region of antibodies coating a target (e.g., a parasite) — antibody-dependent cytotoxicity. MHC-1 receptors detect self; cells lacking MHC-1 (e.g., some cancer cells) lose that inhibitory signal and are attacked. They kill with perforin and granzymes."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Explain how monoclonal antibodies are produced.",
+   "options": [],
+   "correct": null,
+   "explanation": "Inject an antigen into an animal (e.g., a mouse) → isolate a B cell making the desired antibody → fuse it with an immortal cancer (myeloma) cell using ethylene glycol to make a hybridoma → grow the hybridoma indefinitely and harvest its identical antibodies."
+  }
+ ]
+}

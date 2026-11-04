@@ -1,0 +1,352 @@
+{
+ "slug": "mod22-3",
+ "title": "Module 22 — Quiz 3",
+ "subtitle": "Specific Defenses — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Antibody opsonization and complement opsonization (Module 21) both enhance phagocytosis. What is the key difference?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Complement is made by plasma cells, so it is just as specific as the antibodies are"
+    },
+    {
+     "letter": "B",
+     "text": "Only complement uses phagocyte receptors; antibodies need no receptors to mark pathogens"
+    },
+    {
+     "letter": "C",
+     "text": "Only antibodies can cause lysis; complement can only coat pathogens for phagocytosis"
+    },
+    {
+     "letter": "D",
+     "text": "Antibodies mark specific pathogens; mannose/LPS-triggered complement marks them nonspecifically"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Both use phagocyte receptors (constant region vs C3b)."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "A patient's IgE binds pollen on mast cells. Which Module 20 events follow?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Phagocytosis of the mast cell by macrophages → pus forms → healing"
+    },
+    {
+     "letter": "B",
+     "text": "MAC formation on pollen grains → pollen lysis → fever and chills"
+    },
+    {
+     "letter": "C",
+     "text": "Interferon release → neighboring cells make AVPs → pollen RNA destroyed"
+    },
+    {
+     "letter": "D",
+     "text": "Histamine → vasodilation and leaky vessels → redness, heat, swelling, pain"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Same inflammation, specifically triggered."
+  },
+  {
+   "num": 3,
+   "type": "Multi-statement",
+   "prompt": "Which statement about B cells is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Each B cell can make antibodies with many different binding sites."
+    },
+    {
+     "letter": "B",
+     "text": "Memory B cells keep their receptors."
+    },
+    {
+     "letter": "C",
+     "text": "A B cell can make different classes of antibody with the same binding site."
+    },
+    {
+     "letter": "D",
+     "text": "The B cell receptor is a membrane-bound IgM monomer."
+    },
+    {
+     "letter": "E",
+     "text": "B cells mature in the bone marrow."
+    }
+   ],
+   "correct": "A",
+   "explanation": "Each B cell makes only one kind of binding site."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "A vaccine's goal, in Module 22 terms, is to:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Create memory cells in advance so real exposure acts like a secondary response"
+    },
+    {
+     "letter": "B",
+     "text": "Prevent clonal selection so B cells don't overreact to the pathogen"
+    },
+    {
+     "letter": "C",
+     "text": "Activate IgE on mast cells so inflammation starts faster next time"
+    },
+    {
+     "letter": "D",
+     "text": "Give preformed antibodies that protect for a few weeks with no memory"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Artificial active immunity."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Why is antivenom given rather than waiting for the victim's immune response?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Antivenom creates memory cells that last for the rest of life"
+    },
+    {
+     "letter": "B",
+     "text": "A primary response takes about a week; venom acts much faster"
+    },
+    {
+     "letter": "C",
+     "text": "Snakebite victims are unable to make antibodies against venom"
+    },
+    {
+     "letter": "D",
+     "text": "Venom isn't an antigen, so B cells can never recognize it"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Passive immunity is immediate."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Which observation would show that IgA in breast milk mainly protects by neutralization?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It forms a membrane attack complex on gut bacteria"
+    },
+    {
+     "letter": "B",
+     "text": "It blocks pathogens and toxins from attaching to the gut lining"
+    },
+    {
+     "letter": "C",
+     "text": "It causes mast cells in the infant's gut to burst open"
+    },
+    {
+     "letter": "D",
+     "text": "It crosses into the infant's blood and creates memory cells"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Mucosal antibodies stop attachment."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Why are several antibody defense mechanisms described as not mutually exclusive?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The same bound antibodies can neutralize, opsonize, and agglutinate at once"
+    },
+    {
+     "letter": "B",
+     "text": "Only IgG can perform more than one mechanism; all others do just one"
+    },
+    {
+     "letter": "C",
+     "text": "Each antibody can perform only one mechanism during its whole lifetime"
+    },
+    {
+     "letter": "D",
+     "text": "The mechanisms always happen in a fixed order, one after the other"
+    }
+   ],
+   "correct": "A",
+   "explanation": "One binding event does several jobs."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which change on a titer graph after a second exposure most reflects memory B cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The lag phase before antibodies gets longer"
+    },
+    {
+     "letter": "B",
+     "text": "The IgM curve becomes several times higher"
+    },
+    {
+     "letter": "C",
+     "text": "The IgG curve rises sooner and far higher"
+    },
+    {
+     "letter": "D",
+     "text": "The IgG curve disappears and only IgM remains"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Many memory cells → many plasma cells → lots of IgG."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which antigen fact from the slides matters for clonal selection?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "One pathogen can show many antigens, each selecting different B cells"
+    },
+    {
+     "letter": "B",
+     "text": "Antigens are made by B cells and then displayed on the pathogen"
+    },
+    {
+     "letter": "C",
+     "text": "Each pathogen has exactly one antigen, so only one B cell responds"
+    },
+    {
+     "letter": "D",
+     "text": "Antigens must be made of DNA to be recognized by B cell receptors"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Pathogen ≠ antigen."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Which mother-to-child transfer happens after the umbilical cord is cut?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "IgG through the placenta"
+    },
+    {
+     "letter": "B",
+     "text": "IgE through skin contact"
+    },
+    {
+     "letter": "C",
+     "text": "IgM through the placenta"
+    },
+    {
+     "letter": "D",
+     "text": "IgA through breast milk"
+    }
+   ],
+   "correct": "D",
+   "explanation": "IgG transfer ends at birth; breastfeeding continues protection."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Which pair of cells both come from a selected B cell?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Neutrophils and macrophages"
+    },
+    {
+     "letter": "B",
+     "text": "Mast cells and eosinophils"
+    },
+    {
+     "letter": "C",
+     "text": "Plasma cells and memory B cells"
+    },
+    {
+     "letter": "D",
+     "text": "Helper and cytotoxic T cells"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Two 'wings of the army.'"
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "A drug destroyed all memory B cells. What would happen at the next exposure to a previously defeated pathogen?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Nothing would change, because plasma cells would still be ready"
+    },
+    {
+     "letter": "B",
+     "text": "It would look like a primary response, with a lag and likely illness"
+    },
+    {
+     "letter": "C",
+     "text": "IgE on mast cells would take over and replace the antibody response"
+    },
+    {
+     "letter": "D",
+     "text": "Passive immunity from the mother would automatically take over"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Memory makes the secondary response fast."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Which statement explains why passive immunity gives no memory?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Preformed antibodies destroy the recipient's B cells after injection"
+    },
+    {
+     "letter": "B",
+     "text": "Memory cells can't recognize antibodies that were made somewhere else"
+    },
+    {
+     "letter": "C",
+     "text": "The recipient's B cells never bind the antigen, so no clonal selection"
+    },
+    {
+     "letter": "D",
+     "text": "Passive antibodies are all IgE, which can't create memory cells"
+    }
+   ],
+   "correct": "C",
+   "explanation": "No selection means no memory cells."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Explain how the structure of an antibody (constant vs variable regions, two binding sites) makes agglutination, opsonization, and inflammation possible.",
+   "options": [],
+   "correct": null,
+   "explanation": "Two identical variable-region binding sites let one antibody grab antigens on two pathogens (agglutination). The constant region binds receptors on phagocytes (opsonization) and, for IgE, on mast cells (inflammation), so universal receptors work no matter what antigen the variable region recognizes."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Using clonal selection, explain why you usually get sick the first time you meet a pathogen but not the second time.",
+   "options": [],
+   "correct": null,
+   "explanation": "First time: the rare matching B cell must be found, selected, and cloned, so antibodies take about a week — enough time for disease. Clonal expansion also makes memory B cells, so on second exposure many matching cells respond immediately, producing high IgG fast enough to clear the pathogen before illness."
+  }
+ ]
+}

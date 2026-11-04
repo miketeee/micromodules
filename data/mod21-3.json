@@ -1,0 +1,352 @@
+{
+ "slug": "mod21-3",
+ "title": "Module 21 — Quiz 3",
+ "subtitle": "Nonspecific Defenses — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Which bacterial virulence factor from Module 19 would most directly interfere with complement-driven opsonization?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Siderophores that pull iron from host cells"
+    },
+    {
+     "letter": "B",
+     "text": "Hemolysins that lyse the host's red blood cells"
+    },
+    {
+     "letter": "C",
+     "text": "A capsule that blocks phagocyte attachment"
+    },
+    {
+     "letter": "D",
+     "text": "Collagenase that digests connective tissue"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Capsules inhibit phagocytosis, the step opsonization is meant to help."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Killing Gram-negative bacteria releases LPS. How could this make an infection temporarily worse?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "LPS acts as endotoxin and triggers complement and inflammation"
+    },
+    {
+     "letter": "B",
+     "text": "LPS blocks interferon from reaching neighboring host cells"
+    },
+    {
+     "letter": "C",
+     "text": "LPS lowers body temperature below the bacteria's optimum"
+    },
+    {
+     "letter": "D",
+     "text": "LPS destroys C9, so the membrane attack complex can't form"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Links Module 19 endotoxin to Module 21 complement triggers."
+  },
+  {
+   "num": 3,
+   "type": "Multi-statement",
+   "prompt": "Which statement about complement fragments is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "C3a coats bacteria for phagocytosis."
+    },
+    {
+     "letter": "B",
+     "text": "C9 forms the ring-shaped pore."
+    },
+    {
+     "letter": "C",
+     "text": "C3a and C5a act on mast cells."
+    },
+    {
+     "letter": "D",
+     "text": "C5b begins the membrane attack complex."
+    },
+    {
+     "letter": "E",
+     "text": "C3b activates C5."
+    }
+   ],
+   "correct": "A",
+   "explanation": "C3b, not C3a, opsonizes."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "A patient's antibodies bind a bacterium and complement is activated. Which statement is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Only the membrane attack complex can result from antibody activation"
+    },
+    {
+     "letter": "B",
+     "text": "Antibody activation prevents inflammation from happening at all"
+    },
+    {
+     "letter": "C",
+     "text": "This activation produces interferon instead of the usual outcomes"
+    },
+    {
+     "letter": "D",
+     "text": "It's specific activation, but the three outcomes are the same"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Trigger differs; outcomes are the same."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Why would antiviral drugs that block viral mRNA be valuable, given what you know about interferon?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They could act like AVPs without making all cells destroy their RNA"
+    },
+    {
+     "letter": "B",
+     "text": "They would replace the complement system in fighting bacteria"
+    },
+    {
+     "letter": "C",
+     "text": "They would opsonize viruses so macrophages could eat them"
+    },
+    {
+     "letter": "D",
+     "text": "They would cause a protective low-grade fever in the patient"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Interferon's weakness is that AVPs destroy RNA broadly."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Which defense is triggered by the host cell itself detecting that it is making viruses?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Interferon secretion"
+    },
+    {
+     "letter": "B",
+     "text": "Histamine release from a cut"
+    },
+    {
+     "letter": "C",
+     "text": "Complement activation by mannose"
+    },
+    {
+     "letter": "D",
+     "text": "Opsonization"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The infected cell 'knows its fate is sealed.'"
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Order the inflammation events after complement activation.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "WBCs arrive → C3 splits → mast cells burst → fever → swelling and pain"
+    },
+    {
+     "letter": "B",
+     "text": "Histamine → C3a binds → C5a binds → pus forms → membrane attack complex"
+    },
+    {
+     "letter": "C",
+     "text": "C3a/C5a bind mast cells → histamine → leaky vessels → swelling → WBCs arrive"
+    },
+    {
+     "letter": "D",
+     "text": "Interferon → AVPs → histamine → swelling → membrane attack complex"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Same cascade as Module 20 after histamine release."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "A child's fever is 38.5 °C during a bacterial infection, and a parent wants to bring it down immediately. What would the lecture suggest?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fever always helps, even when it rises above 45 °C"
+    },
+    {
+     "letter": "B",
+     "text": "Fever only works against viruses, so treat it right away"
+    },
+    {
+     "letter": "C",
+     "text": "A low-grade fever may be helping, so don't rush to stop it"
+    },
+    {
+     "letter": "D",
+     "text": "Fever has no real effect on bacterial enzymes or growth"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Watch for dangerous high fevers instead."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which pair of defenses both end with a bacterium being destroyed by enzymes or lysis, but by different routes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Histamine (dissolves bacteria) and pyrogens (burst bacterial cells)"
+    },
+    {
+     "letter": "B",
+     "text": "Opsonization (digested in a phagolysosome) and MAC (lysed by pores)"
+    },
+    {
+     "letter": "C",
+     "text": "Interferon (destroys bacterial RNA) and fever (melts the cell wall)"
+    },
+    {
+     "letter": "D",
+     "text": "Mannose (digests bacteria) and LPS (punches pores in bacteria)"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Phagocytosis digests; the MAC bursts the cell."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Which observation best shows interferon is a LOCAL defense?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is made by the liver and stored there until a virus appears"
+    },
+    {
+     "letter": "B",
+     "text": "It is stored inside mast cells and released with histamine"
+    },
+    {
+     "letter": "C",
+     "text": "It circulates in the blood to every organ after any infection"
+    },
+    {
+     "letter": "D",
+     "text": "It is released near the infected cell to protect its neighbors"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Injecting it makes it systemic — which causes side effects."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Why would recognizing mannose be useless for defending against a virus inside a cell?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Viruses have no proteins at all for the immune system to find"
+    },
+    {
+     "letter": "B",
+     "text": "Mannose is a bacterial sugar, and the virus is hidden inside a cell"
+    },
+    {
+     "letter": "C",
+     "text": "Complement can never be activated once a virus is in the body"
+    },
+    {
+     "letter": "D",
+     "text": "Mannose is found only on human cells, so it can't mark viruses"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Interferon fills the antiviral gap."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Which list contains only second-line defenses?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Antibodies, T cells, B cells, memory cells"
+    },
+    {
+     "letter": "B",
+     "text": "Complement, interferon, fever, phagocytosis"
+    },
+    {
+     "letter": "C",
+     "text": "Tears, saliva, gastric juice, urine"
+    },
+    {
+     "letter": "D",
+     "text": "Skin, mucus, lysozyme, sebum, earwax"
+    }
+   ],
+   "correct": "B",
+   "explanation": "First line = barriers/chemicals; third line = antibodies/T cells."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "If a pathogen made a protein that destroyed C3b on its surface, which defense would it mainly avoid?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Interferon signaling between cells"
+    },
+    {
+     "letter": "B",
+     "text": "Mucus clearance by the ciliary escalator"
+    },
+    {
+     "letter": "C",
+     "text": "Pyrogen-driven fever responses"
+    },
+    {
+     "letter": "D",
+     "text": "Opsonization-enhanced phagocytosis"
+    }
+   ],
+   "correct": "D",
+   "explanation": "C3b is the opsonin."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Explain why interferon is not used routinely as a drug, even though it is an effective antiviral defense.",
+   "options": [],
+   "correct": null,
+   "explanation": "AVPs destroy RNA in general, not just viral RNA. Natural interferon acts locally, but injected interferon circulates everywhere, so cells all over the body make AVPs that destroy their own RNA, causing significant side effects. It may be used only in desperate cases or if it can be delivered locally."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Compare how a macrophage recognizes a bacterium directly (Module 20) versus with complement's help (Module 21).",
+   "options": [],
+   "correct": null,
+   "explanation": "Directly, Toll-like receptors bind common microbial molecules like mannose or LPS. With complement, C3b coats (opsonizes) the bacterium and the macrophage's C3b receptors bind it, making engulfment easier — both are nonspecific unless complement was triggered by antibodies."
+  }
+ ]
+}

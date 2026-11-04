@@ -1,0 +1,377 @@
+{
+ "slug": "mod23",
+ "title": "Module 23",
+ "subtitle": "Specific Defenses — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A bacterial capsule made of repeating sugar units binds many B cell receptors on one B cell at once. What happens?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The B cell activates without helper T cells"
+    },
+    {
+     "letter": "B",
+     "text": "The B cell becomes a natural killer cell"
+    },
+    {
+     "letter": "C",
+     "text": "The B cell undergoes programmed cell death"
+    },
+    {
+     "letter": "D",
+     "text": "The B cell must wait for a cytotoxic T cell"
+    }
+   ],
+   "correct": "A",
+   "explanation": "A strong multi-receptor signal activates it on its own."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "T cells are named for the organ where they mature:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tonsils"
+    },
+    {
+     "letter": "B",
+     "text": "Thyroid"
+    },
+    {
+     "letter": "C",
+     "text": "Thymus"
+    },
+    {
+     "letter": "D",
+     "text": "Trachea"
+    }
+   ],
+   "correct": "C",
+   "explanation": "B cells mature in bone marrow."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "How does a T cell receptor differ from a B cell receptor?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It binds the constant region of antibodies"
+    },
+    {
+     "letter": "B",
+     "text": "It is secreted in huge amounts by plasma cells"
+    },
+    {
+     "letter": "C",
+     "text": "It has one binding site and is never secreted"
+    },
+    {
+     "letter": "D",
+     "text": "It has five binding sites, like an IgM pentamer"
+    }
+   ],
+   "correct": "C",
+   "explanation": "B cell receptors are membrane-bound antibodies (IgM)."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Which cell type does NOT act as an antigen-presenting cell with MHC-2?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A skin cell"
+    },
+    {
+     "letter": "B",
+     "text": "A dendritic cell"
+    },
+    {
+     "letter": "C",
+     "text": "A B cell"
+    },
+    {
+     "letter": "D",
+     "text": "A macrophage"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Regular body cells use MHC-1."
+  },
+  {
+   "num": 5,
+   "type": "Multi-statement",
+   "prompt": "Which statement about T-dependent B cell activation is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The APC secretes interleukin to activate the helper T cell."
+    },
+    {
+     "letter": "B",
+     "text": "The helper T cell uses CD8 to bind MHC-2."
+    },
+    {
+     "letter": "C",
+     "text": "The helper T cell secretes interleukin to attract B cells."
+    },
+    {
+     "letter": "D",
+     "text": "The phagocyte displays antigen on MHC-2."
+    },
+    {
+     "letter": "E",
+     "text": "The B cell displays the antigen on MHC-2 for the helper T cell."
+    }
+   ],
+   "correct": "B",
+   "explanation": "Helper T cells use CD4; CD8 is on cytotoxic T cells."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "A liver cell infected with hepatitis virus displays viral antigens. Which display protein and which T cell are involved?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "MHC-2 and a cytotoxic T cell"
+    },
+    {
+     "letter": "B",
+     "text": "MHC-2 and a helper (CD4+) T cell"
+    },
+    {
+     "letter": "C",
+     "text": "MHC-1 and a cytotoxic (CD8+) T cell"
+    },
+    {
+     "letter": "D",
+     "text": "MHC-1 and a helper T cell"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Regular body cells display on MHC-1."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Cytotoxic T cells kill infected cells by secreting:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Interferon and complement"
+    },
+    {
+     "letter": "B",
+     "text": "IgE and IgG"
+    },
+    {
+     "letter": "C",
+     "text": "Perforin and granzyme"
+    },
+    {
+     "letter": "D",
+     "text": "Histamine and interleukin"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Perforin makes holes; granzyme triggers apoptosis."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Why doesn't apoptosis cause inflammation, while necrosis does?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Necrosis is caused by T cells, which also release histamine"
+    },
+    {
+     "letter": "B",
+     "text": "The dying cell calls macrophages to clean up before it spills"
+    },
+    {
+     "letter": "C",
+     "text": "Apoptotic cells release extra histamine to calm the area"
+    },
+    {
+     "letter": "D",
+     "text": "Apoptosis only happens in bacteria, never in human tissues"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Tidy, pre-programmed cell death."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Why don't cytotoxic T cells destroy macrophages that are displaying foreign antigens?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cytotoxic T cells lack any T cell receptors"
+    },
+    {
+     "letter": "B",
+     "text": "Macrophages never display antigens on their surface"
+    },
+    {
+     "letter": "C",
+     "text": "Macrophages use MHC-2, and CD8 binds only MHC-1"
+    },
+    {
+     "letter": "D",
+     "text": "Macrophages release perforin against them first"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The CD4/CD8 system keeps immune cells safe."
+  },
+  {
+   "num": 10,
+   "type": "Open recall",
+   "prompt": "List the steps of T-dependent B cell activation, naming MHC-2, CD4, and interleukin.",
+   "options": [],
+   "correct": null,
+   "explanation": "Phagocyte engulfs the pathogen and displays antigen on MHC-2 (APC) → matching helper T cell binds with TCR + CD4 → APC's interleukin activates and clones the helper T → helper T secretes interleukin to attract B cells → matching B cell binds antigen, displays it on MHC-2 → helper T binds (TCR + CD4) and secretes interleukin → B cell activated → plasma and memory cells."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "A cancer cell stops making MHC-1. Which cell is most likely to destroy it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A plasma cell"
+    },
+    {
+     "letter": "B",
+     "text": "A natural killer cell"
+    },
+    {
+     "letter": "C",
+     "text": "A mast cell"
+    },
+    {
+     "letter": "D",
+     "text": "A helper T cell"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Missing MHC-1 removes the NK cell's 'don't attack' signal."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "NK cells recognize antibody-coated parasites using which receptor?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "T cell receptor"
+    },
+    {
+     "letter": "B",
+     "text": "MHC-2"
+    },
+    {
+     "letter": "C",
+     "text": "CD4"
+    },
+    {
+     "letter": "D",
+     "text": "Fc receptor"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Indirect, 'specific-ish' recognition."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "HIV primarily infects and destroys which cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Helper T cells (CD4+)"
+    },
+    {
+     "letter": "B",
+     "text": "Red blood cells"
+    },
+    {
+     "letter": "C",
+     "text": "Cytotoxic T cells (CD8+)"
+    },
+    {
+     "letter": "D",
+     "text": "Plasma cells"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Losing helper T cells cripples B cell activation."
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "A hybridoma is made by fusing:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A natural killer cell and an inactivated virus"
+    },
+    {
+     "letter": "B",
+     "text": "A macrophage and the bacterium it has engulfed"
+    },
+    {
+     "letter": "C",
+     "text": "A B cell making the desired antibody with a cancer cell"
+    },
+    {
+     "letter": "D",
+     "text": "Two T cells that recognize the same antigen"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Immortality + one specific antibody."
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "A home COVID test shows a line at C but not at T. The result is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Invalid"
+    },
+    {
+     "letter": "B",
+     "text": "Inconclusive because T is required"
+    },
+    {
+     "letter": "C",
+     "text": "Positive"
+    },
+    {
+     "letter": "D",
+     "text": "Negative"
+    }
+   ],
+   "correct": "D",
+   "explanation": "C shows the test worked; no T line means no antigen detected."
+  },
+  {
+   "num": 16,
+   "type": "Open recall",
+   "prompt": "Compare MHC-1 and MHC-2: which cells carry each, which T cell reads each, and the outcome.",
+   "options": [],
+   "correct": null,
+   "explanation": "MHC-1 is on all nucleated body cells and is read by cytotoxic (CD8+) T cells; a foreign antigen on MHC-1 leads to perforin/granzyme and apoptosis. MHC-2 is on antigen-presenting immune cells (macrophages, dendritic cells, B cells) and is read by helper (CD4+) T cells; it leads to activation of helper T cells and B cells."
+  }
+ ]
+}

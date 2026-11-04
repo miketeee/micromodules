@@ -1,0 +1,352 @@
+{
+ "slug": "mod19-3",
+ "title": "Module 19 — Quiz 3",
+ "subtitle": "Principles of Disease — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Streptococcus pyogenes shows up in several virulence-factor lists. Which combination does the course attribute to it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "M-protein, kinase, and hemolysins"
+    },
+    {
+     "letter": "B",
+     "text": "Coagulase, superantigens, and siderophores"
+    },
+    {
+     "letter": "C",
+     "text": "Invasins, IgA protease, and LPS"
+    },
+    {
+     "letter": "D",
+     "text": "Capsule, collagenase, and A-B toxin"
+    }
+   ],
+   "correct": "A",
+   "explanation": "M-protein (adherence/anti-phagocytosis), kinase (escape clots), hemolysins (Type II)."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Staphylococcus aureus appears in several lists. Which combination fits it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Invasins, LPS endotoxin, and siderophores that steal iron"
+    },
+    {
+     "letter": "B",
+     "text": "Coagulase, Type I superantigen, and a leading HAI cause (MRSA)"
+    },
+    {
+     "letter": "C",
+     "text": "Kinase, Type II hemolysin, and M-protein for throat adherence"
+    },
+    {
+     "letter": "D",
+     "text": "IgA protease, a thick capsule, and hyaluronidase for gangrene"
+    }
+   ],
+   "correct": "B",
+   "explanation": "S. aureus is coagulase-positive, makes toxic shock superantigen, and is the HAI 'problem child.'"
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Streptococcus pneumoniae relies on which pair to avoid host defenses?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "M-protein and hemolysins"
+    },
+    {
+     "letter": "B",
+     "text": "Coagulase and kinase"
+    },
+    {
+     "letter": "C",
+     "text": "A capsule and IgA protease"
+    },
+    {
+     "letter": "D",
+     "text": "Invasins and siderophores"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The capsule blocks phagocytosis; IgA protease destroys mucosal antibodies."
+  },
+  {
+   "num": 4,
+   "type": "Multi-statement",
+   "prompt": "Which statement about Gram stain and toxins is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Endotoxins are proteins secreted by Gram-positive bacteria."
+    },
+    {
+     "letter": "B",
+     "text": "LPS sits in the outer membrane of Gram-negative bacteria."
+    },
+    {
+     "letter": "C",
+     "text": "Exotoxins are mostly secreted by Gram-positive bacteria."
+    },
+    {
+     "letter": "D",
+     "text": "Both superantigens and endotoxins can cause shock."
+    },
+    {
+     "letter": "E",
+     "text": "Endotoxins are released mainly when Gram-negative cells die."
+    }
+   ],
+   "correct": "A",
+   "explanation": "Endotoxins are part of the Gram-negative cell wall (LPS); exotoxins are the secreted proteins."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "A pathogen is carried from a pig farm's sewage into a river and makes people sick miles downstream. Map the steps.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Reservoir: pigs/sewage; transmission: waterborne; portal: digestive mucosa"
+    },
+    {
+     "letter": "B",
+     "text": "Reservoir: the river; transmission: biological vector; portal: parenteral"
+    },
+    {
+     "letter": "C",
+     "text": "Reservoir: humans; transmission: droplet within 1 m; portal: broken skin"
+    },
+    {
+     "letter": "D",
+     "text": "Reservoir: a fomite; transmission: direct contact; portal: intact skin"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Ingested pathogens enter through digestive mucous membranes."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "An ICU has many patients on immunosuppressive drugs, many catheters, and several MRSA patients. Which statement best explains its HAI risk?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "MRSA is a zoonosis carried into the ICU by animals"
+    },
+    {
+     "letter": "B",
+     "text": "It has too few reservoirs for MRSA to spread between patients"
+    },
+    {
+     "letter": "C",
+     "text": "Catheters there act only as portals of exit, not entry"
+    },
+    {
+     "letter": "D",
+     "text": "It combines compromised hosts, invasive procedures, and reservoirs"
+    }
+   ],
+   "correct": "D",
+   "explanation": "All three reasons for HAIs are present at once."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Why would killing a pathogen's ability to adhere be a useful drug strategy even if the drug doesn't kill the microbe?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Non-adhered pathogens convert into harmless normal flora"
+    },
+    {
+     "letter": "B",
+     "text": "Adherence is required for the pathogen's portal of exit"
+    },
+    {
+     "letter": "C",
+     "text": "Non-adhered pathogens get flushed out by urine, mucus, and coughing"
+    },
+    {
+     "letter": "D",
+     "text": "Adherence is the step where pathogens manufacture their toxins"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Without adherence, the body's flushing mechanisms remove the pathogen."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "A diabetic patient develops dying, blackened foot tissue. Which enzymes and organism best explain it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Coagulase from Staphylococcus aureus walling off the foot"
+    },
+    {
+     "letter": "B",
+     "text": "IgA protease from Streptococcus pneumoniae in the blood"
+    },
+    {
+     "letter": "C",
+     "text": "Collagenase and hyaluronidase from Clostridium perfringens"
+    },
+    {
+     "letter": "D",
+     "text": "Kinase from Streptococcus pyogenes dissolving foot clots"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Breaking down connective tissue, including vessels, leads to gangrene."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which observation would best support Roux's hypothesis that diphtheria causes body-wide effects through a toxin?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A cell-free filtrate of an older culture alone causes the disease's effects"
+    },
+    {
+     "letter": "B",
+     "text": "Unfiltered culture causes only a local throat infection in guinea pigs"
+    },
+    {
+     "letter": "C",
+     "text": "Guinea pigs survive very large injections of fresh, 24-hour filtrate"
+    },
+    {
+     "letter": "D",
+     "text": "Diphtheria bacteria are found spread throughout the patient's bloodstream"
+    }
+   ],
+   "correct": "A",
+   "explanation": "If the filtrate (no cells) causes harm, a secreted substance is responsible."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Why is the portal of exit medically important to know?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It determines whether the pathogen is Gram-positive or Gram-negative"
+    },
+    {
+     "letter": "B",
+     "text": "It is the exact site where the pathogen's toxins are manufactured"
+    },
+    {
+     "letter": "C",
+     "text": "It is always the skin, so skin care alone prevents all spread"
+    },
+    {
+     "letter": "D",
+     "text": "It's usually the same as entry, which tells you how to block spread"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Once the pathogen exits, the host becomes a reservoir."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Which virulence factor would be LEAST useful to a bacterium living inside host cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Invasins to get inside"
+    },
+    {
+     "letter": "B",
+     "text": "Siderophores to grab iron"
+    },
+    {
+     "letter": "C",
+     "text": "Ways to avoid antibodies in the blood"
+    },
+    {
+     "letter": "D",
+     "text": "Fimbriae for sticking to the cell surface"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Once inside, fimbriae-based surface adherence is no longer needed — the cell can't be washed away."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Lysogenic conversion links Module 15–16 (phages) to Module 19. Which statement is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lysogenic conversion produces the LPS endotoxin of Gram-negatives"
+    },
+    {
+     "letter": "B",
+     "text": "Prophage genes can encode exotoxins that make a bacterium pathogenic"
+    },
+    {
+     "letter": "C",
+     "text": "Prophages add an outer membrane that makes bacteria Gram-negative"
+    },
+    {
+     "letter": "D",
+     "text": "Lysogenic conversion only occurs in fungi, not in bacteria"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Some toxins aren't encoded by the bacterium's original genes."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "A patient's throat infection stays local, yet he develops heart and nerve problems. What is the best explanation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The infection is subclinical, so its effects appear elsewhere"
+    },
+    {
+     "letter": "B",
+     "text": "An exotoxin from the bacteria travels through the blood (toxemia)"
+    },
+    {
+     "letter": "C",
+     "text": "Bacteremia has spread the throat bacteria into every organ"
+    },
+    {
+     "letter": "D",
+     "text": "Endotoxin is being actively secreted by the throat bacteria"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Like diphtheria: local bacteria, systemic toxin effects."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Explain how capsules play roles in both adherence and avoiding host defenses, with an example of each.",
+   "options": [],
+   "correct": null,
+   "explanation": "Adherence: the sticky carbohydrate capsule lets bacteria attach and form biofilms — S. mutans on teeth (and biofilms on catheters/contact lenses). Avoiding defenses: the capsule inhibits phagocytosis — encapsulated S. pneumoniae causes pneumonia while unencapsulated strains are fairly harmless."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "A patient has a catheter-associated UTI caused by MRSA. Trace the infection through reservoir, transmission, portal of entry, adherence, and avoiding defenses.",
+   "options": [],
+   "correct": null,
+   "explanation": "Reservoir: another patient or colonized health-care worker (or the patient's own skin flora). Transmission: direct contact or indirect contact via equipment (fomite). Portal: the catheter bypasses defenses into the urinary tract mucous membrane. Adherence: biofilm on the catheter. Avoiding defenses: coagulase walls it off from white blood cells, and multidrug resistance makes it hard to treat."
+  }
+ ]
+}

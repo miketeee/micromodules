@@ -1,0 +1,1197 @@
+{
+ "slug": "practice5",
+ "title": "Practice Test 5",
+ "subtitle": "Cumulative — Modules 18–24",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A patient's chart lists 'Treponema pallidum' under 'cause' and 'chancre, rash, transmission by sexual contact' under 'course.' Which two branches of pathology are these?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Epidemiology and etiology"
+    },
+    {
+     "letter": "B",
+     "text": "Etiology and immunology"
+    },
+    {
+     "letter": "C",
+     "text": "Etiology and pathogenesis"
+    },
+    {
+     "letter": "D",
+     "text": "Pathogenesis and epidemiology"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Etiology = cause; pathogenesis = how the disease develops."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Which microbe–relationship–benefit set is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "E. coli — mutualism — makes vitamin K and bacteriocins"
+    },
+    {
+     "letter": "B",
+     "text": "Vibrio cholerae — commensalism — neither helps nor harms"
+    },
+    {
+     "letter": "C",
+     "text": "Candida — mutualism — makes vitamin K on the skin"
+    },
+    {
+     "letter": "D",
+     "text": "S. epidermidis — parasitism — causes most staph infections"
+    }
+   ],
+   "correct": "A",
+   "explanation": "E. coli in the colon is the course's mutualism example."
+  },
+  {
+   "num": 3,
+   "type": "Multi-statement",
+   "prompt": "Which statement about acquiring normal flora is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "S. epidermidis comes from nursing and handling."
+    },
+    {
+     "letter": "B",
+     "text": "The fetus picks up E. coli from the amniotic fluid."
+    },
+    {
+     "letter": "C",
+     "text": "E. coli comes from contaminated food and objects."
+    },
+    {
+     "letter": "D",
+     "text": "L. acidophilus comes from passing through the birth canal."
+    },
+    {
+     "letter": "E",
+     "text": "The microbiome approaches stability around age two."
+    }
+   ],
+   "correct": "B",
+   "explanation": "The amniotic sac is sterile; E. coli comes later from food and objects."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Measles cases jump from 0 to 40 in one county within two weeks. Which pair of terms fits best?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sporadic and subclinical"
+    },
+    {
+     "letter": "B",
+     "text": "Epidemic and contagious"
+    },
+    {
+     "letter": "C",
+     "text": "Pandemic and latent"
+    },
+    {
+     "letter": "D",
+     "text": "Endemic and non-communicable"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Many cases in an area in a short time; measles spreads easily."
+  },
+  {
+   "num": 5,
+   "type": "Open recall",
+   "prompt": "Define incidence and prevalence, and explain what happens to prevalence if a new drug keeps patients alive longer without curing them.",
+   "options": [],
+   "correct": null,
+   "explanation": "Incidence = new cases in a time period; prevalence = all (new + existing) cases at a given time. If patients live longer without a cure, fewer cases leave the 'jar,' so prevalence rises even if incidence is unchanged."
+  },
+  {
+   "num": 6,
+   "type": "Open recall",
+   "prompt": "Give three limitations of Koch's postulates with an example of each.",
+   "options": [],
+   "correct": null,
+   "explanation": "Multiple causes (sinusitis, UTIs); microbes that can't be pure-cultured; ethical concerns with human-only pathogens (Koch's postulates have never been completed for HIV/AIDS). Barry Marshall avoided the ethics problem by infecting himself with H. pylori."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "A patient feels completely normal on day 6 of a 10-day antibiotic course. Which disease stage is he likely in, and what's the risk of stopping?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Incubation; the drug hasn't started working on the microbes yet"
+    },
+    {
+     "letter": "B",
+     "text": "Convalescence; resistant survivors could restart the infection"
+    },
+    {
+     "letter": "C",
+     "text": "Period of illness; stopping now won't change the outcome"
+    },
+    {
+     "letter": "D",
+     "text": "Prodromal; his symptoms are about to peak in a day or two"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Signs and symptoms are gone before the microbe count reaches zero."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which pairing of infection term and example is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Latent — food poisoning"
+    },
+    {
+     "letter": "B",
+     "text": "Secondary — pneumonia after sinusitis"
+    },
+    {
+     "letter": "C",
+     "text": "Subclinical — tuberculosis scarring the lungs"
+    },
+    {
+     "letter": "D",
+     "text": "Local — measles"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Latent = herpes; local = abscess; subclinical = hepatitis A."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which statement correctly contrasts direct and indirect contact transmission?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Direct goes through a fomite; indirect needs physical contact"
+    },
+    {
+     "letter": "B",
+     "text": "Direct needs physical contact; indirect goes through a fomite"
+    },
+    {
+     "letter": "C",
+     "text": "Direct is always airborne; indirect is always through water"
+    },
+    {
+     "letter": "D",
+     "text": "Direct requires an arthropod vector; indirect requires a vehicle"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Fomites (doorknobs, toys, equipment) are the middlemen."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Which portal of entry fits each case: a mosquito bite, a sneeze inhaled, a burn?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Broken skin; parenteral; mucous membrane"
+    },
+    {
+     "letter": "B",
+     "text": "Mucous membrane; parenteral; broken skin"
+    },
+    {
+     "letter": "C",
+     "text": "Parenteral; mucous membrane; broken skin"
+    },
+    {
+     "letter": "D",
+     "text": "Parenteral; broken skin; mucous membrane"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Bites plunge through intact skin; inhaled droplets reach respiratory mucosa."
+  },
+  {
+   "num": 11,
+   "type": "Multi-statement",
+   "prompt": "Which statement about virulence factors is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Siderophores pull iron from host cells."
+    },
+    {
+     "letter": "B",
+     "text": "Fimbriae help E. coli adhere to bladder cells."
+    },
+    {
+     "letter": "C",
+     "text": "IgA protease destroys antibodies in mucus."
+    },
+    {
+     "letter": "D",
+     "text": "Invasins let Salmonella enter host cells."
+    },
+    {
+     "letter": "E",
+     "text": "Kinase helps S. aureus build a clot barricade."
+    }
+   ],
+   "correct": "E",
+   "explanation": "Coagulase builds the clot (S. aureus); kinase dissolves clots (S. pyogenes)."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Which bacterium and toxin type are correctly paired?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "S. pyogenes — Type III A-B toxin"
+    },
+    {
+     "letter": "B",
+     "text": "C. botulinum — Type II hemolysin"
+    },
+    {
+     "letter": "C",
+     "text": "S. aureus — Type I superantigen"
+    },
+    {
+     "letter": "D",
+     "text": "E. coli — Type I exotoxin as LPS"
+    }
+   ],
+   "correct": "C",
+   "explanation": "S. pyogenes = hemolysin; C. botulinum = A-B; LPS is an endotoxin."
+  },
+  {
+   "num": 13,
+   "type": "Open recall",
+   "prompt": "Explain why healthcare facilities are prone to HAIs and name the two most common HAI types and one major organism.",
+   "options": [],
+   "correct": null,
+   "explanation": "They have many reservoirs (sick patients), many invasive procedures (catheters, surgery), and many compromised hosts. The most common HAIs are UTIs (often catheter biofilms) and surgical-site infections; S. aureus/MRSA is a major culprit (also C. diff, Pseudomonas, Klebsiella, Enterococcus)."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Describe Émile Roux's experiment and what it revealed.",
+   "options": [],
+   "correct": null,
+   "explanation": "He grew diphtheria in broth, filtered out the cells, and injected the cell-free filtrate into guinea pigs. Young (24–48 h) cultures had no effect, but filtrate from ~2-week cultures killed guinea pigs at tiny doses — revealing a secreted toxin (diphtheria exotoxin) that explained the disease's body-wide effects."
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Why are guinea pigs and filtrates both central to the discovery of diphtheria toxin AND humoral immunity?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Roux found toxin in a filtrate; von Behring transferred immunity in blood"
+    },
+    {
+     "letter": "B",
+     "text": "Both experiments proved Koch's postulates for HIV and AIDS"
+    },
+    {
+     "letter": "C",
+     "text": "Both used guinea pigs to grow pure cultures of diphtheria"
+    },
+    {
+     "letter": "D",
+     "text": "Both men used filtered viruses to infect their guinea pigs"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Links Module 19 to Module 22."
+  },
+  {
+   "num": 16,
+   "type": "Multiple choice",
+   "prompt": "Which observation would show that a disease spreads by a biological rather than mechanical vector?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The pathogen multiplies inside the insect before transmission"
+    },
+    {
+     "letter": "B",
+     "text": "The insect lands on food after it has visited garbage"
+    },
+    {
+     "letter": "C",
+     "text": "The insect turns out to be non-living, like a fomite"
+    },
+    {
+     "letter": "D",
+     "text": "The pathogen is found stuck to the hairs on the insect's legs"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Reproduction inside the vector defines biological transmission."
+  },
+  {
+   "num": 17,
+   "type": "Multiple choice",
+   "prompt": "Which physical-barrier failure is matched with the right consequence?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Destroyed ciliary escalator — mucus builds up and is coughed out"
+    },
+    {
+     "letter": "B",
+     "text": "Blocked lacrimal duct — stomach acid rises and burns the throat"
+    },
+    {
+     "letter": "C",
+     "text": "Loss of sebum — the lacrimal glands stop forming tears"
+    },
+    {
+     "letter": "D",
+     "text": "Loss of gastric acid — skin becomes salty and dries out"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Smoking or pertussis toxin can destroy cilia."
+  },
+  {
+   "num": 18,
+   "type": "Multiple choice",
+   "prompt": "Which list pairs each fluid with its protective chemical correctly?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Saliva — HCl; tears — sebum; gastric juice — lysozyme"
+    },
+    {
+     "letter": "B",
+     "text": "Tears — lysozyme; gastric juice — HCl; vaginal secretions — lactic acid"
+    },
+    {
+     "letter": "C",
+     "text": "Sweat — HCl; earwax — lysozyme only; sebum — IgA"
+    },
+    {
+     "letter": "D",
+     "text": "Tears — HCl; saliva — sebum; urine — lactic acid"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Saliva adds IgA; earwax and skin rely on sebum."
+  },
+  {
+   "num": 19,
+   "type": "Multi-statement",
+   "prompt": "Which statement about inflammation is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Histamine constricts vessels, which raises blood pressure."
+    },
+    {
+     "letter": "B",
+     "text": "Redness and heat come from increased blood flow."
+    },
+    {
+     "letter": "C",
+     "text": "Leaky vessels let fluid and WBCs into tissue."
+    },
+    {
+     "letter": "D",
+     "text": "Mast cells release histamine when damaged."
+    },
+    {
+     "letter": "E",
+     "text": "Clotting helps wall in the infection."
+    }
+   ],
+   "correct": "A",
+   "explanation": "Histamine is a vasodilator that lowers blood pressure."
+  },
+  {
+   "num": 20,
+   "type": "Multiple choice",
+   "prompt": "Which order shows phagocytosis by a macrophage?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pseudopods → exocytosis → phagosome → binding → phagolysosome"
+    },
+    {
+     "letter": "B",
+     "text": "Bind via Toll-like receptor → pseudopods → phagosome → phagolysosome → exocytosis"
+    },
+    {
+     "letter": "C",
+     "text": "Phagolysosome → binding → pseudopods → phagosome → exocytosis"
+    },
+    {
+     "letter": "D",
+     "text": "Exocytosis → binding → phagosome → pseudopods → phagolysosome"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Digest inside the phagolysosome, then expel waste."
+  },
+  {
+   "num": 21,
+   "type": "Open recall",
+   "prompt": "Explain why intact skin is called the body's best defense and describe two features that make it inhospitable to microbes.",
+   "options": [],
+   "correct": null,
+   "explanation": "Few pathogens can penetrate it, and it covers nearly every surface. It is dry (little moisture), salty (sweat residue), acidic (sebum fatty acids, pH ~3–5), constantly shedding, and colonized by S. epidermidis, which outcompetes pathogens."
+  },
+  {
+   "num": 22,
+   "type": "Open recall",
+   "prompt": "Compare neutrophils and macrophages at an infection site.",
+   "options": [],
+   "correct": null,
+   "explanation": "Neutrophils are first responders that phagocytize immediately but die from overeating (becoming pus). Monocytes arrive and become macrophages, which eat more bacteria without dying because they digest them and exocytose the waste; they also clean up pus and debris."
+  },
+  {
+   "num": 23,
+   "type": "Multiple choice",
+   "prompt": "Metchnikoff's two major contributions were:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Discovering antibodies and clonal selection"
+    },
+    {
+     "letter": "B",
+     "text": "Discovering penicillin and lysozyme"
+    },
+    {
+     "letter": "C",
+     "text": "Inventing pasteurization and the Gram stain"
+    },
+    {
+     "letter": "D",
+     "text": "Discovering phagocytes/phagocytosis and promoting probiotics"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Nobel 1908; buttermilk and Lactobacillus."
+  },
+  {
+   "num": 24,
+   "type": "Multiple choice",
+   "prompt": "Which is a first-line defense rather than a second-line defense?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Complement activation"
+    },
+    {
+     "letter": "B",
+     "text": "Fever"
+    },
+    {
+     "letter": "C",
+     "text": "Lysozyme in tears"
+    },
+    {
+     "letter": "D",
+     "text": "Phagocytosis"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Antimicrobial chemicals are first line."
+  },
+  {
+   "num": 25,
+   "type": "Multiple choice",
+   "prompt": "Which complement outcome directly increases the efficiency of phagocytosis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Histamine release from mast cells"
+    },
+    {
+     "letter": "B",
+     "text": "Opsonization by C3b"
+    },
+    {
+     "letter": "C",
+     "text": "Fever from interleukins"
+    },
+    {
+     "letter": "D",
+     "text": "MAC formation by C9"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Macrophages have C3b receptors."
+  },
+  {
+   "num": 26,
+   "type": "Multi-statement",
+   "prompt": "Which statement about complement is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mannose and LPS can trigger complement."
+    },
+    {
+     "letter": "B",
+     "text": "Complement can trigger inflammation."
+    },
+    {
+     "letter": "C",
+     "text": "Complement proteins circulate inactive in serum."
+    },
+    {
+     "letter": "D",
+     "text": "Complement proteins are made by plasma cells."
+    },
+    {
+     "letter": "E",
+     "text": "Antibodies can trigger complement."
+    }
+   ],
+   "correct": "D",
+   "explanation": "Complement proteins are serum proteins, not antibodies from plasma cells."
+  },
+  {
+   "num": 27,
+   "type": "Multiple choice",
+   "prompt": "Pyrogenic interleukins raise body temperature by acting on the:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bone marrow"
+    },
+    {
+     "letter": "B",
+     "text": "Thymus"
+    },
+    {
+     "letter": "C",
+     "text": "Hypothalamus"
+    },
+    {
+     "letter": "D",
+     "text": "Lacrimal glands"
+    }
+   ],
+   "correct": "C",
+   "explanation": "They reset the thermostat."
+  },
+  {
+   "num": 28,
+   "type": "Multiple choice",
+   "prompt": "Which observation best fits interferon's mechanism?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cells near an infected cell resist a virus because they've made AVPs"
+    },
+    {
+     "letter": "B",
+     "text": "Bacteria near the infected cell burst"
+    },
+    {
+     "letter": "C",
+     "text": "Mast cells release histamine near the virus"
+    },
+    {
+     "letter": "D",
+     "text": "The infected cell recovers after making interferon"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Interferon protects neighbors, not the producer."
+  },
+  {
+   "num": 29,
+   "type": "Open recall",
+   "prompt": "Describe the membrane attack complex and its outcome.",
+   "options": [],
+   "correct": null,
+   "explanation": "Activated C5b recruits C6, C7, C8, and C9; they insert into the bacterial membrane and C9 forms a ring-shaped pore. Several pores cause the cell to lyse (cytolysis)."
+  },
+  {
+   "num": 30,
+   "type": "Open recall",
+   "prompt": "Why might a doctor let a low-grade fever run its course, but act quickly on a very high one?",
+   "options": [],
+   "correct": null,
+   "explanation": "A low-grade fever impairs bacterial enzymes (which fall off more steeply above 37 °C) while human enzymes still work. Around 44–46 °C, human enzymes denature too, which can be fatal."
+  },
+  {
+   "num": 31,
+   "type": "Multiple choice",
+   "prompt": "Which second-line defense targets viruses inside cells rather than bacteria?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lysozyme"
+    },
+    {
+     "letter": "B",
+     "text": "The membrane attack complex"
+    },
+    {
+     "letter": "C",
+     "text": "Interferon"
+    },
+    {
+     "letter": "D",
+     "text": "Opsonization"
+    }
+   ],
+   "correct": "C",
+   "explanation": "AVPs destroy viral RNA."
+  },
+  {
+   "num": 32,
+   "type": "Multiple choice",
+   "prompt": "Which complement fragment pairs are matched to the right job?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "C5a — MAC; C3b — mast cells; C9 — opsonin"
+    },
+    {
+     "letter": "B",
+     "text": "C3b — pyrogen; C5a — interferon; C9 — AVP"
+    },
+    {
+     "letter": "C",
+     "text": "C3a — opsonin; C3b — MAC; C9 — mast cells"
+    },
+    {
+     "letter": "D",
+     "text": "C3b — opsonin; C3a/C5a — mast cell triggers; C5b–C9 — MAC"
+    }
+   ],
+   "correct": "D",
+   "explanation": "The three outcomes in fragment form."
+  },
+  {
+   "num": 33,
+   "type": "Multiple choice",
+   "prompt": "Which antibody structure feature allows agglutination?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A single heavy chain"
+    },
+    {
+     "letter": "B",
+     "text": "Disulfide bonds in the stem"
+    },
+    {
+     "letter": "C",
+     "text": "Two antigen-binding sites on each antibody"
+    },
+    {
+     "letter": "D",
+     "text": "A constant region that binds mast cells"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Each antibody can bridge two pathogens."
+  },
+  {
+   "num": 34,
+   "type": "Multi-statement",
+   "prompt": "Which statement about antibody classes is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "IgG makes up about 80% of serum antibody."
+    },
+    {
+     "letter": "B",
+     "text": "IgD's function is still unclear."
+    },
+    {
+     "letter": "C",
+     "text": "IgA is the most abundant serum antibody."
+    },
+    {
+     "letter": "D",
+     "text": "IgE sits on the surface of mast cells."
+    },
+    {
+     "letter": "E",
+     "text": "IgM is secreted as a pentamer."
+    }
+   ],
+   "correct": "C",
+   "explanation": "IgE is a monomer on mast cells; IgA is in breast milk."
+  },
+  {
+   "num": 35,
+   "type": "Multiple choice",
+   "prompt": "A titer graph shows IgM rising at day 7 and IgG later, then both falling. What does it show?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A secondary response"
+    },
+    {
+     "letter": "B",
+     "text": "Passive immunity"
+    },
+    {
+     "letter": "C",
+     "text": "A T-independent memory response"
+    },
+    {
+     "letter": "D",
+     "text": "A primary response"
+    }
+   ],
+   "correct": "D",
+   "explanation": "IgM comes first after a lag."
+  },
+  {
+   "num": 36,
+   "type": "Multiple choice",
+   "prompt": "Which immunity type does each give: antivenom, measles infection, breast milk, flu shot?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Natural active; artificial passive; artificial active; natural passive"
+    },
+    {
+     "letter": "B",
+     "text": "Artificial active; natural passive; natural active; artificial passive"
+    },
+    {
+     "letter": "C",
+     "text": "Natural passive; artificial active; natural active; artificial passive"
+    },
+    {
+     "letter": "D",
+     "text": "Artificial passive; natural active; natural passive; artificial active"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Who makes the antibodies, and how was the antigen/antibody delivered?"
+  },
+  {
+   "num": 37,
+   "type": "Open recall",
+   "prompt": "Describe clonal selection, including what makes the response faster the second time.",
+   "options": [],
+   "correct": null,
+   "explanation": "Billions of B cells each have a unique receptor; an antigen binds and selects the matching B cell, which clones into plasma cells (secrete antibodies) and memory cells. On re-exposure, the many memory cells respond immediately, producing more IgG faster."
+  },
+  {
+   "num": 38,
+   "type": "Open recall",
+   "prompt": "Explain how antibodies can trigger inflammation and why IgG can't.",
+   "options": [],
+   "correct": null,
+   "explanation": "Antigen binding to IgE anchored on mast cells (via their constant-region receptors) triggers histamine release → inflammation. Mast cell receptors fit only IgE's constant region, so IgG can't."
+  },
+  {
+   "num": 39,
+   "type": "Multiple choice",
+   "prompt": "Von Behring's transferred immunity lasted about three weeks. Which modern treatment works the same way?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Receiving an attenuated MMR vaccine"
+    },
+    {
+     "letter": "B",
+     "text": "Recovering from chickenpox"
+    },
+    {
+     "letter": "C",
+     "text": "Receiving a toxoid vaccine"
+    },
+    {
+     "letter": "D",
+     "text": "Injecting monoclonal antibodies"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Both are passive — preformed antibodies."
+  },
+  {
+   "num": 40,
+   "type": "Multiple choice",
+   "prompt": "Which pair of scientists and contributions is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Burnet — clonal selection; von Behring — humoral immunity"
+    },
+    {
+     "letter": "B",
+     "text": "Koch — antibodies; Roux — clonal selection"
+    },
+    {
+     "letter": "C",
+     "text": "Metchnikoff — clonal selection; Burnet — phagocytes"
+    },
+    {
+     "letter": "D",
+     "text": "Burnet — humoral immunity; von Behring — clonal selection"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Nobel Prizes 1960 and 1901."
+  },
+  {
+   "num": 41,
+   "type": "Multiple choice",
+   "prompt": "Which list includes only antigen-presenting cells that use MHC-2?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Skin cells, liver cells, B cells"
+    },
+    {
+     "letter": "B",
+     "text": "Neutrophils, red blood cells, mast cells"
+    },
+    {
+     "letter": "C",
+     "text": "Cytotoxic T cells, NK cells, eosinophils"
+    },
+    {
+     "letter": "D",
+     "text": "Macrophages, dendritic cells, B cells"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Regular body cells use MHC-1."
+  },
+  {
+   "num": 42,
+   "type": "Multi-statement",
+   "prompt": "Which statement is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "CD8 on helper T cells binds MHC-2."
+    },
+    {
+     "letter": "B",
+     "text": "T cells mature in the thymus."
+    },
+    {
+     "letter": "C",
+     "text": "CD4 on helper T cells binds MHC-2."
+    },
+    {
+     "letter": "D",
+     "text": "CD8 on cytotoxic T cells binds MHC-1."
+    },
+    {
+     "letter": "E",
+     "text": "T cell receptors are never secreted."
+    }
+   ],
+   "correct": "A",
+   "explanation": "Helper T cells carry CD4, not CD8."
+  },
+  {
+   "num": 43,
+   "type": "Multiple choice",
+   "prompt": "A cytotoxic T cell kills a virus-infected cell. Which sequence is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Viral antigen on MHC-2 → TCR + CD4 bind → interleukin → plasma cells"
+    },
+    {
+     "letter": "B",
+     "text": "C3b on cell → macrophage → phagolysosome → exocytosis"
+    },
+    {
+     "letter": "C",
+     "text": "Antibody on cell → Fc receptor → histamine → inflammation"
+    },
+    {
+     "letter": "D",
+     "text": "Viral antigen on MHC-1 → TCR + CD8 bind → perforin and granzyme → apoptosis"
+    }
+   ],
+   "correct": "D",
+   "explanation": "The killer T cell pathway."
+  },
+  {
+   "num": 44,
+   "type": "Multiple choice",
+   "prompt": "Why does HIV cause a low WBC count and widespread immune failure?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It blocks interferon in every cell"
+    },
+    {
+     "letter": "B",
+     "text": "It destroys red blood cells, lowering all counts"
+    },
+    {
+     "letter": "C",
+     "text": "It destroys MHC-1, so NK cells attack all cells"
+    },
+    {
+     "letter": "D",
+     "text": "It destroys helper T cells, which coordinate B cell activation"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Helper T cells are central to adaptive immunity."
+  },
+  {
+   "num": 45,
+   "type": "Open recall",
+   "prompt": "Explain how NK cells use two different receptors to choose targets.",
+   "options": [],
+   "correct": null,
+   "explanation": "Fc receptors bind antibody constant regions on coated targets (parasites) → antibody-dependent cytotoxicity. MHC-1 receptors detect self; binding MHC-1 inhibits the NK cell, so cells lacking MHC-1 (e.g., some cancer cells) are killed with perforin and granzymes."
+  },
+  {
+   "num": 46,
+   "type": "Open recall",
+   "prompt": "Explain how monoclonal antibodies are made and give one diagnostic and one therapeutic use.",
+   "options": [],
+   "correct": null,
+   "explanation": "Inject an antigen into a mouse → isolate the B cell making the desired antibody → fuse it with an immortal cancer cell (ethylene glycol) → hybridoma secretes identical antibodies indefinitely. Diagnostic: rapid COVID/pregnancy/strep tests. Therapeutic: cancer 'magic bullets' or COVID monoclonals that neutralize the spike protein."
+  },
+  {
+   "num": 47,
+   "type": "Multiple choice",
+   "prompt": "Which difference between apoptosis and necrosis matters most for inflammation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Apoptosis is caused by bacteria; necrosis is caused by cytotoxic T cells"
+    },
+    {
+     "letter": "B",
+     "text": "Apoptotic cells call macrophages to clean up; necrosis spills and inflames"
+    },
+    {
+     "letter": "C",
+     "text": "Necrosis is programmed cell death; apoptosis is an accidental death"
+    },
+    {
+     "letter": "D",
+     "text": "Apoptosis only happens in cancer cells; necrosis happens in all others"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Tidy vs messy cell death."
+  },
+  {
+   "num": 48,
+   "type": "Multiple choice",
+   "prompt": "On a rapid antigen test, no line appears at C or T. What is the result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Negative"
+    },
+    {
+     "letter": "B",
+     "text": "Invalid"
+    },
+    {
+     "letter": "C",
+     "text": "Positive"
+    },
+    {
+     "letter": "D",
+     "text": "Positive for a different virus"
+    }
+   ],
+   "correct": "B",
+   "explanation": "A control line is always required."
+  },
+  {
+   "num": 49,
+   "type": "Multiple choice",
+   "prompt": "Which list puts smallpox prevention in historical order?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Jenner's cowpox → Chinese scab inhalation → European variolation → Pasteur"
+    },
+    {
+     "letter": "B",
+     "text": "Pasteur → Jenner → variolation → Chinese inhalation"
+    },
+    {
+     "letter": "C",
+     "text": "Chinese scab inhalation → European variolation → Jenner's cowpox → Pasteur coins 'vaccine'"
+    },
+    {
+     "letter": "D",
+     "text": "European variolation → Pasteur → Chinese inhalation → Jenner"
+    }
+   ],
+   "correct": "C",
+   "explanation": "1400s → 1700s → Jenner → Pasteur."
+  },
+  {
+   "num": 50,
+   "type": "Multi-statement",
+   "prompt": "Which vaccine pairing is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tetanus — toxoid"
+    },
+    {
+     "letter": "B",
+     "text": "HPV — attenuated whole agent"
+    },
+    {
+     "letter": "C",
+     "text": "Rabies — inactivated whole agent"
+    },
+    {
+     "letter": "D",
+     "text": "MMR — attenuated whole agent"
+    },
+    {
+     "letter": "E",
+     "text": "COVID — nucleic acid"
+    }
+   ],
+   "correct": "B",
+   "explanation": "HPV is a subunit vaccine."
+  },
+  {
+   "num": 51,
+   "type": "Multiple choice",
+   "prompt": "Which drug pairing of target and mechanism is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Erythromycin — protein synthesis; vancomycin — cell wall"
+    },
+    {
+     "letter": "B",
+     "text": "Sulfanilamide — protein synthesis; tetracycline — folic acid"
+    },
+    {
+     "letter": "C",
+     "text": "Cipro — cell wall; penicillin — DNA gyrase"
+    },
+    {
+     "letter": "D",
+     "text": "Cephalosporin — nucleic acid; streptomycin — enzyme function"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The four lecture targets."
+  },
+  {
+   "num": 52,
+   "type": "Multiple choice",
+   "prompt": "Why are DNA COVID vaccines better for remote parts of the world?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They stay stable at room temperature and need only one dose"
+    },
+    {
+     "letter": "B",
+     "text": "They use lipid nanoparticles that never break down"
+    },
+    {
+     "letter": "C",
+     "text": "They contain live coronavirus that spreads protection"
+    },
+    {
+     "letter": "D",
+     "text": "They don't require any injection"
+    }
+   ],
+   "correct": "A",
+   "explanation": "mRNA needs ultra-cold storage and two doses."
+  },
+  {
+   "num": 53,
+   "type": "Open recall",
+   "prompt": "Compare Ehrlich's and Fleming's contributions to antimicrobial therapy.",
+   "options": [],
+   "correct": null,
+   "explanation": "Ehrlich pioneered synthetic antimicrobials with 'magic bullets' — Preparation 606 (Salvarsan, arsenic + dye) treated trypanosomes and syphilis. Fleming discovered penicillin from Penicillium mold's zone of inhibition; Chain and Florey later mass-produced it during WWII."
+  },
+  {
+   "num": 54,
+   "type": "Open recall",
+   "prompt": "Explain when to use broad- versus narrow-spectrum antibiotics and why.",
+   "options": [],
+   "correct": null,
+   "explanation": "Broad-spectrum when the pathogen is unknown (they hit many bacteria but also kill normal flora, risking superinfections and resistance). Narrow-spectrum when the pathogen is known, to target it while sparing normal flora."
+  },
+  {
+   "num": 55,
+   "type": "Multiple choice",
+   "prompt": "Which new approach to resistant infections is self-amplifying and self-eliminating?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Phage therapy"
+    },
+    {
+     "letter": "B",
+     "text": "Broad-spectrum antibiotics"
+    },
+    {
+     "letter": "C",
+     "text": "Quorum-sensing inhibitors"
+    },
+    {
+     "letter": "D",
+     "text": "Variolation"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Phages multiply only while their target bacteria remain."
+  },
+  {
+   "num": 56,
+   "type": "Multiple choice",
+   "prompt": "A quorum-sensing inhibitor would most likely stop which outcome?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bacteria forming endospores in dry soil"
+    },
+    {
+     "letter": "B",
+     "text": "Bacteria taking up plasmids by conjugation"
+    },
+    {
+     "letter": "C",
+     "text": "A large bacterial population releasing toxins all at once"
+    },
+    {
+     "letter": "D",
+     "text": "A single bacterium dividing by binary fission"
+    }
+   ],
+   "correct": "C",
+   "explanation": "It blocks the signal that coordinates toxin release."
+  }
+ ]
+}

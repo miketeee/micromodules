@@ -1,0 +1,352 @@
+{
+ "slug": "mod18-3",
+ "title": "Module 18 — Quiz 3",
+ "subtitle": "Principles of Disease — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A hospital uses a fecal transplant to treat a patient's recurring C. difficile infection. Which concept from Module 18 best explains why it works?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The transplant raises the colon's pH to 7.35, killing C. diff"
+    },
+    {
+     "letter": "B",
+     "text": "The transplant contains antibiotics that kill C. difficile directly"
+    },
+    {
+     "letter": "C",
+     "text": "The transplant turns C. difficile into a harmless mutualist"
+    },
+    {
+     "letter": "D",
+     "text": "Restoring diverse normal flora brings back microbial antagonism"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Slides: fecal transplants restore beneficial microbiota; more diverse flora outcompete pathogens."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "A researcher isolates a new virus from patients but can't grow it outside human cells and can't ethically infect volunteers. Which TWO limitations of Koch's postulates apply?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is endemic in the region, and it is also sporadic"
+    },
+    {
+     "letter": "B",
+     "text": "It has several possible causes, and it is non-communicable"
+    },
+    {
+     "letter": "C",
+     "text": "It can't be pure-cultured, and testing on humans would be unethical"
+    },
+    {
+     "letter": "D",
+     "text": "It is a latent infection, and it is also subclinical"
+    }
+   ],
+   "correct": "C",
+   "explanation": "These are the same limitations that have kept Koch's postulates from being completed for HIV and AIDS."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Lyme disease is infectious but, per the slides, non-communicable. Which statement must therefore be true?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Not all infectious diseases are communicable"
+    },
+    {
+     "letter": "B",
+     "text": "Lyme disease is caused by normal flora"
+    },
+    {
+     "letter": "C",
+     "text": "Lyme disease is contagious"
+    },
+    {
+     "letter": "D",
+     "text": "All non-communicable diseases are non-infectious"
+    }
+   ],
+   "correct": "A",
+   "explanation": "All communicable diseases are infectious, but not all infectious diseases are communicable (tetanus, Lyme)."
+  },
+  {
+   "num": 4,
+   "type": "Multi-statement",
+   "prompt": "A patient's infection follows the disease curve. Which statement is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A patient who feels fine during convalescence has no microbes left."
+    },
+    {
+     "letter": "B",
+     "text": "Stopping antibiotics early can leave the most resistant microbes behind."
+    },
+    {
+     "letter": "C",
+     "text": "Incubation has microbes but no signs or symptoms."
+    },
+    {
+     "letter": "D",
+     "text": "Prodromal symptoms are mild, like 'I'm coming down with something.'"
+    },
+    {
+     "letter": "E",
+     "text": "The period of illness matches exponential (log) growth of the pathogen."
+    }
+   ],
+   "correct": "A",
+   "explanation": "During convalescence the curve hasn't yet reached zero."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "If a disease's incidence stays constant but patients start living much longer with it (no cure), what happens to prevalence?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It rises, because fewer cases leave while new ones keep coming"
+    },
+    {
+     "letter": "B",
+     "text": "It falls, because incidence is staying exactly the same"
+    },
+    {
+     "letter": "C",
+     "text": "It becomes equal to incidence once deaths stop entirely"
+    },
+    {
+     "letter": "D",
+     "text": "It stays the same, because incidence isn't changing at all"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Prevalence = existing + new cases; fewer deaths means cases accumulate."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Which scenario describes a SPORADIC disease becoming an EPIDEMIC?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A brand-new flu strain spreads to every continent within a few short months"
+    },
+    {
+     "letter": "B",
+     "text": "A town rarely sees cholera; then floodwater taints wells and dozens fall ill in a week"
+    },
+    {
+     "letter": "C",
+     "text": "Diabetes rates in a state rise slowly and steadily over the course of a decade"
+    },
+    {
+     "letter": "D",
+     "text": "The common cold circulates all year in a large city, with someone always sick"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Sporadic = occasional; epidemic = many cases in an area in a short time."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Which pairing of infection type and example is INCORRECT?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Latent — herpes fever blisters"
+    },
+    {
+     "letter": "B",
+     "text": "Local — abscessed tooth"
+    },
+    {
+     "letter": "C",
+     "text": "Subclinical — measles"
+    },
+    {
+     "letter": "D",
+     "text": "Acute — food poisoning"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Measles is systemic with obvious spots; the lecture's subclinical example is hepatitis A."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Why might normal-flora S. aureus cause a wound infection after surgery even though it was harmless before?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Surgery converts S. aureus into S. epidermidis, which then infects the cut"
+    },
+    {
+     "letter": "B",
+     "text": "It's an opportunistic pathogen introduced to a new site beneath the skin"
+    },
+    {
+     "letter": "C",
+     "text": "S. aureus is a true pathogen that always causes disease wherever it lives"
+    },
+    {
+     "letter": "D",
+     "text": "Surgery kills all skin bacteria, so any S. aureus must be a new arrival"
+    }
+   ],
+   "correct": "B",
+   "explanation": "On unbroken skin S. aureus is commensal; through a cut, it reaches tissue where it causes disease."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "An elderly patient on chemotherapy develops pneumonia caused by a normally harmless microbe. Which combination of terms fits best?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Passive carrier, latent infection, endemic disease in the ward"
+    },
+    {
+     "letter": "B",
+     "text": "Compromised host, predisposing factors, opportunistic pathogen"
+    },
+    {
+     "letter": "C",
+     "text": "Healthy host, true pathogen, herd immunity from vaccination"
+    },
+    {
+     "letter": "D",
+     "text": "Commensal relationship, subclinical infection, pandemic spread"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Age and immunosuppressive therapy weaken defenses so opportunists can cause disease."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Which observation best supports the idea that normal flora protect against Salmonella?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Salmonella can only grow on the skin, where E. coli is never found"
+    },
+    {
+     "letter": "B",
+     "text": "Lactobacillus raises the intestinal pH so that Salmonella can't grow"
+    },
+    {
+     "letter": "C",
+     "text": "S. epidermidis lives in the colon and crowds out Salmonella there"
+    },
+    {
+     "letter": "D",
+     "text": "E. coli in the intestine releases bacteriocins that inhibit Salmonella"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Bacteriocins are one of the three antagonism mechanisms."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "A disease has a long incubation period with no symptoms, yet the patient can spread it. Which concept explains this?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The disease must be latent"
+    },
+    {
+     "letter": "B",
+     "text": "The disease is non-communicable"
+    },
+    {
+     "letter": "C",
+     "text": "The patient is a passive carrier who is not infected"
+    },
+    {
+     "letter": "D",
+     "text": "The patient is an active carrier during incubation"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Textbook: active carriers can transmit during incubation, before signs and symptoms appear."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Sepsis differs from bacteremia because sepsis is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A local infection confined to one organ that never reaches the blood"
+    },
+    {
+     "letter": "B",
+     "text": "Toxins present in the blood with no bacteria anywhere in the body"
+    },
+    {
+     "letter": "C",
+     "text": "An extreme immune reaction to pathogens or toxins that can cause shock"
+    },
+    {
+     "letter": "D",
+     "text": "Simply the presence of bacteria in the blood, with or without symptoms"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Bacteremia is a condition (bacteria in blood); sepsis is the dangerous body-wide reaction."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "A baby born by C-section initially lacks large numbers of which normal flora, according to the lecture's acquisition routes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lactobacillus acidophilus"
+    },
+    {
+     "letter": "B",
+     "text": "Staphylococcus epidermidis"
+    },
+    {
+     "letter": "C",
+     "text": "Staphylococcus aureus"
+    },
+    {
+     "letter": "D",
+     "text": "Escherichia coli"
+    }
+   ],
+   "correct": "A",
+   "explanation": "L. acidophilus is acquired by passing through the vaginal canal; slides note C-section babies meet different microbes."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Using the three types of symbiosis, explain how E. coli can be mutualistic in one person's colon and cause disease in another person's bladder.",
+   "options": [],
+   "correct": null,
+   "explanation": "In the colon E. coli is mutualistic (+/+): it gets a moist, food-rich home and makes vitamin K and bacteriocins. In the urinary tract it is an opportunistic pathogen acting parasitically (+/−), causing a UTI. Location changes the relationship."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Explain herd immunity and why falling vaccination rates have led to more measles cases.",
+   "options": [],
+   "correct": null,
+   "explanation": "Herd immunity is immunity in most of a population (mainly from vaccination); the pathogen can't find enough susceptible hosts, protecting those who aren't immune. When fewer people vaccinate, there are more susceptible hosts, so measles (highly contagious) can spread again and its incidence rises."
+  }
+ ]
+}

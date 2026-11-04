@@ -1,0 +1,381 @@
+{
+ "slug": "mod18",
+ "title": "Module 18",
+ "subtitle": "Principles of Disease — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Researchers determine that a newly identified bacterium causes a disease. Which branch of pathology is this?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pathogenesis"
+    },
+    {
+     "letter": "B",
+     "text": "Epidemiology"
+    },
+    {
+     "letter": "C",
+     "text": "Symbiosis"
+    },
+    {
+     "letter": "D",
+     "text": "Etiology"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Etiology is the study of a disease's cause; pathogenesis studies how it develops."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "A person is infected with HIV and years later develops AIDS. Which statement is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "HIV is the infection; AIDS is the disease"
+    },
+    {
+     "letter": "B",
+     "text": "AIDS is the infection; HIV is the disease"
+    },
+    {
+     "letter": "C",
+     "text": "HIV and AIDS are two names for the same thing"
+    },
+    {
+     "letter": "D",
+     "text": "Both are non-communicable diseases"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Infection = microbial growth in/on the body; disease = a change away from health."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Candida albicans living on unbroken skin, neither helping nor harming you, is an example of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Parasitism"
+    },
+    {
+     "letter": "B",
+     "text": "Commensalism"
+    },
+    {
+     "letter": "C",
+     "text": "Microbial antagonism"
+    },
+    {
+     "letter": "D",
+     "text": "Mutualism"
+    }
+   ],
+   "correct": "B",
+   "explanation": "+/0: the microbe benefits and the host is unaffected."
+  },
+  {
+   "num": 4,
+   "type": "Multi-statement",
+   "prompt": "Which statement about microbial antagonism is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "S. epidermidis outcompetes S. aureus on the skin."
+    },
+    {
+     "letter": "B",
+     "text": "Candida albicans secretes bacteriocins that inhibit E. coli."
+    },
+    {
+     "letter": "C",
+     "text": "E. coli secretes bacteriocins that inhibit Salmonella and Shigella."
+    },
+    {
+     "letter": "D",
+     "text": "Antibiotics that kill normal flora can open the door to pathogens."
+    },
+    {
+     "letter": "E",
+     "text": "L. acidophilus lowers vaginal pH, inhibiting Candida."
+    }
+   ],
+   "correct": "B",
+   "explanation": "E. coli is the bacteriocin producer; Candida is the organism that L. acidophilus keeps in check."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Why do newborns receive a vitamin K injection?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "S. epidermidis destroys vitamin K on the skin"
+    },
+    {
+     "letter": "B",
+     "text": "Breast milk blocks vitamin K absorption in the gut"
+    },
+    {
+     "letter": "C",
+     "text": "They haven't yet acquired the E. coli that makes it"
+    },
+    {
+     "letter": "D",
+     "text": "Vaginal delivery strips vitamin K from the baby"
+    }
+   ],
+   "correct": "C",
+   "explanation": "E. coli is acquired from contaminated food and objects after birth."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "A baby develops acne shortly after birth that later clears up. What's the lecture's explanation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "S. aureus colonized the skin until S. epidermidis outcompeted it"
+    },
+    {
+     "letter": "B",
+     "text": "The baby lacked vitamin K, so its skin broke out in acne"
+    },
+    {
+     "letter": "C",
+     "text": "E. coli from contaminated objects infected the baby's pores"
+    },
+    {
+     "letter": "D",
+     "text": "Lactobacillus from vaginal delivery irritated the newborn's skin"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Both staph species arrive through nursing and handling; S. epidermidis eventually wins."
+  },
+  {
+   "num": 7,
+   "type": "Open recall",
+   "prompt": "List the steps of Koch's postulates and give two limitations.",
+   "options": [],
+   "correct": null,
+   "explanation": "Isolate microbes from a diseased host → grow and identify each in pure culture → inject into a healthy host to recreate the disease → re-isolate and re-identify the same microbe. Limitations: multiple causes (sinusitis, UTI), some microbes can't be pure-cultured, and ethical concerns for human-only pathogens (HIV/AIDS)."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Barry Marshall swallowed a culture of Helicobacter pylori. What was he demonstrating?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "That stomach ulcers are non-communicable and can't be transmitted"
+    },
+    {
+     "letter": "B",
+     "text": "The Koch's postulate step that recreates disease in a healthy host"
+    },
+    {
+     "letter": "C",
+     "text": "That stomach ulcers are really caused by stress and spicy food"
+    },
+    {
+     "letter": "D",
+     "text": "That H. pylori is a harmless member of the stomach's normal flora"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Infecting another human would be unethical, so he used himself."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which is a SIGN rather than a symptom?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A pounding headache"
+    },
+    {
+     "letter": "B",
+     "text": "Feeling very tired all day"
+    },
+    {
+     "letter": "C",
+     "text": "A measured fever of 102 °F"
+    },
+    {
+     "letter": "D",
+     "text": "Aching lower-back pain"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Signs are objective and measurable by an observer; symptoms are felt by the patient."
+  },
+  {
+   "num": 10,
+   "type": "Multi-statement",
+   "prompt": "Which statement is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The flu is communicable."
+    },
+    {
+     "letter": "B",
+     "text": "Measles is contagious."
+    },
+    {
+     "letter": "C",
+     "text": "Tetanus is infectious but non-communicable."
+    },
+    {
+     "letter": "D",
+     "text": "Diabetes is non-communicable."
+    },
+    {
+     "letter": "E",
+     "text": "All communicable diseases are contagious."
+    }
+   ],
+   "correct": "E",
+   "explanation": "All contagious diseases are communicable, but not all communicable diseases are contagious (easily spread)."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "In 2014 there were about 37,600 new AIDS cases in the US and about 1.1 million people living with AIDS. These numbers are:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Incidence and prevalence"
+    },
+    {
+     "letter": "B",
+     "text": "Prevalence and incidence"
+    },
+    {
+     "letter": "C",
+     "text": "Both incidence"
+    },
+    {
+     "letter": "D",
+     "text": "Both prevalence"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Incidence = new cases; prevalence = new + existing cases."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "The common cold is always circulating somewhere in the population. It is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Endemic"
+    },
+    {
+     "letter": "B",
+     "text": "Pandemic"
+    },
+    {
+     "letter": "C",
+     "text": "Epidemic"
+    },
+    {
+     "letter": "D",
+     "text": "Sporadic"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Endemic = constantly present."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Herpes fever blisters can disappear for years and then return. This describes a(n):",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Subclinical infection"
+    },
+    {
+     "letter": "B",
+     "text": "Latent infection"
+    },
+    {
+     "letter": "C",
+     "text": "Local infection"
+    },
+    {
+     "letter": "D",
+     "text": "Acute infection"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The virus remains in the host (as a provirus) without causing disease, then reactivates."
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "A sinus infection causes mucus to carry S. pneumoniae into the lungs, causing pneumonia. The pneumonia is a:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Latent infection"
+    },
+    {
+     "letter": "B",
+     "text": "Primary infection"
+    },
+    {
+     "letter": "C",
+     "text": "Subclinical infection"
+    },
+    {
+     "letter": "D",
+     "text": "Secondary infection"
+    }
+   ],
+   "correct": "D",
+   "explanation": "A secondary infection is caused by an opportunistic microbe after a primary infection weakens defenses."
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Toxins from a wound infection enter the bloodstream even though the bacteria stay in the wound. This is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bacteremia"
+    },
+    {
+     "letter": "B",
+     "text": "Toxemia"
+    },
+    {
+     "letter": "C",
+     "text": "Septicemia"
+    },
+    {
+     "letter": "D",
+     "text": "Viremia"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Toxemia = toxins in the blood; bacteremia = bacteria in the blood."
+  },
+  {
+   "num": 16,
+   "type": "Open recall",
+   "prompt": "Name the five stages of an infectious disease and explain why a patient should finish antibiotics after feeling better.",
+   "options": [],
+   "correct": null,
+   "explanation": "Incubation → prodromal → period of illness → period of decline → convalescence. During convalescence there are no signs or symptoms, but microbes remain — and the survivors are the most resistant, so stopping early lets them start the next infection."
+  }
+ ]
+}

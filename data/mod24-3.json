@@ -1,0 +1,352 @@
+{
+ "slug": "mod24-3",
+ "title": "Module 24 — Quiz 3",
+ "subtitle": "Vaccines and Antimicrobials",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Why did the Chinese and European scab methods carry more risk than Jenner's approach?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They used actual smallpox virus, which could cause the disease"
+    },
+    {
+     "letter": "B",
+     "text": "They used toxoids that triggered dangerous allergic reactions"
+    },
+    {
+     "letter": "C",
+     "text": "They used inactivated smallpox virus that couldn't protect"
+    },
+    {
+     "letter": "D",
+     "text": "They used cowpox virus, which often caused severe cowpox"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Getting the 'Goldilocks' dose was hard."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Which vaccine type would be the safest choice for a severely immunocompromised patient, based on how the types work?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "An attenuated whole-agent vaccine, since it reproduces a little"
+    },
+    {
+     "letter": "B",
+     "text": "An inactivated or subunit vaccine, since nothing in it reproduces"
+    },
+    {
+     "letter": "C",
+     "text": "Variolation, since the smallpox dose is carefully measured"
+    },
+    {
+     "letter": "D",
+     "text": "Cowpox scabs, since cowpox is a mild disease in most people"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Attenuated agents still replicate somewhat."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "COVID monoclonal antibodies (Module 23) and COVID vaccines both target the spike protein. What's the key difference?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Both give passive immunity that fades after a few weeks"
+    },
+    {
+     "letter": "B",
+     "text": "Vaccines contain antibodies; monoclonals contain spike mRNA"
+    },
+    {
+     "letter": "C",
+     "text": "Monoclonals give passive immunity; vaccines build active immunity"
+    },
+    {
+     "letter": "D",
+     "text": "Monoclonals use lipid nanoparticles; vaccines use hybridomas"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Passive is immediate but temporary."
+  },
+  {
+   "num": 4,
+   "type": "Multi-statement",
+   "prompt": "Which statement about antibiotic choice is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Broad-spectrum drugs are always the better choice."
+    },
+    {
+     "letter": "B",
+     "text": "Broad-spectrum drugs suit unknown pathogens."
+    },
+    {
+     "letter": "C",
+     "text": "Killing normal flora can cause superinfections."
+    },
+    {
+     "letter": "D",
+     "text": "Narrow-spectrum drugs require a diagnosis."
+    },
+    {
+     "letter": "E",
+     "text": "Narrow-spectrum drugs spare more normal flora."
+    }
+   ],
+   "correct": "A",
+   "explanation": "Killing more bacteria isn't better — we want the bad guys only."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Which explains why there are few antifungal and antihelminth drugs compared with antibacterials?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fungi and worms have no metabolism for drugs to interfere with"
+    },
+    {
+     "letter": "B",
+     "text": "Fungi and worms are viruses, so antibiotics can't reach them"
+    },
+    {
+     "letter": "C",
+     "text": "Fungi and worms are not pathogens, so drugs aren't needed"
+    },
+    {
+     "letter": "D",
+     "text": "Fungi and worms are eukaryotes like us, so selective toxicity is hard"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Slides: selective toxicity drops as the pathogen resembles the patient."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Why do some antibiotics that target bacterial ribosomes have side effects (slides)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They trigger variolation-like reactions in the patient"
+    },
+    {
+     "letter": "B",
+     "text": "They block ACE2 receptors on the patient's own cells"
+    },
+    {
+     "letter": "C",
+     "text": "They also target the peptidoglycan in human cell walls"
+    },
+    {
+     "letter": "D",
+     "text": "Bacterial ribosomes resemble our mitochondrial ribosomes"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Aminoglycosides and macrolides."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Antibiotic resistance is described as 'evolution on a short time scale.' Which scenario shows it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Antibiotics directly make each bacterium stronger as it is exposed"
+    },
+    {
+     "letter": "B",
+     "text": "Bacteria learn from the drug and teach other bacteria how to resist"
+    },
+    {
+     "letter": "C",
+     "text": "The drug kills susceptible cells; the few resistant survivors multiply"
+    },
+    {
+     "letter": "D",
+     "text": "Vaccines create resistant viruses that then infect the bacteria"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Natural selection, as in Module 18's warning to finish antibiotics."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Phage therapy is called 'self-eliminating.' Why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Once the target bacteria are gone, the phages have no hosts left"
+    },
+    {
+     "letter": "B",
+     "text": "Phages convert themselves into antibiotics after they attach"
+    },
+    {
+     "letter": "C",
+     "text": "The immune system ignores phages until the bacteria are gone"
+    },
+    {
+     "letter": "D",
+     "text": "Phages are programmed to kill themselves after one infection"
+    }
+   ],
+   "correct": "A",
+   "explanation": "And self-amplifying while bacteria remain."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Why would a lone pathogenic bacterium 'wait' to release toxins?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Its toxins only work in the dark, so it waits until nighttime to act"
+    },
+    {
+     "letter": "B",
+     "text": "It can't make any toxins until it has divided at least a hundred times"
+    },
+    {
+     "letter": "C",
+     "text": "Alone, its toxins would draw the immune system before it could overwhelm it"
+    },
+    {
+     "letter": "D",
+     "text": "It needs the host's antibodies to bind it first before toxins can form"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Quorum sensing coordinates the attack."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Which pair of scientists' work is most directly connected by the idea of a targeted 'magic bullet'?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ehrlich's Salvarsan and monoclonal antibodies carrying chemotherapy"
+    },
+    {
+     "letter": "B",
+     "text": "Jenner's cowpox vaccine and Pasteur's rabies vaccine"
+    },
+    {
+     "letter": "C",
+     "text": "Fleming's penicillin and Bassler's quorum-sensing inhibitors"
+    },
+    {
+     "letter": "D",
+     "text": "Chain's penicillin work and d'Hérelle's phage therapy"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Both deliver a toxic payload to a specific target."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "A clinic gives a broad-spectrum antibiotic before culture results return, then switches to a narrow-spectrum drug once the pathogen is identified. Why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Narrow-spectrum drugs must always be given after broad ones"
+    },
+    {
+     "letter": "B",
+     "text": "Start broad when the pathogen is unknown, then narrow to spare flora"
+    },
+    {
+     "letter": "C",
+     "text": "Culture results make broad-spectrum drugs work more strongly"
+    },
+    {
+     "letter": "D",
+     "text": "Broad drugs are cheaper, so they are only given for two days"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Matches the lecture's guidance."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Which vaccine and Module 19 concept are linked?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Attenuated vaccines target the coagulase made by S. aureus"
+    },
+    {
+     "letter": "B",
+     "text": "Toxoid vaccines target exotoxins like tetanus and diphtheria toxin"
+    },
+    {
+     "letter": "C",
+     "text": "Subunit vaccines target the endotoxin (LPS) of Gram-negatives"
+    },
+    {
+     "letter": "D",
+     "text": "mRNA vaccines target the siderophores that steal host iron"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Roux discovered diphtheria toxin; von Behring made antitoxin."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Why does feeling sick after the second mRNA dose suggest the vaccine is working?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It means the first dose failed and the body is rejecting it"
+    },
+    {
+     "letter": "B",
+     "text": "The vaccine contains live coronavirus that causes a mild case"
+    },
+    {
+     "letter": "C",
+     "text": "The mRNA itself causes a short COVID infection in the cells"
+    },
+    {
+     "letter": "D",
+     "text": "Cytokines from a strong immune response cause the symptoms"
+    }
+   ],
+   "correct": "D",
+   "explanation": "The immune system is mounting an active response."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Compare broad- and narrow-spectrum antibiotics: definition, example, when to use, and one risk.",
+   "options": [],
+   "correct": null,
+   "explanation": "Broad-spectrum drugs act on many bacterial types (sulfanilamide, Cipro) and are used when the pathogen is unknown, but they kill normal flora, risking superinfection and resistance. Narrow-spectrum drugs act on few types (penicillin, vancomycin) and are used when the pathogen is known, sparing normal flora but requiring an accurate diagnosis."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Trace the history of smallpox prevention from China to Jenner to Pasteur.",
+   "options": [],
+   "correct": null,
+   "explanation": "Chinese (by early 1400s) inhaled smallpox scabs; Europeans (1700s) practiced variolation, placing smallpox scabs under the skin; Jenner used cowpox scabs (milkmaids rarely got smallpox) for a safer smallpox vaccine; Pasteur coined 'vaccine' (vacca = cow) and developed others, such as rabies."
+  }
+ ]
+}

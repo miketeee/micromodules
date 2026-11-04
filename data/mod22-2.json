@@ -1,0 +1,352 @@
+{
+ "slug": "mod22-2",
+ "title": "Module 22 — Quiz 2",
+ "subtitle": "Specific Defenses — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Why can a single macrophage receptor bind antibodies that recognize thousands of different antigens?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It binds the variable region, which is the same in all antibodies"
+    },
+    {
+     "letter": "B",
+     "text": "Each macrophage makes thousands of different receptor types"
+    },
+    {
+     "letter": "C",
+     "text": "Macrophages make the antibodies themselves and keep one copy"
+    },
+    {
+     "letter": "D",
+     "text": "It binds the constant region, which is the same across a class"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Like a wall outlet that doesn't care which appliance is plugged in."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Which antibody mechanism would protect you from a toxin BEFORE any white blood cell arrives?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Agglutination"
+    },
+    {
+     "letter": "B",
+     "text": "Antibody-dependent cytotoxicity"
+    },
+    {
+     "letter": "C",
+     "text": "Opsonization"
+    },
+    {
+     "letter": "D",
+     "text": "Neutralization"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Blocking the toxin's active site or a pathogen's attachment works immediately."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "A pentameric antibody with 10 binding sites would be especially good at which mechanism?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Triggering mast cells"
+    },
+    {
+     "letter": "B",
+     "text": "Crossing the placenta"
+    },
+    {
+     "letter": "C",
+     "text": "Agglutination"
+    },
+    {
+     "letter": "D",
+     "text": "Antibody-dependent cytotoxicity of worms"
+    }
+   ],
+   "correct": "C",
+   "explanation": "IgM's many binding sites cross-link lots of pathogens."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Why can't IgG trigger mast cells to release histamine?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "IgG can't bind any antigens once it leaves B cells"
+    },
+    {
+     "letter": "B",
+     "text": "IgG has no variable region to bind the antigen"
+    },
+    {
+     "letter": "C",
+     "text": "IgG is a pentamer too large to reach mast cells"
+    },
+    {
+     "letter": "D",
+     "text": "Mast cell receptors fit only IgE's constant region"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Class is set by the constant region, which determines which receptors it fits."
+  },
+  {
+   "num": 5,
+   "type": "Multi-statement",
+   "prompt": "Which statement about antibody classes is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "IgA is the most abundant serum antibody."
+    },
+    {
+     "letter": "B",
+     "text": "IgE sits on the surface of mast cells."
+    },
+    {
+     "letter": "C",
+     "text": "IgM is secreted as a pentamer."
+    },
+    {
+     "letter": "D",
+     "text": "IgG makes up about 80% of serum antibody."
+    },
+    {
+     "letter": "E",
+     "text": "IgD's function is still unclear."
+    }
+   ],
+   "correct": "A",
+   "explanation": "IgG is most abundant in serum; IgA dominates mucus."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "A newborn is protected from a disease for a few months and then becomes susceptible. What is the most likely explanation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Clonal selection stopped working when the baby turned three months"
+    },
+    {
+     "letter": "B",
+     "text": "The baby's IgE antibodies disappeared after weaning"
+    },
+    {
+     "letter": "C",
+     "text": "Maternal IgG from the placenta (passive) has broken down"
+    },
+    {
+     "letter": "D",
+     "text": "The baby's own memory B cells all died after a few months"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Passive immunity is temporary."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "How did Darwin's finches inspire Burnet's clonal selection theory?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "B cells evolve brand-new receptors only after they are exposed to an antigen"
+    },
+    {
+     "letter": "B",
+     "text": "Pre-existing variety (beaks/receptors) is selected by the environment (food/antigen)"
+    },
+    {
+     "letter": "C",
+     "text": "Finches were found to carry antibodies that matched their beak shapes exactly"
+    },
+    {
+     "letter": "D",
+     "text": "Antigens change their shape to fit receptors, just as beaks changed for food"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The right B cell already exists; the antigen selects it."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "On a primary response graph, why is there a lag of about a week before antibodies appear?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The one matching B cell must be found, selected, and cloned"
+    },
+    {
+     "letter": "B",
+     "text": "Antibodies are made right away but hidden inside plasma cells"
+    },
+    {
+     "letter": "C",
+     "text": "Memory cells from earlier infections must die off before cloning"
+    },
+    {
+     "letter": "D",
+     "text": "IgE must be made and bound to mast cells before IgM can appear"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Finding the 'needle in the haystack.'"
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which situation creates long-lasting immunity?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Receiving IgA in breast milk"
+    },
+    {
+     "letter": "B",
+     "text": "Recovering from chickenpox"
+    },
+    {
+     "letter": "C",
+     "text": "Receiving antivenom"
+    },
+    {
+     "letter": "D",
+     "text": "Receiving monoclonal antibodies"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Natural active immunity produces memory cells."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Monoclonal antibodies for COVID give quick protection. What is their main drawback, per the lecture?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Your own immune system may not build an active, lasting response"
+    },
+    {
+     "letter": "B",
+     "text": "They can't neutralize viruses, only bacteria and toxins"
+    },
+    {
+     "letter": "C",
+     "text": "They cause allergic reactions by binding IgE on mast cells"
+    },
+    {
+     "letter": "D",
+     "text": "They cross the placenta and affect the patient's unborn child"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Passive immunity doesn't create memory."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Which pairing of antibody class and structure is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "All are pentamers"
+    },
+    {
+     "letter": "B",
+     "text": "IgA — dimer; IgM — pentamer; IgG — monomer"
+    },
+    {
+     "letter": "C",
+     "text": "IgA — monomer; IgM — monomer; IgG — dimer"
+    },
+    {
+     "letter": "D",
+     "text": "IgA — pentamer; IgM — dimer; IgG — monomer"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Remember: A = 2, M = 5, others = 1."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Why are antibodies described as 'specific' while complement triggered by mannose is not?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Antibodies fit one antigen shape; mannose is shared by many bacteria"
+    },
+    {
+     "letter": "B",
+     "text": "Mannose is a human protein, so complement attacks the body's own cells"
+    },
+    {
+     "letter": "C",
+     "text": "Complement is made by B cells, but antibodies are made by macrophages"
+    },
+    {
+     "letter": "D",
+     "text": "Antibodies kill only viruses, while complement kills only bacteria"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Variable regions give specificity."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "A worm infection is cleared when antibodies coat the worm and certain WBCs release destructive chemicals onto it. Which cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mast cells and goblet cells"
+    },
+    {
+     "letter": "B",
+     "text": "Red blood cells and platelets"
+    },
+    {
+     "letter": "C",
+     "text": "Eosinophils or NK cells"
+    },
+    {
+     "letter": "D",
+     "text": "Plasma cells and memory cells"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Antibody-dependent cytotoxicity."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Draw (describe) the primary vs secondary antibody response graph and explain the difference.",
+   "options": [],
+   "correct": null,
+   "explanation": "Y = antibody titer, X = time. Primary: ~1-week lag, IgM rises first then IgG, then titers fall — the person usually gets sick. Secondary: memory cells respond immediately; IgM similar but IgG much higher and longer-lasting — usually no disease."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Give an example of each: natural active, natural passive, artificial active, artificial passive immunity.",
+   "options": [],
+   "correct": null,
+   "explanation": "Natural active: getting infected and recovering. Natural passive: IgG across the placenta or IgA in breast milk. Artificial active: a vaccine. Artificial passive: injected antivenom or monoclonal antibodies."
+  }
+ ]
+}

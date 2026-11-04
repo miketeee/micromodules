@@ -1,0 +1,352 @@
+{
+ "slug": "mod21-2",
+ "title": "Module 21 — Quiz 2",
+ "subtitle": "Nonspecific Defenses — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Why is complement called a 'bridge' between nonspecific and specific immunity?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is made by both B cells and T cells working together"
+    },
+    {
+     "letter": "B",
+     "text": "It can be triggered by common molecules (mannose, LPS) or by antibodies"
+    },
+    {
+     "letter": "C",
+     "text": "It is part of the first line of defense along with the skin"
+    },
+    {
+     "letter": "D",
+     "text": "It only works after vaccination has primed the immune system"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The trigger decides whether activation is specific or nonspecific."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "A Gram-negative bacterium enters the blood. Which of its molecules is most likely to trigger complement nonspecifically?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The plasmids carrying its accessory genes"
+    },
+    {
+     "letter": "B",
+     "text": "Teichoic acid studding its thick cell wall"
+    },
+    {
+     "letter": "C",
+     "text": "The 70S ribosomes inside its cytoplasm"
+    },
+    {
+     "letter": "D",
+     "text": "Lipopolysaccharide in its outer membrane"
+    }
+   ],
+   "correct": "D",
+   "explanation": "LPS is common to Gram-negatives."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "If a person lacked C3, which outcomes would be impaired most?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Histamine storage inside the vesicles of mast cells"
+    },
+    {
+     "letter": "B",
+     "text": "Opsonization and the later steps that depend on C3b and C3a"
+    },
+    {
+     "letter": "C",
+     "text": "Fever only, because C3 is the main pyrogen in the body"
+    },
+    {
+     "letter": "D",
+     "text": "Interferon production by virus-infected neighboring cells"
+    }
+   ],
+   "correct": "B",
+   "explanation": "C3b opsonizes and activates C5; C3a helps trigger mast cells."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Which sequence correctly describes the membrane attack complex?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Interferon is released → AVPs are made → a pore forms → lysis"
+    },
+    {
+     "letter": "B",
+     "text": "C9 coats the bacterium → a macrophage binds C9 → it engulfs the cell"
+    },
+    {
+     "letter": "C",
+     "text": "C5b activates C6 → C7, C8, C9 join → C9 ring forms a pore → lysis"
+    },
+    {
+     "letter": "D",
+     "text": "C3a binds mast cells → histamine is released → a pore forms → lysis"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Pores in the membrane burst the cell."
+  },
+  {
+   "num": 5,
+   "type": "Multi-statement",
+   "prompt": "Which statement about fever is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Every fever should be lowered right away."
+    },
+    {
+     "letter": "B",
+     "text": "A fever near 44–46 °C could be fatal."
+    },
+    {
+     "letter": "C",
+     "text": "Some interleukins act as pyrogens."
+    },
+    {
+     "letter": "D",
+     "text": "Bacterial enzymes fail faster above 37 °C."
+    },
+    {
+     "letter": "E",
+     "text": "Pyrogens reset the hypothalamus thermostat."
+    }
+   ],
+   "correct": "A",
+   "explanation": "A low-grade fever can help fight infection."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "How do Toll-like receptors (Module 20) and nonspecific complement activation resemble each other?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Both recognize common microbial molecules such as mannose and LPS"
+    },
+    {
+     "letter": "B",
+     "text": "Both require antibodies before they can recognize a microbe"
+    },
+    {
+     "letter": "C",
+     "text": "Both are found only on red blood cells circulating in the blood"
+    },
+    {
+     "letter": "D",
+     "text": "Both destroy viral RNA inside infected neighboring cells"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Broad recognition makes both nonspecific."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Mast cells can release histamine for several reasons. Which pair are both triggers covered in Modules 20–21?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tissue damage and C3a/C5a binding"
+    },
+    {
+     "letter": "B",
+     "text": "Fever and pyrogenic interleukins"
+    },
+    {
+     "letter": "C",
+     "text": "Interferon binding and AVP production"
+    },
+    {
+     "letter": "D",
+     "text": "Mannose binding and C9 ring formation"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Histamine can also be released in response to antibodies."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which second-line defense is described as working mainly against viruses rather than bacteria?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lysozyme"
+    },
+    {
+     "letter": "B",
+     "text": "Interferon"
+    },
+    {
+     "letter": "C",
+     "text": "The membrane attack complex"
+    },
+    {
+     "letter": "D",
+     "text": "Opsonization by C3b"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Most nonspecific defenses target bacteria; interferon targets viruses."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "A cell infected by a cold virus releases interferon. A flu virus later reaches a neighboring cell. What happens?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The neighbor is lysed by the MAC before the flu virus can enter it"
+    },
+    {
+     "letter": "B",
+     "text": "The neighbor makes antibodies against flu, which neutralize it"
+    },
+    {
+     "letter": "C",
+     "text": "Nothing happens, because interferon only protects against cold viruses"
+    },
+    {
+     "letter": "D",
+     "text": "Its AVPs destroy the flu RNA too, because interferon is nonspecific"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Interferon doesn't care which virus it is."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Why can't a cell keep making antiviral proteins all the time?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "AVPs are toxic to neighboring cells and would kill the whole tissue"
+    },
+    {
+     "letter": "B",
+     "text": "AVPs block histamine release, so inflammation could never start"
+    },
+    {
+     "letter": "C",
+     "text": "AVPs destroy RNA in general, shutting down the cell's own proteins"
+    },
+    {
+     "letter": "D",
+     "text": "AVPs raise body temperature to dangerous levels if they stay active"
+    }
+   ],
+   "correct": "C",
+   "explanation": "That's also why interferon drugs have side effects."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Which pairing of cytokine and role is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Interferon — pyrogen; some interleukins — antiviral"
+    },
+    {
+     "letter": "B",
+     "text": "Interleukin — opsonin; interferon — membrane attack"
+    },
+    {
+     "letter": "C",
+     "text": "Both are complement proteins found in blood serum"
+    },
+    {
+     "letter": "D",
+     "text": "Some interleukins — pyrogens; interferon — antiviral"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Two cytokines highlighted in the lecture."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "What does 'opsonize' literally mean, and why does it fit?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "To warn — coating the microbe signals neighboring cells to make AVPs"
+    },
+    {
+     "letter": "B",
+     "text": "To heat — coating the microbe triggers a pyrogenic fever"
+    },
+    {
+     "letter": "C",
+     "text": "To cater (prepare for eating) — coated microbes are easier to eat"
+    },
+    {
+     "letter": "D",
+     "text": "To burst — the membrane attack complex lyses the coated microbe"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The lecture's definition."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "A patient has a genetic defect in C9. Which outcome would fail?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Formation of the MAC pore"
+    },
+    {
+     "letter": "B",
+     "text": "Interferon production"
+    },
+    {
+     "letter": "C",
+     "text": "Histamine release from tissue damage"
+    },
+    {
+     "letter": "D",
+     "text": "C3b opsonization"
+    }
+   ],
+   "correct": "A",
+   "explanation": "C9 forms the ring-shaped channel."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Explain why a low-grade fever can help but a very high fever is dangerous, using enzyme activity curves.",
+   "options": [],
+   "correct": null,
+   "explanation": "Human and bacterial enzymes both peak near 37 °C, but bacterial activity drops more steeply as temperature rises, so a low-grade fever impairs bacteria while our enzymes still work. Around 44–46 °C our own enzymes denature too, which can be fatal."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Describe how complement activation leads to inflammation.",
+   "options": [],
+   "correct": null,
+   "explanation": "C3 splits into C3a and C3b; C3b activates C5 (C5a + C5b); C3a and C5a bind receptors on mast cells, which release histamine → vasodilation, leaky vessels, redness, heat, swelling, pain, and WBC recruitment."
+  }
+ ]
+}

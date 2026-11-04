@@ -1,0 +1,381 @@
+{
+ "slug": "mod19",
+ "title": "Module 19",
+ "subtitle": "Principles of Disease — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A hiker is bitten by a rabid raccoon. The raccoon is the reservoir, which makes rabies a:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Healthcare-associated infection"
+    },
+    {
+     "letter": "B",
+     "text": "Fomite"
+    },
+    {
+     "letter": "C",
+     "text": "Vehicle"
+    },
+    {
+     "letter": "D",
+     "text": "Zoonosis"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Zoonoses move from animals to humans."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Children in a daycare pass a stomach virus by sharing toys. This is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Droplet transmission"
+    },
+    {
+     "letter": "B",
+     "text": "Indirect contact via fomites"
+    },
+    {
+     "letter": "C",
+     "text": "Direct contact"
+    },
+    {
+     "letter": "D",
+     "text": "Biological vector transmission"
+    }
+   ],
+   "correct": "B",
+   "explanation": "A fomite is a non-living object that serves as the middleman."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "A coworker sneezes on you from about half a meter away. This transmission is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Droplet"
+    },
+    {
+     "letter": "B",
+     "text": "Airborne"
+    },
+    {
+     "letter": "C",
+     "text": "Indirect contact"
+    },
+    {
+     "letter": "D",
+     "text": "Waterborne"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Droplet = less than 1 meter; airborne (vehicle) = more than 1 meter."
+  },
+  {
+   "num": 4,
+   "type": "Multi-statement",
+   "prompt": "Which statement about vectors is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The Anopheles mosquito is a biological vector for malaria."
+    },
+    {
+     "letter": "B",
+     "text": "In a biological vector, the pathogen reproduces inside the arthropod."
+    },
+    {
+     "letter": "C",
+     "text": "A mechanical vector carries pathogens on its body parts."
+    },
+    {
+     "letter": "D",
+     "text": "A housefly is a biological vector because Plasmodium reproduces in it."
+    },
+    {
+     "letter": "E",
+     "text": "Vectors are living; vehicles are not."
+    }
+   ],
+   "correct": "D",
+   "explanation": "The housefly is a mechanical vector; the mosquito is the biological vector for Plasmodium."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Which portal of entry is used by most pathogens?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Unbroken skin"
+    },
+    {
+     "letter": "B",
+     "text": "Hair follicles"
+    },
+    {
+     "letter": "C",
+     "text": "The parenteral route"
+    },
+    {
+     "letter": "D",
+     "text": "Mucous membranes"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Mucous membranes exchange materials with the outside world and are the most vulnerable."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Stepping on a rusty nail deposits bacteria beneath intact skin. This portal is the:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Vehicle route"
+    },
+    {
+     "letter": "B",
+     "text": "Mucous membrane"
+    },
+    {
+     "letter": "C",
+     "text": "Parenteral route"
+    },
+    {
+     "letter": "D",
+     "text": "Fomite route"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Parenteral = something plunges through intact skin."
+  },
+  {
+   "num": 7,
+   "type": "Open recall",
+   "prompt": "Give three reasons healthcare facilities are sources of HAIs, and three ways to prevent them.",
+   "options": [],
+   "correct": null,
+   "explanation": "Reasons: many reservoirs (sick patients), many invasive procedures (catheters, surgery, dressing changes), many compromised hosts. Prevention: hand washing, PPE, aseptic technique, isolation, education."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Why are catheters such a common cause of UTIs in hospitals?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bacteria form biofilms on catheters left in too long"
+    },
+    {
+     "letter": "B",
+     "text": "Catheters release toxins into the bladder wall"
+    },
+    {
+     "letter": "C",
+     "text": "Catheters lower the pH of urine to about 2"
+    },
+    {
+     "letter": "D",
+     "text": "Catheters destroy the IgA antibodies in urine"
+    }
+   ],
+   "correct": "A",
+   "explanation": "UTIs are the most common HAI, and catheter biofilms are the main culprit."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Streptococcus pyogenes holds onto throat tissue and resists phagocytosis using:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lipopolysaccharide"
+    },
+    {
+     "letter": "B",
+     "text": "M-protein"
+    },
+    {
+     "letter": "C",
+     "text": "Coagulase"
+    },
+    {
+     "letter": "D",
+     "text": "Siderophores"
+    }
+   ],
+   "correct": "B",
+   "explanation": "M-protein does double duty: adherence and inhibiting phagocytosis."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Encapsulated strains of Streptococcus pneumoniae cause pneumonia but unencapsulated strains are mostly harmless. Why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The capsule produces exotoxins"
+    },
+    {
+     "letter": "B",
+     "text": "The capsule steals iron"
+    },
+    {
+     "letter": "C",
+     "text": "The capsule inhibits phagocytosis"
+    },
+    {
+     "letter": "D",
+     "text": "The capsule digests clots"
+    }
+   ],
+   "correct": "C",
+   "explanation": "White blood cells struggle to engulf the slippery encapsulated cells."
+  },
+  {
+   "num": 11,
+   "type": "Multi-statement",
+   "prompt": "Which statement about coagulase and kinase is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Kinase clots blood so the pathogen can hide from white blood cells."
+    },
+    {
+     "letter": "B",
+     "text": "Coagulase builds a clot barricade around the infection."
+    },
+    {
+     "letter": "C",
+     "text": "Kinase helps a pathogen escape a clot made by the host."
+    },
+    {
+     "letter": "D",
+     "text": "S. pyogenes can be kinase-positive."
+    },
+    {
+     "letter": "E",
+     "text": "S. aureus can be coagulase-positive."
+    }
+   ],
+   "correct": "A",
+   "explanation": "Coagulase clots blood; kinase digests clots."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Yersinia pestis damages the host by producing substances that pull iron out of red blood cells. These are:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Siderophores"
+    },
+    {
+     "letter": "B",
+     "text": "Invasins"
+    },
+    {
+     "letter": "C",
+     "text": "Hemolysins"
+    },
+    {
+     "letter": "D",
+     "text": "Collagenases"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Siderophores bind host nutrients like iron extremely strongly."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Clostridium perfringens causes gangrene mainly by producing:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Coagulase and kinase"
+    },
+    {
+     "letter": "B",
+     "text": "Superantigens and hemolysins"
+    },
+    {
+     "letter": "C",
+     "text": "IgA protease and invasins"
+    },
+    {
+     "letter": "D",
+     "text": "Collagenase and hyaluronidase"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Digesting connective tissue (including blood vessels) kills the tissue."
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Émile Roux's first diphtheria filtrates didn't harm guinea pigs. What changed to make the experiment work?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "He let the culture grow about two weeks before filtering"
+    },
+    {
+     "letter": "B",
+     "text": "He stopped filtering and injected the whole culture"
+    },
+    {
+     "letter": "C",
+     "text": "He heated the filtrate to concentrate the toxin"
+    },
+    {
+     "letter": "D",
+     "text": "He switched from guinea pigs to mice for the tests"
+    }
+   ],
+   "correct": "A",
+   "explanation": "At 24–48 hours the bacteria hadn't released enough toxin yet."
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Botox comes from a Type III (A-B) exotoxin of Clostridium botulinum. How does it work?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It blocks signals from neurons to muscles, causing paralysis"
+    },
+    {
+     "letter": "B",
+     "text": "It lyses red blood cells in the injected muscle"
+    },
+    {
+     "letter": "C",
+     "text": "It causes an excessive immune response in the skin"
+    },
+    {
+     "letter": "D",
+     "text": "It steals iron from muscle cells so they can't contract"
+    }
+   ],
+   "correct": "A",
+   "explanation": "It's a neurotoxin; the body slowly breaks it down, so injections are repeated."
+  },
+  {
+   "num": 16,
+   "type": "Open recall",
+   "prompt": "Compare exotoxins and endotoxins: what they're made of, which bacteria make them, and when they're released.",
+   "options": [],
+   "correct": null,
+   "explanation": "Exotoxins are proteins secreted mostly by Gram-positive bacteria (often encoded by prophage genes from lysogenic conversion); types are superantigens, hemolysins, and A-B toxins. Endotoxins are part of the Gram-negative cell wall (LPS) and are released when the cell dies and breaks apart, causing excessive immune responses."
+  }
+ ]
+}

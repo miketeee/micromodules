@@ -1,0 +1,352 @@
+{
+ "slug": "mod20-2",
+ "title": "Module 20 — Quiz 2",
+ "subtitle": "Nonspecific Defenses — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Metchnikoff combined two big ideas to predict that an immune system must exist. Which two?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Koch's postulates and Gram's differential stain"
+    },
+    {
+     "letter": "B",
+     "text": "Pasteurization and Jenner's smallpox vaccination"
+    },
+    {
+     "letter": "C",
+     "text": "Germ theory (Pasteur/Koch) and evolution (Darwin)"
+    },
+    {
+     "letter": "D",
+     "text": "Spontaneous generation and germ theory (Pasteur)"
+    }
+   ],
+   "correct": "C",
+   "explanation": "If microbes evolve to cause disease, hosts must evolve defenses."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Why did scientists first doubt Metchnikoff's phagocytes were host cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They only appeared in starfish larvae that were already dead"
+    },
+    {
+     "letter": "B",
+     "text": "They looked and behaved like free-crawling parasitic amoebas"
+    },
+    {
+     "letter": "C",
+     "text": "They were far too small to see with microscopes of the time"
+    },
+    {
+     "letter": "D",
+     "text": "They contained chlorophyll, so they had to be algae instead"
+    }
+   ],
+   "correct": "B",
+   "explanation": "White blood cells are among the only body cells that live untethered."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "A patient on antibiotics develops a vaginal yeast infection. Which first-line defense was disrupted?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The lacrimal apparatus that flushes and drains the eyes"
+    },
+    {
+     "letter": "B",
+     "text": "Sebum production by the sebaceous glands of the skin"
+    },
+    {
+     "letter": "C",
+     "text": "Resident microbiota (L. acidophilus) and the acid it makes"
+    },
+    {
+     "letter": "D",
+     "text": "The ciliary escalator that clears mucus from the airway"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Without Lactobacillus's lactic acid, pH rises and Candida grows."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "A burn patient loses large areas of skin. Which protective features are lost along with it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Circulating neutrophils and tissue macrophages in the blood"
+    },
+    {
+     "letter": "B",
+     "text": "Dryness, salt, acidic sebum, shedding, and S. epidermidis"
+    },
+    {
+     "letter": "C",
+     "text": "Gastric acid in the stomach and lysozyme in the tears"
+    },
+    {
+     "letter": "D",
+     "text": "Mucus, beating cilia, and goblet cells along the trachea"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Intact skin is the best barrier, and burns make it a portal of entry."
+  },
+  {
+   "num": 5,
+   "type": "Multi-statement",
+   "prompt": "Which statement about antimicrobial fluids is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Urine is the most acidic body fluid, at about pH 2."
+    },
+    {
+     "letter": "B",
+     "text": "Sebum lowers skin pH to about 3–5."
+    },
+    {
+     "letter": "C",
+     "text": "Sweat leaves salt behind when it dries."
+    },
+    {
+     "letter": "D",
+     "text": "Earwax is acidic because it contains sebum."
+    },
+    {
+     "letter": "E",
+     "text": "Saliva contains IgA antibodies as well as lysozyme."
+    }
+   ],
+   "correct": "A",
+   "explanation": "Gastric juice is pH ~2; urine is about 6."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Why does dry, cracked skin increase infection risk even without a cut?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Dry skin has a neutral pH that lets most bacteria grow"
+    },
+    {
+     "letter": "B",
+     "text": "Dry skin is colonized by far more S. aureus than S. epidermidis"
+    },
+    {
+     "letter": "C",
+     "text": "Dry skin produces much less lysozyme in its sweat"
+    },
+    {
+     "letter": "D",
+     "text": "Cracks become portals of entry; sebum keeps skin pliable"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Sebum lubricates skin so it doesn't break open."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Where does material wiped from the eye by blinking end up?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Into the bloodstream, where neutrophils engulf any microbes"
+    },
+    {
+     "letter": "B",
+     "text": "Through the nasolacrimal duct into the nose, then often swallowed"
+    },
+    {
+     "letter": "C",
+     "text": "Into the ear canal, where acidic earwax traps and destroys it"
+    },
+    {
+     "letter": "D",
+     "text": "Into the sebaceous glands of the eyelids, where sebum digests it"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Swallowed material meets stomach acid."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which change happens because histamine is a vasodilator?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Blood pressure drops"
+    },
+    {
+     "letter": "B",
+     "text": "White blood cells stay in the blood"
+    },
+    {
+     "letter": "C",
+     "text": "Blood pressure rises"
+    },
+    {
+     "letter": "D",
+     "text": "Vessels become watertight"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Wider vessels lower peripheral resistance; that's why falling BP can signal infection."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Why do macrophages outlast neutrophils at an infection site?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They arrive only after the infection is over, so they never fill up"
+    },
+    {
+     "letter": "B",
+     "text": "They don't actually eat bacteria; they only release histamine"
+    },
+    {
+     "letter": "C",
+     "text": "They digest bacteria and exocytose the waste instead of bursting"
+    },
+    {
+     "letter": "D",
+     "text": "They are protected from bursting by a thick carbohydrate capsule"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Neutrophils gorge until they rupture."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Phagocytosis by a macrophage is considered NONspecific even though it uses receptors. Why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Toll-like receptors recognize molecules shared by many microbes"
+    },
+    {
+     "letter": "B",
+     "text": "Macrophages only ever eat one species of bacterium each"
+    },
+    {
+     "letter": "C",
+     "text": "Toll-like receptors are only used by T cells, not by macrophages"
+    },
+    {
+     "letter": "D",
+     "text": "Macrophages make their own antibodies to any antigen they meet"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Recognizing a common sugar isn't recognizing a specific antigen."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Which pathogen feature from Module 19 directly blocks the first step of phagocytosis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A slippery capsule that keeps phagocytes from grabbing it"
+    },
+    {
+     "letter": "B",
+     "text": "Siderophores that steal iron from the host's red blood cells"
+    },
+    {
+     "letter": "C",
+     "text": "Collagenase that digests connective tissue around the site"
+    },
+    {
+     "letter": "D",
+     "text": "Hemolysins that lyse red blood cells in the infected tissue"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Capsules and M-protein inhibit phagocytosis."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Why does the body clot blood around an infection site?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "To lower the local temperature and slow bacteria"
+    },
+    {
+     "letter": "B",
+     "text": "To produce histamine that starts inflammation"
+    },
+    {
+     "letter": "C",
+     "text": "To feed the bacteria so neutrophils can find them"
+    },
+    {
+     "letter": "D",
+     "text": "To wall in and contain the infection (an abscess)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Clotting contains; a scab later protects the healing site."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Which outcome is most likely after a large boil heals?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "No trace at all, just like a small pimple that heals"
+    },
+    {
+     "letter": "B",
+     "text": "A permanent abscess full of pus that never drains"
+    },
+    {
+     "letter": "C",
+     "text": "Loss of all normal flora on that area of the skin"
+    },
+    {
+     "letter": "D",
+     "text": "A scar, because lots of damaged tissue must be filled in"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Small pimples heal without a trace; large areas fill with scar tissue."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Explain how sweat protects the skin in two ways.",
+   "options": [],
+   "correct": null,
+   "explanation": "It contains lysozyme, which digests peptidoglycan, and when it evaporates it leaves salt behind, making skin too salty for most bacteria."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "List the steps of phagocytosis by a macrophage, naming the structure formed at each stage.",
+   "options": [],
+   "correct": null,
+   "explanation": "Toll-like receptors bind the microbe (e.g., mannose/LPS) → pseudopods surround it → phagosome forms → lysosome fuses → phagolysosome digests it with hydrolytic enzymes → waste released by exocytosis."
+  }
+ ]
+}

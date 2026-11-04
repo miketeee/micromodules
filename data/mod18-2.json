@@ -1,0 +1,352 @@
+{
+ "slug": "mod18-2",
+ "title": "Module 18 — Quiz 2",
+ "subtitle": "Principles of Disease — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A UTI can be caused by E. coli, S. aureus, or Pseudomonas. Which limitation of Koch's postulates does this illustrate?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Some microbes can't be grown in pure culture"
+    },
+    {
+     "letter": "B",
+     "text": "Some pathogens only infect humans"
+    },
+    {
+     "letter": "C",
+     "text": "Some diseases have more than one possible cause"
+    },
+    {
+     "letter": "D",
+     "text": "Some experiments would be unethical"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Koch's postulates assume one microbe → one disease; sinusitis and UTIs have several possible causes."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "A woman takes a long course of antibiotics for strep throat and then develops a vaginal yeast infection. What is the best explanation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Candida made bacteriocins that destroyed the antibiotic in the vagina"
+    },
+    {
+     "letter": "B",
+     "text": "Strep bacteria moved to the vagina and turned into yeast cells there"
+    },
+    {
+     "letter": "C",
+     "text": "The antibiotics killed Lactobacillus, so vaginal pH rose and Candida grew"
+    },
+    {
+     "letter": "D",
+     "text": "The antibiotics fed Candida directly, so it multiplied in the vagina"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Lactobacillus normally keeps the vagina at pH ~4–5; without it, pH returns toward 7.35, which Candida likes."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Which pairing of microbe, location, and relationship is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "E. coli in the colon — parasitic; in the bladder — mutualistic partner"
+    },
+    {
+     "letter": "B",
+     "text": "Vibrio cholerae in the intestine — mutualistic; on the skin — parasitic"
+    },
+    {
+     "letter": "C",
+     "text": "Candida on the skin — parasitic; in the vagina — mutualistic partner"
+    },
+    {
+     "letter": "D",
+     "text": "S. aureus on unbroken skin — commensal; in a surgical wound — opportunist"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Where a microbe lives can change its relationship with the host."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Why are females more likely than males to get E. coli UTIs?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Males carry S. epidermidis in the bladder, which blocks E. coli"
+    },
+    {
+     "letter": "B",
+     "text": "E. coli only grows at the slightly higher female body temperature"
+    },
+    {
+     "letter": "C",
+     "text": "Females have no Lactobacillus anywhere in the urinary tract"
+    },
+    {
+     "letter": "D",
+     "text": "The anus is close to the urethral opening and the urethra is short"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Short distances let E. coli reach the bladder — hence wiping front to back."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "A clinic reports a sudden rise in new flu cases this month, but the number of people living with chronic hepatitis is unchanged. Which measures are changing?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Flu incidence is rising; hepatitis prevalence is steady"
+    },
+    {
+     "letter": "B",
+     "text": "Both incidences are falling"
+    },
+    {
+     "letter": "C",
+     "text": "Both prevalences are steady"
+    },
+    {
+     "letter": "D",
+     "text": "Flu prevalence is falling; hepatitis incidence is rising"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Incidence tracks new cases (spread); prevalence counts all current cases (burden)."
+  },
+  {
+   "num": 6,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the stages of infectious disease is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Signs and symptoms are most severe during the prodromal period."
+    },
+    {
+     "letter": "B",
+     "text": "During convalescence the patient feels normal but microbes may remain."
+    },
+    {
+     "letter": "C",
+     "text": "Death, if it occurs, tends to happen near the peak of the period of illness."
+    },
+    {
+     "letter": "D",
+     "text": "There are no signs or symptoms during incubation."
+    },
+    {
+     "letter": "E",
+     "text": "During decline, the immune system or drugs reduce microbe numbers."
+    }
+   ],
+   "correct": "A",
+   "explanation": "The prodromal period brings mild signs and symptoms; the period of illness is the most severe."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Tuberculosis slowly scars the alveoli over years. Which two terms describe it best?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Chronic and communicable"
+    },
+    {
+     "letter": "B",
+     "text": "Sporadic and acute"
+    },
+    {
+     "letter": "C",
+     "text": "Acute and non-communicable"
+    },
+    {
+     "letter": "D",
+     "text": "Latent and subclinical"
+    }
+   ],
+   "correct": "A",
+   "explanation": "TB develops slowly and lasts long (chronic) and spreads between people."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which situation best shows herd immunity?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A patient recovers from measles and is then immune to it for the rest of her life"
+    },
+    {
+     "letter": "B",
+     "text": "A hospital isolates a measles patient in a negative-pressure room for two weeks"
+    },
+    {
+     "letter": "C",
+     "text": "An unvaccinated infant avoids measles because most people around her are immune"
+    },
+    {
+     "letter": "D",
+     "text": "A vaccinated adult catches a mild case of the flu but recovers within a few days"
+    }
+   ],
+   "correct": "C",
+   "explanation": "When most of a population is immune, the pathogen can't spread to the few who aren't."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Measles causes spots all over the body. Which term pair fits?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Local and latent"
+    },
+    {
+     "letter": "B",
+     "text": "Systemic and contagious"
+    },
+    {
+     "letter": "C",
+     "text": "Local and non-communicable"
+    },
+    {
+     "letter": "D",
+     "text": "Systemic and non-communicable"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Systemic = throughout the body; measles spreads easily."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "A nurse notes a blood pressure of 85/50 and a temperature of 104 °F in a patient with bacteria in the blood. What is the best description?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A local infection confined to one site"
+    },
+    {
+     "letter": "B",
+     "text": "Bacteremia leading to sepsis (septic shock)"
+    },
+    {
+     "letter": "C",
+     "text": "A subclinical infection without symptoms"
+    },
+    {
+     "letter": "D",
+     "text": "Toxemia with no immune response at all"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Sepsis is an extreme immune reaction to pathogens/toxins; septic shock includes a drop in blood pressure."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Which of these would the course list as a predisposing factor for pneumonia?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Old age"
+    },
+    {
+     "letter": "B",
+     "text": "Having S. epidermidis on the skin"
+    },
+    {
+     "letter": "C",
+     "text": "Being the last child in a family"
+    },
+    {
+     "letter": "D",
+     "text": "Female sex"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Age is a predisposing factor; female sex is the lecture's predisposing factor for UTIs."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Why does the lecture say the last child in a family often has the most diverse microbiome?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Last children receive more antibiotics, which diversify their flora"
+    },
+    {
+     "letter": "B",
+     "text": "Parents are less overprotective, so the child meets more microbes early"
+    },
+    {
+     "letter": "C",
+     "text": "Older siblings remove the baby's normal flora, so new species move in"
+    },
+    {
+     "letter": "D",
+     "text": "Later children are usually born by C-section, which adds more microbes"
+    }
+   ],
+   "correct": "B",
+   "explanation": "More early exposure → more species → more microbial antagonism."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Which is a SYMPTOM a nurse must ask the patient about?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A rash"
+    },
+    {
+     "letter": "B",
+     "text": "Elevated blood pressure"
+    },
+    {
+     "letter": "C",
+     "text": "A measured fever"
+    },
+    {
+     "letter": "D",
+     "text": "Malaise"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Symptoms are felt by the patient; signs are observed or measured."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Explain the difference between a passive carrier and an asymptomatic (active) carrier, with an example of each.",
+   "options": [],
+   "correct": null,
+   "explanation": "Textbook Ch. 16: a passive carrier is contaminated but not infected and spreads the pathogen mechanically (a health-care worker who doesn't wash hands). An asymptomatic carrier is infected and transmits the pathogen without showing signs or symptoms — e.g., Typhoid Mary (Salmonella typhi)."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Describe how a newborn acquires L. acidophilus, S. epidermidis, and E. coli, and one consequence of not yet having E. coli.",
+   "options": [],
+   "correct": null,
+   "explanation": "L. acidophilus from vaginal delivery; S. epidermidis from nursing and skin-to-skin handling; E. coli from contaminated food and objects. Without E. coli the newborn can't make enough vitamin K, so it gets a vitamin K injection."
+  }
+ ]
+}

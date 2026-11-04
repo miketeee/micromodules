@@ -1,0 +1,377 @@
+{
+ "slug": "mod22",
+ "title": "Module 22",
+ "subtitle": "Specific Defenses — Part 1",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Von Behring transferred blood from an immune guinea pig to another, which became immune. What did this show?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Immunity to diphtheria is inherited from the parents"
+    },
+    {
+     "letter": "B",
+     "text": "A factor in the blood (antibodies) carried the immunity"
+    },
+    {
+     "letter": "C",
+     "text": "Guinea pigs have no immune system of their own"
+    },
+    {
+     "letter": "D",
+     "text": "Diphtheria toxin is harmless to most guinea pigs"
+    }
+   ],
+   "correct": "B",
+   "explanation": "He named it humoral immunity."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Why did the second guinea pig's immunity last only about three weeks?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It received preformed antibodies that broke down"
+    },
+    {
+     "letter": "B",
+     "text": "Guinea pigs are unable to make any antibodies"
+    },
+    {
+     "letter": "C",
+     "text": "The diphtheria toxin mutated into a new form"
+    },
+    {
+     "letter": "D",
+     "text": "Its own memory cells died off after three weeks"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Antibodies have a ~3-week half-life; no memory cells were made."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Which part of an antibody determines its class (IgG, IgM, etc.)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The constant region"
+    },
+    {
+     "letter": "B",
+     "text": "The variable region"
+    },
+    {
+     "letter": "C",
+     "text": "The antigen-binding site"
+    },
+    {
+     "letter": "D",
+     "text": "The disulfide bonds"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Immune cells have receptors for the constant region."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "An antibody binds only one specific antigen because of the shape of its:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Heavy chain stem"
+    },
+    {
+     "letter": "B",
+     "text": "Variable region"
+    },
+    {
+     "letter": "C",
+     "text": "Disulfide bonds"
+    },
+    {
+     "letter": "D",
+     "text": "Constant region"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Variable regions form a lock-and-key binding site."
+  },
+  {
+   "num": 5,
+   "type": "Multi-statement",
+   "prompt": "Which statement about antibody mechanisms is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Antibodies can activate complement."
+    },
+    {
+     "letter": "B",
+     "text": "Opsonization marks pathogens for phagocytosis."
+    },
+    {
+     "letter": "C",
+     "text": "Neutralization works by bursting bacteria with pores."
+    },
+    {
+     "letter": "D",
+     "text": "Antivenom works by neutralizing a toxin."
+    },
+    {
+     "letter": "E",
+     "text": "Agglutination cross-links pathogens into clumps."
+    }
+   ],
+   "correct": "C",
+   "explanation": "Neutralization blocks attachment; pores come from complement's MAC."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Antibody-dependent cytotoxicity is especially useful against:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Large eukaryotic invaders like parasitic worms"
+    },
+    {
+     "letter": "B",
+     "text": "Free-floating LPS released by dead bacteria"
+    },
+    {
+     "letter": "C",
+     "text": "Toxins dissolved in the blood plasma"
+    },
+    {
+     "letter": "D",
+     "text": "Viruses before they attach to host cells"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Eosinophils or NK cells destroy antibody-coated large cells."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Which antibody is a pentamer and the first made after exposure?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "IgA"
+    },
+    {
+     "letter": "B",
+     "text": "IgE"
+    },
+    {
+     "letter": "C",
+     "text": "IgM"
+    },
+    {
+     "letter": "D",
+     "text": "IgG"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Its monomer form also serves as the B cell receptor."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which antibody crosses the placenta?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "IgA"
+    },
+    {
+     "letter": "B",
+     "text": "IgG"
+    },
+    {
+     "letter": "C",
+     "text": "IgE"
+    },
+    {
+     "letter": "D",
+     "text": "IgM"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Natural passive immunity for the fetus."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which antibody is a dimer found in breast milk, saliva, and mucus?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "IgA"
+    },
+    {
+     "letter": "B",
+     "text": "IgE"
+    },
+    {
+     "letter": "C",
+     "text": "IgG"
+    },
+    {
+     "letter": "D",
+     "text": "IgD"
+    }
+   ],
+   "correct": "A",
+   "explanation": "It works mainly by neutralization."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "A person with hay fever has an overreaction involving mast cells. Which antibody is responsible?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "IgE"
+    },
+    {
+     "letter": "B",
+     "text": "IgA"
+    },
+    {
+     "letter": "C",
+     "text": "IgM"
+    },
+    {
+     "letter": "D",
+     "text": "IgG"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Mast cells have IgE-specific receptors; allergies are hypersensitivities."
+  },
+  {
+   "num": 11,
+   "type": "Open recall",
+   "prompt": "Explain clonal selection, including what selects the B cell and the two kinds of cells produced.",
+   "options": [],
+   "correct": null,
+   "explanation": "Bone-marrow stem cells make billions of B cells, each with a unique B cell receptor. An antigen binds the B cell whose receptor fits, selecting it. It clones itself into plasma cells (secrete large amounts of matching antibody) and memory B cells (keep receptors and remain in circulation for a faster secondary response)."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Why don't plasma cells need B cell receptors?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They only make IgE, which already sits on mast cells"
+    },
+    {
+     "letter": "B",
+     "text": "They live in mucus, where receptors would be destroyed"
+    },
+    {
+     "letter": "C",
+     "text": "They are actually T cells, which use T cell receptors"
+    },
+    {
+     "letter": "D",
+     "text": "They don't recognize antigens — they just secrete antibodies"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Memory cells keep receptors; plasma cells don't."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "On a titer graph, which feature shows a secondary response?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Only IgM, no IgG"
+    },
+    {
+     "letter": "B",
+     "text": "A fast, much higher, longer-lasting IgG rise"
+    },
+    {
+     "letter": "C",
+     "text": "Lower IgG than the primary response"
+    },
+    {
+     "letter": "D",
+     "text": "A week-long lag before any antibody appears"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Memory cells make the response fast and strong."
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "A baby receives antibodies through breast milk. This is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Artificial active immunity"
+    },
+    {
+     "letter": "B",
+     "text": "Natural passive immunity"
+    },
+    {
+     "letter": "C",
+     "text": "Artificial passive immunity"
+    },
+    {
+     "letter": "D",
+     "text": "Natural active immunity"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Preformed antibodies from mother, by a natural route."
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "A snakebite victim gets antivenom. This is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Natural passive immunity"
+    },
+    {
+     "letter": "B",
+     "text": "Artificial active immunity"
+    },
+    {
+     "letter": "C",
+     "text": "Artificial passive immunity"
+    },
+    {
+     "letter": "D",
+     "text": "Natural active immunity"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Injected preformed antibodies act immediately but don't create memory."
+  },
+  {
+   "num": 16,
+   "type": "Open recall",
+   "prompt": "Compare active and passive immunity in terms of whose B cells are involved, speed, and how long it lasts.",
+   "options": [],
+   "correct": null,
+   "explanation": "Active: your own B cells are selected and make plasma and memory cells — slower to develop but long-lasting. Passive: you receive preformed antibodies — immediate protection but temporary (antibody half-life ~3 weeks), with no memory cells."
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 # Micro Quiz Bank
 
-A static, self-grading quiz site built from the Module 1–17 course materials: Quiz 1 and Quiz 2 for every module, Quiz 3 for Modules 9–17, and four cumulative practice tests (1–2 cover Modules 1–8; 3–4 cover Modules 9–17).
+A static, self-grading quiz site built from the Module 1–24 course materials: Quiz 1 and Quiz 2 for every module, Quiz 3 for Modules 9–24, and six cumulative practice tests (1–2 cover Modules 1–8; 3–4 cover Modules 9–17; 5–6 cover Modules 18–24).
 
 ## Publishing to GitHub Pages
 
@@ -20,8 +20,8 @@ A static, self-grading quiz site built from the Module 1–17 course materials: 
 ## File structure
 
 ```
-navigator/index.html  Micro Navigator — flowcharts, check-my-work tools, and study-guide Q&A for Modules 9–17
-drill/index.html      Micro Practice Bank — 1,446 questions (581 scenarios + 865 direct), Modules 1–17, Google Sheet sync
+navigator/index.html  Micro Navigator — flowcharts, check-my-work tools, and study-guide Q&A for Modules 9–24
+drill/index.html      Micro Practice Bank — 2,032 questions (830 scenarios + 1,202 direct), Modules 1–24, Google Sheet sync
 drill/Code.gs         Apps Script for the practice bank's Google Sheet (setup steps in drill/SHEET_SETUP.md)
 index.html          homepage — links to every quiz
 quiz/index.html      generic quiz runner (reads ?q=<slug> from the URL)

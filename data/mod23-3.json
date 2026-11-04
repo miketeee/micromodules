@@ -1,0 +1,352 @@
+{
+ "slug": "mod23-3",
+ "title": "Module 23 — Quiz 3",
+ "subtitle": "Specific Defenses — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "In AIDS, why do patients suffer from many different infections rather than just HIV?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "HIV changes all of the patient's antibodies into IgE that cause allergies"
+    },
+    {
+     "letter": "B",
+     "text": "Losing helper T cells weakens B cell activation and immune coordination"
+    },
+    {
+     "letter": "C",
+     "text": "HIV infects every type of white blood cell equally and destroys them"
+    },
+    {
+     "letter": "D",
+     "text": "HIV destroys MHC-1 on all body cells, so NK cells attack everything"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Helper T cells are central coordinators."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Which feature keeps a cytotoxic T cell from killing a B cell that is presenting a bacterial antigen?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "B cells release perforin inhibitors to protect themselves"
+    },
+    {
+     "letter": "B",
+     "text": "B cells carry no antigens on their surface at any time"
+    },
+    {
+     "letter": "C",
+     "text": "The B cell displays it on MHC-2, which CD8 can't bind"
+    },
+    {
+     "letter": "D",
+     "text": "Cytotoxic T cells can't enter the lymph nodes where B cells live"
+    }
+   ],
+   "correct": "C",
+   "explanation": "When this system fails, autoimmune disease can result."
+  },
+  {
+   "num": 3,
+   "type": "Multi-statement",
+   "prompt": "Which statement is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Helper T cells kill infected cells with perforin."
+    },
+    {
+     "letter": "B",
+     "text": "Helper T cells release interleukins."
+    },
+    {
+     "letter": "C",
+     "text": "Cytotoxic T cells kill infected cells with perforin and granzyme."
+    },
+    {
+     "letter": "D",
+     "text": "Antigen-presenting cells use MHC-2."
+    },
+    {
+     "letter": "E",
+     "text": "NK cells also use perforin and granzymes."
+    }
+   ],
+   "correct": "A",
+   "explanation": "Helper T cells help; cytotoxic T cells and NK cells kill."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Which cell types can kill a virus-infected body cell, and what does each detect?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mast cells (by binding IgE) and B cells (by displaying antigen on MHC-2)"
+    },
+    {
+     "letter": "B",
+     "text": "Neutrophils (by reading MHC-1) and eosinophils (by binding CD4 on the cell)"
+    },
+    {
+     "letter": "C",
+     "text": "Helper T cells (antigen on MHC-2) and plasma cells (by secreting antibodies)"
+    },
+    {
+     "letter": "D",
+     "text": "Cytotoxic T cells (antigen on MHC-1) and NK cells (missing MHC-1 or antibodies)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Two complementary killer systems."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "A virus evolves to stop its host cell from displaying viral antigens on MHC-1 by removing MHC-1 entirely. What defense would still catch it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "NK cells, which attack cells lacking MHC-1"
+    },
+    {
+     "letter": "B",
+     "text": "Cytotoxic T cells, which read antigen on MHC-1"
+    },
+    {
+     "letter": "C",
+     "text": "Helper T cells, which read antigen on MHC-2"
+    },
+    {
+     "letter": "D",
+     "text": "IgA antibodies neutralizing it inside the cell"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The two systems cover each other's gaps."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Which Module 22 idea and Module 23 idea are linked by the Fc receptor?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "IgM pentamers and the perforin that cytotoxic T cells release"
+    },
+    {
+     "letter": "B",
+     "text": "Burnet's clonal selection and apoptosis of virus-infected body cells"
+    },
+    {
+     "letter": "C",
+     "text": "Antibody variable regions and the MHC-1 display stand on body cells"
+    },
+    {
+     "letter": "D",
+     "text": "Antibody constant regions and NK/eosinophil antibody-dependent cytotoxicity"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Fc receptors bind the constant region."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "A cancer drug made from monoclonal antibodies carries chemotherapy straight to tumor cells. Why is it called a 'magic bullet'?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Its variable region binds only tumor antigens, sparing most healthy cells"
+    },
+    {
+     "letter": "B",
+     "text": "It removes MHC-1 from tumor cells so that NK cells will attack them"
+    },
+    {
+     "letter": "C",
+     "text": "It activates helper T cells everywhere in the body at the same time"
+    },
+    {
+     "letter": "D",
+     "text": "It makes the tumor explode the moment the antibody touches it"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Targeted delivery reduces chemo's side effects."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "How do helper T cells resemble a 'second opinion' in the immune system?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They kill the antigen-presenting cell after checking what it displays"
+    },
+    {
+     "letter": "B",
+     "text": "They replace the need for B cells, so no antibodies are needed at all"
+    },
+    {
+     "letter": "C",
+     "text": "They confirm an APC's and a B cell's antigen is foreign before activation"
+    },
+    {
+     "letter": "D",
+     "text": "They make the antibodies themselves after the B cell recognizes the antigen"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Multi-cell agreement reduces mistakes."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "A COVID monoclonal antibody prevents infection by binding the spike protein. Which mechanism is this, and what receptor is blocked?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Antibody-dependent cytotoxicity; Fc"
+    },
+    {
+     "letter": "B",
+     "text": "Agglutination; CD4"
+    },
+    {
+     "letter": "C",
+     "text": "Neutralization; ACE2"
+    },
+    {
+     "letter": "D",
+     "text": "Opsonization; MHC-1"
+    }
+   ],
+   "correct": "C",
+   "explanation": "No attachment, no entry."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Necrotic tissue triggers inflammation, but cells killed by cytotoxic T cells usually don't. Why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cytotoxic T cells release antihistamines along with perforin"
+    },
+    {
+     "letter": "B",
+     "text": "Apoptotic cells are never phagocytized, so nothing alerts mast cells"
+    },
+    {
+     "letter": "C",
+     "text": "Necrosis only happens in bacteria, never in human tissue"
+    },
+    {
+     "letter": "D",
+     "text": "Apoptotic cells recruit macrophages to clean up before contents spill"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Clean vs messy death."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Which test would best identify WHICH type of white blood cell is elevated?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A rapid antigen strip with a control line"
+    },
+    {
+     "letter": "B",
+     "text": "A differential WBC count under the microscope"
+    },
+    {
+     "letter": "C",
+     "text": "Measuring the thickness of the buffy coat"
+    },
+    {
+     "letter": "D",
+     "text": "A titer graph of IgM and IgG over time"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The buffy coat only gives total WBCs."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Why does the rapid antigen strip include chicken and rabbit antibodies that have nothing to do with COVID?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They detect a second virus, like influenza, at the same time"
+    },
+    {
+     "letter": "B",
+     "text": "They form the control line, showing the sample ran up the strip"
+    },
+    {
+     "letter": "C",
+     "text": "They neutralize the sample so it is safe to throw away"
+    },
+    {
+     "letter": "D",
+     "text": "They amplify the COVID signal so the test line is darker"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Rabbit anti-chicken antibodies capture the dyed chicken antibodies."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Which pathway would a vaccine made of a purified viral PROTEIN most likely use to activate B cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "T-dependent activation with APCs and helper T cells"
+    },
+    {
+     "letter": "B",
+     "text": "Direct B cell activation by complement C3b alone"
+    },
+    {
+     "letter": "C",
+     "text": "T-independent activation by repeating sugar units"
+    },
+    {
+     "letter": "D",
+     "text": "NK cell activation through Fc receptors on the cell"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Slides: protein antigens need helper T cells."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Trace what happens when a cytotoxic T cell finds a virus-infected cell, and explain why this protects the body.",
+   "options": [],
+   "correct": null,
+   "explanation": "The infected cell displays viral antigens on MHC-1; a matching cytotoxic T cell binds with its TCR and CD8; it secretes perforin (holes) and granzyme (enters, triggers apoptosis); the cell dies tidily, with macrophages cleaning up. Killing it before it releases new viruses protects neighboring cells."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Explain how a home rapid antigen test can give a positive, a negative, and an invalid result.",
+   "options": [],
+   "correct": null,
+   "explanation": "Dyed monoclonal antibodies on the conjugate pad bind viral antigen; fixed antibodies at the T line capture the antigen–antibody complex (red line = positive). Dyed chicken antibodies are captured by rabbit anti-chicken antibodies at the C line, proving the sample migrated. T + C = positive; C only = negative; no C line (with or without T) = invalid."
+  }
+ ]
+}

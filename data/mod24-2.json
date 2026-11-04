@@ -1,0 +1,352 @@
+{
+ "slug": "mod24-2",
+ "title": "Module 24 — Quiz 2",
+ "subtitle": "Vaccines and Antimicrobials",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "In Module 22 terms, what kind of immunity does a vaccine create, and why does it prevent disease?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Innate immunity — it causes a fever that kills the pathogen early"
+    },
+    {
+     "letter": "B",
+     "text": "Artificial passive — it injects preformed antibodies into the arm"
+    },
+    {
+     "letter": "C",
+     "text": "Natural passive — it mimics the IgA a baby gets from breast milk"
+    },
+    {
+     "letter": "D",
+     "text": "Artificial active — memory makes real exposure a secondary response"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Vaccines build the titer and memory in advance."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Why does an attenuated vaccine tend to produce strong immunity?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is a denatured toxin that the body recognizes very easily"
+    },
+    {
+     "letter": "B",
+     "text": "The weakened whole pathogen still reproduces a little, mimicking infection"
+    },
+    {
+     "letter": "C",
+     "text": "It contains only one carefully chosen antigen from the pathogen"
+    },
+    {
+     "letter": "D",
+     "text": "It contains preformed antibodies that start working immediately"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Ex: MMR, Sabin polio."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Why are most bacterial vaccines toxoids rather than whole-agent vaccines?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Toxoids contain live bacteria that reproduce slowly to build immunity"
+    },
+    {
+     "letter": "B",
+     "text": "Many bacteria harm us through toxins, so blocking the toxin prevents disease"
+    },
+    {
+     "letter": "C",
+     "text": "Bacteria can't be inactivated by heat or chemicals the way viruses can"
+    },
+    {
+     "letter": "D",
+     "text": "Bacteria have no antigens on their surfaces that B cells could recognize"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Tetanus and diphtheria."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Why would a dendritic cell or macrophage taking up mRNA vaccine particles be especially useful?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It destroys the mRNA immediately so the vaccine can't cause harm"
+    },
+    {
+     "letter": "B",
+     "text": "It can display spike fragments on MHC-2 as an antigen-presenting cell"
+    },
+    {
+     "letter": "C",
+     "text": "It makes the anti-spike antibodies directly instead of B cells"
+    },
+    {
+     "letter": "D",
+     "text": "It turns into a B cell that carries a spike-specific receptor"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Links to Module 23 APCs."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "The mRNA vaccine's two doses are given about two weeks apart. Why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The second dose boosts the response as the first starts to fall"
+    },
+    {
+     "letter": "B",
+     "text": "The second dose contains DNA, which works better as a booster"
+    },
+    {
+     "letter": "C",
+     "text": "The RNA needs about two weeks to thaw after leaving the freezer"
+    },
+    {
+     "letter": "D",
+     "text": "The first dose is a placebo that only prepares the injection site"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Timing matters for the titer."
+  },
+  {
+   "num": 6,
+   "type": "Multi-statement",
+   "prompt": "Which statement comparing COVID vaccines is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "DNA vaccines require two doses and ultra-cold storage."
+    },
+    {
+     "letter": "B",
+     "text": "mRNA vaccines use lipid nanoparticles."
+    },
+    {
+     "letter": "C",
+     "text": "DNA vaccines are better suited to remote areas."
+    },
+    {
+     "letter": "D",
+     "text": "mRNA also acts as an adjuvant through interferon."
+    },
+    {
+     "letter": "E",
+     "text": "DNA vaccines use an inactivated adenoviral vector."
+    }
+   ],
+   "correct": "A",
+   "explanation": "DNA vaccines are single-dose and room-temperature stable."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Why couldn't Lister's germicides be used to cure syphilis inside the body?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They were far too toxic to ingest or inject"
+    },
+    {
+     "letter": "B",
+     "text": "They only worked against viruses, not bacteria"
+    },
+    {
+     "letter": "C",
+     "text": "They didn't actually kill any bacteria"
+    },
+    {
+     "letter": "D",
+     "text": "They were magic bullets that missed syphilis"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Ehrlich searched for drugs safe inside the body."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Ehrlich's Preparation 606 worked against both trypanosomes and Treponema. Why is that surprising?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "One is a eukaryotic protozoan and the other a bacterium"
+    },
+    {
+     "letter": "B",
+     "text": "Both are fungi with ergosterol in their membranes"
+    },
+    {
+     "letter": "C",
+     "text": "Both are viruses that share the same surface proteins"
+    },
+    {
+     "letter": "D",
+     "text": "Neither one was known to cause disease in people"
+    }
+   ],
+   "correct": "A",
+   "explanation": "They only looked alike under the microscope."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Penicillin was discovered by Fleming but only mass-produced later. Who completed that work?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bonnie Bassler and Félix d'Hérelle, in the 1990s"
+    },
+    {
+     "letter": "B",
+     "text": "Louis Pasteur and Robert Koch, in the Golden Age"
+    },
+    {
+     "letter": "C",
+     "text": "Ernst Chain and Howard Florey, during World War II"
+    },
+    {
+     "letter": "D",
+     "text": "Paul Ehrlich and Edward Jenner, during World War I"
+    }
+   ],
+   "correct": "C",
+   "explanation": "All three shared the Nobel Prize."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Why is Cipro considered broad-spectrum?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is actually an antiviral that also hits some bacteria"
+    },
+    {
+     "letter": "B",
+     "text": "It targets just one species of disease-causing bacteria"
+    },
+    {
+     "letter": "C",
+     "text": "It only affects the thick cell walls of Gram-positives"
+    },
+    {
+     "letter": "D",
+     "text": "It blocks DNA gyrase, which nearly all bacteria need"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Universal targets → broad spectrum."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Why is penicillin narrower in spectrum, hitting Gram-positive bacteria hardest?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gram-negatives lack ribosomes, so penicillin has nothing to attack inside them"
+    },
+    {
+     "letter": "B",
+     "text": "Gram-positives lack DNA gyrase, which makes them vulnerable to penicillin"
+    },
+    {
+     "letter": "C",
+     "text": "Penicillin targets the LPS in the outer membrane of Gram-positive cells"
+    },
+    {
+     "letter": "D",
+     "text": "Gram-positives have thick peptidoglycan that penicillin keeps from cross-linking"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Links Module 3 cell walls to Module 24."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "A patient on a broad-spectrum antibiotic develops C. difficile diarrhea. What happened?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Quorum sensing was blocked, so C. diff released toxins on its own"
+    },
+    {
+     "letter": "B",
+     "text": "A vaccine reaction caused by a recent flu shot in the same week"
+    },
+    {
+     "letter": "C",
+     "text": "A superinfection: normal flora died, so a resistant opportunist overgrew"
+    },
+    {
+     "letter": "D",
+     "text": "The antibiotic itself was contaminated with C. difficile spores"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Slides: superinfections like C. diff and yeast infections."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Which antimicrobial–target pairing from across the course is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Vermox — peptidoglycan"
+    },
+    {
+     "letter": "B",
+     "text": "Monistat — DNA gyrase"
+    },
+    {
+     "letter": "C",
+     "text": "Tamiflu — neuraminidase"
+    },
+    {
+     "letter": "D",
+     "text": "Flagyl — ergosterol"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Monistat → ergosterol; Flagyl → protozoan DNA; Vermox → worm sugar absorption."
+  },
+  {
+   "num": 14,
+   "type": "Open recall",
+   "prompt": "Explain how mRNA COVID vaccines lead to protective antibodies, step by step.",
+   "options": [],
+   "correct": null,
+   "explanation": "Lipid nanoparticles carrying spike mRNA fuse with cells (ideally immune cells) → ribosomes translate spike protein → fragments displayed on MHC-2 (APC) → a matching B cell is selected (with helper T help) → clonal expansion into plasma cells (anti-spike antibodies that neutralize the virus) and memory cells."
+  },
+  {
+   "num": 15,
+   "type": "Open recall",
+   "prompt": "Describe how quorum sensing works and how an inhibitor could stop a pathogen from causing disease.",
+   "options": [],
+   "correct": null,
+   "explanation": "Each bacterium releases a signal and has receptors for it; when enough cells are present, signal binds neighbors' receptors and they all switch on together (e.g., releasing toxins). An inhibitor binds the receptors without triggering them, so the bacteria never sense a quorum and never turn toxic, giving the immune system time to clear them."
+  }
+ ]
+}

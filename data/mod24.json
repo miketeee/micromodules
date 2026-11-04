@@ -1,0 +1,394 @@
+{
+ "slug": "mod24",
+ "title": "Module 24",
+ "subtitle": "Vaccines and Antimicrobials",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "What did Europeans of the 1700s call placing smallpox scabs under the skin?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Inoculation with cowpox"
+    },
+    {
+     "letter": "B",
+     "text": "Variolation"
+    },
+    {
+     "letter": "C",
+     "text": "Attenuation"
+    },
+    {
+     "letter": "D",
+     "text": "Vaccination"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Jenner later replaced smallpox scabs with cowpox."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "What made Jenner's method safer than variolation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "He used antibodies taken from smallpox survivors"
+    },
+    {
+     "letter": "B",
+     "text": "He used a synthetic arsenic-based drug"
+    },
+    {
+     "letter": "C",
+     "text": "He used inactivated smallpox from old scabs"
+    },
+    {
+     "letter": "D",
+     "text": "He used cowpox, a related but milder virus"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Milkmaids with cowpox rarely got smallpox."
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "The word 'vaccine' comes from vacca, Latin for:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Virus"
+    },
+    {
+     "letter": "B",
+     "text": "Scab"
+    },
+    {
+     "letter": "C",
+     "text": "Cow"
+    },
+    {
+     "letter": "D",
+     "text": "Needle"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Pasteur coined it in honor of Jenner's cowpox work."
+  },
+  {
+   "num": 4,
+   "type": "Multi-statement",
+   "prompt": "Which vaccine–type pairing is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hepatitis B — subunit"
+    },
+    {
+     "letter": "B",
+     "text": "MMR — attenuated whole agent"
+    },
+    {
+     "letter": "C",
+     "text": "COVID — nucleic acid"
+    },
+    {
+     "letter": "D",
+     "text": "Tetanus — subunit vaccine"
+    },
+    {
+     "letter": "E",
+     "text": "Flu shot — inactivated whole agent"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Tetanus (and diphtheria) are toxoid vaccines."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Why can't you get the flu from a flu shot?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It contains only antibodies, not any virus parts"
+    },
+    {
+     "letter": "B",
+     "text": "It contains only a toxoid made from flu toxin"
+    },
+    {
+     "letter": "C",
+     "text": "The virus in it is inactivated and can't reproduce"
+    },
+    {
+     "letter": "D",
+     "text": "It's an mRNA vaccine with no viral proteins"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Flu-like symptoms are your immune response."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "In an mRNA COVID vaccine, what do your cells produce from the mRNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Antibodies directly"
+    },
+    {
+     "letter": "B",
+     "text": "Whole viruses"
+    },
+    {
+     "letter": "C",
+     "text": "The spike protein"
+    },
+    {
+     "letter": "D",
+     "text": "Interferon only"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Displayed spike fragments trigger an active immune response."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Why must mRNA vaccines be stored at extremely cold temperatures?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lipids melt at room temperature"
+    },
+    {
+     "letter": "B",
+     "text": "Cold boosts interferon"
+    },
+    {
+     "letter": "C",
+     "text": "The adenovirus must stay frozen"
+    },
+    {
+     "letter": "D",
+     "text": "RNA is unstable and breaks down quickly"
+    }
+   ],
+   "correct": "D",
+   "explanation": "DNA vaccines are room-temperature stable."
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "How does the DNA COVID vaccine get its DNA into the nucleus?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lipid nanoparticles fuse with the nucleus"
+    },
+    {
+     "letter": "B",
+     "text": "An inactivated adenoviral vector carries it"
+    },
+    {
+     "letter": "C",
+     "text": "It is injected directly into nuclei"
+    },
+    {
+     "letter": "D",
+     "text": "It is reverse-transcribed from mRNA"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Then it's transcribed into spike mRNA."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Paul Ehrlich's 'magic bullet' idea was to:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Attach a toxic drug to a dye that seeks a target"
+    },
+    {
+     "letter": "B",
+     "text": "Use mold growing on plates to kill bacteria"
+    },
+    {
+     "letter": "C",
+     "text": "Use bacteriophages to destroy specific bacteria"
+    },
+    {
+     "letter": "D",
+     "text": "Spray germicides like carbolic acid over wounds"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Preparation 606 = arsenic attached to a dye."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Salvarsan was used to treat:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tuberculosis and malaria"
+    },
+    {
+     "letter": "B",
+     "text": "Smallpox and cowpox"
+    },
+    {
+     "letter": "C",
+     "text": "Trypanosomes and syphilis"
+    },
+    {
+     "letter": "D",
+     "text": "Flu and COVID"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Ehrlich thought spirochetes looked like trypanosomes."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Which antibiotic works by inhibiting protein synthesis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Penicillin"
+    },
+    {
+     "letter": "B",
+     "text": "Sulfanilamide"
+    },
+    {
+     "letter": "C",
+     "text": "Tetracycline"
+    },
+    {
+     "letter": "D",
+     "text": "Cipro"
+    }
+   ],
+   "correct": "C",
+   "explanation": "It targets the 70S ribosome; streptomycin and erythromycin do too."
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Vancomycin and cephalosporin both:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Inhibit cell wall synthesis"
+    },
+    {
+     "letter": "B",
+     "text": "Inhibit DNA gyrase"
+    },
+    {
+     "letter": "C",
+     "text": "Inhibit folic acid synthesis"
+    },
+    {
+     "letter": "D",
+     "text": "Block neuraminidase"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Like penicillin."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "A patient has a known strep infection. Which choice is generally better, and why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "No drug — strep can't be treated"
+    },
+    {
+     "letter": "B",
+     "text": "An antiviral"
+    },
+    {
+     "letter": "C",
+     "text": "A broad-spectrum drug, to kill everything"
+    },
+    {
+     "letter": "D",
+     "text": "A narrow-spectrum drug, to spare the normal flora"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Broad-spectrum drugs are for unknown pathogens."
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Which is an advantage of phage therapy over antibiotics?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It requires very large doses"
+    },
+    {
+     "letter": "B",
+     "text": "It works without knowing the pathogen"
+    },
+    {
+     "letter": "C",
+     "text": "It kills every kind of bacteria"
+    },
+    {
+     "letter": "D",
+     "text": "It is highly specific and self-amplifying"
+    }
+   ],
+   "correct": "D",
+   "explanation": "It also self-eliminates once the pathogen is gone."
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Bonnie Bassler's quorum-sensing inhibitors work by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Activating complement so the MAC bursts the bacteria"
+    },
+    {
+     "letter": "B",
+     "text": "Killing the bacteria with arsenic attached to a dye"
+    },
+    {
+     "letter": "C",
+     "text": "Breaking down the bacteria's peptidoglycan cell walls"
+    },
+    {
+     "letter": "D",
+     "text": "Blocking signal receptors so bacteria never turn toxic"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Disarming rather than killing."
+  },
+  {
+   "num": 16,
+   "type": "Open recall",
+   "prompt": "Name the five vaccine types and give one example of each.",
+   "options": [],
+   "correct": null,
+   "explanation": "Attenuated whole agent (MMR, Sabin polio); inactivated whole agent (flu shot, rabies, Salk polio); subunit (hepatitis B, HPV); toxoid (tetanus, diphtheria); nucleic acid (COVID mRNA or DNA)."
+  }
+ ]
+}

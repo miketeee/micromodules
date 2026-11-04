@@ -1,0 +1,381 @@
+{
+ "slug": "mod21",
+ "title": "Module 21",
+ "subtitle": "Nonspecific Defenses — Part 2",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Complement proteins circulate in the blood in what state?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Stored inside mast cells"
+    },
+    {
+     "letter": "B",
+     "text": "Inactive, until triggered in a cascade"
+    },
+    {
+     "letter": "C",
+     "text": "Constantly active against all cells"
+    },
+    {
+     "letter": "D",
+     "text": "Attached to red blood cells only"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Like dominoes waiting for the first one to be knocked over."
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Which complement trigger is SPECIFIC?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Antibodies"
+    },
+    {
+     "letter": "B",
+     "text": "Lipopolysaccharide"
+    },
+    {
+     "letter": "C",
+     "text": "Mannose"
+    },
+    {
+     "letter": "D",
+     "text": "Fever"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Mannose and LPS are common molecules, so they are nonspecific triggers."
+  },
+  {
+   "num": 3,
+   "type": "Multi-statement",
+   "prompt": "Which statement about complement outcomes is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "C3a and C5a trigger mast cells to release histamine."
+    },
+    {
+     "letter": "B",
+     "text": "The membrane attack complex forms pores that lyse bacteria."
+    },
+    {
+     "letter": "C",
+     "text": "C3b binds mast cells to cause histamine release."
+    },
+    {
+     "letter": "D",
+     "text": "Opsonization marks microbes for disposal."
+    },
+    {
+     "letter": "E",
+     "text": "C3b coats bacteria to enhance phagocytosis."
+    }
+   ],
+   "correct": "C",
+   "explanation": "C3b opsonizes; C3a and C5a act on mast cells."
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Opsonization helps a macrophage because:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It kills the macrophage's competitors at the site"
+    },
+    {
+     "letter": "B",
+     "text": "It has receptors for the complement coating the microbe"
+    },
+    {
+     "letter": "C",
+     "text": "It destroys viral RNA inside the macrophage"
+    },
+    {
+     "letter": "D",
+     "text": "It raises body temperature near the macrophage"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Coated microbes are easier to grab and engulf."
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Inflammation triggered by complement differs from inflammation triggered by a cut in:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Whether histamine is involved"
+    },
+    {
+     "letter": "B",
+     "text": "Whether white blood cells arrive"
+    },
+    {
+     "letter": "C",
+     "text": "Whether vessels dilate"
+    },
+    {
+     "letter": "D",
+     "text": "What causes mast cells to release histamine"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Same outcome; different trigger."
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Which complement protein forms the ring-shaped pore in the membrane attack complex?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "C5a"
+    },
+    {
+     "letter": "B",
+     "text": "C3a"
+    },
+    {
+     "letter": "C",
+     "text": "C9"
+    },
+    {
+     "letter": "D",
+     "text": "C3b"
+    }
+   ],
+   "correct": "C",
+   "explanation": "C5b starts the assembly with C6–C8; C9 forms the ring."
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "The membrane attack complex kills bacteria by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Stealing their iron"
+    },
+    {
+     "letter": "B",
+     "text": "Making pores that cause cell lysis"
+    },
+    {
+     "letter": "C",
+     "text": "Coating them for phagocytosis"
+    },
+    {
+     "letter": "D",
+     "text": "Destroying their RNA"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Cytolysis."
+  },
+  {
+   "num": 8,
+   "type": "Open recall",
+   "prompt": "Name the three outcomes of complement activation and what each accomplishes.",
+   "options": [],
+   "correct": null,
+   "explanation": "Opsonization (C3b coats microbes to enhance phagocytosis), inflammation (C3a + C5a make mast cells release histamine), and the membrane attack complex (C5b–C9 punch pores that lyse the cell)."
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "'Interleukin' literally means:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Against viruses"
+    },
+    {
+     "letter": "B",
+     "text": "Between the whites"
+    },
+    {
+     "letter": "C",
+     "text": "Inside the cell"
+    },
+    {
+     "letter": "D",
+     "text": "Fire generator"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Interleukins are released by WBCs and influence other cells."
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Pyrogens cause fever by acting on the:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hypothalamus"
+    },
+    {
+     "letter": "B",
+     "text": "Lacrimal glands"
+    },
+    {
+     "letter": "C",
+     "text": "Mast cells"
+    },
+    {
+     "letter": "D",
+     "text": "Stomach"
+    }
+   ],
+   "correct": "A",
+   "explanation": "They turn up the body's thermostat."
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Why can a low-grade fever help fight a bacterial infection?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fever activates the membrane attack complex directly"
+    },
+    {
+     "letter": "B",
+     "text": "Bacteria grow faster at higher temperatures, so they burn out"
+    },
+    {
+     "letter": "C",
+     "text": "Bacterial enzymes fail faster than ours as temperature rises"
+    },
+    {
+     "letter": "D",
+     "text": "Fever destroys viral RNA inside infected human cells"
+    }
+   ],
+   "correct": "C",
+   "explanation": "A small temperature rise opens a gap between the two enzyme curves."
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about interferon is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Interferon protects the cell that produced it."
+    },
+    {
+     "letter": "B",
+     "text": "Interferon can stimulate natural killer cells."
+    },
+    {
+     "letter": "C",
+     "text": "Interferon causes neighboring cells to make antiviral proteins."
+    },
+    {
+     "letter": "D",
+     "text": "Interferon is secreted by virus-infected cells."
+    },
+    {
+     "letter": "E",
+     "text": "Interferon is a nonspecific antiviral defense."
+    }
+   ],
+   "correct": "A",
+   "explanation": "The infected cell will likely die; interferon protects its neighbors."
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Antiviral proteins (AVPs) block viral infection by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Raising body temperature"
+    },
+    {
+     "letter": "B",
+     "text": "Clotting blood"
+    },
+    {
+     "letter": "C",
+     "text": "Coating the virus"
+    },
+    {
+     "letter": "D",
+     "text": "Destroying RNA"
+    }
+   ],
+   "correct": "D",
+   "explanation": "They destroy viral mRNA so biosynthesis can't proceed."
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Why does injected interferon cause strong side effects?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It lowers body temperature below the healthy 37 °C set point"
+    },
+    {
+     "letter": "B",
+     "text": "It causes allergic reactions by activating complement proteins"
+    },
+    {
+     "letter": "C",
+     "text": "It spreads body-wide, so cells everywhere destroy their own RNA"
+    },
+    {
+     "letter": "D",
+     "text": "It kills white blood cells along with the virus-infected cells"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Natural interferon acts locally."
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Which molecule is found on the surface of many bacteria and can trigger complement nonspecifically?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Histamine"
+    },
+    {
+     "letter": "B",
+     "text": "Interferon"
+    },
+    {
+     "letter": "C",
+     "text": "Mannose"
+    },
+    {
+     "letter": "D",
+     "text": "Interleukin"
+    }
+   ],
+   "correct": "C",
+   "explanation": "A common bacterial sugar."
+  },
+  {
+   "num": 16,
+   "type": "Open recall",
+   "prompt": "Describe how interferon protects a neighboring cell from a virus, step by step.",
+   "options": [],
+   "correct": null,
+   "explanation": "A virus infects a cell → the infected cell makes and secretes interferon → interferon binds receptors on neighboring cells → those cells make antiviral proteins → when a released virus enters and makes RNA, the AVPs destroy it, preventing infection."
+  }
+ ]
+}
