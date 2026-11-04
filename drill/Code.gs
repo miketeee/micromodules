@@ -90,13 +90,14 @@ function attempts_() {
   return sh;
 }
 
-/* deadline goal: { deadline: 'YYYY-MM-DD' or '', topics: [...] or null (all), banks: [...] or null (all), at: ms timestamp } */
+/* deadline goal: { deadline: 'YYYY-MM-DD' or '', topics: [...] | 'ALL' (all modules) | null (Modules 9–17, from before Modules 1–8 were added),
+   banks: [...] or null (all), at: ms timestamp } */
 function goal_() {
   const raw = PropertiesService.getScriptProperties().getProperty('goal');
   return raw ? JSON.parse(raw) : null;
 }
 function saveGoal_(g) {
-  const clean = { deadline: String(g.deadline || ''), topics: Array.isArray(g.topics) ? g.topics : null,
+  const clean = { deadline: String(g.deadline || ''), topics: Array.isArray(g.topics) ? g.topics : g.topics === 'ALL' ? 'ALL' : null,
                   banks: Array.isArray(g.banks) ? g.banks : null, at: Number(g.at) };
   PropertiesService.getScriptProperties().setProperty('goal', JSON.stringify(clean));
   const ss = SpreadsheetApp.getActive();
@@ -104,7 +105,7 @@ function saveGoal_(g) {
   sh.clearContents();
   sh.getRange(1, 1, 4, 2).setValues([
     ['Finish by', clean.deadline || '(none)'],
-    ['Modules', clean.topics ? clean.topics.join(', ') : 'All modules'],
+    ['Modules', Array.isArray(clean.topics) ? clean.topics.join(', ') : clean.topics === 'ALL' ? 'All modules (1–17)' : 'Modules 9–17'],
     ['Banks', clean.banks ? clean.banks.map(function (b) { return b === 'S' ? 'Scenarios' : b === 'D' ? 'Direct' : b; }).join(', ') : 'Scenarios, Direct'],
     ['Last changed', new Date(clean.at)]]);
 }

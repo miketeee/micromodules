@@ -22,4 +22,5 @@ Notes:
 - Use the same URL and phrase on your phone and computer and both share one history.
 - If you edit `Code.gs` later, use **Deploy → Manage deployments → Edit → New version** so the URL stays the same.
 - **Already set up before the deadline goal was added?** Paste the new `Code.gs` over the old one, keep your same SECRET line, then **Deploy → Manage deployments → Edit (pencil) → Version: New version → Deploy**. Your URL and phrase stay the same, and nothing on the site needs re-entering.
+- **Modules 1–8 added (Test 1 material).** Paste the newest `Code.gs` over the old one the same way (keep your SECRET line, then Manage deployments → Edit → New version → Deploy). The newer script is what lets a goal of "all 17 modules" sync between devices. If you skip this, an all-17 goal still works on the device where you set it, but your other devices will read it as Modules 9–17. Goals you set before this update stay at Modules 9–17 until you change them.
 - The claude.ai preview can't reach Google; sync only works from your GitHub Pages copy.
