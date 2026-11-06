@@ -21,7 +21,7 @@ A static, self-grading quiz site built from the Module 1–24 course materials: 
 
 ```
 navigator/index.html  Micro Navigator — flowcharts, check-my-work tools, and study-guide Q&A for Modules 9–24
-drill/index.html      Micro Practice Bank — 2,032 questions (830 scenarios + 1,202 direct), Modules 1–24, Google Sheet sync
+drill/index.html      Micro Practice Bank — 2,032 questions (830 scenarios + 1,202 direct), Modules 1–24, "why not" explanations for every wrong choice, Google Sheet sync
 drill/Code.gs         Apps Script for the practice bank's Google Sheet (setup steps in drill/SHEET_SETUP.md)
 index.html          homepage — links to every quiz
 quiz/index.html      generic quiz runner (reads ?q=<slug> from the URL)
@@ -37,3 +37,9 @@ Each quiz is a JSON file in `data/`. To fix a question, edit its `prompt`, `opti
 ## Local preview
 
 From this folder: `python3 -m http.server 8000`, then open `http://localhost:8000`.
+
+## Lab final section (Labs 1–12)
+
+- `data/lab1.json` … `data/lab12-2.json` — two quizzes per lab (360 questions, 166 with photos). Photo questions add an `img` field; `assets/quiz.js` shows the photo above the choices.
+- `lab-img/` — 142 photos cropped from the lab slides and manuals.
+- `lab-drill/index.html` — Micro Lab Practice Bank (all lab questions; Written and Photo ID banks). It syncs to its **own** Google Sheet: deploy `lab-drill/Code.gs` in a new Sheet and paste that /exec URL into the lab bank's sync panel (see `lab-drill/SHEET_SETUP.md`).
