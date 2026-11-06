@@ -1,0 +1,472 @@
+{
+ "slug": "lab11",
+ "title": "Lab 11 \u2014 Quiz 1",
+ "subtitle": "Unknown ID Part 2 \u2014 catalase, coagulase, MSA, hemolysis",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "Hydrogen peroxide was added to this sample and bubbles formed. What is the result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Catalase negative"
+    },
+    {
+     "letter": "B",
+     "text": "Catalase positive"
+    },
+    {
+     "letter": "C",
+     "text": "Coagulase positive"
+    },
+    {
+     "letter": "D",
+     "text": "Mannitol positive"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Catalase breaks down H2O2: 2H2O2 \u2192 2H2O + O2. The O2 bubbles = positive.",
+   "why": {
+    "A": "Negative = no bubbles after adding H2O2.",
+    "C": "Coagulase is read as clumping, not bubbles.",
+    "D": "Mannitol is read on MSA (yellow)."
+   },
+   "img": "../lab-img/X11_cat_pos.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Photo",
+   "prompt": "Hydrogen peroxide was added to this sample and NO bubbles formed. What is the result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Catalase positive"
+    },
+    {
+     "letter": "B",
+     "text": "Catalase negative"
+    },
+    {
+     "letter": "C",
+     "text": "Coagulase negative"
+    },
+    {
+     "letter": "D",
+     "text": "Test invalid without incubation"
+    }
+   ],
+   "correct": "B",
+   "explanation": "No bubbles = no catalase enzyme = catalase negative.",
+   "why": {
+    "A": "Positive shows bubbles.",
+    "C": "Coagulase is read by clumping.",
+    "D": "The catalase test is rapid and needs no incubation."
+   },
+   "img": "../lab-img/X11_cat_neg.jpg"
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "The catalase test is a quick way to differentiate:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "S. aureus from other Staphylococcus species"
+    },
+    {
+     "letter": "B",
+     "text": "Lactose fermenters from non-fermenters"
+    },
+    {
+     "letter": "C",
+     "text": "Staphylococcus from Streptococcus"
+    },
+    {
+     "letter": "D",
+     "text": "Alpha- from beta-hemolytic Streptococcus"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Catalase: Staphylococcus (+) vs Streptococcus (\u2212). A rapid test with no incubation needed.",
+   "why": {
+    "A": "That's the coagulase test (and MSA).",
+    "B": "That's MacConkey.",
+    "D": "That's blood agar."
+   }
+  },
+  {
+   "num": 4,
+   "type": "Photo",
+   "prompt": "In this coagulase tube test, the top tube shows clumping. What is the result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Coagulase negative \u2014 consistent with S. epidermidis"
+    },
+    {
+     "letter": "B",
+     "text": "Catalase positive \u2014 consistent with Staphylococcus"
+    },
+    {
+     "letter": "C",
+     "text": "Coagulase positive \u2014 consistent with S. aureus"
+    },
+    {
+     "letter": "D",
+     "text": "Beta-hemolysis \u2014 consistent with S. pyogenes"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Coagulase converts fibrinogen into fibrin (clumping). Most S. aureus strains are coagulase positive.",
+   "why": {
+    "A": "Clumping = positive.",
+    "B": "Catalase is read as bubbles.",
+    "D": "Hemolysis is read on blood agar."
+   },
+   "img": "../lab-img/L11s_p19_1.jpg"
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Why is coagulase considered a virulence factor?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Coagulase+ bacteria coat themselves in fibrin, protecting them from phagocytosis"
+    },
+    {
+     "letter": "B",
+     "text": "It breaks down hydrogen peroxide made by immune cells"
+    },
+    {
+     "letter": "C",
+     "text": "It lyses red blood cells to release iron"
+    },
+    {
+     "letter": "D",
+     "text": "It ferments mannitol to produce acid"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Coagulase converts fibrinogen to fibrin; coating the surface in fibrin protects the pathogen from phagocytosis.",
+   "why": {
+    "B": "That's catalase.",
+    "C": "That's hemolysis.",
+    "D": "Mannitol fermentation is read on MSA."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Photo",
+   "prompt": "Read this MSA plate (S. aureus): growth and yellow medium. What is the result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Salt-tolerant, mannitol fermenter"
+    },
+    {
+     "letter": "B",
+     "text": "Salt-tolerant, non-mannitol fermenter"
+    },
+    {
+     "letter": "C",
+     "text": "Not salt-tolerant"
+    },
+    {
+     "letter": "D",
+     "text": "Lactose fermenter"
+    }
+   ],
+   "correct": "A",
+   "explanation": "MSA: growth = salt-tolerant; yellow = mannitol fermented to acid (phenol red turns yellow).",
+   "why": {
+    "B": "Non-fermenters leave the medium red-orange.",
+    "C": "There is growth, so it is salt-tolerant.",
+    "D": "Lactose is tested on MacConkey."
+   },
+   "img": "../lab-img/L02s_p12_1.jpg"
+  },
+  {
+   "num": 7,
+   "type": "Photo",
+   "prompt": "Read this MSA plate (S. epidermidis): growth, but the medium stays red/pink. What is the result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Salt-tolerant, mannitol fermenter"
+    },
+    {
+     "letter": "B",
+     "text": "Not salt-tolerant"
+    },
+    {
+     "letter": "C",
+     "text": "Salt-tolerant, non-mannitol fermenter"
+    },
+    {
+     "letter": "D",
+     "text": "Gram-negative, lactose fermenter"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Growth with red-orange medium = salt-tolerant but doesn't ferment mannitol.",
+   "why": {
+    "A": "Fermenters turn the medium yellow.",
+    "B": "Growth means salt-tolerant.",
+    "D": "That's a MacConkey reading (pink)."
+   },
+   "img": "../lab-img/L02s_p12_2.jpg"
+  },
+  {
+   "num": 8,
+   "type": "Photo",
+   "prompt": "This MSA plate (E. coli) shows no growth. What does that mean?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Not salt-tolerant"
+    },
+    {
+     "letter": "B",
+     "text": "Salt-tolerant, mannitol negative"
+    },
+    {
+     "letter": "C",
+     "text": "Mannitol fermenter"
+    },
+    {
+     "letter": "D",
+     "text": "Gram-positive"
+    }
+   ],
+   "correct": "A",
+   "explanation": "No growth on MSA = not salt-tolerant.",
+   "why": {
+    "B": "Salt-tolerant organisms would grow.",
+    "C": "Fermenters turn the medium yellow.",
+    "D": "MSA tests salt tolerance, not Gram reaction."
+   },
+   "img": "../lab-img/L11s_p20_1.jpg"
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "What are the differential components of mannitol salt agar?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Salt and phenol red"
+    },
+    {
+     "letter": "B",
+     "text": "Lactose and neutral red"
+    },
+    {
+     "letter": "C",
+     "text": "Citrate and bromothymol blue"
+    },
+    {
+     "letter": "D",
+     "text": "Mannitol and phenol red"
+    }
+   ],
+   "correct": "D",
+   "explanation": "MSA is selective for salt-tolerant (halophilic) bacteria and differential with mannitol + phenol red.",
+   "why": {
+    "A": "The high salt is the selective component.",
+    "B": "Those are MacConkey's differential components.",
+    "C": "Those are in citrate agar."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Photo",
+   "prompt": "Read this blood agar plate: clear zones of complete red blood cell lysis around colonies. What type of hemolysis is this?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Alpha-hemolysis"
+    },
+    {
+     "letter": "B",
+     "text": "Gamma-hemolysis"
+    },
+    {
+     "letter": "C",
+     "text": "Delta-hemolysis"
+    },
+    {
+     "letter": "D",
+     "text": "Beta-hemolysis"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Beta = complete lysis of RBCs. On the key, S. pyogenes is beta-hemolytic.",
+   "why": {
+    "A": "Alpha is partial lysis (greenish).",
+    "B": "Gamma is no lysis.",
+    "C": "Only alpha, beta and gamma are covered."
+   },
+   "img": "../lab-img/L11s_p21_2.jpg"
+  },
+  {
+   "num": 11,
+   "type": "Photo",
+   "prompt": "Read this blood agar plate: partial lysis of red blood cells (greenish, darkened agar). What type of hemolysis is this?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Beta-hemolysis"
+    },
+    {
+     "letter": "B",
+     "text": "Gamma-hemolysis"
+    },
+    {
+     "letter": "C",
+     "text": "No growth"
+    },
+    {
+     "letter": "D",
+     "text": "Alpha-hemolysis"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Alpha = partial lysis of RBCs. On the key, S. pneumoniae is alpha-hemolytic.",
+   "why": {
+    "A": "Beta is complete lysis (clear zones).",
+    "B": "Gamma is no lysis.",
+    "C": "There is growth on this plate."
+   },
+   "img": "../lab-img/L11s_p21_1.jpg"
+  },
+  {
+   "num": 12,
+   "type": "Photo",
+   "prompt": "Read this blood agar plate: colonies grow but the red agar around them is unchanged. What type of hemolysis is this?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Alpha-hemolysis (partial lysis)"
+    },
+    {
+     "letter": "B",
+     "text": "Beta-hemolysis (complete lysis)"
+    },
+    {
+     "letter": "C",
+     "text": "Gamma-hemolysis (no lysis)"
+    },
+    {
+     "letter": "D",
+     "text": "Coagulase positive"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Gamma = no lysis of red blood cells.",
+   "why": {
+    "A": "Alpha shows a greenish change.",
+    "B": "Beta shows clear zones.",
+    "D": "Coagulase is a clumping test."
+   },
+   "img": "../lab-img/L11s_p21_3.jpg"
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Blood agar is classified as:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Selective and differential"
+    },
+    {
+     "letter": "B",
+     "text": "Enriched and differential"
+    },
+    {
+     "letter": "C",
+     "text": "Defined and selective"
+    },
+    {
+     "letter": "D",
+     "text": "General purpose"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Blood agar (sheep's blood): enriched for fastidious growth; differential for hemolysis. Useful for differentiating Streptococcus spp.",
+   "why": {
+    "A": "MSA and MacConkey are selective + differential.",
+    "C": "Blood is a complex ingredient.",
+    "D": "Blood is a special added ingredient (enriched)."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Which pH indicator is found in mannitol salt agar, and what color is a positive result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Neutral red \u2014 pink"
+    },
+    {
+     "letter": "B",
+     "text": "Bromothymol blue \u2014 blue"
+    },
+    {
+     "letter": "C",
+     "text": "Phenol red \u2014 red-orange"
+    },
+    {
+     "letter": "D",
+     "text": "Phenol red \u2014 yellow"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Phenol red (MSA, TSI, fermentation broths): yellow = acid from fermentation (positive).",
+   "why": {
+    "A": "Neutral red is in MacConkey.",
+    "B": "Bromothymol blue is in citrate agar.",
+    "C": "Red-orange is the negative (non-fermenter) result."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the coagulase test is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Clumping indicates a positive result"
+    },
+    {
+     "letter": "B",
+     "text": "It differentiates Staphylococcus from Streptococcus"
+    },
+    {
+     "letter": "C",
+     "text": "Most S. aureus strains are coagulase positive"
+    },
+    {
+     "letter": "D",
+     "text": "It converts fibrinogen into fibrin"
+    },
+    {
+     "letter": "E",
+     "text": "It is a rapid test that needs no incubation"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The CATALASE test differentiates Staphylococcus from Streptococcus. Coagulase differentiates S. aureus from other Staphylococcus spp.",
+   "why": {
+    "A": "True.",
+    "C": "True.",
+    "D": "True.",
+    "E": "True \u2014 as stated on the slide."
+   },
+   "img": "../lab-img/L11s_p19_2.jpg"
+  }
+ ]
+}

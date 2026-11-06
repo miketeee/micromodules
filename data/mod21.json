@@ -26,7 +26,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Like dominoes waiting for the first one to be knocked over."
+   "explanation": "Like dominoes waiting for the first one to be knocked over.",
+   "why": {
+    "A": "Mast cells store histamine, not complement.",
+    "C": "They're inactive until triggered.",
+    "D": "They're in serum, not just on RBCs."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Mannose and LPS are common molecules, so they are nonspecific triggers."
+   "explanation": "Mannose and LPS are common molecules, so they are nonspecific triggers.",
+   "why": {
+    "B": "LPS is a nonspecific trigger.",
+    "C": "Mannose is nonspecific.",
+    "D": "Fever isn't a complement trigger."
+   }
   },
   {
    "num": 3,
@@ -80,7 +90,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "C3b opsonizes; C3a and C5a act on mast cells."
+   "explanation": "C3b opsonizes; C3a and C5a act on mast cells.",
+   "why": {
+    "A": "True — C3a and C5a trigger mast cells.",
+    "B": "True — the MAC lyses bacteria.",
+    "D": "True — opsonization marks microbes.",
+    "E": "True — C3b enhances phagocytosis."
+   }
   },
   {
    "num": 4,
@@ -105,7 +121,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Coated microbes are easier to grab and engulf."
+   "explanation": "Coated microbes are easier to grab and engulf.",
+   "why": {
+    "A": "Opsonization doesn't kill competitors.",
+    "C": "That's AVPs.",
+    "D": "That's fever."
+   }
   },
   {
    "num": 5,
@@ -130,7 +151,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Same outcome; different trigger."
+   "explanation": "Same outcome; different trigger.",
+   "why": {
+    "A": "Histamine is involved either way.",
+    "B": "WBCs arrive either way.",
+    "C": "Vessels dilate either way."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "C5b starts the assembly with C6–C8; C9 forms the ring."
+   "explanation": "C5b starts the assembly with C6–C8; C9 forms the ring.",
+   "why": {
+    "A": "C5a triggers mast cells.",
+    "B": "C3a triggers mast cells.",
+    "D": "C3b is an opsonin."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Cytolysis."
+   "explanation": "Cytolysis.",
+   "why": {
+    "A": "That's siderophores' job.",
+    "C": "That's opsonization.",
+    "D": "That's AVPs."
+   }
   },
   {
    "num": 8,
@@ -213,7 +249,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Interleukins are released by WBCs and influence other cells."
+   "explanation": "Interleukins are released by WBCs and influence other cells.",
+   "why": {
+    "A": "'Against viruses' describes interferon.",
+    "C": "Not 'inside the cell.'",
+    "D": "'Fire generator' is pyrogen."
+   }
   },
   {
    "num": 10,
@@ -238,7 +279,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "They turn up the body's thermostat."
+   "explanation": "They turn up the body's thermostat.",
+   "why": {
+    "B": "Lacrimal glands make tears.",
+    "C": "Mast cells release histamine.",
+    "D": "The stomach isn't the thermostat."
+   }
   },
   {
    "num": 11,
@@ -263,7 +309,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "A small temperature rise opens a gap between the two enzyme curves."
+   "explanation": "A small temperature rise opens a gap between the two enzyme curves.",
+   "why": {
+    "A": "Fever doesn't activate the MAC.",
+    "B": "Bacteria grow worse, not faster.",
+    "D": "That's AVPs, not fever."
+   }
   },
   {
    "num": 12,
@@ -292,7 +343,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "The infected cell will likely die; interferon protects its neighbors."
+   "explanation": "The infected cell will likely die; interferon protects its neighbors.",
+   "why": {
+    "B": "True — it can stimulate NK cells.",
+    "C": "True — neighbors make AVPs.",
+    "D": "True — infected cells secrete it.",
+    "E": "True — it's nonspecific."
+   }
   },
   {
    "num": 13,
@@ -317,7 +374,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "They destroy viral mRNA so biosynthesis can't proceed."
+   "explanation": "They destroy viral mRNA so biosynthesis can't proceed.",
+   "why": {
+    "A": "AVPs don't change temperature.",
+    "B": "AVPs don't clot blood.",
+    "C": "Coating is opsonization."
+   }
   },
   {
    "num": 14,
@@ -342,7 +404,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Natural interferon acts locally."
+   "explanation": "Natural interferon acts locally.",
+   "why": {
+    "A": "It doesn't drop temperature.",
+    "B": "It isn't a complement allergy.",
+    "D": "It doesn't target WBCs."
+   }
   },
   {
    "num": 15,
@@ -367,7 +434,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "A common bacterial sugar."
+   "explanation": "A common bacterial sugar.",
+   "why": {
+    "A": "Histamine is from mast cells.",
+    "B": "Interferon is a host cytokine.",
+    "D": "Interleukins are host cytokines."
+   }
   },
   {
    "num": 16,

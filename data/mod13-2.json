@@ -26,7 +26,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Lecture: if not destroyed, the mRNA would be translated over and over and the cell would make that protein nonstop."
+   "explanation": "Lecture: if not destroyed, the mRNA would be translated over and over and the cell would make that protein nonstop.",
+   "why": {
+    "A": "mRNA doesn't block promoters.",
+    "B": "Amino acids come from tRNAs, not mRNA nucleotides.",
+    "D": "mRNA doesn't turn into DNA."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Lecture: RNA polymerase unzips the DNA 'kind of like what helicase did' and brings in complementary RNA nucleotides to build the mRNA."
+   "explanation": "Lecture: RNA polymerase unzips the DNA 'kind of like what helicase did' and brings in complementary RNA nucleotides to build the mRNA.",
+   "why": {
+    "A": "RNA polymerase needs no primer or ligase.",
+    "B": "Gyrase and ligase aren't its jobs.",
+    "C": "It doesn't need gyrase's job."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Promoter: 'like a magnet' for RNA polymerase. Operator: binding site for the repressor. Terminator: polymerase can't bind and falls off."
+   "explanation": "Promoter: 'like a magnet' for RNA polymerase. Operator: binding site for the repressor. Terminator: polymerase can't bind and falls off.",
+   "why": {
+    "A": "Those are translation and stop-codon ideas, not DNA sites.",
+    "B": "The promoter is at the start, not the end.",
+    "C": "The repressor gene, operator, and terminator roles are scrambled."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Uracil is so similar to thymine that it binds adenine the same way."
+   "explanation": "Uracil is so similar to thymine that it binds adenine the same way.",
+   "why": {
+    "B": "mRNA uses uracil.",
+    "C": "Uracil pairs with adenine.",
+    "D": "Uracil isn't converted back."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Redundancy: multiple codons code for the same amino acid. A substitution may change the codon but not the amino acid."
+   "explanation": "Redundancy: multiple codons code for the same amino acid. A substitution may change the codon but not the amino acid.",
+   "why": {
+    "A": "Ribosomes don't skip codons.",
+    "B": "Only 3 codons are stops.",
+    "D": "Codon numbers per amino acid vary."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Lecture: get the amino acids in the right order and 'laws of physics just take over' — the chain spontaneously folds."
+   "explanation": "Lecture: get the amino acids in the right order and 'laws of physics just take over' — the chain spontaneously folds.",
+   "why": {
+    "B": "RNA polymerase doesn't fold proteins.",
+    "C": "tRNAs don't shape the chain.",
+    "D": "mRNA isn't a mold."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "An operon = regulatory gene + promoter + operator + genes. One promoter serves all three lac genes."
+   "explanation": "An operon = regulatory gene + promoter + operator + genes. One promoter serves all three lac genes.",
+   "why": {
+    "A": "The genes are together, not on separate chromosomes.",
+    "C": "There's one repressor gene.",
+    "D": "They share one promoter."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Inducible = default off (lamp); repressible = default on (refrigerator). Inducer inactivates the repressor; corepressor activates it."
+   "explanation": "Inducible = default off (lamp); repressible = default on (refrigerator). Inducer inactivates the repressor; corepressor activates it.",
+   "why": {
+    "A": "Reversed.",
+    "B": "They're different operon types.",
+    "D": "Neither binds DNA directly."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "A frameshift alters codons from the mutation forward. Near the end of the gene, few codons follow it."
+   "explanation": "A frameshift alters codons from the mutation forward. Near the end of the gene, few codons follow it.",
+   "why": {
+    "A": "The promoter isn't affected.",
+    "C": "Deletions shift the frame.",
+    "D": "Only codons after the deletion change."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "A premature stop early in the gene cuts the protein off after a few amino acids. Missense changes one amino acid; a silent change does nothing."
+   "explanation": "A premature stop early in the gene cuts the protein off after a few amino acids. Missense changes one amino acid; a silent change does nothing.",
+   "why": {
+    "A": "A stop near the end loses little.",
+    "C": "A silent change does nothing.",
+    "D": "One missense change is usually milder than losing 295 amino acids."
+   }
   },
   {
    "num": 11,
@@ -276,7 +326,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Slides: induced = caused by mutagens (radiation, chemicals, viruses); spontaneous = random errors in DNA replication or recombination."
+   "explanation": "Slides: induced = caused by mutagens (radiation, chemicals, viruses); spontaneous = random errors in DNA replication or recombination.",
+   "why": {
+    "B": "Thymine dimers are induced by UV.",
+    "C": "'Inducible' describes operons.",
+    "D": "Induced mutations need a mutagen."
+   }
   },
   {
    "num": 12,
@@ -305,7 +360,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — translation begins at the first AUG start codon; the region upstream of it is not translated."
+   "explanation": "False — translation begins at the first AUG start codon; the region upstream of it is not translated.",
+   "why": {
+    "A": "True — peptide bonds join amino acids.",
+    "C": "True — anticodons pair with codons.",
+    "D": "True — ribosomes assemble at AUG.",
+    "E": "True — stop codons have no tRNA."
+   }
   },
   {
    "num": 13,
@@ -334,7 +395,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — the regulatory gene is always on; it constantly makes active repressor."
+   "explanation": "False — the regulatory gene is always on; it constantly makes active repressor.",
+   "why": {
+    "B": "True — the repressor is made active.",
+    "C": "True — the genes break down lactose.",
+    "D": "True — the active repressor blocks polymerase.",
+    "E": "True — lactose changes the repressor's shape."
+   }
   },
   {
    "num": 14,

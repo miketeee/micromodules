@@ -1,0 +1,473 @@
+{
+ "slug": "lab6-2",
+ "title": "Lab 6 \u2014 Quiz 2",
+ "subtitle": "Survey of Eukaryotes \u2014 helminths and comparisons",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "Identify this structure, used by a tapeworm to attach to the intestinal wall.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ascaris ova (wide oval eggs)"
+    },
+    {
+     "letter": "B",
+     "text": "Enterobius ova (flat oval eggs)"
+    },
+    {
+     "letter": "C",
+     "text": "Taenia scolex (hooks and suckers)"
+    },
+    {
+     "letter": "D",
+     "text": "Aspergillus spore-forming head"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Taenia uses its scolex, with hooks and suction cups, to attach to the intestinal wall. (Viewed with the 10X lens in lab.)",
+   "why": {
+    "A": "Ascaris ova are wide oval eggs.",
+    "B": "Enterobius ova are flat oval eggs.",
+    "D": "Aspergillus is a fungus with dandelion-shaped heads."
+   },
+   "img": "../lab-img/L06s_p23_1.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Photo",
+   "prompt": "This long, flat, segmented worm is Taenia. What type of helminth is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Nematode (roundworm)"
+    },
+    {
+     "letter": "B",
+     "text": "Trematode (fluke)"
+    },
+    {
+     "letter": "C",
+     "text": "Protozoan"
+    },
+    {
+     "letter": "D",
+     "text": "Cestode (tapeworm)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Taenia spp. are cestodes \u2014 common intestinal tapeworms of animals and people.",
+   "why": {
+    "A": "Ascaris and Enterobius are the nematodes.",
+    "B": "Schistosoma is the trematode example.",
+    "C": "Helminths are multicellular animals, not protozoa."
+   },
+   "img": "../lab-img/L06s_p23_2.jpg"
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "How do pets most often get tapeworms?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "By eating Ascaris eggs from soil"
+    },
+    {
+     "letter": "B",
+     "text": "By swallowing larvae-infected fleas"
+    },
+    {
+     "letter": "C",
+     "text": "By mosquito bites"
+    },
+    {
+     "letter": "D",
+     "text": "By drinking water with Giardia cysts"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Pets most often get tapeworms by swallowing larvae-infected fleas. Humans may swallow egg sacs or larvae in contaminated water, or larvae in undercooked meat.",
+   "why": {
+    "A": "Ascaris is a roundworm, not a tapeworm.",
+    "C": "Mosquitoes carry Plasmodium.",
+    "D": "Giardia is a protozoan."
+   }
+  },
+  {
+   "num": 4,
+   "type": "Photo",
+   "prompt": "Identify these eggs: wide, oval-shaped ova with a thick, bumpy shell.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enterobius ova"
+    },
+    {
+     "letter": "B",
+     "text": "Entamoeba cysts"
+    },
+    {
+     "letter": "C",
+     "text": "Taenia scolex"
+    },
+    {
+     "letter": "D",
+     "text": "Ascaris ova"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Ascaris spp.: wide oval-shaped ova.",
+   "why": {
+    "A": "Enterobius ova are flat and oval.",
+    "B": "Entamoeba cysts are protozoan cysts, not helminth eggs.",
+    "C": "The scolex is the tapeworm's attachment structure."
+   },
+   "img": "../lab-img/L06s_p26_2.jpg"
+  },
+  {
+   "num": 5,
+   "type": "Photo",
+   "prompt": "Identify these eggs: flat, oval-shaped ova.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ascaris ova"
+    },
+    {
+     "letter": "B",
+     "text": "Candida yeast cells"
+    },
+    {
+     "letter": "C",
+     "text": "Enterobius ova"
+    },
+    {
+     "letter": "D",
+     "text": "Giardia cysts"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Enterobius spp. (pinworm): flat oval-shaped ova.",
+   "why": {
+    "A": "Ascaris ova are wide and oval.",
+    "B": "Yeast cells are much smaller and bud.",
+    "D": "These are helminth eggs."
+   },
+   "img": "../lab-img/L06s_p26_4.jpg"
+  },
+  {
+   "num": 6,
+   "type": "Photo",
+   "prompt": "Which helminth is very common in the US (especially in children), and its females exit the anus to lay eggs, causing intense itching?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enterobius spp. (pinworm)"
+    },
+    {
+     "letter": "B",
+     "text": "Ascaris spp. (roundworm)"
+    },
+    {
+     "letter": "C",
+     "text": "Taenia spp. (tapeworm)"
+    },
+    {
+     "letter": "D",
+     "text": "Schistosoma (blood fluke)"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Enterobius: intestinal pinworm; fecal-oral; females exit the anus and lay eggs on the skin, causing intense itching.",
+   "why": {
+    "B": "Ascaris is common worldwide but less so in the US.",
+    "C": "Taenia attaches to the intestinal wall by its scolex.",
+    "D": "Schistosoma is a trematode."
+   },
+   "img": "../lab-img/L06s_p25_1.jpg"
+  },
+  {
+   "num": 7,
+   "type": "Photo",
+   "prompt": "These intestinal roundworms can interfere with breathing and may cause intestinal blockage. Identify them.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enterobius spp."
+    },
+    {
+     "letter": "B",
+     "text": "Ascaris spp."
+    },
+    {
+     "letter": "C",
+     "text": "Taenia spp."
+    },
+    {
+     "letter": "D",
+     "text": "Schistosoma"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Ascaris: nematode; very common worldwide; eggs ingested, hatch in the small intestine; can interfere with breathing and cause intestinal blockage.",
+   "why": {
+    "A": "Enterobius causes anal itching.",
+    "C": "Taenia is a flat tapeworm (cestode).",
+    "D": "Schistosoma is a blood fluke."
+   },
+   "img": "../lab-img/L06s_p24_3.jpg"
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Ascaris and Enterobius are both:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cestodes spread by undercooked meat"
+    },
+    {
+     "letter": "B",
+     "text": "Trematodes spread by mosquitoes"
+    },
+    {
+     "letter": "C",
+     "text": "Nematodes spread by the fecal-oral route"
+    },
+    {
+     "letter": "D",
+     "text": "Protozoans spread by sexual contact"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Both are nematodes: eggs are ingested (fecal-oral) and hatch in the intestines.",
+   "why": {
+    "A": "Taenia is the cestode.",
+    "B": "Neither is a trematode or mosquito-borne.",
+    "D": "They are helminths (animals)."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Photo",
+   "prompt": "Which protozoan has ONLY a trophozoite form (no cysts)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Trichomonas vaginalis"
+    },
+    {
+     "letter": "B",
+     "text": "Giardia lamblia"
+    },
+    {
+     "letter": "C",
+     "text": "Entamoeba histolytica"
+    },
+    {
+     "letter": "D",
+     "text": "Naegleria fowleri"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Trichomonas vaginalis only has a trophozoite form.",
+   "why": {
+    "B": "Giardia forms cysts and trophozoites.",
+    "C": "Entamoeba forms cysts and trophozoites.",
+    "D": "Naegleria's figure shows a cyst stage too."
+   },
+   "img": "../lab-img/L06s_p19_1.jpg"
+  },
+  {
+   "num": 10,
+   "type": "Photo",
+   "prompt": "This round structure is an Entamoeba histolytica cyst. Which other protozoan from lab also forms cysts and trophozoites?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Trichomonas vaginalis"
+    },
+    {
+     "letter": "B",
+     "text": "Plasmodium spp."
+    },
+    {
+     "letter": "C",
+     "text": "Giardia lamblia"
+    },
+    {
+     "letter": "D",
+     "text": "Amoeba proteus"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Both Entamoeba histolytica and Giardia lamblia form cysts and trophozoites and spread by the fecal-oral route.",
+   "why": {
+    "A": "Trichomonas only has a trophozoite form.",
+    "B": "Plasmodium is described as an intracellular parasite in RBCs.",
+    "D": "Amoeba proteus isn't described as forming cysts in the slides."
+   },
+   "img": "../lab-img/L06s_p17_3.jpg"
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Which lens is used to view the Taenia scolex slide in the microscopic survey?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "40X high power"
+    },
+    {
+     "letter": "B",
+     "text": "100X oil immersion"
+    },
+    {
+     "letter": "C",
+     "text": "4X scanning only"
+    },
+    {
+     "letter": "D",
+     "text": "10X low power"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Survey: 40X for Aspergillus, Penicillium, Amoeba proteus and Ascaris ova; 10X for the Taenia scolex.",
+   "why": {
+    "A": "Aspergillus, Penicillium, Amoeba and Ascaris ova are viewed at 40X.",
+    "B": "Oil immersion is for bacteria.",
+    "C": "The manual specifies 10X for the scolex."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Compared with prokaryotes, eukaryotic cells are:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "1\u201310 \u00b5m with a nucleus and organelles"
+    },
+    {
+     "letter": "B",
+     "text": "10\u2013100 \u00b5m with a nucleus and membrane-bound organelles"
+    },
+    {
+     "letter": "C",
+     "text": "10\u2013100 \u00b5m without a nucleus"
+    },
+    {
+     "letter": "D",
+     "text": "1\u201310 \u00b5m with no membrane-bound organelles"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Prokaryotes: 1\u201310 \u00b5m, no nucleus or membrane-bound organelles. Eukaryotes: 10\u2013100 \u00b5m, nucleus and organelles, compartmentalized.",
+   "why": {
+    "A": "1\u201310 \u00b5m is the prokaryote size range.",
+    "C": "Eukaryotes have a nucleus.",
+    "D": "That describes prokaryotes."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Photo",
+   "prompt": "Fungal culture: which genus is shown growing as this colony?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Candida"
+    },
+    {
+     "letter": "B",
+     "text": "Aspergillus"
+    },
+    {
+     "letter": "C",
+     "text": "Escherichia"
+    },
+    {
+     "letter": "D",
+     "text": "Taenia"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The slide shows Aspergillus in culture, in brightfield and by SEM.",
+   "why": {
+    "A": "Candida colonies aren't shown here.",
+    "C": "E. coli is a bacterium.",
+    "D": "Taenia is a tapeworm."
+   },
+   "img": "../lab-img/L06s_p13_2.jpg"
+  },
+  {
+   "num": 14,
+   "type": "Photo",
+   "prompt": "These SEM images show protozoa lining an intestinal surface. Identify them.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Trichomonas vaginalis"
+    },
+    {
+     "letter": "B",
+     "text": "Giardia lamblia"
+    },
+    {
+     "letter": "C",
+     "text": "Plasmodium spp."
+    },
+    {
+     "letter": "D",
+     "text": "Amoeba proteus"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Giardia trophozoites attach to the intestine; they cause fatty diarrhea.",
+   "why": {
+    "A": "Trichomonas infects the urogenital tract.",
+    "C": "Plasmodium lives inside red blood cells.",
+    "D": "Amoeba proteus is free-living and non-pathogenic."
+   },
+   "img": "../lab-img/L06s_p18_4.jpg"
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about Penicillium is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It makes penicillin"
+    },
+    {
+     "letter": "B",
+     "text": "It can cause food spoilage"
+    },
+    {
+     "letter": "C",
+     "text": "Its spore-forming structures look like brooms"
+    },
+    {
+     "letter": "D",
+     "text": "It commonly causes respiratory infections"
+    },
+    {
+     "letter": "E",
+     "text": "It is a fungus (mold)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Penicillium is NOT known to cause disease. Aspergillus is the one that causes respiratory problems (farmer's lung, aspergillosis).",
+   "why": {
+    "A": "True \u2014 Penicillium makes penicillin.",
+    "B": "True \u2014 it spoils food.",
+    "C": "True \u2014 broom-shaped structures.",
+    "E": "True \u2014 it's in Kingdom Fungi."
+   },
+   "img": "../lab-img/L06s_p11_1.jpg"
+  }
+ ]
+}

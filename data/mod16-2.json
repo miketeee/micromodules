@@ -26,7 +26,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Slides: lysogeny ↔ latency. Animal-virus entry adds uncoating; release can be budding (enveloped), lysis (naked), or exocytosis (both)."
+   "explanation": "Slides: lysogeny ↔ latency. Animal-virus entry adds uncoating; release can be budding (enveloped), lysis (naked), or exocytosis (both).",
+   "why": {
+    "A": "Phages are released by lysis; naked animal viruses also lyse.",
+    "B": "Uncoating is an animal-virus step after entry.",
+    "D": "Animal viruses do biosynthesis."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Integration: prophage (bacteria) and provirus (HIV). Episomal = 'on top of' the chromosomes, not part of them (latent herpes)."
+   "explanation": "Integration: prophage (bacteria) and provirus (HIV). Episomal = 'on top of' the chromosomes, not part of them (latent herpes).",
+   "why": {
+    "B": "Episomal DNA isn't integrated; hosts aren't the difference.",
+    "C": "Labels are scrambled.",
+    "D": "Prophage and provirus are integrated; episomal isn't."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Retroviruses have RNA genomes and use reverse transcriptase to make DNA (the same enzyme used in RT-PCR, Module 14)."
+   "explanation": "Retroviruses have RNA genomes and use reverse transcriptase to make DNA (the same enzyme used in RT-PCR, Module 14).",
+   "why": {
+    "B": "CD4 binding uses surface proteins, not RT.",
+    "C": "HIV has an RNA genome.",
+    "D": "RT doesn't free budding virions."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Tamiflu is a neuraminidase inhibitor that prevents successful budding. Remdesivir disrupts the viral polymerase."
+   "explanation": "Tamiflu is a neuraminidase inhibitor that prevents successful budding. Remdesivir disrupts the viral polymerase.",
+   "why": {
+    "A": "Neither acts at entry.",
+    "C": "Reversed.",
+    "D": "Neither acts on hemagglutinin or exocytosis."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Lecture: it 'gets in there and acts like a nucleotide and can introduce mutations into the genomes that are being replicated.'"
+   "explanation": "Lecture: it 'gets in there and acts like a nucleotide and can introduce mutations into the genomes that are being replicated.'",
+   "why": {
+    "A": "It doesn't bind spike proteins.",
+    "C": "It isn't built into human DNA.",
+    "D": "Thymine dimers come from UV."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Endocytosis: the host cell engulfs the virus using pseudopods — the same 'false feet' amoebas (and white blood cells) use."
+   "explanation": "Endocytosis: the host cell engulfs the virus using pseudopods — the same 'false feet' amoebas (and white blood cells) use.",
+   "why": {
+    "A": "Euglena swims with a flagellum.",
+    "B": "Giardia swims with flagella.",
+    "D": "Plasmodium uses apical organelles."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Cells release waste by exocytosis all the time. Lysis bursts the cell; mass budding strips away so much membrane that the cell likely dies."
+   "explanation": "Cells release waste by exocytosis all the time. Lysis bursts the cell; mass budding strips away so much membrane that the cell likely dies.",
+   "why": {
+    "B": "Flu budding still takes membrane.",
+    "C": "Lysis kills the cell.",
+    "D": "Mass budding can kill the cell."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "A viral genome can't encode a phospholipid bilayer; enveloped viruses borrow host membrane — plasma membrane (budding) or ER/Golgi (SARS-CoV-2)."
+   "explanation": "A viral genome can't encode a phospholipid bilayer; enveloped viruses borrow host membrane — plasma membrane (budding) or ER/Golgi (SARS-CoV-2).",
+   "why": {
+    "A": "Viral genes don't make lipids.",
+    "B": "Reversed.",
+    "C": "Neither uses lysosome membranes for the envelope."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Narrow host range: lock-and-key binding between viral proteins and specific host attachment sites."
+   "explanation": "Narrow host range: lock-and-key binding between viral proteins and specific host attachment sites.",
+   "why": {
+    "A": "Animal cells have no walls.",
+    "C": "Size matching isn't the rule.",
+    "D": "Healthy cells are infected too."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Severe COVID results from an overactive immune response. In 1918, healthy people with robust immune systems had very severe hypersensitive responses."
+   "explanation": "Severe COVID results from an overactive immune response. In 1918, healthy people with robust immune systems had very severe hypersensitive responses.",
+   "why": {
+    "A": "1918 killed many healthy adults, not mostly the old and young.",
+    "B": "No antivirals stopped either quickly.",
+    "D": "Severe harm came from the immune response."
+   }
   },
   {
    "num": 11,
@@ -276,7 +326,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "100/500 = 20%; 6.31/536 ≈ 1.2%. Similar case numbers, very different death tolls."
+   "explanation": "100/500 = 20%; 6.31/536 ≈ 1.2%. Similar case numbers, very different death tolls.",
+   "why": {
+    "A": "Reversed.",
+    "B": "Wrong numbers.",
+    "C": "Case numbers were similar, but deaths weren't."
+   }
   },
   {
    "num": 12,
@@ -305,7 +360,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — in a persistent infection new viruses are made at a very slow rate and are detectable at all times."
+   "explanation": "False — in a persistent infection new viruses are made at a very slow rate and are detectable at all times.",
+   "why": {
+    "B": "True — herpes recurs.",
+    "C": "True — latent DNA stays episomal.",
+    "D": "True — HIV releases virus slowly.",
+    "E": "True — acute goes straight to productive."
+   }
   },
   {
    "num": 13,
@@ -334,7 +395,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — influenza has a segmented RNA genome."
+   "explanation": "False — influenza has a segmented RNA genome.",
+   "why": {
+    "A": "True — hemagglutinin attaches.",
+    "C": "True — helical capsid in an envelope.",
+    "D": "True — enters by endocytosis.",
+    "E": "True — neuraminidase frees budding virions."
+   }
   },
   {
    "num": 14,

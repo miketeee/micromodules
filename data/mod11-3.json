@@ -26,7 +26,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "959 surviving cells + 131 programmed deaths = 1,090 cells produced. The deaths explain the odd final number."
+   "explanation": "959 surviving cells + 131 programmed deaths = 1,090 cells produced. The deaths explain the odd final number.",
+   "why": {
+    "A": "That adds the 302 neurons instead of the 131 deaths.",
+    "C": "959 is only the survivors.",
+    "D": "That subtracts the deaths instead of adding them."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Cestodes have no mouth or digestive tract. An oral sucker and intestine point to a trematode (fluke) — here, Clonorchis, the liver fluke. Cuticle, flat body, and hermaphroditism are shared."
+   "explanation": "Cestodes have no mouth or digestive tract. An oral sucker and intestine point to a trematode (fluke) — here, Clonorchis, the liver fluke. Cuticle, flat body, and hermaphroditism are shared.",
+   "why": {
+    "B": "Tapeworms have chitin cuticles too.",
+    "C": "Tapeworms are hermaphrodites too.",
+    "D": "Tapeworms are flat too."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Dracunculus eggs live in rivers and creeks. Mosquito nets target malaria and heartworm; the tape test is for pinworms."
+   "explanation": "Dracunculus eggs live in rivers and creeks. Mosquito nets target malaria and heartworm; the tape test is for pinworms.",
+   "why": {
+    "A": "The tape test is for pinworms.",
+    "B": "Heartworm isn't related.",
+    "D": "Mosquitoes don't carry Guinea worm."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Larval development needs lots of oxygen, which the gut lacks — so larvae go via blood to the lungs, then up the trachea and are swallowed."
+   "explanation": "Larval development needs lots of oxygen, which the gut lacks — so larvae go via blood to the lungs, then up the trachea and are swallowed.",
+   "why": {
+    "A": "They visit the lungs for oxygen, not to dodge enzymes.",
+    "C": "Lack of oxygen would stop their growth.",
+    "D": "They can't skip the lung stage."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Tapeworm self-fertilization is still sexual, because its sperm and eggs differ genetically. Budding, sporangiospores, and binary fission are asexual."
+   "explanation": "Tapeworm self-fertilization is still sexual, because its sperm and eggs differ genetically. Budding, sporangiospores, and binary fission are asexual.",
+   "why": {
+    "A": "Sporangiospores are asexual.",
+    "C": "Buds are clones.",
+    "D": "Binary fission is asexual."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "'That's not really what we're doing' — anticoagulants keep blood from clotting, as worm saliva does."
+   "explanation": "'That's not really what we're doing' — anticoagulants keep blood from clotting, as worm saliva does.",
+   "why": {
+    "A": "It doesn't thicken blood.",
+    "B": "It doesn't remove RBCs.",
+    "C": "It works in people."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "A biological vector hosts pathogen reproduction. In malaria, the sexual stage (gametocytes fusing) happens in the mosquito."
+   "explanation": "A biological vector hosts pathogen reproduction. In malaria, the sexual stage (gametocytes fusing) happens in the mosquito.",
+   "why": {
+    "B": "Water excretion isn't the reason.",
+    "C": "Saliva doesn't cause fever.",
+    "D": "Riding on legs would make it mechanical."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "One representative drug per module: Flagyl (DNA synthesis), Monistat (ergosterol), Vermox (sugar absorption)."
+   "explanation": "One representative drug per module: Flagyl (DNA synthesis), Monistat (ergosterol), Vermox (sugar absorption).",
+   "why": {
+    "B": "Organism–mechanism pairs are scrambled.",
+    "C": "Flagyl doesn't target hemoglobin; Vermox doesn't block DNA.",
+    "D": "All three are scrambled."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The hypothesis predicts more allergies after deworming. Equal allergy rates with or without worms would undercut it; the others support it."
+   "explanation": "The hypothesis predicts more allergies after deworming. Equal allergy rates with or without worms would undercut it; the others support it.",
+   "why": {
+    "A": "That supports the hypothesis.",
+    "B": "That supports it.",
+    "D": "That supports it."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "The 302 neurons are used to study nervous systems; the 131 deaths are used for programmed cell death."
+   "explanation": "The 302 neurons are used to study nervous systems; the 131 deaths are used for programmed cell death.",
+   "why": {
+    "A": "131 deaths do match programmed cell death.",
+    "B": "302 neurons do match brain mapping.",
+    "C": "959 cells do match development studies."
+   }
   },
   {
    "num": 11,
@@ -280,7 +330,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — most nematodes are harmless; only some cause disease (though those are among the most common diseases worldwide)."
+   "explanation": "False — most nematodes are harmless; only some cause disease (though those are among the most common diseases worldwide).",
+   "why": {
+    "A": "True — adult Ascaris is about a foot long.",
+    "C": "True — soil is full of nematodes.",
+    "D": "True — females are bigger.",
+    "E": "True — they aerate soil."
+   }
   },
   {
    "num": 12,
@@ -309,7 +365,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — larvae only pass a developmental stage in the lungs; adults grow and reproduce in the intestines."
+   "explanation": "False — larvae only pass a developmental stage in the lungs; adults grow and reproduce in the intestines.",
+   "why": {
+    "B": "True — adults live in the intestines.",
+    "C": "True — larvae are re-swallowed.",
+    "D": "True — larvae travel to the lungs.",
+    "E": "True — eggs are swallowed."
+   }
   },
   {
    "num": 13,
@@ -338,7 +400,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False — biting isn't the test. A vector is biological if the pathogen reproduces inside it, mechanical if it just rides on body parts."
+   "explanation": "False — biting isn't the test. A vector is biological if the pathogen reproduces inside it, mechanical if it just rides on body parts.",
+   "why": {
+    "A": "True — a fly is a mechanical vector.",
+    "B": "True — many arthropods only spread disease.",
+    "D": "True — ticks carry Lyme.",
+    "E": "True — they excrete water."
+   }
   },
   {
    "num": 14,

@@ -30,7 +30,13 @@
     }
    ],
    "correct": "E",
-   "explanation": "False. The backbone is held together by strong covalent bonds; hydrogen bonds hold the two strands together across the middle."
+   "explanation": "False. The backbone is held together by strong covalent bonds; hydrogen bonds hold the two strands together across the middle.",
+   "why": {
+    "A": "True — the strands run opposite ways.",
+    "B": "True — A–T and G–C.",
+    "C": "True — about 2 nm wide.",
+    "D": "True — a double helix."
+   }
   },
   {
    "num": 2,
@@ -55,7 +61,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Heat-killed S + live R killed the mouse and living S cells were recovered — the R cells had been transformed."
+   "explanation": "Heat-killed S + live R killed the mouse and living S cells were recovered — the R cells had been transformed.",
+   "why": {
+    "A": "Heat-killed S alone didn't kill.",
+    "B": "Live R alone didn't kill.",
+    "D": "Live S kills on its own; that wasn't the surprising mixture."
+   }
   },
   {
    "num": 3,
@@ -80,7 +91,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Destroying DNA blocked transformation, while destroying protein (protease) did not — so DNA is the genetic material."
+   "explanation": "Destroying DNA blocked transformation, while destroying protein (protease) did not — so DNA is the genetic material.",
+   "why": {
+    "A": "The capsule isn't DNA; DNA carries the capsule genes.",
+    "B": "R cells are harmless.",
+    "C": "Destroying protein didn't stop it, so protein isn't it."
+   }
   },
   {
    "num": 4,
@@ -113,7 +129,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "The nitrogenous base is the only part that differs among nucleotides."
+   "explanation": "The nitrogenous base is the only part that differs among nucleotides.",
+   "why": {
+    "B": "Every nucleotide has the same phosphate.",
+    "C": "The sugar is the same within DNA.",
+    "D": "The OH group isn't what distinguishes A, G, C, T."
+   }
   },
   {
    "num": 6,
@@ -138,7 +159,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "T = A = 30% → A + T = 60% → G + C = 40% → G = 20%."
+   "explanation": "T = A = 30% → A + T = 60% → G + C = 40% → G = 20%.",
+   "why": {
+    "A": "30% is thymine (and adenine).",
+    "C": "40% is G + C halved wrong; G is 20%.",
+    "D": "70% is G + C + something extra."
+   }
   },
   {
    "num": 7,
@@ -167,7 +193,13 @@
     }
    ],
    "correct": "D",
-   "explanation": "False. Uracil pairs with adenine, just as thymine does."
+   "explanation": "False. Uracil pairs with adenine, just as thymine does.",
+   "why": {
+    "A": "True — deoxyribose vs ribose.",
+    "B": "True — RNA is usually single-stranded.",
+    "C": "True — U replaces T.",
+    "E": "True — both are nucleotide polymers."
+   }
   },
   {
    "num": 8,
@@ -192,7 +224,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The 5' end starts with a phosphate on carbon 5; the 3' end finishes with an –OH on carbon 3."
+   "explanation": "The 5' end starts with a phosphate on carbon 5; the 3' end finishes with an –OH on carbon 3.",
+   "why": {
+    "A": "The 3′ end has the OH.",
+    "C": "Only one end has the phosphate.",
+    "D": "The 5′ end does."
+   }
   },
   {
    "num": 9,
@@ -217,7 +254,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Helicase unzips the helix. Gyrase uncoils supercoiling first; primase lays primers; ligase joins fragments."
+   "explanation": "Helicase unzips the helix. Gyrase uncoils supercoiling first; primase lays primers; ligase joins fragments.",
+   "why": {
+    "B": "Gyrase uncoils supercoils.",
+    "C": "Ligase joins fragments.",
+    "D": "Primase lays primers."
+   }
   },
   {
    "num": 10,
@@ -242,7 +284,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Because synthesis is restricted to 5'→3', one template strand must be copied backward in short primed pieces that ligase later joins."
+   "explanation": "Because synthesis is restricted to 5'→3', one template strand must be copied backward in short primed pieces that ligase later joins.",
+   "why": {
+    "A": "Ligase joins fragments; it doesn't destroy them.",
+    "B": "Helicase opens the whole fork.",
+    "C": "The lagging strand is DNA."
+   }
   },
   {
    "num": 11,
@@ -275,7 +322,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Two helicases leave the origin in opposite directions, creating two forks that meet on the other side of the loop."
+   "explanation": "Two helicases leave the origin in opposite directions, creating two forks that meet on the other side of the loop.",
+   "why": {
+    "B": "Two helicases make two forks.",
+    "C": "Replication starts once, not once per gene.",
+    "D": "There are two forks, not four."
+   }
   },
   {
    "num": 13,
@@ -300,7 +352,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Cipro inhibits bacterial DNA gyrase, so DNA can't be uncoiled and replicated."
+   "explanation": "Cipro inhibits bacterial DNA gyrase, so DNA can't be uncoiled and replicated.",
+   "why": {
+    "A": "Adding nucleotides is polymerase.",
+    "B": "Joining fragments is ligase.",
+    "D": "Laying primers is primase."
+   }
   },
   {
    "num": 14,
@@ -329,7 +386,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False. Genotype determines phenotype, not the other way around."
+   "explanation": "False. Genotype determines phenotype, not the other way around.",
+   "why": {
+    "B": "True — genotype is the genes.",
+    "C": "True — a gene encodes primary structure.",
+    "D": "True — Gram reaction is phenotype.",
+    "E": "True — oxygen use is phenotype."
+   }
   },
   {
    "num": 15,
@@ -354,7 +417,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "He sequenced its 521-gene chromosome, synthesized an artificial copy, and transplanted it into a chromosome-less cell."
+   "explanation": "He sequenced its 521-gene chromosome, synthesized an artificial copy, and transplanted it into a chromosome-less cell.",
+   "why": {
+    "B": "Transformation was Griffith.",
+    "C": "Recombinant DNA was Berg.",
+    "D": "The double helix was Watson, Crick, and Franklin."
+   }
   },
   {
    "num": 16,
@@ -379,7 +447,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The coding strand matches the mRNA (T instead of U); the 3'→5' non-coding strand is the template."
+   "explanation": "The coding strand matches the mRNA (T instead of U); the 3'→5' non-coding strand is the template.",
+   "why": {
+    "A": "Lagging is a replication term.",
+    "B": "The template strand is complementary to the mRNA.",
+    "D": "Non-coding is the template strand."
+   }
   },
   {
    "num": 17,

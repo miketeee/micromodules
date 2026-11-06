@@ -1,0 +1,466 @@
+{
+ "slug": "lab2",
+ "title": "Lab 2 \u2014 Quiz 1",
+ "subtitle": "Culturing Bacteria \u2014 culture media and media prep",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "What physical state of medium is shown in these flasks?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Liquid (broth)"
+    },
+    {
+     "letter": "B",
+     "text": "Solid (agar)"
+    },
+    {
+     "letter": "C",
+     "text": "Defined"
+    },
+    {
+     "letter": "D",
+     "text": "Selective"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Broth is a liquid medium (e.g., TSB, NB). Agar is a solid medium (e.g., TSA, NA).",
+   "why": {
+    "B": "Agar media are solid; these flasks contain liquid broth.",
+    "C": "Defined describes chemical composition, not physical state.",
+    "D": "Selective describes function, not physical state."
+   },
+   "img": "../lab-img/L02s_p06_1.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Photo",
+   "prompt": "This plate contains which type of medium?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Solid medium (agar)"
+    },
+    {
+     "letter": "B",
+     "text": "Liquid medium (broth)"
+    },
+    {
+     "letter": "C",
+     "text": "Complex medium only"
+    },
+    {
+     "letter": "D",
+     "text": "Reducing medium"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Agar is a solid medium; common examples are Tryptic Soy Agar (TSA) and Nutrient Agar (NA).",
+   "why": {
+    "B": "Broth is liquid; this is a Petri plate of agar.",
+    "C": "Complex describes composition, not the physical state shown.",
+    "D": "Reducing media remove oxygen; this question asks about physical state."
+   },
+   "img": "../lab-img/L02s_p06_3.jpg"
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "A medium in which the exact ingredients and amounts are known is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Defined"
+    },
+    {
+     "letter": "B",
+     "text": "Complex"
+    },
+    {
+     "letter": "C",
+     "text": "Enriched"
+    },
+    {
+     "letter": "D",
+     "text": "General purpose"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Defined media: exact ingredients and amounts known; expensive; mostly research labs; rarely medical labs (exception: Citrate Agar).",
+   "why": {
+    "B": "Complex media contain basic ingredients but the exact amounts are unknown.",
+    "C": "Enriched is a functional type (adds blood, serum, growth factors).",
+    "D": "General purpose is a functional type for non-fastidious microbes."
+   }
+  },
+  {
+   "num": 4,
+   "type": "Photo",
+   "prompt": "Which defined medium is the exception that IS used in medical labs?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Blood agar"
+    },
+    {
+     "letter": "B",
+     "text": "Citrate agar"
+    },
+    {
+     "letter": "C",
+     "text": "Chocolate agar"
+    },
+    {
+     "letter": "D",
+     "text": "Nutrient agar"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Defined media are rarely used in medical labs; the exception is Citrate Agar.",
+   "why": {
+    "A": "Blood agar is complex (contains blood) \u2014 enriched and differential.",
+    "C": "Chocolate agar is an enriched complex medium.",
+    "D": "Nutrient agar is a general purpose complex medium."
+   },
+   "img": "../lab-img/L02s_p08_3.jpg"
+  },
+  {
+   "num": 5,
+   "type": "Photo",
+   "prompt": "This plate is chocolate agar, which contains special added ingredients. What functional type is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "General purpose"
+    },
+    {
+     "letter": "B",
+     "text": "Enriched"
+    },
+    {
+     "letter": "C",
+     "text": "Selective"
+    },
+    {
+     "letter": "D",
+     "text": "Reducing"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Enriched media add growth factors, serum, blood, metal ions or coenzymes to grow fastidious ('pesky picky eater') microbes. Examples: chocolate agar, blood agar.",
+   "why": {
+    "A": "General purpose media (NA, TSA) have only basic nutrients.",
+    "C": "Selective media contain agents that inhibit certain microbes.",
+    "D": "Reducing media contain ingredients that remove oxygen."
+   },
+   "img": "../lab-img/L02s_p09_2.jpg"
+  },
+  {
+   "num": 6,
+   "type": "Photo",
+   "prompt": "Nutrient agar and tryptic soy agar are examples of which functional type?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "General purpose"
+    },
+    {
+     "letter": "B",
+     "text": "Enriched"
+    },
+    {
+     "letter": "C",
+     "text": "Differential"
+    },
+    {
+     "letter": "D",
+     "text": "Selective"
+    }
+   ],
+   "correct": "A",
+   "explanation": "General purpose media support a wide range of non-fastidious microbes: Nutrient Agar, Tryptic Soy Agar, Peptone Broth.",
+   "why": {
+    "B": "Enriched examples are chocolate agar and blood agar.",
+    "C": "Differential media show visible differences (e.g., TSI, VRE agar).",
+    "D": "Selective media inhibit certain microbes (e.g., MacConkey, MSA)."
+   },
+   "img": "../lab-img/L02s_p09_1.jpg"
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "A medium containing agents that inhibit the growth of certain microbes is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Differential"
+    },
+    {
+     "letter": "B",
+     "text": "Enriched"
+    },
+    {
+     "letter": "C",
+     "text": "Selective"
+    },
+    {
+     "letter": "D",
+     "text": "Defined"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Selective media inhibit some microbes \u2014 a powerful tool for isolation, especially from mixed cultures.",
+   "why": {
+    "A": "Differential media show visible differences between organisms.",
+    "B": "Enriched media add nutrients; they don't inhibit growth.",
+    "D": "Defined describes known composition, not function."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Photo",
+   "prompt": "These TSI slants are an example of which functional type of medium?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Selective"
+    },
+    {
+     "letter": "B",
+     "text": "Enriched"
+    },
+    {
+     "letter": "C",
+     "text": "Reducing"
+    },
+    {
+     "letter": "D",
+     "text": "Differential"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Differential media display visible differences (colony color, media color, gas bubbles, liquefaction, antibiotic susceptibility) \u2014 a powerful tool for identification.",
+   "why": {
+    "A": "TSI doesn't inhibit organisms; it shows visible differences.",
+    "B": "TSI isn't described as adding growth factors for fastidious organisms.",
+    "C": "Reducing media remove oxygen (e.g., thioglycolate)."
+   },
+   "img": "../lab-img/L02s_p10_2.jpg"
+  },
+  {
+   "num": 9,
+   "type": "Photo",
+   "prompt": "In the thioglycolate broth tubes shown, where is oxygen concentration highest?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "At the bottom of the tube"
+    },
+    {
+     "letter": "B",
+     "text": "In the middle of the tube"
+    },
+    {
+     "letter": "C",
+     "text": "At the top of the tube"
+    },
+    {
+     "letter": "D",
+     "text": "Evenly throughout the tube"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Thioglycolate broth (a reducing medium) creates an O2 gradient: top = high, middle = low, bottom = no O2.",
+   "why": {
+    "A": "The bottom has no O2.",
+    "B": "The middle has low O2.",
+    "D": "Thioglycolate creates an O2 gradient, not an even level."
+   },
+   "img": "../lab-img/L02s_p11_1.jpg"
+  },
+  {
+   "num": 10,
+   "type": "Photo",
+   "prompt": "In thioglycolate broth, an organism grows ONLY at the very bottom of the tube. It is a(n):",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Obligate aerobe"
+    },
+    {
+     "letter": "B",
+     "text": "Microaerophile"
+    },
+    {
+     "letter": "C",
+     "text": "Obligate anaerobe"
+    },
+    {
+     "letter": "D",
+     "text": "Aerotolerant anaerobe"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Obligate anaerobes grow only where there is no oxygen \u2014 the bottom of the thioglycolate tube.",
+   "why": {
+    "A": "Obligate aerobes grow only at the top where O2 is high.",
+    "B": "Microaerophiles grow just below the top, where O2 is low.",
+    "D": "Aerotolerant anaerobes grow evenly throughout the tube."
+   },
+   "img": "../lab-img/L02s_p11_1.jpg"
+  },
+  {
+   "num": 11,
+   "type": "Photo",
+   "prompt": "What are the autoclave settings used to sterilize media?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "100\u00b0C, 15 PSI, 30 minutes"
+    },
+    {
+     "letter": "B",
+     "text": "121\u00b0C, 30 PSI, 5 minutes"
+    },
+    {
+     "letter": "C",
+     "text": "37\u00b0C, 15 PSI, 24 hours"
+    },
+    {
+     "letter": "D",
+     "text": "121\u00b0C, 15 PSI, 15 minutes"
+    }
+   ],
+   "correct": "D",
+   "explanation": "An autoclave sterilizes at 121\u00b0C, 15 PSI, for 15 minutes. Sterility is tested by endospore survival.",
+   "why": {
+    "A": "Autoclaving is 121\u00b0C, not 100\u00b0C.",
+    "B": "The settings are 15 PSI for 15 minutes.",
+    "C": "37\u00b0C is an incubation temperature, not sterilization."
+   },
+   "img": "../lab-img/L02s_p18_1.jpg"
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Why are culture media sterilized before use?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "To activate the nutrients in the powder"
+    },
+    {
+     "letter": "B",
+     "text": "To prevent contamination and minimize false positives"
+    },
+    {
+     "letter": "C",
+     "text": "To lower the pH to the correct level"
+    },
+    {
+     "letter": "D",
+     "text": "To remove oxygen from the medium"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Media are sterilized (pre-made or prepared on-site) to prevent contamination and minimize false positives.",
+   "why": {
+    "A": "Sterilization kills contaminants; it doesn't activate nutrients.",
+    "C": "pH is maintained with buffers.",
+    "D": "That's what reducing media ingredients do."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "How is sterile culture media stored for the short term?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Freezing"
+    },
+    {
+     "letter": "B",
+     "text": "Dehydrating"
+    },
+    {
+     "letter": "C",
+     "text": "Refrigeration"
+    },
+    {
+     "letter": "D",
+     "text": "Room temperature on the bench"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Short term: refrigeration. Long term: freezing or dehydrating.",
+   "why": {
+    "A": "Freezing is a long-term method.",
+    "B": "Dehydrating is a long-term method.",
+    "D": "Media are refrigerated after sterilization."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "You need 2 L of nutrient broth. The label says: suspend 45 g in 1 L of deionized water. How many grams of powder do you need?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "22.5 g"
+    },
+    {
+     "letter": "B",
+     "text": "45 g"
+    },
+    {
+     "letter": "C",
+     "text": "47 g"
+    },
+    {
+     "letter": "D",
+     "text": "90 g"
+    }
+   ],
+   "correct": "D",
+   "explanation": "45 g / 1 L = X / 2 L \u2192 X = 90 g.",
+   "why": {
+    "A": "That divides 45 by 2 instead of multiplying.",
+    "B": "45 g is for only 1 L.",
+    "C": "Grams aren't added to liters; multiply 45 g/L \u00d7 2 L."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "You need 400 mL of nutrient broth. The label says: suspend 45 g in 1 L. How many grams do you need?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "180 g"
+    },
+    {
+     "letter": "B",
+     "text": "11.1 g"
+    },
+    {
+     "letter": "C",
+     "text": "1.8 g"
+    },
+    {
+     "letter": "D",
+     "text": "18 g"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Convert 400 mL \u2192 0.4 L. Then 45 g \u00d7 0.4 L / 1 L = 18 g.",
+   "why": {
+    "A": "400 mL is 0.4 L, not 4 L.",
+    "B": "That divides 45 by 4 instead of multiplying by 0.4.",
+    "C": "0.4 L \u00d7 45 g/L = 18 g, not 1.8 g."
+   }
+  }
+ ]
+}

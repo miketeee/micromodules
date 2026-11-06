@@ -26,7 +26,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Slides: fecal transplants restore beneficial microbiota; more diverse flora outcompete pathogens."
+   "explanation": "Slides: fecal transplants restore beneficial microbiota; more diverse flora outcompete pathogens.",
+   "why": {
+    "A": "The transplant doesn't set pH to 7.35.",
+    "B": "It contains microbes, not antibiotics.",
+    "C": "C. diff isn't converted."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "These are the same limitations that have kept Koch's postulates from being completed for HIV and AIDS."
+   "explanation": "These are the same limitations that have kept Koch's postulates from being completed for HIV and AIDS.",
+   "why": {
+    "A": "Frequency terms aren't Koch limitations.",
+    "B": "There's one cause, and it may spread.",
+    "D": "These are infection types."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "All communicable diseases are infectious, but not all infectious diseases are communicable (tetanus, Lyme)."
+   "explanation": "All communicable diseases are infectious, but not all infectious diseases are communicable (tetanus, Lyme).",
+   "why": {
+    "B": "Lyme isn't normal flora.",
+    "C": "Non-communicable means not contagious.",
+    "D": "Some non-communicable diseases are infectious."
+   }
   },
   {
    "num": 4,
@@ -105,7 +120,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "During convalescence the curve hasn't yet reached zero."
+   "explanation": "During convalescence the curve hasn't yet reached zero.",
+   "why": {
+    "B": "True — stopping early is risky.",
+    "C": "True — incubation has no symptoms.",
+    "D": "True — prodromal is mild.",
+    "E": "True — illness is log growth."
+   }
   },
   {
    "num": 5,
@@ -130,7 +151,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Prevalence = existing + new cases; fewer deaths means cases accumulate."
+   "explanation": "Prevalence = existing + new cases; fewer deaths means cases accumulate.",
+   "why": {
+    "B": "Prevalence rises when cases stay.",
+    "C": "Prevalence includes existing cases.",
+    "D": "Prevalence stays the same only if nothing changes."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Sporadic = occasional; epidemic = many cases in an area in a short time."
+   "explanation": "Sporadic = occasional; epidemic = many cases in an area in a short time.",
+   "why": {
+    "A": "That's a pandemic.",
+    "C": "That's a slow rise.",
+    "D": "That's endemic."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Measles is systemic with obvious spots; the lecture's subclinical example is hepatitis A."
+   "explanation": "Measles is systemic with obvious spots; the lecture's subclinical example is hepatitis A.",
+   "why": {
+    "A": "Correct — herpes is latent.",
+    "B": "Correct — an abscess is local.",
+    "D": "Correct — food poisoning is acute."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "On unbroken skin S. aureus is commensal; through a cut, it reaches tissue where it causes disease."
+   "explanation": "On unbroken skin S. aureus is commensal; through a cut, it reaches tissue where it causes disease.",
+   "why": {
+    "A": "It doesn't change species.",
+    "C": "It's an opportunist, not a true pathogen.",
+    "D": "Surgery doesn't kill all flora."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Age and immunosuppressive therapy weaken defenses so opportunists can cause disease."
+   "explanation": "Age and immunosuppressive therapy weaken defenses so opportunists can cause disease.",
+   "why": {
+    "A": "No carrier or endemic link.",
+    "C": "The host isn't healthy.",
+    "D": "Not commensal or pandemic."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Bacteriocins are one of the three antagonism mechanisms."
+   "explanation": "Bacteriocins are one of the three antagonism mechanisms.",
+   "why": {
+    "A": "Salmonella is intestinal.",
+    "B": "Lactobacillus doesn't raise pH.",
+    "C": "S. epidermidis is skin flora."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Textbook: active carriers can transmit during incubation, before signs and symptoms appear."
+   "explanation": "Textbook: active carriers can transmit during incubation, before signs and symptoms appear.",
+   "why": {
+    "A": "Latent means dormant, not incubation.",
+    "B": "It spreads, so it's communicable.",
+    "C": "Passive carriers aren't infected."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Bacteremia is a condition (bacteria in blood); sepsis is the dangerous body-wide reaction."
+   "explanation": "Bacteremia is a condition (bacteria in blood); sepsis is the dangerous body-wide reaction.",
+   "why": {
+    "A": "Sepsis is body-wide.",
+    "B": "Toxemia is toxins only.",
+    "D": "That's bacteremia."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "L. acidophilus is acquired by passing through the vaginal canal; slides note C-section babies meet different microbes."
+   "explanation": "L. acidophilus is acquired by passing through the vaginal canal; slides note C-section babies meet different microbes.",
+   "why": {
+    "B": "S. epidermidis comes from nursing and handling.",
+    "C": "S. aureus comes from handling.",
+    "D": "E. coli comes from food and objects."
+   }
   },
   {
    "num": 14,

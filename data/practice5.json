@@ -26,7 +26,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Etiology = cause; pathogenesis = how the disease develops."
+   "explanation": "Etiology = cause; pathogenesis = how the disease develops.",
+   "why": {
+    "A": "Course isn't epidemiology (population spread).",
+    "B": "Course isn't immunology.",
+    "D": "Cause is etiology, not epidemiology."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "E. coli in the colon is the course's mutualism example."
+   "explanation": "E. coli in the colon is the course's mutualism example.",
+   "why": {
+    "B": "V. cholerae is a parasite.",
+    "C": "Candida doesn't make vitamin K.",
+    "D": "S. epidermidis is mostly protective flora."
+   }
   },
   {
    "num": 3,
@@ -80,7 +90,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "The amniotic sac is sterile; E. coli comes later from food and objects."
+   "explanation": "The amniotic sac is sterile; E. coli comes later from food and objects.",
+   "why": {
+    "A": "True — from nursing and handling.",
+    "C": "True — from food and objects.",
+    "D": "True — from the birth canal.",
+    "E": "True — stable around age two."
+   }
   },
   {
    "num": 4,
@@ -105,7 +121,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Many cases in an area in a short time; measles spreads easily."
+   "explanation": "Many cases in an area in a short time; measles spreads easily.",
+   "why": {
+    "A": "Sporadic is occasional; measles shows symptoms.",
+    "C": "It's one county, and measles isn't latent.",
+    "D": "A sudden spike isn't endemic; measles spreads."
+   }
   },
   {
    "num": 5,
@@ -146,7 +167,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Signs and symptoms are gone before the microbe count reaches zero."
+   "explanation": "Signs and symptoms are gone before the microbe count reaches zero.",
+   "why": {
+    "A": "Incubation is before symptoms.",
+    "C": "Feeling normal isn't the illness period.",
+    "D": "Prodromal comes before the peak."
+   }
   },
   {
    "num": 8,
@@ -171,7 +197,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Latent = herpes; local = abscess; subclinical = hepatitis A."
+   "explanation": "Latent = herpes; local = abscess; subclinical = hepatitis A.",
+   "why": {
+    "A": "Food poisoning is acute.",
+    "C": "Lung scarring isn't subclinical.",
+    "D": "Measles is systemic."
+   }
   },
   {
    "num": 9,
@@ -196,7 +227,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Fomites (doorknobs, toys, equipment) are the middlemen."
+   "explanation": "Fomites (doorknobs, toys, equipment) are the middlemen.",
+   "why": {
+    "A": "Reversed.",
+    "C": "Neither is defined that way.",
+    "D": "Vectors and vehicles are other routes."
+   }
   },
   {
    "num": 10,
@@ -221,7 +257,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Bites plunge through intact skin; inhaled droplets reach respiratory mucosa."
+   "explanation": "Bites plunge through intact skin; inhaled droplets reach respiratory mucosa.",
+   "why": {
+    "A": "A mosquito bite is parenteral.",
+    "B": "A sneeze is a mucous membrane.",
+    "D": "A burn is broken skin."
+   }
   },
   {
    "num": 11,
@@ -250,7 +291,13 @@
     }
    ],
    "correct": "E",
-   "explanation": "Coagulase builds the clot (S. aureus); kinase dissolves clots (S. pyogenes)."
+   "explanation": "Coagulase builds the clot (S. aureus); kinase dissolves clots (S. pyogenes).",
+   "why": {
+    "A": "True — siderophores steal iron.",
+    "B": "True — fimbriae adhere.",
+    "C": "True — IgA protease destroys IgA.",
+    "D": "True — invasins enter cells."
+   }
   },
   {
    "num": 12,
@@ -275,7 +322,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "S. pyogenes = hemolysin; C. botulinum = A-B; LPS is an endotoxin."
+   "explanation": "S. pyogenes = hemolysin; C. botulinum = A-B; LPS is an endotoxin.",
+   "why": {
+    "A": "S. pyogenes isn't a Type III example.",
+    "B": "Botulinum is an A-B toxin.",
+    "D": "LPS is endotoxin, not exotoxin."
+   }
   },
   {
    "num": 13,
@@ -316,7 +368,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Links Module 19 to Module 22."
+   "explanation": "Links Module 19 to Module 22.",
+   "why": {
+    "B": "Neither involved HIV.",
+    "C": "Neither grew pure cultures in pigs.",
+    "D": "Diphtheria is bacterial, not viral."
+   }
   },
   {
    "num": 16,
@@ -341,7 +398,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Reproduction inside the vector defines biological transmission."
+   "explanation": "Reproduction inside the vector defines biological transmission.",
+   "why": {
+    "B": "Visiting garbage is mechanical.",
+    "C": "Vectors are living.",
+    "D": "Leg hairs are mechanical."
+   }
   },
   {
    "num": 17,
@@ -366,7 +428,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Smoking or pertussis toxin can destroy cilia."
+   "explanation": "Smoking or pertussis toxin can destroy cilia.",
+   "why": {
+    "B": "Tear ducts don't affect stomach acid.",
+    "C": "Sebum doesn't make tears.",
+    "D": "Gastric acid doesn't affect skin."
+   }
   },
   {
    "num": 18,
@@ -391,7 +458,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Saliva adds IgA; earwax and skin rely on sebum."
+   "explanation": "Saliva adds IgA; earwax and skin rely on sebum.",
+   "why": {
+    "A": "Saliva has no HCl; tears have no sebum.",
+    "C": "Sweat has no HCl.",
+    "D": "Tears have no HCl."
+   }
   },
   {
    "num": 19,
@@ -420,7 +492,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "Histamine is a vasodilator that lowers blood pressure."
+   "explanation": "Histamine is a vasodilator that lowers blood pressure.",
+   "why": {
+    "B": "True — blood flow causes redness and heat.",
+    "C": "True — leaky vessels.",
+    "D": "True — mast cells release histamine.",
+    "E": "True — clotting walls in."
+   }
   },
   {
    "num": 20,
@@ -445,7 +523,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Digest inside the phagolysosome, then expel waste."
+   "explanation": "Digest inside the phagolysosome, then expel waste.",
+   "why": {
+    "A": "Binding comes first.",
+    "C": "Binding comes first.",
+    "D": "Exocytosis comes last."
+   }
   },
   {
    "num": 21,
@@ -486,7 +569,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Nobel 1908; buttermilk and Lactobacillus."
+   "explanation": "Nobel 1908; buttermilk and Lactobacillus.",
+   "why": {
+    "A": "That's von Behring and Burnet.",
+    "B": "That's Fleming.",
+    "C": "That's Pasteur and Gram."
+   }
   },
   {
    "num": 24,
@@ -511,7 +599,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Antimicrobial chemicals are first line."
+   "explanation": "Antimicrobial chemicals are first line.",
+   "why": {
+    "A": "Complement is second-line.",
+    "B": "Fever is second-line.",
+    "D": "Phagocytosis is second-line."
+   }
   },
   {
    "num": 25,
@@ -536,7 +629,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Macrophages have C3b receptors."
+   "explanation": "Macrophages have C3b receptors.",
+   "why": {
+    "A": "Histamine causes inflammation.",
+    "C": "Fever doesn't coat microbes.",
+    "D": "The MAC lyses cells."
+   }
   },
   {
    "num": 26,
@@ -565,7 +663,13 @@
     }
    ],
    "correct": "D",
-   "explanation": "Complement proteins are serum proteins, not antibodies from plasma cells."
+   "explanation": "Complement proteins are serum proteins, not antibodies from plasma cells.",
+   "why": {
+    "A": "True — mannose and LPS trigger it.",
+    "B": "True — it triggers inflammation.",
+    "C": "True — it circulates inactive.",
+    "E": "True — antibodies trigger it."
+   }
   },
   {
    "num": 27,
@@ -590,7 +694,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "They reset the thermostat."
+   "explanation": "They reset the thermostat.",
+   "why": {
+    "A": "Bone marrow makes blood cells.",
+    "B": "The thymus matures T cells.",
+    "D": "Lacrimal glands make tears."
+   }
   },
   {
    "num": 28,
@@ -615,7 +724,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Interferon protects neighbors, not the producer."
+   "explanation": "Interferon protects neighbors, not the producer.",
+   "why": {
+    "B": "Interferon is antiviral.",
+    "C": "That's complement or tissue damage.",
+    "D": "The infected cell still dies."
+   }
   },
   {
    "num": 29,
@@ -656,7 +770,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "AVPs destroy viral RNA."
+   "explanation": "AVPs destroy viral RNA.",
+   "why": {
+    "A": "Lysozyme attacks bacterial walls.",
+    "B": "The MAC targets bacteria.",
+    "D": "Opsonization targets bacteria."
+   }
   },
   {
    "num": 32,
@@ -681,7 +800,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "The three outcomes in fragment form."
+   "explanation": "The three outcomes in fragment form.",
+   "why": {
+    "A": "C5a isn't the MAC.",
+    "B": "None of these are pyrogens or AVPs.",
+    "C": "C3a isn't an opsonin."
+   }
   },
   {
    "num": 33,
@@ -706,7 +830,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Each antibody can bridge two pathogens."
+   "explanation": "Each antibody can bridge two pathogens.",
+   "why": {
+    "A": "Antibodies have two heavy chains.",
+    "B": "Disulfide bonds hold chains.",
+    "D": "Mast-cell binding is IgE."
+   }
   },
   {
    "num": 34,
@@ -735,7 +864,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "IgE is a monomer on mast cells; IgA is in breast milk."
+   "explanation": "IgE is a monomer on mast cells; IgA is in breast milk.",
+   "why": {
+    "A": "True — IgG is ~80%.",
+    "B": "True — IgD is unclear.",
+    "D": "True — IgE is on mast cells.",
+    "E": "True — IgM is a pentamer."
+   }
   },
   {
    "num": 35,
@@ -760,7 +895,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "IgM comes first after a lag."
+   "explanation": "IgM comes first after a lag.",
+   "why": {
+    "A": "Secondary is fast, mostly IgG.",
+    "B": "Passive has no IgM rise.",
+    "C": "T-independent isn't shown."
+   }
   },
   {
    "num": 36,
@@ -785,7 +925,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Who makes the antibodies, and how was the antigen/antibody delivered?"
+   "explanation": "Who makes the antibodies, and how was the antigen/antibody delivered?",
+   "why": {
+    "A": "Antivenom is artificial passive.",
+    "B": "Antivenom isn't active.",
+    "C": "Antivenom isn't natural."
+   }
   },
   {
    "num": 37,
@@ -826,7 +971,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Both are passive — preformed antibodies."
+   "explanation": "Both are passive — preformed antibodies.",
+   "why": {
+    "A": "MMR is active.",
+    "B": "Recovery is natural active.",
+    "C": "Toxoids are active."
+   }
   },
   {
    "num": 40,
@@ -851,7 +1001,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Nobel Prizes 1960 and 1901."
+   "explanation": "Nobel Prizes 1960 and 1901.",
+   "why": {
+    "B": "Koch didn't discover antibodies.",
+    "C": "Metchnikoff discovered phagocytes.",
+    "D": "Reversed."
+   }
   },
   {
    "num": 41,
@@ -876,7 +1031,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Regular body cells use MHC-1."
+   "explanation": "Regular body cells use MHC-1.",
+   "why": {
+    "A": "Skin and liver cells use MHC-1.",
+    "B": "Those aren't APCs.",
+    "C": "Those are killer cells."
+   }
   },
   {
    "num": 42,
@@ -905,7 +1065,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "Helper T cells carry CD4, not CD8."
+   "explanation": "Helper T cells carry CD4, not CD8.",
+   "why": {
+    "B": "True — T cells mature in the thymus.",
+    "C": "True — CD4 binds MHC-2.",
+    "D": "True — CD8 binds MHC-1.",
+    "E": "True — TCRs aren't secreted."
+   }
   },
   {
    "num": 43,
@@ -930,7 +1096,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "The killer T cell pathway."
+   "explanation": "The killer T cell pathway.",
+   "why": {
+    "A": "That's helper T activation.",
+    "B": "That's phagocytosis.",
+    "C": "That's an allergy."
+   }
   },
   {
    "num": 44,
@@ -955,7 +1126,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Helper T cells are central to adaptive immunity."
+   "explanation": "Helper T cells are central to adaptive immunity.",
+   "why": {
+    "A": "HIV doesn't block interferon.",
+    "B": "HIV doesn't target RBCs.",
+    "C": "HIV doesn't remove MHC-1."
+   }
   },
   {
    "num": 45,
@@ -996,7 +1172,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Tidy vs messy cell death."
+   "explanation": "Tidy vs messy cell death.",
+   "why": {
+    "A": "Apoptosis isn't caused by bacteria.",
+    "C": "Reversed.",
+    "D": "Apoptosis happens in many cells."
+   }
   },
   {
    "num": 48,
@@ -1021,7 +1202,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "A control line is always required."
+   "explanation": "A control line is always required.",
+   "why": {
+    "A": "Negative needs a C line.",
+    "C": "Positive needs both lines.",
+    "D": "There's no line for another virus."
+   }
   },
   {
    "num": 49,
@@ -1046,7 +1232,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "1400s → 1700s → Jenner → Pasteur."
+   "explanation": "1400s → 1700s → Jenner → Pasteur.",
+   "why": {
+    "A": "Jenner came after variolation.",
+    "B": "Reversed.",
+    "D": "Pasteur came last."
+   }
   },
   {
    "num": 50,
@@ -1075,7 +1266,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "HPV is a subunit vaccine."
+   "explanation": "HPV is a subunit vaccine.",
+   "why": {
+    "A": "True — tetanus is toxoid.",
+    "C": "True — rabies is inactivated.",
+    "D": "True — MMR is attenuated.",
+    "E": "True — COVID is nucleic acid."
+   }
   },
   {
    "num": 51,
@@ -1100,7 +1297,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "The four lecture targets."
+   "explanation": "The four lecture targets.",
+   "why": {
+    "B": "Sulfa blocks folic acid.",
+    "C": "Cipro blocks DNA gyrase.",
+    "D": "Cephalosporin blocks the cell wall."
+   }
   },
   {
    "num": 52,
@@ -1125,7 +1327,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "mRNA needs ultra-cold storage and two doses."
+   "explanation": "mRNA needs ultra-cold storage and two doses.",
+   "why": {
+    "B": "That's mRNA, and it breaks down.",
+    "C": "They don't use live virus.",
+    "D": "They're injected."
+   }
   },
   {
    "num": 53,
@@ -1166,7 +1373,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Phages multiply only while their target bacteria remain."
+   "explanation": "Phages multiply only while their target bacteria remain.",
+   "why": {
+    "B": "Antibiotics don't self-amplify.",
+    "C": "Quorum inhibitors don't self-amplify.",
+    "D": "Variolation isn't a treatment."
+   }
   },
   {
    "num": 56,
@@ -1191,7 +1403,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "It blocks the signal that coordinates toxin release."
+   "explanation": "It blocks the signal that coordinates toxin release.",
+   "why": {
+    "A": "Endospores aren't quorum-driven.",
+    "B": "Conjugation isn't quorum-driven.",
+    "D": "One cell isn't a quorum."
+   }
   }
  ]
 }

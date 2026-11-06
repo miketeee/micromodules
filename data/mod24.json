@@ -26,7 +26,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Jenner later replaced smallpox scabs with cowpox."
+   "explanation": "Jenner later replaced smallpox scabs with cowpox.",
+   "why": {
+    "A": "Cowpox inoculation was Jenner's method.",
+    "C": "Attenuation is a modern weakening method.",
+    "D": "Vaccination used cowpox, not smallpox scabs."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Milkmaids with cowpox rarely got smallpox."
+   "explanation": "Milkmaids with cowpox rarely got smallpox.",
+   "why": {
+    "A": "Jenner didn't use antibodies.",
+    "B": "Arsenic drugs were Ehrlich's.",
+    "C": "Old smallpox scabs were variolation."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Pasteur coined it in honor of Jenner's cowpox work."
+   "explanation": "Pasteur coined it in honor of Jenner's cowpox work.",
+   "why": {
+    "A": "'Vacca' isn't virus.",
+    "B": "'Vacca' isn't scab.",
+    "D": "'Vacca' isn't needle."
+   }
   },
   {
    "num": 4,
@@ -105,7 +120,13 @@
     }
    ],
    "correct": "D",
-   "explanation": "Tetanus (and diphtheria) are toxoid vaccines."
+   "explanation": "Tetanus (and diphtheria) are toxoid vaccines.",
+   "why": {
+    "A": "True — hepatitis B is subunit.",
+    "B": "True — MMR is attenuated.",
+    "C": "True — COVID mRNA/DNA is nucleic acid.",
+    "E": "True — the flu shot is inactivated."
+   }
   },
   {
    "num": 5,
@@ -130,7 +151,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Flu-like symptoms are your immune response."
+   "explanation": "Flu-like symptoms are your immune response.",
+   "why": {
+    "A": "The flu shot has inactivated virus, not antibodies.",
+    "B": "Toxoids are bacterial.",
+    "D": "The flu shot isn't mRNA."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Displayed spike fragments trigger an active immune response."
+   "explanation": "Displayed spike fragments trigger an active immune response.",
+   "why": {
+    "A": "B cells make antibodies, not mRNA.",
+    "B": "Only spike is coded, not whole viruses.",
+    "D": "Interferon isn't the product."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "DNA vaccines are room-temperature stable."
+   "explanation": "DNA vaccines are room-temperature stable.",
+   "why": {
+    "A": "The lipids aren't the issue.",
+    "B": "Cold doesn't boost interferon.",
+    "C": "mRNA vaccines don't use adenovirus."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Then it's transcribed into spike mRNA."
+   "explanation": "Then it's transcribed into spike mRNA.",
+   "why": {
+    "A": "Lipid nanoparticles are the mRNA vaccine.",
+    "C": "It isn't injected into nuclei.",
+    "D": "It's DNA, not reverse-transcribed."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Preparation 606 = arsenic attached to a dye."
+   "explanation": "Preparation 606 = arsenic attached to a dye.",
+   "why": {
+    "B": "That's Fleming's penicillin.",
+    "C": "That's phage therapy.",
+    "D": "That's Lister's germicides."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Ehrlich thought spirochetes looked like trypanosomes."
+   "explanation": "Ehrlich thought spirochetes looked like trypanosomes.",
+   "why": {
+    "A": "Salvarsan wasn't for TB or malaria.",
+    "B": "Those are vaccine diseases.",
+    "D": "Those are viral."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "It targets the 70S ribosome; streptomycin and erythromycin do too."
+   "explanation": "It targets the 70S ribosome; streptomycin and erythromycin do too.",
+   "why": {
+    "A": "Penicillin blocks cell walls.",
+    "B": "Sulfanilamide blocks folic acid.",
+    "D": "Cipro blocks DNA gyrase."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Like penicillin."
+   "explanation": "Like penicillin.",
+   "why": {
+    "B": "DNA gyrase is Cipro's target.",
+    "C": "Folic acid is sulfa's target.",
+    "D": "Neuraminidase is Tamiflu's target."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Broad-spectrum drugs are for unknown pathogens."
+   "explanation": "Broad-spectrum drugs are for unknown pathogens.",
+   "why": {
+    "A": "Strep is treatable.",
+    "B": "Strep is bacterial.",
+    "C": "Broad drugs kill normal flora."
+   }
   },
   {
    "num": 14,
@@ -355,7 +421,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "It also self-eliminates once the pathogen is gone."
+   "explanation": "It also self-eliminates once the pathogen is gone.",
+   "why": {
+    "A": "Phages self-amplify, so doses are small.",
+    "B": "You must know the pathogen.",
+    "C": "Phages are specific."
+   }
   },
   {
    "num": 15,
@@ -380,7 +451,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Disarming rather than killing."
+   "explanation": "Disarming rather than killing.",
+   "why": {
+    "A": "They don't activate complement.",
+    "B": "That's Ehrlich's idea.",
+    "C": "That's penicillin."
+   }
   },
   {
    "num": 16,

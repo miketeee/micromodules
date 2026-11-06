@@ -1,0 +1,463 @@
+{
+ "slug": "lab5-2",
+ "title": "Lab 5 \u2014 Quiz 2",
+ "subtitle": "Microscopy \u2014 parts, operation, oil immersion",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Which objective lens must be in place when you first put a slide on the stage?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "10X low power lens"
+    },
+    {
+     "letter": "B",
+     "text": "4X scanning lens"
+    },
+    {
+     "letter": "C",
+     "text": "40X high power lens"
+    },
+    {
+     "letter": "D",
+     "text": "100X oil immersion lens"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Before securing a slide: stage at its lowest position and the 4X objective clicked into place.",
+   "why": {
+    "A": "Start with the 4X scanning lens.",
+    "C": "40X is used later in the focusing sequence.",
+    "D": "100X is used last, with oil."
+   }
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "The coarse adjustment knob may be used with which objective lens?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "All four objective lenses"
+    },
+    {
+     "letter": "B",
+     "text": "Only the 4X lens"
+    },
+    {
+     "letter": "C",
+     "text": "The 40X and 100X lenses"
+    },
+    {
+     "letter": "D",
+     "text": "Only the 100X lens"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Use both coarse and fine knobs on the 4X lens; fine focus is enough for all other objectives. NEVER use coarse with 40X or 100X.",
+   "why": {
+    "A": "Never use the coarse knob on 40X or 100X.",
+    "C": "These are exactly the lenses where coarse focus is forbidden.",
+    "D": "Coarse focus at 100X can smash the lens into the slide."
+   }
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Our microscopes are 'parfocal.' What does that mean?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "All objective lenses have the same magnification power"
+    },
+    {
+     "letter": "B",
+     "text": "When one objective is in focus, the others are too, needing only fine adjustment"
+    },
+    {
+     "letter": "C",
+     "text": "The microscope can focus on two separate specimens"
+    },
+    {
+     "letter": "D",
+     "text": "The focus knobs adjust both of the eyepieces at once"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Parfocal: when one objective lens is in the correct focus plane, so are the others \u2014 switching lenses keeps the specimen in focus with only fine adjustments.",
+   "why": {
+    "A": "Each objective has a different magnification (4X, 10X, 40X, 100X).",
+    "C": "Parfocal refers to the focus plane staying the same.",
+    "D": "Parfocal concerns objective lenses, not eyepieces."
+   }
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "What are the four objective lenses on the brightfield microscope?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "4X low power, 10X scanning, 40X oil, 100X high power"
+    },
+    {
+     "letter": "B",
+     "text": "10X scanning, 20X low, 40X high, 100X oil immersion"
+    },
+    {
+     "letter": "C",
+     "text": "4X scanning, 10X low power, 40X high power, 100X oil immersion"
+    },
+    {
+     "letter": "D",
+     "text": "4X scanning, 10X high power, 40X oil, 100X dry lens"
+    }
+   ],
+   "correct": "C",
+   "explanation": "4X scanning, 10X low power, 40X high power, 100X oil immersion.",
+   "why": {
+    "A": "The names are mixed up \u2014 4X is scanning and 100X is oil immersion.",
+    "B": "There is no 20X lens; scanning is 4X.",
+    "D": "10X is low power, 40X is high power, 100X uses oil."
+   }
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "With a 10X ocular lens, what is the total magnification when using the 40X objective?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "400X"
+    },
+    {
+     "letter": "B",
+     "text": "50X"
+    },
+    {
+     "letter": "C",
+     "text": "40X"
+    },
+    {
+     "letter": "D",
+     "text": "4,000X"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Total magnification = ocular \u00d7 objective = 10 \u00d7 40 = 400X.",
+   "why": {
+    "B": "Total magnification multiplies the lenses, it doesn't add them.",
+    "C": "The ocular lens also magnifies.",
+    "D": "10 \u00d7 40 = 400, not 4,000."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "With a 10X ocular lens, what is the total magnification under oil immersion (100X)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "110X"
+    },
+    {
+     "letter": "B",
+     "text": "100X"
+    },
+    {
+     "letter": "C",
+     "text": "10,000X"
+    },
+    {
+     "letter": "D",
+     "text": "1,000X"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Total magnification = 10 \u00d7 100 = 1,000X \u2014 the magnification used to view bacteria.",
+   "why": {
+    "A": "Multiply the lenses, don't add them.",
+    "B": "The ocular lens also magnifies 10X.",
+    "C": "10 \u00d7 100 = 1,000."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Viewing bacteria requires which lens?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The 40X high power lens"
+    },
+    {
+     "letter": "B",
+     "text": "The 100X oil immersion lens"
+    },
+    {
+     "letter": "C",
+     "text": "The 10X low power lens"
+    },
+    {
+     "letter": "D",
+     "text": "The 4X scanning lens"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Viewing bacteria requires the 100X oil immersion lens and immersion oil.",
+   "why": {
+    "A": "Bacteria require the 100X oil immersion lens.",
+    "C": "Bacteria are far too small at 10X.",
+    "D": "4X is for locating the specimen."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Where is the drop of immersion oil placed?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "On the 40X lens before switching to 100X"
+    },
+    {
+     "letter": "B",
+     "text": "On the slide above the specimen, with the nosepiece between 40X and 100X"
+    },
+    {
+     "letter": "C",
+     "text": "On the condenser below the stage of the microscope"
+    },
+    {
+     "letter": "D",
+     "text": "On the ocular lens before looking through it"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Rotate the nosepiece halfway between 40X and 100X, place 1 small drop of oil on the slide, then rotate the 100X lens into the oil.",
+   "why": {
+    "A": "NEVER put oil on the 40X lens.",
+    "C": "Oil goes on the slide above the specimen.",
+    "D": "Oil goes between the slide and the 100X objective."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "You're at 100X with oil and can't find the specimen after a little fine focusing. What should you do?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Follow the clean-up procedure and restart the focusing process"
+    },
+    {
+     "letter": "B",
+     "text": "Go back to the 40X lens to find it"
+    },
+    {
+     "letter": "C",
+     "text": "Use the coarse knob to move the stage up"
+    },
+    {
+     "letter": "D",
+     "text": "Add more oil and keep turning the fine focus"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Don't go back to 40X. Follow the clean-up procedure and restart the focusing process.",
+   "why": {
+    "B": "NEVER go back to 40X after using immersion oil.",
+    "C": "Never use coarse focus with 100X.",
+    "D": "The protocol says clean up and restart."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "What is used to clean oil off the slide, the 100X lens and the stage?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bleach on a paper towel"
+    },
+    {
+     "letter": "B",
+     "text": "Water on a cotton swab"
+    },
+    {
+     "letter": "C",
+     "text": "Vinegar solution on a Kimwipe"
+    },
+    {
+     "letter": "D",
+     "text": "70% alcohol sprayed on the lens"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Clean-up: 4X back in place, lower the stage, remove the slide, then use vinegar on fresh Kimwipes for the slide, the 100X lens and the stage.",
+   "why": {
+    "A": "Bleach isn't used on microscope lenses.",
+    "B": "The protocol uses vinegar solution.",
+    "D": "The protocol uses vinegar on Kimwipes."
+   }
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "When you are done with oil immersion, what is the first clean-up step?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Rotate the 4X scanning lens into place"
+    },
+    {
+     "letter": "B",
+     "text": "Wipe the 100X lens with a Kimwipe"
+    },
+    {
+     "letter": "C",
+     "text": "Unplug the microscope"
+    },
+    {
+     "letter": "D",
+     "text": "Remove the slide from the stage"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Clean-up order: 4X into place \u2192 lower the stage completely with coarse knob \u2192 remove the slide \u2192 clean slide, 100X lens and stage with vinegar.",
+   "why": {
+    "B": "Lens cleaning comes after moving to 4X, lowering the stage and removing the slide.",
+    "C": "Unplugging happens at the very end.",
+    "D": "First rotate to 4X, then lower the stage."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Which part do you adjust to change the amount of light passing through the condenser?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The fine adjustment knob"
+    },
+    {
+     "letter": "B",
+     "text": "The revolving nosepiece"
+    },
+    {
+     "letter": "C",
+     "text": "The stage adjustment knobs"
+    },
+    {
+     "letter": "D",
+     "text": "The iris diaphragm"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Adjusting the iris diaphragm changes the light passing through the condenser and improves resolution.",
+   "why": {
+    "A": "The fine knob focuses the specimen.",
+    "B": "The nosepiece rotates objective lenses.",
+    "C": "Stage knobs center the specimen."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Photo",
+   "prompt": "This purple-stained sample shows chains of rods. What kind of microscope image is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Brightfield \u2014 a stained specimen on a bright background"
+    },
+    {
+     "letter": "B",
+     "text": "Darkfield \u2014 specimen glowing on a dark background"
+    },
+    {
+     "letter": "C",
+     "text": "Scanning electron \u2014 a 3-D surface view"
+    },
+    {
+     "letter": "D",
+     "text": "Fluorescence \u2014 glowing fluorochrome stain"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Brightfield: light through the field of view appears bright, and stained specimens provide contrast.",
+   "why": {
+    "B": "The background here is bright.",
+    "C": "SEM images are 3-D grayscale or false-color surfaces.",
+    "D": "Fluorescent specimens glow against a dark background."
+   },
+   "img": "../lab-img/X05_bf.jpg"
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "In the Oil Immersion skills assessment, what must you accurately describe once you are focused?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The specimen's morphology (shapes and arrangements)"
+    },
+    {
+     "letter": "B",
+     "text": "The specimen's Gram reaction and species name"
+    },
+    {
+     "letter": "C",
+     "text": "The number of colonies on the slide"
+    },
+    {
+     "letter": "D",
+     "text": "The total magnification at each lens"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Independently focus to oil immersion on a prepared bacterial slide and accurately describe its morphology, without a protocol.",
+   "why": {
+    "B": "The assessment is focusing to oil immersion and describing morphology.",
+    "C": "Colonies are counted on plates, not slides.",
+    "D": "You report the morphology of the bacteria."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about using the brightfield microscope is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Use the coarse knob to bring the 100X lens into focus"
+    },
+    {
+     "letter": "B",
+     "text": "Lower the stage fully before placing a slide"
+    },
+    {
+     "letter": "C",
+     "text": "Center the specimen over the light beam"
+    },
+    {
+     "letter": "D",
+     "text": "Focus in sequence: 4X, 10X, 40X, then 100X"
+    },
+    {
+     "letter": "E",
+     "text": "Never put oil on the 40X lens"
+    }
+   ],
+   "correct": "A",
+   "explanation": "NEVER use the coarse adjustment knob with the 40X or 100X lenses \u2014 it can smash the lens into the slide.",
+   "why": {
+    "B": "True \u2014 the stage starts at its lowest position.",
+    "C": "True \u2014 adjust the stage so the specimen is over the beam.",
+    "D": "True \u2014 that's the focusing sequence.",
+    "E": "True \u2014 oil is only for the 100X lens."
+   }
+  }
+ ]
+}

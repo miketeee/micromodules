@@ -26,7 +26,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The leading strand needs one primer and then follows helicase. The lagging strand needs a new primer for every Okazaki fragment."
+   "explanation": "The leading strand needs one primer and then follows helicase. The lagging strand needs a new primer for every Okazaki fragment.",
+   "why": {
+    "A": "Polymerase can't start without a primer.",
+    "C": "Reversed.",
+    "D": "Gyrase doesn't need primers."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Semi-conservative: round 1 → two molecules, each with one parent strand. Round 2 → four molecules; the two parent strands sit in two of them."
+   "explanation": "Semi-conservative: round 1 → two molecules, each with one parent strand. Round 2 → four molecules; the two parent strands sit in two of them.",
+   "why": {
+    "A": "Semi-conservative copying keeps the old strands.",
+    "B": "Only two molecules carry an original strand.",
+    "D": "Each of the two original strands ends up in one molecule."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Living S is pathogenic by itself (his first control), so a death couldn't show that harmless cells had been transformed."
+   "explanation": "Living S is pathogenic by itself (his first control), so a death couldn't show that harmless cells had been transformed.",
+   "why": {
+    "A": "Live S doesn't take R DNA and become harmless.",
+    "B": "Heat-killed R releases no toxin.",
+    "D": "R cells have no capsule."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The 'holy grail' is a difference between our cells and theirs. Cipro is safe because bacterial gyrase differs from ours."
+   "explanation": "The 'holy grail' is a difference between our cells and theirs. Cipro is safe because bacterial gyrase differs from ours.",
+   "why": {
+    "A": "Bacteria wouldn't borrow human gyrase.",
+    "C": "Cipro targets gyrase.",
+    "D": "It would harm human cells, not work better."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Instructor slides: the non-coding strand is transcribed; the coding strand shares the same sequence and orientation as the mRNA."
+   "explanation": "Instructor slides: the non-coding strand is transcribed; the coding strand shares the same sequence and orientation as the mRNA.",
+   "why": {
+    "B": "Reversed.",
+    "C": "Lagging/leading are replication terms.",
+    "D": "Only one strand is the template."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Two helicases each copy about half the circle until they meet, like two train engines going around a track in opposite directions."
+   "explanation": "Two helicases each copy about half the circle until they meet, like two train engines going around a track in opposite directions.",
+   "why": {
+    "A": "One fork could still copy the loop.",
+    "B": "Fork speed doesn't double.",
+    "C": "Fewer forks means slower, not faster."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Supercoiling packs the long chromosome into the cell. Lecture: there's no space to uncoil it all at once."
+   "explanation": "Supercoiling packs the long chromosome into the cell. Lecture: there's no space to uncoil it all at once.",
+   "why": {
+    "A": "Bacterial chromosomes are circular.",
+    "B": "Uncoiled DNA doesn't fall apart.",
+    "C": "Gyrase works on the chromosome."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Like a key's grooves, the information is in the sequence. A gene encodes a protein's primary structure — its amino acids in order."
+   "explanation": "Like a key's grooves, the information is in the sequence. A gene encodes a protein's primary structure — its amino acids in order.",
+   "why": {
+    "A": "Both use deoxyribose.",
+    "C": "DNA has no uracil.",
+    "D": "The backbone uses covalent bonds."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "The genetic material passed into R cells; the new genes produced a capsule — a phenotypic trait — making them smooth and pathogenic."
+   "explanation": "The genetic material passed into R cells; the new genes produced a capsule — a phenotypic trait — making them smooth and pathogenic.",
+   "why": {
+    "B": "The genotype changed.",
+    "C": "Free capsules didn't coat R cells.",
+    "D": "They took up DNA, not protein."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Primase lays an RNA primer wherever synthesis starts; polymerase normally replaces primers with DNA."
+   "explanation": "Primase lays an RNA primer wherever synthesis starts; polymerase normally replaces primers with DNA.",
+   "why": {
+    "B": "Primers stay unless replaced.",
+    "C": "Uracil isn't scattered; primers are at piece starts.",
+    "D": "Primers are at the start of each piece."
+   }
   },
   {
    "num": 11,
@@ -280,7 +330,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — both are double-stranded; the structure is the same. They differ in shape (circular vs linear) and number."
+   "explanation": "False — both are double-stranded; the structure is the same. They differ in shape (circular vs linear) and number.",
+   "why": {
+    "B": "True — 46 chromosomes.",
+    "C": "True — circular vs linear.",
+    "D": "True — bacterial gyrase differs.",
+    "E": "True — bacteria usually have one chromosome."
+   }
   },
   {
    "num": 12,
@@ -309,7 +365,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — G–C and A–T pairs are the same width, which is why DNA's width stays constant."
+   "explanation": "False — G–C and A–T pairs are the same width, which is why DNA's width stays constant.",
+   "why": {
+    "A": "True — H-bonds help twist DNA.",
+    "C": "True — about 2 nm wide.",
+    "D": "True — 2 vs 3 H-bonds.",
+    "E": "True — covalent, negatively charged backbone."
+   }
   },
   {
    "num": 13,
@@ -338,7 +400,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False — he used Mycoplasma genitalium (521 genes), not E. coli."
+   "explanation": "False — he used Mycoplasma genitalium (521 genes), not E. coli.",
+   "why": {
+    "A": "True — he's building a cell from scratch.",
+    "B": "True — he helped sequence the human genome.",
+    "D": "True — he synthesized and inserted a copy.",
+    "E": "True — 521 genes."
+   }
   },
   {
    "num": 14,

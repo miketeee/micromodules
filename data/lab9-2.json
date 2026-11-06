@@ -1,0 +1,466 @@
+{
+ "slug": "lab9-2",
+ "title": "Lab 9 \u2014 Quiz 2",
+ "subtitle": "Differential Stains \u2014 acid-fast and endospore",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "Acid-fast stain: what do the pink/red cells represent?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Non-acid-fast bacteria (e.g., Staphylococcus)"
+    },
+    {
+     "letter": "B",
+     "text": "Gram-negative bacteria (e.g., E. coli)"
+    },
+    {
+     "letter": "C",
+     "text": "Acid-fast bacteria (e.g., Mycobacterium)"
+    },
+    {
+     "letter": "D",
+     "text": "Endospores (e.g., Bacillus spores)"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Acid-fast cells keep the carbolfuchsin (pink/red); non-acid-fast cells are decolorized and counterstained blue.",
+   "why": {
+    "A": "Non-acid-fast cells take up methylene blue (blue).",
+    "B": "This is an acid-fast stain, not a Gram stain.",
+    "D": "Endospores stain green in the endospore stain."
+   },
+   "img": "../lab-img/L09s_p22_2.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Photo",
+   "prompt": "In this acid-fast stain, what color are the NON-acid-fast cells, and why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pink \u2014 they keep the carbolfuchsin"
+    },
+    {
+     "letter": "B",
+     "text": "Purple \u2014 they keep crystal violet"
+    },
+    {
+     "letter": "C",
+     "text": "Blue \u2014 they lose carbolfuchsin and take up methylene blue"
+    },
+    {
+     "letter": "D",
+     "text": "Green \u2014 they take up malachite green"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Non-acid-fast cells are decolorized by acid-alcohol and counterstained with methylene blue.",
+   "why": {
+    "A": "Acid-fast cells keep carbolfuchsin.",
+    "B": "Crystal violet isn't used in the acid-fast stain.",
+    "D": "Malachite green is the endospore stain."
+   },
+   "img": "../lab-img/L09s_p20_5.jpg"
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "What makes acid-fast bacteria resistant to most stains?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Waxy mycolic acids in the cell wall"
+    },
+    {
+     "letter": "B",
+     "text": "A thick outer membrane with LPS"
+    },
+    {
+     "letter": "C",
+     "text": "Endospores inside the cell"
+    },
+    {
+     "letter": "D",
+     "text": "Teichoic acids in the peptidoglycan"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Mycolic acid is very waxy: it resists phagocytosis, repels some antibiotics and repels most stains.",
+   "why": {
+    "B": "LPS is in the Gram-negative outer membrane.",
+    "C": "Endospores are a separate survival structure.",
+    "D": "Teichoic acids are a Gram-positive feature."
+   }
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "What is the acid-fast stain used for clinically?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A quick preliminary test for tuberculosis and leprosy (Mycobacterium)"
+    },
+    {
+     "letter": "B",
+     "text": "Choosing between Gram+ and Gram\u2212 antibiotics"
+    },
+    {
+     "letter": "C",
+     "text": "Detecting Bacillus and Clostridium endospores"
+    },
+    {
+     "letter": "D",
+     "text": "Viewing fungi in patients' specimens"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Ziehl-Neelsen acid-fast stain: a preliminary, quick diagnostic for M. tuberculosis and M. leprae.",
+   "why": {
+    "B": "That's the Gram stain.",
+    "C": "That's the endospore stain.",
+    "D": "That's positive simple staining."
+   }
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "What are the acid-fast stain reagents, in order?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Carbolfuchsin \u2192 heat \u2192 acid-alcohol \u2192 methylene blue"
+    },
+    {
+     "letter": "B",
+     "text": "Malachite green \u2192 heat \u2192 water \u2192 safranin"
+    },
+    {
+     "letter": "C",
+     "text": "Crystal violet \u2192 iodine \u2192 alcohol \u2192 safranin"
+    },
+    {
+     "letter": "D",
+     "text": "Carbolfuchsin \u2192 iodine \u2192 alcohol \u2192 safranin"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Acid-fast: carbolfuchsin (primary) \u2192 heat 5 min (mordant) \u2192 acid-alcohol 4 s (decolorizer) \u2192 methylene blue 30 s (counterstain).",
+   "why": {
+    "B": "That's the endospore stain.",
+    "C": "That's the Gram stain.",
+    "D": "The acid-fast mordant is heat, and the counterstain is methylene blue."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "In both the acid-fast and endospore stains, what serves as the mordant?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Iodine for 60 seconds"
+    },
+    {
+     "letter": "B",
+     "text": "Heat for 5 minutes"
+    },
+    {
+     "letter": "C",
+     "text": "Acid-alcohol for 4 seconds"
+    },
+    {
+     "letter": "D",
+     "text": "Water for 5 seconds"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The slide sits over a weigh boat on the hot plate for 5 minutes under stain-soaked paper towel.",
+   "why": {
+    "A": "Iodine is the Gram stain mordant.",
+    "C": "Acid-alcohol is the acid-fast decolorizer.",
+    "D": "Water is the endospore decolorizer."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "During heating, why must you keep reapplying the primary stain to the paper towel?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "To make the stain hot enough to boil"
+    },
+    {
+     "letter": "B",
+     "text": "The paper must not be allowed to dry"
+    },
+    {
+     "letter": "C",
+     "text": "To decolorize the non-acid-fast cells"
+    },
+    {
+     "letter": "D",
+     "text": "To rinse excess dye into the weigh boat"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Don't let the paper dry \u2014 reapply the primary stain as needed, and don't drip stain onto the hot plate.",
+   "why": {
+    "A": "The goal is to keep the paper wet.",
+    "C": "Decolorizing comes after heating.",
+    "D": "The weigh boat simply catches drips."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "How long is acid-alcohol applied in the acid-fast stain?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "10 seconds"
+    },
+    {
+     "letter": "B",
+     "text": "30 seconds"
+    },
+    {
+     "letter": "C",
+     "text": "5 minutes"
+    },
+    {
+     "letter": "D",
+     "text": "4 seconds"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Acid-alcohol for 4 seconds \u2014 be careful to avoid excess decolorization.",
+   "why": {
+    "A": "10 seconds is the Gram stain alcohol step.",
+    "B": "30 seconds is the methylene blue counterstain.",
+    "C": "5 minutes is the heating step."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Photo",
+   "prompt": "Endospore stain: what color are the endospores and the vegetative cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Endospores pink; vegetative cells green"
+    },
+    {
+     "letter": "B",
+     "text": "Endospores purple; vegetative cells pink"
+    },
+    {
+     "letter": "C",
+     "text": "Endospores green; vegetative cells pink"
+    },
+    {
+     "letter": "D",
+     "text": "Endospores blue; vegetative cells red"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Endospores keep malachite green; vegetative cells are decolorized by water and counterstained pink with safranin.",
+   "why": {
+    "A": "Reversed: malachite green stays in the spores.",
+    "B": "Purple is the Gram stain.",
+    "D": "Blue/red is the acid-fast stain."
+   },
+   "img": "../lab-img/L09s_p27_2.jpg"
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "What are the endospore stain reagents, in order?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Carbolfuchsin \u2192 heat \u2192 acid-alcohol \u2192 methylene blue"
+    },
+    {
+     "letter": "B",
+     "text": "Crystal violet \u2192 iodine \u2192 alcohol \u2192 safranin"
+    },
+    {
+     "letter": "C",
+     "text": "Malachite green \u2192 heat \u2192 water \u2192 safranin"
+    },
+    {
+     "letter": "D",
+     "text": "Malachite green \u2192 iodine \u2192 alcohol \u2192 methylene blue"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Schaeffer-Fulton endospore stain: malachite green \u2192 heat 5 min \u2192 water 5 s \u2192 safranin 30 s.",
+   "why": {
+    "A": "That's the acid-fast stain.",
+    "B": "That's the Gram stain.",
+    "D": "The endospore mordant is heat, the decolorizer water, the counterstain safranin."
+   }
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "What is the decolorizer in the endospore stain?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Water for 5 seconds"
+    },
+    {
+     "letter": "B",
+     "text": "Alcohol for 10 seconds"
+    },
+    {
+     "letter": "C",
+     "text": "Acid-alcohol for 4 seconds"
+    },
+    {
+     "letter": "D",
+     "text": "Safranin for 30 seconds"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Water for 5 seconds decolorizes vegetative cells; endospores keep the malachite green.",
+   "why": {
+    "B": "Alcohol is the Gram decolorizer.",
+    "C": "Acid-alcohol is the acid-fast decolorizer.",
+    "D": "Safranin is the counterstain."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "What is the endospore stain used for?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Detecting Mycobacterium tuberculosis"
+    },
+    {
+     "letter": "B",
+     "text": "Detecting endospore-forming Bacillus and Clostridium"
+    },
+    {
+     "letter": "C",
+     "text": "Determining Gram reaction for treatment"
+    },
+    {
+     "letter": "D",
+     "text": "Detecting capsules on pathogens"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The endospore stain detects endospore-forming members of Bacillus and Clostridium.",
+   "why": {
+    "A": "That's the acid-fast stain.",
+    "C": "That's the Gram stain.",
+    "D": "That's the capsule stain."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Photo",
+   "prompt": "This micrograph shows a single bacterial cell with a dense internal structure. What is that structure?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A nucleus"
+    },
+    {
+     "letter": "B",
+     "text": "A capsule"
+    },
+    {
+     "letter": "C",
+     "text": "An endospore"
+    },
+    {
+     "letter": "D",
+     "text": "A food vacuole"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Endospores are produced in response to stress and resist desiccation, UV, extreme heat, freezing, disinfectants and even antibiotics.",
+   "why": {
+    "A": "Bacteria lack a nucleus.",
+    "B": "A capsule is outside the cell wall.",
+    "D": "Endospores are protective survival structures."
+   },
+   "img": "../lab-img/L09s_p25_1.jpg"
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Why does slide E (endospore stain) use a single species smear instead of a mixed one?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mixed smears can't be heat fixed on the hot plate"
+    },
+    {
+     "letter": "B",
+     "text": "Only one organism (Organism 4) is checked for spores"
+    },
+    {
+     "letter": "C",
+     "text": "Malachite green kills any second species present"
+    },
+    {
+     "letter": "D",
+     "text": "The acid-alcohol step requires a single species"
+    }
+   ],
+   "correct": "B",
+   "explanation": "G and A are mixed smears (to compare cell types); E is a single species smear of Organism 4.",
+   "why": {
+    "A": "All three smears are heat fixed.",
+    "C": "The protocol simply uses one organism.",
+    "D": "Acid-alcohol is for slide A."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about endospores is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They resist desiccation, UV and extreme heat"
+    },
+    {
+     "letter": "B",
+     "text": "They act like a 'stasis chamber' preserving genetic information"
+    },
+    {
+     "letter": "C",
+     "text": "Spores in a 250-million-year-old salt crystal were revived"
+    },
+    {
+     "letter": "D",
+     "text": "Bacillus, Clostridium and Clostridioides form them"
+    },
+    {
+     "letter": "E",
+     "text": "They are produced when nutrients are plentiful"
+    }
+   ],
+   "correct": "E",
+   "explanation": "Endospores are produced in response to stressful environmental conditions, such as a lack of nutrients.",
+   "why": {
+    "A": "True.",
+    "B": "True.",
+    "C": "True \u2014 a 'fun fact' slide.",
+    "D": "True."
+   }
+  }
+ ]
+}

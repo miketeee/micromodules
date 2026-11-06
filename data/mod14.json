@@ -30,7 +30,13 @@
     }
    ],
    "correct": "D",
-   "explanation": "False. Parent-to-child inheritance is vertical gene transfer."
+   "explanation": "False. Parent-to-child inheritance is vertical gene transfer.",
+   "why": {
+    "A": "True — plasmids carry accessory genes.",
+    "B": "True — HGT makes engineering bacteria possible.",
+    "C": "True — it's within a generation.",
+    "E": "True — bacteria swap plasmids."
+   }
   },
   {
    "num": 2,
@@ -55,7 +61,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The zigzag cut leaves single-stranded overhangs (sticky ends) that pair with complementary overhangs."
+   "explanation": "The zigzag cut leaves single-stranded overhangs (sticky ends) that pair with complementary overhangs.",
+   "why": {
+    "A": "Primers are added for PCR, not cut ends.",
+    "B": "Blunt ends come from straight cuts.",
+    "D": "Okazaki fragments are lagging-strand pieces."
+   }
   },
   {
    "num": 3,
@@ -80,7 +91,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Same enzyme → complementary sticky ends, which ligase can then seal together."
+   "explanation": "Same enzyme → complementary sticky ends, which ligase can then seal together.",
+   "why": {
+    "A": "The DNA stays double-stranded.",
+    "B": "Many restriction enzymes exist.",
+    "D": "He kept the SV40 genes."
+   }
   },
   {
    "num": 4,
@@ -113,7 +129,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Knowing insulin's primary structure, they reversed the central dogma (protein → mRNA → DNA) and built a synthetic gene."
+   "explanation": "Knowing insulin's primary structure, they reversed the central dogma (protein → mRNA → DNA) and built a synthetic gene.",
+   "why": {
+    "A": "PCR came later and needs an existing gene.",
+    "B": "Pig genes aren't human genes.",
+    "D": "CRISPR didn't exist then."
+   }
   },
   {
    "num": 6,
@@ -138,7 +159,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Denaturation ~96 °C, annealing ~55 °C, extension ~72 °C."
+   "explanation": "Denaturation ~96 °C, annealing ~55 °C, extension ~72 °C.",
+   "why": {
+    "A": "Denaturation is ~96 °C.",
+    "B": "Extension is ~72 °C.",
+    "D": "Ligation isn't a PCR step."
+   }
   },
   {
    "num": 7,
@@ -163,7 +189,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Taq comes from the thermophile Thermus aquaticus, so it doesn't denature at near-boiling temperatures."
+   "explanation": "Taq comes from the thermophile Thermus aquaticus, so it doesn't denature at near-boiling temperatures.",
+   "why": {
+    "A": "Taq works best hot, not at room temperature.",
+    "B": "Taq needs primers.",
+    "D": "Copying RNA to DNA is reverse transcriptase."
+   }
   },
   {
    "num": 8,
@@ -192,7 +223,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False. Heat does helicase's job, synthetic primers replace primase, and ligase isn't needed; DNA polymerase is the only enzyme added."
+   "explanation": "False. Heat does helicase's job, synthetic primers replace primase, and ligase isn't needed; DNA polymerase is the only enzyme added.",
+   "why": {
+    "B": "True — primers flank the target.",
+    "C": "True — copies grow exponentially.",
+    "D": "True — PCR amplifies one region.",
+    "E": "True — the cycler automates it."
+   }
   },
   {
    "num": 9,
@@ -225,7 +262,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "The guide RNA base-pairs with matching DNA; swapping guide RNAs reprograms Cas9."
+   "explanation": "The guide RNA base-pairs with matching DNA; swapping guide RNAs reprograms Cas9.",
+   "why": {
+    "B": "Cas9 has no built-in recognition site; the guide decides.",
+    "C": "Promoters don't direct Cas9.",
+    "D": "The cut is targeted, not random."
+   }
   },
   {
    "num": 11,
@@ -250,7 +292,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Donor DNA tricks the cell into homology-directed repair, copying the corrected sequence in (knock-in)."
+   "explanation": "Donor DNA tricks the cell into homology-directed repair, copying the corrected sequence in (knock-in).",
+   "why": {
+    "B": "Ligase isn't the missing ingredient.",
+    "C": "Taq is for PCR.",
+    "D": "Restriction enzymes aren't needed with Cas9."
+   }
   },
   {
    "num": 12,
@@ -275,7 +322,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Random nucleotides are glued in, introducing a mutation that usually ruins the gene."
+   "explanation": "Random nucleotides are glued in, introducing a mutation that usually ruins the gene.",
+   "why": {
+    "A": "It isn't transcribed more.",
+    "C": "Correction needs donor DNA.",
+    "D": "It isn't copied onto a plasmid."
+   }
   },
   {
    "num": 13,
@@ -300,7 +352,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "It's inherited, so it's in every cell; correcting it is far easier in a fertilized egg/embryo."
+   "explanation": "It's inherited, so it's in every cell; correcting it is far easier in a fertilized egg/embryo.",
+   "why": {
+    "B": "CRISPR does cut human DNA.",
+    "C": "CF is genetic.",
+    "D": "CFTR is on a chromosome."
+   }
   },
   {
    "num": 14,
@@ -325,7 +382,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Jennifer Doudna and Emmanuelle Charpentier."
+   "explanation": "Jennifer Doudna and Emmanuelle Charpentier.",
+   "why": {
+    "A": "Watson and Crick described DNA's structure.",
+    "C": "Hershey and Chase confirmed DNA is genetic material.",
+    "D": "Cohen and Boyer made the first recombinant organism."
+   }
   },
   {
    "num": 15,
@@ -362,7 +424,13 @@
     }
    ],
    "correct": "E",
-   "explanation": "False. Editing (turning genes on/off) isn't classed as a GMO, so CRISPR-edited foods don't have to be labeled."
+   "explanation": "False. Editing (turning genes on/off) isn't classed as a GMO, so CRISPR-edited foods don't have to be labeled.",
+   "why": {
+    "A": "True — used for sickle cell.",
+    "B": "True — it's a bacterial immune system.",
+    "C": "True — it defends against phages.",
+    "D": "True — knock-in and knock-out."
+   }
   }
  ]
 }

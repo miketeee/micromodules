@@ -1,0 +1,466 @@
+{
+ "slug": "lab9",
+ "title": "Lab 9 \u2014 Quiz 1",
+ "subtitle": "Differential Stains \u2014 the Gram stain",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "Gram stain of E. coli: what is the Gram reaction and shape of these cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gram-positive rods (purple bacilli)"
+    },
+    {
+     "letter": "B",
+     "text": "Gram-negative cocci (pink spheres)"
+    },
+    {
+     "letter": "C",
+     "text": "Gram-positive cocci (purple spheres)"
+    },
+    {
+     "letter": "D",
+     "text": "Gram-negative rods (pink bacilli)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "E. coli: Gram-negative (pink) rods. Gram\u2212 cells lose the crystal violet\u2013iodine complex and take up safranin.",
+   "why": {
+    "A": "Gram-positive cells stain purple; these are pink.",
+    "B": "These cells are rod-shaped.",
+    "C": "These cells are pink rods."
+   },
+   "img": "../lab-img/L09s_p11_7.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Photo",
+   "prompt": "Gram stain of S. epidermidis: what is the Gram reaction and arrangement of these cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gram-positive cocci in clusters (purple)"
+    },
+    {
+     "letter": "B",
+     "text": "Gram-negative cocci in clusters (pink)"
+    },
+    {
+     "letter": "C",
+     "text": "Gram-positive rods in chains (purple)"
+    },
+    {
+     "letter": "D",
+     "text": "Gram-negative rods (pink)"
+    }
+   ],
+   "correct": "A",
+   "explanation": "S. epidermidis: Gram-positive (purple) cocci in clusters.",
+   "why": {
+    "B": "These cells are purple \u2014 Gram-positive.",
+    "C": "These cells are spheres (cocci) in clusters.",
+    "D": "These are purple cocci."
+   },
+   "img": "../lab-img/L09s_p11_2.jpg"
+  },
+  {
+   "num": 3,
+   "type": "Photo",
+   "prompt": "Gram stain of B. subtilis: what is the Gram reaction and shape of these cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gram-negative rods (pink bacilli)"
+    },
+    {
+     "letter": "B",
+     "text": "Gram-positive cocci (purple spheres)"
+    },
+    {
+     "letter": "C",
+     "text": "Acid-fast rods (red)"
+    },
+    {
+     "letter": "D",
+     "text": "Gram-positive rods (purple bacilli)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "B. subtilis: Gram-positive (purple) rods.",
+   "why": {
+    "A": "These cells are purple \u2014 Gram-positive.",
+    "B": "These cells are long rods.",
+    "C": "This is a Gram stain, not acid-fast."
+   },
+   "img": "../lab-img/L09s_p11_9.jpg"
+  },
+  {
+   "num": 4,
+   "type": "Photo",
+   "prompt": "This Gram stain shows a mixed species smear. What do the purple cells and the pink cells represent?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Purple = Gram-negative; pink = Gram-positive"
+    },
+    {
+     "letter": "B",
+     "text": "Purple = Gram-positive; pink = Gram-negative"
+    },
+    {
+     "letter": "C",
+     "text": "Purple = acid-fast; pink = non-acid-fast"
+    },
+    {
+     "letter": "D",
+     "text": "Purple = endospores; pink = vegetative cells"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Gram-positive cells stain purple; Gram-negative cells stain pink.",
+   "why": {
+    "A": "Reversed: Gram+ stain purple and Gram\u2212 stain pink.",
+    "C": "Acid-fast results are pink/red vs blue.",
+    "D": "Endospores stain green."
+   },
+   "img": "../lab-img/L09s_p07_3.jpg"
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "What is the correct order of Gram stain reagents?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Crystal violet \u2192 alcohol \u2192 iodine \u2192 safranin"
+    },
+    {
+     "letter": "B",
+     "text": "Crystal violet \u2192 iodine \u2192 alcohol \u2192 safranin"
+    },
+    {
+     "letter": "C",
+     "text": "Safranin \u2192 iodine \u2192 alcohol \u2192 crystal violet"
+    },
+    {
+     "letter": "D",
+     "text": "Iodine \u2192 crystal violet \u2192 safranin \u2192 alcohol"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Primary stain (crystal violet), mordant (iodine), decolorizer (alcohol), counterstain (safranin), rinsing between each.",
+   "why": {
+    "A": "Iodine (mordant) comes before the alcohol decolorizer.",
+    "C": "Crystal violet is the primary stain; safranin is the counterstain.",
+    "D": "The order is primary stain, mordant, decolorizer, counterstain."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "In the Gram stain, what is the function of iodine?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Primary stain \u2014 colors all cells purple"
+    },
+    {
+     "letter": "B",
+     "text": "Decolorizer \u2014 removes stain from Gram-negative cells"
+    },
+    {
+     "letter": "C",
+     "text": "Counterstain \u2014 colors Gram-negative cells pink"
+    },
+    {
+     "letter": "D",
+     "text": "Mordant \u2014 forms a large crystal violet\u2013iodine complex"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Iodine is the mordant: it forms the crystal violet\u2013iodine complex, which is large relative to crystal violet alone.",
+   "why": {
+    "A": "Crystal violet is the primary stain.",
+    "B": "Alcohol is the decolorizer.",
+    "C": "Safranin is the counterstain."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "What are the times in the lab Gram stain protocol?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Crystal violet 30 s, iodine 60 s, alcohol 10 s, safranin 30 s"
+    },
+    {
+     "letter": "B",
+     "text": "Crystal violet 60 s, iodine 30 s, alcohol 30 s, safranin 10 s"
+    },
+    {
+     "letter": "C",
+     "text": "Crystal violet 1 min, iodine 1 min, alcohol 1 min, safranin 1 min"
+    },
+    {
+     "letter": "D",
+     "text": "Crystal violet 5 min with heat, iodine 60 s, alcohol 4 s, safranin 30 s"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Gram: crystal violet 30 s \u2192 rinse \u2192 iodine 60 s \u2192 rinse \u2192 alcohol 10 s \u2192 rinse \u2192 safranin 30 s \u2192 rinse \u2192 blot.",
+   "why": {
+    "B": "Iodine is 60 s and alcohol only 10 s.",
+    "C": "Alcohol is only 10 seconds to avoid over-decolorizing.",
+    "D": "Heat and 4 s acid-alcohol belong to the acid-fast stain."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "After the decolorizer step, what color are Gram-negative cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Colorless"
+    },
+    {
+     "letter": "B",
+     "text": "Purple"
+    },
+    {
+     "letter": "C",
+     "text": "Pink"
+    },
+    {
+     "letter": "D",
+     "text": "Green"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Ethanol dehydrates the walls; the thick Gram+ wall traps the complex, while it escapes from the thin Gram\u2212 wall (through channels left after ethanol partly dissolves the outer membrane), leaving Gram\u2212 cells colorless until safranin.",
+   "why": {
+    "B": "Gram\u2212 cells lose the crystal violet\u2013iodine complex.",
+    "C": "They turn pink only after the safranin counterstain.",
+    "D": "Green is malachite green in the endospore stain."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Why do Gram-positive cells keep the crystal violet\u2013iodine complex?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They have an outer membrane that blocks alcohol"
+    },
+    {
+     "letter": "B",
+     "text": "Their thick peptidoglycan wall traps the large complex when dehydrated by alcohol"
+    },
+    {
+     "letter": "C",
+     "text": "Their mycolic acid repels the alcohol completely"
+    },
+    {
+     "letter": "D",
+     "text": "They absorb safranin more strongly than other cells"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Gram-positive: thick peptidoglycan with teichoic/lipoteichoic acids. Gram-negative: outer membrane with LPS and a thin peptidoglycan layer.",
+   "why": {
+    "A": "Gram-negative cells have the outer membrane.",
+    "C": "Mycolic acid is in acid-fast cells.",
+    "D": "Gram+ cells stay purple because they keep the crystal violet complex."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "A student leaves the alcohol on far too long (over-decolorizes). What will Gram-positive cells most likely look like?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Purple \u2014 the result is unaffected"
+    },
+    {
+     "letter": "B",
+     "text": "Pink \u2014 they wrongly appear Gram-negative"
+    },
+    {
+     "letter": "C",
+     "text": "Colorless \u2014 safranin can't stain them"
+    },
+    {
+     "letter": "D",
+     "text": "Green \u2014 like endospores"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Be careful to avoid excess decolorization: Gram+ cells can lose the complex, pick up safranin and look pink (a false Gram-negative result).",
+   "why": {
+    "A": "Excess decolorizing can pull the complex out of Gram+ cells.",
+    "C": "Safranin would stain them pink.",
+    "D": "Green is only from malachite green."
+   }
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "A student forgets the safranin counterstain. How will Gram-negative cells appear?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pink"
+    },
+    {
+     "letter": "B",
+     "text": "Purple"
+    },
+    {
+     "letter": "C",
+     "text": "Blue"
+    },
+    {
+     "letter": "D",
+     "text": "Colorless"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Without the counterstain, decolorized Gram-negative cells stay colorless.",
+   "why": {
+    "A": "Pink comes from safranin, which was skipped.",
+    "B": "Gram\u2212 cells lose crystal violet in the decolorizer.",
+    "C": "Blue is methylene blue in the acid-fast stain."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "A student skips the alcohol decolorizer step. How will both Gram-positive and Gram-negative cells appear?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Both purple"
+    },
+    {
+     "letter": "B",
+     "text": "Both pink"
+    },
+    {
+     "letter": "C",
+     "text": "Gram+ purple, Gram\u2212 pink (normal result)"
+    },
+    {
+     "letter": "D",
+     "text": "Both colorless"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Crystal violet colors both types purple; without the decolorizer, Gram\u2212 cells keep it and also look purple.",
+   "why": {
+    "B": "Without decolorizing, crystal violet stays in all cells.",
+    "C": "The decolorizer is what separates the two types.",
+    "D": "Crystal violet colors all cells first."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "What is the clinical relevance of the Gram stain?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is a quick preliminary test for Mycobacterium tuberculosis"
+    },
+    {
+     "letter": "B",
+     "text": "It detects endospore-forming Bacillus and Clostridium species"
+    },
+    {
+     "letter": "C",
+     "text": "It shows live, motile bacteria in an unstained wet mount"
+    },
+    {
+     "letter": "D",
+     "text": "It helps choose treatment, since drugs work differently on Gram+ vs Gram\u2212 bacteria"
+    }
+   ],
+   "correct": "D",
+   "explanation": "The Gram stain is the most frequently used stain in medical micro and helps determine a treatment plan.",
+   "why": {
+    "A": "That's the acid-fast stain.",
+    "B": "That's the endospore stain.",
+    "C": "Gram stains are heat fixed, so the cells are dead."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Which smear is used for the Gram stain in Lab 9?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Slide E \u2014 a single species smear of Organism 4"
+    },
+    {
+     "letter": "B",
+     "text": "Slide G \u2014 a mixed species smear of Organisms 1 and 2"
+    },
+    {
+     "letter": "C",
+     "text": "Slide A \u2014 a mixed smear of Organisms 1 and 3"
+    },
+    {
+     "letter": "D",
+     "text": "A negative wet mount of yeast"
+    }
+   ],
+   "correct": "B",
+   "explanation": "G: Org 1 + Org 2 (Gram). A: Org 1 + Org 3 (acid-fast). E: Org 4 alone (endospore).",
+   "why": {
+    "A": "Slide E is for the endospore stain.",
+    "C": "Slide A is for the acid-fast stain.",
+    "D": "Wet mounts aren't Gram stained."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the Gram-negative cell envelope is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It has an outer membrane with LPS"
+    },
+    {
+     "letter": "B",
+     "text": "It has a plasma membrane with proteins"
+    },
+    {
+     "letter": "C",
+     "text": "Its cells stain pink in the Gram stain"
+    },
+    {
+     "letter": "D",
+     "text": "It has a thick layer of peptidoglycan"
+    },
+    {
+     "letter": "E",
+     "text": "Ethanol partially dissolves its outer membrane"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Gram-negative cells have a THIN peptidoglycan layer; Gram-positive cells have the thick layer.",
+   "why": {
+    "A": "True \u2014 the outer membrane contains LPS.",
+    "B": "True.",
+    "C": "True.",
+    "E": "True \u2014 this lets the complex escape."
+   }
+  }
+ ]
+}

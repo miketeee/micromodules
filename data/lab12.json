@@ -1,0 +1,470 @@
+{
+ "slug": "lab12",
+ "title": "Lab 12 \u2014 Quiz 1",
+ "subtitle": "Unknown ID Part 3 \u2014 API 20E and rapid tests",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "This strip runs 20 biochemical tests at once on a single pure culture. What is it used to identify?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enterobacteriaceae (intestinal Gram-negative rods)"
+    },
+    {
+     "letter": "B",
+     "text": "Gram-positive cocci such as Staphylococcus"
+    },
+    {
+     "letter": "C",
+     "text": "Fungi such as Candida and Aspergillus"
+    },
+    {
+     "letter": "D",
+     "text": "Viruses in throat swab specimens"
+    }
+   ],
+   "correct": "A",
+   "explanation": "API 20E: 20 biochemical tests on a single pure-culture inoculum, used for Enterobacteriaceae (e.g., E. coli, Salmonella, Shigella, Proteus, Klebsiella).",
+   "why": {
+    "B": "API 20E is for Enterobacteriaceae.",
+    "C": "API 20E identifies Gram-negative intestinal rods.",
+    "D": "API 20E tests a pure bacterial culture."
+   },
+   "img": "../lab-img/L12s_p04_1.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "How is the API 20E result turned into an identification?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Test results make a 7-digit profile code that is compared with a database"
+    },
+    {
+     "letter": "B",
+     "text": "The strip's color matches a single organism directly"
+    },
+    {
+     "letter": "C",
+     "text": "The number of positive tests is the species number"
+    },
+    {
+     "letter": "D",
+     "text": "The strip is Gram stained after incubation"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Positive results in each section are added to make one digit; the 7-digit profile code is looked up in the API 20E code table/database.",
+   "why": {
+    "B": "Results are coded into 7 digits first.",
+    "C": "Positive tests are added within each section.",
+    "D": "No staining is involved."
+   }
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "How long does API 20E testing take from the patient specimen?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "About 24 hr to isolate a pure culture, then 24 hr incubating the strip"
+    },
+    {
+     "letter": "B",
+     "text": "About 15 minutes, like a rapid antigen test"
+    },
+    {
+     "letter": "C",
+     "text": "About 5 minutes after dipping the strip"
+    },
+    {
+     "letter": "D",
+     "text": "About 1 week, because it needs 20 separate cultures"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The specimen must be streaked for isolation (~24 hr), then the inoculated strip is incubated 24 hr before reading.",
+   "why": {
+    "B": "API 20E needs a pure culture and incubation.",
+    "C": "The 5-minute wait is the Quick Strep dipstick.",
+    "D": "All 20 tests run at once on one inoculum."
+   }
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "API 20E section 1 contains ONPG (1), ADH (2), LDC (4). ONPG and LDC are positive; ADH is negative. What digit goes under section 1?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "3"
+    },
+    {
+     "letter": "B",
+     "text": "7"
+    },
+    {
+     "letter": "C",
+     "text": "2"
+    },
+    {
+     "letter": "D",
+     "text": "5"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Add the numbers of the positive tests in the section: ONPG (1) + LDC (4) = 5.",
+   "why": {
+    "A": "3 would be ONPG + ADH.",
+    "B": "7 would require all three positive.",
+    "C": "2 would be ADH alone."
+   }
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "API 20E section 2 contains ODC (1), CIT (2), H2S (4). All three are negative. What digit goes under section 2?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "7"
+    },
+    {
+     "letter": "B",
+     "text": "0"
+    },
+    {
+     "letter": "C",
+     "text": "1"
+    },
+    {
+     "letter": "D",
+     "text": "3"
+    }
+   ],
+   "correct": "B",
+   "explanation": "If no test in a section is positive, the digit is 0.",
+   "why": {
+    "A": "7 would be all three positive.",
+    "C": "1 would be ODC positive.",
+    "D": "Negatives add nothing."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "API 20E section 3 contains URE (1), TDA (2), IND (4). Only IND is positive. What digit goes under section 3?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "1"
+    },
+    {
+     "letter": "B",
+     "text": "3"
+    },
+    {
+     "letter": "C",
+     "text": "4"
+    },
+    {
+     "letter": "D",
+     "text": "6"
+    }
+   ],
+   "correct": "C",
+   "explanation": "IND (4) alone = 4.",
+   "why": {
+    "A": "1 would be URE positive.",
+    "B": "3 would be URE + TDA.",
+    "D": "6 would be TDA + IND."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "API 20E section 4 contains VP (1), GEL (2), GLU (4). VP and GLU are positive. What digit goes under section 4?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "4"
+    },
+    {
+     "letter": "B",
+     "text": "6"
+    },
+    {
+     "letter": "C",
+     "text": "5"
+    },
+    {
+     "letter": "D",
+     "text": "2"
+    }
+   ],
+   "correct": "C",
+   "explanation": "VP (1) + GLU (4) = 5.",
+   "why": {
+    "A": "4 counts only GLU.",
+    "B": "6 would be GEL + GLU.",
+    "D": "2 would be GEL alone."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Photo",
+   "prompt": "Read this rapid antigen test: lines at both C and T. What is the result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Positive"
+    },
+    {
+     "letter": "B",
+     "text": "Negative"
+    },
+    {
+     "letter": "C",
+     "text": "Invalid"
+    },
+    {
+     "letter": "D",
+     "text": "Positive only if the T line is darker"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Test line = antigen detected; control line = the test ran correctly. Both = positive.",
+   "why": {
+    "B": "Negative shows only the C line.",
+    "C": "Invalid results have no control (C) line.",
+    "D": "Any visible T line with a C line is positive."
+   },
+   "img": "../lab-img/X12_cov_pos.jpg"
+  },
+  {
+   "num": 9,
+   "type": "Photo",
+   "prompt": "Read this rapid antigen test: a line at C only. What is the result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Positive"
+    },
+    {
+     "letter": "B",
+     "text": "Negative"
+    },
+    {
+     "letter": "C",
+     "text": "Invalid"
+    },
+    {
+     "letter": "D",
+     "text": "Inconclusive \u2014 repeat in 10 minutes"
+    }
+   ],
+   "correct": "B",
+   "explanation": "A control line with no test line = negative.",
+   "why": {
+    "A": "Positive needs a T line.",
+    "C": "A control line is present, so the test is valid.",
+    "D": "C only is a valid negative."
+   },
+   "img": "../lab-img/X12_cov_neg.jpg"
+  },
+  {
+   "num": 10,
+   "type": "Photo",
+   "prompt": "Read this rapid antigen test: no lines at all. What is the result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Negative"
+    },
+    {
+     "letter": "B",
+     "text": "Invalid"
+    },
+    {
+     "letter": "C",
+     "text": "Positive"
+    },
+    {
+     "letter": "D",
+     "text": "Negative, since nothing was detected"
+    }
+   ],
+   "correct": "B",
+   "explanation": "No control line = invalid.",
+   "why": {
+    "A": "Negative still shows a control line.",
+    "C": "Positive shows both lines.",
+    "D": "Without a control line, the test didn't run correctly."
+   },
+   "img": "../lab-img/X12_cov_inv1.jpg"
+  },
+  {
+   "num": 11,
+   "type": "Photo",
+   "prompt": "Read this rapid antigen test: a line at T but NOT at C. What is the result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Positive"
+    },
+    {
+     "letter": "B",
+     "text": "Negative"
+    },
+    {
+     "letter": "C",
+     "text": "Strongly positive"
+    },
+    {
+     "letter": "D",
+     "text": "Invalid"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Any result missing the control line is invalid.",
+   "why": {
+    "A": "A test line without a control line is invalid.",
+    "B": "Negative shows a C line only.",
+    "C": "Without the control line the result can't be trusted."
+   },
+   "img": "../lab-img/X12_cov_inv2.jpg"
+  },
+  {
+   "num": 12,
+   "type": "Photo",
+   "prompt": "What forms the visible TEST line in a rapid COVID antigen test?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Control antibodies bound by anti-control antibodies"
+    },
+    {
+     "letter": "B",
+     "text": "Patient antibodies bound to the HIV antigen"
+    },
+    {
+     "letter": "C",
+     "text": "An immobilized antibody \u2013 antigen \u2013 labeled antibody 'sandwich'"
+    },
+    {
+     "letter": "D",
+     "text": "The absorbent pad soaking up the leftover sample"
+    }
+   ],
+   "correct": "C",
+   "explanation": "SARS-CoV-2 antigen is bound by labeled antibodies, then caught by immobilized antibodies at the test line, forming a colored 'sandwich'.",
+   "why": {
+    "A": "That forms the control line.",
+    "B": "That's an antibody-detection test.",
+    "D": "The pad just soaks up residual sample."
+   },
+   "img": "../lab-img/L12s_p10_1.jpg"
+  },
+  {
+   "num": 13,
+   "type": "Photo",
+   "prompt": "Rapid HIV tests like this one detect antibodies. What is the 'false negative window'?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Time between a positive test and the start of symptoms"
+    },
+    {
+     "letter": "B",
+     "text": "Time the strip must sit before reading results"
+    },
+    {
+     "letter": "C",
+     "text": "Time between exposure and enough antibodies to reach the detection limit"
+    },
+    {
+     "letter": "D",
+     "text": "Time after which the test kit expires"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Antibody-detection tests can be negative early on. HIV tests that detect antigens have a shorter false negative window.",
+   "why": {
+    "A": "It's about antibody levels after exposure.",
+    "B": "That's the read time, not the false negative window.",
+    "D": "The window refers to the host's antibody production."
+   },
+   "img": "../lab-img/L12s_p09_1.jpg"
+  },
+  {
+   "num": 14,
+   "type": "Photo",
+   "prompt": "Which of these is an ANTIGEN detection test?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "HIV antibody test"
+    },
+    {
+     "letter": "B",
+     "text": "Lyme disease antibody test"
+    },
+    {
+     "letter": "C",
+     "text": "Feline leukemia virus (FeLV) antibody test"
+    },
+    {
+     "letter": "D",
+     "text": "Quick Strep test"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Antigen detection examples: pregnancy (HCG), drug tests, food allergens, C. diff toxins, flu, rapid COVID, Quick Strep.",
+   "why": {
+    "A": "That detects the host's antibodies.",
+    "B": "That's an antibody-detection example.",
+    "C": "FeLV is listed under antibody detection."
+   },
+   "img": "../lab-img/L12s_p18_1.jpg"
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about antibody-based rapid tests is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They give quick results"
+    },
+    {
+     "letter": "B",
+     "text": "They are easy to perform"
+    },
+    {
+     "letter": "C",
+     "text": "They are relatively inexpensive"
+    },
+    {
+     "letter": "D",
+     "text": "Culture may be used to confirm a Strep result"
+    },
+    {
+     "letter": "E",
+     "text": "They never give false positive or false negative results"
+    }
+   ],
+   "correct": "E",
+   "explanation": "Limitation: false positives and false negatives sometimes happen, so culture may be used for Strep confirmation.",
+   "why": {
+    "A": "True \u2014 a benefit.",
+    "B": "True \u2014 a benefit.",
+    "C": "True \u2014 a benefit.",
+    "D": "True \u2014 culture confirms Quick Strep."
+   }
+  }
+ ]
+}

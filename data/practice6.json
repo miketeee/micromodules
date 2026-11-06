@@ -26,7 +26,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Heart disease, cancer, and stroke rank higher in the US."
+   "explanation": "Heart disease, cancer, and stroke rank higher in the US.",
+   "why": {
+    "A": "Reversed.",
+    "B": "It's still a major killer.",
+    "D": "It's fourth, not first, in the US."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The other two mechanisms are outcompeting and bacteriocins."
+   "explanation": "The other two mechanisms are outcompeting and bacteriocins.",
+   "why": {
+    "A": "That's competition for space.",
+    "B": "That's a secreted chemical, not an environment change.",
+    "D": "That's a treatment, not antagonism."
+   }
   },
   {
    "num": 3,
@@ -80,7 +90,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "Malaise is a symptom — only the patient feels it."
+   "explanation": "Malaise is a symptom — only the patient feels it.",
+   "why": {
+    "B": "True — a rash can be seen.",
+    "C": "True — pain is felt.",
+    "D": "True — fever is measured.",
+    "E": "True — symptoms are felt."
+   }
   },
   {
    "num": 4,
@@ -105,7 +121,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Bacteria in blood + extreme immune reaction."
+   "explanation": "Bacteria in blood + extreme immune reaction.",
+   "why": {
+    "A": "Bacteria, not viruses; not latent.",
+    "B": "Blood-wide isn't local.",
+    "C": "She's very sick, not subclinical."
+   }
   },
   {
    "num": 5,
@@ -146,7 +167,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Slides also list Lyme disease."
+   "explanation": "Slides also list Lyme disease.",
+   "why": {
+    "A": "Colds are communicable.",
+    "B": "Flu is communicable.",
+    "D": "Measles is contagious."
+   }
   },
   {
    "num": 8,
@@ -171,7 +197,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Measles is the lecture's cautionary example."
+   "explanation": "Measles is the lecture's cautionary example.",
+   "why": {
+    "B": "It works for viral diseases too.",
+    "C": "It protects unvaccinated people.",
+    "D": "Vaccination also builds it."
+   }
   },
   {
    "num": 9,
@@ -196,7 +227,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Distance defines the category."
+   "explanation": "Distance defines the category.",
+   "why": {
+    "B": "Droplets don't need fomites.",
+    "C": "Coughs make droplets too.",
+    "D": "Coughs aren't direct contact."
+   }
   },
   {
    "num": 10,
@@ -225,7 +261,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "Any healthcare facility counts."
+   "explanation": "Any healthcare facility counts.",
+   "why": {
+    "A": "True — about 15% of patients.",
+    "C": "True — UTIs are most common.",
+    "D": "True — hand washing prevents most.",
+    "E": "True — formerly nosocomial."
+   }
   },
   {
    "num": 11,
@@ -250,7 +292,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Salmonella typhimurium."
+   "explanation": "Salmonella typhimurium.",
+   "why": {
+    "A": "Coagulase builds clots.",
+    "B": "Siderophores steal iron.",
+    "C": "Hemolysins burst RBCs."
+   }
   },
   {
    "num": 12,
@@ -275,7 +322,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Iron is pulled from red blood cells and enzymes."
+   "explanation": "Iron is pulled from red blood cells and enzymes.",
+   "why": {
+    "A": "Superantigens overstimulate immunity.",
+    "B": "Collagenase digests tissue.",
+    "C": "LPS is an endotoxin."
+   }
   },
   {
    "num": 13,
@@ -316,7 +368,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "M-protein adheres and blocks phagocytosis."
+   "explanation": "M-protein adheres and blocks phagocytosis.",
+   "why": {
+    "A": "Invasins are Salmonella's.",
+    "B": "Coagulase is S. aureus's.",
+    "C": "Siderophores aren't C. perfringens's example."
+   }
   },
   {
    "num": 16,
@@ -341,7 +398,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The pathogen reproduces in the tick."
+   "explanation": "The pathogen reproduces in the tick.",
+   "why": {
+    "A": "Deer, not humans, are the source; ticks are alive.",
+    "C": "The tick isn't mechanical.",
+    "D": "Deer are the reservoir."
+   }
   },
   {
    "num": 17,
@@ -370,7 +432,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "Gastric juice (pH ~2) is the most acidic; urine is about 6."
+   "explanation": "Gastric juice (pH ~2) is the most acidic; urine is about 6.",
+   "why": {
+    "A": "True — sweat leaves salt.",
+    "B": "True — tears contain lysozyme.",
+    "D": "True — saliva has IgA and lysozyme.",
+    "E": "True — earwax is acidic."
+   }
   },
   {
    "num": 18,
@@ -395,7 +463,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Stomach acid destroys the trapped microbes."
+   "explanation": "Stomach acid destroys the trapped microbes.",
+   "why": {
+    "A": "They aren't absorbed into blood.",
+    "B": "Mast cells don't carry fluids.",
+    "C": "Macrophages don't carry fluids."
+   }
   },
   {
    "num": 19,
@@ -420,7 +493,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "It holds histamine vesicles."
+   "explanation": "It holds histamine vesicles.",
+   "why": {
+    "B": "Neutrophils eat; they don't sound alarms.",
+    "C": "Goblet cells make mucus.",
+    "D": "Macrophages are cleanup cells."
+   }
   },
   {
    "num": 20,
@@ -445,7 +523,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Swelling comes from leaky vessels."
+   "explanation": "Swelling comes from leaky vessels.",
+   "why": {
+    "B": "Heat is from blood flow.",
+    "C": "Pus is dead cells.",
+    "D": "Redness is from blood flow."
+   }
   },
   {
    "num": 21,
@@ -486,7 +569,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "First-line = barriers and surface chemicals."
+   "explanation": "First-line = barriers and surface chemicals.",
+   "why": {
+    "A": "It doesn't release histamine.",
+    "B": "It's nonspecific.",
+    "D": "It doesn't use WBCs."
+   }
   },
   {
    "num": 24,
@@ -511,7 +599,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Lysosomes contain hydrolytic enzymes."
+   "explanation": "Lysosomes contain hydrolytic enzymes.",
+   "why": {
+    "A": "Mast cells make histamine.",
+    "C": "Plasma cells make antibodies.",
+    "D": "Pseudopods form before."
+   }
   },
   {
    "num": 25,
@@ -540,7 +633,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "Pyrogens are interleukins; interferon is antiviral."
+   "explanation": "Pyrogens are interleukins; interferon is antiviral.",
+   "why": {
+    "B": "True — 'between the whites.'",
+    "C": "True — small regulating proteins.",
+    "D": "True — some are pyrogens.",
+    "E": "True — interferon is antiviral."
+   }
   },
   {
    "num": 26,
@@ -565,7 +664,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Antibodies make the activation specific."
+   "explanation": "Antibodies make the activation specific.",
+   "why": {
+    "A": "Mannose is nonspecific.",
+    "B": "LPS is nonspecific.",
+    "D": "Tissue damage isn't complement-specific."
+   }
   },
   {
    "num": 27,
@@ -590,7 +694,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "It warns neighbors instead."
+   "explanation": "It warns neighbors instead.",
+   "why": {
+    "A": "It isn't toxic to the maker.",
+    "C": "That's not the reason.",
+    "D": "Interferon is antiviral."
+   }
   },
   {
    "num": 28,
@@ -615,7 +724,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Same outcome as tissue damage, different trigger."
+   "explanation": "Same outcome as tissue damage, different trigger.",
+   "why": {
+    "A": "Interferon is antiviral.",
+    "B": "C3b opsonizes microbes.",
+    "D": "The MAC targets microbes."
+   }
   },
   {
    "num": 29,
@@ -656,7 +770,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "MAC causes cytolysis."
+   "explanation": "MAC causes cytolysis.",
+   "why": {
+    "A": "Cilia are first-line.",
+    "C": "Interferon is antiviral.",
+    "D": "IgE is allergy-related."
+   }
   },
   {
    "num": 32,
@@ -681,7 +800,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Broad recognition."
+   "explanation": "Broad recognition.",
+   "why": {
+    "A": "They're microbial, not antibodies.",
+    "C": "They're not on healthy human cells.",
+    "D": "They're surface molecules, not viral RNA."
+   }
   },
   {
    "num": 33,
@@ -710,7 +834,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "Only IgE triggers mast cells."
+   "explanation": "Only IgE triggers mast cells.",
+   "why": {
+    "A": "True — agglutination clumps.",
+    "C": "True — neutralization blocks.",
+    "D": "True — antibodies activate complement.",
+    "E": "True — opsonization marks."
+   }
   },
   {
    "num": 34,
@@ -735,7 +865,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Secreted as a pentamer."
+   "explanation": "Secreted as a pentamer.",
+   "why": {
+    "B": "IgA is the mucosal dimer.",
+    "C": "IgD isn't made first.",
+    "D": "IgG comes later."
+   }
   },
   {
    "num": 35,
@@ -760,7 +895,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "IgA works mainly by neutralization."
+   "explanation": "IgA works mainly by neutralization.",
+   "why": {
+    "B": "Breast-milk IgA stays in the gut and makes no memory.",
+    "C": "It doesn't raise gut pH.",
+    "D": "It doesn't contain vaccines."
+   }
   },
   {
    "num": 36,
@@ -785,7 +925,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Variable regions form the binding site."
+   "explanation": "Variable regions form the binding site.",
+   "why": {
+    "B": "Disulfide bonds hold chains.",
+    "C": "Shape change isn't specificity.",
+    "D": "The constant region sets class."
+   }
   },
   {
    "num": 37,
@@ -826,7 +971,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Too big to eat; it must be destroyed by released chemicals."
+   "explanation": "Too big to eat; it must be destroyed by released chemicals.",
+   "why": {
+    "A": "Neutralization is for small targets.",
+    "C": "Worms are too big to clump.",
+    "D": "Worms are too big to engulf."
+   }
   },
   {
    "num": 40,
@@ -851,7 +1001,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Named after the bodily humors."
+   "explanation": "Named after the bodily humors.",
+   "why": {
+    "B": "That's cell-mediated.",
+    "C": "That's first-line.",
+    "D": "That's second-line."
+   }
   },
   {
    "num": 41,
@@ -876,7 +1031,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "T-independent activation."
+   "explanation": "T-independent activation.",
+   "why": {
+    "A": "B cells don't use CD8.",
+    "B": "Plasma cells don't need activation.",
+    "D": "Interferon doesn't activate B cells."
+   }
   },
   {
    "num": 42,
@@ -905,7 +1065,13 @@
     }
    ],
    "correct": "E",
-   "explanation": "Macrophages clean up first, avoiding inflammation."
+   "explanation": "Macrophages clean up first, avoiding inflammation.",
+   "why": {
+    "A": "True — it's programmed.",
+    "B": "True — the genome is degraded.",
+    "C": "True — blebbing.",
+    "D": "True — granzyme triggers it."
+   }
   },
   {
    "num": 43,
@@ -930,7 +1096,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Both are killer lymphocytes."
+   "explanation": "Both are killer lymphocytes.",
+   "why": {
+    "A": "B and mast cells don't use perforin.",
+    "B": "Helper T and plasma cells don't kill.",
+    "C": "Phagocytes eat instead."
+   }
   },
   {
    "num": 44,
@@ -955,7 +1126,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Foreign antigen on MHC-1 → CD8 T cell. NK cells target cells LACKING MHC-1."
+   "explanation": "Foreign antigen on MHC-1 → CD8 T cell. NK cells target cells LACKING MHC-1.",
+   "why": {
+    "A": "Plasma cells secrete antibodies.",
+    "B": "NK cells attack missing MHC-1.",
+    "D": "Helper T cells don't kill."
+   }
   },
   {
    "num": 45,
@@ -996,7 +1172,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Per the lecture."
+   "explanation": "Per the lecture.",
+   "why": {
+    "A": "Anemia is RBCs.",
+    "C": "Dehydration doesn't raise WBCs.",
+    "D": "Not just allergies or vaccines."
+   }
   },
   {
    "num": 48,
@@ -1021,7 +1202,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Fixed antibodies make the line."
+   "explanation": "Fixed antibodies make the line.",
+   "why": {
+    "A": "They don't neutralize the dye.",
+    "B": "Chicken antibodies bind at C.",
+    "D": "Fixed means they stay put."
+   }
   },
   {
    "num": 49,
@@ -1050,7 +1236,13 @@
     }
    ],
    "correct": "D",
-   "explanation": "mRNA is translated in the cytoplasm; DNA must reach the nucleus."
+   "explanation": "mRNA is translated in the cytoplasm; DNA must reach the nucleus.",
+   "why": {
+    "A": "True — DNA is transcribed in the nucleus.",
+    "B": "True — lipid nanoparticles.",
+    "C": "True — ultra-cold storage.",
+    "E": "True — both make spike."
+   }
   },
   {
    "num": 50,
@@ -1075,7 +1267,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Tetanus, diphtheria."
+   "explanation": "Tetanus, diphtheria.",
+   "why": {
+    "A": "Inactivated targets the whole microbe.",
+    "B": "Subunit targets microbe parts.",
+    "C": "Attenuated is the whole microbe."
+   }
   },
   {
    "num": 51,
@@ -1100,7 +1297,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "He didn't realize one was a bacterium and the other a protozoan."
+   "explanation": "He didn't realize one was a bacterium and the other a protozoan.",
+   "why": {
+    "A": "Neither is a virus.",
+    "C": "Only trypanosomes cause sleeping sickness.",
+    "D": "Neither makes penicillin."
+   }
   },
   {
    "num": 52,
@@ -1125,7 +1327,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Others: Flagyl (protozoa), Vermox (worms), Tamiflu (viruses)."
+   "explanation": "Others: Flagyl (protozoa), Vermox (worms), Tamiflu (viruses).",
+   "why": {
+    "A": "Peptidoglycan is bacterial.",
+    "C": "70S ribosomes are bacterial.",
+    "D": "DNA gyrase is bacterial."
+   }
   },
   {
    "num": 53,
@@ -1166,7 +1373,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Salk is inactivated."
+   "explanation": "Salk is inactivated.",
+   "why": {
+    "A": "Salk is inactivated.",
+    "B": "Hepatitis B is subunit.",
+    "C": "Tetanus is toxoid."
+   }
   },
   {
    "num": 56,
@@ -1191,7 +1403,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Fleming's contaminated staph plate."
+   "explanation": "Fleming's contaminated staph plate.",
+   "why": {
+    "B": "That's Jenner.",
+    "C": "That's Ehrlich.",
+    "D": "That's Bassler."
+   }
   }
  ]
 }

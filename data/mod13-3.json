@@ -26,7 +26,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Codons are read in threes. Adding exactly three nucleotides between codons adds one codon but doesn't shift the frame."
+   "explanation": "Codons are read in threes. Adding exactly three nucleotides between codons adds one codon but doesn't shift the frame.",
+   "why": {
+    "A": "Three extra letters restore the frame.",
+    "B": "Insertions aren't removed.",
+    "C": "Three nucleotides aren't automatically a stop."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The deletion shifts the frame; the insertion shifts it back. Only the stretch between them is read in the wrong frame."
+   "explanation": "The deletion shifts the frame; the insertion shifts it back. Only the stretch between them is read in the wrong frame.",
+   "why": {
+    "A": "Codons between them are also shifted.",
+    "B": "They're at different codons, so they don't cancel exactly.",
+    "D": "The second change restores the frame."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "In a repressible operon the repressor is made inactive; the corepressor is what activates it to shut the genes off."
+   "explanation": "In a repressible operon the repressor is made inactive; the corepressor is what activates it to shut the genes off.",
+   "why": {
+    "A": "The corepressor is needed to switch off.",
+    "C": "It turns on regardless.",
+    "D": "The repressor can never activate, so genes stay on."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Removing the repressor doesn't help if RNA polymerase can't bind the promoter. No transcription → no lactase enzymes."
+   "explanation": "Removing the repressor doesn't help if RNA polymerase can't bind the promoter. No transcription → no lactase enzymes.",
+   "why": {
+    "B": "The repressor doesn't decide this when polymerase can't bind.",
+    "C": "The repressor gene isn't affected.",
+    "D": "Lactose doesn't bind the promoter."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "UV keeps creating thymine dimers wherever two Ts sit next to each other; statistically, an error eventually hits an important gene."
+   "explanation": "UV keeps creating thymine dimers wherever two Ts sit next to each other; statistically, an error eventually hits an important gene.",
+   "why": {
+    "B": "Dimers aren't silent mutations.",
+    "C": "UV forms dimers right away.",
+    "D": "UV kills by DNA damage, not heat."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "A thymine dimer forms where two thymines sit next to each other on the same strand. Only GATTTAC has adjacent Ts."
+   "explanation": "A thymine dimer forms where two thymines sit next to each other on the same strand. Only GATTTAC has adjacent Ts.",
+   "why": {
+    "A": "No adjacent T's.",
+    "B": "No T's at all.",
+    "C": "No adjacent T's."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Instructor slides: in prokaryotes, transcription and translation can occur simultaneously; in eukaryotes they are separated in space and time."
+   "explanation": "Instructor slides: in prokaryotes, transcription and translation can occur simultaneously; in eukaryotes they are separated in space and time.",
+   "why": {
+    "B": "Bacteria have no nucleus.",
+    "C": "Bacterial mRNA is single-stranded.",
+    "D": "Bacteria do transcribe."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The start codon sets the reading frame. Starting one nucleotide off shifts every codon that follows."
+   "explanation": "The start codon sets the reading frame. Starting one nucleotide off shifts every codon that follows.",
+   "why": {
+    "A": "Translation can start; it's just misread.",
+    "B": "Every later codon changes, not one.",
+    "D": "It won't necessarily hit a stop right away."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "64 − 3 stop codons = 61 codons for the 20 amino acids (AUG = Met is also the start codon)."
+   "explanation": "64 − 3 stop codons = 61 codons for the 20 amino acids (AUG = Met is also the start codon).",
+   "why": {
+    "A": "20 is the number of amino acids.",
+    "C": "64 − 3 = 61, not 60.",
+    "D": "64 includes the stops."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Lactose (inducer) turns the genes on → lactase digests lactose → no inducer left → the repressor becomes active again → genes off."
+   "explanation": "Lactose (inducer) turns the genes on → lactase digests lactose → no inducer left → the repressor becomes active again → genes off.",
+   "why": {
+    "A": "The enzymes don't destroy the repressor.",
+    "C": "Genes aren't deleted.",
+    "D": "Lactose doesn't block the promoter."
+   }
   },
   {
    "num": 11,
@@ -280,7 +330,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — transcription is done by RNA polymerase, which unzips the DNA and builds RNA."
+   "explanation": "False — transcription is done by RNA polymerase, which unzips the DNA and builds RNA.",
+   "why": {
+    "A": "True — RNA vs DNA products.",
+    "C": "True — polymerase falls off at the terminator.",
+    "D": "True — only the template strand is read.",
+    "E": "True — DNA re-zips."
+   }
   },
   {
    "num": 12,
@@ -309,7 +365,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — that describes missense. Nonsense creates a premature stop codon."
+   "explanation": "False — that describes missense. Nonsense creates a premature stop codon.",
+   "why": {
+    "B": "True — all are point mutations.",
+    "C": "True — missense swaps amino acids.",
+    "D": "True — nonsense makes a stop.",
+    "E": "True — silent changes nothing."
+   }
   },
   {
    "num": 13,
@@ -338,7 +400,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False — tRNAs are recyclable; after delivering an amino acid, a tRNA leaves to pick up another."
+   "explanation": "False — tRNAs are recyclable; after delivering an amino acid, a tRNA leaves to pick up another.",
+   "why": {
+    "A": "True — single-stranded clover leaf.",
+    "B": "True — the anticodon sets the amino acid.",
+    "D": "True — tRNAs deliver amino acids.",
+    "E": "True — anticodon pairs with codon."
+   }
   },
   {
    "num": 14,

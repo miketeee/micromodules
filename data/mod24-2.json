@@ -26,7 +26,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Vaccines build the titer and memory in advance."
+   "explanation": "Vaccines build the titer and memory in advance.",
+   "why": {
+    "A": "Vaccines don't work by fever.",
+    "B": "Vaccines don't inject antibodies.",
+    "C": "Breast milk is natural passive."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Ex: MMR, Sabin polio."
+   "explanation": "Ex: MMR, Sabin polio.",
+   "why": {
+    "A": "A denatured toxin is a toxoid.",
+    "C": "One antigen is a subunit.",
+    "D": "Preformed antibodies are passive."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Tetanus and diphtheria."
+   "explanation": "Tetanus and diphtheria.",
+   "why": {
+    "A": "Toxoids aren't live.",
+    "C": "Bacteria can be inactivated.",
+    "D": "Bacteria have surface antigens."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Links to Module 23 APCs."
+   "explanation": "Links to Module 23 APCs.",
+   "why": {
+    "A": "The point is display, not destruction.",
+    "C": "Plasma cells make antibodies.",
+    "D": "Dendritic cells don't become B cells."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Timing matters for the titer."
+   "explanation": "Timing matters for the titer.",
+   "why": {
+    "B": "Both doses are mRNA.",
+    "C": "Thawing isn't the reason.",
+    "D": "The first dose isn't a placebo."
+   }
   },
   {
    "num": 6,
@@ -155,7 +180,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "DNA vaccines are single-dose and room-temperature stable."
+   "explanation": "DNA vaccines are single-dose and room-temperature stable.",
+   "why": {
+    "B": "True — mRNA uses lipid nanoparticles.",
+    "C": "True — DNA vaccines suit remote areas.",
+    "D": "True — mRNA acts as an adjuvant.",
+    "E": "True — DNA uses an adenoviral vector."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Ehrlich searched for drugs safe inside the body."
+   "explanation": "Ehrlich searched for drugs safe inside the body.",
+   "why": {
+    "B": "Germicides killed bacteria.",
+    "C": "They did kill bacteria.",
+    "D": "Germicides weren't magic bullets."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "They only looked alike under the microscope."
+   "explanation": "They only looked alike under the microscope.",
+   "why": {
+    "B": "Neither is a fungus.",
+    "C": "Neither is a virus.",
+    "D": "Both cause disease."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "All three shared the Nobel Prize."
+   "explanation": "All three shared the Nobel Prize.",
+   "why": {
+    "A": "Bassler and d'Hérelle did quorum sensing and phages.",
+    "B": "Pasteur and Koch were earlier.",
+    "D": "Ehrlich and Jenner weren't involved."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Universal targets → broad spectrum."
+   "explanation": "Universal targets → broad spectrum.",
+   "why": {
+    "A": "Cipro is antibacterial.",
+    "B": "That's narrow-spectrum.",
+    "C": "That describes penicillin."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Links Module 3 cell walls to Module 24."
+   "explanation": "Links Module 3 cell walls to Module 24.",
+   "why": {
+    "A": "Gram-negatives have ribosomes.",
+    "B": "Gyrase is Cipro's target.",
+    "C": "Gram-positives lack LPS."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Slides: superinfections like C. diff and yeast infections."
+   "explanation": "Slides: superinfections like C. diff and yeast infections.",
+   "why": {
+    "A": "Quorum blocking wouldn't cause it.",
+    "B": "Flu shots don't cause C. diff.",
+    "D": "The drug wasn't contaminated."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Monistat → ergosterol; Flagyl → protozoan DNA; Vermox → worm sugar absorption."
+   "explanation": "Monistat → ergosterol; Flagyl → protozoan DNA; Vermox → worm sugar absorption.",
+   "why": {
+    "A": "Vermox targets worms, not peptidoglycan.",
+    "B": "Monistat targets ergosterol.",
+    "D": "Flagyl isn't an ergosterol drug."
+   }
   },
   {
    "num": 14,

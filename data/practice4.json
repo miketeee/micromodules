@@ -26,7 +26,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Giardia (Archaezoan): two nuclei, ~8 flagella, trophozoite and cyst stages, fatty diarrhea. The last choice describes Trichomonas."
+   "explanation": "Giardia (Archaezoan): two nuclei, ~8 flagella, trophozoite and cyst stages, fatty diarrhea. The last choice describes Trichomonas.",
+   "why": {
+    "B": "That describes Trypanosoma.",
+    "C": "That describes Cryptosporidium.",
+    "D": "That describes Trichomonas."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Eukaryotic cells are larger and highly compartmentalized. Viruses are measured in nanometers."
+   "explanation": "Eukaryotic cells are larger and highly compartmentalized. Viruses are measured in nanometers.",
+   "why": {
+    "A": "Reversed.",
+    "C": "20–1,000 nm is virus size.",
+    "D": "Bacteria are smaller (1–10 µm)."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The cycle begins with parasites growing in the mosquito's salivary glands; a bite delivers them into the bloodstream."
+   "explanation": "The cycle begins with parasites growing in the mosquito's salivary glands; a bite delivers them into the bloodstream.",
+   "why": {
+    "A": "Chloroquine works in the human, not the mosquito.",
+    "B": "RBCs burst in the human.",
+    "D": "Liver cells are human."
+   }
   },
   {
    "num": 4,
@@ -105,7 +120,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — trypanosomes swim among red blood cells without getting inside them; ring stages are Plasmodium."
+   "explanation": "False — trypanosomes swim among red blood cells without getting inside them; ring stages are Plasmodium.",
+   "why": {
+    "B": "True — it's a Euglenozoan.",
+    "C": "True — it causes sleeping sickness.",
+    "D": "True — its toxins cause a catatonic state.",
+    "E": "True — it's bloodborne."
+   }
   },
   {
    "num": 5,
@@ -146,7 +167,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Molds: multicellular, aerobic, spores (asexual sporangiospores/conidiospores, sexual spores from mushrooms)."
+   "explanation": "Molds: multicellular, aerobic, spores (asexual sporangiospores/conidiospores, sexual spores from mushrooms).",
+   "why": {
+    "B": "That describes yeasts.",
+    "C": "Fungi don't photosynthesize.",
+    "D": "Fungi are non-motile and digest outside the cell."
+   }
   },
   {
    "num": 8,
@@ -171,7 +197,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Its fermentation makes CO2 (dough rises) and ethanol (alcoholic drinks)."
+   "explanation": "Its fermentation makes CO2 (dough rises) and ethanol (alcoholic drinks).",
+   "why": {
+    "B": "'Dust' (conidia) refers to mold spores.",
+    "C": "Thrush is Candida.",
+    "D": "Farmer's lung is Aspergillus."
+   }
   },
   {
    "num": 9,
@@ -196,7 +227,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Like mushrooms, they are products of sexual reproduction that get spores above ground and into the air."
+   "explanation": "Like mushrooms, they are products of sexual reproduction that get spores above ground and into the air.",
+   "why": {
+    "B": "They're multicellular, not yeasts.",
+    "C": "They aren't lichens.",
+    "D": "They're sexual structures, not asexual sporangia."
+   }
   },
   {
    "num": 10,
@@ -225,7 +261,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — despite its name, ringworm is a fungal infection, often picked up from cats."
+   "explanation": "False — despite its name, ringworm is a fungal infection, often picked up from cats.",
+   "why": {
+    "A": "True — athlete's foot is a ringworm.",
+    "C": "True — histoplasmosis from bat droppings.",
+    "D": "True — thrush is oral Candida.",
+    "E": "True — a mycosis is fungal."
+   }
   },
   {
    "num": 11,
@@ -266,7 +308,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Female pinworms lay eggs that collect around the anus, so tape pressed there picks them up for the microscope."
+   "explanation": "Female pinworms lay eggs that collect around the anus, so tape pressed there picks them up for the microscope.",
+   "why": {
+    "A": "Ring stages are malaria, and tapeworms aren't in blood.",
+    "B": "Guinea worm emerges through the skin.",
+    "C": "Heartworm isn't found by the tape test."
+   }
   },
   {
    "num": 14,
@@ -291,7 +338,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Only some parasitic species cause disease."
+   "explanation": "Only some parasitic species cause disease.",
+   "why": {
+    "A": "Most worms aren't trematodes.",
+    "B": "Most aren't microscopic river worms.",
+    "C": "Most aren't parasites."
+   }
   },
   {
    "num": 15,
@@ -316,7 +368,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Lecture: it's not a cellular skin but a deposited chemical coating of indigestible chitin."
+   "explanation": "Lecture: it's not a cellular skin but a deposited chemical coating of indigestible chitin.",
+   "why": {
+    "B": "The cuticle is an outer coat, not a gut lining.",
+    "C": "It isn't mucus.",
+    "D": "It isn't living skin that sheds."
+   }
   },
   {
    "num": 16,
@@ -345,7 +402,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False — adults are about a foot long and as thick as a pencil."
+   "explanation": "False — adults are about a foot long and as thick as a pencil.",
+   "why": {
+    "A": "True — larvae visit the lungs.",
+    "B": "True — separate sexes.",
+    "D": "True — eggs are swallowed.",
+    "E": "True — adults reproduce in the gut."
+   }
   },
   {
    "num": 17,
@@ -386,7 +449,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Nucleotides are linked by dehydration synthesis into a covalent backbone; hydrogen bonds join the two strands."
+   "explanation": "Nucleotides are linked by dehydration synthesis into a covalent backbone; hydrogen bonds join the two strands.",
+   "why": {
+    "B": "Peptide bonds join amino acids.",
+    "C": "Hydrogen bonds join the two strands.",
+    "D": "Ligase only joins fragments."
+   }
   },
   {
    "num": 20,
@@ -411,7 +479,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "He synthesized the Mycoplasma genitalium chromosome (521 genes) and put it into a cell."
+   "explanation": "He synthesized the Mycoplasma genitalium chromosome (521 genes) and put it into a cell.",
+   "why": {
+    "A": "Avery showed DNA is genetic material.",
+    "B": "Watson and Crick described the structure.",
+    "D": "Arber, Nathans, and Smith found restriction enzymes."
+   }
   },
   {
    "num": 21,
@@ -436,7 +509,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "DNA: A, G, C, T; RNA: A, G, C, U."
+   "explanation": "DNA: A, G, C, T; RNA: A, G, C, U.",
+   "why": {
+    "A": "Reversed.",
+    "C": "RNA uses ribose and uracil.",
+    "D": "Reversed."
+   }
   },
   {
    "num": 22,
@@ -465,7 +543,13 @@
     }
    ],
    "correct": "D",
-   "explanation": "False — with protease, the mouse still died; destroying protein didn't block transformation."
+   "explanation": "False — with protease, the mouse still died; destroying protein didn't block transformation.",
+   "why": {
+    "A": "True — he repeated the mixture.",
+    "B": "True — protein was expected.",
+    "C": "True — DNA is the genetic material.",
+    "E": "True — DNase saved the mouse."
+   }
   },
   {
    "num": 23,
@@ -506,7 +590,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Central dogma: DNA → (transcription) mRNA → (translation) protein."
+   "explanation": "Central dogma: DNA → (transcription) mRNA → (translation) protein.",
+   "why": {
+    "A": "Reversed.",
+    "B": "Transcription comes first.",
+    "D": "Neither makes more DNA."
+   }
   },
   {
    "num": 26,
@@ -531,7 +620,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "A tRNA's anticodon base-pairs with an mRNA codon, so it delivers the right amino acid."
+   "explanation": "A tRNA's anticodon base-pairs with an mRNA codon, so it delivers the right amino acid.",
+   "why": {
+    "A": "Ribosomes don't have anticodons.",
+    "B": "DNA doesn't have anticodons.",
+    "D": "Codons are on mRNA, not tRNA."
+   }
   },
   {
    "num": 27,
@@ -556,7 +650,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "lac: inducible, default off (lamp). trp: repressible, default on (refrigerator)."
+   "explanation": "lac: inducible, default off (lamp). trp: repressible, default on (refrigerator).",
+   "why": {
+    "A": "Trp is repressible.",
+    "C": "Lac is off by default.",
+    "D": "Lac is inducible."
+   }
   },
   {
    "num": 28,
@@ -585,7 +684,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — AUG (the start codon) codes for methionine; stop codons code for no amino acid."
+   "explanation": "False — AUG (the start codon) codes for methionine; stop codons code for no amino acid.",
+   "why": {
+    "A": "True — AUG is the start.",
+    "C": "True — three stops.",
+    "D": "True — the start sets the frame.",
+    "E": "True — no tRNA matches a stop."
+   }
   },
   {
    "num": 29,
@@ -626,7 +731,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Berg 1970 (Nobel 1980); Cohen & Boyer first recombinant organism 1973; Mullis PCR (Nobel 1993); Doudna & Charpentier CRISPR (Nobel 2020)."
+   "explanation": "Berg 1970 (Nobel 1980); Cohen & Boyer first recombinant organism 1973; Mullis PCR (Nobel 1993); Doudna & Charpentier CRISPR (Nobel 2020).",
+   "why": {
+    "A": "Doudna and Charpentier did CRISPR (2020).",
+    "B": "Cohen and Boyer made the first recombinant organism (1973).",
+    "C": "Mullis invented PCR (1993)."
+   }
   },
   {
    "num": 32,
@@ -651,7 +761,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Primers designed for the pathogen's DNA can only bind and amplify if that DNA is present."
+   "explanation": "Primers designed for the pathogen's DNA can only bind and amplify if that DNA is present.",
+   "why": {
+    "A": "Human DNA isn't the target.",
+    "C": "Positive means DNA was found.",
+    "D": "Damaged Taq would give no result."
+   }
   },
   {
    "num": 33,
@@ -676,7 +791,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "NHEJ = quick 'duct tape' repair → mutation (knock-out). HDR with donor DNA → new sequence copied in (knock-in)."
+   "explanation": "NHEJ = quick 'duct tape' repair → mutation (knock-out). HDR with donor DNA → new sequence copied in (knock-in).",
+   "why": {
+    "A": "NHEJ doesn't use donor DNA.",
+    "C": "HDR with donor DNA knocks in.",
+    "D": "HDR doesn't cut again."
+   }
   },
   {
    "num": 34,
@@ -705,7 +825,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — Humulin is human insulin of recombinant DNA origin."
+   "explanation": "False — Humulin is human insulin of recombinant DNA origin.",
+   "why": {
+    "B": "True — made by engineered E. coli.",
+    "C": "True — pig insulin came first.",
+    "D": "True — Genentech made it.",
+    "E": "True — built backward from the amino acids."
+   }
   },
   {
    "num": 35,
@@ -746,7 +872,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Ivanovsky discovered TMV; Stanley first saw viruses (1935); Fleming discovered penicillin."
+   "explanation": "Ivanovsky discovered TMV; Stanley first saw viruses (1935); Fleming discovered penicillin.",
+   "why": {
+    "A": "Penicillin was Fleming's.",
+    "B": "Stanley first saw a virus.",
+    "C": "Ivanovsky found TMV."
+   }
   },
   {
    "num": 38,
@@ -771,7 +902,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Viruses are classified by shape, envelope, nucleic acid type/strandedness/form, and simple vs segmented genome. They have no walls, nuclei, or ribosomes."
+   "explanation": "Viruses are classified by shape, envelope, nucleic acid type/strandedness/form, and simple vs segmented genome. They have no walls, nuclei, or ribosomes.",
+   "why": {
+    "A": "Viruses have no nuclei.",
+    "B": "Viruses have no cell walls.",
+    "C": "Viruses have no ribosomes."
+   }
   },
   {
    "num": 39,
@@ -796,7 +932,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Integration → reproduction → induction. Toxin production from prophage genes is lysogenic conversion."
+   "explanation": "Integration → reproduction → induction. Toxin production from prophage genes is lysogenic conversion.",
+   "why": {
+    "B": "That's integration.",
+    "C": "That's lysogenic conversion.",
+    "D": "That's the reproduction step."
+   }
   },
   {
    "num": 40,
@@ -825,7 +966,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False — HPV is a naked (non-enveloped) polyhedral virus."
+   "explanation": "False — HPV is a naked (non-enveloped) polyhedral virus.",
+   "why": {
+    "A": "True — 'envelope' not 'membrane.'",
+    "B": "True — influenza is enveloped.",
+    "D": "True — naked means no envelope.",
+    "E": "True — SARS-CoV-2 is enveloped."
+   }
   },
   {
    "num": 41,
@@ -866,7 +1013,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "H binds host receptors; N digests the proteins holding the budding virus so it can break free."
+   "explanation": "H binds host receptors; N digests the proteins holding the budding virus so it can break free.",
+   "why": {
+    "A": "Neither does uncoating or biosynthesis.",
+    "B": "Reversed.",
+    "D": "Neither is for fusion."
+   }
   },
   {
    "num": 44,
@@ -891,7 +1043,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Persistent: provirus, slow constant production, may become productive later (HIV-positive → AIDS)."
+   "explanation": "Persistent: provirus, slow constant production, may become productive later (HIV-positive → AIDS).",
+   "why": {
+    "A": "That's acute.",
+    "B": "That's latent.",
+    "D": "SARS-CoV-2 isn't destroyed in lysosomes."
+   }
   },
   {
    "num": 45,
@@ -916,7 +1073,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Spike → ACE2, then membrane fusion releases the ssRNA genome."
+   "explanation": "Spike → ACE2, then membrane fusion releases the ssRNA genome.",
+   "why": {
+    "A": "Neuraminidase is flu's, and animal cells have no wall.",
+    "B": "CD4 is HIV's receptor.",
+    "C": "It fuses rather than injecting."
+   }
   },
   {
    "num": 46,
@@ -945,7 +1107,13 @@
     }
    ],
    "correct": "E",
-   "explanation": "False — Tamiflu doesn't destroy viruses or stop them entering cells; it slows their release."
+   "explanation": "False — Tamiflu doesn't destroy viruses or stop them entering cells; it slows their release.",
+   "why": {
+    "A": "True — it buys time for immunity.",
+    "B": "True — it prevents budding release.",
+    "C": "True — it's a neuraminidase inhibitor.",
+    "D": "True — it doesn't work on SARS-CoV-2."
+   }
   },
   {
    "num": 47,
@@ -986,7 +1154,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Slides, 'Other substances in the viral particle': host ribosomes can be taken, and some retroviruses borrow the host's tRNA."
+   "explanation": "Slides, 'Other substances in the viral particle': host ribosomes can be taken, and some retroviruses borrow the host's tRNA.",
+   "why": {
+    "B": "Ergosterol is fungal.",
+    "C": "Chitin is fungal/arthropod.",
+    "D": "Gyrase is bacterial."
+   }
   },
   {
    "num": 50,
@@ -1011,7 +1184,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "He discovered Rous sarcoma virus; he won the Nobel Prize in 1966."
+   "explanation": "He discovered Rous sarcoma virus; he won the Nobel Prize in 1966.",
+   "why": {
+    "A": "EBV was Epstein and Barr, decades later.",
+    "C": "The filtrate was cell-free.",
+    "D": "HPV wasn't tested in chickens."
+   }
   },
   {
    "num": 51,
@@ -1036,7 +1214,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "From Henrietta Lacks's aggressive cervical cancer; now the most studied human cells."
+   "explanation": "From Henrietta Lacks's aggressive cervical cancer; now the most studied human cells.",
+   "why": {
+    "A": "HeLa cells are human, not bacteria.",
+    "C": "They aren't viruses.",
+    "D": "They divide endlessly."
+   }
   },
   {
    "num": 52,
@@ -1065,7 +1248,13 @@
     }
    ],
    "correct": "D",
-   "explanation": "False — p53 is a tumor suppressor (a brake), not a proto-oncogene."
+   "explanation": "False — p53 is a tumor suppressor (a brake), not a proto-oncogene.",
+   "why": {
+    "A": "True — the 'guardian angel.'",
+    "B": "True — it manages damaged DNA.",
+    "C": "True — about 60% of cancers.",
+    "E": "True — it's a tumor suppressor."
+   }
   },
   {
    "num": 53,
@@ -1106,7 +1295,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "C. elegans is a nematode (a roundworm, Kingdom Animalia)."
+   "explanation": "C. elegans is a nematode (a roundworm, Kingdom Animalia).",
+   "why": {
+    "A": "Correct — Dictyostelium is an amoebozoan.",
+    "B": "Correct — Aspergillus is a mold.",
+    "D": "Correct — Thermus aquaticus is a bacterium."
+   }
   },
   {
    "num": 56,
@@ -1131,7 +1325,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Anopheles mosquitoes transmit Plasmodium; heartworm eggs are transmitted by mosquitoes. Ticks carry Lyme disease."
+   "explanation": "Anopheles mosquitoes transmit Plasmodium; heartworm eggs are transmitted by mosquitoes. Ticks carry Lyme disease.",
+   "why": {
+    "A": "Lyme disease is tick-borne.",
+    "B": "Neither is mosquito-borne.",
+    "C": "Both are waterborne protozoa."
+   }
   }
  ]
 }

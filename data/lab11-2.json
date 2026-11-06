@@ -1,0 +1,464 @@
+{
+ "slug": "lab11-2",
+ "title": "Lab 11 \u2014 Quiz 2",
+ "subtitle": "Unknown ID Part 2 \u2014 antimicrobials, Kirby-Bauer, Gram+ unknowns",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "In Kirby-Bauer testing, what is measured, and in what units?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The radius of the zone, in centimeters"
+    },
+    {
+     "letter": "B",
+     "text": "The number of colonies in the zone of inhibition"
+    },
+    {
+     "letter": "C",
+     "text": "The diameter of the paper disc, in millimeters"
+    },
+    {
+     "letter": "D",
+     "text": "The diameter of the zone of inhibition, in millimeters"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Diameter = visible growth to visible growth, in mm, then compared with the standards table.",
+   "why": {
+    "A": "Measure the diameter in mm.",
+    "B": "The clear zone is measured, not counted.",
+    "C": "The zone around the disc is measured."
+   },
+   "img": "../lab-img/L11s_p13_1.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "What agar is used for Kirby-Bauer testing?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "MacConkey agar on a standard plate"
+    },
+    {
+     "letter": "B",
+     "text": "Mueller-Hinton agar on an oversized plate"
+    },
+    {
+     "letter": "C",
+     "text": "Blood agar on a standard plate"
+    },
+    {
+     "letter": "D",
+     "text": "Mannitol salt agar on a standard plate"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Kirby-Bauer: pure culture, oversized Mueller-Hinton plate, a confluent 'lawn' of growth, antibiotic discs that diffuse into the agar.",
+   "why": {
+    "A": "MacConkey is selective/differential for Gram-negatives.",
+    "C": "Blood agar is for hemolysis.",
+    "D": "MSA is for salt tolerance and mannitol."
+   }
+  },
+  {
+   "num": 3,
+   "type": "Photo",
+   "prompt": "Azithromycin (AZM-15) standards: R \u226413 mm, I 14\u201317 mm, S \u226518 mm. Your zone measures 16 mm. Result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Resistant (R)"
+    },
+    {
+     "letter": "B",
+     "text": "Intermediate (I)"
+    },
+    {
+     "letter": "C",
+     "text": "Sensitive (S)"
+    },
+    {
+     "letter": "D",
+     "text": "Invalid \u2014 the zone must be measured in cm"
+    }
+   ],
+   "correct": "B",
+   "explanation": "16 mm falls in 14\u201317 mm \u2192 Intermediate.",
+   "why": {
+    "A": "Resistant is 13 mm or less.",
+    "C": "Sensitive is 18 mm or more.",
+    "D": "Zones are measured in mm."
+   },
+   "img": "../lab-img/L11s_p15_1.jpg"
+  },
+  {
+   "num": 4,
+   "type": "Photo",
+   "prompt": "Ciprofloxacin (CIP-5) standards: R \u226415 mm, I 16\u201320 mm, S \u226521 mm. Your zone is 24 mm. Result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sensitive (S)"
+    },
+    {
+     "letter": "B",
+     "text": "Resistant (R)"
+    },
+    {
+     "letter": "C",
+     "text": "Intermediate (I)"
+    },
+    {
+     "letter": "D",
+     "text": "Cannot tell without the disc concentration"
+    }
+   ],
+   "correct": "A",
+   "explanation": "24 mm \u2265 21 mm \u2192 Sensitive.",
+   "why": {
+    "B": "Resistant is 15 mm or less.",
+    "C": "Intermediate is 16\u201320 mm.",
+    "D": "The table gives the cutoffs."
+   },
+   "img": "../lab-img/L11s_p15_1.jpg"
+  },
+  {
+   "num": 5,
+   "type": "Photo",
+   "prompt": "Imipenem (IPM-10) standards: R \u226419 mm, I 20\u201322 mm, S \u226523 mm. Your zone is 19 mm. Result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Intermediate (I)"
+    },
+    {
+     "letter": "B",
+     "text": "Sensitive (S)"
+    },
+    {
+     "letter": "C",
+     "text": "Intermediate, since it's close to 20"
+    },
+    {
+     "letter": "D",
+     "text": "Resistant (R)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "19 mm \u2264 19 mm \u2192 Resistant.",
+   "why": {
+    "A": "Intermediate starts at 20 mm.",
+    "B": "Sensitive is 23 mm or more.",
+    "C": "19 mm is within the resistant range."
+   },
+   "img": "../lab-img/L11s_p15_1.jpg"
+  },
+  {
+   "num": 6,
+   "type": "Photo",
+   "prompt": "Penicillin (P-10) has no intermediate range: R \u226428 mm, S \u226529 mm. Your zone is 25 mm. Result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sensitive (S)"
+    },
+    {
+     "letter": "B",
+     "text": "Intermediate (I)"
+    },
+    {
+     "letter": "C",
+     "text": "Sensitive, since 25 mm is a large zone"
+    },
+    {
+     "letter": "D",
+     "text": "Resistant (R)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "25 mm \u2264 28 mm \u2192 Resistant. Zone sizes must always be compared with that drug's standards.",
+   "why": {
+    "A": "Sensitive requires 29 mm or more.",
+    "B": "Penicillin has no intermediate category.",
+    "C": "Each drug has its own cutoffs."
+   },
+   "img": "../lab-img/L11s_p15_1.jpg"
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "A broad-spectrum antibiotic is best used when:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The pathogen is known and its sensitivity is known"
+    },
+    {
+     "letter": "B",
+     "text": "The pathogen's identity or sensitivity is unknown"
+    },
+    {
+     "letter": "C",
+     "text": "You want to protect the resident microbiota"
+    },
+    {
+     "letter": "D",
+     "text": "You want the lowest risk of resistance"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Broad-spectrum: unknown pathogen or sensitivity, mixed infections, faster to give, often cheaper \u2014 but harms resident microbiota and has more resistance risk and adverse effects.",
+   "why": {
+    "A": "That's when narrow-spectrum is preferred.",
+    "C": "Broad-spectrum drugs also harm resident microbiota.",
+    "D": "Broad-spectrum drugs carry a higher risk of resistance."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which is an ADVANTAGE of narrow-spectrum antibiotics?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They work well against mixed infections"
+    },
+    {
+     "letter": "B",
+     "text": "Less harm to resident microbiota and lower risk of resistance"
+    },
+    {
+     "letter": "C",
+     "text": "They can be given before any diagnosis"
+    },
+    {
+     "letter": "D",
+     "text": "They are usually cheaper"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Narrow-spectrum: minimize harm to resident microbiota, lower resistance risk, fewer adverse effects; need an accurate diagnosis.",
+   "why": {
+    "A": "Narrow-spectrum drugs are less effective against mixed infections.",
+    "C": "An accurate diagnosis must be made first.",
+    "D": "Narrow-spectrum drugs are often more expensive."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Why does treating a helminth infection carry a greater chance of side effects?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Helminths have peptidoglycan cell walls"
+    },
+    {
+     "letter": "B",
+     "text": "The pathogen and patient are closely related eukaryotes, so selective toxicity is hard"
+    },
+    {
+     "letter": "C",
+     "text": "Anti-helminthics are all broad-spectrum antibacterial drugs"
+    },
+    {
+     "letter": "D",
+     "text": "Helminths make penicillinase that destroys the drug"
+    }
+   ],
+   "correct": "B",
+   "explanation": "As the pathogen becomes more similar to the patient, selective toxicity gets harder.",
+   "why": {
+    "A": "Peptidoglycan is bacterial.",
+    "C": "They target worm metabolism, not bacteria.",
+    "D": "That's not the reason given."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Beta-lactams (e.g., penicillin, methicillin) have high selective toxicity because they block:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The ribosome, shared with mitochondria"
+    },
+    {
+     "letter": "B",
+     "text": "Peptidoglycan synthesis, found only in bacteria"
+    },
+    {
+     "letter": "C",
+     "text": "Ergosterol synthesis in fungal membranes"
+    },
+    {
+     "letter": "D",
+     "text": "Folic acid synthesis in bacteria"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Beta-lactams block cell wall (peptidoglycan) synthesis \u2014 a structure found only in bacteria.",
+   "why": {
+    "A": "Ribosome-targeting drugs have lower selective toxicity.",
+    "C": "That's miconazole (Monistat).",
+    "D": "That's sulfa drugs (sulfamethoxazole)."
+   }
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Which antimicrobial is matched with its target?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Vancomycin \u2014 protein synthesis"
+    },
+    {
+     "letter": "B",
+     "text": "Sulfamethoxazole \u2014 cell wall synthesis"
+    },
+    {
+     "letter": "C",
+     "text": "Ciprofloxacin \u2014 nucleic acid synthesis"
+    },
+    {
+     "letter": "D",
+     "text": "Gentamycin \u2014 folic acid synthesis"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Fluoroquinolones (ciprofloxacin) inhibit nucleic acid synthesis.",
+   "why": {
+    "A": "Vancomycin inhibits cell wall synthesis.",
+    "B": "Sulfa drugs inhibit folic acid synthesis.",
+    "D": "Aminoglycosides (gentamycin) inhibit protein synthesis."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Which drug is an antifungal that inhibits ergosterol synthesis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Metronidazole (Flagyl)"
+    },
+    {
+     "letter": "B",
+     "text": "Mebendazole (Vermox)"
+    },
+    {
+     "letter": "C",
+     "text": "Miconazole (Monistat)"
+    },
+    {
+     "letter": "D",
+     "text": "Oseltamivir (Tamiflu)"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Miconazole (Monistat) disrupts the fungal membrane by inhibiting ergosterol synthesis.",
+   "why": {
+    "A": "Flagyl is anti-protozoan (also anaerobic bacteria).",
+    "B": "Vermox is anti-helminthic.",
+    "D": "Tamiflu is antiviral (neuraminidase inhibitor)."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Photo",
+   "prompt": "A Gram-positive coccus is catalase positive, grows on MSA and turns it yellow, and is coagulase positive. Identify it.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Staphylococcus epidermidis"
+    },
+    {
+     "letter": "B",
+     "text": "Streptococcus pyogenes"
+    },
+    {
+     "letter": "C",
+     "text": "Staphylococcus aureus"
+    },
+    {
+     "letter": "D",
+     "text": "Streptococcus pneumoniae"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Catalase + \u2192 Staphylococcus; salt-tolerant + mannitol + (and coagulase +) \u2192 S. aureus.",
+   "why": {
+    "A": "S. epidermidis is mannitol and coagulase negative.",
+    "B": "Streptococci are catalase negative and not salt-tolerant.",
+    "D": "Streptococci are catalase negative."
+   },
+   "img": "../lab-img/L10s_p24_1.jpg"
+  },
+  {
+   "num": 14,
+   "type": "Photo",
+   "prompt": "A Gram-positive coccus is catalase negative, doesn't grow on MSA, and shows clear zones on blood agar. Identify it.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Streptococcus pneumoniae"
+    },
+    {
+     "letter": "B",
+     "text": "Streptococcus pyogenes"
+    },
+    {
+     "letter": "C",
+     "text": "Staphylococcus aureus"
+    },
+    {
+     "letter": "D",
+     "text": "Staphylococcus epidermidis"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Catalase \u2212 (Strep), not salt-tolerant, beta-hemolytic \u2192 S. pyogenes (Group A Strep; strep throat, skin and flesh-eating infections).",
+   "why": {
+    "A": "S. pneumoniae is alpha-hemolytic (partial lysis).",
+    "C": "Staphylococci are catalase positive and salt-tolerant.",
+    "D": "Staphylococci are catalase positive."
+   },
+   "img": "../lab-img/L10s_p24_1.jpg"
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Which Gram-positive unknown is a very common member of the normal flora and an opportunist causing HAIs on indwelling devices and surgical wounds?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Staphylococcus aureus"
+    },
+    {
+     "letter": "B",
+     "text": "Staphylococcus epidermidis"
+    },
+    {
+     "letter": "C",
+     "text": "Streptococcus pyogenes"
+    },
+    {
+     "letter": "D",
+     "text": "Streptococcus pneumoniae"
+    }
+   ],
+   "correct": "B",
+   "explanation": "S. epidermidis: very common resident microbiota; opportunist (HAIs on indwelling devices, surgical wounds; bloodstream infections in the very immunocompromised).",
+   "why": {
+    "A": "S. aureus causes food poisoning, boils, abscesses and many other infections.",
+    "C": "S. pyogenes causes strep throat and skin infections.",
+    "D": "S. pneumoniae causes sinus and ear infections and pneumonia."
+   }
+  }
+ ]
+}

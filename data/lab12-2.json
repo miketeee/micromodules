@@ -1,0 +1,465 @@
+{
+ "slug": "lab12-2",
+ "title": "Lab 12 \u2014 Quiz 2",
+ "subtitle": "Unknown ID Part 3 \u2014 Quick Strep and nucleic acid tests",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "What does the Quick Strep test detect?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Streptococcus pyogenes cell wall antigens"
+    },
+    {
+     "letter": "B",
+     "text": "Antibodies the patient made against S. pyogenes"
+    },
+    {
+     "letter": "C",
+     "text": "S. pyogenes DNA sequences"
+    },
+    {
+     "letter": "D",
+     "text": "Beta-hemolysis on blood agar"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Labeling area: mobile colored bead-labeled antibodies specific for S. pyogenes cell wall antigens. Test area: immobilized antibodies for those antigens.",
+   "why": {
+    "B": "Quick Strep is an antigen detection test.",
+    "C": "That would be a nucleic acid test.",
+    "D": "Hemolysis is a culture test."
+   },
+   "img": "../lab-img/L12s_p19_1.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "In the Quick Strep test, what does the extraction solution (Reagent 1 + Reagent 2) do?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Kills the bacteria so they're safe to culture"
+    },
+    {
+     "letter": "B",
+     "text": "Dissolves cell wall antigens from the swab sample"
+    },
+    {
+     "letter": "C",
+     "text": "Stains the bacteria purple"
+    },
+    {
+     "letter": "D",
+     "text": "Amplifies Strep DNA"
+    }
+   ],
+   "correct": "B",
+   "explanation": "The extraction solution dissolves cell wall antigens so they flow up the dipstick.",
+   "why": {
+    "A": "Its job is to release the antigens.",
+    "C": "No staining is involved.",
+    "D": "Quick Strep is antibody-based, not nucleic acid."
+   }
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "After inserting the Quick Strep dipstick into the extraction solution, how long do you wait before reading it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "10 seconds"
+    },
+    {
+     "letter": "B",
+     "text": "5 minutes"
+    },
+    {
+     "letter": "C",
+     "text": "1 minute"
+    },
+    {
+     "letter": "D",
+     "text": "24 hours"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Rotate the swab 10 times, leave it 1 minute, squeeze it out, then insert the dipstick and wait 5 minutes.",
+   "why": {
+    "A": "Ten revolutions is the swab step, not the read time.",
+    "C": "1 minute is how long the swab sits in the solution.",
+    "D": "Rapid tests don't need incubation."
+   }
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "A Quick Strep dipstick shows a control line but no test line. What is the result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Negative"
+    },
+    {
+     "letter": "B",
+     "text": "Positive"
+    },
+    {
+     "letter": "C",
+     "text": "Invalid"
+    },
+    {
+     "letter": "D",
+     "text": "Positive for a non-Strep pathogen"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Control line only = negative. No control line = invalid.",
+   "why": {
+    "B": "Positive shows both the control and test lines.",
+    "C": "A control line is present, so it's valid.",
+    "D": "The test only detects S. pyogenes antigens."
+   }
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "A Quick Strep dipstick shows no control line. What should you conclude?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Invalid \u2014 the test didn't run correctly"
+    },
+    {
+     "letter": "B",
+     "text": "Negative for S. pyogenes"
+    },
+    {
+     "letter": "C",
+     "text": "Positive for S. pyogenes"
+    },
+    {
+     "letter": "D",
+     "text": "Positive if there is a test line"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The control area's immobilized antibodies bind excess color-labeled antibodies; with no control line, the result is invalid.",
+   "why": {
+    "B": "A negative needs a visible control line.",
+    "C": "Without the control line, no result can be trusted.",
+    "D": "Any result without a control line is invalid."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "In a positive Quick Strep test, what is captured at the test line?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "S. pyogenes antigen bound to a colored, bead-labeled antibody"
+    },
+    {
+     "letter": "B",
+     "text": "Free colored beads with no antigen"
+    },
+    {
+     "letter": "C",
+     "text": "The patient's own antibodies against Strep"
+    },
+    {
+     "letter": "D",
+     "text": "Fluorescent DNA strands"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The labeled antibody binds the antigen, and immobilized antibodies at the test area capture that complex, making a colored line.",
+   "why": {
+    "B": "Excess labeled antibodies are caught at the control line.",
+    "C": "This test detects antigen, not patient antibodies.",
+    "D": "That's the nucleic acid test."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "What is the main benefit of nucleic acid identification tests?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They find pathogen DNA/RNA without culture, possibly before antibodies are detectable"
+    },
+    {
+     "letter": "B",
+     "text": "They are the cheapest tests and need no special equipment"
+    },
+    {
+     "letter": "C",
+     "text": "They require a pure culture grown for 48 hours"
+    },
+    {
+     "letter": "D",
+     "text": "They detect the patient's antibodies to the pathogen"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Nucleic acid tests are sensitive and specific, need no culture, and may detect infection before antibodies are detectable.",
+   "why": {
+    "B": "They tend to be expensive and need special equipment.",
+    "C": "They don't require culture.",
+    "D": "That's antibody detection."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Photo",
+   "prompt": "Put the array-based nucleic acid test steps in order.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Label \u2192 wash \u2192 heat \u2192 hybridize to probes \u2192 compare"
+    },
+    {
+     "letter": "B",
+     "text": "Hybridize to probes \u2192 heat \u2192 label \u2192 compare \u2192 wash"
+    },
+    {
+     "letter": "C",
+     "text": "Heat \u2192 label \u2192 hybridize to probes \u2192 wash \u2192 compare"
+    },
+    {
+     "letter": "D",
+     "text": "Wash \u2192 heat \u2192 hybridize to probes \u2192 label \u2192 compare"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Heat to separate DNA strands, label them, let them hybridize (complementary base pairing) to known probes, wash away unpaired strands, then compare the label pattern to the database.",
+   "why": {
+    "A": "Strands must be separated by heat first.",
+    "B": "Washing removes unpaired strands before reading.",
+    "D": "Labeling happens before hybridization."
+   },
+   "img": "../lab-img/L12s_p24_2.jpg"
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "In the nucleic acid probe simulation, probe 1 (human DNA) should always light up. Why?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It means the patient is infected with HIV"
+    },
+    {
+     "letter": "B",
+     "text": "It's the negative control for the test"
+    },
+    {
+     "letter": "C",
+     "text": "It's the positive control (blood contains human DNA)"
+    },
+    {
+     "letter": "D",
+     "text": "It detects the Hepatitis B virus"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Probe 1 = human DNA (positive control). It confirms the test is working.",
+   "why": {
+    "A": "HIV is probe 7.",
+    "B": "A negative control shouldn't light up.",
+    "D": "Hepatitis B is probe 2."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "In the nucleic acid simulation, a blood sample's labeled sequence pairs with probe 4. What does the patient have?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "West Nile virus"
+    },
+    {
+     "letter": "B",
+     "text": "Syphilis"
+    },
+    {
+     "letter": "C",
+     "text": "Hepatitis C virus"
+    },
+    {
+     "letter": "D",
+     "text": "Malaria"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Key: 1 human DNA (+ control), 2 Hep B, 3 West Nile, 4 malaria, 5 Hep C, 6 syphilis, 7 HIV.",
+   "why": {
+    "A": "West Nile is probe 3.",
+    "B": "Syphilis is probe 6.",
+    "C": "Hepatitis C is probe 5."
+   }
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "In the nucleic acid simulation, why are unpaired blood sample sequences removed ('rinsed')?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "So only sequences that hybridized to a probe give a signal"
+    },
+    {
+     "letter": "B",
+     "text": "To remove the human DNA control"
+    },
+    {
+     "letter": "C",
+     "text": "To make the probes fluorescent"
+    },
+    {
+     "letter": "D",
+     "text": "To separate DNA strands before labeling"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Washing removes unpaired strands so the remaining labels show only true complementary matches.",
+   "why": {
+    "B": "Human DNA pairs with probe 1 and should remain.",
+    "C": "The blood sample sequences carry the label.",
+    "D": "Heat separates strands."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Which of these is an example use of nucleic acid identification tests?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Quick Strep dipstick"
+    },
+    {
+     "letter": "B",
+     "text": "Catalase test with hydrogen peroxide"
+    },
+    {
+     "letter": "C",
+     "text": "Original COVID-19 nasopharyngeal PCR tests"
+    },
+    {
+     "letter": "D",
+     "text": "Kirby-Bauer sensitivity testing"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Examples: various STI pathogens, food poisoning pathogens, Giardia in stool, bioterrorism agents, original COVID-19 PCR tests.",
+   "why": {
+    "A": "That's antibody-based antigen detection.",
+    "B": "That's a rapid biochemical test.",
+    "D": "That's antimicrobial sensitivity testing."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Photo",
+   "prompt": "This dipstick diagram labels three zones. Where are the mobile, colored bead-labeled antibodies?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The control area at the top (C)"
+    },
+    {
+     "letter": "B",
+     "text": "The test area in the middle"
+    },
+    {
+     "letter": "C",
+     "text": "The labeling area, near where the sample enters"
+    },
+    {
+     "letter": "D",
+     "text": "The absorbent pad at the very top"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Labeling area: mobile colored antibodies. Test area: immobilized antibodies to S. pyogenes antigens. Control area: immobilized antibodies that bind excess labeled antibodies.",
+   "why": {
+    "A": "The control area holds immobilized antibodies for excess labels.",
+    "B": "The test area holds immobilized antibodies for the antigen.",
+    "D": "The pad only soaks up leftover sample."
+   },
+   "img": "../lab-img/L12s_p19_1.jpg"
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "What is a limitation of nucleic acid identification tests?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They require growing the organism in culture first"
+    },
+    {
+     "letter": "B",
+     "text": "They can't detect organisms that are hard to culture"
+    },
+    {
+     "letter": "C",
+     "text": "They are less specific than antibody tests"
+    },
+    {
+     "letter": "D",
+     "text": "They tend to be expensive and need special equipment and training"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Limitations: expensive, special equipment, and possibly special training.",
+   "why": {
+    "A": "They work without culture.",
+    "B": "They're used for hard-to-culture STI pathogens.",
+    "C": "They are described as sensitive and specific."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the Quick Strep procedure is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gloves are worn"
+    },
+    {
+     "letter": "B",
+     "text": "The swab is rotated 10 revolutions in the extraction solution"
+    },
+    {
+     "letter": "C",
+     "text": "The swab, dipstick and vial go into the biohazard bag"
+    },
+    {
+     "letter": "D",
+     "text": "The test reagents are discarded in the biohazard bag"
+    },
+    {
+     "letter": "E",
+     "text": "The swab sample represents a throat swab specimen"
+    }
+   ],
+   "correct": "D",
+   "explanation": "DO NOT discard the test reagents or the cardboard rack \u2014 only the swab, dipstick and plastic vial go in biohazard.",
+   "why": {
+    "A": "True \u2014 the slide says to wear gloves.",
+    "B": "True.",
+    "C": "True.",
+    "E": "True."
+   }
+  }
+ ]
+}

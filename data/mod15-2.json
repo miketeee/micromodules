@@ -26,7 +26,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Ivanovsky (1892) used juice of diseased tobacco; d'Hérelle (1916) used a culture of dying bacteria. In each, the filtrate carried the agent."
+   "explanation": "Ivanovsky (1892) used juice of diseased tobacco; d'Hérelle (1916) used a culture of dying bacteria. In each, the filtrate carried the agent.",
+   "why": {
+    "A": "Electron microscopes came decades later.",
+    "B": "Bacteriophages weren't found in plants.",
+    "D": "The agents didn't grow as colonies."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "3,000 ÷ 250 = 12. Viruses are measured in nanometers; bacteria are a few micrometers (thousands of nanometers)."
+   "explanation": "3,000 ÷ 250 = 12. Viruses are measured in nanometers; bacteria are a few micrometers (thousands of nanometers).",
+   "why": {
+    "A": "Too few — 3,000 ÷ 250 = 12.",
+    "C": "Too many.",
+    "D": "Far too many."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "HPV: polyhedral, naked, DNA. SARS-CoV-2 and influenza: helical, enveloped, RNA. TMV: helical, RNA."
+   "explanation": "HPV: polyhedral, naked, DNA. SARS-CoV-2 and influenza: helical, enveloped, RNA. TMV: helical, RNA.",
+   "why": {
+    "A": "SARS-CoV-2 is enveloped and RNA.",
+    "B": "TMV is helical, naked, and RNA.",
+    "D": "Influenza is enveloped and RNA, without tail fibers."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The prophage adds genes; when the host transcribes and translates some of them, its phenotype changes (scarlet fever toxin, botulism toxin)."
+   "explanation": "The prophage adds genes; when the host transcribes and translates some of them, its phenotype changes (scarlet fever toxin, botulism toxin).",
+   "why": {
+    "A": "Phenotype doesn't rewrite genotype.",
+    "B": "Prophage genes can be expressed (toxins).",
+    "D": "The chromosome isn't lost."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Biosynthesis: phage DNA directs the synthesis of phage components by the host cell — the virus has no machinery of its own."
+   "explanation": "Biosynthesis: phage DNA directs the synthesis of phage components by the host cell — the virus has no machinery of its own.",
+   "why": {
+    "A": "Phages don't inject ribosomes.",
+    "C": "Genomes don't fold into proteins.",
+    "D": "The capsid stays outside and isn't recycled."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Module 12: Photo 51 showed DNA is a double helix. Module 15: her X-ray image of crystallized TMV showed its helical structure."
+   "explanation": "Module 12: Photo 51 showed DNA is a double helix. Module 15: her X-ray image of crystallized TMV showed its helical structure.",
+   "why": {
+    "B": "Ribosome structure wasn't her work.",
+    "C": "Phage tail fibers weren't her work.",
+    "D": "Penicillin and walls weren't her work."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The germ theory suggested diseases were caused by bacteria, so he used Koch-like methods to hunt for the bacterial cause."
+   "explanation": "The germ theory suggested diseases were caused by bacteria, so he used Koch-like methods to hunt for the bacterial cause.",
+   "why": {
+    "A": "Electron microscopes didn't exist yet.",
+    "C": "Tobacco wasn't known to have only bacterial diseases.",
+    "D": "Viruses hadn't been discovered."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Both begin with attachment and penetration; the genome circularizes; then it goes lytic or integrates as a prophage."
+   "explanation": "Both begin with attachment and penetration; the genome circularizes; then it goes lytic or integrates as a prophage.",
+   "why": {
+    "A": "Biosynthesis is lytic-only.",
+    "B": "Integration is lysogenic-only.",
+    "C": "Lysogenic phages don't burst the host first."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Most viruses are 20–1,000 nm. Lecture: some of the smallest are polio virus; some of the largest, Ebola."
+   "explanation": "Most viruses are 20–1,000 nm. Lecture: some of the smallest are polio virus; some of the largest, Ebola.",
+   "why": {
+    "B": "Neither is named as smallest or largest.",
+    "C": "Not the lecture's examples.",
+    "D": "Reversed."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Viruses can't reproduce on their own. Plaques are clear zones in a bacterial lawn where phages killed the cells."
+   "explanation": "Viruses can't reproduce on their own. Plaques are clear zones in a bacterial lawn where phages killed the cells.",
+   "why": {
+    "A": "Phages are plated on bacterial lawns.",
+    "B": "Agar doesn't contain lysozyme.",
+    "C": "Phages can't grow without host cells."
+   }
   },
   {
    "num": 11,
@@ -276,7 +326,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "The capsid, sheath, and tail fibers stay outside as an empty husk. The DNA genome is the recipe; the host supplies the machinery and materials."
+   "explanation": "The capsid, sheath, and tail fibers stay outside as an empty husk. The DNA genome is the recipe; the host supplies the machinery and materials.",
+   "why": {
+    "B": "Tail fibers stay outside.",
+    "C": "The capsid stays outside.",
+    "D": "The capsid stays outside."
+   }
   },
   {
    "num": 12,
@@ -305,7 +360,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — RNA viruses can be naked: rotavirus (dsRNA) is non-enveloped, and TMV is a naked RNA virus."
+   "explanation": "False — RNA viruses can be naked: rotavirus (dsRNA) is non-enveloped, and TMV is a naked RNA virus.",
+   "why": {
+    "B": "True — three capsid shapes.",
+    "C": "True — linear or circular.",
+    "D": "True — simple or segmented.",
+    "E": "True — DNA or RNA, single or double."
+   }
   },
   {
    "num": 13,
@@ -334,7 +395,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — the host has no idea the prophage is there and reproduces normally."
+   "explanation": "False — the host has no idea the prophage is there and reproduces normally.",
+   "why": {
+    "A": "True — the prophage is copied.",
+    "C": "True — induction under stress.",
+    "D": "True — it's called a prophage.",
+    "E": "True — integration by recombination."
+   }
   },
   {
    "num": 14,

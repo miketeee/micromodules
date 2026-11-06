@@ -26,7 +26,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Getting the 'Goldilocks' dose was hard."
+   "explanation": "Getting the 'Goldilocks' dose was hard.",
+   "why": {
+    "B": "Scabs weren't toxoids.",
+    "C": "Scab virus wasn't inactivated.",
+    "D": "Cowpox was Jenner's."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Attenuated agents still replicate somewhat."
+   "explanation": "Attenuated agents still replicate somewhat.",
+   "why": {
+    "A": "Attenuated vaccines can reproduce.",
+    "C": "Variolation uses live smallpox.",
+    "D": "Cowpox is live."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Passive is immediate but temporary."
+   "explanation": "Passive is immediate but temporary.",
+   "why": {
+    "A": "Vaccines build active immunity.",
+    "B": "Vaccines don't contain antibodies.",
+    "D": "Monoclonals use hybridomas."
+   }
   },
   {
    "num": 4,
@@ -105,7 +120,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "Killing more bacteria isn't better — we want the bad guys only."
+   "explanation": "Killing more bacteria isn't better — we want the bad guys only.",
+   "why": {
+    "B": "True — broad suits unknown pathogens.",
+    "C": "True — killing flora causes superinfection.",
+    "D": "True — narrow needs a diagnosis.",
+    "E": "True — narrow spares flora."
+   }
   },
   {
    "num": 5,
@@ -130,7 +151,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Slides: selective toxicity drops as the pathogen resembles the patient."
+   "explanation": "Slides: selective toxicity drops as the pathogen resembles the patient.",
+   "why": {
+    "A": "They have metabolism.",
+    "B": "They aren't viruses.",
+    "C": "They can be pathogens."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Aminoglycosides and macrolides."
+   "explanation": "Aminoglycosides and macrolides.",
+   "why": {
+    "A": "Variolation isn't related.",
+    "B": "ACE2 isn't the issue.",
+    "C": "Human cells lack cell walls."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Natural selection, as in Module 18's warning to finish antibiotics."
+   "explanation": "Natural selection, as in Module 18's warning to finish antibiotics.",
+   "why": {
+    "A": "Drugs select; they don't strengthen.",
+    "B": "Bacteria don't learn.",
+    "D": "Vaccines don't make resistant viruses."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "And self-amplifying while bacteria remain."
+   "explanation": "And self-amplifying while bacteria remain.",
+   "why": {
+    "B": "Phages don't become antibiotics.",
+    "C": "The immune system doesn't ignore phages.",
+    "D": "Phages aren't programmed to die."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Quorum sensing coordinates the attack."
+   "explanation": "Quorum sensing coordinates the attack.",
+   "why": {
+    "A": "Light doesn't matter.",
+    "B": "No 100-division rule.",
+    "D": "Antibodies don't trigger toxins."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Both deliver a toxic payload to a specific target."
+   "explanation": "Both deliver a toxic payload to a specific target.",
+   "why": {
+    "B": "Both are vaccines.",
+    "C": "Quorum sensing isn't targeted delivery.",
+    "D": "Phages aren't magic-bullet drugs."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Matches the lecture's guidance."
+   "explanation": "Matches the lecture's guidance.",
+   "why": {
+    "A": "There's no required order.",
+    "C": "Results don't strengthen drugs.",
+    "D": "Cost isn't the reason."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Roux discovered diphtheria toxin; von Behring made antitoxin."
+   "explanation": "Roux discovered diphtheria toxin; von Behring made antitoxin.",
+   "why": {
+    "A": "Attenuated vaccines don't target coagulase.",
+    "C": "Subunit vaccines don't target LPS.",
+    "D": "mRNA vaccines don't target siderophores."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "The immune system is mounting an active response."
+   "explanation": "The immune system is mounting an active response.",
+   "why": {
+    "A": "The first dose didn't fail.",
+    "B": "It has no live virus.",
+    "C": "mRNA can't cause COVID."
+   }
   },
   {
    "num": 14,

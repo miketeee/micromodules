@@ -26,7 +26,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Entering cells keeps it from being washed away, hides it from phagocytes and antibodies, and lets it lyse the cells."
+   "explanation": "Entering cells keeps it from being washed away, hides it from phagocytes and antibodies, and lets it lyse the cells.",
+   "why": {
+    "A": "Invasins don't decide entry, exit, or transmission.",
+    "B": "Not reservoir or transmission.",
+    "C": "Invasins aren't toxins or siderophores."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Patient care is direct contact; a nurse who isn't infected but carries the microbe is a passive carrier (Module 18)."
+   "explanation": "Patient care is direct contact; a nurse who isn't infected but carries the microbe is a passive carrier (Module 18).",
+   "why": {
+    "B": "People aren't arthropod vectors.",
+    "C": "Hands moving bacteria during care is direct contact.",
+    "D": "Hands aren't non-living fomites."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Vehicles are non-living but move pathogens; vectors are living arthropods."
+   "explanation": "Vehicles are non-living but move pathogens; vectors are living arthropods.",
+   "why": {
+    "B": "Both are mechanical/biological vectors.",
+    "C": "Both are droplet-type distance comparisons.",
+    "D": "Both are fomites."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "The lecture classifies exposure to laboratory specimens as vehicle transmission."
+   "explanation": "The lecture classifies exposure to laboratory specimens as vehicle transmission.",
+   "why": {
+    "B": "No arthropod.",
+    "C": "No person-to-person touch.",
+    "D": "Not respiratory spray."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "IgA antibodies are most abundant in mucus, so mucosal invaders must destroy them."
+   "explanation": "IgA antibodies are most abundant in mucus, so mucosal invaders must destroy them.",
+   "why": {
+    "A": "Deep muscle has no mucus IgA.",
+    "B": "Tooth surfaces above the gum aren't the IgA target.",
+    "D": "Skin has no mucus."
+   }
   },
   {
    "num": 6,
@@ -155,7 +180,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "Normal flora go through reservoir, transmission, entry, adherence, and avoiding defenses — but they don't harm the host."
+   "explanation": "Normal flora go through reservoir, transmission, entry, adherence, and avoiding defenses — but they don't harm the host.",
+   "why": {
+    "B": "True — collagenase helps cause gangrene.",
+    "C": "True — siderophores steal iron.",
+    "D": "True — Salmonella lyses cells.",
+    "E": "True — host damage separates pathogens."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Toxic effects show up clearly without the liver neutralizing them."
+   "explanation": "Toxic effects show up clearly without the liver neutralizing them.",
+   "why": {
+    "A": "They aren't resistant.",
+    "C": "IgA isn't the reason.",
+    "D": "They have immune responses."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Superantigens cause an excessive immune response."
+   "explanation": "Superantigens cause an excessive immune response.",
+   "why": {
+    "A": "Hemolysins burst RBCs.",
+    "C": "S. aureus is Gram-positive, with no endotoxin.",
+    "D": "A-B toxin is botulism."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Several exotoxins are encoded by prophage genes."
+   "explanation": "Several exotoxins are encoded by prophage genes.",
+   "why": {
+    "A": "Phages don't add capsules.",
+    "B": "Phages don't destroy ribosomes to release toxins.",
+    "C": "Endotoxins aren't converted."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Endotoxins are released when Gram-negative cells die and break apart."
+   "explanation": "Endotoxins are released when Gram-negative cells die and break apart.",
+   "why": {
+    "A": "Antibiotics aren't superantigens.",
+    "B": "Endotoxin, not extra exotoxin.",
+    "D": "Antibiotics aren't hemolysins."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Both enzymes help avoid host defenses, in opposite ways."
+   "explanation": "Both enzymes help avoid host defenses, in opposite ways.",
+   "why": {
+    "A": "Neither steals iron.",
+    "B": "Coagulase walls WBCs out.",
+    "C": "Kinase dissolves clots."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Isolation keeps compromised hosts away from reservoirs."
+   "explanation": "Isolation keeps compromised hosts away from reservoirs.",
+   "why": {
+    "A": "Aseptic technique addresses procedures.",
+    "B": "Terminology doesn't protect patients.",
+    "D": "Posters don't target compromised hosts."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Urine flow tries to wash away bacteria that haven't adhered."
+   "explanation": "Urine flow tries to wash away bacteria that haven't adhered.",
+   "why": {
+    "A": "Fluids flush; they don't target exit.",
+    "C": "Damage comes later.",
+    "D": "Reservoirs are outside the body."
+   }
   },
   {
    "num": 14,

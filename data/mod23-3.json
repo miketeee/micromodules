@@ -26,7 +26,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Helper T cells are central coordinators."
+   "explanation": "Helper T cells are central coordinators.",
+   "why": {
+    "A": "HIV doesn't convert antibodies to IgE.",
+    "C": "HIV mainly targets CD4 cells.",
+    "D": "HIV doesn't remove MHC-1."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "When this system fails, autoimmune disease can result."
+   "explanation": "When this system fails, autoimmune disease can result.",
+   "why": {
+    "A": "B cells don't release perforin inhibitors.",
+    "B": "B cells display antigens.",
+    "D": "Cytotoxic T cells reach lymph nodes."
+   }
   },
   {
    "num": 3,
@@ -80,7 +90,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "Helper T cells help; cytotoxic T cells and NK cells kill."
+   "explanation": "Helper T cells help; cytotoxic T cells and NK cells kill.",
+   "why": {
+    "B": "True — helper T cells release interleukins.",
+    "C": "True — cytotoxic T cells use perforin and granzyme.",
+    "D": "True — APCs use MHC-2.",
+    "E": "True — NK cells use perforin and granzymes."
+   }
   },
   {
    "num": 4,
@@ -105,7 +121,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Two complementary killer systems."
+   "explanation": "Two complementary killer systems.",
+   "why": {
+    "A": "Mast and B cells don't kill infected cells.",
+    "B": "Neutrophils and eosinophils don't read MHC this way.",
+    "C": "Helper T and plasma cells don't kill."
+   }
   },
   {
    "num": 5,
@@ -130,7 +151,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "The two systems cover each other's gaps."
+   "explanation": "The two systems cover each other's gaps.",
+   "why": {
+    "B": "Cytotoxic T cells need MHC-1.",
+    "C": "Helper T cells read MHC-2.",
+    "D": "IgA doesn't act inside cells."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Fc receptors bind the constant region."
+   "explanation": "Fc receptors bind the constant region.",
+   "why": {
+    "A": "IgM and perforin aren't linked by Fc.",
+    "B": "Clonal selection isn't an Fc idea.",
+    "C": "Variable regions bind antigen, not Fc."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Targeted delivery reduces chemo's side effects."
+   "explanation": "Targeted delivery reduces chemo's side effects.",
+   "why": {
+    "B": "It doesn't remove MHC-1.",
+    "C": "It doesn't activate T cells everywhere.",
+    "D": "It doesn't explode tumors."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Multi-cell agreement reduces mistakes."
+   "explanation": "Multi-cell agreement reduces mistakes.",
+   "why": {
+    "A": "Helper T cells don't kill APCs.",
+    "B": "B cells are still needed.",
+    "D": "Helper T cells don't make antibodies."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "No attachment, no entry."
+   "explanation": "No attachment, no entry.",
+   "why": {
+    "A": "Cytotoxicity uses Fc, not ACE2.",
+    "B": "Agglutination isn't spike blocking.",
+    "D": "Opsonization isn't spike blocking."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Clean vs messy death."
+   "explanation": "Clean vs messy death.",
+   "why": {
+    "A": "T cells don't release antihistamines.",
+    "B": "Apoptotic cells are phagocytized.",
+    "C": "Necrosis happens in human tissue."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The buffy coat only gives total WBCs."
+   "explanation": "The buffy coat only gives total WBCs.",
+   "why": {
+    "A": "Rapid strips detect antigens.",
+    "C": "The buffy coat doesn't show cell types.",
+    "D": "Titers measure antibodies."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Rabbit anti-chicken antibodies capture the dyed chicken antibodies."
+   "explanation": "Rabbit anti-chicken antibodies capture the dyed chicken antibodies.",
+   "why": {
+    "A": "They don't detect another virus.",
+    "C": "They don't sterilize the sample.",
+    "D": "They don't amplify the T line."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Slides: protein antigens need helper T cells."
+   "explanation": "Slides: protein antigens need helper T cells.",
+   "why": {
+    "B": "C3b alone doesn't activate B cells here.",
+    "C": "Proteins aren't repeating sugars.",
+    "D": "NK cells don't activate B cells."
+   }
   },
   {
    "num": 14,

@@ -76,6 +76,14 @@
       prompt.textContent = q.prompt;
       card.appendChild(prompt);
 
+      if (q.img) {
+        const fig = document.createElement('a');
+        fig.className = 'q-img'; fig.href = q.img; fig.target = '_blank'; fig.rel = 'noopener';
+        fig.title = 'Open full-size photo';
+        fig.innerHTML = '<img loading="lazy" alt="Photo for question ' + q.num + '" src="' + esc(q.img) + '">';
+        card.appendChild(fig);
+      }
+
       if (q.type === 'Open recall') {
         const btn = document.createElement('button');
         btn.className = 'reveal-btn';
@@ -118,6 +126,23 @@
       exp.className = 'explanation';
       exp.textContent = (isCorrect ? 'Correct. ' : 'Not quite. ') + q.explanation;
       card.appendChild(exp);
+      if (q.why) {
+        const textOf = (L) => (q.options.find((o) => o.letter === L) || {}).text || '';
+        if (!isCorrect && q.why[chosenLetter]) {
+          const w = document.createElement('div');
+          w.className = 'whynot';
+          w.innerHTML = '<strong>Why not ' + esc(chosenLetter) + ') ' + esc(textOf(chosenLetter)) + ':</strong> ' + esc(q.why[chosenLetter]);
+          card.appendChild(w);
+        }
+        const rest = q.options.map((o) => o.letter).filter((L) => L !== q.correct && L !== chosenLetter && q.why[L]);
+        if (rest.length) {
+          const d = document.createElement('details');
+          d.className = 'whyall';
+          d.innerHTML = '<summary>Why the other choices are wrong</summary><ul>' +
+            rest.map((L) => '<li><strong>' + esc(L) + ') ' + esc(textOf(L)) + ':</strong> ' + esc(q.why[L]) + '</li>').join('') + '</ul>';
+          card.appendChild(d);
+        }
+      }
       markAnswered(i, isCorrect);
     }
 

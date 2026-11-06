@@ -26,7 +26,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The controls ruled out each ingredient alone. Only the mixture killed — and the dead mouse was full of living S cells."
+   "explanation": "The controls ruled out each ingredient alone. Only the mixture killed — and the dead mouse was full of living S cells.",
+   "why": {
+    "A": "Mice weren't reused or resistant.",
+    "C": "The capsule isn't DNA.",
+    "D": "Heat didn't make R pathogenic."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Destroying the true genetic material should block transformation. Avery actually saw the reverse (protease → dies, DNase → lives), pointing to DNA."
+   "explanation": "Destroying the true genetic material should block transformation. Avery actually saw the reverse (protease → dies, DNase → lives), pointing to DNA.",
+   "why": {
+    "B": "The enzymes could act on the mixture.",
+    "C": "Neither enzyme targets the capsule.",
+    "D": "That's the actual DNA result."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "DNA must (1) copy itself with great fidelity and (2) encode genetic information — the key's grooves are encoded information."
+   "explanation": "DNA must (1) copy itself with great fidelity and (2) encode genetic information — the key's grooves are encoded information.",
+   "why": {
+    "A": "The key isn't about the backbone or bonds.",
+    "B": "It isn't about capsules.",
+    "D": "It isn't about uncoiling."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Rubber bands = closed loops (circular); shoelaces = ends (linear). Bacteria typically have one chromosome; humans have 46."
+   "explanation": "Rubber bands = closed loops (circular); shoelaces = ends (linear). Bacteria typically have one chromosome; humans have 46.",
+   "why": {
+    "A": "Bacterial DNA is double-stranded.",
+    "B": "Reversed.",
+    "C": "Eukaryotic DNA is linear."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The lagging strand is built in Okazaki fragments, each starting from a new RNA primer and later joined by ligase. The leading strand is one continuous piece."
+   "explanation": "The lagging strand is built in Okazaki fragments, each starting from a new RNA primer and later joined by ligase. The leading strand is one continuous piece.",
+   "why": {
+    "A": "Helicase opens the fork for both strands.",
+    "C": "Gyrase uncoils; primers are replaced by polymerase.",
+    "D": "Gyrase and helicase work on the whole region."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Lecture: 'this is also how plasmids get copied' — origin, two helicases, two forks."
+   "explanation": "Lecture: 'this is also how plasmids get copied' — origin, two helicases, two forks.",
+   "why": {
+    "A": "Ligase joins, it doesn't cut.",
+    "B": "Plasmids are DNA copied directly.",
+    "C": "A circle still has leading and lagging strands."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Cipro inhibits bacterial gyrase → no uncoiling → no replication → no division. Replication takes most of the ~30-minute generation time."
+   "explanation": "Cipro inhibits bacterial gyrase → no uncoiling → no replication → no division. Replication takes most of the ~30-minute generation time.",
+   "why": {
+    "A": "Cipro targets bacterial gyrase, not human polymerase.",
+    "B": "That's ligase, and membranes aren't sealed by ligase.",
+    "D": "Helicase isn't Cipro's target."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Ligase, polymerase, primase, and helicase are pretty interchangeable. Gyrase is the one that is not."
+   "explanation": "Ligase, polymerase, primase, and helicase are pretty interchangeable. Gyrase is the one that is not.",
+   "why": {
+    "A": "Gyrase is the one that differs.",
+    "B": "Polymerase works on both strands.",
+    "D": "Enzymes don't carry genes."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Venter's view: he provided the programming but used a cell that already had its membrane and ribosomes. He is now trying to build a whole cell."
+   "explanation": "Venter's view: he provided the programming but used a cell that already had its membrane and ribosomes. He is now trying to build a whole cell.",
+   "why": {
+    "A": "He used a bacterial chromosome.",
+    "C": "He did synthesize a chromosome.",
+    "D": "The synthetic chromosome worked."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Deoxyribose is a 5-carbon sugar like ribose, minus one oxygen (H instead of OH)."
+   "explanation": "Deoxyribose is a 5-carbon sugar like ribose, minus one oxygen (H instead of OH).",
+   "why": {
+    "B": "The sugar does attach to phosphate.",
+    "C": "It's still a five-carbon sugar.",
+    "D": "The base is still attached."
+   }
   },
   {
    "num": 11,
@@ -276,7 +326,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "A strand runs from a 5' phosphate to a 3' OH. Building 5'→3' means each new nucleotide is added at the 3' OH end."
+   "explanation": "A strand runs from a 5' phosphate to a 3' OH. Building 5'→3' means each new nucleotide is added at the 3' OH end.",
+   "why": {
+    "B": "The 5′ end has the phosphate; new nucleotides go on the 3′ end.",
+    "C": "Always the 3′ end.",
+    "D": "Not the middle."
+   }
   },
   {
    "num": 12,
@@ -305,7 +360,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — the primer is made of RNA, not DNA."
+   "explanation": "False — the primer is made of RNA, not DNA.",
+   "why": {
+    "A": "True — helicase unzips.",
+    "C": "True — gyrase uncoils.",
+    "D": "True — ligase glues.",
+    "E": "True — polymerase extends and replaces primers."
+   }
   },
   {
    "num": 13,
@@ -334,7 +395,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — the dead mouse was swarming with living S cells, even though no living S cells had been injected."
+   "explanation": "False — the dead mouse was swarming with living S cells, even though no living S cells had been injected.",
+   "why": {
+    "B": "True — Watson, Crick, Wilkins.",
+    "C": "True — 1944.",
+    "D": "True — 1928.",
+    "E": "True — 1952."
+   }
   },
   {
    "num": 14,

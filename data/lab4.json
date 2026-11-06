@@ -1,0 +1,463 @@
+{
+ "slug": "lab4",
+ "title": "Lab 4 \u2014 Quiz 1",
+ "subtitle": "Control of Growth \u2014 terminology",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A process that destroys or removes ALL microbial life and viruses, including endospores, is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Disinfection"
+    },
+    {
+     "letter": "B",
+     "text": "Sanitization"
+    },
+    {
+     "letter": "C",
+     "text": "Sterilization"
+    },
+    {
+     "letter": "D",
+     "text": "Antisepsis"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Sterilization destroys or removes all microbial life and viruses, including endospores \u2014 usually with heat, sterilants or filtration.",
+   "why": {
+    "A": "Disinfection destroys most microbial life on inanimate surfaces but not endospores.",
+    "B": "Sanitization only reduces microbes to 'safe' levels.",
+    "D": "Antisepsis destroys most microbial life on animate (living) surfaces."
+   }
+  },
+  {
+   "num": 2,
+   "type": "Photo",
+   "prompt": "These green structures are endospores. What is the 'gold standard' test for whether a chemical is a sterilant?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It kills E. coli within 10 minutes"
+    },
+    {
+     "letter": "B",
+     "text": "It is safe to use on living tissue"
+    },
+    {
+     "letter": "C",
+     "text": "It can destroy an endospore"
+    },
+    {
+     "letter": "D",
+     "text": "It reduces microbes to safe levels"
+    }
+   ],
+   "correct": "C",
+   "explanation": "If it can destroy an endospore, it is a sterilant. Endospores resist desiccation, UV radiation and extreme heat.",
+   "why": {
+    "A": "Killing vegetative cells isn't enough; endospores must be destroyed.",
+    "B": "That describes an antiseptic.",
+    "D": "That describes sanitization."
+   },
+   "img": "../lab-img/L04s_p23_2.jpg"
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Which genera form endospores?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bacillus, Clostridium, and Clostridioides"
+    },
+    {
+     "letter": "B",
+     "text": "Escherichia, Proteus, and Serratia"
+    },
+    {
+     "letter": "C",
+     "text": "Staphylococcus, Streptococcus, and Neisseria"
+    },
+    {
+     "letter": "D",
+     "text": "Mycobacterium, Candida, and Aspergillus"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Endospore-forming genera: Bacillus, Clostridium and Clostridioides.",
+   "why": {
+    "B": "These are Gram-negative rods that don't form endospores.",
+    "C": "These cocci aren't listed as endospore formers.",
+    "D": "These are acid-fast bacteria and fungi, not endospore formers."
+   }
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Bleach, concentrated iodine and formaldehyde used on a lab bench are examples of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Antiseptics"
+    },
+    {
+     "letter": "B",
+     "text": "Sterilants"
+    },
+    {
+     "letter": "C",
+     "text": "Degermers"
+    },
+    {
+     "letter": "D",
+     "text": "Disinfectants"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Disinfection destroys most microbial life on inanimate surfaces. Disinfectant concentrations are toxic to tissue and they won't destroy endospores.",
+   "why": {
+    "A": "Antiseptics are used on living tissue at safe concentrations.",
+    "B": "Disinfectants do not destroy endospores, so they are not sterilants.",
+    "C": "Degerming is mechanical removal from a limited area such as skin."
+   }
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Antisepsis differs from disinfection because antisepsis:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Destroys endospores as well as vegetative cells"
+    },
+    {
+     "letter": "B",
+     "text": "Is used on animate (living) surfaces at concentrations safe for tissue"
+    },
+    {
+     "letter": "C",
+     "text": "Is used only on inanimate objects like lab benches"
+    },
+    {
+     "letter": "D",
+     "text": "Mechanically scrubs microbes away rather than killing them"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Antisepsis uses chemical antiseptics (alcohol, iodine, hydrogen peroxide) on living tissue. Some antiseptics become disinfectants at higher concentrations.",
+   "why": {
+    "A": "Neither antisepsis nor disinfection destroys endospores.",
+    "C": "That's disinfection; antisepsis is for living tissue.",
+    "D": "That describes degerming."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Soap without any additives is classified as a:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sterilant"
+    },
+    {
+     "letter": "B",
+     "text": "Degermer"
+    },
+    {
+     "letter": "C",
+     "text": "Disinfectant"
+    },
+    {
+     "letter": "D",
+     "text": "Bacteriostatic agent"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Degerming mechanically removes microbes from a limited area. Soap is a natural surfactant that mechanically disrupts cell membranes.",
+   "why": {
+    "A": "Soap does not destroy all microbes and endospores.",
+    "C": "Disinfectants are chemicals used on inanimate surfaces.",
+    "D": "Soap mechanically removes microbes; it doesn't just inhibit growth."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Wiping skin with an alcohol prep pad before an injection is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sterilization of the skin"
+    },
+    {
+     "letter": "B",
+     "text": "Sanitization of an inanimate surface"
+    },
+    {
+     "letter": "C",
+     "text": "Disinfection of the injection site"
+    },
+    {
+     "letter": "D",
+     "text": "Degerming combined with an antiseptic"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Skin prep uses iodine or alcohol (chemical removal) plus wiping (mechanical removal) \u2014 degerming used together with an antiseptic.",
+   "why": {
+    "A": "Skin can't be sterilized; most microbes are removed or destroyed.",
+    "B": "Skin is an animate surface.",
+    "C": "Disinfectants are for inanimate objects."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which process reduces microbes on inanimate surfaces to 'safe' levels?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sterilization"
+    },
+    {
+     "letter": "B",
+     "text": "Antisepsis"
+    },
+    {
+     "letter": "C",
+     "text": "Degerming"
+    },
+    {
+     "letter": "D",
+     "text": "Sanitization"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Sanitization reduces microbial contamination on inanimate surfaces to safe levels. 'Sanitary' = safe for use but not free of microbes.",
+   "why": {
+    "A": "Sterilization removes ALL microbial life.",
+    "B": "Antisepsis is for animate surfaces.",
+    "C": "Degerming is mechanical removal, often from skin."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "A bactericidal agent:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Inhibits bacterial growth without killing"
+    },
+    {
+     "letter": "B",
+     "text": "Destroys bacterial endospores"
+    },
+    {
+     "letter": "C",
+     "text": "Kills bacteria (but not endospores)"
+    },
+    {
+     "letter": "D",
+     "text": "Inactivates viruses"
+    }
+   ],
+   "correct": "C",
+   "explanation": "'-cide' means to kill: bactericidal agents kill bacteria (excluding endospores).",
+   "why": {
+    "A": "That's bacteriostatic ('static' = stand still).",
+    "B": "Endospore destruction is sporicidal \u2014 which makes an agent a sterilant.",
+    "D": "That's virucidal."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "An agent that inhibits the growth of fungi without killing them is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fungicidal"
+    },
+    {
+     "letter": "B",
+     "text": "Sporicidal"
+    },
+    {
+     "letter": "C",
+     "text": "Fungistatic"
+    },
+    {
+     "letter": "D",
+     "text": "Germicidal"
+    }
+   ],
+   "correct": "C",
+   "explanation": "'-static' means to stand still: microbistatic, bacteriostatic and fungistatic agents inhibit growth.",
+   "why": {
+    "A": "'-cidal' agents kill.",
+    "B": "Sporicidal agents destroy endospores.",
+    "D": "Germicidal agents kill microbes."
+   }
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "A sporicidal agent is also considered a:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sanitizer"
+    },
+    {
+     "letter": "B",
+     "text": "Antiseptic"
+    },
+    {
+     "letter": "C",
+     "text": "Sterilant"
+    },
+    {
+     "letter": "D",
+     "text": "Bacteriostatic agent"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Sporicidal agents destroy bacterial endospores, which makes them sterilants (e.g., 2% glutaraldehyde, ethylene oxide gas).",
+   "why": {
+    "A": "Sanitizers only reduce microbes to safe levels.",
+    "B": "Antiseptics must be safe on tissue and don't destroy endospores.",
+    "D": "Sporicidal agents destroy, not just inhibit."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Which of these is an example of a chemical sterilant?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ethylene oxide gas"
+    },
+    {
+     "letter": "B",
+     "text": "70% alcohol"
+    },
+    {
+     "letter": "C",
+     "text": "Hydrogen peroxide wound wash"
+    },
+    {
+     "letter": "D",
+     "text": "Plain soap"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Examples of sterilants: 2% glutaraldehyde or ethylene oxide gas.",
+   "why": {
+    "B": "Alcohol is an antiseptic (a disinfectant at higher concentrations), not a sterilant.",
+    "C": "At antiseptic strength it doesn't destroy endospores.",
+    "D": "Soap is a degermer."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Most sterilization is performed using:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "UV light"
+    },
+    {
+     "letter": "B",
+     "text": "Soap and water"
+    },
+    {
+     "letter": "C",
+     "text": "High temperatures (heat)"
+    },
+    {
+     "letter": "D",
+     "text": "Refrigeration"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Sterilization is mostly done with heat (e.g., the autoclave), sometimes with chemical sterilants or mechanical filtration.",
+   "why": {
+    "A": "The slides say sterilization is mostly done with heat.",
+    "B": "Soap is a degermer.",
+    "D": "Cold slows growth; it doesn't sterilize."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "'Sepsis' refers to:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Any practice that prevents infection"
+    },
+    {
+     "letter": "B",
+     "text": "Removal of microbes from skin"
+    },
+    {
+     "letter": "C",
+     "text": "The growth of microorganisms in blood and other tissues"
+    },
+    {
+     "letter": "D",
+     "text": "Destruction of microbes on living tissue"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Sepsis: microbes growing in blood and other tissues (often fatal). Asepsis: practices that prevent entry of infectious agents (e.g., aseptic technique).",
+   "why": {
+    "A": "That's asepsis.",
+    "B": "That's degerming.",
+    "D": "That's antisepsis."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about disinfectants is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They are used on inanimate objects"
+    },
+    {
+     "letter": "B",
+     "text": "They destroy vegetative pathogens"
+    },
+    {
+     "letter": "C",
+     "text": "They do not destroy bacterial endospores"
+    },
+    {
+     "letter": "D",
+     "text": "They are safe to apply directly to wounds"
+    },
+    {
+     "letter": "E",
+     "text": "Some can also remove microbial toxins"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Disinfectant concentrations are toxic to human or animal tissue \u2014 that's why disinfectants are reserved for inanimate objects.",
+   "why": {
+    "A": "True \u2014 they're reserved for inanimate objects.",
+    "B": "True \u2014 vegetative pathogens are destroyed.",
+    "C": "True \u2014 endospores survive disinfectants.",
+    "E": "True \u2014 some disinfectants remove toxins."
+   }
+  }
+ ]
+}

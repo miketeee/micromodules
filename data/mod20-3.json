@@ -26,7 +26,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The stomach is the end point for mucus swallowed from the airway and eyes."
+   "explanation": "The stomach is the end point for mucus swallowed from the airway and eyes.",
+   "why": {
+    "A": "Acid reducers don't affect mast cells this way.",
+    "C": "S. epidermidis is skin flora.",
+    "D": "The ciliary escalator is respiratory."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Without cilia, coughing is the only way to clear mucus."
+   "explanation": "Without cilia, coughing is the only way to clear mucus.",
+   "why": {
+    "B": "Skin pH isn't affected.",
+    "C": "Gastric acid doesn't depend on swallowed mucus.",
+    "D": "Tears aren't involved."
+   }
   },
   {
    "num": 3,
@@ -80,7 +90,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "Metchnikoff's starfish only have nonspecific defenses."
+   "explanation": "Metchnikoff's starfish only have nonspecific defenses.",
+   "why": {
+    "B": "True — fever doesn't improve.",
+    "C": "True — adaptive defenses improve.",
+    "D": "True — only vertebrates.",
+    "E": "True — innate defenses are inborn."
+   }
   },
   {
    "num": 4,
@@ -105,7 +121,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Vasodilation lowers peripheral resistance."
+   "explanation": "Vasodilation lowers peripheral resistance.",
+   "why": {
+    "A": "Bacteria don't drink blood.",
+    "B": "Neutrophils don't constrict vessels.",
+    "C": "Pus doesn't raise BP."
+   }
   },
   {
    "num": 5,
@@ -130,7 +151,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Histamine release starts the cascade."
+   "explanation": "Histamine release starts the cascade.",
+   "why": {
+    "A": "Pus comes near the end.",
+    "C": "The abscess comes after injury.",
+    "D": "Injury comes first."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Earwax is acidic from sebum/fatty acids; HCl is in gastric juice."
+   "explanation": "Earwax is acidic from sebum/fatty acids; HCl is in gastric juice.",
+   "why": {
+    "B": "Correct — sebum lowers pH.",
+    "C": "Correct — tears flush and contain lysozyme.",
+    "D": "Correct — mucus traps."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Monocytes differentiate on site."
+   "explanation": "Monocytes differentiate on site.",
+   "why": {
+    "A": "Macrophages don't wait.",
+    "B": "Neutrophils do eat.",
+    "D": "Macrophages eat bacteria too."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "No lysosome fusion means no hydrolytic enzymes reach the microbe."
+   "explanation": "No lysosome fusion means no hydrolytic enzymes reach the microbe.",
+   "why": {
+    "A": "Pseudopods still extend.",
+    "C": "Binding still happens.",
+    "D": "Histamine isn't part of phagocytosis."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "The three mandates of the immune system are surveillance, recognition, and destruction."
+   "explanation": "The three mandates of the immune system are surveillance, recognition, and destruction.",
+   "why": {
+    "A": "Skin pH isn't the issue.",
+    "B": "Histamine overload isn't the issue.",
+    "C": "Flora don't disappear."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Both are acidic (pH ~3–5) because of fatty acids."
+   "explanation": "Both are acidic (pH ~3–5) because of fatty acids.",
+   "why": {
+    "A": "Neither contains sebum.",
+    "B": "Neither contains sebum.",
+    "D": "Neither contains sebum."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Histamine triggers vasodilation and leaky vessels."
+   "explanation": "Histamine triggers vasodilation and leaky vessels.",
+   "why": {
+    "B": "Antihistamines don't change stomach acid in this course.",
+    "C": "Not lysozyme.",
+    "D": "Not cilia."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Antibodies (specific) and complement can also trigger it."
+   "explanation": "Antibodies (specific) and complement can also trigger it.",
+   "why": {
+    "A": "Inflammation happens in invertebrates too.",
+    "B": "It doesn't need vaccination.",
+    "C": "It's run by mast cells and phagocytes."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "He linked a long-lived dairy village to good bacteria."
+   "explanation": "He linked a long-lived dairy village to good bacteria.",
+   "why": {
+    "A": "Penicillium is antibiotics, not his idea.",
+    "B": "S. epidermidis isn't in buttermilk.",
+    "D": "Vaccination wasn't his concept."
+   }
   },
   {
    "num": 14,

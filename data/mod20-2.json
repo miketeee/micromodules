@@ -26,7 +26,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "If microbes evolve to cause disease, hosts must evolve defenses."
+   "explanation": "If microbes evolve to cause disease, hosts must evolve defenses.",
+   "why": {
+    "A": "Koch's postulates and Gram staining weren't his basis.",
+    "B": "Pasteurization and vaccination weren't it.",
+    "D": "Spontaneous generation was disproven."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "White blood cells are among the only body cells that live untethered."
+   "explanation": "White blood cells are among the only body cells that live untethered.",
+   "why": {
+    "A": "They were in living larvae.",
+    "C": "They were visible.",
+    "D": "They had no chlorophyll."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Without Lactobacillus's lactic acid, pH rises and Candida grows."
+   "explanation": "Without Lactobacillus's lactic acid, pH rises and Candida grows.",
+   "why": {
+    "A": "The eyes aren't involved.",
+    "B": "Sebum is skin.",
+    "D": "Cilia are respiratory."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Intact skin is the best barrier, and burns make it a portal of entry."
+   "explanation": "Intact skin is the best barrier, and burns make it a portal of entry.",
+   "why": {
+    "A": "Those are second-line cells.",
+    "C": "Those aren't skin features.",
+    "D": "Those are respiratory."
+   }
   },
   {
    "num": 5,
@@ -130,7 +150,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "Gastric juice is pH ~2; urine is about 6."
+   "explanation": "Gastric juice is pH ~2; urine is about 6.",
+   "why": {
+    "B": "True — sebum lowers pH.",
+    "C": "True — sweat leaves salt.",
+    "D": "True — earwax has sebum.",
+    "E": "True — saliva has IgA and lysozyme."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Sebum lubricates skin so it doesn't break open."
+   "explanation": "Sebum lubricates skin so it doesn't break open.",
+   "why": {
+    "A": "Dry skin is still acidic.",
+    "B": "Not about staph balance.",
+    "C": "Lysozyme isn't the point."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Swallowed material meets stomach acid."
+   "explanation": "Swallowed material meets stomach acid.",
+   "why": {
+    "A": "It isn't absorbed into blood.",
+    "C": "Tears don't drain to the ears.",
+    "D": "Sebum doesn't digest tears."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Wider vessels lower peripheral resistance; that's why falling BP can signal infection."
+   "explanation": "Wider vessels lower peripheral resistance; that's why falling BP can signal infection.",
+   "why": {
+    "B": "WBCs leave the blood.",
+    "C": "Vasodilation lowers BP.",
+    "D": "Vessels become leaky."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Neutrophils gorge until they rupture."
+   "explanation": "Neutrophils gorge until they rupture.",
+   "why": {
+    "A": "Macrophages arrive during the infection.",
+    "B": "Macrophages do eat.",
+    "D": "No capsule protects them."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Recognizing a common sugar isn't recognizing a specific antigen."
+   "explanation": "Recognizing a common sugar isn't recognizing a specific antigen.",
+   "why": {
+    "B": "Macrophages eat many types.",
+    "C": "TLRs are on phagocytes.",
+    "D": "Macrophages don't make antibodies."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Capsules and M-protein inhibit phagocytosis."
+   "explanation": "Capsules and M-protein inhibit phagocytosis.",
+   "why": {
+    "B": "Siderophores steal iron, not block grabbing.",
+    "C": "Collagenase damages tissue.",
+    "D": "Hemolysins burst RBCs."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Clotting contains; a scab later protects the healing site."
+   "explanation": "Clotting contains; a scab later protects the healing site.",
+   "why": {
+    "A": "Clotting isn't for temperature.",
+    "B": "Mast cells make histamine.",
+    "C": "Clots don't feed bacteria."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Small pimples heal without a trace; large areas fill with scar tissue."
+   "explanation": "Small pimples heal without a trace; large areas fill with scar tissue.",
+   "why": {
+    "A": "Large boils usually leave scars.",
+    "B": "It heals rather than staying an abscess.",
+    "C": "Flora return."
+   }
   },
   {
    "num": 14,

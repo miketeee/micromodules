@@ -1,0 +1,469 @@
+{
+ "slug": "lab1-2",
+ "title": "Lab 1 \u2014 Quiz 2",
+ "subtitle": "Microbial Ubiquity \u2014 scientific method, safety, microbial groups",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "Based on the Lab 1 safety rules, what should this student do before working with cultures?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Restrain the long hair"
+    },
+    {
+     "letter": "B",
+     "text": "Put on gloves"
+    },
+    {
+     "letter": "C",
+     "text": "Wear a lab coat over the shirt"
+    },
+    {
+     "letter": "D",
+     "text": "Wash the hair with disinfectant"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Safe hair: restrain hair to avoid contaminating your hair and your work.",
+   "why": {
+    "B": "Gloves are worn when instructed or when skin is broken; the issue shown is hair.",
+    "C": "The rule shown is about hair; clothing must cover neck to knees.",
+    "D": "Hair must be restrained, not disinfected."
+   },
+   "img": "../lab-img/L01s_p10_1.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Which clothing rule is part of the micro lab safety policy?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cover your skin from your neck to your knees"
+    },
+    {
+     "letter": "B",
+     "text": "Wear shorts so lab coats fit better"
+    },
+    {
+     "letter": "C",
+     "text": "Loose sleeves are fine if they are rolled up"
+    },
+    {
+     "letter": "D",
+     "text": "Scarves and jewelry may be worn if tucked in"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Safe clothes: cover neck to knees; no dangling scarves, neckties or jewelry; avoid loose sleeves.",
+   "why": {
+    "B": "Skin must be covered from neck to knees.",
+    "C": "Avoid clothes with loose sleeves.",
+    "D": "No dangling scarves, neckties or jewelry."
+   }
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "When must gloves be worn in micro lab?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Only when handling the microscope"
+    },
+    {
+     "letter": "B",
+     "text": "When instructed, or anytime your skin is broken"
+    },
+    {
+     "letter": "C",
+     "text": "Never \u2014 handwashing replaces gloves"
+    },
+    {
+     "letter": "D",
+     "text": "Only during the Glo Germ activity"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Gloves: wear when instructed or anytime skin is broken; remove safely, discard properly, then wash hands immediately.",
+   "why": {
+    "A": "Glove use depends on instructions or broken skin, not equipment.",
+    "C": "Gloves are required when instructed or when skin is broken.",
+    "D": "Gloves are worn whenever instructed or when skin is broken."
+   }
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "In the Microbial Ubiquity experiment, how is the plate inoculated?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Open the lid fully and press the swab into the agar"
+    },
+    {
+     "letter": "B",
+     "text": "Leave the plate open on the surface you chose for 10 minutes"
+    },
+    {
+     "letter": "C",
+     "text": "With the plate inverted, lift the agar half and wipe the swab across it in three directions"
+    },
+    {
+     "letter": "D",
+     "text": "Drop the swab into the plate and close the lid"
+    }
+   ],
+   "correct": "C",
+   "explanation": "With the plate inverted, lift the agar part, wipe the swab back and forth in three directions across the entire surface without gouging, then discard the swab in biohazard.",
+   "why": {
+    "A": "Don't gouge the swab into the agar; keep the plate inverted and lift only the agar half.",
+    "B": "The protocol swabs a surface, then wipes the swab on the agar.",
+    "D": "The swab is wiped on the agar and then discarded into the biohazard bag."
+   }
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Where on the plate are labels written?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "On the outside of the bottom (agar half) of the plate"
+    },
+    {
+     "letter": "B",
+     "text": "On top of the lid"
+    },
+    {
+     "letter": "C",
+     "text": "Inside the lid with a sterile marker"
+    },
+    {
+     "letter": "D",
+     "text": "On the collection tray only"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Write your initials, lab day and time, and sampling location on the outside of the bottom of the plate.",
+   "why": {
+    "B": "Labels go on the outside of the bottom of the plate.",
+    "C": "Labels go on the outside so nothing touches the medium.",
+    "D": "Each plate is labeled with initials, lab day/time and sampling location."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Which statement about a hypothesis is correct?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A hypothesis is the final conclusion of an experiment"
+    },
+    {
+     "letter": "B",
+     "text": "A hypothesis must always be proven correct"
+    },
+    {
+     "letter": "C",
+     "text": "A hypothesis cannot be formulated without first making observations"
+    },
+    {
+     "letter": "D",
+     "text": "A hypothesis is a list of quantitative data"
+    }
+   ],
+   "correct": "C",
+   "explanation": "A hypothesis is a proposed explanation for observations; it cannot be made without observations first, and it leads to testable predictions.",
+   "why": {
+    "A": "A hypothesis is a proposed explanation, tested by experiments.",
+    "B": "Hypotheses lead to testable predictions and can be rejected (like the elephant in the box).",
+    "D": "Data are collected; a hypothesis is a proposed explanation for observations."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "In the controlled experiment slide, sterile medium inoculated with known Streptococcus is the:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Positive control"
+    },
+    {
+     "letter": "B",
+     "text": "Negative control"
+    },
+    {
+     "letter": "C",
+     "text": "Test culture"
+    },
+    {
+     "letter": "D",
+     "text": "Independent variable"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Positive control: known organism, expected growth. Negative control: no organisms added, expected no growth.",
+   "why": {
+    "B": "The negative control has no organisms added and should show no growth.",
+    "C": "The test culture is the patient's sputum specimen.",
+    "D": "It's a control with a known expected result (growth)."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "In the controlled experiment, what is the expected result for the negative control?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "No bacterial growth"
+    },
+    {
+     "letter": "B",
+     "text": "Bacterial growth"
+    },
+    {
+     "letter": "C",
+     "text": "Growth of mold only"
+    },
+    {
+     "letter": "D",
+     "text": "The same result as the sputum specimen"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The negative control (sterile medium, no organisms added) should show no growth \u2014 it confirms the medium wasn't contaminated.",
+   "why": {
+    "B": "Growth is expected in the positive control.",
+    "C": "No organisms are added, so nothing should grow.",
+    "D": "The test culture's result is unknown; the negative control should show no growth."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "What does 'ubiquitous' mean, as applied to microbes in the Microbial Ubiquity experiment?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Always harmful"
+    },
+    {
+     "letter": "B",
+     "text": "Found everywhere"
+    },
+    {
+     "letter": "C",
+     "text": "Visible to the naked eye"
+    },
+    {
+     "letter": "D",
+     "text": "Able to survive without water"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Ubiquitous = present everywhere. The experiment asks: where are microbes located?",
+   "why": {
+    "A": "Most microbes are benign or even beneficial.",
+    "C": "Microbes are microscopic; colonies are what become visible.",
+    "D": "Ubiquitous refers to location, not survival."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Photo",
+   "prompt": "Which group of organisms below is unicellular, prokaryotic, often extremophilic, and not known to cause disease in humans?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Bacteria"
+    },
+    {
+     "letter": "B",
+     "text": "Fungi"
+    },
+    {
+     "letter": "C",
+     "text": "Archaea"
+    },
+    {
+     "letter": "D",
+     "text": "Protozoa"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Archaea: unicellular prokaryotes, pseudo-peptidoglycan walls if any, often extremophiles, archaella for motility, not known to cause human disease.",
+   "why": {
+    "A": "Many bacteria cause disease, and most have peptidoglycan walls.",
+    "B": "Fungi are eukaryotes.",
+    "D": "Protozoa are eukaryotes and some are parasitic."
+   },
+   "img": "../lab-img/L01s_p26_3.jpg"
+  },
+  {
+   "num": 11,
+   "type": "Photo",
+   "prompt": "This organism is a mold (a fungus). Most fungal cell walls are composed of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Peptidoglycan"
+    },
+    {
+     "letter": "B",
+     "text": "Chitin"
+    },
+    {
+     "letter": "C",
+     "text": "Cellulose"
+    },
+    {
+     "letter": "D",
+     "text": "Pseudo-peptidoglycan"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Fungi: yeasts or molds; most have chitin cell walls; absorb organic molecules; mostly nonmotile.",
+   "why": {
+    "A": "Peptidoglycan is the bacterial cell wall.",
+    "C": "Cellulose is the cell wall of most algae.",
+    "D": "Pseudo-peptidoglycan is found in some archaea."
+   },
+   "img": "../lab-img/L01s_p27_4.jpg"
+  },
+  {
+   "num": 12,
+   "type": "Photo",
+   "prompt": "This organism is Spirogyra. Which group is it in?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Protozoa"
+    },
+    {
+     "letter": "B",
+     "text": "Fungi"
+    },
+    {
+     "letter": "C",
+     "text": "Algae (Kingdom Protista)"
+    },
+    {
+     "letter": "D",
+     "text": "Helminths"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Algae: unicellular or multicellular, mostly cellulose walls, photosynthetic, not known to cause human disease (though some make toxins that concentrate in shellfish).",
+   "why": {
+    "A": "Protozoa lack cell walls; Spirogyra is a photosynthetic alga.",
+    "B": "Fungi absorb nutrients; Spirogyra photosynthesizes.",
+    "D": "Helminths are multicellular worms in Kingdom Animalia."
+   },
+   "img": "../lab-img/L01s_p31_2.jpg"
+  },
+  {
+   "num": 13,
+   "type": "Photo",
+   "prompt": "Which protozoan from the slides is able to photosynthesize?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Giardia"
+    },
+    {
+     "letter": "B",
+     "text": "Amoeba"
+    },
+    {
+     "letter": "C",
+     "text": "Plasmodium"
+    },
+    {
+     "letter": "D",
+     "text": "Euglena"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Protozoa absorb or ingest organic molecules; some, like Euglena, can photosynthesize.",
+   "why": {
+    "A": "Giardia is a parasitic protozoan, not photosynthetic.",
+    "B": "Amoeba ingests food using pseudopods.",
+    "C": "Plasmodium is an obligate intracellular parasite."
+   },
+   "img": "../lab-img/L01s_p30_3.jpg"
+  },
+  {
+   "num": 14,
+   "type": "Photo",
+   "prompt": "Protozoa, like the one shown, differ from algae and fungi because protozoa:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Have chitin cell walls"
+    },
+    {
+     "letter": "B",
+     "text": "Lack cell walls"
+    },
+    {
+     "letter": "C",
+     "text": "Have cellulose cell walls"
+    },
+    {
+     "letter": "D",
+     "text": "Are always multicellular"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Protozoa: unicellular eukaryotes, lack cell walls, move by flagella, cilia or pseudopods; free-living or parasitic.",
+   "why": {
+    "A": "Chitin walls are found in fungi.",
+    "C": "Cellulose walls are found in most algae.",
+    "D": "Protozoa are unicellular eukaryotes."
+   },
+   "img": "../lab-img/L01s_p30_1.jpg"
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about bacteria is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They reproduce asexually by binary fission"
+    },
+    {
+     "letter": "B",
+     "text": "Most bacteria cause disease"
+    },
+    {
+     "letter": "C",
+     "text": "Most have a cell wall made of peptidoglycan"
+    },
+    {
+     "letter": "D",
+     "text": "Flagella and axial filaments are used for motility"
+    },
+    {
+     "letter": "E",
+     "text": "Some bacteria perform photosynthesis"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Bacteria are well known for causing disease, but most are benign or even beneficial.",
+   "why": {
+    "A": "True \u2014 bacteria divide by binary fission.",
+    "C": "True \u2014 peptidoglycan is the typical bacterial wall.",
+    "D": "True \u2014 these are bacterial motility appendages.",
+    "E": "True \u2014 some derive energy from photosynthesis."
+   },
+   "img": "../lab-img/L01s_p24_4.jpg"
+  }
+ ]
+}

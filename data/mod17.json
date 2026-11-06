@@ -26,7 +26,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Positive-sense (sense) RNA acts like mRNA and can be translated directly."
+   "explanation": "Positive-sense (sense) RNA acts like mRNA and can be translated directly.",
+   "why": {
+    "B": "−ssRNA must be copied to + first.",
+    "C": "This genome is RNA, not DNA.",
+    "D": "This genome is RNA, not DNA."
+   }
   },
   {
    "num": 2,
@@ -55,7 +60,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False. A −ssRNA genome can't be translated directly; it must be copied into + sense RNA first."
+   "explanation": "False. A −ssRNA genome can't be translated directly; it must be copied into + sense RNA first.",
+   "why": {
+    "A": "True — they must make a + strand first.",
+    "C": "True — they're complementary to + RNA.",
+    "D": "True — also called antisense.",
+    "E": "True — 'negative' isn't charge."
+   }
   },
   {
    "num": 3,
@@ -80,7 +91,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "It reverse-transcribes the retroviral ssRNA genome into dsDNA."
+   "explanation": "It reverse-transcribes the retroviral ssRNA genome into dsDNA.",
+   "why": {
+    "A": "Cutting at palindromes is restriction enzymes.",
+    "B": "DNA → RNA is RNA polymerase.",
+    "D": "Joining fragments is ligase."
+   }
   },
   {
    "num": 4,
@@ -105,7 +121,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "The dsDNA integrates as a provirus, which is then transcribed into new genomes and mRNAs."
+   "explanation": "The dsDNA integrates as a provirus, which is then transcribed into new genomes and mRNAs.",
+   "why": {
+    "B": "DNA isn't translated directly.",
+    "C": "It integrates before anything leaves.",
+    "D": "It must integrate and be transcribed first."
+   }
   },
   {
    "num": 5,
@@ -138,7 +159,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Embryonated eggs form a self-contained culture system — why flu shots ask about egg allergies."
+   "explanation": "Embryonated eggs form a self-contained culture system — why flu shots ask about egg allergies.",
+   "why": {
+    "B": "Viruses can't grow on plain agar.",
+    "C": "Bacterial cultures grow phages, not flu.",
+    "D": "Mice are costly and slow."
+   }
   },
   {
    "num": 7,
@@ -163,7 +189,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "HIV only grows in specific human cells (CD4+ T cells), which must be cultured and passaged."
+   "explanation": "HIV only grows in specific human cells (CD4+ T cells), which must be cultured and passaged.",
+   "why": {
+    "B": "Influenza grows in eggs.",
+    "C": "Phages grow in bacterial cultures.",
+    "D": "TMV infects plants."
+   }
   },
   {
    "num": 8,
@@ -188,7 +219,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Both passed diseased tissue through a filter and showed the cell-free filtrate caused disease (here, sarcoma)."
+   "explanation": "Both passed diseased tissue through a filter and showed the cell-free filtrate caused disease (here, sarcoma).",
+   "why": {
+    "A": "PCR came decades later.",
+    "B": "Griffith injected live and dead bacteria.",
+    "D": "Avery used enzymes, not filtration."
+   }
   },
   {
    "num": 9,
@@ -213,7 +249,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Michael Anthony Epstein and Yvonne Barr — the Epstein-Barr virus, linked to lymphoma."
+   "explanation": "Michael Anthony Epstein and Yvonne Barr — the Epstein-Barr virus, linked to lymphoma.",
+   "why": {
+    "A": "Doudna and Charpentier developed CRISPR.",
+    "C": "Watson and Crick described DNA.",
+    "D": "Hershey and Chase showed DNA is genetic material."
+   }
   },
   {
    "num": 10,
@@ -242,7 +283,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False. p53 is a tumor-suppressor gene — the brake, not the gas pedal."
+   "explanation": "False. p53 is a tumor-suppressor gene — the brake, not the gas pedal.",
+   "why": {
+    "A": "True — about 60% of cancers.",
+    "B": "True — proto-oncogenes are the gas pedal.",
+    "D": "True — p53 handles damaged DNA.",
+    "E": "True — tumor suppressors are the brakes."
+   }
   },
   {
    "num": 11,
@@ -267,7 +314,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Viral proteins that inactivate p53 remove the brake on cell division."
+   "explanation": "Viral proteins that inactivate p53 remove the brake on cell division.",
+   "why": {
+    "B": "Thymine dimers come from UV.",
+    "C": "Reverse transcriptase is retroviral.",
+    "D": "Lysis doesn't cause tumors."
+   }
   },
   {
    "num": 12,
@@ -300,7 +352,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Normal cells divide ~50 times in culture; HeLa cells keep dividing, giving a continuous cell line."
+   "explanation": "Normal cells divide ~50 times in culture; HeLa cells keep dividing, giving a continuous cell line.",
+   "why": {
+    "A": "HeLa cells divide constantly.",
+    "B": "They aren't virus-resistant.",
+    "D": "They do contain DNA."
+   }
   },
   {
    "num": 14,
@@ -325,7 +382,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "For ssDNA viruses, host enzymes synthesize the complementary strand, producing dsDNA that's then used like normal DNA."
+   "explanation": "For ssDNA viruses, host enzymes synthesize the complementary strand, producing dsDNA that's then used like normal DNA.",
+   "why": {
+    "A": "dsRNA uses RNA-dependent RNA polymerase.",
+    "B": "+ssRNA is translated directly.",
+    "D": "−ssRNA is copied to + RNA."
+   }
   },
   {
    "num": 15,
@@ -350,7 +412,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The −strand copy serves as the template for producing many new +ssRNA genomes."
+   "explanation": "The −strand copy serves as the template for producing many new +ssRNA genomes.",
+   "why": {
+    "A": "RNA viruses don't need DNA primers.",
+    "C": "Proviruses are retroviral.",
+    "D": "Coronaviruses don't use reverse transcriptase."
+   }
   },
   {
    "num": 16,

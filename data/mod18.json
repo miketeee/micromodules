@@ -26,7 +26,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Etiology is the study of a disease's cause; pathogenesis studies how it develops."
+   "explanation": "Etiology is the study of a disease's cause; pathogenesis studies how it develops.",
+   "why": {
+    "A": "Pathogenesis is how a disease develops, not its cause.",
+    "B": "Epidemiology studies spread in populations.",
+    "C": "Symbiosis is organisms living together."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Infection = microbial growth in/on the body; disease = a change away from health."
+   "explanation": "Infection = microbial growth in/on the body; disease = a change away from health.",
+   "why": {
+    "B": "Reversed.",
+    "C": "HIV is the virus; AIDS is the disease it can cause.",
+    "D": "AIDS is communicable."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "+/0: the microbe benefits and the host is unaffected."
+   "explanation": "+/0: the microbe benefits and the host is unaffected.",
+   "why": {
+    "A": "Parasitism harms the host.",
+    "C": "Antagonism is flora inhibiting pathogens.",
+    "D": "Mutualism benefits both."
+   }
   },
   {
    "num": 4,
@@ -105,7 +120,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "E. coli is the bacteriocin producer; Candida is the organism that L. acidophilus keeps in check."
+   "explanation": "E. coli is the bacteriocin producer; Candida is the organism that L. acidophilus keeps in check.",
+   "why": {
+    "A": "True — S. epidermidis outcompetes S. aureus.",
+    "C": "True — E. coli's bacteriocins.",
+    "D": "True — killing flora opens the door.",
+    "E": "True — lactic acid inhibits Candida."
+   }
   },
   {
    "num": 5,
@@ -130,7 +151,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "E. coli is acquired from contaminated food and objects after birth."
+   "explanation": "E. coli is acquired from contaminated food and objects after birth.",
+   "why": {
+    "A": "S. epidermidis doesn't destroy vitamin K.",
+    "B": "Breast milk doesn't block it.",
+    "D": "Delivery doesn't strip vitamin K."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Both staph species arrive through nursing and handling; S. epidermidis eventually wins."
+   "explanation": "Both staph species arrive through nursing and handling; S. epidermidis eventually wins.",
+   "why": {
+    "B": "Acne isn't from missing vitamin K.",
+    "C": "E. coli doesn't infect pores.",
+    "D": "Lactobacillus doesn't irritate skin."
+   }
   },
   {
    "num": 7,
@@ -188,7 +219,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Infecting another human would be unethical, so he used himself."
+   "explanation": "Infecting another human would be unethical, so he used himself.",
+   "why": {
+    "A": "Ulcers are communicable — he caught one.",
+    "C": "He showed bacteria, not stress, cause ulcers.",
+    "D": "He made himself sick, so it isn't harmless."
+   }
   },
   {
    "num": 9,
@@ -213,7 +249,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Signs are objective and measurable by an observer; symptoms are felt by the patient."
+   "explanation": "Signs are objective and measurable by an observer; symptoms are felt by the patient.",
+   "why": {
+    "A": "A headache is felt (symptom).",
+    "B": "Tiredness is felt (symptom).",
+    "D": "Pain is felt (symptom)."
+   }
   },
   {
    "num": 10,
@@ -242,7 +283,13 @@
     }
    ],
    "correct": "E",
-   "explanation": "All contagious diseases are communicable, but not all communicable diseases are contagious (easily spread)."
+   "explanation": "All contagious diseases are communicable, but not all communicable diseases are contagious (easily spread).",
+   "why": {
+    "A": "True — flu is communicable.",
+    "B": "True — measles is contagious.",
+    "C": "True — tetanus is infectious but not communicable.",
+    "D": "True — diabetes is non-communicable."
+   }
   },
   {
    "num": 11,
@@ -267,7 +314,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Incidence = new cases; prevalence = new + existing cases."
+   "explanation": "Incidence = new cases; prevalence = new + existing cases.",
+   "why": {
+    "B": "Reversed — new cases are incidence.",
+    "C": "One is new, one is total.",
+    "D": "One is new, one is total."
+   }
   },
   {
    "num": 12,
@@ -292,7 +344,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Endemic = constantly present."
+   "explanation": "Endemic = constantly present.",
+   "why": {
+    "B": "Pandemic is worldwide.",
+    "C": "Epidemic is a sudden spike.",
+    "D": "Sporadic is occasional."
+   }
   },
   {
    "num": 13,
@@ -317,7 +374,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The virus remains in the host (as a provirus) without causing disease, then reactivates."
+   "explanation": "The virus remains in the host (as a provirus) without causing disease, then reactivates.",
+   "why": {
+    "A": "Subclinical has no illness.",
+    "C": "Local is about location.",
+    "D": "Acute is fast and short."
+   }
   },
   {
    "num": 14,
@@ -342,7 +404,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "A secondary infection is caused by an opportunistic microbe after a primary infection weakens defenses."
+   "explanation": "A secondary infection is caused by an opportunistic microbe after a primary infection weakens defenses.",
+   "why": {
+    "A": "Latent means dormant.",
+    "B": "The sinusitis was primary.",
+    "C": "Pneumonia caused illness."
+   }
   },
   {
    "num": 15,
@@ -367,7 +434,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Toxemia = toxins in the blood; bacteremia = bacteria in the blood."
+   "explanation": "Toxemia = toxins in the blood; bacteremia = bacteria in the blood.",
+   "why": {
+    "A": "Bacteremia is bacteria in blood.",
+    "C": "Septicemia is pathogens multiplying in blood.",
+    "D": "Viremia is viruses in blood."
+   }
   },
   {
    "num": 16,

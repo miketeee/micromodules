@@ -26,7 +26,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Dimorphic, vaginal yeast infection + thrush = Candida albicans. Monistat is the OTC drug and blocks ergosterol synthesis; Eraxis targets the cell wall."
+   "explanation": "Dimorphic, vaginal yeast infection + thrush = Candida albicans. Monistat is the OTC drug and blocks ergosterol synthesis; Eraxis targets the cell wall.",
+   "why": {
+    "A": "Histoplasma isn't the vaginal/thrush yeast; Monistat targets ergosterol.",
+    "B": "Eraxis targets the cell wall, not ergosterol.",
+    "C": "Saccharomyces is baker's yeast; Flagyl is antiprotozoal."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Lecture: chitin (a polymer of glucosamine) also makes up arthropod exoskeletons — the cricket's crunchy shell and the shrimp's peel."
+   "explanation": "Lecture: chitin (a polymer of glucosamine) also makes up arthropod exoskeletons — the cricket's crunchy shell and the shrimp's peel.",
+   "why": {
+    "A": "Human membranes aren't chitin.",
+    "B": "Diatom walls are silica.",
+    "D": "Peptidoglycan isn't chitin."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Yeasts are facultative anaerobes: they prefer oxygen (more ATP) but ferment without it. Forcing anaerobic metabolism yields CO2 (dough) and ethanol (beer)."
+   "explanation": "Yeasts are facultative anaerobes: they prefer oxygen (more ATP) but ferment without it. Forcing anaerobic metabolism yields CO2 (dough) and ethanol (beer).",
+   "why": {
+    "B": "Yeast doesn't become a mold or digest its wall.",
+    "C": "Oxygen speeds budding.",
+    "D": "Oxygen isn't toxic to yeast."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The stinkhorn draws flies, which pick up spores and carry them straight to a new food source (roadkill) — like insect-pollinated flowers."
+   "explanation": "The stinkhorn draws flies, which pick up spores and carry them straight to a new food source (roadkill) — like insect-pollinated flowers.",
+   "why": {
+    "A": "Stinkhorns don't photosynthesize.",
+    "C": "Wind-throwing is the opposite strategy.",
+    "D": "That's truffles, not stinkhorns."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Pheromones are released and detected → hyphae grow toward each other → fuse → grow upward → mushroom forms and releases spores."
+   "explanation": "Pheromones are released and detected → hyphae grow toward each other → fuse → grow upward → mushroom forms and releases spores.",
+   "why": {
+    "A": "Pheromones come first.",
+    "B": "Hyphae grow together before fusing.",
+    "D": "Pheromones are released before hyphae grow."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Mushrooms are made by sexual reproduction (two mating types). Sporangiospores and conidiospores are asexual; budding is asexual."
+   "explanation": "Mushrooms are made by sexual reproduction (two mating types). Sporangiospores and conidiospores are asexual; budding is asexual.",
+   "why": {
+    "B": "Buds are clones.",
+    "C": "Sporangiospores are asexual clones.",
+    "D": "Conidiospores are asexual clones."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "CSF should never contain microbes. India ink: unstained round areas are fungal cells. Slide table lists Candida, Histoplasma, Cryptococcus, and others."
+   "explanation": "CSF should never contain microbes. India ink: unstained round areas are fungal cells. Slide table lists Candida, Histoplasma, Cryptococcus, and others.",
+   "why": {
+    "A": "CSF is always sterile.",
+    "C": "India ink leaves fungal cells unstained.",
+    "D": "Several fungi cause meningitis."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Prokaryotic ribosomes are a bacterial target. Fungi are eukaryotes — so similar to human cells that few targets exist."
+   "explanation": "Prokaryotic ribosomes are a bacterial target. Fungi are eukaryotes — so similar to human cells that few targets exist.",
+   "why": {
+    "A": "The wall isn't the reason.",
+    "B": "Fungi have eukaryotic ribosomes.",
+    "C": "Fungi do have ribosomes."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Saccharomyces is baker's/brewer's yeast. Vaginal yeast infections are caused by Candida albicans."
+   "explanation": "Saccharomyces is baker's/brewer's yeast. Vaginal yeast infections are caused by Candida albicans.",
+   "why": {
+    "B": "True — Histoplasma comes from bat-cave droppings.",
+    "C": "True — Aspergillus comes from farm soil.",
+    "D": "True — ringworm can come from cats."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Lecture: the closer to the ergosterol stage the drug acts, the safer it is."
+   "explanation": "Lecture: the closer to the ergosterol stage the drug acts, the safer it is.",
+   "why": {
+    "A": "Also hitting chitin isn't about safety.",
+    "C": "Blocking our cholesterol is harmful.",
+    "D": "Early steps overlap more with our cholesterol pathway."
+   }
   },
   {
    "num": 11,
@@ -280,7 +330,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False — in budding the cell does NOT split in half; it grows a small 'mini me' off to the side."
+   "explanation": "False — in budding the cell does NOT split in half; it grows a small 'mini me' off to the side.",
+   "why": {
+    "A": "True — buds leave scars.",
+    "B": "True — buds can bud.",
+    "D": "True — some yeasts use binary fission.",
+    "E": "True — buds get chromosomes."
+   }
   },
   {
    "num": 12,
@@ -309,7 +365,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — both sterols do the same job (regulating membrane fluidity); they are just different compounds."
+   "explanation": "False — both sterols do the same job (regulating membrane fluidity); they are just different compounds.",
+   "why": {
+    "B": "True — most antifungals target ergosterol.",
+    "C": "True — the two sterols look alike.",
+    "D": "True — Monistat is OTC.",
+    "E": "True — membranes may rupture."
+   }
   },
   {
    "num": 13,
@@ -338,7 +400,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — 'conidia' means dust; conidiospores are exposed on the outside of the conidiophore."
+   "explanation": "False — 'conidia' means dust; conidiospores are exposed on the outside of the conidiophore.",
+   "why": {
+    "A": "True — the sporangiophore carries the spores.",
+    "C": "True — the mycelium is all the hyphae.",
+    "D": "True — sporangia break open.",
+    "E": "True — a hypha is a filament."
+   }
   },
   {
    "num": 14,

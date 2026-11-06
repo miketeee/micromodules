@@ -1,0 +1,469 @@
+{
+ "slug": "lab8-2",
+ "title": "Lab 8 \u2014 Quiz 2",
+ "subtitle": "Simple Stains \u2014 differential stain IDs and smear technique",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "Identify this differential stain: purple and pink cells in the same smear.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acid-fast stain"
+    },
+    {
+     "letter": "B",
+     "text": "Endospore stain"
+    },
+    {
+     "letter": "C",
+     "text": "Simple stain"
+    },
+    {
+     "letter": "D",
+     "text": "Gram stain"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Differential stains use two or more dyes to distinguish cell types. The Gram stain shows Gram+ (purple) and Gram\u2212 (pink).",
+   "why": {
+    "A": "Acid-fast stains show pink/red acid-fast cells and blue non-acid-fast cells.",
+    "B": "Endospore stains show green spores.",
+    "C": "A simple stain colors all cells the same."
+   },
+   "img": "../lab-img/L08s_p12_12.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Photo",
+   "prompt": "Identify this differential stain: green structures inside or beside pink cells.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gram stain"
+    },
+    {
+     "letter": "B",
+     "text": "Endospore stain"
+    },
+    {
+     "letter": "C",
+     "text": "Acid-fast stain"
+    },
+    {
+     "letter": "D",
+     "text": "Flagellar stain"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Endospore stain: endospores green, vegetative cells pink.",
+   "why": {
+    "A": "Gram stains are purple and pink only.",
+    "C": "Acid-fast stains are pink/red and blue.",
+    "D": "Flagellar stains highlight thin flagella."
+   },
+   "img": "../lab-img/L08s_p12_10.jpg"
+  },
+  {
+   "num": 3,
+   "type": "Photo",
+   "prompt": "Identify this differential stain: bright pink clumps mixed with blue cells.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gram stain"
+    },
+    {
+     "letter": "B",
+     "text": "Endospore stain"
+    },
+    {
+     "letter": "C",
+     "text": "Negative stain"
+    },
+    {
+     "letter": "D",
+     "text": "Acid-fast stain"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Acid-fast stain: acid-fast cells pink/red; non-acid-fast cells blue.",
+   "why": {
+    "A": "Gram stains are purple and pink.",
+    "B": "Endospore stains show green spores.",
+    "C": "Negative stains darken the background."
+   },
+   "img": "../lab-img/L08s_p12_8.jpg"
+  },
+  {
+   "num": 4,
+   "type": "Photo",
+   "prompt": "Which special stain is used to show this outer cell structure surrounding the cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Capsule stain"
+    },
+    {
+     "letter": "B",
+     "text": "Flagellar stain"
+    },
+    {
+     "letter": "C",
+     "text": "Endospore stain"
+    },
+    {
+     "letter": "D",
+     "text": "Simple stain"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The capsule stain is listed among the differential stains (Gram, acid-fast, endospore, capsule, flagellar).",
+   "why": {
+    "B": "Flagellar stains show thin whip-like flagella.",
+    "C": "Endospore stains show green spores inside cells.",
+    "D": "Simple stains color whole cells one color."
+   },
+   "img": "../lab-img/L08s_p12_14.jpg"
+  },
+  {
+   "num": 5,
+   "type": "Photo",
+   "prompt": "Which stain was used to show the thin, wavy appendages extending from these cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Capsule stain"
+    },
+    {
+     "letter": "B",
+     "text": "Gram stain"
+    },
+    {
+     "letter": "C",
+     "text": "Acid-fast stain"
+    },
+    {
+     "letter": "D",
+     "text": "Flagellar stain"
+    }
+   ],
+   "correct": "D",
+   "explanation": "The flagellar stain highlights flagella.",
+   "why": {
+    "A": "Capsule stains outline the capsule around cells.",
+    "B": "Gram stains show cell wall type, not flagella.",
+    "C": "Acid-fast stains detect mycolic acid walls."
+   },
+   "img": "../lab-img/L08s_p12_16.jpg"
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "A simple stain differs from a differential stain because a simple stain:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Uses two or more dyes to distinguish cell types"
+    },
+    {
+     "letter": "B",
+     "text": "Always requires heat as a mordant"
+    },
+    {
+     "letter": "C",
+     "text": "Can only be used on yeast"
+    },
+    {
+     "letter": "D",
+     "text": "Uses a single dye to color all cells the same (or the background)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Simple: a single dye. Differential: two or more dyes to distinguish cell types or parts.",
+   "why": {
+    "A": "That's differential staining.",
+    "B": "Heat mordants are for acid-fast and endospore stains.",
+    "C": "Simple stains are used on bacteria and yeast."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Which smear labels and organisms were used in Lab 8?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "PB = Saccharomyces; PY = Bacillus; N = E. coli"
+    },
+    {
+     "letter": "B",
+     "text": "PB = E. coli; PY = Candida; N = Cryptococcus"
+    },
+    {
+     "letter": "C",
+     "text": "PB = Bacillus; PY = Candida; N = Bacillus"
+    },
+    {
+     "letter": "D",
+     "text": "PB = Bacillus subtilis; PY and N = Saccharomyces cerevisiae"
+    }
+   ],
+   "correct": "D",
+   "explanation": "PB: positive stain of Bacteria (Bacillus subtilis). PY: positive stain of Yeast and N: negative wet mount (Saccharomyces cerevisiae).",
+   "why": {
+    "A": "The bacterium is B. subtilis; the yeast is S. cerevisiae.",
+    "B": "Lab 8 used B. subtilis and S. cerevisiae.",
+    "C": "The yeast for both PY and N was S. cerevisiae."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Smear preparation from a solid culture: which step comes first?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Place the bacteria directly on the dry slide"
+    },
+    {
+     "letter": "B",
+     "text": "Heat fix the empty slide"
+    },
+    {
+     "letter": "C",
+     "text": "Place a loopful of sterile water on the slide"
+    },
+    {
+     "letter": "D",
+     "text": "Add the stain to the slide"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Solid culture: loopful of sterile water on the slide \u2192 small loopful of bacteria stirred in \u2192 smear to nickel size \u2192 air dry \u2192 heat fix.",
+   "why": {
+    "A": "Bacteria from solid media are dispersed into a water droplet.",
+    "B": "Heat fixing comes after the smear air dries.",
+    "D": "Staining comes after smearing and heat fixing."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Why is no water added when making the PY smear from yeast?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Water would kill the yeast cells"
+    },
+    {
+     "letter": "B",
+     "text": "Yeast smears are not air dried"
+    },
+    {
+     "letter": "C",
+     "text": "Yeast is heat fixed in water"
+    },
+    {
+     "letter": "D",
+     "text": "Water is not needed for liquid cultures"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Water is needed to disperse organisms from solid media; it isn't needed for liquid cultures.",
+   "why": {
+    "A": "Water is used for solid cultures; liquid cultures already have liquid.",
+    "B": "All smears are air dried before heat fixing.",
+    "C": "Heat fixing is done on the dried slide."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "How big should the smear be?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "About the size of a nickel"
+    },
+    {
+     "letter": "B",
+     "text": "The entire length of the slide"
+    },
+    {
+     "letter": "C",
+     "text": "A single tiny dot"
+    },
+    {
+     "letter": "D",
+     "text": "As thick as possible"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Smear the mixture over an area about the size of a nickel.",
+   "why": {
+    "B": "Smear only a nickel-sized area.",
+    "C": "The organism is spread over about a nickel-sized area.",
+    "D": "Thorough dispersion is crucial; thick smears are hard to read."
+   }
+  },
+  {
+   "num": 11,
+   "type": "Photo",
+   "prompt": "This Staphylococcus smear was stained with a single purple dye. What kind of stain is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Positive simple stain (crystal violet)"
+    },
+    {
+     "letter": "B",
+     "text": "Negative stain (India ink)"
+    },
+    {
+     "letter": "C",
+     "text": "Gram stain (differential)"
+    },
+    {
+     "letter": "D",
+     "text": "Acid-fast stain (differential)"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Crystal violet used alone is a positive simple stain.",
+   "why": {
+    "B": "In a negative stain the cells stay clear against a dark background.",
+    "C": "A Gram stain uses several reagents; this is one dye.",
+    "D": "Acid-fast uses carbolfuchsin and methylene blue."
+   },
+   "img": "../lab-img/L08s_p13_5.jpg"
+  },
+  {
+   "num": 12,
+   "type": "Photo",
+   "prompt": "Which of these is a basic dye used for positive simple staining?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "India ink"
+    },
+    {
+     "letter": "B",
+     "text": "Acid-alcohol"
+    },
+    {
+     "letter": "C",
+     "text": "Safranin"
+    },
+    {
+     "letter": "D",
+     "text": "Immersion oil"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Basic dyes for simple stains include crystal violet, safranin and methylene blue.",
+   "why": {
+    "A": "India ink is anionic and used for negative staining.",
+    "B": "Acid-alcohol is the acid-fast decolorizer.",
+    "D": "Immersion oil improves resolution; it isn't a dye."
+   },
+   "img": "../lab-img/L08s_p12_4.jpg"
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "When removing your loop from the stain droplet during the negative wet mount, what do you do before sterilizing it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Rinse the loop with water over the staining tray"
+    },
+    {
+     "letter": "B",
+     "text": "Sterilize it right away without rinsing it first"
+    },
+    {
+     "letter": "C",
+     "text": "Wipe it clean on a page of bibulous paper"
+    },
+    {
+     "letter": "D",
+     "text": "Dip it straight into the organism culture"
+    }
+   ],
+   "correct": "A",
+   "explanation": "After the stain transfer, rinse the loop with water over the tray, then sterilize. After transferring the organism, sterilize WITHOUT rinsing.",
+   "why": {
+    "B": "After transferring the STAIN, rinse first; after the organism, don't rinse.",
+    "C": "The protocol rinses the loop over the staining tray.",
+    "D": "The loop is rinsed and sterilized before picking up the organism."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "A smear is stained without being heat fixed and then rinsed. What is the most likely result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Much of the specimen washes off the slide"
+    },
+    {
+     "letter": "B",
+     "text": "The cells stain more darkly"
+    },
+    {
+     "letter": "C",
+     "text": "The cells turn into endospores"
+    },
+    {
+     "letter": "D",
+     "text": "The stain turns into a negative stain"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Heat fixing secures/adheres the specimen to the slide; without it, rinsing removes cells.",
+   "why": {
+    "B": "Without fixing, cells aren't adhered and wash away.",
+    "C": "Heat fixing doesn't affect spore formation.",
+    "D": "Positive vs negative depends on the dye."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about dyes is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Basic dyes stick to cells and give them color"
+    },
+    {
+     "letter": "B",
+     "text": "Acidic dyes often create a dark background"
+    },
+    {
+     "letter": "C",
+     "text": "Bacterial cells are negatively charged"
+    },
+    {
+     "letter": "D",
+     "text": "India ink is anionic but not acidic"
+    },
+    {
+     "letter": "E",
+     "text": "Basic dyes are anionic"
+    }
+   ],
+   "correct": "E",
+   "explanation": "Basic dyes are CATIONIC (positively charged). Acidic dyes are anionic.",
+   "why": {
+    "A": "True \u2014 positive (direct) staining.",
+    "B": "True \u2014 they are repelled by cells.",
+    "C": "True \u2014 they attract basic dyes.",
+    "D": "True \u2014 the nuance on the slide."
+   }
+  }
+ ]
+}

@@ -1,0 +1,472 @@
+{
+ "slug": "lab5",
+ "title": "Lab 5 \u2014 Quiz 1",
+ "subtitle": "Microscopy \u2014 resolution and types of microscopes",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "Why is this microscope called a 'compound' microscope?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It uses both light and electrons"
+    },
+    {
+     "letter": "B",
+     "text": "It can view live and dead specimens"
+    },
+    {
+     "letter": "C",
+     "text": "It combines staining with magnification"
+    },
+    {
+     "letter": "D",
+     "text": "It uses two sets of lenses: ocular and objective"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Compound = 2 sets of lenses (ocular lens for your eye, objective lens near the specimen). Light = white light. Brightfield = the field of view appears bright.",
+   "why": {
+    "A": "Compound light microscopes use only white light.",
+    "B": "'Compound' refers to the two lens sets.",
+    "C": "Staining is separate from the name 'compound'."
+   },
+   "img": "../lab-img/L05s_p04_1.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Resolution is defined as:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "How much larger the image appears"
+    },
+    {
+     "letter": "B",
+     "text": "The ability to distinguish two separate objects"
+    },
+    {
+     "letter": "C",
+     "text": "The difference in color between specimen and background"
+    },
+    {
+     "letter": "D",
+     "text": "The diameter of the visible field"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Resolution is the ability to distinguish two separate objects \u2014 it reveals fine details for crisp, clear images.",
+   "why": {
+    "A": "That's magnification.",
+    "C": "That's contrast.",
+    "D": "That's the diameter of field."
+   }
+  },
+  {
+   "num": 3,
+   "type": "Photo",
+   "prompt": "The left image is unstained and the right image is stained. What does staining add?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Magnification, making the cells appear larger in the field"
+    },
+    {
+     "letter": "B",
+     "text": "Contrast, making cells easier to distinguish from the background"
+    },
+    {
+     "letter": "C",
+     "text": "Life, so the cells can be viewed while they move around"
+    },
+    {
+     "letter": "D",
+     "text": "Shorter wavelengths of light passing through the cells"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Staining with dyes creates contrast; without it, cells are hard to see against the background. Staining often kills cells and may distort their appearance.",
+   "why": {
+    "A": "Staining doesn't change magnification.",
+    "C": "Staining procedures often kill the cells.",
+    "D": "Wavelength depends on the light source, not the stain."
+   },
+   "img": "../lab-img/L05s_p06_2.jpg"
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Which of these does NOT improve resolution on the brightfield microscope?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adjusting the iris diaphragm under the stage"
+    },
+    {
+     "letter": "B",
+     "text": "Using the 100X oil immersion lens with oil"
+    },
+    {
+     "letter": "C",
+     "text": "Switching from the 100X lens back to the 40X lens"
+    },
+    {
+     "letter": "D",
+     "text": "Adjusting the brightness dial near the switch"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Ways to improve resolution: adjust brightness, adjust the iris diaphragm, and use the oil immersion lens. (Never go back to 40X after using oil.)",
+   "why": {
+    "A": "The iris diaphragm controls light through the condenser and improves resolution.",
+    "B": "Oil minimizes light scattering and improves resolution.",
+    "D": "Brightness control is listed as a way to improve resolution."
+   }
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Why does immersion oil improve resolution with the 100X lens?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It magnifies the specimen another 10 times"
+    },
+    {
+     "letter": "B",
+     "text": "It stains the bacteria so they're easier to see"
+    },
+    {
+     "letter": "C",
+     "text": "Its high refractive index minimizes light scattering"
+    },
+    {
+     "letter": "D",
+     "text": "It cools the lens so it can't crack"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Immersion oil has a high refractive index, minimizing light scattering so more light passes into the objective lens.",
+   "why": {
+    "A": "Oil doesn't add magnification.",
+    "B": "Oil isn't a stain.",
+    "D": "Oil reduces light scattering."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Photo",
+   "prompt": "Which type of microscopy produced this image of thin spirochetes glowing against a dark background?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Brightfield microscopy"
+    },
+    {
+     "letter": "B",
+     "text": "Darkfield microscopy"
+    },
+    {
+     "letter": "C",
+     "text": "Fluorescence microscopy"
+    },
+    {
+     "letter": "D",
+     "text": "Transmission electron microscopy"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Darkfield scatters light so the specimen looks bright white against a dark background. It's used for Treponema pallidum, which is too thin for brightfield.",
+   "why": {
+    "A": "In brightfield, the background is bright.",
+    "C": "Fluorescence uses glowing fluorochrome stains.",
+    "D": "TEM shows internal detail of thin slices in grayscale."
+   },
+   "img": "../lab-img/L05s_p13_1.jpg"
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Which microscope is best for viewing Treponema pallidum in a patient sample?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Brightfield"
+    },
+    {
+     "letter": "B",
+     "text": "Scanning electron"
+    },
+    {
+     "letter": "C",
+     "text": "Fluorescence with Auramine O"
+    },
+    {
+     "letter": "D",
+     "text": "Darkfield"
+    }
+   ],
+   "correct": "D",
+   "explanation": "T. pallidum doesn't grow well in culture and is too thin for brightfield, but is easily seen with darkfield.",
+   "why": {
+    "A": "T. pallidum is too thin to be seen with brightfield.",
+    "B": "Electron microscopes require dead specimens and are expensive.",
+    "C": "Auramine O binds acid-fast bacteria."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Photo",
+   "prompt": "These yellow glowing cells were stained with Auramine O. What type of microscopy is this, and what does the stain bind?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Darkfield microscopy; it binds endospores"
+    },
+    {
+     "letter": "B",
+     "text": "Fluorescence microscopy; it binds acid-fast bacteria"
+    },
+    {
+     "letter": "C",
+     "text": "Brightfield microscopy; it binds Gram-positive walls"
+    },
+    {
+     "letter": "D",
+     "text": "Fluorescence microscopy; it binds viruses"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Fluorescence microscopes use short wavelengths (green, blue, UV) and glowing fluorochromes. Auramine O binds acid-fast bacteria.",
+   "why": {
+    "A": "Auramine O is a fluorochrome that binds acid-fast bacteria.",
+    "C": "Glowing fluorochromes require fluorescence microscopy.",
+    "D": "Auramine O binds acid-fast bacteria."
+   },
+   "img": "../lab-img/L05s_p15_1.jpg"
+  },
+  {
+   "num": 9,
+   "type": "Photo",
+   "prompt": "This image shows rabies virus in brain tissue. How was the virus made visible?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A Gram stain viewed under brightfield"
+    },
+    {
+     "letter": "B",
+     "text": "Scattered light under a darkfield microscope"
+    },
+    {
+     "letter": "C",
+     "text": "Thin sections under a transmission electron microscope"
+    },
+    {
+     "letter": "D",
+     "text": "Fluorochrome-tagged antibodies (fluorescence microscopy)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Fluorochrome-tagged antibodies detect specific organisms in medical specimens \u2014 e.g., rabies virus in brain tissue.",
+   "why": {
+    "A": "Viruses aren't visualized by Gram staining.",
+    "B": "Darkfield doesn't use glowing labels.",
+    "C": "This is a fluorescence image with tagged antibodies."
+   },
+   "img": "../lab-img/L05s_p15_2.jpg"
+  },
+  {
+   "num": 10,
+   "type": "Photo",
+   "prompt": "Which type of microscopy produced this detailed 3-D view of external surface features?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Transmission electron microscopy (TEM)"
+    },
+    {
+     "letter": "B",
+     "text": "Scanning electron microscopy (SEM)"
+    },
+    {
+     "letter": "C",
+     "text": "Darkfield microscopy"
+    },
+    {
+     "letter": "D",
+     "text": "Brightfield microscopy"
+    }
+   ],
+   "correct": "B",
+   "explanation": "SEM: electrons pass over the surface \u2192 detailed external features. Recall tip: Surface Electron Microscopy.",
+   "why": {
+    "A": "TEM shows internal features of thin slices.",
+    "C": "Darkfield shows bright specimens on a dark field without surface detail.",
+    "D": "Brightfield can't resolve surface detail like this."
+   },
+   "img": "../lab-img/X05_sem.jpg"
+  },
+  {
+   "num": 11,
+   "type": "Photo",
+   "prompt": "Which type of microscopy produced this image of internal structures in a thin slice?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Scanning electron microscopy (SEM)"
+    },
+    {
+     "letter": "B",
+     "text": "Transmission electron microscopy (TEM)"
+    },
+    {
+     "letter": "C",
+     "text": "Fluorescence microscopy"
+    },
+    {
+     "letter": "D",
+     "text": "Darkfield microscopy"
+    }
+   ],
+   "correct": "B",
+   "explanation": "TEM: electrons pass through thin slices \u2192 detailed internal features. Recall tip: inTernal = TEM.",
+   "why": {
+    "A": "SEM shows external surfaces.",
+    "C": "Fluorescence images glow on a dark background.",
+    "D": "Darkfield doesn't show internal detail."
+   },
+   "img": "../lab-img/X05_tem.jpg"
+  },
+  {
+   "num": 12,
+   "type": "Photo",
+   "prompt": "What is the main trade-off of using an electron microscope?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Resolution is lower than with a light microscope"
+    },
+    {
+     "letter": "B",
+     "text": "Only dead specimens can be visualized"
+    },
+    {
+     "letter": "C",
+     "text": "Only live specimens can be visualized"
+    },
+    {
+     "letter": "D",
+     "text": "Viruses are too small to be seen"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Electron microscopes give high-resolution images at high magnification, but only dead specimens can be viewed. They're expensive and not common.",
+   "why": {
+    "A": "Electron microscopes have much higher resolution.",
+    "C": "Electron beams kill living things.",
+    "D": "Electron microscopes are excellent for viruses and prions."
+   },
+   "img": "../lab-img/L05s_p16_1.jpg"
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Why do electron microscopes have far greater resolution than light microscopes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Electrons are larger than light waves"
+    },
+    {
+     "letter": "B",
+     "text": "Electron microscopes use immersion oil"
+    },
+    {
+     "letter": "C",
+     "text": "Electron microscopes use fluorochromes"
+    },
+    {
+     "letter": "D",
+     "text": "Electrons have incredibly short wavelengths"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Shorter wavelengths squeeze between objects so they look separate. Electrons fit between atoms, pushing resolution far beyond light's limits.",
+   "why": {
+    "A": "Shorter wavelengths, not larger particles, improve resolution.",
+    "B": "Oil is used with the 100X light lens.",
+    "C": "Fluorochromes are for fluorescence microscopy."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Photo",
+   "prompt": "Fluorescence microscopes achieve higher resolution than standard brightfield because they use:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Longer wavelength light (red, infrared)"
+    },
+    {
+     "letter": "B",
+     "text": "Beams of electrons"
+    },
+    {
+     "letter": "C",
+     "text": "A dark background"
+    },
+    {
+     "letter": "D",
+     "text": "Shorter wavelength light (green, blue, UV)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Shorter wavelengths of light squeeze between objects more easily, helping them look separate.",
+   "why": {
+    "A": "Longer wavelengths lower resolution.",
+    "B": "Electron microscopes use electrons.",
+    "C": "A dark background is darkfield microscopy."
+   },
+   "img": "../lab-img/L05s_p08_3.jpg"
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about darkfield microscopy is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The specimen looks bright against a dark background"
+    },
+    {
+     "letter": "B",
+     "text": "Live, unstained specimens can be viewed"
+    },
+    {
+     "letter": "C",
+     "text": "Intracellular details are clearly visible"
+    },
+    {
+     "letter": "D",
+     "text": "It is used to see Treponema pallidum"
+    },
+    {
+     "letter": "E",
+     "text": "It works by scattering light"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Darkfield's trade-off: intracellular details are NOT visible.",
+   "why": {
+    "A": "True \u2014 light is scattered by the specimen.",
+    "B": "True \u2014 this is darkfield's benefit.",
+    "D": "True \u2014 its medical use.",
+    "E": "True \u2014 that's how it functions."
+   },
+   "img": "../lab-img/X05_df.jpg"
+  }
+ ]
+}

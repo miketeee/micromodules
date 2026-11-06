@@ -26,7 +26,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "None of the trapped bacteria caused the disease, but the cell-free filtrate did — a filterable infectious poison."
+   "explanation": "None of the trapped bacteria caused the disease, but the cell-free filtrate did — a filterable infectious poison.",
+   "why": {
+    "B": "Antibiotics weren't the test, and they don't work on viruses.",
+    "C": "Viruses can't be seen with a light microscope.",
+    "D": "The trapped bacteria didn't cause disease."
+   }
   },
   {
    "num": 2,
@@ -55,7 +60,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False. A virus's genome is either DNA or RNA, not both."
+   "explanation": "False. A virus's genome is either DNA or RNA, not both.",
+   "why": {
+    "A": "True — they're obligate intracellular parasites.",
+    "B": "True — 20–1,000 nm.",
+    "D": "True — they aren't considered alive.",
+    "E": "True — you need an electron microscope."
+   }
   },
   {
    "num": 3,
@@ -80,7 +91,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Capsomeres are the individual protein units that assemble into the capsid."
+   "explanation": "Capsomeres are the individual protein units that assemble into the capsid.",
+   "why": {
+    "A": "Genome pieces are segments.",
+    "C": "The envelope is lipid, not capsomeres.",
+    "D": "Receptors are on host cells, not the capsid."
+   }
   },
   {
    "num": 4,
@@ -105,7 +121,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Combining a polyhedral capsid with a helical sheath makes it a complex virus."
+   "explanation": "Combining a polyhedral capsid with a helical sheath makes it a complex virus.",
+   "why": {
+    "A": "It has more than a polyhedral head.",
+    "B": "Phages aren't enveloped.",
+    "C": "It has more than a helical sheath."
+   }
   },
   {
    "num": 5,
@@ -130,7 +151,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "A phospholipid bilayer envelope (with spikes) makes them enveloped viruses."
+   "explanation": "A phospholipid bilayer envelope (with spikes) makes them enveloped viruses.",
+   "why": {
+    "B": "Naked viruses lack an envelope.",
+    "C": "Phages infect bacteria.",
+    "D": "Complex describes phage-like shapes."
+   }
   },
   {
    "num": 6,
@@ -163,7 +189,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Segmented = multiple pieces of nucleic acid; simple = one piece."
+   "explanation": "Segmented = multiple pieces of nucleic acid; simple = one piece.",
+   "why": {
+    "A": "Simple means one piece.",
+    "B": "Circular is about shape, not pieces.",
+    "D": "Complex is a capsid shape."
+   }
   },
   {
    "num": 8,
@@ -192,7 +223,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False. Only the genome (DNA) is injected; the capsid, sheath, and tail fibers stay outside."
+   "explanation": "False. Only the genome (DNA) is injected; the capsid, sheath, and tail fibers stay outside.",
+   "why": {
+    "A": "True — the host makes phage parts.",
+    "C": "True — attachment needs protein binding.",
+    "D": "True — maturation assembles virions.",
+    "E": "True — release is by lysis."
+   }
   },
   {
    "num": 9,
@@ -217,7 +254,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Lysozyme digests peptidoglycan in the cell wall."
+   "explanation": "Lysozyme digests peptidoglycan in the cell wall.",
+   "why": {
+    "A": "Gyrase is a bacterial replication enzyme.",
+    "C": "Reverse transcriptase is a retrovirus enzyme.",
+    "D": "Neuraminidase is a flu release enzyme."
+   }
   },
   {
    "num": 10,
@@ -242,7 +284,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Each clear zone of lysed bacteria started from a single phage, so counting plaques counts phages."
+   "explanation": "Each clear zone of lysed bacteria started from a single phage, so counting plaques counts phages.",
+   "why": {
+    "A": "Endospores aren't plaques.",
+    "B": "Plaques are clear zones from one phage, not contaminants.",
+    "D": "Colonies are growth; plaques are clearings."
+   }
   },
   {
    "num": 11,
@@ -267,7 +314,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Phage DNA integrated into a bacterial chromosome is a prophage. (Provirus is the term for animal viruses.)"
+   "explanation": "Phage DNA integrated into a bacterial chromosome is a prophage. (Provirus is the term for animal viruses.)",
+   "why": {
+    "A": "A plaque is a clear zone on a plate.",
+    "B": "A plasmid is separate DNA.",
+    "C": "'Provirus' is used for animal viruses."
+   }
   },
   {
    "num": 12,
@@ -300,7 +352,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Expression of prophage genes changes the bacterium's phenotype — lysogenic conversion."
+   "explanation": "Expression of prophage genes changes the bacterium's phenotype — lysogenic conversion.",
+   "why": {
+    "A": "Transformation is DNA uptake.",
+    "C": "Phage therapy is a treatment.",
+    "D": "Induction is the prophage going lytic."
+   }
   },
   {
    "num": 14,
@@ -325,7 +382,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "He reasoned healthy soldiers carried phages that killed the dysentery bacteria — the start of phage therapy."
+   "explanation": "He reasoned healthy soldiers carried phages that killed the dysentery bacteria — the start of phage therapy.",
+   "why": {
+    "B": "Penicillin didn't exist yet.",
+    "C": "He didn't use lysozyme.",
+    "D": "He didn't vaccinate."
+   }
   },
   {
    "num": 15,
@@ -354,7 +416,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False. Large doses over many days describe antibiotics; phages multiply in the target, so a small single dose can work."
+   "explanation": "False. Large doses over many days describe antibiotics; phages multiply in the target, so a small single dose can work.",
+   "why": {
+    "B": "True — antibiotics kill good flora.",
+    "C": "True — phages are specific.",
+    "D": "True — doses self-amplify.",
+    "E": "True — you must identify the bacterium."
+   }
   },
   {
    "num": 16,

@@ -30,7 +30,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False. Only the gene region (promoter to terminator) is transcribed, not the whole chromosome."
+   "explanation": "False. Only the gene region (promoter to terminator) is transcribed, not the whole chromosome.",
+   "why": {
+    "A": "True — the terminator ends it.",
+    "C": "True — mRNA is complementary to the template.",
+    "D": "True — RNA is single-stranded.",
+    "E": "True — RNA polymerase binds the promoter."
+   }
   },
   {
    "num": 2,
@@ -55,7 +61,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Elongation — RNA polymerase keeps unzipping DNA and adding complementary RNA nucleotides."
+   "explanation": "Elongation — RNA polymerase keeps unzipping DNA and adding complementary RNA nucleotides.",
+   "why": {
+    "A": "Termination is when polymerase falls off.",
+    "B": "Initiation is binding the promoter.",
+    "C": "Translocation isn't a transcription stage."
+   }
   },
   {
    "num": 3,
@@ -80,7 +91,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Translation begins at the first AUG (start codon), which codes for methionine; the GCU before it isn't translated."
+   "explanation": "Translation begins at the first AUG (start codon), which codes for methionine; the GCU before it isn't translated.",
+   "why": {
+    "A": "UUU (Phe) comes after the start.",
+    "C": "Translation starts at AUG, not GCU.",
+    "D": "Leucine isn't the start amino acid."
+   }
   },
   {
    "num": 4,
@@ -105,7 +121,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Anticodons are complementary to codons: U–A, A–U, C–G → AUG (the start codon, methionine)."
+   "explanation": "Anticodons are complementary to codons: U–A, A–U, C–G → AUG (the start codon, methionine).",
+   "why": {
+    "B": "GUA isn't complementary to UAC.",
+    "C": "UAC is the anticodon itself.",
+    "D": "ATG is DNA; mRNA uses U."
+   }
   },
   {
    "num": 5,
@@ -142,7 +163,13 @@
     }
    ],
    "correct": "D",
-   "explanation": "False. 64 codons code for only 20 amino acids, so most amino acids have several codons."
+   "explanation": "False. 64 codons code for only 20 amino acids, so most amino acids have several codons.",
+   "why": {
+    "A": "True — codons are triplets.",
+    "B": "True — AUG is the start.",
+    "C": "True — 64 codons.",
+    "E": "True — the code is universal."
+   }
   },
   {
    "num": 7,
@@ -167,7 +194,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Each tRNA carries a specific amino acid matched to its anticodon, which base-pairs with the mRNA codon."
+   "explanation": "Each tRNA carries a specific amino acid matched to its anticodon, which base-pairs with the mRNA codon.",
+   "why": {
+    "A": "RNA polymerase makes mRNA.",
+    "B": "rRNA forms the ribosome.",
+    "C": "mRNA carries codons, not amino acids."
+   }
   },
   {
    "num": 8,
@@ -192,7 +224,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Lactose is the inducer: it inactivates the repressor, freeing the operator so RNA polymerase can transcribe the lactase genes."
+   "explanation": "Lactose is the inducer: it inactivates the repressor, freeing the operator so RNA polymerase can transcribe the lactase genes.",
+   "why": {
+    "B": "The repressor gene is always on.",
+    "C": "Lactose binds the repressor, not the operator.",
+    "D": "RNA polymerase isn't destroyed."
+   }
   },
   {
    "num": 9,
@@ -217,7 +254,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Repressible operons are on by default and turned off when needed (trp operon); inducible ones are like a lamp."
+   "explanation": "Repressible operons are on by default and turned off when needed (trp operon); inducible ones are like a lamp.",
+   "why": {
+    "A": "Repressible operons are on by default.",
+    "B": "Inducible operons are off by default, like a lamp.",
+    "C": "Inducible operons aren't on by default."
+   }
   },
   {
    "num": 10,
@@ -250,7 +292,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Jacques Monod (Nobel Prize 1965)."
+   "explanation": "Jacques Monod (Nobel Prize 1965).",
+   "why": {
+    "A": "Griffith did transformation.",
+    "B": "Mullis invented PCR.",
+    "C": "Avery showed DNA is the genetic material."
+   }
   },
   {
    "num": 12,
@@ -275,7 +322,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The amino acid doesn't change, so it is silent (possible because of codon redundancy)."
+   "explanation": "The amino acid doesn't change, so it is silent (possible because of codon redundancy).",
+   "why": {
+    "A": "No insertion or deletion occurred.",
+    "C": "No stop codon was created.",
+    "D": "The amino acid didn't change."
+   }
   },
   {
    "num": 13,
@@ -300,7 +352,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "UGA is a stop codon, so the protein is cut short — a nonsense mutation."
+   "explanation": "UGA is a stop codon, so the protein is cut short — a nonsense mutation.",
+   "why": {
+    "A": "Missense swaps one amino acid for another.",
+    "C": "It's a substitution, not a frameshift.",
+    "D": "UGA is a stop, so not silent."
+   }
   },
   {
    "num": 14,
@@ -329,7 +386,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False. Changing only one amino acid is typical of a substitution; a frameshift scrambles everything downstream."
+   "explanation": "False. Changing only one amino acid is typical of a substitution; a frameshift scrambles everything downstream.",
+   "why": {
+    "B": "True — insertions or deletions cause them.",
+    "C": "True — every downstream codon can change.",
+    "D": "True — the reading frame shifts.",
+    "E": "True — they can be lethal."
+   }
   },
   {
    "num": 15,
@@ -354,7 +417,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Thymine dimers kink DNA; as they accumulate, one eventually disrupts an essential gene."
+   "explanation": "Thymine dimers kink DNA; as they accumulate, one eventually disrupts an essential gene.",
+   "why": {
+    "A": "Gyrase inhibition is Cipro.",
+    "B": "UV damages DNA, not RNA polymerase.",
+    "C": "UV forms dimers; it doesn't shatter the backbone."
+   }
   },
   {
    "num": 16,

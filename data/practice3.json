@@ -26,7 +26,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Giardia is an Archaezoan, Trypanosoma a Euglenozoan, Entamoeba an Amoebozoan."
+   "explanation": "Giardia is an Archaezoan, Trypanosoma a Euglenozoan, Entamoeba an Amoebozoan.",
+   "why": {
+    "B": "Entamoeba is an Amoebozoan.",
+    "C": "Giardia is an Archaezoan.",
+    "D": "Trypanosoma is a Euglenozoan."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Diatoms are algae (autotrophic protists with silica walls). Euglena is technically a protozoan even though it can photosynthesize."
+   "explanation": "Diatoms are algae (autotrophic protists with silica walls). Euglena is technically a protozoan even though it can photosynthesize.",
+   "why": {
+    "B": "Entamoeba is a protozoan (Amoebozoan).",
+    "C": "Euglena is a protozoan (Euglenozoan).",
+    "D": "Giardia is a protozoan (Archaezoan)."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Proto (as in prototype) + zoa (animal). 'Eukaryotic' = wonderful nugget; 'amoeba' = without shape; 'trophozoite' = feeding animal."
+   "explanation": "Proto (as in prototype) + zoa (animal). 'Eukaryotic' = wonderful nugget; 'amoeba' = without shape; 'trophozoite' = feeding animal.",
+   "why": {
+    "A": "'Wonderful nugget' is eukaryote.",
+    "B": "'Feeding animal' is trophozoite.",
+    "C": "'Without shape' is amoeba."
+   }
   },
   {
    "num": 4,
@@ -105,7 +120,13 @@
     }
    ],
    "correct": "D",
-   "explanation": "False — the eye spot only detects the presence of light; it can't form an image."
+   "explanation": "False — the eye spot only detects the presence of light; it can't form an image.",
+   "why": {
+    "A": "True — amoeba means without shape.",
+    "B": "True — diatoms have glass walls.",
+    "C": "True — dinoflagellates cause red tide.",
+    "E": "True — Protista has both."
+   }
   },
   {
    "num": 5,
@@ -146,7 +167,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Histoplasmosis is caused by Histoplasma. Penicillium is known for penicillin."
+   "explanation": "Histoplasmosis is caused by Histoplasma. Penicillium is known for penicillin.",
+   "why": {
+    "A": "True — Candida causes thrush.",
+    "B": "True — Aspergillus causes farmer's lung.",
+    "C": "True — S. cerevisiae is for baking and brewing."
+   }
   },
   {
    "num": 8,
@@ -171,7 +197,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Fungi have chitin walls (similar to plant cellulose) and are non-motile, but they are heterotrophs, not photosynthetic."
+   "explanation": "Fungi have chitin walls (similar to plant cellulose) and are non-motile, but they are heterotrophs, not photosynthetic.",
+   "why": {
+    "A": "Fungi use chitin; plants use cellulose — not shared.",
+    "C": "Fungi don't photosynthesize.",
+    "D": "Fungi have no chloroplasts."
+   }
   },
   {
    "num": 9,
@@ -196,7 +227,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Truffles are a 'mushroom of sorts' that never come above ground — which is why pigs are used to find them."
+   "explanation": "Truffles are a 'mushroom of sorts' that never come above ground — which is why pigs are used to find them.",
+   "why": {
+    "B": "Truffles don't grow on strawberries.",
+    "C": "Truffles reproduce sexually.",
+    "D": "Truffles aren't yeasts."
+   }
   },
   {
    "num": 10,
@@ -225,7 +261,13 @@
     }
    ],
    "correct": "E",
-   "explanation": "False — thrush is caused by Candida albicans. Saccharomyces is baker's and brewer's yeast."
+   "explanation": "False — thrush is caused by Candida albicans. Saccharomyces is baker's and brewer's yeast.",
+   "why": {
+    "A": "True — yeasts are unicellular.",
+    "B": "True — Candida is dimorphic.",
+    "C": "True — facultative anaerobes.",
+    "D": "True — budding or fission."
+   }
   },
   {
    "num": 11,
@@ -266,7 +308,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Taenia is a cestode; Ascaris and Dirofilaria are nematodes."
+   "explanation": "Taenia is a cestode; Ascaris and Dirofilaria are nematodes.",
+   "why": {
+    "A": "Dirofilaria is a nematode.",
+    "C": "Ascaris is a nematode.",
+    "D": "Taenia is a cestode."
+   }
   },
   {
    "num": 14,
@@ -291,7 +338,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Heartworms infect dogs and cats; the lecture covers Dracunculus, Ascaris, and Enterobius as human parasites."
+   "explanation": "Heartworms infect dogs and cats; the lecture covers Dracunculus, Ascaris, and Enterobius as human parasites.",
+   "why": {
+    "B": "Pinworms infect people.",
+    "C": "Guinea worm infects people.",
+    "D": "Ascaris infects people."
+   }
   },
   {
    "num": 15,
@@ -316,7 +368,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Lecture: dental work and deworming are the two main things that have to be done."
+   "explanation": "Lecture: dental work and deworming are the two main things that have to be done.",
+   "why": {
+    "A": "Not vaccines and malaria.",
+    "B": "Not water testing and nets.",
+    "C": "Not deliveries and burns."
+   }
   },
   {
    "num": 16,
@@ -345,7 +402,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — C. elegans is harmless; it is one of the most studied model organisms."
+   "explanation": "False — C. elegans is harmless; it is one of the most studied model organisms.",
+   "why": {
+    "B": "True — 302 neurons.",
+    "C": "True — a microscopic nematode.",
+    "D": "True — 959 adult cells.",
+    "E": "True — 131 programmed deaths."
+   }
   },
   {
    "num": 17,
@@ -386,7 +449,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Every DNA nucleotide has a phosphate and deoxyribose; the nitrogenous base is the unique part."
+   "explanation": "Every DNA nucleotide has a phosphate and deoxyribose; the nitrogenous base is the unique part.",
+   "why": {
+    "B": "DNA uses deoxyribose, and bases differ.",
+    "C": "Hydrogen bonds aren't part of a nucleotide.",
+    "D": "The base is what differs."
+   }
   },
   {
    "num": 20,
@@ -411,7 +479,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Gyrase uncoils supercoiled DNA; helicase then unzips the double helix."
+   "explanation": "Gyrase uncoils supercoiled DNA; helicase then unzips the double helix.",
+   "why": {
+    "A": "Ligase joins fragments.",
+    "C": "Helicase unzips.",
+    "D": "Primase lays primers."
+   }
   },
   {
    "num": 21,
@@ -436,7 +509,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Their one-page paper had no data tables; Franklin's X-ray work showed the double helix."
+   "explanation": "Their one-page paper had no data tables; Franklin's X-ray work showed the double helix.",
+   "why": {
+    "A": "Franklin didn't publish the structure; she took Photo 51.",
+    "C": "Avery and Griffith did transformation.",
+    "D": "Hershey and Chase did phage labeling."
+   }
   },
   {
    "num": 22,
@@ -465,7 +543,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False — the lagging strand is built in Okazaki fragments."
+   "explanation": "False — the lagging strand is built in Okazaki fragments.",
+   "why": {
+    "A": "True — 5′→3′ only.",
+    "B": "True — leading is continuous.",
+    "D": "True — ligase joins fragments.",
+    "E": "True — lagging goes away from the fork."
+   }
   },
   {
    "num": 23,
@@ -506,7 +590,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Instructor slides: rRNA + proteins = ribosomes; mRNA carries codons; tRNA carries an amino acid and an anticodon."
+   "explanation": "Instructor slides: rRNA + proteins = ribosomes; mRNA carries codons; tRNA carries an amino acid and an anticodon.",
+   "why": {
+    "A": "Jobs are scrambled.",
+    "B": "Only mRNA carries codons; none is 'translated' except mRNA.",
+    "C": "Jobs are scrambled."
+   }
   },
   {
    "num": 26,
@@ -531,7 +620,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Order: repressor gene – promoter – operator – genes – terminator. A repressor on the operator blocks RNA polymerase."
+   "explanation": "Order: repressor gene – promoter – operator – genes – terminator. A repressor on the operator blocks RNA polymerase.",
+   "why": {
+    "A": "The repressor gene comes first.",
+    "B": "Not after the terminator.",
+    "C": "Not inside the repressor gene."
+   }
   },
   {
    "num": 27,
@@ -556,7 +650,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Initiation (bind promoter, begin), elongation (keep building mRNA), termination (reach terminator and fall off)."
+   "explanation": "Initiation (bind promoter, begin), elongation (keep building mRNA), termination (reach terminator and fall off).",
+   "why": {
+    "A": "Ribosomes binding is translation.",
+    "B": "Binding the promoter is initiation.",
+    "D": "Falling off is termination."
+   }
   },
   {
    "num": 28,
@@ -585,7 +684,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — a dimer forms between two thymines next to each other on the same strand."
+   "explanation": "False — a dimer forms between two thymines next to each other on the same strand.",
+   "why": {
+    "B": "True — 254 nm.",
+    "C": "True — covalent bond pinches DNA.",
+    "D": "True — UV causes dimers.",
+    "E": "True — dimers cause frameshifts."
+   }
   },
   {
    "num": 29,
@@ -626,7 +731,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Separate strands at ~96 °C, let primers anneal at ~55 °C, extend with polymerase at ~72 °C; repeat 25–35 times."
+   "explanation": "Separate strands at ~96 °C, let primers anneal at ~55 °C, extend with polymerase at ~72 °C; repeat 25–35 times.",
+   "why": {
+    "A": "Wrong order and temperatures.",
+    "B": "Wrong temperatures.",
+    "C": "Wrong order."
+   }
   },
   {
    "num": 32,
@@ -651,7 +761,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Cas9 is a programmable DNA-cutting enzyme; swapping the guide RNA reprograms where it cuts."
+   "explanation": "Cas9 is a programmable DNA-cutting enzyme; swapping the guide RNA reprograms where it cuts.",
+   "why": {
+    "A": "Cas9 cuts; the guide directs.",
+    "B": "GAATTC is EcoRI's site.",
+    "D": "Cas9 cuts; it doesn't glue."
+   }
   },
   {
    "num": 33,
@@ -676,7 +791,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Her cells were edited to make the correct hemoglobin and returned."
+   "explanation": "Her cells were edited to make the correct hemoglobin and returned.",
+   "why": {
+    "A": "Slayman got a pig kidney.",
+    "C": "Clevers worked in dishes.",
+    "D": "He Jiankui edited embryos."
+   }
   },
   {
    "num": 34,
@@ -705,7 +825,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False — PCR copies just the region between the primers."
+   "explanation": "False — PCR copies just the region between the primers.",
+   "why": {
+    "A": "True — exponential growth.",
+    "B": "True — Mullis, 1993.",
+    "D": "True — the cycler automates it.",
+    "E": "True — primers flank the target."
+   }
   },
   {
    "num": 35,
@@ -746,7 +872,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "A virus has one type of nucleic acid and a protein capsid made of capsomeres; some add an envelope."
+   "explanation": "A virus has one type of nucleic acid and a protein capsid made of capsomeres; some add an envelope.",
+   "why": {
+    "A": "Viruses have no cell wall.",
+    "B": "Viruses aren't cells.",
+    "D": "A virus has DNA or RNA, not both."
+   }
   },
   {
    "num": 38,
@@ -771,7 +902,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Ebola is a long helical 'garden hose.' HPV is polyhedral, TMV helical, and phages are complex."
+   "explanation": "Ebola is a long helical 'garden hose.' HPV is polyhedral, TMV helical, and phages are complex.",
+   "why": {
+    "A": "Phages are complex.",
+    "B": "HPV is polyhedral.",
+    "D": "TMV is helical."
+   }
   },
   {
    "num": 39,
@@ -796,7 +932,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Phage therapy requires matching a phage to the exact microbe; the other choices describe phage therapy's advantages."
+   "explanation": "Phage therapy requires matching a phage to the exact microbe; the other choices describe phage therapy's advantages.",
+   "why": {
+    "A": "One self-multiplying dose is phage therapy.",
+    "B": "Self-removal is phage therapy.",
+    "C": "Sparing good bacteria is phage therapy."
+   }
   },
   {
    "num": 40,
@@ -825,7 +966,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — capsomeres are the protein subunits that make up the capsid."
+   "explanation": "False — capsomeres are the protein subunits that make up the capsid.",
+   "why": {
+    "A": "True — the capsid holds nucleic acid.",
+    "C": "True — an envelope is a bilayer.",
+    "D": "True — naked means no envelope.",
+    "E": "True — spikes attach."
+   }
   },
   {
    "num": 41,
@@ -866,7 +1013,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Direct penetration: human enterovirus. Membrane fusion: SARS-CoV-2 and HIV. Endocytosis: influenza (used by naked and enveloped viruses)."
+   "explanation": "Direct penetration: human enterovirus. Membrane fusion: SARS-CoV-2 and HIV. Endocytosis: influenza (used by naked and enveloped viruses).",
+   "why": {
+    "B": "SARS-CoV-2 uses fusion.",
+    "C": "Enterovirus uses direct penetration.",
+    "D": "Enveloped viruses use endocytosis too."
+   }
   },
   {
    "num": 44,
@@ -891,7 +1043,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Acute: immediately productive, quick spike and decline. Herpes is latent; HIV is persistent."
+   "explanation": "Acute: immediately productive, quick spike and decline. Herpes is latent; HIV is persistent.",
+   "why": {
+    "A": "Shingles is latent.",
+    "B": "HIV is persistent.",
+    "D": "Cold sores are latent."
+   }
   },
   {
    "num": 45,
@@ -916,7 +1073,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Viruses infect bacteria, archaea, algae, fungi, protozoa, plants, and animals — but specificity comes from attachment sites."
+   "explanation": "Viruses infect bacteria, archaea, algae, fungi, protozoa, plants, and animals — but specificity comes from attachment sites.",
+   "why": {
+    "A": "Viruses infect plants, fungi, and bacteria too.",
+    "C": "Host range is narrow.",
+    "D": "Host range depends on proteins and receptors."
+   }
   },
   {
    "num": 46,
@@ -945,7 +1107,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — membrane fusion needs an envelope, so it's used by enveloped viruses."
+   "explanation": "False — membrane fusion needs an envelope, so it's used by enveloped viruses.",
+   "why": {
+    "A": "True — endocytosis engulfs.",
+    "C": "True — fusion melts envelopes.",
+    "D": "True — endocytosis needs uncoating.",
+    "E": "True — direct penetration is least common."
+   }
   },
   {
    "num": 47,
@@ -986,7 +1154,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "HPV is the DNA example, coronavirus the RNA example, and HIV the retrovirus example."
+   "explanation": "HPV is the DNA example, coronavirus the RNA example, and HIV the retrovirus example.",
+   "why": {
+    "B": "Examples scrambled.",
+    "C": "Examples scrambled.",
+    "D": "Examples scrambled."
+   }
   },
   {
    "num": 50,
@@ -1011,7 +1184,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "HPV — cervical cancer; hepatitis B and C — liver cancer; Rous sarcoma virus — sarcoma in chickens."
+   "explanation": "HPV — cervical cancer; hepatitis B and C — liver cancer; Rous sarcoma virus — sarcoma in chickens.",
+   "why": {
+    "A": "Rous sarcoma virus is in chickens.",
+    "C": "Hepatitis B is linked to liver cancer.",
+    "D": "HPV is linked to cervical cancer."
+   }
   },
   {
    "num": 51,
@@ -1036,7 +1214,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Viruses only grow inside living cells."
+   "explanation": "Viruses only grow inside living cells.",
+   "why": {
+    "B": "Eggs are a culture method.",
+    "C": "Cell cultures are a method.",
+    "D": "Live animals are a method."
+   }
   },
   {
    "num": 52,
@@ -1065,7 +1248,13 @@
     }
    ],
    "correct": "D",
-   "explanation": "False — S is DNA synthesis; division happens in M (mitosis)."
+   "explanation": "False — S is DNA synthesis; division happens in M (mitosis).",
+   "why": {
+    "A": "True — M is mitosis.",
+    "B": "True — G1, S, G2, M.",
+    "C": "True — DNA copies in S.",
+    "E": "True — G1 is normal work."
+   }
   },
   {
    "num": 53,
@@ -1106,7 +1295,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Vermox (mebendazole) inhibits sugar absorption in worms. Remdesivir is the drug that disrupts viral polymerase."
+   "explanation": "Vermox (mebendazole) inhibits sugar absorption in worms. Remdesivir is the drug that disrupts viral polymerase.",
+   "why": {
+    "A": "Correct — Tamiflu blocks neuraminidase.",
+    "B": "Correct — Cipro blocks gyrase.",
+    "D": "Correct — Monistat blocks ergosterol synthesis."
+   }
   },
   {
    "num": 56,
@@ -1131,7 +1325,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Apicomplexa such as Plasmodium are obligate intracellular parasites, as are all viruses."
+   "explanation": "Apicomplexa such as Plasmodium are obligate intracellular parasites, as are all viruses.",
+   "why": {
+    "A": "Giardia and Candida aren't intracellular.",
+    "B": "Ascaris and Taenia live in the gut.",
+    "D": "Saccharomyces and Euglena are free-living."
+   }
   }
  ]
 }

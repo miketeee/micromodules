@@ -26,7 +26,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Capsules inhibit phagocytosis, the step opsonization is meant to help."
+   "explanation": "Capsules inhibit phagocytosis, the step opsonization is meant to help.",
+   "why": {
+    "A": "Siderophores steal iron.",
+    "B": "Hemolysins burst RBCs.",
+    "D": "Collagenase digests tissue."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Links Module 19 endotoxin to Module 21 complement triggers."
+   "explanation": "Links Module 19 endotoxin to Module 21 complement triggers.",
+   "why": {
+    "B": "LPS doesn't block interferon.",
+    "C": "LPS raises temperature.",
+    "D": "LPS doesn't destroy C9."
+   }
   },
   {
    "num": 3,
@@ -80,7 +90,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "C3b, not C3a, opsonizes."
+   "explanation": "C3b, not C3a, opsonizes.",
+   "why": {
+    "B": "True — C9 forms the pore.",
+    "C": "True — C3a and C5a act on mast cells.",
+    "D": "True — C5b starts the MAC.",
+    "E": "True — C3b activates C5."
+   }
   },
   {
    "num": 4,
@@ -105,7 +121,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Trigger differs; outcomes are the same."
+   "explanation": "Trigger differs; outcomes are the same.",
+   "why": {
+    "A": "All three outcomes can occur.",
+    "B": "Inflammation can still happen.",
+    "C": "Complement doesn't make interferon."
+   }
   },
   {
    "num": 5,
@@ -130,7 +151,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Interferon's weakness is that AVPs destroy RNA broadly."
+   "explanation": "Interferon's weakness is that AVPs destroy RNA broadly.",
+   "why": {
+    "B": "They wouldn't replace complement.",
+    "C": "Blocking mRNA isn't opsonization.",
+    "D": "They wouldn't cause fever."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "The infected cell 'knows its fate is sealed.'"
+   "explanation": "The infected cell 'knows its fate is sealed.'",
+   "why": {
+    "B": "Histamine from a cut is tissue damage.",
+    "C": "Mannose triggers complement.",
+    "D": "Opsonization is coating."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Same cascade as Module 20 after histamine release."
+   "explanation": "Same cascade as Module 20 after histamine release.",
+   "why": {
+    "A": "WBCs arrive last.",
+    "B": "Pus and MAC are out of order.",
+    "D": "Interferon isn't part of this."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Watch for dangerous high fevers instead."
+   "explanation": "Watch for dangerous high fevers instead.",
+   "why": {
+    "A": "Above 44 °C is dangerous.",
+    "B": "Fever helps against bacteria.",
+    "D": "Fever affects bacterial enzymes."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Phagocytosis digests; the MAC bursts the cell."
+   "explanation": "Phagocytosis digests; the MAC bursts the cell.",
+   "why": {
+    "A": "Histamine and pyrogens don't kill bacteria directly.",
+    "C": "Neither destroys bacteria directly.",
+    "D": "Mannose and LPS are bacterial molecules."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Injecting it makes it systemic — which causes side effects."
+   "explanation": "Injecting it makes it systemic — which causes side effects.",
+   "why": {
+    "A": "It isn't stored in the liver.",
+    "B": "It isn't stored in mast cells.",
+    "C": "Natural interferon acts locally."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Interferon fills the antiviral gap."
+   "explanation": "Interferon fills the antiviral gap.",
+   "why": {
+    "A": "Viruses do have proteins.",
+    "C": "Complement can be activated.",
+    "D": "Mannose is on bacteria, not human cells."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "First line = barriers/chemicals; third line = antibodies/T cells."
+   "explanation": "First line = barriers/chemicals; third line = antibodies/T cells.",
+   "why": {
+    "A": "Those are third-line.",
+    "C": "Those are first-line fluids.",
+    "D": "Those are first-line barriers."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "C3b is the opsonin."
+   "explanation": "C3b is the opsonin.",
+   "why": {
+    "A": "Interferon doesn't involve C3b.",
+    "B": "Mucus clearance doesn't involve C3b.",
+    "C": "Fever doesn't involve C3b."
+   }
   },
   {
    "num": 14,

@@ -26,7 +26,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Mullis built short stretches of DNA matching the letters that flank the region to copy. In cells, primase makes RNA primers."
+   "explanation": "Mullis built short stretches of DNA matching the letters that flank the region to copy. In cells, primase makes RNA primers.",
+   "why": {
+    "A": "Reversed.",
+    "B": "PCR primers are chosen for specific sites.",
+    "D": "Neither primer is protein."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Copies increase exponentially: 2, 4, 8 … 2^10 = 1,024."
+   "explanation": "Copies increase exponentially: 2, 4, 8 … 2^10 = 1,024.",
+   "why": {
+    "A": "Copies double; they don't add one.",
+    "B": "Doubling isn't adding two.",
+    "C": "10 × 10 isn't doubling."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Lecture: binary fission 'is just cloning.' Horizontal transfer = exchanging genetic information with neighbors within a generation."
+   "explanation": "Lecture: binary fission 'is just cloning.' Horizontal transfer = exchanging genetic information with neighbors within a generation.",
+   "why": {
+    "B": "Binary fission copies the chromosome too.",
+    "C": "Gene mixing isn't what fission does.",
+    "D": "No restriction enzymes are involved."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "A plasmid is a small DNA loop separate from the chromosome with accessory genes; bacteria exchange copies by horizontal gene transfer."
+   "explanation": "A plasmid is a small DNA loop separate from the chromosome with accessory genes; bacteria exchange copies by horizontal gene transfer.",
+   "why": {
+    "A": "Plasmids are DNA.",
+    "B": "Essential genes are on the chromosome.",
+    "C": "Restriction enzymes can cut plasmids."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "A positive result means the primer-targeted sequence was present and amplified. The target must be unique to the microbe."
+   "explanation": "A positive result means the primer-targeted sequence was present and amplified. The target must be unique to the microbe.",
+   "why": {
+    "A": "Pathogen DNA isn't special in strandedness.",
+    "C": "Human DNA denatures too.",
+    "D": "Human enzymes don't destroy Taq here."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Reverse transcriptase makes DNA from an RNA template. PCR's DNA polymerase copies DNA. SARS-CoV-2's genome is RNA."
+   "explanation": "Reverse transcriptase makes DNA from an RNA template. PCR's DNA polymerase copies DNA. SARS-CoV-2's genome is RNA.",
+   "why": {
+    "A": "Taq survives the heat.",
+    "B": "RT doesn't destroy human DNA.",
+    "D": "SARS-CoV-2 is RNA."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Lecture: Cas9 'would actually cut both chromosomes,' so scientists supply donor DNA whose ends match the cut to direct repair."
+   "explanation": "Lecture: Cas9 'would actually cut both chromosomes,' so scientists supply donor DNA whose ends match the cut to direct repair.",
+   "why": {
+    "A": "Human cells have homologous pairs.",
+    "C": "HDR repairs DNA.",
+    "D": "Cas9 doesn't permanently block the ends."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Removing, editing, and returning cells makes adult treatment feasible. CF affects every cell, so you'd need Cas9 in at least all respiratory cells."
+   "explanation": "Removing, editing, and returning cells makes adult treatment feasible. CF affects every cell, so you'd need Cas9 in at least all respiratory cells.",
+   "why": {
+    "B": "Neither disease is viral; CF isn't bacterial.",
+    "C": "Lu You's T cells were edited to recognize tumors, not just knocked out.",
+    "D": "Neither involved embryos."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Berg: not never, just not yet. Doudna convened scientists who agreed not to edit human embryos yet."
+   "explanation": "Berg: not never, just not yet. Doudna convened scientists who agreed not to edit human embryos yet.",
+   "why": {
+    "A": "Both urged caution, not racing.",
+    "C": "Both published.",
+    "D": "Neither called for a permanent ban."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Jun Wu: pig blastocyst + human stem cells (chimera). Other approach: turn off pig antigen genes — the kidney transplanted into Rick Slayman."
+   "explanation": "Jun Wu: pig blastocyst + human stem cells (chimera). Other approach: turn off pig antigen genes — the kidney transplanted into Rick Slayman.",
+   "why": {
+    "B": "Neither edits the patient's T cells.",
+    "C": "Neither involves insulin or CCR5.",
+    "D": "Neither uses PCR or restriction enzymes."
+   }
   },
   {
    "num": 11,
@@ -276,7 +326,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Denaturation (96 °C) breaks H-bonds; annealing (~55 °C) lets primers bind; extension (~72 °C) is when polymerase works."
+   "explanation": "Denaturation (96 °C) breaks H-bonds; annealing (~55 °C) lets primers bind; extension (~72 °C) is when polymerase works.",
+   "why": {
+    "A": "Taq is most active around 72 °C.",
+    "B": "There's no ligase in PCR.",
+    "D": "There's no helicase in PCR."
+   }
   },
   {
    "num": 12,
@@ -305,7 +360,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — Paul Berg made the first recombinant DNA (1970). Cohen and Boyer made the first recombinant organism (1973)."
+   "explanation": "False — Paul Berg made the first recombinant DNA (1970). Cohen and Boyer made the first recombinant organism (1973).",
+   "why": {
+    "A": "True — 1973's first recombinant organism.",
+    "C": "True — Genentech made human insulin.",
+    "D": "True — Nobel 1978.",
+    "E": "True — Berg's SV40-lambda molecule."
+   }
   },
   {
    "num": 13,
@@ -334,7 +395,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — 72 °C is extension, when DNA polymerase extends the primers. Annealing is ~55 °C."
+   "explanation": "False — 72 °C is extension, when DNA polymerase extends the primers. Annealing is ~55 °C.",
+   "why": {
+    "B": "True — ~55 °C is annealing.",
+    "C": "True — ~96 °C denatures.",
+    "D": "True — 25–35 cycles.",
+    "E": "True — the cycler automates it."
+   }
   },
   {
    "num": 14,

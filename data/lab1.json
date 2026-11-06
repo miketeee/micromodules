@@ -1,0 +1,475 @@
+{
+ "slug": "lab1",
+ "title": "Lab 1 \u2014 Quiz 1",
+ "subtitle": "Microbial Ubiquity \u2014 safety, microbial groups",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "This footwear is shown on the Lab 1 safety slide. Why is it not allowed in micro lab?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Shoes must be made of rubber so they can be bleached"
+    },
+    {
+     "letter": "B",
+     "text": "Shoes must have closed toes and protect the tops of the feet"
+    },
+    {
+     "letter": "C",
+     "text": "Only lab-issued shoe covers may be worn in micro lab"
+    },
+    {
+     "letter": "D",
+     "text": "Sandals are allowed only when no liquid cultures are used"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Safe shoes: sturdy soles, closed toes, and protection for the tops of the feet.",
+   "why": {
+    "A": "No material rule \u2014 the rule is sturdy soles, closed toes, protected tops of feet.",
+    "C": "Shoe covers aren't part of the lab safety policy.",
+    "D": "Closed-toe shoes are required every lab, not just with liquids."
+   },
+   "img": "../lab-img/L01s_p10_4.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Photo",
+   "prompt": "What is the very first thing you do at your lab table, before setting anything down on it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Set out your lab manual and notes"
+    },
+    {
+     "letter": "B",
+     "text": "Disinfect the table"
+    },
+    {
+     "letter": "C",
+     "text": "Wash your hands at the sink"
+    },
+    {
+     "letter": "D",
+     "text": "Put on safety glasses from the UV cabinet"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Disinfect your table upon entering the lab \u2014 do not set any items down until it has been disinfected \u2014 and again at the end of lab.",
+   "why": {
+    "A": "Items must not be set down until the table has been disinfected.",
+    "C": "Handwashing comes right after disinfecting tables, and is the last action before leaving.",
+    "D": "Glasses are worn when instructed; disinfecting the table comes first."
+   },
+   "img": "../lab-img/L01s_p12_1.jpg"
+  },
+  {
+   "num": 3,
+   "type": "Photo",
+   "prompt": "What is your LAST action before leaving micro lab?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Disinfecting the lab table"
+    },
+    {
+     "letter": "B",
+     "text": "Storing safety glasses in the UV cabinet"
+    },
+    {
+     "letter": "C",
+     "text": "Placing your plates in the collection tray"
+    },
+    {
+     "letter": "D",
+     "text": "Washing your hands"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Wash hands immediately after disinfecting tables; washing hands is your last action before leaving lab.",
+   "why": {
+    "A": "You disinfect the table at the end of lab, then wash hands as the very last step.",
+    "B": "Glasses are stored after use, but handwashing is the last action.",
+    "C": "Cultures are put away before cleanup; washing hands comes last."
+   },
+   "img": "../lab-img/L01s_p13_1.jpg"
+  },
+  {
+   "num": 4,
+   "type": "Photo",
+   "prompt": "After use, where are these stored?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "In your lab drawer with your manual"
+    },
+    {
+     "letter": "B",
+     "text": "In the UV cabinet, after being disinfected"
+    },
+    {
+     "letter": "C",
+     "text": "In the biohazard bag after each lab"
+    },
+    {
+     "letter": "D",
+     "text": "In the autoclave so they are sterilized"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Safety glasses: wear when instructed, disinfect before and after use, store in the UV cabinet.",
+   "why": {
+    "A": "Glasses are disinfected and stored in the UV cabinet, not with personal items.",
+    "C": "Glasses are reused; only cultures/contaminated materials go into biohazard bags.",
+    "D": "Glasses are disinfected before and after use and stored in the UV cabinet."
+   },
+   "img": "../lab-img/L01s_p14_1.jpg"
+  },
+  {
+   "num": 5,
+   "type": "Photo",
+   "prompt": "This piece of equipment is used to sterilize your loop. What safety rule applies to it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It must be cleaned with immersion oil after use"
+    },
+    {
+     "letter": "B",
+     "text": "It must always be stored in the UV cabinet"
+    },
+    {
+     "letter": "C",
+     "text": "It may only be used with liquid cultures"
+    },
+    {
+     "letter": "D",
+     "text": "It gets very hot \u2014 unplug it when not in use"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Microincinerators and hot plates get very hot \u2014 be careful and always unplug hot things when not in use.",
+   "why": {
+    "A": "Oil cleanup applies to microscopes, not the microincinerator.",
+    "B": "The UV cabinet is for safety glasses.",
+    "C": "It sterilizes loops for any culture; the rule is about heat."
+   },
+   "img": "../lab-img/L01s_p15_2.jpg"
+  },
+  {
+   "num": 6,
+   "type": "Photo",
+   "prompt": "Where do used cultures and contaminated materials (like a used swab) go?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Into the regular trash can"
+    },
+    {
+     "letter": "B",
+     "text": "Into the biohazard bag"
+    },
+    {
+     "letter": "C",
+     "text": "Into the sink, followed by bleach"
+    },
+    {
+     "letter": "D",
+     "text": "Back into the collection tray"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Disposal of cultures/contaminated materials: always into the biohazard bags. Used test tubes go in the designated location.",
+   "why": {
+    "A": "Trash cans are for other, non-contaminated materials only.",
+    "C": "Cultures are never poured down the sink; they go in biohazard bags.",
+    "D": "The collection tray is for plates being incubated, not waste."
+   },
+   "img": "../lab-img/L01s_p17_1.jpg"
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "You knock over a tube and it breaks. What should you do?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sweep up the glass yourself right away"
+    },
+    {
+     "letter": "B",
+     "text": "Immediately report it to the instructor"
+    },
+    {
+     "letter": "C",
+     "text": "Cover it with paper towels and keep working"
+    },
+    {
+     "letter": "D",
+     "text": "Tell your tablemate so they can clean it"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Immediately report spills, broken glass or other accidents. Don't clean them yourself \u2014 and spills will not affect your grade.",
+   "why": {
+    "A": "Do NOT try to clean up spills or broken glass yourself.",
+    "C": "Accidents must be reported and cleaned using proper safety protocols.",
+    "D": "Spills are cleaned per protocol by/with the instructor, not hidden or delegated."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which biosafety level of organisms is used in this micro lab?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "BSL-2"
+    },
+    {
+     "letter": "B",
+     "text": "BSL-3"
+    },
+    {
+     "letter": "C",
+     "text": "BSL-4"
+    },
+    {
+     "letter": "D",
+     "text": "BSL-1"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Only Biosafety Level 1 organisms are used; probiotic strains are used whenever possible.",
+   "why": {
+    "A": "The lab uses only BSL-1 organisms, which health authorities classify as safe for most people.",
+    "B": "BSL-3 organisms are not used in teaching labs like this one.",
+    "C": "BSL-4 organisms are the most dangerous; they are never used here."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Photo",
+   "prompt": "Liquid cultures must always be kept in a:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Biohazard bag"
+    },
+    {
+     "letter": "B",
+     "text": "Beaker on your notes"
+    },
+    {
+     "letter": "C",
+     "text": "Test tube rack"
+    },
+    {
+     "letter": "D",
+     "text": "Coplin jar"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Cultures: always use test tube racks with liquid cultures and always use aseptic technique.",
+   "why": {
+    "A": "Biohazard bags are for disposal, not holding cultures you're using.",
+    "B": "Cultures must never be placed on notes, manuals or binders.",
+    "D": "Coplin jars hold staining reagents, not cultures."
+   },
+   "img": "../lab-img/L01s_p16_2.jpg"
+  },
+  {
+   "num": 10,
+   "type": "Photo",
+   "prompt": "This organism (shown on the Microbe Spotlight slide) is a common resident of the human gut. What type of microbe is Escherichia coli?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A yeast (fungus)"
+    },
+    {
+     "letter": "B",
+     "text": "A protozoan"
+    },
+    {
+     "letter": "C",
+     "text": "A bacterium (prokaryote)"
+    },
+    {
+     "letter": "D",
+     "text": "An archaeon"
+    }
+   ],
+   "correct": "C",
+   "explanation": "E. coli is a bacterium. Under special circumstances it can cause UTIs, traveler's diarrhea, food poisoning, wound infections, sepsis or meningitis.",
+   "why": {
+    "A": "E. coli is a bacterium; Candida and Saccharomyces are the yeasts.",
+    "B": "E. coli is prokaryotic; protozoa are eukaryotes.",
+    "D": "E. coli is in Domain Bacteria, not Archaea."
+   },
+   "img": "../lab-img/L01s_p25_3.jpg"
+  },
+  {
+   "num": 11,
+   "type": "Photo",
+   "prompt": "These purple oval cells are Candida albicans. Which condition can C. albicans overgrowth cause?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Farmer's lung"
+    },
+    {
+     "letter": "B",
+     "text": "Traveler's diarrhea"
+    },
+    {
+     "letter": "C",
+     "text": "Thrush"
+    },
+    {
+     "letter": "D",
+     "text": "Mad cow disease"
+    }
+   ],
+   "correct": "C",
+   "explanation": "C. albicans overgrowth can cause vaginal yeast infections, thrush, skin rashes, systemic infections and GI tract infections.",
+   "why": {
+    "A": "Farmer's lung is caused by Aspergillus spp.",
+    "B": "Traveler's diarrhea is caused by certain E. coli strains.",
+    "D": "Mad cow disease (BSE) is caused by prions."
+   },
+   "img": "../lab-img/L01s_p28_2.jpg"
+  },
+  {
+   "num": 12,
+   "type": "Photo",
+   "prompt": "Farmer's lung, a respiratory hypersensitivity (allergic reaction), is caused by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Candida albicans"
+    },
+    {
+     "letter": "B",
+     "text": "Escherichia coli"
+    },
+    {
+     "letter": "C",
+     "text": "Penicillium spp."
+    },
+    {
+     "letter": "D",
+     "text": "Aspergillus spp."
+    }
+   ],
+   "correct": "D",
+   "explanation": "Aspergillus spp. may cause farmer's lung (allergic reaction), aspergillosis (respiratory infection) and systemic infections.",
+   "why": {
+    "A": "Candida causes yeast infections, thrush, rashes, systemic and GI infections.",
+    "B": "E. coli causes UTIs, diarrhea and food poisoning, not farmer's lung.",
+    "C": "Penicillium isn't listed as causing farmer's lung."
+   },
+   "img": "../lab-img/L01s_p29_2.jpg"
+  },
+  {
+   "num": 13,
+   "type": "Photo",
+   "prompt": "This is a helminth (a fluke). Why are helminths included in a micro course?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They are prokaryotes that share many traits with bacteria and archaea"
+    },
+    {
+     "letter": "B",
+     "text": "They are acellular agents that replicate only inside host cells"
+    },
+    {
+     "letter": "C",
+     "text": "They are officially classified as microbes in every textbook"
+    },
+    {
+     "letter": "D",
+     "text": "Their larval stages are microscopic and they are highly relevant to human health"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Helminths are not considered microbes, but their larval stages are microscopic and they matter to human health.",
+   "why": {
+    "A": "Helminths are eukaryotes in Kingdom Animalia.",
+    "B": "Helminths are multicellular animals.",
+    "C": "Helminths are technically not microbes."
+   },
+   "img": "../lab-img/L01s_p32_1.jpg"
+  },
+  {
+   "num": 14,
+   "type": "Photo",
+   "prompt": "What makes prions different from every other disease-causing agent covered in the course?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They are obligate intracellular parasites"
+    },
+    {
+     "letter": "B",
+     "text": "They are acellular"
+    },
+    {
+     "letter": "C",
+     "text": "They are surrounded by a lipid envelope"
+    },
+    {
+     "letter": "D",
+     "text": "They do not possess genetic material"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Prions are proteinaceous infectious agents: misfolded proteins that cause other proteins to misfold. They lack genetic material.",
+   "why": {
+    "A": "Viruses are obligate intracellular parasites; that isn't unique to prions.",
+    "B": "Viruses are also acellular, so that's not what sets prions apart.",
+    "C": "Some viruses have envelopes; prions are just misfolded proteins."
+   },
+   "img": "../lab-img/L01s_p35_2.jpg"
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about viruses is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They are acellular"
+    },
+    {
+     "letter": "B",
+     "text": "They are obligate intracellular parasites"
+    },
+    {
+     "letter": "C",
+     "text": "They have a DNA or RNA core in a protein coat (nucleocapsid)"
+    },
+    {
+     "letter": "D",
+     "text": "Some have a lipid envelope around the nucleocapsid"
+    },
+    {
+     "letter": "E",
+     "text": "They replicate on their own outside of host cells"
+    }
+   ],
+   "correct": "E",
+   "explanation": "Viruses are replicated by the living host cell \u2014 they cannot replicate on their own.",
+   "why": {
+    "A": "True \u2014 viruses are acellular (noncellular).",
+    "B": "True \u2014 they can only replicate inside a living host cell.",
+    "C": "True \u2014 the core plus coat is the nucleocapsid.",
+    "D": "True \u2014 some viruses are enveloped."
+   },
+   "img": "../lab-img/L01s_p34_1.jpg"
+  }
+ ]
+}

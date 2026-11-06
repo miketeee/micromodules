@@ -26,7 +26,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Both use phagocyte receptors (constant region vs C3b)."
+   "explanation": "Both use phagocyte receptors (constant region vs C3b).",
+   "why": {
+    "A": "Complement isn't made by plasma cells.",
+    "B": "Antibody opsonization uses receptors too.",
+    "C": "Complement can lyse via the MAC."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Same inflammation, specifically triggered."
+   "explanation": "Same inflammation, specifically triggered.",
+   "why": {
+    "A": "Mast cells aren't eaten.",
+    "B": "The MAC doesn't target pollen.",
+    "C": "Interferon is antiviral."
+   }
   },
   {
    "num": 3,
@@ -80,7 +90,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "Each B cell makes only one kind of binding site."
+   "explanation": "Each B cell makes only one kind of binding site.",
+   "why": {
+    "B": "True — memory B cells keep receptors.",
+    "C": "True — class can switch with the same site.",
+    "D": "True — BCR is an IgM monomer.",
+    "E": "True — B cells mature in bone marrow."
+   }
   },
   {
    "num": 4,
@@ -105,7 +121,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Artificial active immunity."
+   "explanation": "Artificial active immunity.",
+   "why": {
+    "B": "Vaccines rely on clonal selection.",
+    "C": "Vaccines don't target IgE.",
+    "D": "That's passive immunity."
+   }
   },
   {
    "num": 5,
@@ -130,7 +151,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Passive immunity is immediate."
+   "explanation": "Passive immunity is immediate.",
+   "why": {
+    "A": "Antivenom gives no memory.",
+    "C": "Victims can make antibodies, just slowly.",
+    "D": "Venom is an antigen."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Mucosal antibodies stop attachment."
+   "explanation": "Mucosal antibodies stop attachment.",
+   "why": {
+    "A": "IgA doesn't form a MAC.",
+    "C": "IgA doesn't burst mast cells.",
+    "D": "IgA stays in the gut and gives no memory."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "One binding event does several jobs."
+   "explanation": "One binding event does several jobs.",
+   "why": {
+    "B": "Other classes do several things.",
+    "C": "Antibodies do many things.",
+    "D": "There's no fixed order."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Many memory cells → many plasma cells → lots of IgG."
+   "explanation": "Many memory cells → many plasma cells → lots of IgG.",
+   "why": {
+    "A": "The lag gets shorter.",
+    "B": "IgG, not IgM, rises much higher.",
+    "D": "IgG rises."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Pathogen ≠ antigen."
+   "explanation": "Pathogen ≠ antigen.",
+   "why": {
+    "B": "Antigens aren't made by B cells.",
+    "C": "Pathogens have many antigens.",
+    "D": "Antigens are often proteins, not DNA."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "IgG transfer ends at birth; breastfeeding continues protection."
+   "explanation": "IgG transfer ends at birth; breastfeeding continues protection.",
+   "why": {
+    "A": "Placental IgG crosses before birth.",
+    "B": "IgE isn't passed by skin.",
+    "C": "IgM doesn't cross the placenta."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Two 'wings of the army.'"
+   "explanation": "Two 'wings of the army.'",
+   "why": {
+    "A": "Those are phagocytes.",
+    "B": "Those are granulocytes.",
+    "D": "T cells come from the thymus."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Memory makes the secondary response fast."
+   "explanation": "Memory makes the secondary response fast.",
+   "why": {
+    "A": "Plasma cells wouldn't be ready.",
+    "C": "IgE doesn't replace antibodies.",
+    "D": "Maternal immunity is long gone in adults."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "No selection means no memory cells."
+   "explanation": "No selection means no memory cells.",
+   "why": {
+    "A": "Passive antibodies don't destroy B cells.",
+    "B": "Memory cells come from the recipient's own B cells.",
+    "D": "Passive antibodies aren't all IgE."
+   }
   },
   {
    "num": 14,

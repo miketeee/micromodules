@@ -26,7 +26,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Links to HIV/AIDS."
+   "explanation": "Links to HIV/AIDS.",
+   "why": {
+    "A": "MHC-1 doesn't depend on helper T cells.",
+    "C": "Plasma cells secrete antibodies.",
+    "D": "B cells mature in bone marrow."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The helper T cell's interleukin then activates it."
+   "explanation": "The helper T cell's interleukin then activates it.",
+   "why": {
+    "A": "Unconfirmed B cells don't become plasma cells yet.",
+    "B": "It doesn't self-destruct.",
+    "D": "B cells present on MHC-2 to helper T cells."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Two confirmations at once."
+   "explanation": "Two confirmations at once.",
+   "why": {
+    "A": "CD8 binds MHC-1.",
+    "B": "Fc receptors bind antibody stems.",
+    "D": "That's the cytotoxic pairing, scrambled."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Remember 'CD8 × MHC-1 = 8' and 'CD4 × MHC-2 = 8'."
+   "explanation": "Remember 'CD8 × MHC-1 = 8' and 'CD4 × MHC-2 = 8'.",
+   "why": {
+    "B": "Cytotoxic T cells use CD8 and MHC-1.",
+    "C": "NK cells don't use CD4/MHC-2.",
+    "D": "Helper T cells use CD4 and MHC-2."
+   }
   },
   {
    "num": 5,
@@ -130,7 +150,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "Apoptosis avoids inflammation; necrosis causes it."
+   "explanation": "Apoptosis avoids inflammation; necrosis causes it.",
+   "why": {
+    "B": "True — granzyme triggers apoptosis.",
+    "C": "True — blebbing occurs.",
+    "D": "True — it's programmed.",
+    "E": "True — the genome is degraded."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Similar logic to interferon: sacrifice one to save many."
+   "explanation": "Similar logic to interferon: sacrifice one to save many.",
+   "why": {
+    "A": "T cells don't make plasma cells.",
+    "B": "Apoptosis kills the cell.",
+    "C": "Infected cells use MHC-1."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Slides list transplanted tissue as a cytotoxic T cell target."
+   "explanation": "Slides list transplanted tissue as a cytotoxic T cell target.",
+   "why": {
+    "A": "Plasma cells aren't the main graft attackers.",
+    "B": "Mast cells aren't the main attackers.",
+    "C": "RBCs don't attack grafts."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "MHC-1 is a 'self' signal."
+   "explanation": "MHC-1 is a 'self' signal.",
+   "why": {
+    "B": "NK cells don't make antibodies.",
+    "C": "NK cells don't become T cells.",
+    "D": "MHC-1 stops NK killing."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "WBCs form the middle grayish layer."
+   "explanation": "WBCs form the middle grayish layer.",
+   "why": {
+    "A": "Anemia is low RBCs.",
+    "C": "AIDS lowers WBCs.",
+    "D": "Dehydration isn't the buffy coat."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The hybridoma keeps making the antibody indefinitely."
+   "explanation": "The hybridoma keeps making the antibody indefinitely.",
+   "why": {
+    "A": "Fusion was for lifespan, not cancer specificity.",
+    "C": "Cancer cells don't make the antibody.",
+    "D": "B cells make antibodies; they just die."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The dye rides on the constant region of the conjugate antibody."
+   "explanation": "The dye rides on the constant region of the conjugate antibody.",
+   "why": {
+    "A": "Chicken antibodies make the control line.",
+    "B": "Wetness doesn't make lines.",
+    "D": "Viral antigen isn't red."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Always need the control line."
+   "explanation": "Always need the control line.",
+   "why": {
+    "A": "No C line means invalid.",
+    "B": "A T line isn't read as negative.",
+    "C": "Repeating doesn't fix an invalid run."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Vaccines produce active immunity."
+   "explanation": "Vaccines produce active immunity.",
+   "why": {
+    "B": "They're made in labs, not T cells.",
+    "C": "They work in humans.",
+    "D": "They don't trigger IgE allergies."
+   }
   },
   {
    "num": 14,

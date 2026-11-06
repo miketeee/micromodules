@@ -26,7 +26,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Reverse transcription happens right after uncoating. Once the dsDNA is in the chromosome, the provirus is the template — no reverse transcriptase needed."
+   "explanation": "Reverse transcription happens right after uncoating. Once the dsDNA is in the chromosome, the provirus is the template — no reverse transcriptase needed.",
+   "why": {
+    "A": "RT inhibitors don't block fusion.",
+    "C": "It doesn't destroy existing proviruses.",
+    "D": "It doesn't block budding."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Each division doubles the count: 2^50 ≈ 1.1 × 10^15. Normal biopsy cells stop after about 50 divisions; HeLa cells never stop."
+   "explanation": "Each division doubles the count: 2^50 ≈ 1.1 × 10^15. Normal biopsy cells stop after about 50 divisions; HeLa cells never stop.",
+   "why": {
+    "B": "Doubling 50 times is far more than 100.",
+    "C": "Far more than a million.",
+    "D": "Doubling isn't 50 × 50."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Viruses only grow in living cells; a narrow host range means you must grow the specific cells it infects."
+   "explanation": "Viruses only grow in living cells; a narrow host range means you must grow the specific cells it infects.",
+   "why": {
+    "A": "Bacteria don't host human viruses.",
+    "B": "Viruses need living cells.",
+    "D": "Eggs don't support every virus."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "A cell-free filtrate causing cancer means the agent passed through a filter that traps cells — a virus."
+   "explanation": "A cell-free filtrate causing cancer means the agent passed through a filter that traps cells — a virus.",
+   "why": {
+    "B": "Filtering removed cells.",
+    "C": "Sand irritation wasn't the issue.",
+    "D": "The virus passed through the filter."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Lecture: you have to passage the cells from generation to generation because the viruses destroy them in the process of replicating."
+   "explanation": "Lecture: you have to passage the cells from generation to generation because the viruses destroy them in the process of replicating.",
+   "why": {
+    "A": "Eggs aren't involved.",
+    "B": "Cells don't become HeLa-like.",
+    "C": "Cell age isn't the reason."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Injection sites include the amniotic fluid, the embryo, or the yolk sac, depending on where the virus grows best."
+   "explanation": "Injection sites include the amniotic fluid, the embryo, or the yolk sac, depending on where the virus grows best.",
+   "why": {
+    "A": "Some viruses are injected into the embryo.",
+    "B": "Spots are for location, not dose.",
+    "C": "Marks aren't for allergy proteins."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Lecture: normally a biopsy is diagnosed and then the cells are destroyed — but her cells 'took a life of their own on.'"
+   "explanation": "Lecture: normally a biopsy is diagnosed and then the cells are destroyed — but her cells 'took a life of their own on.'",
+   "why": {
+    "A": "HeLa was the first immortal line.",
+    "C": "Selling biopsies wasn't routine.",
+    "D": "No vaccine was promised."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Immunodeficiency viruses are retroviruses (FIV for cats, SIV for monkeys, HIV for humans); each has its own narrow host range."
+   "explanation": "Immunodeficiency viruses are retroviruses (FIV for cats, SIV for monkeys, HIV for humans); each has its own narrow host range.",
+   "why": {
+    "A": "FIV is a retrovirus and doesn't infect humans.",
+    "C": "FIV and HIV are different viruses.",
+    "D": "FIV forms a provirus."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "+ssRNA is 'sense' RNA: it can be directly translated into protein. The host makes the viral polymerase from it and copying begins."
+   "explanation": "+ssRNA is 'sense' RNA: it can be directly translated into protein. The host makes the viral polymerase from it and copying begins.",
+   "why": {
+    "A": "+ RNA doesn't need reverse transcription.",
+    "B": "Spikes are for attachment, not translation.",
+    "D": "+ RNA can be read directly."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "1964 − 1911 ≈ 53 years."
+   "explanation": "1964 − 1911 ≈ 53 years.",
+   "why": {
+    "B": "1964 − 1911 = 53, not 23.",
+    "C": "Not 73.",
+    "D": "Not 13."
+   }
   },
   {
    "num": 11,
@@ -280,7 +330,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False — phages can be grown easily in bacterial cultures, both solid and liquid."
+   "explanation": "False — phages can be grown easily in bacterial cultures, both solid and liquid.",
+   "why": {
+    "A": "True — animal culture is costly and raises ethics.",
+    "B": "True — flu vaccine virus grows in eggs.",
+    "D": "True — the three methods.",
+    "E": "True — viruses need living cells."
+   }
   },
   {
    "num": 12,
@@ -309,7 +365,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — papillomas are often harmless; an HPV infection can lead to cancer but doesn't always."
+   "explanation": "False — papillomas are often harmless; an HPV infection can lead to cancer but doesn't always.",
+   "why": {
+    "B": "True — the cervix is a sphincter.",
+    "C": "True — tumors grow vessels and bleed.",
+    "D": "True — HPV inactivates p53.",
+    "E": "True — early cancer is treatable."
+   }
   },
   {
    "num": 13,
@@ -338,7 +400,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — a dsDNA virus uses ordinary transcription. Reverse transcriptase belongs to retroviruses."
+   "explanation": "False — a dsDNA virus uses ordinary transcription. Reverse transcriptase belongs to retroviruses.",
+   "why": {
+    "A": "True — − RNA must become + first.",
+    "C": "True — retroviral DNA becomes a provirus.",
+    "D": "True — templates are always needed.",
+    "E": "True — + RNA is read directly."
+   }
   },
   {
    "num": 14,

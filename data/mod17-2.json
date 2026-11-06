@@ -26,7 +26,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "A retrovirus reverse-transcribes its RNA into dsDNA, integrates as a provirus, and is then transcribed into mRNA. +ssRNA needs no conversion at all."
+   "explanation": "A retrovirus reverse-transcribes its RNA into dsDNA, integrates as a provirus, and is then transcribed into mRNA. +ssRNA needs no conversion at all.",
+   "why": {
+    "A": "+ssRNA is read directly.",
+    "B": "dsDNA needs just one transcription.",
+    "C": "−ssRNA needs one copy step."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "In HIV it turns the RNA genome into DNA; in RT-PCR it turns viral RNA into DNA that DNA polymerase can then copy."
+   "explanation": "In HIV it turns the RNA genome into DNA; in RT-PCR it turns viral RNA into DNA that DNA polymerase can then copy.",
+   "why": {
+    "A": "Gluing fragments is ligase.",
+    "B": "DNA → RNA is RNA polymerase.",
+    "D": "Cutting is restriction enzymes."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Each passed diseased material through a filter that trapped cells and found a cell-free infectious agent — a virus — in the filtrate."
+   "explanation": "Each passed diseased material through a filter that trapped cells and found a cell-free infectious agent — a virus — in the filtrate.",
+   "why": {
+    "A": "The filtrates weren't sterile.",
+    "B": "Only Rous's caused cancer.",
+    "D": "Results are scrambled."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "1966 − 1911 = 55 years. Epstein and Barr linked a virus to human cancer around 1964."
+   "explanation": "1966 − 1911 = 55 years. Epstein and Barr linked a virus to human cancer around 1964.",
+   "why": {
+    "A": "1966 − 1911 = 55, not 75.",
+    "B": "1966 − 1911 = 55, not 35.",
+    "D": "1966 − 1911 = 55, not 15."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Proto-oncogenes = gas (turn division on). Tumor suppressors such as p53 = brakes (turn division off)."
+   "explanation": "Proto-oncogenes = gas (turn division on). Tumor suppressors such as p53 = brakes (turn division off).",
+   "why": {
+    "A": "Inactivating p53 is failed brakes.",
+    "B": "Deleting a tumor suppressor is failed brakes.",
+    "C": "Losing p53 function is failed brakes."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "The Pap smear brushes cells from the cervix to look for abnormal growth. Caught early, cervical cancer is very treatable."
+   "explanation": "The Pap smear brushes cells from the cervix to look for abnormal growth. Caught early, cervical cancer is very treatable.",
+   "why": {
+    "B": "Bleeding comes from advanced tumors.",
+    "C": "It doesn't measure p53 in blood.",
+    "D": "It doesn't kill HPV."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The instructor's understanding: the family gets a royalty from the sequence data of her cells, not from the actual cultures."
+   "explanation": "The instructor's understanding: the family gets a royalty from the sequence data of her cells, not from the actual cultures.",
+   "why": {
+    "A": "The family doesn't own the cell lines.",
+    "C": "They do get royalties from sequence data.",
+    "D": "They get nothing from the cultures."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Some viruses (HPV, hepatitis B and C, Epstein-Barr, Rous sarcoma virus) are linked to cancer, often by inactivating p53."
+   "explanation": "Some viruses (HPV, hepatitis B and C, Epstein-Barr, Rous sarcoma virus) are linked to cancer, often by inactivating p53.",
+   "why": {
+    "A": "Not all cancers are viral.",
+    "C": "Not all viruses cause cancer.",
+    "D": "Oncoviruses work through p53, not bursting cells."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Lecture: fungal ± mating types are 'nothing to do with charge,' and ± RNA sense 'has nothing to do with charge.' DNA's backbone really is negatively charged."
+   "explanation": "Lecture: fungal ± mating types are 'nothing to do with charge,' and ± RNA sense 'has nothing to do with charge.' DNA's backbone really is negatively charged.",
+   "why": {
+    "A": "DNA's 5′ phosphate end is negatively charged.",
+    "C": "Gram-positive isn't about charge.",
+    "D": "DNA's backbone charge is real electric charge."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Host ribosomes translate the + genome directly. Copying the genome (+ → − → +) requires the viral polymerase that remdesivir disrupts."
+   "explanation": "Host ribosomes translate the + genome directly. Copying the genome (+ → − → +) requires the viral polymerase that remdesivir disrupts.",
+   "why": {
+    "B": "Envelopes don't depend on the polymerase.",
+    "C": "Coronaviruses don't reverse-transcribe.",
+    "D": "Ribosomes translate without the viral polymerase."
+   }
   },
   {
    "num": 11,
@@ -276,7 +326,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "dsDNA genome → regular transcription to mRNA → translation; regular DNA replication copies the genome."
+   "explanation": "dsDNA genome → regular transcription to mRNA → translation; regular DNA replication copies the genome.",
+   "why": {
+    "B": "dsDNA viruses don't use reverse transcriptase.",
+    "C": "dsDNA isn't −ssRNA.",
+    "D": "dsDNA viruses do biosynthesis."
+   }
   },
   {
    "num": 12,
@@ -305,7 +360,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — the provirus can stay in the chromosome and serve as the template for new RNA genomes and mRNAs."
+   "explanation": "False — the provirus can stay in the chromosome and serve as the template for new RNA genomes and mRNAs.",
+   "why": {
+    "A": "True — slow budding may spare the cell.",
+    "C": "True — RT makes dsDNA.",
+    "D": "True — fusion then uncoating.",
+    "E": "True — it becomes a provirus."
+   }
   },
   {
    "num": 13,
@@ -334,7 +395,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — Rous did the experiment in 1911 and won the Nobel Prize in 1966."
+   "explanation": "False — Rous did the experiment in 1911 and won the Nobel Prize in 1966.",
+   "why": {
+    "B": "True — the filtrate caused sarcoma.",
+    "C": "True — first animal virus–cancer link.",
+    "D": "True — ground with sand and filtered.",
+    "E": "True — Epstein and Barr linked a virus to human cancers."
+   }
   },
   {
    "num": 14,

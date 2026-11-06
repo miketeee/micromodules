@@ -26,7 +26,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "He named it humoral immunity."
+   "explanation": "He named it humoral immunity.",
+   "why": {
+    "A": "The second pig wasn't born immune.",
+    "C": "Guinea pigs do have immune systems.",
+    "D": "The toxin was deadly to unprotected pigs."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Antibodies have a ~3-week half-life; no memory cells were made."
+   "explanation": "Antibodies have a ~3-week half-life; no memory cells were made.",
+   "why": {
+    "B": "Guinea pigs make antibodies.",
+    "C": "The toxin didn't mutate.",
+    "D": "The second pig never made memory cells."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Immune cells have receptors for the constant region."
+   "explanation": "Immune cells have receptors for the constant region.",
+   "why": {
+    "B": "The variable region sets which antigen binds.",
+    "C": "The binding site is variable.",
+    "D": "Disulfide bonds hold chains together."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Variable regions form a lock-and-key binding site."
+   "explanation": "Variable regions form a lock-and-key binding site.",
+   "why": {
+    "A": "The stem is constant.",
+    "C": "Disulfide bonds just hold chains.",
+    "D": "The constant region sets class."
+   }
   },
   {
    "num": 5,
@@ -130,7 +150,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "Neutralization blocks attachment; pores come from complement's MAC."
+   "explanation": "Neutralization blocks attachment; pores come from complement's MAC.",
+   "why": {
+    "A": "True — antibodies activate complement.",
+    "B": "True — opsonization marks pathogens.",
+    "D": "True — antivenom neutralizes.",
+    "E": "True — agglutination clumps."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Eosinophils or NK cells destroy antibody-coated large cells."
+   "explanation": "Eosinophils or NK cells destroy antibody-coated large cells.",
+   "why": {
+    "B": "LPS is a molecule, not a large target.",
+    "C": "Dissolved toxins are neutralized.",
+    "D": "Free viruses are neutralized."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Its monomer form also serves as the B cell receptor."
+   "explanation": "Its monomer form also serves as the B cell receptor.",
+   "why": {
+    "A": "IgA is a dimer.",
+    "B": "IgE is a monomer.",
+    "D": "IgG is a monomer made later."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Natural passive immunity for the fetus."
+   "explanation": "Natural passive immunity for the fetus.",
+   "why": {
+    "A": "IgA is in breast milk.",
+    "C": "IgE is on mast cells.",
+    "D": "IgM is too big to cross."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "It works mainly by neutralization."
+   "explanation": "It works mainly by neutralization.",
+   "why": {
+    "B": "IgE is on mast cells.",
+    "C": "IgG is a serum monomer.",
+    "D": "IgD's function is unclear."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Mast cells have IgE-specific receptors; allergies are hypersensitivities."
+   "explanation": "Mast cells have IgE-specific receptors; allergies are hypersensitivities.",
+   "why": {
+    "B": "IgA is mucosal.",
+    "C": "IgM is first-made.",
+    "D": "IgG doesn't fit mast cells."
+   }
   },
   {
    "num": 11,
@@ -288,7 +339,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Memory cells keep receptors; plasma cells don't."
+   "explanation": "Memory cells keep receptors; plasma cells don't.",
+   "why": {
+    "A": "Plasma cells make many classes, not just IgE.",
+    "B": "They don't live in mucus.",
+    "C": "They're B-cell descendants."
+   }
   },
   {
    "num": 13,
@@ -313,7 +369,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Memory cells make the response fast and strong."
+   "explanation": "Memory cells make the response fast and strong.",
+   "why": {
+    "A": "IgM-only is a primary response.",
+    "C": "Secondary IgG is higher.",
+    "D": "Secondary responses lag less."
+   }
   },
   {
    "num": 14,
@@ -338,7 +399,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Preformed antibodies from mother, by a natural route."
+   "explanation": "Preformed antibodies from mother, by a natural route.",
+   "why": {
+    "A": "Breast milk isn't a vaccine.",
+    "C": "It isn't injected.",
+    "D": "The baby didn't make the antibodies."
+   }
   },
   {
    "num": 15,
@@ -363,7 +429,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Injected preformed antibodies act immediately but don't create memory."
+   "explanation": "Injected preformed antibodies act immediately but don't create memory.",
+   "why": {
+    "A": "It isn't from a mother.",
+    "B": "It isn't a vaccine.",
+    "D": "The victim didn't make the antibodies."
+   }
   },
   {
    "num": 16,

@@ -1,0 +1,463 @@
+{
+ "slug": "lab10",
+ "title": "Lab 10 \u2014 Quiz 1",
+ "subtitle": "Unknown ID Part 1 \u2014 specimens, MacConkey and citrate",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Which of these specimens comes from a 'typically sterile' body site?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Throat swab"
+    },
+    {
+     "letter": "B",
+     "text": "Cerebrospinal fluid (CSF)"
+    },
+    {
+     "letter": "C",
+     "text": "Stool"
+    },
+    {
+     "letter": "D",
+     "text": "Clean-catch mid-stream urine"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Typically sterile: blood, CSF, pleural, synovial and peritoneal fluid, urine before voiding, internal organ tissue. Growth from these is medically significant.",
+   "why": {
+    "A": "The throat has resident microbiota.",
+    "C": "Stool contains large numbers of resident microbiota.",
+    "D": "Voided urine picks up low numbers of urethral microbiota."
+   }
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Microbial growth from a blood culture should be considered:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Normal resident microbiota"
+    },
+    {
+     "letter": "B",
+     "text": "A false positive by default"
+    },
+    {
+     "letter": "C",
+     "text": "Unimportant unless it's a fungus"
+    },
+    {
+     "letter": "D",
+     "text": "Medically significant"
+    }
+   ],
+   "correct": "D",
+   "explanation": "When samples from typically sterile sites are cultured from healthy people, nothing grows \u2014 so any growth is medically significant.",
+   "why": {
+    "A": "Blood is typically sterile.",
+    "B": "Growth from a sterile site is significant.",
+    "C": "Any growth from a sterile site is significant."
+   }
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Patient A has fever, headache, sore throat, white patches in the throat and difficulty swallowing. Which specimen should be collected?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sputum"
+    },
+    {
+     "letter": "B",
+     "text": "Throat swab"
+    },
+    {
+     "letter": "C",
+     "text": "Stool"
+    },
+    {
+     "letter": "D",
+     "text": "Urine"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Throat swabs are typically used for suspected Strep throat \u2014 aim for the inflamed tonsils and back of the throat.",
+   "why": {
+    "A": "Sputum is for suspected pneumonia or TB.",
+    "C": "Stool is for GI symptoms.",
+    "D": "Urine is for UTI symptoms."
+   }
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Patient B has fever with chills, cough, shortness of breath and chest pain. Which specimen should be collected?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sputum"
+    },
+    {
+     "letter": "B",
+     "text": "Throat swab"
+    },
+    {
+     "letter": "C",
+     "text": "Saliva"
+    },
+    {
+     "letter": "D",
+     "text": "Stool"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Sputum is used for suspected pneumonia or TB: collect thick mucus from deep in the airway.",
+   "why": {
+    "B": "Throat swabs are for suspected Strep throat.",
+    "C": "Saliva is thin and watery \u2014 avoid collecting it.",
+    "D": "Stool is for GI symptoms."
+   }
+  },
+  {
+   "num": 5,
+   "type": "Photo",
+   "prompt": "Which sample is the CORRECT one to send for a suspected pneumonia culture?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The thin, watery sample (saliva)"
+    },
+    {
+     "letter": "B",
+     "text": "The thick, sticky sample (sputum)"
+    },
+    {
+     "letter": "C",
+     "text": "Either sample \u2014 both work equally well"
+    },
+    {
+     "letter": "D",
+     "text": "Neither \u2014 pneumonia is only diagnosed by blood"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Sputum: thick and sticky. Saliva: thin and watery. Avoid saliva to minimize resident microbiota.",
+   "why": {
+    "A": "Saliva is full of resident microbiota that outgrow pneumonia pathogens.",
+    "C": "Saliva should be avoided.",
+    "D": "Sputum is the specimen for pneumonia or TB."
+   },
+   "img": "../lab-img/L10s_p17_1.jpg"
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Why are deep wound needle aspirates preferred over surface swabs, and how must they be handled?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Surface swabs pick up skin microbiota; aspirates must not be exposed to air"
+    },
+    {
+     "letter": "B",
+     "text": "Surface swabs kill anaerobes; aspirates must be refrigerated"
+    },
+    {
+     "letter": "C",
+     "text": "Aspirates are sterile; they can be held at room temperature for days"
+    },
+    {
+     "letter": "D",
+     "text": "Swabs are too small; aspirates must be frozen right away"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Deep wound organisms can be anaerobic \u2014 specimens must not be exposed to air and are often cultured on reducing or other special media.",
+   "why": {
+    "B": "Deep wound organisms may be anaerobic, so they must not be exposed to air.",
+    "C": "Specimens are protected from air and processed properly.",
+    "D": "The issue is skin microbiota and anaerobes."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Why can clean-catch urine specimens be refrigerated if they can't be processed right away?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cold limits overgrowth of microbiota and doesn't harm UTI pathogens"
+    },
+    {
+     "letter": "B",
+     "text": "Refrigeration kills all resident microbiota in urine"
+    },
+    {
+     "letter": "C",
+     "text": "Cold temperatures make UTI pathogens grow faster"
+    },
+    {
+     "letter": "D",
+     "text": "Urine from a clean catch is always sterile"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Process clean-catch urine ASAP or refrigerate it; UTI-causing pathogens aren't harmed by cold temperatures.",
+   "why": {
+    "B": "It slows overgrowth; it doesn't kill them.",
+    "C": "Cold slows overgrowth; UTI pathogens simply survive it.",
+    "D": "Clean-catch urine has low numbers of urethral microbiota."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Which specimen must NEVER be refrigerated before culture?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Clean-catch urine for a UTI"
+    },
+    {
+     "letter": "B",
+     "text": "A throat swab for Strep throat"
+    },
+    {
+     "letter": "C",
+     "text": "A specimen for Neisseria gonorrhoeae"
+    },
+    {
+     "letter": "D",
+     "text": "Stool for a GI infection"
+    }
+   ],
+   "correct": "C",
+   "explanation": "N. gonorrhoeae grows in culture but is easily killed by cold \u2014 never refrigerate a gonococcal specimen before culture.",
+   "why": {
+    "A": "Urine can be refrigerated.",
+    "B": "This isn't the one singled out as never refrigerated.",
+    "D": "Stool must be processed quickly, but gonococcal specimens are the 'never refrigerate' example."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Photo",
+   "prompt": "Read this MacConkey plate: pink colonies and pink medium. What does it tell you about this organism (E. coli)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gram-negative, non-lactose fermenter"
+    },
+    {
+     "letter": "B",
+     "text": "Gram-positive, lactose fermenter"
+    },
+    {
+     "letter": "C",
+     "text": "Not Gram-negative (no growth)"
+    },
+    {
+     "letter": "D",
+     "text": "Gram-negative, lactose fermenter"
+    }
+   ],
+   "correct": "D",
+   "explanation": "MacConkey: growth = Gram-negative; pink = lactose fermenter (acid turns neutral red pink).",
+   "why": {
+    "A": "Non-lactose fermenters are yellow-orange.",
+    "B": "Gram-positives are inhibited and don't grow on MacConkey.",
+    "C": "There is growth on this plate."
+   },
+   "img": "../lab-img/L10s_p22_3.jpg"
+  },
+  {
+   "num": 10,
+   "type": "Photo",
+   "prompt": "Read this MacConkey plate: growth with yellow-orange colonies/medium. What does it tell you?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Gram-negative, non-lactose fermenter"
+    },
+    {
+     "letter": "B",
+     "text": "Gram-negative, lactose fermenter"
+    },
+    {
+     "letter": "C",
+     "text": "Gram-positive, non-lactose fermenter"
+    },
+    {
+     "letter": "D",
+     "text": "Citrate positive"
+    }
+   ],
+   "correct": "A",
+   "explanation": "This is Proteus mirabilis: it grows (Gram-negative) but doesn't ferment lactose (yellow-orange).",
+   "why": {
+    "B": "Lactose fermenters are pink.",
+    "C": "Gram-positives don't grow on MacConkey.",
+    "D": "Citrate is read on citrate agar (blue)."
+   },
+   "img": "../lab-img/L10s_p22_2.jpg"
+  },
+  {
+   "num": 11,
+   "type": "Photo",
+   "prompt": "This MacConkey plate shows no growth (S. epidermidis). What can you conclude?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The organism is not Gram-negative"
+    },
+    {
+     "letter": "B",
+     "text": "The organism is Gram-negative, lactose \u2212"
+    },
+    {
+     "letter": "C",
+     "text": "The plate was not incubated long enough"
+    },
+    {
+     "letter": "D",
+     "text": "The organism ferments lactose"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Crystal violet and bile salts inhibit Gram-positives, so no growth = not Gram-negative.",
+   "why": {
+    "B": "A Gram-negative non-fermenter would still grow (yellow-orange).",
+    "C": "No growth on MacConkey means not Gram-negative.",
+    "D": "Fermenters grow pink colonies."
+   },
+   "img": "../lab-img/L02s_p12_4.jpg"
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Which components make MacConkey agar SELECTIVE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lactose and neutral red"
+    },
+    {
+     "letter": "B",
+     "text": "Citrate and bromothymol blue"
+    },
+    {
+     "letter": "C",
+     "text": "Mannitol and salt"
+    },
+    {
+     "letter": "D",
+     "text": "Crystal violet and bile salts"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Selective: crystal violet + bile salts inhibit Gram-positives. Differential: lactose + neutral red.",
+   "why": {
+    "A": "Those are the differential components.",
+    "B": "Those are in citrate agar.",
+    "C": "Those are in mannitol salt agar."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Photo",
+   "prompt": "Read this citrate plate: growth, and the medium turned blue (S. marcescens). What is the result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Citrase positive"
+    },
+    {
+     "letter": "B",
+     "text": "Citrase negative"
+    },
+    {
+     "letter": "C",
+     "text": "Lactose fermenter"
+    },
+    {
+     "letter": "D",
+     "text": "Sterile control"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Citrate agar: citrate is the sole carbon source; citrase producers grow and make basic byproducts that turn bromothymol blue BLUE.",
+   "why": {
+    "B": "Citrate negatives don't grow, so the medium stays green/teal.",
+    "C": "Lactose is tested on MacConkey.",
+    "D": "A sterile plate stays green/teal."
+   },
+   "img": "../lab-img/L02s_p14_3.jpg"
+  },
+  {
+   "num": 14,
+   "type": "Photo",
+   "prompt": "This citrate plate stayed green with no growth (Proteus mirabilis). What is the result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Citrase positive"
+    },
+    {
+     "letter": "B",
+     "text": "Citrase negative"
+    },
+    {
+     "letter": "C",
+     "text": "Gram-positive"
+    },
+    {
+     "letter": "D",
+     "text": "Lactose negative"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Citrase-negative organisms can't use citrate as their sole carbon source, so they don't grow and the medium stays green/teal.",
+   "why": {
+    "A": "Citrase positives grow and turn the medium blue.",
+    "C": "Citrate agar tests citrase, not Gram reaction.",
+    "D": "Lactose is tested on MacConkey."
+   },
+   "img": "../lab-img/L10s_p23_3.jpg"
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "In citrate agar, what is the pH indicator, and what color shows a positive result?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Neutral red \u2014 pink (acidic)"
+    },
+    {
+     "letter": "B",
+     "text": "Bromothymol blue \u2014 blue (basic)"
+    },
+    {
+     "letter": "C",
+     "text": "Phenol red \u2014 yellow (acidic)"
+    },
+    {
+     "letter": "D",
+     "text": "Bromothymol blue \u2014 yellow (acidic)"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Bromothymol blue turns blue when citrase breaks down citrate into alkaline (basic) byproducts.",
+   "why": {
+    "A": "Neutral red is the MacConkey indicator.",
+    "C": "Phenol red is in MSA, TSI and fermentation broths.",
+    "D": "Citrase produces basic byproducts \u2192 blue."
+   }
+  }
+ ]
+}

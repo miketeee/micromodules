@@ -26,7 +26,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The trigger decides whether activation is specific or nonspecific."
+   "explanation": "The trigger decides whether activation is specific or nonspecific.",
+   "why": {
+    "A": "Complement is serum protein, not made by B and T cells.",
+    "C": "It's second-line.",
+    "D": "It doesn't need vaccination."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "LPS is common to Gram-negatives."
+   "explanation": "LPS is common to Gram-negatives.",
+   "why": {
+    "A": "Plasmids are internal.",
+    "B": "Teichoic acid is Gram-positive.",
+    "C": "Ribosomes are internal."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "C3b opsonizes and activates C5; C3a helps trigger mast cells."
+   "explanation": "C3b opsonizes and activates C5; C3a helps trigger mast cells.",
+   "why": {
+    "A": "Mast cells store histamine regardless.",
+    "C": "C3 isn't the pyrogen.",
+    "D": "Interferon isn't complement."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Pores in the membrane burst the cell."
+   "explanation": "Pores in the membrane burst the cell.",
+   "why": {
+    "A": "Interferon/AVPs don't form the MAC.",
+    "B": "C9 isn't an opsonin.",
+    "D": "C3a doesn't make pores."
+   }
   },
   {
    "num": 5,
@@ -130,7 +150,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "A low-grade fever can help fight infection."
+   "explanation": "A low-grade fever can help fight infection.",
+   "why": {
+    "B": "True — 44–46 °C can kill.",
+    "C": "True — some interleukins are pyrogens.",
+    "D": "True — bacterial enzymes fail faster.",
+    "E": "True — pyrogens reset the thermostat."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Broad recognition makes both nonspecific."
+   "explanation": "Broad recognition makes both nonspecific.",
+   "why": {
+    "B": "Neither needs antibodies.",
+    "C": "Neither is only on RBCs.",
+    "D": "That's AVPs."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Histamine can also be released in response to antibodies."
+   "explanation": "Histamine can also be released in response to antibodies.",
+   "why": {
+    "B": "Fever and pyrogens don't trigger mast cells.",
+    "C": "Interferon/AVPs don't trigger mast cells.",
+    "D": "C9 doesn't trigger mast cells."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Most nonspecific defenses target bacteria; interferon targets viruses."
+   "explanation": "Most nonspecific defenses target bacteria; interferon targets viruses.",
+   "why": {
+    "A": "Lysozyme attacks bacterial walls.",
+    "C": "The MAC lyses bacteria.",
+    "D": "Opsonization helps eat bacteria."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Interferon doesn't care which virus it is."
+   "explanation": "Interferon doesn't care which virus it is.",
+   "why": {
+    "A": "The MAC doesn't lyse virus-free neighbors.",
+    "B": "AVPs aren't antibodies.",
+    "C": "Interferon is nonspecific."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "That's also why interferon drugs have side effects."
+   "explanation": "That's also why interferon drugs have side effects.",
+   "why": {
+    "A": "AVPs act inside the cell making them.",
+    "B": "AVPs don't block histamine.",
+    "D": "AVPs don't cause fever."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Two cytokines highlighted in the lecture."
+   "explanation": "Two cytokines highlighted in the lecture.",
+   "why": {
+    "A": "Reversed.",
+    "B": "Neither is an opsonin or MAC.",
+    "C": "Neither is complement."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The lecture's definition."
+   "explanation": "The lecture's definition.",
+   "why": {
+    "A": "Warning is interferon's job.",
+    "B": "Heating is fever.",
+    "D": "Bursting is the MAC."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "C9 forms the ring-shaped channel."
+   "explanation": "C9 forms the ring-shaped channel.",
+   "why": {
+    "B": "Interferon isn't complement.",
+    "C": "Tissue-damage histamine release doesn't need C9.",
+    "D": "C3b opsonization comes before C9."
+   }
   },
   {
    "num": 14,

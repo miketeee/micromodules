@@ -1,0 +1,477 @@
+{
+ "slug": "lab6",
+ "title": "Lab 6 \u2014 Quiz 1",
+ "subtitle": "Survey of Eukaryotes \u2014 fungi and protozoa",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "Identify this fungus by its broom-shaped spore-forming structures.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Aspergillus spp."
+    },
+    {
+     "letter": "B",
+     "text": "Candida albicans"
+    },
+    {
+     "letter": "C",
+     "text": "Penicillium spp."
+    },
+    {
+     "letter": "D",
+     "text": "Saccharomyces"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Penicillium: broom-shaped reproductive spore-forming structures; makes penicillin, causes food spoilage, not known to cause disease.",
+   "why": {
+    "A": "Aspergillus has dandelion-shaped spore-forming structures.",
+    "B": "Candida appears as oval yeast cells or a mold form with pseudohyphae.",
+    "D": "Saccharomyces is a budding yeast."
+   },
+   "img": "../lab-img/L06s_p11_1.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Photo",
+   "prompt": "Identify this fungus by its dandelion-shaped spore-forming structures (brightfield).",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Penicillium spp."
+    },
+    {
+     "letter": "B",
+     "text": "Aspergillus spp."
+    },
+    {
+     "letter": "C",
+     "text": "Candida albicans"
+    },
+    {
+     "letter": "D",
+     "text": "Amoeba proteus"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Aspergillus: dandelion-shaped spore-forming structures. May cause farmer's lung, aspergillosis and systemic infections.",
+   "why": {
+    "A": "Penicillium's structures are broom-shaped.",
+    "C": "Candida is a dimorphic yeast/mold without dandelion heads.",
+    "D": "Amoeba is a protozoan with pseudopods."
+   },
+   "img": "../lab-img/L06s_p13_4.jpg"
+  },
+  {
+   "num": 3,
+   "type": "Photo",
+   "prompt": "These oval purple cells are a dimorphic fungus shown in its yeast form. Identify it.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Aspergillus spp."
+    },
+    {
+     "letter": "B",
+     "text": "Candida albicans"
+    },
+    {
+     "letter": "C",
+     "text": "Penicillium spp."
+    },
+    {
+     "letter": "D",
+     "text": "Trichomonas vaginalis"
+    }
+   ],
+   "correct": "B",
+   "explanation": "C. albicans is dimorphic: yeast form at 37\u00b0C, mold form at 25\u00b0C.",
+   "why": {
+    "A": "Aspergillus is a mold with dandelion-shaped heads.",
+    "C": "Penicillium is a mold with broom-shaped structures.",
+    "D": "Trichomonas is a flagellated protozoan."
+   },
+   "img": "../lab-img/L06s_p09_4.jpg"
+  },
+  {
+   "num": 4,
+   "type": "Photo",
+   "prompt": "This specimen shows Candida albicans in its mold form. What does finding the mold form in a patient specimen suggest?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The infection is mild and will clear up without treatment"
+    },
+    {
+     "letter": "B",
+     "text": "The infection is likely more severe, and stronger antifungal doses may be needed"
+    },
+    {
+     "letter": "C",
+     "text": "The sample was contaminated by Penicillium from the air"
+    },
+    {
+     "letter": "D",
+     "text": "The patient's body temperature must be above 37\u00b0C"
+    }
+   ],
+   "correct": "B",
+   "explanation": "When Candida's mold form is visible in a patient specimen, the infection is likely more severe than with only the yeast form.",
+   "why": {
+    "A": "Mold form in a specimen points to a more severe infection.",
+    "C": "This is Candida's own mold form (dimorphism).",
+    "D": "The mold form grows at lower temperatures (25\u00b0C)."
+   },
+   "img": "../lab-img/L06s_p10_1.jpg"
+  },
+  {
+   "num": 5,
+   "type": "Photo",
+   "prompt": "Dimorphic fungi like Candida albicans grow in the yeast form at ___ and the mold form at ___.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "25\u00b0C; 37\u00b0C"
+    },
+    {
+     "letter": "B",
+     "text": "4\u00b0C; 37\u00b0C"
+    },
+    {
+     "letter": "C",
+     "text": "37\u00b0C; 121\u00b0C"
+    },
+    {
+     "letter": "D",
+     "text": "37\u00b0C; 25\u00b0C"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Yeast form at higher temperatures (37\u00b0C); mold form at lower temperatures (25\u00b0C).",
+   "why": {
+    "A": "Reversed: yeast at the higher temperature, mold at the lower.",
+    "B": "The lower temperature is 25\u00b0C, not refrigeration.",
+    "C": "121\u00b0C is autoclave temperature."
+   },
+   "img": "../lab-img/L06s_p09_2.jpg"
+  },
+  {
+   "num": 6,
+   "type": "Photo",
+   "prompt": "A white coating on a patient's tongue is HARD to scrape off with a tongue depressor. What does that suggest?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is probably dried milk"
+    },
+    {
+     "letter": "B",
+     "text": "It is normal resident microbiota"
+    },
+    {
+     "letter": "C",
+     "text": "It is a helminth infection"
+    },
+    {
+     "letter": "D",
+     "text": "It might be an infection (oral thrush)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Easy to scrape off \u2192 probably dried milk. Hard to scrape off \u2192 it might be an infection (oral thrush, Candida albicans).",
+   "why": {
+    "A": "Dried milk scrapes off easily.",
+    "B": "Hard-to-scrape white material suggests infection.",
+    "C": "Thrush is caused by Candida, a fungus."
+   },
+   "img": "../lab-img/L06s_p07_1.jpg"
+  },
+  {
+   "num": 7,
+   "type": "Photo",
+   "prompt": "Most yeasts, like these cells, reproduce by:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Binary fission"
+    },
+    {
+     "letter": "B",
+     "text": "Budding"
+    },
+    {
+     "letter": "C",
+     "text": "Broom-shaped spores"
+    },
+    {
+     "letter": "D",
+     "text": "Forming cysts"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Most yeasts reproduce via budding.",
+   "why": {
+    "A": "Binary fission is how bacteria reproduce.",
+    "C": "Spore structures belong to molds like Penicillium.",
+    "D": "Cysts are formed by some protozoa."
+   },
+   "img": "../lab-img/L06s_p06_1.jpg"
+  },
+  {
+   "num": 8,
+   "type": "Photo",
+   "prompt": "Identify this protozoan: common in the environment, non-pathogenic, moves using pseudopods.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Entamoeba histolytica"
+    },
+    {
+     "letter": "B",
+     "text": "Amoeba proteus"
+    },
+    {
+     "letter": "C",
+     "text": "Giardia lamblia"
+    },
+    {
+     "letter": "D",
+     "text": "Trichomonas vaginalis"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Amoeba proteus is non-pathogenic, but it can be mistaken for Acanthamoeba and Naegleria fowleri.",
+   "why": {
+    "A": "Entamoeba is an intestinal pathogen (amoebic dysentery).",
+    "C": "Giardia is flagellated with a double nucleus.",
+    "D": "Trichomonas is a flagellated STI protozoan."
+   },
+   "img": "../lab-img/L06s_p15_1.jpg"
+  },
+  {
+   "num": 9,
+   "type": "Photo",
+   "prompt": "Identify these protozoan trophozoites, which have a double nucleus (the 'face').",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Trichomonas vaginalis"
+    },
+    {
+     "letter": "B",
+     "text": "Giardia lamblia"
+    },
+    {
+     "letter": "C",
+     "text": "Entamoeba histolytica"
+    },
+    {
+     "letter": "D",
+     "text": "Plasmodium spp."
+    }
+   ],
+   "correct": "B",
+   "explanation": "Giardia: double nucleus, flagellated; fecal-oral; fatty diarrhea ('beaver fever', 'hiker's diarrhea'); cysts and trophozoites.",
+   "why": {
+    "A": "Trichomonas has a single nucleus.",
+    "C": "Entamoeba is an amoeba without flagella.",
+    "D": "Plasmodium appears as ring forms inside red blood cells."
+   },
+   "img": "../lab-img/L06s_p20_2.jpg"
+  },
+  {
+   "num": 10,
+   "type": "Photo",
+   "prompt": "Identify this flagellated protozoan with a single nucleus per cell.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Giardia lamblia"
+    },
+    {
+     "letter": "B",
+     "text": "Amoeba proteus"
+    },
+    {
+     "letter": "C",
+     "text": "Candida albicans"
+    },
+    {
+     "letter": "D",
+     "text": "Trichomonas vaginalis"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Trichomonas vaginalis: sexually transmitted, trophozoite form only, single nucleus, flagellated, causes vaginitis.",
+   "why": {
+    "A": "Giardia has two nuclei.",
+    "B": "Amoeba moves by pseudopods, not flagella.",
+    "C": "Candida is a fungus (yeast)."
+   },
+   "img": "../lab-img/L06s_p20_4.jpg"
+  },
+  {
+   "num": 11,
+   "type": "Photo",
+   "prompt": "These ring forms are inside red blood cells. Identify the organism.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Giardia lamblia"
+    },
+    {
+     "letter": "B",
+     "text": "Plasmodium spp."
+    },
+    {
+     "letter": "C",
+     "text": "Entamoeba histolytica"
+    },
+    {
+     "letter": "D",
+     "text": "Candida albicans"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Plasmodium: obligate intracellular parasite, visible as ring forms inside RBCs; causes malaria; mosquito vector.",
+   "why": {
+    "A": "Giardia lives in the intestine, not inside RBCs.",
+    "C": "Entamoeba is an intestinal amoeba.",
+    "D": "Candida is a yeast, not an RBC parasite."
+   },
+   "img": "../lab-img/L06s_p21_1.jpg"
+  },
+  {
+   "num": 12,
+   "type": "Photo",
+   "prompt": "This organism transmits the cause of malaria. What is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A flea (transmits Taenia larvae to pets)"
+    },
+    {
+     "letter": "B",
+     "text": "A tick (transmits Giardia)"
+    },
+    {
+     "letter": "C",
+     "text": "A fly (transmits Enterobius)"
+    },
+    {
+     "letter": "D",
+     "text": "A mosquito vector (transmits Plasmodium)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Plasmodium is transmitted by a mosquito vector; it infects about 10% of the human population, with 300\u2013500 million cases a year.",
+   "why": {
+    "A": "Fleas carry tapeworm larvae; malaria is spread by mosquitoes.",
+    "B": "Giardia is fecal-oral, not tick-borne.",
+    "C": "Enterobius is fecal-oral."
+   },
+   "img": "../lab-img/L06s_p21_2.jpg"
+  },
+  {
+   "num": 13,
+   "type": "Photo",
+   "prompt": "Identify this intestinal amoeba that causes amoebic dysentery (bloody diarrhea).",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Amoeba proteus"
+    },
+    {
+     "letter": "B",
+     "text": "Naegleria fowleri"
+    },
+    {
+     "letter": "C",
+     "text": "Entamoeba histolytica"
+    },
+    {
+     "letter": "D",
+     "text": "Acanthamoeba"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Entamoeba histolytica: intestinal, fecal-oral, amoebic dysentery, forms cysts and trophozoites.",
+   "why": {
+    "A": "Amoeba proteus is non-pathogenic.",
+    "B": "Naegleria enters through the nose and infects the brain.",
+    "D": "Acanthamoeba infects the cornea."
+   },
+   "img": "../lab-img/L06s_p17_1.jpg"
+  },
+  {
+   "num": 14,
+   "type": "Photo",
+   "prompt": "Which amoeba infects the cornea, often when contact lenses are not cared for properly?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Naegleria fowleri"
+    },
+    {
+     "letter": "B",
+     "text": "Entamoeba histolytica"
+    },
+    {
+     "letter": "C",
+     "text": "Amoeba proteus"
+    },
+    {
+     "letter": "D",
+     "text": "Acanthamoeba"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Acanthamoeba may infect the cornea, often from poorly cared-for contact lenses.",
+   "why": {
+    "A": "Naegleria enters through the nose and travels to the brain.",
+    "B": "Entamoeba is intestinal.",
+    "C": "Amoeba proteus is non-pathogenic."
+   },
+   "img": "../lab-img/L06s_p16_2.jpg"
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about Naegleria fowleri is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It is the 'brain-eating' amoeba"
+    },
+    {
+     "letter": "B",
+     "text": "It enters through the nose"
+    },
+    {
+     "letter": "C",
+     "text": "It is spread by the fecal-oral route"
+    },
+    {
+     "letter": "D",
+     "text": "It penetrates the nasal mucosa and travels to the brain"
+    },
+    {
+     "letter": "E",
+     "text": "Very few people have survived infection"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Naegleria fowleri enters via the nose, not the fecal-oral route. Entamoeba and Giardia are fecal-oral.",
+   "why": {
+    "A": "True \u2014 that's its infamous nickname.",
+    "B": "True \u2014 it enters via the nose.",
+    "D": "True \u2014 this is its route.",
+    "E": "True \u2014 only 4 of 160+ US cases since the 1960s."
+   },
+   "img": "../lab-img/L06s_p16_3.jpg"
+  }
+ ]
+}

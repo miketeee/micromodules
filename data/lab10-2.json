@@ -1,0 +1,473 @@
+{
+ "slug": "lab10-2",
+ "title": "Lab 10 \u2014 Quiz 2",
+ "subtitle": "Unknown ID Part 1 \u2014 dichotomous key and skills",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "Using this dichotomous key: a Gram-negative bacillus is lactose positive and citrate negative. What is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Klebsiella pneumoniae"
+    },
+    {
+     "letter": "B",
+     "text": "Serratia marcescens"
+    },
+    {
+     "letter": "C",
+     "text": "Proteus vulgaris"
+    },
+    {
+     "letter": "D",
+     "text": "Escherichia coli"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Gram \u2212 \u2192 bacillus \u2192 lactose + \u2192 citrate \u2212 = E. coli.",
+   "why": {
+    "A": "Klebsiella is lactose + and citrate +.",
+    "B": "Serratia is lactose \u2212 and citrate +.",
+    "C": "Proteus vulgaris is lactose \u2212 and citrate \u2212."
+   },
+   "img": "../lab-img/L10s_p24_1.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Photo",
+   "prompt": "Using this key: a Gram-negative bacillus is lactose negative and citrate positive. What is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Serratia marcescens"
+    },
+    {
+     "letter": "B",
+     "text": "Proteus vulgaris"
+    },
+    {
+     "letter": "C",
+     "text": "Klebsiella pneumoniae"
+    },
+    {
+     "letter": "D",
+     "text": "Escherichia coli"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Gram \u2212 \u2192 bacillus \u2192 lactose \u2212 \u2192 citrate + = Serratia marcescens.",
+   "why": {
+    "B": "Proteus is lactose \u2212 and citrate \u2212.",
+    "C": "Klebsiella is lactose +.",
+    "D": "E. coli is lactose + and citrate \u2212."
+   },
+   "img": "../lab-img/L10s_p24_1.jpg"
+  },
+  {
+   "num": 3,
+   "type": "Photo",
+   "prompt": "Using this key: a Gram-negative bacillus is lactose positive and citrate positive. What is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Escherichia coli"
+    },
+    {
+     "letter": "B",
+     "text": "Serratia marcescens"
+    },
+    {
+     "letter": "C",
+     "text": "Klebsiella pneumoniae"
+    },
+    {
+     "letter": "D",
+     "text": "Staphylococcus aureus"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Gram \u2212 \u2192 bacillus \u2192 lactose + \u2192 citrate + = Klebsiella pneumoniae.",
+   "why": {
+    "A": "E. coli is citrate negative.",
+    "B": "Serratia is lactose negative.",
+    "D": "S. aureus is Gram-positive."
+   },
+   "img": "../lab-img/L10s_p24_1.jpg"
+  },
+  {
+   "num": 4,
+   "type": "Photo",
+   "prompt": "Using this key: a Gram-negative bacillus is lactose negative and citrate negative. What is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Serratia marcescens"
+    },
+    {
+     "letter": "B",
+     "text": "Escherichia coli"
+    },
+    {
+     "letter": "C",
+     "text": "Neisseria gonorrhoeae"
+    },
+    {
+     "letter": "D",
+     "text": "Proteus vulgaris"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Gram \u2212 \u2192 bacillus \u2192 lactose \u2212 \u2192 citrate \u2212 = Proteus vulgaris.",
+   "why": {
+    "A": "Serratia is citrate positive.",
+    "B": "E. coli is lactose positive.",
+    "C": "Neisseria is a Gram-negative coccus."
+   },
+   "img": "../lab-img/L10s_p24_1.jpg"
+  },
+  {
+   "num": 5,
+   "type": "Photo",
+   "prompt": "Using this key: which organism is a Gram-negative coccus?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Streptococcus pyogenes"
+    },
+    {
+     "letter": "B",
+     "text": "Staphylococcus epidermidis"
+    },
+    {
+     "letter": "C",
+     "text": "Neisseria gonorrhoeae"
+    },
+    {
+     "letter": "D",
+     "text": "Klebsiella pneumoniae"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Gram \u2212 \u2192 morphology \u2192 coccus = Neisseria gonorrhoeae.",
+   "why": {
+    "A": "Streptococcus is Gram-positive.",
+    "B": "Staphylococcus is Gram-positive.",
+    "D": "Klebsiella is a Gram-negative bacillus."
+   },
+   "img": "../lab-img/L10s_p24_1.jpg"
+  },
+  {
+   "num": 6,
+   "type": "Photo",
+   "prompt": "Using this key: a Gram-positive organism is salt tolerant and ferments mannitol. What is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Staphylococcus epidermidis"
+    },
+    {
+     "letter": "B",
+     "text": "Streptococcus pyogenes"
+    },
+    {
+     "letter": "C",
+     "text": "Streptococcus pneumoniae"
+    },
+    {
+     "letter": "D",
+     "text": "Staphylococcus aureus"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Gram + \u2192 salt tolerant (yes) \u2192 mannitol + = S. aureus.",
+   "why": {
+    "A": "S. epidermidis is salt tolerant but mannitol negative.",
+    "B": "Streptococci are not salt tolerant.",
+    "C": "Streptococci are not salt tolerant."
+   },
+   "img": "../lab-img/L10s_p24_1.jpg"
+  },
+  {
+   "num": 7,
+   "type": "Photo",
+   "prompt": "Using this key: a Gram-positive organism is NOT salt tolerant and is beta-hemolytic. What is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Streptococcus pneumoniae"
+    },
+    {
+     "letter": "B",
+     "text": "Streptococcus pyogenes"
+    },
+    {
+     "letter": "C",
+     "text": "Staphylococcus aureus"
+    },
+    {
+     "letter": "D",
+     "text": "Staphylococcus epidermidis"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Gram + \u2192 not salt tolerant \u2192 hemolysis: beta = S. pyogenes; alpha = S. pneumoniae.",
+   "why": {
+    "A": "S. pneumoniae is alpha-hemolytic.",
+    "C": "Staphylococci are salt tolerant.",
+    "D": "Staphylococci are salt tolerant."
+   },
+   "img": "../lab-img/L10s_p24_1.jpg"
+  },
+  {
+   "num": 8,
+   "type": "Photo",
+   "prompt": "Using this key: a Gram-positive organism is NOT salt tolerant and is alpha-hemolytic. What is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Streptococcus pneumoniae"
+    },
+    {
+     "letter": "B",
+     "text": "Streptococcus pyogenes"
+    },
+    {
+     "letter": "C",
+     "text": "Staphylococcus epidermidis"
+    },
+    {
+     "letter": "D",
+     "text": "Neisseria gonorrhoeae"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Gram + \u2192 not salt tolerant \u2192 alpha = S. pneumoniae.",
+   "why": {
+    "B": "S. pyogenes is beta-hemolytic.",
+    "C": "Staphylococci are salt tolerant.",
+    "D": "Neisseria is Gram-negative."
+   },
+   "img": "../lab-img/L10s_p24_1.jpg"
+  },
+  {
+   "num": 9,
+   "type": "Photo",
+   "prompt": "Your unknown grows pink on MacConkey and stays green/no growth on citrate. Its Gram stain shows pink rods. Using the unknowns key, identify it.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Escherichia coli"
+    },
+    {
+     "letter": "B",
+     "text": "Klebsiella pneumoniae"
+    },
+    {
+     "letter": "C",
+     "text": "Proteus vulgaris"
+    },
+    {
+     "letter": "D",
+     "text": "Serratia marcescens"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Pink rods = Gram \u2212 bacillus; pink on MacConkey = lactose +; no citrate growth = citrate \u2212 \u2192 E. coli.",
+   "why": {
+    "B": "Klebsiella would grow and turn citrate blue.",
+    "C": "Proteus would be yellow-orange (lactose \u2212) on MacConkey.",
+    "D": "Serratia is lactose \u2212 and citrate +."
+   },
+   "img": "../lab-img/L10s_p24_1.jpg"
+  },
+  {
+   "num": 10,
+   "type": "Photo",
+   "prompt": "Your unknown is a Gram-negative rod that is yellow-orange on MacConkey and turns citrate agar blue. Identify it.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Escherichia coli"
+    },
+    {
+     "letter": "B",
+     "text": "Serratia marcescens"
+    },
+    {
+     "letter": "C",
+     "text": "Klebsiella pneumoniae"
+    },
+    {
+     "letter": "D",
+     "text": "Proteus vulgaris"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Yellow-orange = lactose \u2212; blue citrate = citrate + \u2192 Serratia marcescens.",
+   "why": {
+    "A": "E. coli is pink on MacConkey and citrate \u2212.",
+    "C": "Klebsiella is pink (lactose +) on MacConkey.",
+    "D": "Proteus is citrate \u2212."
+   },
+   "img": "../lab-img/L10s_p24_1.jpg"
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "For the Gram stain skills assessment, what goes on the slide along with your unknown?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Control smears of a known Gram-positive and a known Gram-negative"
+    },
+    {
+     "letter": "B",
+     "text": "A negative wet mount of the same unknown culture"
+    },
+    {
+     "letter": "C",
+     "text": "An endospore-stained smear of the unknown culture"
+    },
+    {
+     "letter": "D",
+     "text": "Only the unknown smear, with no control smears"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Slide G: control smears (known G+ and known G\u2212) plus a smear of the unknown. Flag the instructor after focusing to oil immersion on the control smear.",
+   "why": {
+    "B": "The assessment uses a Gram stain with controls.",
+    "C": "The slide has controls plus the unknown.",
+    "D": "Known G+ and G\u2212 control smears are included."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "For the streak plating skills assessment in Lab 10, which medium is streaked?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Nutrient agar"
+    },
+    {
+     "letter": "B",
+     "text": "Blood agar"
+    },
+    {
+     "letter": "C",
+     "text": "MacConkey agar"
+    },
+    {
+     "letter": "D",
+     "text": "Citrate agar"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Obtain a sterile MacConkey plate, label it (initials, table #, Client ID) and perform the quadrant streak method.",
+   "why": {
+    "A": "The Lab 10 assessment uses a sterile MacConkey plate.",
+    "B": "Blood agar is used for hemolysis in Lab 11.",
+    "D": "Citrate is inoculated as a slant, not streaked for the assessment."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Photo",
+   "prompt": "What are the two goals of laboratory testing in the unknown labs?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Count the cells and measure turbidity"
+    },
+    {
+     "letter": "B",
+     "text": "Stain the cells and sterilize the media"
+    },
+    {
+     "letter": "C",
+     "text": "Identify the pathogen and identify effective treatment(s)"
+    },
+    {
+     "letter": "D",
+     "text": "Collect the specimen and label it"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Goal 1: identify the pathogen (phenotype and biochemistry). Goal 2: identify effective treatments (antimicrobial sensitivity testing).",
+   "why": {
+    "A": "Those are growth measurement methods.",
+    "B": "Those are lab techniques, not the goals.",
+    "D": "Collection comes before lab testing."
+   },
+   "img": "../lab-img/L10s_p07_7.jpg"
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "In a dichotomous key, identifying a microbe 'by behavior' means using:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Phenotype (appearance)"
+    },
+    {
+     "letter": "B",
+     "text": "The patient's symptoms"
+    },
+    {
+     "letter": "C",
+     "text": "Biochemistry (biochemical tests)"
+    },
+    {
+     "letter": "D",
+     "text": "Microscope type"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Identification by appearance = phenotype; by behavior = biochemistry.",
+   "why": {
+    "A": "Appearance is phenotype.",
+    "B": "Symptoms guide specimen choice; behavior = biochemistry.",
+    "D": "The microscope is a tool for appearance."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about specimen handling is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The pathogen may die before it can be cultured"
+    },
+    {
+     "letter": "B",
+     "text": "Resident microbiota in a specimen can never cause a false positive"
+    },
+    {
+     "letter": "C",
+     "text": "Resident microbiota may overgrow the pathogen"
+    },
+    {
+     "letter": "D",
+     "text": "Contamination may interfere with lab findings"
+    },
+    {
+     "letter": "E",
+     "text": "Positive and negative controls are run regularly"
+    }
+   ],
+   "correct": "B",
+   "explanation": "False positive = a resident microbe is mistakenly identified as the cause. False negative = the pathogen is missed.",
+   "why": {
+    "A": "True \u2014 handling can kill it.",
+    "C": "True \u2014 causing false negatives.",
+    "D": "True.",
+    "E": "True \u2014 to ensure reliable results."
+   }
+  }
+ ]
+}

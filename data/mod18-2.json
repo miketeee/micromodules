@@ -26,7 +26,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Koch's postulates assume one microbe → one disease; sinusitis and UTIs have several possible causes."
+   "explanation": "Koch's postulates assume one microbe → one disease; sinusitis and UTIs have several possible causes.",
+   "why": {
+    "A": "UTI microbes can be cultured.",
+    "B": "These aren't human-only pathogens.",
+    "D": "Ethics isn't the issue here."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Lactobacillus normally keeps the vagina at pH ~4–5; without it, pH returns toward 7.35, which Candida likes."
+   "explanation": "Lactobacillus normally keeps the vagina at pH ~4–5; without it, pH returns toward 7.35, which Candida likes.",
+   "why": {
+    "A": "Candida doesn't destroy antibiotics.",
+    "B": "Bacteria don't turn into yeast.",
+    "D": "Antibiotics don't feed Candida."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Where a microbe lives can change its relationship with the host."
+   "explanation": "Where a microbe lives can change its relationship with the host.",
+   "why": {
+    "A": "E. coli in the colon is mutualistic; in the bladder it's an opportunist.",
+    "B": "V. cholerae is parasitic.",
+    "C": "Candida on skin is commensal."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Short distances let E. coli reach the bladder — hence wiping front to back."
+   "explanation": "Short distances let E. coli reach the bladder — hence wiping front to back.",
+   "why": {
+    "A": "S. epidermidis isn't the bladder's protector.",
+    "B": "Temperature isn't the reason.",
+    "C": "Females do have Lactobacillus."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Incidence tracks new cases (spread); prevalence counts all current cases (burden)."
+   "explanation": "Incidence tracks new cases (spread); prevalence counts all current cases (burden).",
+   "why": {
+    "B": "Flu incidence is rising.",
+    "C": "Hepatitis prevalence is steady, not falling.",
+    "D": "Reversed."
+   }
   },
   {
    "num": 6,
@@ -155,7 +180,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "The prodromal period brings mild signs and symptoms; the period of illness is the most severe."
+   "explanation": "The prodromal period brings mild signs and symptoms; the period of illness is the most severe.",
+   "why": {
+    "B": "True — convalescence still has microbes.",
+    "C": "True — death peaks with illness.",
+    "D": "True — incubation has no symptoms.",
+    "E": "True — decline reduces microbes."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "TB develops slowly and lasts long (chronic) and spreads between people."
+   "explanation": "TB develops slowly and lasts long (chronic) and spreads between people.",
+   "why": {
+    "B": "TB isn't sporadic or acute.",
+    "C": "TB isn't acute or non-communicable.",
+    "D": "TB isn't latent or subclinical here."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "When most of a population is immune, the pathogen can't spread to the few who aren't."
+   "explanation": "When most of a population is immune, the pathogen can't spread to the few who aren't.",
+   "why": {
+    "A": "That's natural active immunity.",
+    "B": "That's isolation.",
+    "D": "That's personal recovery."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Systemic = throughout the body; measles spreads easily."
+   "explanation": "Systemic = throughout the body; measles spreads easily.",
+   "why": {
+    "A": "Measles is everywhere, not local or latent.",
+    "C": "Measles is communicable.",
+    "D": "Measles is contagious."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Sepsis is an extreme immune reaction to pathogens/toxins; septic shock includes a drop in blood pressure."
+   "explanation": "Sepsis is an extreme immune reaction to pathogens/toxins; septic shock includes a drop in blood pressure.",
+   "why": {
+    "A": "It isn't local.",
+    "C": "There are symptoms.",
+    "D": "There is a big immune response."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Age is a predisposing factor; female sex is the lecture's predisposing factor for UTIs."
+   "explanation": "Age is a predisposing factor; female sex is the lecture's predisposing factor for UTIs.",
+   "why": {
+    "B": "Skin flora isn't a risk factor.",
+    "C": "Being last-born isn't a risk factor.",
+    "D": "Female sex is the UTI example."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "More early exposure → more species → more microbial antagonism."
+   "explanation": "More early exposure → more species → more microbial antagonism.",
+   "why": {
+    "A": "More antibiotics would reduce diversity.",
+    "C": "Siblings don't remove flora.",
+    "D": "Birth order doesn't decide delivery type."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Symptoms are felt by the patient; signs are observed or measured."
+   "explanation": "Symptoms are felt by the patient; signs are observed or measured.",
+   "why": {
+    "A": "A rash can be seen (sign).",
+    "B": "BP is measured (sign).",
+    "C": "Fever is measured (sign)."
+   }
   },
   {
    "num": 14,

@@ -1,0 +1,471 @@
+{
+ "slug": "lab3",
+ "title": "Lab 3 \u2014 Quiz 1",
+ "subtitle": "Bacterial Growth \u2014 growth measurement, dilutions, plate counts",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Which growth measurement methods detect only LIVE cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Direct microscopic counts and electronic cell counters"
+    },
+    {
+     "letter": "B",
+     "text": "Turbidity and dry weight measurements"
+    },
+    {
+     "letter": "C",
+     "text": "Plate counts (serial dilution, membrane filtration) and metabolic activity"
+    },
+    {
+     "letter": "D",
+     "text": "Electronic cell counters and turbidity measurements"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Live cells: serial dilution and membrane filtration plate counts, metabolic activity. Total cells: direct microscopic count, electronic counters, turbidity, dry weight.",
+   "why": {
+    "A": "Both of these count total cells (live + dead).",
+    "B": "Both measure total cells (live + dead).",
+    "D": "Both count total cells, not only live cells."
+   }
+  },
+  {
+   "num": 2,
+   "type": "Photo",
+   "prompt": "This instrument measures how cloudy a broth is. What is it, and what does it measure?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Spectrophotometer \u2014 total cells (live + dead)"
+    },
+    {
+     "letter": "B",
+     "text": "Spectrophotometer \u2014 live cells only"
+    },
+    {
+     "letter": "C",
+     "text": "Centrifuge \u2014 total cells (live + dead)"
+    },
+    {
+     "letter": "D",
+     "text": "Electronic cell counter \u2014 live cells only"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Turbidity measurements use a spectrophotometer and count total cells (live + dead).",
+   "why": {
+    "B": "Turbidity can't tell live cells from dead ones \u2014 it measures total cells.",
+    "C": "A centrifuge pellets cells for dry weight measurements.",
+    "D": "Electronic counters pass cells past a laser; they count total cells."
+   },
+   "img": "../lab-img/L03s_p13_3.jpg"
+  },
+  {
+   "num": 3,
+   "type": "Photo",
+   "prompt": "This instrument spins cells into a pellet so the liquid can be removed and the pellet weighed. Which method is this?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Turbidity measurement (total cells)"
+    },
+    {
+     "letter": "B",
+     "text": "Dry weight measurement (total cells)"
+    },
+    {
+     "letter": "C",
+     "text": "Metabolic activity (live cells)"
+    },
+    {
+     "letter": "D",
+     "text": "Membrane filtration (live cells)"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Dry weight uses a centrifuge: the liquid is removed and the dry mass of the cell pellet is weighed \u2014 total cells.",
+   "why": {
+    "A": "Turbidity uses a spectrophotometer, not a centrifuge.",
+    "C": "Metabolic activity measures food use or production of compounds and waste.",
+    "D": "Membrane filtration traps cells on a filter that is placed on agar."
+   },
+   "img": "../lab-img/L03s_p14_1.jpg"
+  },
+  {
+   "num": 4,
+   "type": "Photo",
+   "prompt": "In this method, cells on a grid are counted under the microscope. It's used for UTIs and CSF (suspected meningitis). What is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Membrane filtration plate count (live cells)"
+    },
+    {
+     "letter": "B",
+     "text": "Direct microscopic count (total cells)"
+    },
+    {
+     "letter": "C",
+     "text": "Serial dilution plate count (live cells)"
+    },
+    {
+     "letter": "D",
+     "text": "Electronic cell counter (total cells)"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Direct microscopic counts examine cells on a grid under the microscope \u2014 total cells. Used for UTIs and CSF when meningitis is suspected.",
+   "why": {
+    "A": "Membrane filtration grows colonies on a filter placed on agar.",
+    "C": "Plate counts count colonies on agar, not cells on a slide.",
+    "D": "Electronic counters count cells as they block a laser beam."
+   },
+   "img": "../lab-img/L03s_p11_3.jpg"
+  },
+  {
+   "num": 5,
+   "type": "Photo",
+   "prompt": "A sample is passed through a filter that retains the cells, and the filter is placed on an agar plate. This plate shows the result of:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Direct microscopic count \u2014 total cells"
+    },
+    {
+     "letter": "B",
+     "text": "Membrane filtration plate count \u2014 live cells"
+    },
+    {
+     "letter": "C",
+     "text": "Turbidity measurement \u2014 total cells"
+    },
+    {
+     "letter": "D",
+     "text": "Dry weight measurement \u2014 total cells"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Membrane filtration: the filter retains cells and is transferred to an agar plate. Only live cells form colonies.",
+   "why": {
+    "A": "Direct counts are done on a microscope slide.",
+    "C": "Turbidity is read with a spectrophotometer.",
+    "D": "Dry weight uses a centrifuged pellet."
+   },
+   "img": "../lab-img/L03s_p09_2.jpg"
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "What number of colonies makes a plate 'countable'?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "30\u2013300"
+    },
+    {
+     "letter": "B",
+     "text": "1\u201330"
+    },
+    {
+     "letter": "C",
+     "text": "300\u20133,000"
+    },
+    {
+     "letter": "D",
+     "text": "Any number above zero"
+    }
+   ],
+   "correct": "A",
+   "explanation": "A countable plate has about 30\u2013300 colonies; each colony counts as one CFU. Serial dilutions may be needed to get one.",
+   "why": {
+    "B": "Fewer than 30 colonies is too few to be reliable.",
+    "C": "More than 300 is too many to count (TMTC).",
+    "D": "Counts must fall in the 30\u2013300 range to be accurate and reliable."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Photo",
+   "prompt": "This plate has far more than 300 colonies. How is it recorded?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Too many to count (TMTC)"
+    },
+    {
+     "letter": "B",
+     "text": "A countable plate"
+    },
+    {
+     "letter": "C",
+     "text": "Too few to count"
+    },
+    {
+     "letter": "D",
+     "text": "A negative control"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Plates above 300 colonies are TMTC; a more dilute plate is needed for a countable result.",
+   "why": {
+    "B": "Countable plates have 30\u2013300 colonies.",
+    "C": "This plate has too many colonies, not too few.",
+    "D": "A negative control should show no growth."
+   },
+   "img": "../lab-img/L03s_p18_1.jpg"
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "What does CFU stand for?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cell fermentation unit"
+    },
+    {
+     "letter": "B",
+     "text": "Colony forming unit"
+    },
+    {
+     "letter": "C",
+     "text": "Culture filtration unit"
+    },
+    {
+     "letter": "D",
+     "text": "Colony fluorescence unit"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Each colony arose from a single live cell, so it counts as one colony forming unit (CFU). CFU/mL = live bacteria per mL of the original sample.",
+   "why": {
+    "A": "CFU is a colony counting unit, not a fermentation measure.",
+    "C": "CFU refers to colonies, not filters.",
+    "D": "Colonies are counted; fluorescence isn't involved."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "1 mL of sample is added to 1 mL of water. What is the dilution factor?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "1/1"
+    },
+    {
+     "letter": "B",
+     "text": "1/10"
+    },
+    {
+     "letter": "C",
+     "text": "2/1"
+    },
+    {
+     "letter": "D",
+     "text": "1/2 (0.5)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Dilution factor = volume transferred \u00f7 total volume after transfer = 1 mL \u00f7 2 mL = 1/2.",
+   "why": {
+    "A": "The total volume is now 2 mL, so the dilution is 1 of 2.",
+    "B": "1/10 would come from 1 mL added to 9 mL of water.",
+    "C": "The dilution factor is volume added \u00f7 total volume: 1 \u00f7 2."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Photo",
+   "prompt": "1 mL of original sample goes into 9 mL of water (Tube A). Then 1 mL of Tube A goes into 9 mL of water (Tube B). What is the total dilution of Tube B?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "1/10 (0.1)"
+    },
+    {
+     "letter": "B",
+     "text": "1/100 (0.01)"
+    },
+    {
+     "letter": "C",
+     "text": "1/20 (0.05)"
+    },
+    {
+     "letter": "D",
+     "text": "1/1,000 (0.001)"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Total dilution = Tube A factor \u00d7 Tube B factor = 1/10 \u00d7 1/10 = 1/100.",
+   "why": {
+    "A": "1/10 is only Tube A's dilution factor.",
+    "C": "Dilution factors are multiplied, not added: 1/10 \u00d7 1/10.",
+    "D": "1/1,000 would be Tube C."
+   },
+   "img": "../lab-img/L03m_p05_1.jpg"
+  },
+  {
+   "num": 11,
+   "type": "Photo",
+   "prompt": "Using the same 1 mL into 9 mL series, what is the total dilution of Tube C?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "1/30"
+    },
+    {
+     "letter": "B",
+     "text": "1/100"
+    },
+    {
+     "letter": "C",
+     "text": "1/10,000"
+    },
+    {
+     "letter": "D",
+     "text": "1/1,000"
+    }
+   ],
+   "correct": "D",
+   "explanation": "1/10 \u00d7 1/10 \u00d7 1/10 = 1/1,000.",
+   "why": {
+    "A": "Dilution factors are multiplied: 1/10 \u00d7 1/10 \u00d7 1/10.",
+    "B": "1/100 is Tube B.",
+    "C": "1/10,000 would be a fourth tube."
+   },
+   "img": "../lab-img/L03m_p05_1.jpg"
+  },
+  {
+   "num": 12,
+   "type": "Photo",
+   "prompt": "A countable plate from the 1/10,000 total dilution has 34 colonies, and 1 mL was plated. How many CFU/mL were in the original culture?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "340,000 CFU/mL"
+    },
+    {
+     "letter": "B",
+     "text": "3,400 CFU/mL"
+    },
+    {
+     "letter": "C",
+     "text": "0.0034 CFU/mL"
+    },
+    {
+     "letter": "D",
+     "text": "34,000,000 CFU/mL"
+    }
+   ],
+   "correct": "A",
+   "explanation": "CFU/mL = colonies \u00d7 reciprocal of total dilution \u00f7 volume plated = 34 \u00d7 10,000 \u00f7 1 mL = 340,000 CFU/mL.",
+   "why": {
+    "B": "Multiply by the reciprocal (10,000), not by 100.",
+    "C": "Use the reciprocal of the dilution (10,000), not the dilution itself.",
+    "D": "34 \u00d7 10,000 \u00f7 1 mL = 340,000."
+   },
+   "img": "../lab-img/L03s_p08_1.jpg"
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "In the Sterile Transfer skills assessment, what result after incubation means you PASSED?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "No growth in the broth"
+    },
+    {
+     "letter": "B",
+     "text": "Growth in the broth"
+    },
+    {
+     "letter": "C",
+     "text": "A color change to yellow"
+    },
+    {
+     "letter": "D",
+     "text": "Cloudiness only at the top of the broth"
+    }
+   ],
+   "correct": "A",
+   "explanation": "A loopful of sterile water goes into sterile nutrient broth. No growth = pass; growth = aseptic technique compromised (one more attempt allowed).",
+   "why": {
+    "B": "Growth means aseptic technique was compromised.",
+    "C": "No indicator is used; the test is growth vs no growth.",
+    "D": "Any cloudiness (growth) means a fail."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Which method counts total cells as they block a laser beam, and is used for UTIs and complete blood counts?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Electronic cell counter"
+    },
+    {
+     "letter": "B",
+     "text": "Spectrophotometer"
+    },
+    {
+     "letter": "C",
+     "text": "Membrane filtration"
+    },
+    {
+     "letter": "D",
+     "text": "Colony counter"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Electronic cell counters are faster and often more accurate than direct counts \u2014 used for UTIs and CBCs. They count total cells.",
+   "why": {
+    "B": "A spectrophotometer measures turbidity (light passing through a sample).",
+    "C": "Membrane filtration grows live cells on a filter.",
+    "D": "A colony counter helps count colonies on plates."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about colony counting is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mark each colony on the bottom of the plate as you count"
+    },
+    {
+     "letter": "B",
+     "text": "Each colony is counted as one CFU"
+    },
+    {
+     "letter": "C",
+     "text": "A countable plate has about 30\u2013300 colonies"
+    },
+    {
+     "letter": "D",
+     "text": "Colonies that touch or overlap are counted separately"
+    },
+    {
+     "letter": "E",
+     "text": "Serial dilutions may be needed to get a countable plate"
+    }
+   ],
+   "correct": "D",
+   "explanation": "If multiple dots touch or overlap, count them as ONE CFU.",
+   "why": {
+    "A": "True \u2014 mark from the bottom with a sharpie.",
+    "B": "True \u2014 each colony is one CFU.",
+    "C": "True \u2014 30 to 300 is countable.",
+    "E": "True \u2014 dilutions help get a countable plate."
+   },
+   "img": "../lab-img/L03s_p19_1.jpg"
+  }
+ ]
+}

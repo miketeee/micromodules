@@ -26,7 +26,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Yeasts are facultative anaerobes and reproduce by budding or binary fission. Molds are aerobic and reproduce by spores."
+   "explanation": "Yeasts are facultative anaerobes and reproduce by budding or binary fission. Molds are aerobic and reproduce by spores.",
+   "why": {
+    "A": "Yeasts aren't killed by oxygen; they prefer it.",
+    "C": "Molds don't bud.",
+    "D": "Molds are aerobic."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Protozoa move by cilia, flagella, or pseudopods. Fungi are non-motile: hyphae grow into food, release digestive enzymes, absorb nutrients, and release spores to reach new food."
+   "explanation": "Protozoa move by cilia, flagella, or pseudopods. Fungi are non-motile: hyphae grow into food, release digestive enzymes, absorb nutrients, and release spores to reach new food.",
+   "why": {
+    "A": "Reversed.",
+    "B": "Fungi aren't motile.",
+    "D": "Fungi don't photosynthesize."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Fungi are heterotrophic decomposers (dead rabbits, leaves, trees) and are some of the few organisms that can break down wood."
+   "explanation": "Fungi are heterotrophic decomposers (dead rabbits, leaves, trees) and are some of the few organisms that can break down wood.",
+   "why": {
+    "A": "Fungi don't digest dead animals because of chitin.",
+    "B": "Fungi are heterotrophs.",
+    "D": "Fungi digest outside the cell."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Eraxis inhibits fungal cell wall synthesis; the fungal wall is chitin. Animal cells lack cell walls entirely."
+   "explanation": "Eraxis inhibits fungal cell wall synthesis; the fungal wall is chitin. Animal cells lack cell walls entirely.",
+   "why": {
+    "A": "Reversed, and cholesterol isn't the protection.",
+    "C": "Penicillin doesn't target ribosomes; Eraxis doesn't target ergosterol.",
+    "D": "Eraxis targets the wall, not DNA."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Table: yeast infection and thrush — Candida; histoplasmosis — Histoplasma; meningitis — Candida, Histoplasma, Cryptococcus, others; athlete's foot and ringworm — many."
+   "explanation": "Table: yeast infection and thrush — Candida; histoplasmosis — Histoplasma; meningitis — Candida, Histoplasma, Cryptococcus, others; athlete's foot and ringworm — many.",
+   "why": {
+    "B": "Thrush is Candida; histoplasmosis is Histoplasma.",
+    "C": "Each has a named cause.",
+    "D": "Thrush and yeast infections are Candida."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Vaginitis = infection of the vagina (protozoan, viral, bacterial, or fungal). Meningitis = infection of the meninges (bacterial, viral, or fungal)."
+   "explanation": "Vaginitis = infection of the vagina (protozoan, viral, bacterial, or fungal). Meningitis = infection of the meninges (bacterial, viral, or fungal).",
+   "why": {
+    "B": "Neither needs an India ink stain to be named.",
+    "C": "Neither is always Candida.",
+    "D": "They aren't limited to STIs."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Both are asexual (clones). Sporangiospores are enclosed in a sporangium on a sporangiophore; conidiospores are exposed on a conidiophore."
+   "explanation": "Both are asexual (clones). Sporangiospores are enclosed in a sporangium on a sporangiophore; conidiospores are exposed on a conidiophore.",
+   "why": {
+    "A": "They're asexual, not from mating.",
+    "C": "Mushroom spores are the sexual ones.",
+    "D": "They aren't dormant cyst-like stages."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "'What's good for the mold might be good for the human' — most antibiotics were originally found in fungi (e.g., penicillin from Penicillium)."
+   "explanation": "'What's good for the mold might be good for the human' — most antibiotics were originally found in fungi (e.g., penicillin from Penicillium).",
+   "why": {
+    "B": "Safe for us doesn't mean it kills fungi.",
+    "C": "Immune recognition isn't the point.",
+    "D": "Drugs don't copy cholesterol."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Aspergillus causes farmer's lung (inhaled while turning soil). Histoplasmosis comes from inhaling Histoplasma found in bat droppings."
+   "explanation": "Aspergillus causes farmer's lung (inhaled while turning soil). Histoplasmosis comes from inhaling Histoplasma found in bat droppings.",
+   "why": {
+    "A": "Reversed sources.",
+    "B": "Athlete's foot isn't inhaled, and Cryptococcus isn't linked to caves here.",
+    "C": "Thrush and ringworm aren't inhaled."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Fungi are heterotrophic decomposers, non-motile, with chitin cell walls. A mushroom is the sexual structure of a multicellular fungus."
+   "explanation": "Fungi are heterotrophic decomposers, non-motile, with chitin cell walls. A mushroom is the sexual structure of a multicellular fungus.",
+   "why": {
+    "A": "Fungi aren't motile.",
+    "B": "Fungi don't photosynthesize; glass walls are diatoms.",
+    "D": "Mushrooms are multicellular."
+   }
   },
   {
    "num": 11,
@@ -276,7 +326,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Lecture's bread-mold image: hyphae with 'dandelion' heads full of spores — the gumball-machine container of sporangiospores."
+   "explanation": "Lecture's bread-mold image: hyphae with 'dandelion' heads full of spores — the gumball-machine container of sporangiospores.",
+   "why": {
+    "A": "Mushrooms aren't on bread mold stalks.",
+    "B": "Budding is yeast.",
+    "C": "Exposed spores are conidia; these are enclosed."
+   }
   },
   {
    "num": 12,
@@ -305,7 +360,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — histoplasmosis is caused by Histoplasma specifically. 'Many' applies to athlete's foot and ringworm."
+   "explanation": "False — histoplasmosis is caused by Histoplasma specifically. 'Many' applies to athlete's foot and ringworm.",
+   "why": {
+    "B": "True — thrush is Candida.",
+    "C": "True — athlete's foot is a ringworm.",
+    "D": "True — nails have little blood supply.",
+    "E": "True — all three cause meningitis."
+   }
   },
   {
    "num": 13,
@@ -334,7 +395,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — fungi do not produce sperm and egg; they have opposite (+/−) mating types."
+   "explanation": "False — fungi do not produce sperm and egg; they have opposite (+/−) mating types.",
+   "why": {
+    "A": "True — hyphae grow up to form the mushroom.",
+    "C": "True — mushrooms release spores.",
+    "D": "True — pheromones and receptors guide them.",
+    "E": "True — fungi have mating types."
+   }
   },
   {
    "num": 14,

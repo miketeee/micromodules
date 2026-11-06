@@ -1,0 +1,469 @@
+{
+ "slug": "lab2-2",
+ "title": "Lab 2 \u2014 Quiz 2",
+ "subtitle": "Culturing Bacteria \u2014 isolation methods and combined media",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "This plate shows colonies of more than one color and form. What kind of culture is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pure culture"
+    },
+    {
+     "letter": "B",
+     "text": "Sterile culture"
+    },
+    {
+     "letter": "C",
+     "text": "Mixed culture"
+    },
+    {
+     "letter": "D",
+     "text": "Enriched culture"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Mixed culture: multiple species present. Most natural cultures and medical specimens are mixed.",
+   "why": {
+    "A": "A pure culture contains a single species \u2014 colonies would look alike.",
+    "B": "Sterile media have no growth.",
+    "D": "Enriched describes the medium, not how many species are present."
+   },
+   "img": "../lab-img/L02s_p24_1.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Photo",
+   "prompt": "All the colonies on this plate look the same. What kind of culture is it most likely to be?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pure culture"
+    },
+    {
+     "letter": "B",
+     "text": "Mixed culture"
+    },
+    {
+     "letter": "C",
+     "text": "Contaminated culture"
+    },
+    {
+     "letter": "D",
+     "text": "Negative control"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Pure culture: a single species. Pure cultures rarely exist in nature but are needed for accurate diagnostic testing.",
+   "why": {
+    "B": "Mixed cultures contain multiple species with different-looking colonies.",
+    "C": "Contamination would add different-looking colonies.",
+    "D": "A negative control should show no growth."
+   },
+   "img": "../lab-img/L02s_p24_2.jpg"
+  },
+  {
+   "num": 3,
+   "type": "Photo",
+   "prompt": "Why is an isolated colony essential to generating a pure culture?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A colony originates from a single cell, so it contains a single species"
+    },
+    {
+     "letter": "B",
+     "text": "A colony contains several species that grow at equal rates"
+    },
+    {
+     "letter": "C",
+     "text": "Isolated colonies grow faster than crowded colonies do"
+    },
+    {
+     "letter": "D",
+     "text": "Isolated colonies are always the disease-causing species"
+    }
+   ],
+   "correct": "A",
+   "explanation": "A bacterial colony originates from a single cell that multiplies \u2014 so it contains a single species and can be subcultured as a pure culture.",
+   "why": {
+    "B": "A colony arises from one cell and contains one species.",
+    "C": "The point is purity, not growth speed.",
+    "D": "The colony is pure, but identification still must be done."
+   },
+   "img": "../lab-img/L02s_p26_2.jpg"
+  },
+  {
+   "num": 4,
+   "type": "Photo",
+   "prompt": "What is the purpose of the quadrant streak plate method shown?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "To count the number of live bacteria in a sample"
+    },
+    {
+     "letter": "B",
+     "text": "To determine whether an organism ferments lactose"
+    },
+    {
+     "letter": "C",
+     "text": "To obtain isolated colonies for a pure culture"
+    },
+    {
+     "letter": "D",
+     "text": "To sterilize the agar surface before use"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The quadrant streak plate gradually 'dilutes' microbes across the agar so isolated colonies form in later quadrants.",
+   "why": {
+    "A": "Counting live cells is done with serial dilutions and plate counts.",
+    "B": "That's a differential test (e.g., MacConkey).",
+    "D": "Media are sterilized in the autoclave."
+   },
+   "img": "../lab-img/L02s_p29_2.jpg"
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "While streaking quadrant 2, how many times do you drag the loop back through quadrant 1?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Never \u2014 each quadrant is streaked separately"
+    },
+    {
+     "letter": "B",
+     "text": "Twice \u2014 then streak quadrant 2 without revisiting quadrant 1"
+    },
+    {
+     "letter": "C",
+     "text": "Once \u2014 then sterilize the loop"
+    },
+    {
+     "letter": "D",
+     "text": "Continuously while streaking all of quadrant 2"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Stab 3 times in clean agar, drag back through Q1 into Q2 twice, then streak Q2 without revisiting Q1. Repeat for Q3 and Q4.",
+   "why": {
+    "A": "You must drag back through Q1 to carry organisms into Q2.",
+    "C": "The protocol drags back through Q1 twice; the loop isn't sterilized between quadrants.",
+    "D": "After the two passes you streak Q2 without revisiting Q1."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "How long is the loop sterilized in the microincinerator, and how long does it cool?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sterilize 30 seconds, cool 5 seconds"
+    },
+    {
+     "letter": "B",
+     "text": "Sterilize 10 seconds, cool 15 seconds"
+    },
+    {
+     "letter": "C",
+     "text": "Sterilize 5 seconds, cool 60 seconds"
+    },
+    {
+     "letter": "D",
+     "text": "Leave it resting in the incinerator between uses"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Sterilize the wire end for 10 seconds, then let it cool in the air for 15 seconds.",
+   "why": {
+    "A": "The protocol says 10 s in the incinerator, then 15 s to cool.",
+    "C": "The protocol says 10 s in the incinerator, then 15 s to cool.",
+    "D": "Never rest loops in the incinerator \u2014 they will break."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "When removing or replacing the cap of a culture tube, what do you do?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pass the mouth of the tube in front of the incinerator three times"
+    },
+    {
+     "letter": "B",
+     "text": "Set the cap down flat on the disinfected lab table"
+    },
+    {
+     "letter": "C",
+     "text": "Invert the tube several times to mix the culture first"
+    },
+    {
+     "letter": "D",
+     "text": "Dip the mouth of the tube into a beaker of alcohol"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Aseptic technique: remove the cap without setting it down and pass the tube mouth in front of the incinerator three times when opening and before closing.",
+   "why": {
+    "B": "Never set the cap down.",
+    "C": "Agitate by gently shaking \u2014 DO NOT INVERT.",
+    "D": "The tube mouth is passed in front of the incinerator."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Photo",
+   "prompt": "Mannitol salt agar and MacConkey agar combine which two functional types?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enriched and differential"
+    },
+    {
+     "letter": "B",
+     "text": "Defined and selective"
+    },
+    {
+     "letter": "C",
+     "text": "Selective and differential"
+    },
+    {
+     "letter": "D",
+     "text": "General purpose and reducing"
+    }
+   ],
+   "correct": "C",
+   "explanation": "MSA and MacConkey combine selective and differential traits ('Wonder Twin powers, activate!').",
+   "why": {
+    "A": "Enriched + differential is blood agar.",
+    "B": "MSA and MacConkey aren't described as defined.",
+    "D": "They are not general purpose or reducing."
+   },
+   "img": "../lab-img/L02s_p12_1.jpg"
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Blood agar is both:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Selective and differential"
+    },
+    {
+     "letter": "B",
+     "text": "Enriched and differential"
+    },
+    {
+     "letter": "C",
+     "text": "Defined and selective"
+    },
+    {
+     "letter": "D",
+     "text": "General purpose and reducing"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Blood agar: enriched (blood supports fastidious growth) and differential (shows ability to lyse red blood cells \u2014 hemolysis).",
+   "why": {
+    "A": "That combination describes MSA and MacConkey.",
+    "C": "Blood is a complex ingredient, so it isn't defined.",
+    "D": "Blood agar adds blood (enriched) and shows hemolysis (differential)."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Photo",
+   "prompt": "Citrate agar combines which three traits?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Complex, enriched, and differential"
+    },
+    {
+     "letter": "B",
+     "text": "Defined, enriched, and reducing"
+    },
+    {
+     "letter": "C",
+     "text": "Defined, selective, and differential"
+    },
+    {
+     "letter": "D",
+     "text": "Complex, selective, and general purpose"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Citrate agar: defined (known composition), selective (organisms lacking citrase don't grow), differential (detects citrate used as sole carbon source).",
+   "why": {
+    "A": "Citrate agar is defined (exact composition known), not complex.",
+    "B": "It is selective and differential, not enriched or reducing.",
+    "D": "It is defined, and selective/differential rather than general purpose."
+   },
+   "img": "../lab-img/L02s_p14_3.jpg"
+  },
+  {
+   "num": 11,
+   "type": "Photo",
+   "prompt": "Neisseria spp. are capnophiles. What do they require to grow?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Live animal hosts"
+    },
+    {
+     "letter": "B",
+     "text": "A total lack of oxygen"
+    },
+    {
+     "letter": "C",
+     "text": "Temperatures above 60\u00b0C"
+    },
+    {
+     "letter": "D",
+     "text": "Extra CO2 (a CO2 incubation chamber)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Capnophiles need extra CO2 \u2014 e.g., Neisseria spp. grown in a CO2 incubation chamber.",
+   "why": {
+    "A": "Live hosts may be needed for obligate intracellular parasites.",
+    "B": "That describes obligate anaerobes.",
+    "C": "Capnophile refers to CO2, not heat."
+   },
+   "img": "../lab-img/L02s_p15_1.jpg"
+  },
+  {
+   "num": 12,
+   "type": "Multi-statement",
+   "prompt": "Which statement about culturing obligate intracellular parasites is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "They grow well on nutrient agar plates"
+    },
+    {
+     "letter": "B",
+     "text": "All viruses fall into this group"
+    },
+    {
+     "letter": "C",
+     "text": "They may require eukaryotic cell cultures"
+    },
+    {
+     "letter": "D",
+     "text": "They may require live animal hosts"
+    },
+    {
+     "letter": "E",
+     "text": "Chlamydia and Rickettsia are examples"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Obligate intracellular parasites (all viruses, Rickettsia, Chlamydia, Treponema pallidum) need living cells \u2014 cell cultures or live hosts \u2014 not artificial agar.",
+   "why": {
+    "B": "True \u2014 viruses are listed as obligate intracellular parasites.",
+    "C": "True \u2014 they need living host cells.",
+    "D": "True \u2014 some require live animal hosts.",
+    "E": "True \u2014 along with Treponema pallidum and all viruses."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Practice Problem A: prepare 300 mL of tryptic soy broth; the label says 42 g per 1 L. How many grams?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "12.6 g"
+    },
+    {
+     "letter": "B",
+     "text": "126 g"
+    },
+    {
+     "letter": "C",
+     "text": "14 g"
+    },
+    {
+     "letter": "D",
+     "text": "1.26 g"
+    }
+   ],
+   "correct": "A",
+   "explanation": "42 g \u00d7 0.3 L / 1 L = 12.6 g.",
+   "why": {
+    "B": "300 mL = 0.3 L, not 3 L.",
+    "C": "That divides 42 by 3 instead of multiplying by 0.3.",
+    "D": "0.3 L \u00d7 42 g/L = 12.6 g, not 1.26 g."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Practice Problem C: prepare 3 L of urea broth; the label says 84 g per 1 L. How many grams?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "28 g"
+    },
+    {
+     "letter": "B",
+     "text": "87 g"
+    },
+    {
+     "letter": "C",
+     "text": "252 g"
+    },
+    {
+     "letter": "D",
+     "text": "25.2 g"
+    }
+   ],
+   "correct": "C",
+   "explanation": "84 g \u00d7 3 L / 1 L = 252 g.",
+   "why": {
+    "A": "That divides 84 by 3 instead of multiplying.",
+    "B": "Grams and liters aren't added; multiply 84 \u00d7 3.",
+    "D": "84 g/L \u00d7 3 L = 252 g, not 25.2 g."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Which procedure error would most likely give a streak plate with NO isolated colonies (heavy growth in every quadrant)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Sterilizing the loop before starting the streak"
+    },
+    {
+     "letter": "B",
+     "text": "Dragging the loop back through quadrant 1 while streaking every later quadrant"
+    },
+    {
+     "letter": "C",
+     "text": "Streaking quadrant 2 without revisiting quadrant 1"
+    },
+    {
+     "letter": "D",
+     "text": "Inverting the plate for incubation"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Isolation depends on gradual dilution: only the first passes enter the previous quadrant. Re-entering Q1 repeatedly carries too many cells forward and prevents isolated colonies.",
+   "why": {
+    "A": "Sterilizing first is correct technique.",
+    "C": "That's the correct step \u2014 it's what dilutes the organisms.",
+    "D": "Plates are always incubated inverted."
+   }
+  }
+ ]
+}

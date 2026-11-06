@@ -26,7 +26,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Two nuclei + eight flagella = Giardia, an Archaezoan. Archaezoans have mitosomes, so they are anaerobic, and Giardia has trophozoite and cyst stages."
+   "explanation": "Two nuclei + eight flagella = Giardia, an Archaezoan. Archaezoans have mitosomes, so they are anaerobic, and Giardia has trophozoite and cyst stages.",
+   "why": {
+    "A": "That describes a Euglenozoan like Trypanosoma.",
+    "B": "That describes Euglena, not an Archaezoan.",
+    "D": "That describes an Apicomplexan."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Flagyl targets DNA synthesis (a universal need). Chloroquine targets hemoglobin breakdown, which is specific to Plasmodium inside red blood cells."
+   "explanation": "Flagyl targets DNA synthesis (a universal need). Chloroquine targets hemoglobin breakdown, which is specific to Plasmodium inside red blood cells.",
+   "why": {
+    "A": "Reversed.",
+    "B": "Flagyl doesn't target cysts, and chloroquine isn't a mosquito drug.",
+    "C": "Chloroquine doesn't block DNA synthesis."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Lecture: Archaezoan mitochondria are 'devolving' to non-functional mitosomes, so these organisms are anaerobic. Aerobic respiration yields 38 ATP vs 2 for anaerobic."
+   "explanation": "Lecture: Archaezoan mitochondria are 'devolving' to non-functional mitosomes, so these organisms are anaerobic. Aerobic respiration yields 38 ATP vs 2 for anaerobic.",
+   "why": {
+    "B": "Mitosomes are degraded, not new.",
+    "C": "Giardia's ancestors did have mitochondria.",
+    "D": "Mitosomes are degraded mitochondria, not chloroplasts."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Video timeline: anaerobic heterotrophs ~3.5 BYA, photosynthetic prokaryotes ~3.0, aerobic prokaryotes ~2.5, unicellular eukaryotes ~2.0, multicellular ~1.5."
+   "explanation": "Video timeline: anaerobic heterotrophs ~3.5 BYA, photosynthetic prokaryotes ~3.0, aerobic prokaryotes ~2.5, unicellular eukaryotes ~2.0, multicellular ~1.5.",
+   "why": {
+    "A": "Prokaryotes came before eukaryotes.",
+    "C": "Anaerobic heterotrophs came first.",
+    "D": "Aerobic prokaryotes came after photosynthetic ones."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Photosynthesis put O2 into the atmosphere; aerobic prokaryotes then evolved to use it, and engulfed aerobic bacteria became mitochondria."
+   "explanation": "Photosynthesis put O2 into the atmosphere; aerobic prokaryotes then evolved to use it, and engulfed aerobic bacteria became mitochondria.",
+   "why": {
+    "A": "Aerobic bacteria (mitochondria) came before eukaryotes.",
+    "C": "Photosynthetic bacteria became chloroplasts, not the nucleus.",
+    "D": "The point is oxygen for aerobic bacteria, not building membranes."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The eye spot is an endosymbiotic red alga that detects light (not images). Lecture ties these pigments to the origin of retinal photoreceptors."
+   "explanation": "The eye spot is an endosymbiotic red alga that detects light (not images). Lecture ties these pigments to the origin of retinal photoreceptors.",
+   "why": {
+    "A": "The eye spot isn't a mitosome, and Euglena isn't an Archaezoan.",
+    "B": "It isn't a cyst, and red tides are dinoflagellates.",
+    "D": "It's a red alga, and it detects light but can't form images."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Giardia and Entamoeba both have trophozoite and cyst stages but are in different subgroups. Trichomonas has no cyst; Plasmodium and Trypanosoma are bloodborne."
+   "explanation": "Giardia and Entamoeba both have trophozoite and cyst stages but are in different subgroups. Trichomonas has no cyst; Plasmodium and Trypanosoma are bloodborne.",
+   "why": {
+    "B": "Dictyostelium is harmless and both are Amoebozoans.",
+    "C": "Trichomonas has no cyst stage.",
+    "D": "Both are bloodborne and don't use cysts this way."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Lecture: trypanosomes don't get inside blood cells; they release toxins (sleeping sickness). Plasmodium has a ring stage inside RBCs and lyses them."
+   "explanation": "Lecture: trypanosomes don't get inside blood cells; they release toxins (sleeping sickness). Plasmodium has a ring stage inside RBCs and lyses them.",
+   "why": {
+    "A": "Plasmodium leaves the liver to infect RBCs.",
+    "C": "Neither forms rings this way; trypanosomes don't enter RBCs.",
+    "D": "Reversed."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Apicomplexa: obligate intracellular parasites, apex organelles digest into host tissue, non-motile adults, complex life cycles."
+   "explanation": "Apicomplexa: obligate intracellular parasites, apex organelles digest into host tissue, non-motile adults, complex life cycles.",
+   "why": {
+    "A": "Amoebozoans crawl with pseudopods.",
+    "B": "Archaezoans swim with flagella.",
+    "C": "Euglenozoans swim with a rod-stiffened flagellum."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Gametocytes are drunk up by the mosquito and fuse (sexual). In the human, parasites multiply in liver cells and then red blood cells (asexual)."
+   "explanation": "Gametocytes are drunk up by the mosquito and fuse (sexual). In the human, parasites multiply in liver cells and then red blood cells (asexual).",
+   "why": {
+    "A": "Sexual reproduction happens in the mosquito.",
+    "B": "Reversed.",
+    "D": "Plasmodium does reproduce sexually, in the mosquito."
+   }
   },
   {
    "num": 11,
@@ -276,7 +326,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Lecture: white blood cells move through the body much like amoebas crawling by pseudopods."
+   "explanation": "Lecture: white blood cells move through the body much like amoebas crawling by pseudopods.",
+   "why": {
+    "B": "RBCs don't make pseudopods.",
+    "C": "Intestinal cells don't crawl.",
+    "D": "Sperm swim with a flagellum."
+   }
   },
   {
    "num": 12,
@@ -305,7 +360,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — Trichomonas is trophozoite only; it has no cyst stage and is passed by sexual contact."
+   "explanation": "False — Trichomonas is trophozoite only; it has no cyst stage and is passed by sexual contact.",
+   "why": {
+    "B": "True — the trophozoite is the feeding stage.",
+    "C": "True — cysts are tough but not like endospores.",
+    "D": "True — Giardia has both stages.",
+    "E": "True — a pseudopod means the trophozoite."
+   }
   },
   {
    "num": 13,
@@ -334,7 +395,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — the mosquito transmits Plasmodium; the parasite causes the disease."
+   "explanation": "False — the mosquito transmits Plasmodium; the parasite causes the disease.",
+   "why": {
+    "A": "True — 300–500 million new cases a year.",
+    "C": "True — about 10% of the world.",
+    "D": "True — the liver comes before red blood cells.",
+    "E": "True — lysing RBCs cause the fever and chills."
+   }
   },
   {
    "num": 14,

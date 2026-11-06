@@ -26,7 +26,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Each plaque = one original phage. 50 plaques ÷ 0.1 mL = 500 per mL of the dilution; × 1,000,000 = 5 × 10^8 per mL."
+   "explanation": "Each plaque = one original phage. 50 plaques ÷ 0.1 mL = 500 per mL of the dilution; × 1,000,000 = 5 × 10^8 per mL.",
+   "why": {
+    "A": "Off by 10 — remember the 0.1 mL plated.",
+    "B": "Off by 100.",
+    "C": "Off by 1,000."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "300 × 300 = 90,000 — why phage therapy is described as self-amplifying."
+   "explanation": "300 × 300 = 90,000 — why phage therapy is described as self-amplifying.",
+   "why": {
+    "B": "900 is 300 × 3.",
+    "C": "3,000 is 300 × 10.",
+    "D": "600 is 300 + 300."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Phages are highly specific. Without matching host cells they can't multiply and simply break down (self-eliminating)."
+   "explanation": "Phages are highly specific. Without matching host cells they can't multiply and simply break down (self-eliminating).",
+   "why": {
+    "A": "Phages are host-specific.",
+    "B": "It can't infect human cells.",
+    "C": "Phages can't infect human cells."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The toxin gene is on prophage DNA, not in the bacterial genome. Only lysogenized strains can make it."
+   "explanation": "The toxin gene is on prophage DNA, not in the bacterial genome. Only lysogenized strains can make it.",
+   "why": {
+    "A": "Scarlet fever toxin is S. pyogenes', not C. botulinum's.",
+    "C": "Antibodies don't erase genes.",
+    "D": "That isn't the lecture's explanation."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Induction occurs when host cells become stressed. Without stress, the prophage rides along through every division."
+   "explanation": "Induction occurs when host cells become stressed. Without stress, the prophage rides along through every division.",
+   "why": {
+    "A": "Without stress, induction doesn't happen.",
+    "B": "The host doesn't cut it out.",
+    "D": "It doesn't become a plasmid."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "HPV: DNA, polyhedral, naked. SARS-CoV-2: RNA, helical, enveloped. SARS-CoV-2/influenza are both RNA, helical, enveloped; Ebola and TMV are both helical."
+   "explanation": "HPV: DNA, polyhedral, naked. SARS-CoV-2: RNA, helical, enveloped. SARS-CoV-2/influenza are both RNA, helical, enveloped; Ebola and TMV are both helical.",
+   "why": {
+    "B": "Influenza and TMV are both RNA.",
+    "C": "Both are enveloped RNA viruses.",
+    "D": "Ebola and TMV are both helical RNA viruses."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Small dose, self-amplifying, self-eliminating: a phage is a non-living obligate intracellular parasite."
+   "explanation": "Small dose, self-amplifying, self-eliminating: a phage is a non-living obligate intracellular parasite.",
+   "why": {
+    "A": "Human cells don't make phages.",
+    "C": "Phage therapy doesn't need daily doses.",
+    "D": "Phages don't sense numbers this way."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The checklist says viruses lack metabolic enzymes and protein-synthesis machinery, don't process energy, and can't replicate themselves — but they can mutate and adapt."
+   "explanation": "The checklist says viruses lack metabolic enzymes and protein-synthesis machinery, don't process energy, and can't replicate themselves — but they can mutate and adapt.",
+   "why": {
+    "A": "Viruses lack protein-making machinery.",
+    "C": "Viruses need a host to replicate.",
+    "D": "Viruses don't process energy."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Botulism toxin is encoded on prophage DNA, not the bacterial genome."
+   "explanation": "Botulism toxin is encoded on prophage DNA, not the bacterial genome.",
+   "why": {
+    "B": "Lysogens don't need the prophage to live.",
+    "C": "The toxin gene is on the prophage.",
+    "D": "It would make no toxin."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Only the genome enters; it directs biosynthesis. Without it, the host has no instructions to build phages."
+   "explanation": "Only the genome enters; it directs biosynthesis. Without it, the host has no instructions to build phages.",
+   "why": {
+    "A": "The capsid isn't a template.",
+    "B": "The empty capsid stays outside.",
+    "D": "No new capsids are built."
+   }
   },
   {
    "num": 11,
@@ -280,7 +330,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — Stanley saw viruses in 1935; electron microscopes were invented in the 1930s."
+   "explanation": "False — Stanley saw viruses in 1935; electron microscopes were invented in the 1930s.",
+   "why": {
+    "A": "True — 'virus' came into use in the 1930s.",
+    "C": "True — d'Hérelle around 1916.",
+    "D": "True — TMV was first seen.",
+    "E": "True — Ivanovsky in 1892."
+   }
   },
   {
    "num": 12,
@@ -309,7 +365,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False — viruses have no ribosomes; the host cell's machinery makes the phage parts."
+   "explanation": "False — viruses have no ribosomes; the host cell's machinery makes the phage parts.",
+   "why": {
+    "A": "True — release by lysis.",
+    "B": "True — lysozyme opens the wall.",
+    "D": "True — stored energy, like a jack-in-the-box.",
+    "E": "True — maturation assembles virions."
+   }
   },
   {
    "num": 13,
@@ -338,7 +400,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — a plaque is a zone of dead bacteria (a 'ring of death'), not a colony."
+   "explanation": "False — a plaque is a zone of dead bacteria (a 'ring of death'), not a colony.",
+   "why": {
+    "B": "True — dilutions let you back-calculate.",
+    "C": "True — each plaque is one phage.",
+    "D": "True — bacteria form a lawn.",
+    "E": "True — plaques are clear zones."
+   }
   },
   {
    "num": 14,

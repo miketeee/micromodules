@@ -1,0 +1,462 @@
+{
+ "slug": "lab7",
+ "title": "Lab 7 \u2014 Quiz 1",
+ "subtitle": "Bacterial Genetics \u2014 DNA structure and replication",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Which enzyme unzips the DNA double helix during replication?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Helicase"
+    },
+    {
+     "letter": "B",
+     "text": "Primase"
+    },
+    {
+     "letter": "C",
+     "text": "DNA polymerase"
+    },
+    {
+     "letter": "D",
+     "text": "Ligase"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Helicase breaks the hydrogen bonds between bases, creating a replication fork.",
+   "why": {
+    "B": "Primase lays down an RNA primer.",
+    "C": "DNA polymerase adds new nucleotides.",
+    "D": "Ligase joins Okazaki fragments."
+   }
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "What bond does helicase break when it unzips DNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Covalent bonds between sugar and phosphate"
+    },
+    {
+     "letter": "B",
+     "text": "Hydrogen bonds between complementary bases"
+    },
+    {
+     "letter": "C",
+     "text": "Peptide bonds between amino acids"
+    },
+    {
+     "letter": "D",
+     "text": "Ionic bonds between the two backbones"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Base pairs are held together by hydrogen bonds; helicase breaks them.",
+   "why": {
+    "A": "Those form the backbone; they stay intact.",
+    "C": "Peptide bonds are in proteins.",
+    "D": "The strands are held by hydrogen bonds between bases."
+   }
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "Which enzyme lays down an RNA primer to direct DNA polymerase?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Helicase"
+    },
+    {
+     "letter": "B",
+     "text": "Primase"
+    },
+    {
+     "letter": "C",
+     "text": "Ligase"
+    },
+    {
+     "letter": "D",
+     "text": "RNA polymerase"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Primase lays an RNA primer that directs DNA polymerase where to begin.",
+   "why": {
+    "A": "Helicase unzips the DNA.",
+    "C": "Ligase joins fragments.",
+    "D": "RNA polymerase makes mRNA during transcription."
+   }
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Which enzyme forms covalent bonds to join Okazaki fragments on the lagging strand?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Primase"
+    },
+    {
+     "letter": "B",
+     "text": "Helicase"
+    },
+    {
+     "letter": "C",
+     "text": "Ligase"
+    },
+    {
+     "letter": "D",
+     "text": "Gyrase"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Ligase catalyzes covalent bonds to join the Okazaki fragments.",
+   "why": {
+    "A": "Primase makes RNA primers.",
+    "B": "Helicase unzips DNA.",
+    "D": "Gyrase isn't the enzyme that joins fragments."
+   }
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "The short fragments made on the lagging daughter strand are called:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Okazaki fragments"
+    },
+    {
+     "letter": "B",
+     "text": "RNA primers"
+    },
+    {
+     "letter": "C",
+     "text": "Codons"
+    },
+    {
+     "letter": "D",
+     "text": "Promoters"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The lagging strand is made in pieces (Okazaki fragments) because DNA polymerase must be removed and re-attached repeatedly.",
+   "why": {
+    "B": "Primers start each fragment; they aren't the fragments themselves.",
+    "C": "Codons are triplets in mRNA.",
+    "D": "Promoters signal the start of a gene."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "DNA replication is 'semi-conservative.' This means each daughter molecule has:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Two original strands"
+    },
+    {
+     "letter": "B",
+     "text": "Two newly made strands"
+    },
+    {
+     "letter": "C",
+     "text": "One original strand and one newly made strand"
+    },
+    {
+     "letter": "D",
+     "text": "A mix of DNA and RNA nucleotides"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Each daughter molecule consists of one original (template) strand and one newly synthesized strand.",
+   "why": {
+    "A": "That would be conservative replication.",
+    "B": "Each daughter keeps one original strand.",
+    "D": "Daughter DNA is all DNA once the primers are replaced."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "What are the DNA base-pairing rules?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A pairs with T; G pairs with C"
+    },
+    {
+     "letter": "B",
+     "text": "A pairs with U; G pairs with C"
+    },
+    {
+     "letter": "C",
+     "text": "A pairs with G; T pairs with C"
+    },
+    {
+     "letter": "D",
+     "text": "A pairs with C; G pairs with T"
+    }
+   ],
+   "correct": "A",
+   "explanation": "DNA: A\u2013T and G\u2013C. Each strand serves as a template for a new strand.",
+   "why": {
+    "B": "U is found in RNA, not DNA.",
+    "C": "A\u2013T and G\u2013C are the pairs.",
+    "D": "A\u2013T and G\u2013C are the pairs."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "What type of bond links nucleotides along a single strand of DNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Covalent bonds between sugar and phosphate"
+    },
+    {
+     "letter": "B",
+     "text": "Hydrogen bonds between bases"
+    },
+    {
+     "letter": "C",
+     "text": "Peptide bonds"
+    },
+    {
+     "letter": "D",
+     "text": "Disulfide bonds"
+    }
+   ],
+   "correct": "A",
+   "explanation": "DNA polymerase forms covalent bonds between the sugar and phosphate of nucleotides on the growing daughter strand.",
+   "why": {
+    "B": "Hydrogen bonds hold the two strands together.",
+    "C": "Peptide bonds link amino acids.",
+    "D": "Disulfide bonds are found in some proteins."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "Which nitrogenous bases are found in RNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A, U, G, C"
+    },
+    {
+     "letter": "B",
+     "text": "A, T, G, C"
+    },
+    {
+     "letter": "C",
+     "text": "A, T, U, G"
+    },
+    {
+     "letter": "D",
+     "text": "A, T, G, C, U"
+    }
+   ],
+   "correct": "A",
+   "explanation": "DNA: A, T, G, C. RNA: A, U, G, C.",
+   "why": {
+    "B": "T is a DNA base; RNA uses U instead.",
+    "C": "RNA has no T; it has A, U, G and C.",
+    "D": "DNA and RNA each use four bases."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "The site on DNA where replication begins is called the:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Promoter"
+    },
+    {
+     "letter": "B",
+     "text": "Start codon"
+    },
+    {
+     "letter": "C",
+     "text": "Operator"
+    },
+    {
+     "letter": "D",
+     "text": "Origin of replication"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Replication begins at an origin of replication, forming a replication fork.",
+   "why": {
+    "A": "The promoter is where RNA polymerase binds for transcription.",
+    "B": "The start codon begins translation.",
+    "C": "The operator is the repressor binding site in an operon."
+   }
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "Why is the leading strand made continuously while the lagging strand is made in fragments?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "DNA polymerase can only build in one direction, so one strand must be made in pieces"
+    },
+    {
+     "letter": "B",
+     "text": "The lagging strand template has no complementary bases"
+    },
+    {
+     "letter": "C",
+     "text": "Ligase only works on the leading strand of the DNA"
+    },
+    {
+     "letter": "D",
+     "text": "Helicase unzips the lagging strand last of all"
+    }
+   ],
+   "correct": "A",
+   "explanation": "DNA polymerase synthesizes in one direction. On the leading strand it follows helicase continuously; on the lagging strand it must be removed and re-attached, making Okazaki fragments.",
+   "why": {
+    "B": "Both strands have complementary bases.",
+    "C": "Ligase joins the lagging-strand fragments.",
+    "D": "Both strands unzip together at the fork."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Which end of a nucleotide strand is the 3' end?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The end with the free phosphate"
+    },
+    {
+     "letter": "B",
+     "text": "The end with the free OH on the sugar"
+    },
+    {
+     "letter": "C",
+     "text": "The end with the nitrogenous base"
+    },
+    {
+     "letter": "D",
+     "text": "Either end, depending on the base"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Strands run 5' (phosphate end) to 3' (OH end).",
+   "why": {
+    "A": "The free phosphate marks the 5' end.",
+    "C": "Bases stick out from the side of every nucleotide.",
+    "D": "Directionality is fixed: 5' phosphate, 3' OH."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Which enzyme in the replication model adds new nucleotides to synthesize the complementary daughter strands?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "RNA polymerase"
+    },
+    {
+     "letter": "B",
+     "text": "DNA polymerase"
+    },
+    {
+     "letter": "C",
+     "text": "Primase"
+    },
+    {
+     "letter": "D",
+     "text": "Helicase"
+    }
+   ],
+   "correct": "B",
+   "explanation": "DNA polymerase brings in free nucleotides that hydrogen-bond to the template and forms covalent bonds between them.",
+   "why": {
+    "A": "RNA polymerase builds mRNA in transcription.",
+    "C": "Primase only lays down short RNA primers.",
+    "D": "Helicase only unzips the double helix."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Where does DNA replication occur in a prokaryote?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "In the cytoplasm"
+    },
+    {
+     "letter": "B",
+     "text": "In the nucleus"
+    },
+    {
+     "letter": "C",
+     "text": "In the mitochondria"
+    },
+    {
+     "letter": "D",
+     "text": "On the ribosome"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Replication happens in the eukaryotic nucleus, or in the cytoplasm of a prokaryote.",
+   "why": {
+    "B": "Prokaryotes lack a nucleus.",
+    "C": "Prokaryotes lack mitochondria.",
+    "D": "Ribosomes carry out translation."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the DNA replication model activity is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Helicase unzips the DNA as the molecule is fed through"
+    },
+    {
+     "letter": "B",
+     "text": "The lagging strand is made in fragments"
+    },
+    {
+     "letter": "C",
+     "text": "Ligase joins the lagging-strand fragments"
+    },
+    {
+     "letter": "D",
+     "text": "The two finished molecules should be identical"
+    },
+    {
+     "letter": "E",
+     "text": "The DNA polymerase on the leading strand must be removed and reattached"
+    }
+   ],
+   "correct": "E",
+   "explanation": "It is the LAGGING strand's DNA polymerase that must be removed and reattached for each fragment.",
+   "why": {
+    "A": "True \u2014 helicase unzips the DNA.",
+    "B": "True \u2014 Okazaki fragments.",
+    "C": "True \u2014 ligase forms covalent bonds.",
+    "D": "True \u2014 compare by stacking them."
+   }
+  }
+ ]
+}

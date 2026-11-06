@@ -1,0 +1,461 @@
+{
+ "slug": "lab7-2",
+ "title": "Lab 7 \u2014 Quiz 2",
+ "subtitle": "Bacterial Genetics \u2014 gene expression, codons, operons",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "Transcription converts:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "mRNA into protein"
+    },
+    {
+     "letter": "B",
+     "text": "DNA into mRNA"
+    },
+    {
+     "letter": "C",
+     "text": "DNA into DNA"
+    },
+    {
+     "letter": "D",
+     "text": "Protein into mRNA"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Transcription (by RNA polymerase) makes an mRNA transcript from DNA; translation (by the ribosome) makes protein from mRNA.",
+   "why": {
+    "A": "That's translation.",
+    "C": "That's replication.",
+    "D": "Information doesn't flow from protein back to mRNA."
+   }
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "Which enzyme is responsible for transcription?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "DNA polymerase"
+    },
+    {
+     "letter": "B",
+     "text": "RNA polymerase"
+    },
+    {
+     "letter": "C",
+     "text": "The ribosome"
+    },
+    {
+     "letter": "D",
+     "text": "Ligase"
+    }
+   ],
+   "correct": "B",
+   "explanation": "RNA polymerase unzips DNA and synthesizes mRNA using the non-coding (template) strand.",
+   "why": {
+    "A": "DNA polymerase replicates DNA.",
+    "C": "The ribosome translates mRNA.",
+    "D": "Ligase joins Okazaki fragments."
+   }
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "To start transcription, RNA polymerase binds to which region of DNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The promoter"
+    },
+    {
+     "letter": "B",
+     "text": "The terminator"
+    },
+    {
+     "letter": "C",
+     "text": "The start codon"
+    },
+    {
+     "letter": "D",
+     "text": "The operator"
+    }
+   ],
+   "correct": "A",
+   "explanation": "The promoter is upstream of a gene and rich in A and T. Promoter sequences are not transcribed.",
+   "why": {
+    "B": "The terminator signals the end of a gene.",
+    "C": "The start codon begins translation on mRNA.",
+    "D": "The operator is where an operon's repressor binds."
+   }
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Promoter regions are rich in which bases?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adenine and thymine"
+    },
+    {
+     "letter": "B",
+     "text": "Cytosine and guanine"
+    },
+    {
+     "letter": "C",
+     "text": "Uracil and adenine"
+    },
+    {
+     "letter": "D",
+     "text": "Guanine and thymine"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Promoter: upstream, A/T rich (e.g., TATATAAT). Terminator: downstream, C/G rich.",
+   "why": {
+    "B": "C and G are rich in terminator regions.",
+    "C": "Uracil isn't found in DNA.",
+    "D": "Promoters are A/T rich."
+   }
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Which DNA strand is used as the template during transcription?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The non-coding strand (3'\u21925')"
+    },
+    {
+     "letter": "B",
+     "text": "The coding strand (5'\u21923')"
+    },
+    {
+     "letter": "C",
+     "text": "Both strands at once"
+    },
+    {
+     "letter": "D",
+     "text": "Whichever strand is closest to the ribosome"
+    }
+   ],
+   "correct": "A",
+   "explanation": "RNA polymerase uses the non-coding (template) strand, so the mRNA matches the coding strand except U replaces T.",
+   "why": {
+    "B": "The coding strand matches the mRNA (with T instead of U).",
+    "C": "Only one strand serves as the template.",
+    "D": "Ribosomes aren't involved in transcription."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "A DNA coding strand reads 5'-ATG TGT GAG-3'. What is the mRNA transcript?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "5'-AUG UGU GAG-3'"
+    },
+    {
+     "letter": "B",
+     "text": "5'-UAC ACA CUC-3'"
+    },
+    {
+     "letter": "C",
+     "text": "5'-ATG TGT GAG-3'"
+    },
+    {
+     "letter": "D",
+     "text": "5'-TAC ACA CTC-3'"
+    }
+   ],
+   "correct": "A",
+   "explanation": "mRNA has the same sequence as the coding strand, with U in place of T.",
+   "why": {
+    "B": "That's complementary to the coding strand; mRNA matches the coding strand.",
+    "C": "mRNA uses U instead of T.",
+    "D": "That's the template DNA strand."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Photo",
+   "prompt": "Using this codon wheel, which amino acid does the mRNA codon AUG code for?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Isoleucine (a middle codon)"
+    },
+    {
+     "letter": "B",
+     "text": "Methionine (the start codon)"
+    },
+    {
+     "letter": "C",
+     "text": "Valine (a middle codon)"
+    },
+    {
+     "letter": "D",
+     "text": "A stop signal (ends translation)"
+    }
+   ],
+   "correct": "B",
+   "explanation": "AUG is the start codon and codes for methionine (Met). It sets the reading frame.",
+   "why": {
+    "A": "AUU, AUC and AUA code for isoleucine; AUG is Met.",
+    "C": "Valine codons begin with GU.",
+    "D": "AUG is the start codon."
+   },
+   "img": "../lab-img/L07m_p16_1.jpg"
+  },
+  {
+   "num": 8,
+   "type": "Photo",
+   "prompt": "Using this codon wheel, which amino acid does the codon UGG code for?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Tryptophan"
+    },
+    {
+     "letter": "B",
+     "text": "Cysteine"
+    },
+    {
+     "letter": "C",
+     "text": "Glycine"
+    },
+    {
+     "letter": "D",
+     "text": "A stop signal"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Read the wheel from the center outward: U \u2192 G \u2192 G = Trp.",
+   "why": {
+    "B": "Cysteine is UGU or UGC.",
+    "C": "Glycine codons begin with GG.",
+    "D": "UGA is a stop codon; UGG is tryptophan."
+   },
+   "img": "../lab-img/L07m_p16_1.jpg"
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "An mRNA codon is CAU. What is the tRNA anticodon?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "GTA"
+    },
+    {
+     "letter": "B",
+     "text": "GUA"
+    },
+    {
+     "letter": "C",
+     "text": "CAU"
+    },
+    {
+     "letter": "D",
+     "text": "AUG"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Anticodons are complementary to codons: C\u2013G, A\u2013U, U\u2013A \u2192 GUA.",
+   "why": {
+    "A": "tRNA is RNA, so it uses U, not T.",
+    "C": "The anticodon is complementary, not identical.",
+    "D": "The anticodon is complementary to CAU."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Stop codons such as UAA, UAG and UGA end translation because they:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Code for methionine"
+    },
+    {
+     "letter": "B",
+     "text": "Bind RNA polymerase"
+    },
+    {
+     "letter": "C",
+     "text": "Are rich in C and G"
+    },
+    {
+     "letter": "D",
+     "text": "Have no complementary tRNA"
+    }
+   ],
+   "correct": "D",
+   "explanation": "No tRNAs exist for stop codons, so the ribosome lets go of the mRNA and releases the polypeptide.",
+   "why": {
+    "A": "AUG (Met) is the start codon.",
+    "B": "RNA polymerase is used in transcription.",
+    "C": "That describes terminator DNA regions."
+   }
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "What type of bond joins amino acids during translation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Peptide bond"
+    },
+    {
+     "letter": "B",
+     "text": "Hydrogen bond"
+    },
+    {
+     "letter": "C",
+     "text": "Phosphodiester (sugar\u2013phosphate) bond"
+    },
+    {
+     "letter": "D",
+     "text": "Disulfide bond"
+    }
+   ],
+   "correct": "A",
+   "explanation": "A peptide bond forms between amino acids in the ribosome (ATP is required).",
+   "why": {
+    "B": "Hydrogen bonds pair codons with anticodons.",
+    "C": "Those link nucleotides.",
+    "D": "Peptide bonds form the polypeptide backbone."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Why can't you work out the exact codon from an amino acid?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Amino acids are made of DNA nucleotides"
+    },
+    {
+     "letter": "B",
+     "text": "The code is redundant \u2014 most amino acids have several codons"
+    },
+    {
+     "letter": "C",
+     "text": "tRNA anticodons are identical to the codons"
+    },
+    {
+     "letter": "D",
+     "text": "Each codon codes for several amino acids"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Amino acids have multiple codons (except Met), so you can't determine the exact codon from the amino acid.",
+   "why": {
+    "A": "Amino acids are protein building blocks.",
+    "C": "Anticodons are complementary to codons.",
+    "D": "Each codon codes for one amino acid; the redundancy runs the other way."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Photo",
+   "prompt": "In this pbd operon diagram, the operon is OFF. Why can't RNA polymerase transcribe the genes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The promoter has been deleted from the DNA"
+    },
+    {
+     "letter": "B",
+     "text": "Ribosomes are bound to the operator site"
+    },
+    {
+     "letter": "C",
+     "text": "The repressor is bound to the operator, blocking RNA polymerase"
+    },
+    {
+     "letter": "D",
+     "text": "The inducer is bound to the operator site"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Off: no 'matter' (inducer), so the repressor sits on the operator and blocks RNA polymerase.",
+   "why": {
+    "A": "The promoter is present; the repressor blocks the path.",
+    "B": "Ribosomes translate mRNA; they don't bind operators.",
+    "D": "The inducer binds the repressor, not the operator."
+   },
+   "img": "../lab-img/L07m_p13_1.jpg"
+  },
+  {
+   "num": 14,
+   "type": "Photo",
+   "prompt": "In this diagram, 'matter' is present and the pbd operon is ON. What type of operon is this?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Inducible \u2014 the inducer removes the repressor from the operator"
+    },
+    {
+     "letter": "B",
+     "text": "Repressible \u2014 the product switches the operon on"
+    },
+    {
+     "letter": "C",
+     "text": "Constitutive \u2014 it is always on"
+    },
+    {
+     "letter": "D",
+     "text": "Inducible \u2014 the inducer binds the promoter directly"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Inducer present \u2192 binds the repressor \u2192 the repressor lets go of the operator \u2192 RNA polymerase transcribes pbdZ, pbdY and pbdA.",
+   "why": {
+    "B": "Here a substance switches the operon ON by removing the repressor.",
+    "C": "It's off when matter is absent.",
+    "D": "The inducer binds the repressor, not the promoter."
+   },
+   "img": "../lab-img/L07m_p13_3.jpg"
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Operons are found in which kind of organism?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fungi"
+    },
+    {
+     "letter": "B",
+     "text": "Helminths"
+    },
+    {
+     "letter": "C",
+     "text": "Bacteria"
+    },
+    {
+     "letter": "D",
+     "text": "Protozoa"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Some bacteria have operons \u2014 coordinated clusters of genes regulated as one unit \u2014 to respond quickly to environmental changes.",
+   "why": {
+    "A": "Operons are described as clusters of genes in bacteria.",
+    "B": "Helminths are multicellular animals.",
+    "D": "Operons are a bacterial feature in this lab."
+   }
+  }
+ ]
+}

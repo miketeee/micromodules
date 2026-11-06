@@ -26,7 +26,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Tamiflu is a neuraminidase inhibitor. The course names hemagglutinin and neuraminidase as influenza proteins; HIV buds without that target."
+   "explanation": "Tamiflu is a neuraminidase inhibitor. The course names hemagglutinin and neuraminidase as influenza proteins; HIV buds without that target.",
+   "why": {
+    "A": "HIV leaves by budding, not lysis.",
+    "B": "Tamiflu doesn't block reverse transcriptase.",
+    "D": "Not every budding virus uses neuraminidase."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Direct penetration pushes the genome straight in. Fusion and endocytosis deliver a capsid (or vesicle) that must be uncoated."
+   "explanation": "Direct penetration pushes the genome straight in. Fusion and endocytosis deliver a capsid (or vesicle) that must be uncoated.",
+   "why": {
+    "A": "Enveloped viruses still need uncoating.",
+    "B": "Direct penetration needs no uncoating.",
+    "C": "Phages don't uncoat."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Lecture: lysosomes are de-acidified by the viruses 'and thus unable to digest them.' Keeping them acidic should restore digestion."
+   "explanation": "Lecture: lysosomes are de-acidified by the viruses 'and thus unable to digest them.' Keeping them acidic should restore digestion.",
+   "why": {
+    "A": "It wouldn't switch to neuraminidase budding.",
+    "B": "Lysosomes do contain digestive enzymes.",
+    "C": "Acid wouldn't burst the cell."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "A phage injects only its genome; animal viruses that enter by fusion or endocytosis must uncoat the capsid to free the genome."
+   "explanation": "A phage injects only its genome; animal viruses that enter by fusion or endocytosis must uncoat the capsid to free the genome.",
+   "why": {
+    "A": "Phages have biosynthesis.",
+    "C": "Phages attach.",
+    "D": "Phages are released."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Slides: 'It is incredibly difficult for host defense systems to recognize & destroy a provirus.'"
+   "explanation": "Slides: 'It is incredibly difficult for host defense systems to recognize & destroy a provirus.'",
+   "why": {
+    "B": "The provirus is inside cells, not in blood.",
+    "C": "It isn't coated in chitin.",
+    "D": "Persistent infection releases virus slowly."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Lecture: the host transcribes and translates viral proteins, 'including an enzyme that makes copies of the viral genome.' Slides: replicases copy RNA."
+   "explanation": "Lecture: the host transcribes and translates viral proteins, 'including an enzyme that makes copies of the viral genome.' Slides: replicases copy RNA.",
+   "why": {
+    "A": "It must copy its genome.",
+    "C": "Reverse transcriptase is retroviral.",
+    "D": "DNA polymerase can't copy RNA."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The envelope comes from the host cell membrane, so the virus looks like the host except for its viral proteins (Module 15: vaccines target the spike)."
+   "explanation": "The envelope comes from the host cell membrane, so the virus looks like the host except for its viral proteins (Module 15: vaccines target the spike).",
+   "why": {
+    "A": "The envelope isn't chitin.",
+    "B": "Spikes are on the outside, not inside the capsid.",
+    "D": "The envelope isn't shed."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Viruses were discovered in 1892 but not seen until Wendell Stanley used the electron microscope in 1935."
+   "explanation": "Viruses were discovered in 1892 but not seen until Wendell Stanley used the electron microscope in 1935.",
+   "why": {
+    "A": "Tamiflu didn't exist in 1918.",
+    "C": "Influenza was not thought to be fungal.",
+    "D": "No antivirals existed."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "HIV enters by membrane fusion (like SARS-CoV-2) and is seen budding out of CD4 helper T cells."
+   "explanation": "HIV enters by membrane fusion (like SARS-CoV-2) and is seen budding out of CD4 helper T cells.",
+   "why": {
+    "B": "HIV doesn't use direct penetration or exocytosis.",
+    "C": "HIV leaves by budding.",
+    "D": "HIV doesn't use endocytosis or lysis."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Hemagglutinin is used for attachment; neuraminidase is used for release."
+   "explanation": "Hemagglutinin is used for attachment; neuraminidase is used for release.",
+   "why": {
+    "B": "Hemagglutinin isn't a polymerase.",
+    "C": "It doesn't affect uncoating.",
+    "D": "Release is neuraminidase's step."
+   }
   },
   {
    "num": 11,
@@ -280,7 +330,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — SARS-CoV-2 virions already have their envelope before release; they don't need to bud through the plasma membrane."
+   "explanation": "False — SARS-CoV-2 virions already have their envelope before release; they don't need to bud through the plasma membrane.",
+   "why": {
+    "B": "True — leaves by exocytosis.",
+    "C": "True — spike binds ACE2.",
+    "D": "True — envelope from ER/Golgi.",
+    "E": "True — enters by fusion."
+   }
   },
   {
    "num": 12,
@@ -309,7 +365,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False — if only a couple of viruses bud out, the cell isn't harmed much."
+   "explanation": "False — if only a couple of viruses bud out, the cell isn't harmed much.",
+   "why": {
+    "A": "True — exocytosis works for both.",
+    "B": "True — mass budding kills.",
+    "D": "True — enveloped viruses bud.",
+    "E": "True — naked viruses lyse."
+   }
   },
   {
    "num": 13,
@@ -338,7 +400,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — reverse transcriptase makes DNA from the RNA genome."
+   "explanation": "False — reverse transcriptase makes DNA from the RNA genome.",
+   "why": {
+    "A": "True — HIV is a retrovirus.",
+    "C": "True — DNA goes into the host's DNA.",
+    "D": "True — RNA genomes.",
+    "E": "True — called a provirus."
+   }
   },
   {
    "num": 14,

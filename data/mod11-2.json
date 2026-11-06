@@ -26,7 +26,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Tapeworms: no mouth or gut, high surface area for absorption. Flukes: oral sucker → intestine. Roundworms: mouth and digestive tract."
+   "explanation": "Tapeworms: no mouth or gut, high surface area for absorption. Flukes: oral sucker → intestine. Roundworms: mouth and digestive tract.",
+   "why": {
+    "A": "Cestodes have no mouth or sucker.",
+    "B": "Cestodes don't drink blood; trematodes have intestines.",
+    "D": "Nematodes and flukes have digestive tracts."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Diatom walls are glass (silica). Chitin makes fungal cell walls, the worm cuticle, pinworm teeth, and arthropod exoskeletons."
+   "explanation": "Diatom walls are glass (silica). Chitin makes fungal cell walls, the worm cuticle, pinworm teeth, and arthropod exoskeletons.",
+   "why": {
+    "A": "Fungal walls are chitin.",
+    "B": "The cuticle contains chitin.",
+    "D": "Pinworm teeth are chitin."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Ascaris males have a curved, hook-like tail; pinworm males are smaller than females. Taenia proglottids are hermaphrodites, and many flukes are hermaphrodites."
+   "explanation": "Ascaris males have a curved, hook-like tail; pinworm males are smaller than females. Taenia proglottids are hermaphrodites, and many flukes are hermaphrodites.",
+   "why": {
+    "B": "Taenia and Clonorchis are hermaphrodites.",
+    "C": "Clonorchis is usually a hermaphrodite.",
+    "D": "Taenia is a hermaphrodite."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Heartworm eggs are carried by mosquitoes; Guinea-worm eggs are in rivers and creeks; Ascaris eggs are swallowed in contaminated food or water; Taenia eggs leave in proglottids in feces."
+   "explanation": "Heartworm eggs are carried by mosquitoes; Guinea-worm eggs are in rivers and creeks; Ascaris eggs are swallowed in contaminated food or water; Taenia eggs leave in proglottids in feces.",
+   "why": {
+    "A": "Ascaris eggs are swallowed, not from fly bites.",
+    "C": "Taenia comes from eating infected meat.",
+    "D": "Guinea-worm eggs are in water, not ticks."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Blood-feeding helminths (e.g., pinworms tapping a vessel; many flukes are fluid feeders) need blood to stay liquid. Tapeworms simply absorb nutrients."
+   "explanation": "Blood-feeding helminths (e.g., pinworms tapping a vessel; many flukes are fluid feeders) need blood to stay liquid. Tapeworms simply absorb nutrients.",
+   "why": {
+    "A": "Soil nematodes don't drink blood.",
+    "B": "Ascaris larvae pass through vessels but don't feed on blood.",
+    "D": "Tapeworms don't drink blood."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Pritchard's idea: worms must suppress inflammation to survive; allergies are an exaggerated inflammatory response. Worms are being researched for allergies, Crohn's, and IBS."
+   "explanation": "Pritchard's idea: worms must suppress inflammation to survive; allergies are an exaggerated inflammatory response. Worms are being researched for allergies, Crohn's, and IBS.",
+   "why": {
+    "B": "Worms don't starve immune cells.",
+    "C": "Hirudin prevents clotting; clots don't cause these conditions.",
+    "D": "Worms don't eat those bacteria."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Heartworms clog the valves, chambers, pulmonary artery and aorta. Adult Ascaris block the digestive tract and can be fatal."
+   "explanation": "Heartworms clog the valves, chambers, pulmonary artery and aorta. Adult Ascaris block the digestive tract and can be fatal.",
+   "why": {
+    "A": "Neither lives in red blood cells.",
+    "B": "Neither is a tapeworm.",
+    "C": "Neither releases a neurotoxin."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Mechanical vectors carry pathogens on body parts (house fly). Biological vectors host pathogen reproduction inside them (mosquito–malaria, tick–Lyme)."
+   "explanation": "Mechanical vectors carry pathogens on body parts (house fly). Biological vectors host pathogen reproduction inside them (mosquito–malaria, tick–Lyme).",
+   "why": {
+    "A": "Feeding style doesn't decide vector type.",
+    "C": "Biting doesn't decide it.",
+    "D": "Vectors carry pathogens; they don't cause the disease."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Lecture: tapeworms and flukes are flat (surface area); roundworms have a fluid-filled hydrostatic skeleton that gives them a round, 3-D body."
+   "explanation": "Lecture: tapeworms and flukes are flat (surface area); roundworms have a fluid-filled hydrostatic skeleton that gives them a round, 3-D body.",
+   "why": {
+    "B": "Nematodes aren't made of proglottids.",
+    "C": "Habitat doesn't shape them.",
+    "D": "Both have cuticles."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Helminths can be micro- or macroscopic; even large worms matter because their eggs and larvae are microscopic and are what spreads."
+   "explanation": "Helminths can be micro- or macroscopic; even large worms matter because their eggs and larvae are microscopic and are what spreads.",
+   "why": {
+    "A": "Adults don't shrink.",
+    "B": "Microbiology studies the worms themselves.",
+    "C": "Large helminths cause disease too."
+   }
   },
   {
    "num": 11,
@@ -276,7 +326,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Vermox inhibits sugar absorption. Whether worms absorb food from the gut or drink blood, sugars like glucose are a main thing they take in."
+   "explanation": "Vermox inhibits sugar absorption. Whether worms absorb food from the gut or drink blood, sugars like glucose are a main thing they take in.",
+   "why": {
+    "A": "Ergosterol is fungal.",
+    "C": "Vermox doesn't dissolve chitin.",
+    "D": "Blocking DNA synthesis is Flagyl."
+   }
   },
   {
    "num": 12,
@@ -305,7 +360,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — the scolex is just an attachment organ (no eyes, mouth, or brain). Tapeworms have no mouth or digestive tract."
+   "explanation": "False — the scolex is just an attachment organ (no eyes, mouth, or brain). Tapeworms have no mouth or digestive tract.",
+   "why": {
+    "B": "True — each proglottid has both organs.",
+    "C": "True — 20–30 feet long.",
+    "D": "True — hooks anchor the scolex.",
+    "E": "True — egg-filled segments leave in feces."
+   }
   },
   {
    "num": 13,
@@ -334,7 +395,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — flukes are flat but much smaller, not segmented like tapeworms, and have more complex bodies."
+   "explanation": "False — flukes are flat but much smaller, not segmented like tapeworms, and have more complex bodies.",
+   "why": {
+    "A": "True — most flukes are specific.",
+    "C": "True — oral sucker into an intestine.",
+    "D": "True — many drink blood.",
+    "E": "True — many are hermaphrodites."
+   }
   },
   {
    "num": 14,

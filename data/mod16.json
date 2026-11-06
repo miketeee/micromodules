@@ -26,7 +26,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Its spike proteins bind only the CD4 protein found on those cells — a narrow host range."
+   "explanation": "Its spike proteins bind only the CD4 protein found on those cells — a narrow host range.",
+   "why": {
+    "B": "Lysogenic conversion is a prophage changing a bacterium's traits.",
+    "C": "Infecting only one cell type is narrow, not broad.",
+    "D": "Latency is dormancy, not host range."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Direct penetration (e.g., human enterovirus) resembles phage injection."
+   "explanation": "Direct penetration (e.g., human enterovirus) resembles phage injection.",
+   "why": {
+    "A": "Budding is exit, not entry.",
+    "B": "Membrane fusion is common among enveloped viruses.",
+    "C": "Endocytosis is common."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The host cell can engulf either kind; membrane fusion requires an envelope."
+   "explanation": "The host cell can engulf either kind; membrane fusion requires an envelope.",
+   "why": {
+    "A": "Fusion needs an envelope.",
+    "B": "Direct penetration is only a few naked viruses.",
+    "D": "Lysis is exit."
+   }
   },
   {
    "num": 4,
@@ -105,7 +120,13 @@
     }
    ],
    "correct": "D",
-   "explanation": "False. In direct penetration only the genome enters, so there's no capsid to remove."
+   "explanation": "False. In direct penetration only the genome enters, so there's no capsid to remove.",
+   "why": {
+    "A": "True — it happens inside the cell.",
+    "B": "True — fusion drops the capsid in.",
+    "C": "True — endocytosis brings the capsid in.",
+    "E": "True — uncoating frees the genome."
+   }
   },
   {
    "num": 5,
@@ -130,7 +151,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Latent: dormant episomal DNA that occasionally becomes productive (herpes simplex)."
+   "explanation": "Latent: dormant episomal DNA that occasionally becomes productive (herpes simplex).",
+   "why": {
+    "A": "Acute infections spike and resolve.",
+    "B": "Persistent means slow, constant virus release (HIV).",
+    "D": "'Lytic' is a phage term."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Persistent infection: low-level production makes it detectable but not yet disease-causing."
+   "explanation": "Persistent infection: low-level production makes it detectable but not yet disease-causing.",
+   "why": {
+    "A": "HIV makes virus slowly; latency makes none.",
+    "B": "HIV does enter T cells.",
+    "C": "HIV isn't cleared."
+   }
   },
   {
    "num": 7,
@@ -188,7 +219,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The envelope is a patch of host membrane containing viral proteins."
+   "explanation": "The envelope is a patch of host membrane containing viral proteins.",
+   "why": {
+    "A": "Animal cells have no cell wall.",
+    "C": "Viral genes don't make phospholipids.",
+    "D": "Typical budding uses the plasma membrane."
+   }
   },
   {
    "num": 9,
@@ -213,7 +249,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Neuraminidase digests the proteins tethering the virus; hemagglutinin is for attachment."
+   "explanation": "Neuraminidase digests the proteins tethering the virus; hemagglutinin is for attachment.",
+   "why": {
+    "A": "Hemagglutinin is for attachment.",
+    "B": "ACE2 is SARS-CoV-2's receptor.",
+    "D": "CD4 is HIV's receptor."
+   }
   },
   {
    "num": 10,
@@ -238,7 +279,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Flu viruses are named by their hemagglutinin (H) and neuraminidase (N) types."
+   "explanation": "Flu viruses are named by their hemagglutinin (H) and neuraminidase (N) types.",
+   "why": {
+    "A": "Not capsid or segment counts.",
+    "B": "Not host range.",
+    "D": "Not a transmission level."
+   }
   },
   {
    "num": 11,
@@ -263,7 +309,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Tamiflu inhibits neuraminidase to block budding; SARS-CoV-2 leaves via de-acidified lysosomes and exocytosis."
+   "explanation": "Tamiflu inhibits neuraminidase to block budding; SARS-CoV-2 leaves via de-acidified lysosomes and exocytosis.",
+   "why": {
+    "A": "SARS-CoV-2 is an RNA virus.",
+    "C": "Tamiflu blocks release, not entry.",
+    "D": "SARS-CoV-2 is enveloped."
+   }
   },
   {
    "num": 12,
@@ -296,7 +347,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "It mimics a nucleotide and interferes with viral genome replication."
+   "explanation": "It mimics a nucleotide and interferes with viral genome replication.",
+   "why": {
+    "B": "Neuraminidase inhibition is Tamiflu.",
+    "C": "It doesn't block ACE2.",
+    "D": "It doesn't dissolve the envelope."
+   }
   },
   {
    "num": 14,
@@ -325,7 +381,13 @@
     }
    ],
    "correct": "D",
-   "explanation": "False. It was more likely to kill healthy individuals with robust immune systems."
+   "explanation": "False. It was more likely to kill healthy individuals with robust immune systems.",
+   "why": {
+    "A": "True — about 500 million infected.",
+    "B": "True — mask mandates were issued.",
+    "C": "True — about 100 million deaths.",
+    "E": "True — more deaths than the Plague."
+   }
   },
   {
    "num": 15,
@@ -350,7 +412,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Envelope merging with the membrane = membrane fusion, used by HIV and SARS-CoV-2."
+   "explanation": "Envelope merging with the membrane = membrane fusion, used by HIV and SARS-CoV-2.",
+   "why": {
+    "B": "Endocytosis is the cell engulfing the virus.",
+    "C": "Direct penetration injects only the genome.",
+    "D": "Lysis is exit."
+   }
   },
   {
    "num": 16,

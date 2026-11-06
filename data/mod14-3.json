@@ -26,7 +26,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Exponential doubling: 2^30 ≈ 1.07 billion — the lecture's 'billions and billions' of copies."
+   "explanation": "Exponential doubling: 2^30 ≈ 1.07 billion — the lecture's 'billions and billions' of copies.",
+   "why": {
+    "A": "900 isn't doubling.",
+    "C": "60 isn't doubling.",
+    "D": "Far too low."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Early cycles leave some long strands, but within a few cycles nearly every copy runs primer to primer."
+   "explanation": "Early cycles leave some long strands, but within a few cycles nearly every copy runs primer to primer.",
+   "why": {
+    "A": "Only the region between primers is amplified.",
+    "C": "Outside regions aren't copied exponentially.",
+    "D": "Product is one defined size."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Knock-out = cut + sloppy NHEJ repair → mutation inactivates the gene. Knock-in requires donor DNA."
+   "explanation": "Knock-out = cut + sloppy NHEJ repair → mutation inactivates the gene. Knock-in requires donor DNA.",
+   "why": {
+    "A": "HDR from the homolog restores the gene.",
+    "B": "A perfect rejoin leaves it working.",
+    "C": "Donor DNA inserts a sequence."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Lecture: heart, lungs, liver — 'but interestingly so would the brain… we really just don't know what we've got here.'"
+   "explanation": "Lecture: heart, lungs, liver — 'but interestingly so would the brain… we really just don't know what we've got here.'",
+   "why": {
+    "B": "Rejection wasn't the stated reason.",
+    "C": "CCR5 wasn't involved.",
+    "D": "Insulin wasn't involved."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Both are about cost and access: most sickle-cell cases are in Africa, in populations unable to afford the treatment."
+   "explanation": "Both are about cost and access: most sickle-cell cases are in Africa, in populations unable to afford the treatment.",
+   "why": {
+    "A": "Organ size isn't about access.",
+    "B": "Water baths aren't about cost.",
+    "D": "Berg's caution isn't about access."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Huang tried to correct a heart-disease-linked gene; results were poor, with off-target mutations."
+   "explanation": "Huang tried to correct a heart-disease-linked gene; results were poor, with off-target mutations.",
+   "why": {
+    "B": "He used CRISPR.",
+    "C": "He didn't fix heart disease.",
+    "D": "His embryos weren't implanted; that was He Jiankui."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "No primer binding site → no amplification → negative, even after 40 cycles."
+   "explanation": "No primer binding site → no amplification → negative, even after 40 cycles.",
+   "why": {
+    "A": "Extra cycles don't destroy copies.",
+    "B": "PCR reports pathogen amplification.",
+    "D": "Human DNA doesn't block Taq this way."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Primers anneal at ~55 °C. Without that step, polymerase has no primer to extend."
+   "explanation": "Primers anneal at ~55 °C. Without that step, polymerase has no primer to extend.",
+   "why": {
+    "A": "Taq can't lay primers.",
+    "C": "Skipping annealing prevents copying.",
+    "D": "Single strands aren't a positive."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Module 13: the genetic code is used by humans, goldfish, trees, fungi, and bacteria alike."
+   "explanation": "Module 13: the genetic code is used by humans, goldfish, trees, fungi, and bacteria alike.",
+   "why": {
+    "A": "Plasmids don't carry ribosomes.",
+    "B": "E. coli has no insulin gene.",
+    "C": "Insulin must be translated."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Ligase glues Okazaki fragments. In PCR, polymerase extends each primer straight to the end of its template."
+   "explanation": "Ligase glues Okazaki fragments. In PCR, polymerase extends each primer straight to the end of its template.",
+   "why": {
+    "B": "Heat doesn't weld DNA.",
+    "C": "Taq isn't a ligase.",
+    "D": "PCR copies both strands."
+   }
   },
   {
    "num": 11,
@@ -280,7 +330,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — the first approved CRISPR-edited food was white button mushrooms edited to delay spoilage."
+   "explanation": "False — the first approved CRISPR-edited food was white button mushrooms edited to delay spoilage.",
+   "why": {
+    "A": "True — sickle cell was first approved.",
+    "C": "True — it's a bacterial immune system.",
+    "D": "True — gene-edited foods aren't labeled GMO.",
+    "E": "True — livestock are being edited."
+   }
   },
   {
    "num": 12,
@@ -309,7 +365,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — research is allowed, but no country permits implanting an edited embryo. He Jiankui served three years in prison."
+   "explanation": "False — research is allowed, but no country permits implanting an edited embryo. He Jiankui served three years in prison.",
+   "why": {
+    "B": "True — embryos can't consent.",
+    "C": "True — the 2017 NAS position.",
+    "D": "True — a worldwide moratorium.",
+    "E": "True — germline edits are inherited."
+   }
   },
   {
    "num": 13,
@@ -338,7 +400,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False — the lecture contrasts eukaryotes (vertical gene transfer) with bacteria (capable of horizontal transfer)."
+   "explanation": "False — the lecture contrasts eukaryotes (vertical gene transfer) with bacteria (capable of horizontal transfer).",
+   "why": {
+    "A": "True — vertical goes to offspring.",
+    "B": "True — bacteria swap plasmids.",
+    "D": "True — HGT is within a generation.",
+    "E": "True — HGT enables engineering."
+   }
   },
   {
    "num": 14,

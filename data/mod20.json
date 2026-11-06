@@ -26,7 +26,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Starfish larvae are see-through, so he could watch phagocytes engulf the bacteria."
+   "explanation": "Starfish larvae are see-through, so he could watch phagocytes engulf the bacteria.",
+   "why": {
+    "A": "He didn't culture WBCs on agar.",
+    "B": "Crystal violet staining wasn't his method.",
+    "C": "Filtered broth in guinea pigs was Roux's."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Innate defenses are inborn, target no specific antigen, and don't improve."
+   "explanation": "Innate defenses are inborn, target no specific antigen, and don't improve.",
+   "why": {
+    "A": "Antibodies are specific.",
+    "B": "The third line is specific.",
+    "D": "Adaptive immunity improves with exposure."
+   }
   },
   {
    "num": 3,
@@ -80,7 +90,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "Inflammation is a second-line defense."
+   "explanation": "Inflammation is a second-line defense.",
+   "why": {
+    "B": "True — phagocytosis is second-line.",
+    "C": "True — skin is first-line.",
+    "D": "True — memory is third-line.",
+    "E": "True — antibodies are third-line."
+   }
   },
   {
    "num": 4,
@@ -105,7 +121,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Skin is dry — low moisture limits bacterial growth."
+   "explanation": "Skin is dry — low moisture limits bacterial growth.",
+   "why": {
+    "A": "Shedding removes microbes.",
+    "B": "Acidic sebum inhibits microbes.",
+    "C": "Salt inhibits microbes."
+   }
   },
   {
    "num": 5,
@@ -130,7 +151,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Without beating cilia, coughing is the only way to move mucus up the airway."
+   "explanation": "Without beating cilia, coughing is the only way to move mucus up the airway.",
+   "why": {
+    "A": "Smoking doesn't change gastric juice.",
+    "C": "Sebum is a skin secretion.",
+    "D": "The lacrimal apparatus is the eyes."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "It mainly attacks Gram-positive cell walls."
+   "explanation": "It mainly attacks Gram-positive cell walls.",
+   "why": {
+    "A": "Lysozyme doesn't clot blood.",
+    "B": "pH 2 is stomach acid.",
+    "D": "Siderophores bind iron."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Hydrochloric acid in the stomach destroys most swallowed microbes."
+   "explanation": "Hydrochloric acid in the stomach destroys most swallowed microbes.",
+   "why": {
+    "A": "Saliva is about 6.5.",
+    "B": "Urine is about 6.",
+    "C": "Sweat isn't pH 2."
+   }
   },
   {
    "num": 8,
@@ -213,7 +249,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Histamine is the key chemical trigger."
+   "explanation": "Histamine is the key chemical trigger.",
+   "why": {
+    "A": "Macrophages don't release sebum.",
+    "C": "Skin cells don't make HCl.",
+    "D": "Neutrophils don't start inflammation."
+   }
   },
   {
    "num": 10,
@@ -238,7 +279,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Vasodilation increases blood flow."
+   "explanation": "Vasodilation increases blood flow.",
+   "why": {
+    "B": "Bacterial heat isn't the cause.",
+    "C": "Pus is white, not red.",
+    "D": "Vessels dilate rather than constrict."
+   }
   },
   {
    "num": 11,
@@ -263,7 +309,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "The swelling also causes the pain."
+   "explanation": "The swelling also causes the pain.",
+   "why": {
+    "B": "Mast cells don't swell.",
+    "C": "No gas is involved.",
+    "D": "Swelling is fluid, not a bacterial lump."
+   }
   },
   {
    "num": 12,
@@ -292,7 +343,13 @@
     }
    ],
    "correct": "E",
-   "explanation": "Macrophages survive because they digest and excrete the waste; neutrophils eat themselves to death."
+   "explanation": "Macrophages survive because they digest and excrete the waste; neutrophils eat themselves to death.",
+   "why": {
+    "A": "True — macrophages clear pus.",
+    "B": "True — monocytes become macrophages.",
+    "C": "True — waste is exocytosed.",
+    "D": "True — neutrophils arrive first."
+   }
   },
   {
    "num": 13,
@@ -317,7 +374,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Hydrolytic enzymes then digest the microbe."
+   "explanation": "Hydrolytic enzymes then digest the microbe.",
+   "why": {
+    "B": "Pseudopods surround the microbe.",
+    "C": "An abscess is a walled-off site.",
+    "D": "TLRs are receptors."
+   }
   },
   {
    "num": 14,
@@ -342,7 +404,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "They recognize broad features shared by many microbes, so phagocytosis stays nonspecific."
+   "explanation": "They recognize broad features shared by many microbes, so phagocytosis stays nonspecific.",
+   "why": {
+    "B": "TLRs ignore healthy self.",
+    "C": "That's adaptive receptors.",
+    "D": "Histamine isn't a TLR target."
+   }
   },
   {
    "num": 15,
@@ -367,7 +434,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Macrophages eventually clean it up."
+   "explanation": "Macrophages eventually clean it up.",
+   "why": {
+    "A": "Sebum isn't pus.",
+    "C": "Pus isn't just live bacteria.",
+    "D": "Pus isn't red cells and platelets."
+   }
   },
   {
    "num": 16,

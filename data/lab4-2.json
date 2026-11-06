@@ -1,0 +1,468 @@
+{
+ "slug": "lab4-2",
+ "title": "Lab 4 \u2014 Quiz 2",
+ "subtitle": "Control of Growth \u2014 experiments and growth refresher",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "In the spice vapor experiment, where is the cinnamon placed?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Spread on the inside of the lid, with the plate kept inverted"
+    },
+    {
+     "letter": "B",
+     "text": "Sprinkled directly onto the agar surface"
+    },
+    {
+     "letter": "C",
+     "text": "Mixed into the bacterial suspension first"
+    },
+    {
+     "letter": "D",
+     "text": "Placed in a paper disc in the plate center"
+    }
+   ],
+   "correct": "A",
+   "explanation": "1 g of spice is spread on the inner surface of the lid; the inverted plate lets vapors rise to the agar.",
+   "why": {
+    "B": "Spice must never contact the agar \u2014 that ruins the experiment.",
+    "C": "Spice goes in the lid so only vapors reach the agar.",
+    "D": "Paper discs are used in the disinfectant experiment."
+   }
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "In the UV experiment, why is half of each plate covered with a notecard?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "To keep the agar from drying out under the lamp"
+    },
+    {
+     "letter": "B",
+     "text": "To protect students' eyes from the UV light"
+    },
+    {
+     "letter": "C",
+     "text": "The covered half is not exposed to UV, so it serves as a comparison"
+    },
+    {
+     "letter": "D",
+     "text": "To hold the lid in place during exposure"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The covered side isn't exposed to UV; the uncovered side is. Comparing them shows UV's effect at each time point.",
+   "why": {
+    "A": "The card blocks UV so the two halves can be compared.",
+    "B": "The card's purpose is the unexposed comparison half.",
+    "D": "Lids are removed during UV exposure."
+   }
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "What variable is tested across the four UV plates?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Distance of each plate from the UV lamp"
+    },
+    {
+     "letter": "B",
+     "text": "Type of organism swabbed on each plate"
+    },
+    {
+     "letter": "C",
+     "text": "Duration of UV exposure (30 s, 1 min, 5 min, 10 min)"
+    },
+    {
+     "letter": "D",
+     "text": "Amount of cinnamon spread in each lid"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The question: how does duration of exposure influence UV's antimicrobial properties? Plates are exposed for 30 s, 1 min, 5 min and 10 min.",
+   "why": {
+    "A": "All plates sit in the chamber; exposure time is what changes.",
+    "B": "Each table uses one organism for all plates.",
+    "D": "Cinnamon is part of the spice experiment."
+   }
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Why is a 'Control' plate swabbed with the organism but given no treatment?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "To confirm that the agar is sterile before use"
+    },
+    {
+     "letter": "B",
+     "text": "To test whether UV light kills endospores"
+    },
+    {
+     "letter": "C",
+     "text": "To show normal growth for comparison with the treated plates"
+    },
+    {
+     "letter": "D",
+     "text": "To serve as a backup if another plate is dropped"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The untreated control shows how the organism grows without any treatment, so effects in the spice and UV plates can be judged.",
+   "why": {
+    "A": "A sterility check would be an uninoculated plate.",
+    "B": "The control gets no treatment at all.",
+    "D": "It's an experimental control, not a spare."
+   }
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "How is each plate inoculated with the swab?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Drag across the whole surface, rotate 180\u00b0, and swab the whole surface again"
+    },
+    {
+     "letter": "B",
+     "text": "Streak in four quadrants with stabs between them"
+    },
+    {
+     "letter": "C",
+     "text": "Press the swab in the center and leave it there"
+    },
+    {
+     "letter": "D",
+     "text": "Spread 50 \u00b5L with a sterile glass spreader"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Swab horizontally across the entire agar surface, rotate the plate 180\u00b0, swab again, then discard the swab in biohazard.",
+   "why": {
+    "B": "That's the quadrant streak plate method.",
+    "C": "The entire surface must be covered for even growth.",
+    "D": "That's the spread plate in the probiotic experiment."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "In the disinfectant experiment, how are the chemicals applied to the plate?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Chemicals are poured over the entire agar surface"
+    },
+    {
+     "letter": "B",
+     "text": "Chemicals are placed in the lid like the spices"
+    },
+    {
+     "letter": "C",
+     "text": "Paper discs soaked in each chemical are placed on the agar"
+    },
+    {
+     "letter": "D",
+     "text": "The organism is mixed with each chemical in a tube"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Paper discs imbued with the selected chemicals (A\u2013G) are placed on the agar surface.",
+   "why": {
+    "A": "Each chemical is on its own disc so they can be compared.",
+    "B": "Spices are in the lid; disinfectants are on paper discs.",
+    "D": "The plate is swabbed, then the discs are placed."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "In the skin degerming experiment, what serves as the comparison for each washed or wiped thumb?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "An untreated thumb"
+    },
+    {
+     "letter": "B",
+     "text": "A sterile plate with nothing added"
+    },
+    {
+     "letter": "C",
+     "text": "A plate of pure E. coli"
+    },
+    {
+     "letter": "D",
+     "text": "A thumb treated with bleach"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Picture the Plan: untreated left/right thumbs vs washed (soap) and wiped (alcohol) thumbs.",
+   "why": {
+    "B": "The comparison is the untreated thumb print.",
+    "C": "No known organism is used as the comparison.",
+    "D": "Bleach is a disinfectant, unsafe for skin."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Photo",
+   "prompt": "These red colonies are Serratia marcescens. At what temperature range is its red pigment, prodigiosin, produced?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "35\u00b0C to 40\u00b0C"
+    },
+    {
+     "letter": "B",
+     "text": "20\u00b0C to 30\u00b0C"
+    },
+    {
+     "letter": "C",
+     "text": "Above 45\u00b0C"
+    },
+    {
+     "letter": "D",
+     "text": "Below 4\u00b0C"
+    }
+   ],
+   "correct": "B",
+   "explanation": "S. marcescens (soil microbe, opportunistic pathogen) makes the red pigment prodigiosin only at lower temperatures (20\u201330\u00b0C).",
+   "why": {
+    "A": "Prodigiosin is temperature sensitive and made only at lower temperatures.",
+    "C": "High temperatures stop pigment production.",
+    "D": "Refrigeration slows growth; pigment is made at 20\u201330\u00b0C."
+   },
+   "img": "../lab-img/L04s_p16_1.jpg"
+  },
+  {
+   "num": 9,
+   "type": "Photo",
+   "prompt": "On this growth-rate graph, which group has the LOWEST optimum temperature?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Psychrophiles"
+    },
+    {
+     "letter": "B",
+     "text": "Mesophiles"
+    },
+    {
+     "letter": "C",
+     "text": "Thermophiles"
+    },
+    {
+     "letter": "D",
+     "text": "Hyperthermophiles"
+    }
+   ],
+   "correct": "A",
+   "explanation": "From coldest to hottest optimum: psychrophiles, mesophiles, thermophiles, hyperthermophiles.",
+   "why": {
+    "B": "Mesophiles grow best at moderate temperatures.",
+    "C": "Thermophiles grow best at high temperatures.",
+    "D": "Hyperthermophiles have the highest optimum."
+   },
+   "img": "../lab-img/L04s_p15_1.jpg"
+  },
+  {
+   "num": 10,
+   "type": "Photo",
+   "prompt": "Why are the growth curves on this graph skewed toward the optimum temperature?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cells divide faster when temperatures are too cold"
+    },
+    {
+     "letter": "B",
+     "text": "Membranes freeze above the optimum temperature"
+    },
+    {
+     "letter": "C",
+     "text": "Proteins denature rapidly once temperature rises past the optimum"
+    },
+    {
+     "letter": "D",
+     "text": "Endospores form at the optimum temperature"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The skewing is thought to reflect rapid protein denaturation as temperature rises past the optimum.",
+   "why": {
+    "A": "Growth slows in the cold.",
+    "B": "Above optimum the issue is protein denaturation.",
+    "D": "Endospores form under stressful conditions."
+   },
+   "img": "../lab-img/L04s_p15_1.jpg"
+  },
+  {
+   "num": 11,
+   "type": "Photo",
+   "prompt": "On this bacterial growth curve, which phase shows NO increase in the number of living cells as the cells adjust?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Log phase"
+    },
+    {
+     "letter": "B",
+     "text": "Lag phase"
+    },
+    {
+     "letter": "C",
+     "text": "Stationary phase"
+    },
+    {
+     "letter": "D",
+     "text": "Death phase"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Lag: no increase. Log: exponential increase. Stationary: plateau (division \u2248 death). Death/decline: exponential decrease.",
+   "why": {
+    "A": "Log phase is exponential increase.",
+    "C": "In stationary phase, division and death are roughly equal (a plateau).",
+    "D": "Death phase is an exponential decrease."
+   },
+   "img": "../lab-img/L04s_p20_1.jpg"
+  },
+  {
+   "num": 12,
+   "type": "Photo",
+   "prompt": "In the stationary phase of the growth curve:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cells divide exponentially and numbers double each generation"
+    },
+    {
+     "letter": "B",
+     "text": "Cell numbers decrease exponentially as cells die off"
+    },
+    {
+     "letter": "C",
+     "text": "The rate of cell division and the rate of death are roughly equal"
+    },
+    {
+     "letter": "D",
+     "text": "Cells are adjusting to the medium and not dividing yet"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Stationary phase is a plateau in the number of living cells.",
+   "why": {
+    "A": "That's log phase.",
+    "B": "That's the death/decline phase.",
+    "D": "That's lag phase."
+   },
+   "img": "../lab-img/L04s_p20_1.jpg"
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Bacterial population growth is based on which form of reproduction?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Budding"
+    },
+    {
+     "letter": "B",
+     "text": "Binary fission"
+    },
+    {
+     "letter": "C",
+     "text": "Spore formation"
+    },
+    {
+     "letter": "D",
+     "text": "Meiosis"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Binary fission: DNA is replicated as the cell elongates, a septum forms, and two similar daughter cells separate.",
+   "why": {
+    "A": "Budding is another, less common type of bacterial reproduction.",
+    "C": "Fungi reproduce by spores; bacterial endospores are for survival.",
+    "D": "Bacteria reproduce asexually."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Photo",
+   "prompt": "An organism that does NOT use oxygen and CANNOT detoxify it is a(n):",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Aerotolerant anaerobe"
+    },
+    {
+     "letter": "B",
+     "text": "Microaerophile"
+    },
+    {
+     "letter": "C",
+     "text": "Facultative anaerobe"
+    },
+    {
+     "letter": "D",
+     "text": "Obligate anaerobe"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Obligate anaerobes neither use nor detoxify oxygen, so they grow only at the bottom of thioglycolate broth.",
+   "why": {
+    "A": "Aerotolerant anaerobes don't use O2 but can detoxify it.",
+    "B": "Microaerophiles use O2 and detoxify it.",
+    "C": "Facultative anaerobes can detoxify O2."
+   },
+   "img": "../lab-img/L02s_p11_1.jpg"
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the oxygen groups is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Aerotolerant anaerobes use oxygen for growth"
+    },
+    {
+     "letter": "B",
+     "text": "Obligate aerobes use oxygen and detoxify it"
+    },
+    {
+     "letter": "C",
+     "text": "Microaerophiles use oxygen and detoxify it"
+    },
+    {
+     "letter": "D",
+     "text": "Obligate anaerobes neither use nor detoxify oxygen"
+    },
+    {
+     "letter": "E",
+     "text": "Facultative anaerobes can detoxify oxygen"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Aerotolerant anaerobes do NOT use oxygen, but they can detoxify it (group 3).",
+   "why": {
+    "B": "True \u2014 group 1.",
+    "C": "True \u2014 group 1.",
+    "D": "True \u2014 group 2.",
+    "E": "True \u2014 listed in groups 1 and 3."
+   }
+  }
+ ]
+}

@@ -26,7 +26,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Zoonoses move from animals to humans."
+   "explanation": "Zoonoses move from animals to humans.",
+   "why": {
+    "A": "HAIs are acquired in healthcare settings.",
+    "B": "A fomite is an object.",
+    "C": "A vehicle is non-living."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "A fomite is a non-living object that serves as the middleman."
+   "explanation": "A fomite is a non-living object that serves as the middleman.",
+   "why": {
+    "A": "Droplets are respiratory spray.",
+    "C": "Direct contact is touching people.",
+    "D": "No arthropod is involved."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Droplet = less than 1 meter; airborne (vehicle) = more than 1 meter."
+   "explanation": "Droplet = less than 1 meter; airborne (vehicle) = more than 1 meter.",
+   "why": {
+    "B": "Airborne is beyond 1 meter.",
+    "C": "Indirect contact uses an object.",
+    "D": "Waterborne uses water."
+   }
   },
   {
    "num": 4,
@@ -105,7 +120,13 @@
     }
    ],
    "correct": "D",
-   "explanation": "The housefly is a mechanical vector; the mosquito is the biological vector for Plasmodium."
+   "explanation": "The housefly is a mechanical vector; the mosquito is the biological vector for Plasmodium.",
+   "why": {
+    "A": "True — Anopheles is biological.",
+    "B": "True — the pathogen reproduces inside.",
+    "C": "True — mechanical vectors carry it outside.",
+    "E": "True — vectors live; vehicles don't."
+   }
   },
   {
    "num": 5,
@@ -130,7 +151,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Mucous membranes exchange materials with the outside world and are the most vulnerable."
+   "explanation": "Mucous membranes exchange materials with the outside world and are the most vulnerable.",
+   "why": {
+    "A": "Unbroken skin is a strong barrier.",
+    "B": "Hair follicles aren't the main portal.",
+    "C": "Parenteral entry is less common."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Parenteral = something plunges through intact skin."
+   "explanation": "Parenteral = something plunges through intact skin.",
+   "why": {
+    "A": "Vehicle is a transmission type, not a portal.",
+    "B": "The nail went through skin, not a mucous membrane.",
+    "D": "Fomite is a transmission route, not a portal."
+   }
   },
   {
    "num": 7,
@@ -188,7 +219,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "UTIs are the most common HAI, and catheter biofilms are the main culprit."
+   "explanation": "UTIs are the most common HAI, and catheter biofilms are the main culprit.",
+   "why": {
+    "B": "Catheters don't release toxins.",
+    "C": "Catheters don't change urine to pH 2.",
+    "D": "Catheters don't destroy IgA."
+   }
   },
   {
    "num": 9,
@@ -213,7 +249,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "M-protein does double duty: adherence and inhibiting phagocytosis."
+   "explanation": "M-protein does double duty: adherence and inhibiting phagocytosis.",
+   "why": {
+    "A": "LPS is Gram-negative endotoxin.",
+    "C": "Coagulase is S. aureus.",
+    "D": "Siderophores steal iron."
+   }
   },
   {
    "num": 10,
@@ -238,7 +279,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "White blood cells struggle to engulf the slippery encapsulated cells."
+   "explanation": "White blood cells struggle to engulf the slippery encapsulated cells.",
+   "why": {
+    "A": "Capsules don't make toxins.",
+    "B": "Siderophores steal iron.",
+    "D": "Kinase digests clots."
+   }
   },
   {
    "num": 11,
@@ -267,7 +313,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "Coagulase clots blood; kinase digests clots."
+   "explanation": "Coagulase clots blood; kinase digests clots.",
+   "why": {
+    "B": "True — coagulase builds a clot.",
+    "C": "True — kinase escapes clots.",
+    "D": "True — S. pyogenes makes kinase.",
+    "E": "True — S. aureus makes coagulase."
+   }
   },
   {
    "num": 12,
@@ -292,7 +344,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Siderophores bind host nutrients like iron extremely strongly."
+   "explanation": "Siderophores bind host nutrients like iron extremely strongly.",
+   "why": {
+    "B": "Invasins enter cells.",
+    "C": "Hemolysins burst RBCs.",
+    "D": "Collagenases digest tissue."
+   }
   },
   {
    "num": 13,
@@ -317,7 +374,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Digesting connective tissue (including blood vessels) kills the tissue."
+   "explanation": "Digesting connective tissue (including blood vessels) kills the tissue.",
+   "why": {
+    "A": "Those clot and unclot blood.",
+    "B": "Those are toxins, not gangrene enzymes.",
+    "C": "Those adhere and evade antibodies."
+   }
   },
   {
    "num": 14,
@@ -342,7 +404,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "At 24–48 hours the bacteria hadn't released enough toxin yet."
+   "explanation": "At 24–48 hours the bacteria hadn't released enough toxin yet.",
+   "why": {
+    "B": "He kept filtering.",
+    "C": "Heating wasn't the change.",
+    "D": "He kept using guinea pigs."
+   }
   },
   {
    "num": 15,
@@ -367,7 +434,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "It's a neurotoxin; the body slowly breaks it down, so injections are repeated."
+   "explanation": "It's a neurotoxin; the body slowly breaks it down, so injections are repeated.",
+   "why": {
+    "B": "Botox doesn't lyse RBCs.",
+    "C": "That's a superantigen.",
+    "D": "That's a siderophore."
+   }
   },
   {
    "num": 16,

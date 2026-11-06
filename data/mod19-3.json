@@ -26,7 +26,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "M-protein (adherence/anti-phagocytosis), kinase (escape clots), hemolysins (Type II)."
+   "explanation": "M-protein (adherence/anti-phagocytosis), kinase (escape clots), hemolysins (Type II).",
+   "why": {
+    "B": "Those are S. aureus and Y. pestis factors.",
+    "C": "Those belong to Salmonella, S. pneumoniae, and Gram-negatives.",
+    "D": "Those belong to other organisms."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "S. aureus is coagulase-positive, makes toxic shock superantigen, and is the HAI 'problem child.'"
+   "explanation": "S. aureus is coagulase-positive, makes toxic shock superantigen, and is the HAI 'problem child.'",
+   "why": {
+    "A": "Those are Salmonella and Y. pestis factors.",
+    "C": "Those are S. pyogenes factors.",
+    "D": "Those are S. pneumoniae and C. perfringens factors."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "The capsule blocks phagocytosis; IgA protease destroys mucosal antibodies."
+   "explanation": "The capsule blocks phagocytosis; IgA protease destroys mucosal antibodies.",
+   "why": {
+    "A": "Those are S. pyogenes factors.",
+    "B": "Those are S. aureus and S. pyogenes.",
+    "D": "Those are Salmonella and Y. pestis."
+   }
   },
   {
    "num": 4,
@@ -105,7 +120,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "Endotoxins are part of the Gram-negative cell wall (LPS); exotoxins are the secreted proteins."
+   "explanation": "Endotoxins are part of the Gram-negative cell wall (LPS); exotoxins are the secreted proteins.",
+   "why": {
+    "B": "True — LPS is in the outer membrane.",
+    "C": "True — exotoxins are mostly Gram-positive.",
+    "D": "True — both can cause shock.",
+    "E": "True — endotoxin is released at death."
+   }
   },
   {
    "num": 5,
@@ -130,7 +151,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Ingested pathogens enter through digestive mucous membranes."
+   "explanation": "Ingested pathogens enter through digestive mucous membranes.",
+   "why": {
+    "B": "The river carries it; there's no vector.",
+    "C": "No droplets or broken skin.",
+    "D": "Not a fomite or intact skin."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "All three reasons for HAIs are present at once."
+   "explanation": "All three reasons for HAIs are present at once.",
+   "why": {
+    "A": "MRSA isn't a zoonosis.",
+    "B": "There are many reservoirs.",
+    "C": "Catheters are portals of entry."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Without adherence, the body's flushing mechanisms remove the pathogen."
+   "explanation": "Without adherence, the body's flushing mechanisms remove the pathogen.",
+   "why": {
+    "A": "They don't become flora.",
+    "B": "Adherence isn't about exit.",
+    "D": "Toxins aren't made at adherence."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Breaking down connective tissue, including vessels, leads to gangrene."
+   "explanation": "Breaking down connective tissue, including vessels, leads to gangrene.",
+   "why": {
+    "A": "Coagulase doesn't cause gangrene.",
+    "B": "IgA protease doesn't cause gangrene.",
+    "D": "Kinase doesn't cause gangrene."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "If the filtrate (no cells) causes harm, a secreted substance is responsible."
+   "explanation": "If the filtrate (no cells) causes harm, a secreted substance is responsible.",
+   "why": {
+    "B": "A local infection doesn't show body-wide toxin.",
+    "C": "Fresh filtrate lacks toxin, so it proves nothing.",
+    "D": "Bacteria stay in the throat."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Once the pathogen exits, the host becomes a reservoir."
+   "explanation": "Once the pathogen exits, the host becomes a reservoir.",
+   "why": {
+    "A": "Exit route doesn't decide Gram reaction.",
+    "B": "Toxins aren't made there.",
+    "C": "Not always the skin."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Once inside, fimbriae-based surface adherence is no longer needed — the cell can't be washed away."
+   "explanation": "Once inside, fimbriae-based surface adherence is no longer needed — the cell can't be washed away.",
+   "why": {
+    "A": "Invasins are essential to get inside.",
+    "B": "Iron is still needed.",
+    "C": "Avoiding antibodies helps between cells."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Some toxins aren't encoded by the bacterium's original genes."
+   "explanation": "Some toxins aren't encoded by the bacterium's original genes.",
+   "why": {
+    "A": "LPS isn't phage-made.",
+    "C": "Phages don't add outer membranes.",
+    "D": "Lysogeny is bacterial."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Like diphtheria: local bacteria, systemic toxin effects."
+   "explanation": "Like diphtheria: local bacteria, systemic toxin effects.",
+   "why": {
+    "A": "Subclinical means no symptoms.",
+    "C": "The infection stayed local.",
+    "D": "Endotoxin isn't secreted."
+   }
   },
   {
    "num": 14,

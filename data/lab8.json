@@ -1,0 +1,468 @@
+{
+ "slug": "lab8",
+ "title": "Lab 8 \u2014 Quiz 1",
+ "subtitle": "Simple Stains \u2014 dyes, smears, positive and negative staining",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "Identify the staining technique used on this slide: all cells are one color from a single dye.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Simple stain (crystal violet)"
+    },
+    {
+     "letter": "B",
+     "text": "Gram stain (differential)"
+    },
+    {
+     "letter": "C",
+     "text": "Negative stain (acidic dye)"
+    },
+    {
+     "letter": "D",
+     "text": "Endospore stain (differential)"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Simple staining uses a single dye to stain all cells the same color (e.g., crystal violet, safranin).",
+   "why": {
+    "B": "A Gram stain uses several dyes and shows purple AND pink cells.",
+    "C": "A negative stain colors the background, not the cells.",
+    "D": "An endospore stain shows green spores and pink cells."
+   },
+   "img": "../lab-img/L08s_p12_6.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Photo",
+   "prompt": "Identify the staining technique: the background is dark and the cells are left unstained.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Positive simple stain"
+    },
+    {
+     "letter": "B",
+     "text": "Acid-fast stain"
+    },
+    {
+     "letter": "C",
+     "text": "Negative stain"
+    },
+    {
+     "letter": "D",
+     "text": "Capsule stain"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Negative staining uses (commonly) an acidic dye that is repelled by the negatively charged cells, creating a dark background around clear cells.",
+   "why": {
+    "A": "Positive stains color the cells themselves.",
+    "B": "Acid-fast stains color cells pink or blue.",
+    "D": "This image shows a dark background with clear cells \u2014 a negative stain."
+   },
+   "img": "../lab-img/L08s_p12_2.jpg"
+  },
+  {
+   "num": 3,
+   "type": "Photo",
+   "prompt": "This pathogenic yeast was prepared as a negative wet mount. Identify the organism.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Saccharomyces cerevisiae"
+    },
+    {
+     "letter": "B",
+     "text": "Candida albicans"
+    },
+    {
+     "letter": "C",
+     "text": "Cryptococcus neoformans"
+    },
+    {
+     "letter": "D",
+     "text": "Bacillus subtilis"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Negative wet mount examples: Cryptococcus neoformans (pathogenic yeast) and Saccharomyces cerevisiae (brewer's yeast).",
+   "why": {
+    "A": "Saccharomyces (brewer's yeast) was the other negative wet mount example; this is the pathogenic yeast.",
+    "B": "Candida was shown with crystal violet (positive stain).",
+    "D": "B. subtilis is a rod-shaped bacterium."
+   },
+   "img": "../lab-img/L08s_p14_1.jpg"
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "Which slide is viewed ONLY up to the 40X lens \u2014 never with oil immersion?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The positive stained bacteria (PB) slide"
+    },
+    {
+     "letter": "B",
+     "text": "The positive stained yeast (PY) slide"
+    },
+    {
+     "letter": "C",
+     "text": "The Gram-stained (G) smear slide"
+    },
+    {
+     "letter": "D",
+     "text": "The negative wet mount (N slide)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Focus up to 40X on the negative wet mount \u2014 do NOT use oil immersion on it. PB and PY are viewed at 100X oil.",
+   "why": {
+    "A": "PB is viewed under 100X oil immersion.",
+    "B": "PY is viewed under 100X oil immersion.",
+    "C": "Gram stains are viewed under oil immersion."
+   }
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "Basic dyes used in positive staining are:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Anionic (negative) and repelled by negatively charged cells"
+    },
+    {
+     "letter": "B",
+     "text": "Cationic (positive) and attracted to negatively charged cells"
+    },
+    {
+     "letter": "C",
+     "text": "Cationic (positive) and repelled by positively charged cells"
+    },
+    {
+     "letter": "D",
+     "text": "Neutral and absorbed through the cell wall"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Basic dyes are cationic (+), are attracted to negatively charged cells, stick and give them color. Positive staining = direct staining.",
+   "why": {
+    "A": "That describes acidic dyes.",
+    "C": "Cells are negatively charged.",
+    "D": "Basic dyes are positively charged."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "Acidic dyes used in negative staining are:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Cationic (positive) and attracted to the cells"
+    },
+    {
+     "letter": "B",
+     "text": "Anionic (negative) and attracted to the cells"
+    },
+    {
+     "letter": "C",
+     "text": "Anionic (negative) and repelled by the negatively charged cells"
+    },
+    {
+     "letter": "D",
+     "text": "Positively charged and used to color the cells"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Acidic dyes are anionic (\u2212), are repelled by negatively charged cells, and often create a dark background. (Nuance: India ink is anionic but not acidic.)",
+   "why": {
+    "A": "That describes basic dyes.",
+    "B": "Like charges repel.",
+    "D": "Acidic dyes color the background."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "What are the three functions of heat fixing a smear?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Stains the cells, dries the smear, removes excess water"
+    },
+    {
+     "letter": "B",
+     "text": "Kills the cells, adheres them to the slide, increases cell permeability"
+    },
+    {
+     "letter": "C",
+     "text": "Sterilizes the slide, adds contrast, decolorizes the cells"
+    },
+    {
+     "letter": "D",
+     "text": "Keeps the cells alive, adds color, and seals the coverslip"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Heat fixing: kills the cells, secures/adheres the specimen to the slide, and increases cell permeability.",
+   "why": {
+    "A": "Heat fixing comes after air drying and before staining.",
+    "C": "Staining adds contrast; decolorizing is a Gram stain step.",
+    "D": "Heat fixing kills the cells; wet mounts use coverslips."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Why does a positive simple stain smear have to be heat fixed, but a negative wet mount does not?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The positive stain slide is rinsed; the wet mount is not"
+    },
+    {
+     "letter": "B",
+     "text": "Negative stains only work on dead cells"
+    },
+    {
+     "letter": "C",
+     "text": "Basic dyes only work at high temperatures"
+    },
+    {
+     "letter": "D",
+     "text": "Yeasts can't be heat fixed"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Positive simple stains are rinsed, so the smear must be heat fixed first. Negative wet mounts aren't rinsed, so no heat fixing \u2014 the specimens are alive.",
+   "why": {
+    "B": "In wet mounts, cells are alive when viewed.",
+    "C": "Heat fixing adheres cells so they survive rinsing.",
+    "D": "Yeast PY smears are heat fixed for positive staining."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "How do you heat fix a dried smear?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Hold the smear inside the microincinerator for 10 seconds"
+    },
+    {
+     "letter": "B",
+     "text": "Place the slide on the hot plate for 5 minutes"
+    },
+    {
+     "letter": "C",
+     "text": "Smear facing away, pass the back of the slide past the microincinerator 3 times"
+    },
+    {
+     "letter": "D",
+     "text": "Pass the smear side over a flame until it's dry"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Air dry first. Then, smear facing away, slowly pass the back of the slide left to right in front of the microincinerator opening 3 times. Let it cool.",
+   "why": {
+    "A": "Pass the back of the slide in front of the opening; don't put it inside.",
+    "B": "Heating on the hot plate is for acid-fast/endospore staining.",
+    "D": "Smears must air dry naturally first, then be heat fixed with the smear facing away."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "How long does the stain sit on the PB and PY slides during positive simple staining?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "10 seconds"
+    },
+    {
+     "letter": "B",
+     "text": "1 minute"
+    },
+    {
+     "letter": "C",
+     "text": "5 minutes"
+    },
+    {
+     "letter": "D",
+     "text": "30 minutes"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Place the heat-fixed smear in the Coplin jar of stain for 1 minute, rinse both sides gently, then blot dry with bibulous paper (don't wipe).",
+   "why": {
+    "A": "10 seconds is the Gram stain decolorizer time.",
+    "C": "5 minutes is the heat (mordant) time for acid-fast and endospore stains.",
+    "D": "The basic dye penetrates for 1 minute."
+   }
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "After rinsing a stained slide, how is it dried?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Wipe it dry with a Kimwipe"
+    },
+    {
+     "letter": "B",
+     "text": "Pass it through the microincinerator"
+    },
+    {
+     "letter": "C",
+     "text": "Gently blot with bibulous paper \u2014 do not wipe"
+    },
+    {
+     "letter": "D",
+     "text": "Shake it dry over the sink"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Gently blot dry with bibulous paper; don't wipe and don't tear out pages.",
+   "why": {
+    "A": "Wiping removes the smear; blot instead.",
+    "B": "Heat is for fixing before staining.",
+    "D": "The protocol says to blot with bibulous paper."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Photo",
+   "prompt": "This Bacillus smear was stained blue with a single basic dye. Which dye was used?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Methylene blue"
+    },
+    {
+     "letter": "B",
+     "text": "Crystal violet"
+    },
+    {
+     "letter": "C",
+     "text": "Safranin"
+    },
+    {
+     "letter": "D",
+     "text": "Malachite green"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Positive simple stain for Bacillus spp. with methylene blue.",
+   "why": {
+    "B": "Crystal violet stains cells purple.",
+    "C": "Safranin stains cells pink/red.",
+    "D": "Malachite green is the endospore primary stain."
+   },
+   "img": "../lab-img/L08s_p13_1.jpg"
+  },
+  {
+   "num": 13,
+   "type": "Photo",
+   "prompt": "What is the clinical use of positive simple staining, as shown with Candida albicans here?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Viewing fungi in patients' specimens"
+    },
+    {
+     "letter": "B",
+     "text": "Detecting acid-fast Mycobacterium"
+    },
+    {
+     "letter": "C",
+     "text": "Determining Gram reaction for treatment"
+    },
+    {
+     "letter": "D",
+     "text": "Viewing live, motile organisms"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Clinical relevance of positive simple staining: viewing fungi in patients' specimens.",
+   "why": {
+    "B": "Acid-fast staining detects Mycobacterium.",
+    "C": "The Gram stain determines the Gram reaction.",
+    "D": "Positive stains are heat fixed, so the cells are dead."
+   },
+   "img": "../lab-img/L08s_p13_2.jpg"
+  },
+  {
+   "num": 14,
+   "type": "Photo",
+   "prompt": "What is the primary purpose of staining a smear?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "To kill pathogens before the slide is thrown away"
+    },
+    {
+     "letter": "B",
+     "text": "To make the cells grow larger and easier to see"
+    },
+    {
+     "letter": "C",
+     "text": "To identify the species directly from the color"
+    },
+    {
+     "letter": "D",
+     "text": "To increase contrast for better viewing under the microscope"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Staining increases contrast so specimens are easier to see.",
+   "why": {
+    "A": "Heat fixing kills cells; staining adds contrast.",
+    "B": "Staining doesn't change cell size.",
+    "C": "Stains help distinguish cells, but staining's main purpose is contrast."
+   },
+   "img": "../lab-img/L05s_p06_4.jpg"
+  },
+  {
+   "num": 15,
+   "type": "Multi-statement",
+   "prompt": "Which statement about the negative wet mount is FALSE?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A loopful of stain is placed in the center of the slide"
+    },
+    {
+     "letter": "B",
+     "text": "A generous loopful of organism is mixed into the dye"
+    },
+    {
+     "letter": "C",
+     "text": "A coverslip is lowered at an angle"
+    },
+    {
+     "letter": "D",
+     "text": "The specimens are alive when viewed"
+    },
+    {
+     "letter": "E",
+     "text": "The mixture is smeared over the slide and heat fixed"
+    }
+   ],
+   "correct": "E",
+   "explanation": "Do NOT smear the mixture over the slide, and wet mounts are not heat fixed.",
+   "why": {
+    "A": "True \u2014 stain goes on the center first.",
+    "B": "True \u2014 thorough mixing is crucial.",
+    "C": "True \u2014 touch the edge, then lower it slowly.",
+    "D": "True \u2014 no heat fixing."
+   }
+  }
+ ]
+}

@@ -26,7 +26,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Like a wall outlet that doesn't care which appliance is plugged in."
+   "explanation": "Like a wall outlet that doesn't care which appliance is plugged in.",
+   "why": {
+    "A": "Variable regions differ between antibodies.",
+    "B": "Macrophages don't make thousands of receptor types.",
+    "C": "Macrophages don't make antibodies."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Blocking the toxin's active site or a pathogen's attachment works immediately."
+   "explanation": "Blocking the toxin's active site or a pathogen's attachment works immediately.",
+   "why": {
+    "A": "Agglutinated clumps still need phagocytes.",
+    "B": "Cytotoxicity needs eosinophils or NK cells.",
+    "C": "Opsonization needs phagocytes."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "IgM's many binding sites cross-link lots of pathogens."
+   "explanation": "IgM's many binding sites cross-link lots of pathogens.",
+   "why": {
+    "A": "IgE triggers mast cells.",
+    "B": "IgG crosses the placenta.",
+    "D": "Cytotoxicity uses other cells."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "Class is set by the constant region, which determines which receptors it fits."
+   "explanation": "Class is set by the constant region, which determines which receptors it fits.",
+   "why": {
+    "A": "IgG binds antigens fine.",
+    "B": "IgG has a variable region.",
+    "C": "IgG is a monomer."
+   }
   },
   {
    "num": 5,
@@ -130,7 +150,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "IgG is most abundant in serum; IgA dominates mucus."
+   "explanation": "IgG is most abundant in serum; IgA dominates mucus.",
+   "why": {
+    "B": "True — IgE is on mast cells.",
+    "C": "True — IgM is a pentamer.",
+    "D": "True — IgG is ~80%.",
+    "E": "True — IgD is unclear."
+   }
   },
   {
    "num": 6,
@@ -155,7 +181,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Passive immunity is temporary."
+   "explanation": "Passive immunity is temporary.",
+   "why": {
+    "A": "Clonal selection works at any age.",
+    "B": "IgE isn't the protection.",
+    "D": "The newborn's own memory cells weren't involved."
+   }
   },
   {
    "num": 7,
@@ -180,7 +211,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "The right B cell already exists; the antigen selects it."
+   "explanation": "The right B cell already exists; the antigen selects it.",
+   "why": {
+    "A": "Receptors exist before antigen.",
+    "C": "Finches don't carry matching antibodies.",
+    "D": "Antigens don't change to fit."
+   }
   },
   {
    "num": 8,
@@ -205,7 +241,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Finding the 'needle in the haystack.'"
+   "explanation": "Finding the 'needle in the haystack.'",
+   "why": {
+    "B": "They aren't hidden.",
+    "C": "Memory cells don't need to die.",
+    "D": "IgE isn't required first."
+   }
   },
   {
    "num": 9,
@@ -230,7 +271,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Natural active immunity produces memory cells."
+   "explanation": "Natural active immunity produces memory cells.",
+   "why": {
+    "A": "Breast-milk IgA is temporary.",
+    "C": "Antivenom is temporary.",
+    "D": "Monoclonals are temporary."
+   }
   },
   {
    "num": 10,
@@ -255,7 +301,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Passive immunity doesn't create memory."
+   "explanation": "Passive immunity doesn't create memory.",
+   "why": {
+    "B": "They neutralize viruses.",
+    "C": "They don't trigger IgE allergy.",
+    "D": "They don't affect a fetus."
+   }
   },
   {
    "num": 11,
@@ -280,7 +331,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Remember: A = 2, M = 5, others = 1."
+   "explanation": "Remember: A = 2, M = 5, others = 1.",
+   "why": {
+    "A": "They aren't all pentamers.",
+    "C": "Structures scrambled.",
+    "D": "Structures scrambled."
+   }
   },
   {
    "num": 12,
@@ -305,7 +361,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Variable regions give specificity."
+   "explanation": "Variable regions give specificity.",
+   "why": {
+    "B": "Mannose is bacterial.",
+    "C": "Complement isn't from B cells.",
+    "D": "Both work on many pathogen types."
+   }
   },
   {
    "num": 13,
@@ -330,7 +391,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Antibody-dependent cytotoxicity."
+   "explanation": "Antibody-dependent cytotoxicity.",
+   "why": {
+    "A": "Mast and goblet cells don't kill worms.",
+    "B": "RBCs and platelets don't kill.",
+    "D": "Plasma and memory cells don't kill."
+   }
   },
   {
    "num": 14,

@@ -26,7 +26,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "This is Cryptosporidium (Apicomplexa), the main cause of recreational diarrhea — and it is resistant to chlorine."
+   "explanation": "This is Cryptosporidium (Apicomplexa), the main cause of recreational diarrhea — and it is resistant to chlorine.",
+   "why": {
+    "B": "Filtering helps remove it.",
+    "C": "Draining and cleaning removes it.",
+    "D": "Keeping sick swimmers out cuts spread."
+   }
   },
   {
    "num": 2,
@@ -51,7 +56,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "That is chloroquine's mechanism, which targets Plasmodium trophozoites in red blood cells. Giardia is an intestinal Archaezoan; Flagyl (blocks DNA synthesis) is the fit."
+   "explanation": "That is chloroquine's mechanism, which targets Plasmodium trophozoites in red blood cells. Giardia is an intestinal Archaezoan; Flagyl (blocks DNA synthesis) is the fit.",
+   "why": {
+    "B": "Giardia doesn't live in the liver or eat hemoglobin.",
+    "C": "The drug's target isn't oxygen use.",
+    "D": "Giardia cysts aren't glass; that's diatoms."
+   }
   },
   {
    "num": 3,
@@ -76,7 +86,12 @@
     }
    ],
    "correct": "A",
-   "explanation": "Lecture: Euglena is technically a protozoan with chloroplasts — both heterotrophic and autotrophic."
+   "explanation": "Lecture: Euglena is technically a protozoan with chloroplasts — both heterotrophic and autotrophic.",
+   "why": {
+    "B": "It's actively growing, not dormant.",
+    "C": "The eye spot detects light; it doesn't make glucose in the dark.",
+    "D": "It switches to eating, not to stored oil."
+   }
   },
   {
    "num": 4,
@@ -101,7 +116,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "The instructor points out that human categories have fuzzy boundaries — Euglena (auto vs hetero) and slime mold (uni vs multicellular) are his examples."
+   "explanation": "The instructor points out that human categories have fuzzy boundaries — Euglena (auto vs hetero) and slime mold (uni vs multicellular) are his examples.",
+   "why": {
+    "A": "They aren't drug-testing models in the lecture.",
+    "B": "Euglena doesn't become Trypanosoma.",
+    "C": "Only Dictyostelium uses cyclic AMP."
+   }
   },
   {
    "num": 5,
@@ -126,7 +146,12 @@
     }
    ],
    "correct": "D",
-   "explanation": "The theory's evidence includes binary fission and bacterial DNA homology. Building them from scratch with no bacterial DNA similarity would contradict it; the other choices are existing evidence."
+   "explanation": "The theory's evidence includes binary fission and bacterial DNA homology. Building them from scratch with no bacterial DNA similarity would contradict it; the other choices are existing evidence.",
+   "why": {
+    "A": "Self-copying by fission supports the theory.",
+    "B": "Prokaryotic ribosomes support the theory.",
+    "C": "Bacterial size and double membranes support it."
+   }
   },
   {
    "num": 6,
@@ -151,7 +176,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "First (anaerobic) prokaryotes ≈3.5 BYA; unicellular eukaryotes ≈2.0 BYA → ~1.5 billion years."
+   "explanation": "First (anaerobic) prokaryotes ≈3.5 BYA; unicellular eukaryotes ≈2.0 BYA → ~1.5 billion years.",
+   "why": {
+    "A": "Life didn't start at Earth's formation (4.6 BYA).",
+    "C": "Prokaryotes lasted longer than half a billion years alone.",
+    "D": "Prokaryotes appeared about 3.5 BYA, not 3.0."
+   }
   },
   {
    "num": 7,
@@ -176,7 +206,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "After the bite, the parasite goes to the liver first, then back to the blood to infect RBCs. Blocking the liver stage stops everything downstream."
+   "explanation": "After the bite, the parasite goes to the liver first, then back to the blood to infect RBCs. Blocking the liver stage stops everything downstream.",
+   "why": {
+    "A": "The liver stage causes no fever.",
+    "B": "Sexual reproduction happens in the mosquito.",
+    "D": "Plasmodium goes to the liver first."
+   }
   },
   {
    "num": 8,
@@ -201,7 +236,12 @@
     }
    ],
    "correct": "C",
-   "explanation": "Trichomonas is an STD with only a trophozoite. Giardia and Entamoeba pass as cysts; Plasmodium is transmitted by the Anopheles mosquito."
+   "explanation": "Trichomonas is an STD with only a trophozoite. Giardia and Entamoeba pass as cysts; Plasmodium is transmitted by the Anopheles mosquito.",
+   "why": {
+    "A": "Entamoeba spreads by cysts in water and food.",
+    "B": "Plasmodium spreads by mosquito bite.",
+    "D": "Giardia does form cysts."
+   }
   },
   {
    "num": 9,
@@ -226,7 +266,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Lecture: the trypanosome doesn't get inside blood cells; it releases toxins that slow breathing and heart rate."
+   "explanation": "Lecture: the trypanosome doesn't get inside blood cells; it releases toxins that slow breathing and heart rate.",
+   "why": {
+    "A": "Trypanosomes don't enter RBCs.",
+    "C": "Trypanosomes aren't intestinal cyst-formers.",
+    "D": "That's Plasmodium's route."
+   }
   },
   {
    "num": 10,
@@ -251,7 +296,12 @@
     }
    ],
    "correct": "B",
-   "explanation": "Mitochondria match bacteria in shape and size (1–10 µm). Giardia is a whole eukaryotic cell with nuclei."
+   "explanation": "Mitochondria match bacteria in shape and size (1–10 µm). Giardia is a whole eukaryotic cell with nuclei.",
+   "why": {
+    "A": "Mitochondria have double membranes too.",
+    "C": "Mitochondria have no nucleus; neither do bacteria.",
+    "D": "Mitochondria are bacteria-sized (1–10 µm)."
+   }
   },
   {
    "num": 11,
@@ -280,7 +330,13 @@
     }
    ],
    "correct": "A",
-   "explanation": "False — she set out to explain mitochondria and chloroplasts; explaining eukaryotic cells came along with it."
+   "explanation": "False — she set out to explain mitochondria and chloroplasts; explaining eukaryotic cells came along with it.",
+   "why": {
+    "B": "True — about fifteen rejections.",
+    "C": "True — it's now celebrated.",
+    "D": "True — she was in her 20s in the 1960s.",
+    "E": "True — the title echoes Darwin."
+   }
   },
   {
    "num": 12,
@@ -309,7 +365,13 @@
     }
    ],
    "correct": "C",
-   "explanation": "False — the glass (silica) is inert and doesn't break down even over thousands of years, which is why diatomaceous earth deposits exist."
+   "explanation": "False — the glass (silica) is inert and doesn't break down even over thousands of years, which is why diatomaceous earth deposits exist.",
+   "why": {
+    "A": "True — kelp and seaweed are algae.",
+    "B": "True — algae are autotrophs, mostly harmless.",
+    "D": "True — shellfish carry the toxin.",
+    "E": "True — it kills fish."
+   }
   },
   {
    "num": 13,
@@ -338,7 +400,13 @@
     }
    ],
    "correct": "B",
-   "explanation": "False — adult Apicomplexa are non-motile."
+   "explanation": "False — adult Apicomplexa are non-motile.",
+   "why": {
+    "A": "True — Archaezoans have 2+ flagella.",
+    "C": "True — Euglenozoans' flagella have a rod.",
+    "D": "True — Amoebozoans use pseudopods.",
+    "E": "True — Apicomplexa have complex cycles."
+   }
   },
   {
    "num": 14,
