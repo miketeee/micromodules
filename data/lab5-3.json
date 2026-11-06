@@ -1,0 +1,503 @@
+{
+ "slug": "lab5-3",
+ "title": "Lab 5 \u2014 Quiz 3",
+ "subtitle": "Microscopy \u2014 parts of the brightfield microscope",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled A (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Microscope head"
+    },
+    {
+     "letter": "B",
+     "text": "Arm"
+    },
+    {
+     "letter": "C",
+     "text": "Base"
+    },
+    {
+     "letter": "D",
+     "text": "Illuminator (light source)"
+    }
+   ],
+   "correct": "B",
+   "explanation": "A = Arm: the sturdy structural backbone used for carrying the microscope.",
+   "why": {
+    "A": "Microscope head is labeled N \u2014 the upper portion that houses the prisms and holds the eyepieces.",
+    "C": "Base is labeled B \u2014 the bottom support that keeps the microscope stable on a flat surface.",
+    "D": "Illuminator (light source) is labeled H \u2014 the lamp housing that projects light up through the specimen."
+   },
+   "img": "../lab-img/X05_mic_A.jpg"
+  },
+  {
+   "num": 2,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled B (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Arm"
+    },
+    {
+     "letter": "B",
+     "text": "Illuminator (light source)"
+    },
+    {
+     "letter": "C",
+     "text": "Stage"
+    },
+    {
+     "letter": "D",
+     "text": "Base"
+    }
+   ],
+   "correct": "D",
+   "explanation": "B = Base: the bottom support that keeps the microscope stable on a flat surface.",
+   "why": {
+    "A": "Arm is labeled A \u2014 the sturdy structural backbone used for carrying the microscope.",
+    "B": "Illuminator (light source) is labeled H \u2014 the lamp housing that projects light up through the specimen.",
+    "C": "Stage is labeled E \u2014 the flat platform where the slide is placed for observation."
+   },
+   "img": "../lab-img/X05_mic_B.jpg"
+  },
+  {
+   "num": 3,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled C (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Power switch"
+    },
+    {
+     "letter": "B",
+     "text": "Brightness control (rheostat)"
+    },
+    {
+     "letter": "C",
+     "text": "Coarse adjustment knob"
+    },
+    {
+     "letter": "D",
+     "text": "Illuminator (light source)"
+    }
+   ],
+   "correct": "A",
+   "explanation": "C = Power switch: the on/off switch for the light source.",
+   "why": {
+    "B": "Brightness control (rheostat) is labeled D \u2014 the dial that adjusts the intensity of the light source.",
+    "C": "Coarse adjustment knob is labeled O \u2014 the large outer ring for rapid, low-power focusing.",
+    "D": "Illuminator (light source) is labeled H \u2014 the lamp housing that projects light up through the specimen."
+   },
+   "img": "../lab-img/X05_mic_C.jpg"
+  },
+  {
+   "num": 4,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled D (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Brightness control (rheostat)"
+    },
+    {
+     "letter": "B",
+     "text": "Power switch"
+    },
+    {
+     "letter": "C",
+     "text": "Diaphragm lever"
+    },
+    {
+     "letter": "D",
+     "text": "Coarse adjustment knob"
+    }
+   ],
+   "correct": "A",
+   "explanation": "D = Brightness control (rheostat): the dial that adjusts the intensity of the light source.",
+   "why": {
+    "B": "Power switch is labeled C \u2014 the on/off switch for the light source.",
+    "C": "Diaphragm lever is labeled I \u2014 the lever that opens/closes the iris diaphragm to control light and contrast.",
+    "D": "Coarse adjustment knob is labeled O \u2014 the large outer ring for rapid, low-power focusing."
+   },
+   "img": "../lab-img/X05_mic_D.jpg"
+  },
+  {
+   "num": 5,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled E (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Stage clip (slide holder)"
+    },
+    {
+     "letter": "B",
+     "text": "Condenser"
+    },
+    {
+     "letter": "C",
+     "text": "Stage"
+    },
+    {
+     "letter": "D",
+     "text": "Stage controls (X-Y knobs)"
+    }
+   ],
+   "correct": "C",
+   "explanation": "E = Stage: the flat platform where the slide is placed for observation.",
+   "why": {
+    "A": "Stage clip (slide holder) is labeled F \u2014 the spring-loaded clip that locks the slide onto the mechanical stage.",
+    "B": "Condenser is labeled J \u2014 the lens system under the stage that focuses light onto the specimen.",
+    "D": "Stage controls (X-Y knobs) is labeled G \u2014 the coaxial knobs that move the slide left/right and forward/backward."
+   },
+   "img": "../lab-img/X05_mic_E.jpg"
+  },
+  {
+   "num": 6,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled F (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Stage"
+    },
+    {
+     "letter": "B",
+     "text": "Stage controls (X-Y knobs)"
+    },
+    {
+     "letter": "C",
+     "text": "Condenser"
+    },
+    {
+     "letter": "D",
+     "text": "Stage clip (slide holder)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "F = Stage clip (slide holder): the spring-loaded clip that locks the slide onto the mechanical stage.",
+   "why": {
+    "A": "Stage is labeled E \u2014 the flat platform where the slide is placed for observation.",
+    "B": "Stage controls (X-Y knobs) is labeled G \u2014 the coaxial knobs that move the slide left/right and forward/backward.",
+    "C": "Condenser is labeled J \u2014 the lens system under the stage that focuses light onto the specimen."
+   },
+   "img": "../lab-img/X05_mic_F.jpg"
+  },
+  {
+   "num": 7,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled G (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Coarse adjustment knob"
+    },
+    {
+     "letter": "B",
+     "text": "Fine adjustment knob"
+    },
+    {
+     "letter": "C",
+     "text": "Stage controls (X-Y knobs)"
+    },
+    {
+     "letter": "D",
+     "text": "Stage clip (slide holder)"
+    }
+   ],
+   "correct": "C",
+   "explanation": "G = Stage controls (X-Y knobs): the coaxial knobs that move the slide left/right and forward/backward.",
+   "why": {
+    "A": "Coarse adjustment knob is labeled O \u2014 the large outer ring for rapid, low-power focusing.",
+    "B": "Fine adjustment knob is labeled P \u2014 the small inner dial for sharp, precise high-power focusing.",
+    "D": "Stage clip (slide holder) is labeled F \u2014 the spring-loaded clip that locks the slide onto the mechanical stage."
+   },
+   "img": "../lab-img/X05_mic_G.jpg"
+  },
+  {
+   "num": 8,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled H (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Condenser"
+    },
+    {
+     "letter": "B",
+     "text": "Diaphragm lever"
+    },
+    {
+     "letter": "C",
+     "text": "Brightness control (rheostat)"
+    },
+    {
+     "letter": "D",
+     "text": "Illuminator (light source)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "H = Illuminator (light source): the lamp housing that projects light up through the specimen.",
+   "why": {
+    "A": "Condenser is labeled J \u2014 the lens system under the stage that focuses light onto the specimen.",
+    "B": "Diaphragm lever is labeled I \u2014 the lever that opens/closes the iris diaphragm to control light and contrast.",
+    "C": "Brightness control (rheostat) is labeled D \u2014 the dial that adjusts the intensity of the light source."
+   },
+   "img": "../lab-img/X05_mic_H.jpg"
+  },
+  {
+   "num": 9,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled I (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Condenser"
+    },
+    {
+     "letter": "B",
+     "text": "Diaphragm lever"
+    },
+    {
+     "letter": "C",
+     "text": "Brightness control (rheostat)"
+    },
+    {
+     "letter": "D",
+     "text": "Illuminator (light source)"
+    }
+   ],
+   "correct": "B",
+   "explanation": "I = Diaphragm lever: the lever that opens/closes the iris diaphragm to control light and contrast.",
+   "why": {
+    "A": "Condenser is labeled J \u2014 the lens system under the stage that focuses light onto the specimen.",
+    "C": "Brightness control (rheostat) is labeled D \u2014 the dial that adjusts the intensity of the light source.",
+    "D": "Illuminator (light source) is labeled H \u2014 the lamp housing that projects light up through the specimen."
+   },
+   "img": "../lab-img/X05_mic_I.jpg"
+  },
+  {
+   "num": 10,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled J (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Condenser"
+    },
+    {
+     "letter": "B",
+     "text": "Diaphragm lever"
+    },
+    {
+     "letter": "C",
+     "text": "Illuminator (light source)"
+    },
+    {
+     "letter": "D",
+     "text": "Stage"
+    }
+   ],
+   "correct": "A",
+   "explanation": "J = Condenser: the lens system under the stage that focuses light onto the specimen.",
+   "why": {
+    "B": "Diaphragm lever is labeled I \u2014 the lever that opens/closes the iris diaphragm to control light and contrast.",
+    "C": "Illuminator (light source) is labeled H \u2014 the lamp housing that projects light up through the specimen.",
+    "D": "Stage is labeled E \u2014 the flat platform where the slide is placed for observation."
+   },
+   "img": "../lab-img/X05_mic_J.jpg"
+  },
+  {
+   "num": 11,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled K (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Revolving nosepiece"
+    },
+    {
+     "letter": "B",
+     "text": "Eyepiece (ocular lens)"
+    },
+    {
+     "letter": "C",
+     "text": "Objective lenses"
+    },
+    {
+     "letter": "D",
+     "text": "Microscope head"
+    }
+   ],
+   "correct": "C",
+   "explanation": "K = Objective lenses: the primary magnifying lenses (4X to 100X).",
+   "why": {
+    "A": "Revolving nosepiece is labeled L \u2014 the rotating turret that holds and switches the objective lenses.",
+    "B": "Eyepiece (ocular lens) is labeled M \u2014 the lens you look through, which magnifies 10X.",
+    "D": "Microscope head is labeled N \u2014 the upper portion that houses the prisms and holds the eyepieces."
+   },
+   "img": "../lab-img/X05_mic_K.jpg"
+  },
+  {
+   "num": 12,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled L (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Objective lenses"
+    },
+    {
+     "letter": "B",
+     "text": "Microscope head"
+    },
+    {
+     "letter": "C",
+     "text": "Eyepiece (ocular lens)"
+    },
+    {
+     "letter": "D",
+     "text": "Revolving nosepiece"
+    }
+   ],
+   "correct": "D",
+   "explanation": "L = Revolving nosepiece: the rotating turret that holds and switches the objective lenses.",
+   "why": {
+    "A": "Objective lenses is labeled K \u2014 the primary magnifying lenses (4X to 100X).",
+    "B": "Microscope head is labeled N \u2014 the upper portion that houses the prisms and holds the eyepieces.",
+    "C": "Eyepiece (ocular lens) is labeled M \u2014 the lens you look through, which magnifies 10X."
+   },
+   "img": "../lab-img/X05_mic_L.jpg"
+  },
+  {
+   "num": 13,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled M (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Objective lenses"
+    },
+    {
+     "letter": "B",
+     "text": "Microscope head"
+    },
+    {
+     "letter": "C",
+     "text": "Eyepiece (ocular lens)"
+    },
+    {
+     "letter": "D",
+     "text": "Revolving nosepiece"
+    }
+   ],
+   "correct": "C",
+   "explanation": "M = Eyepiece (ocular lens): the lens you look through, which magnifies 10X.",
+   "why": {
+    "A": "Objective lenses is labeled K \u2014 the primary magnifying lenses (4X to 100X).",
+    "B": "Microscope head is labeled N \u2014 the upper portion that houses the prisms and holds the eyepieces.",
+    "D": "Revolving nosepiece is labeled L \u2014 the rotating turret that holds and switches the objective lenses."
+   },
+   "img": "../lab-img/X05_mic_M.jpg"
+  },
+  {
+   "num": 14,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled N (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Eyepiece (ocular lens)"
+    },
+    {
+     "letter": "B",
+     "text": "Revolving nosepiece"
+    },
+    {
+     "letter": "C",
+     "text": "Microscope head"
+    },
+    {
+     "letter": "D",
+     "text": "Arm"
+    }
+   ],
+   "correct": "C",
+   "explanation": "N = Microscope head: the upper portion that houses the prisms and holds the eyepieces.",
+   "why": {
+    "A": "Eyepiece (ocular lens) is labeled M \u2014 the lens you look through, which magnifies 10X.",
+    "B": "Revolving nosepiece is labeled L \u2014 the rotating turret that holds and switches the objective lenses.",
+    "D": "Arm is labeled A \u2014 the sturdy structural backbone used for carrying the microscope."
+   },
+   "img": "../lab-img/X05_mic_N.jpg"
+  },
+  {
+   "num": 15,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled O (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fine adjustment knob"
+    },
+    {
+     "letter": "B",
+     "text": "Stage controls (X-Y knobs)"
+    },
+    {
+     "letter": "C",
+     "text": "Brightness control (rheostat)"
+    },
+    {
+     "letter": "D",
+     "text": "Coarse adjustment knob"
+    }
+   ],
+   "correct": "D",
+   "explanation": "O = Coarse adjustment knob: the large outer ring for rapid, low-power focusing.",
+   "why": {
+    "A": "Fine adjustment knob is labeled P \u2014 the small inner dial for sharp, precise high-power focusing.",
+    "B": "Stage controls (X-Y knobs) is labeled G \u2014 the coaxial knobs that move the slide left/right and forward/backward.",
+    "C": "Brightness control (rheostat) is labeled D \u2014 the dial that adjusts the intensity of the light source."
+   },
+   "img": "../lab-img/X05_mic_O.jpg"
+  },
+  {
+   "num": 16,
+   "type": "Photo",
+   "prompt": "What is the microscope part labeled P (circled in red)?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Fine adjustment knob"
+    },
+    {
+     "letter": "B",
+     "text": "Coarse adjustment knob"
+    },
+    {
+     "letter": "C",
+     "text": "Stage controls (X-Y knobs)"
+    },
+    {
+     "letter": "D",
+     "text": "Diaphragm lever"
+    }
+   ],
+   "correct": "A",
+   "explanation": "P = Fine adjustment knob: the small inner dial for sharp, precise high-power focusing.",
+   "why": {
+    "B": "Coarse adjustment knob is labeled O \u2014 the large outer ring for rapid, low-power focusing.",
+    "C": "Stage controls (X-Y knobs) is labeled G \u2014 the coaxial knobs that move the slide left/right and forward/backward.",
+    "D": "Diaphragm lever is labeled I \u2014 the lever that opens/closes the iris diaphragm to control light and contrast."
+   },
+   "img": "../lab-img/X05_mic_P.jpg"
+  }
+ ]
+}
