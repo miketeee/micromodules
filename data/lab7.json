@@ -336,36 +336,6 @@
   {
    "num": 12,
    "type": "Multiple choice",
-   "prompt": "Which end of a nucleotide strand is the 3' end?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "The end with the free phosphate"
-    },
-    {
-     "letter": "B",
-     "text": "The end with the free OH on the sugar"
-    },
-    {
-     "letter": "C",
-     "text": "The end with the nitrogenous base"
-    },
-    {
-     "letter": "D",
-     "text": "Either end, depending on the base"
-    }
-   ],
-   "correct": "B",
-   "explanation": "Strands run 5' (phosphate end) to 3' (OH end).",
-   "why": {
-    "A": "The free phosphate marks the 5' end.",
-    "C": "Bases stick out from the side of every nucleotide.",
-    "D": "Directionality is fixed: 5' phosphate, 3' OH."
-   }
-  },
-  {
-   "num": 13,
-   "type": "Multiple choice",
    "prompt": "Which enzyme in the replication model adds new nucleotides to synthesize the complementary daughter strands?",
    "options": [
     {
@@ -394,7 +364,7 @@
    }
   },
   {
-   "num": 14,
+   "num": 13,
    "type": "Multiple choice",
    "prompt": "Where does DNA replication occur in a prokaryote?",
    "options": [
@@ -424,7 +394,7 @@
    }
   },
   {
-   "num": 15,
+   "num": 14,
    "type": "Multi-statement",
    "prompt": "Which statement about the DNA replication model activity is FALSE?",
    "options": [
@@ -456,6 +426,36 @@
     "B": "True \u2014 Okazaki fragments.",
     "C": "True \u2014 ligase forms covalent bonds.",
     "D": "True \u2014 compare by stacking them."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Which enzyme relieves the twisting (supercoiling) of DNA ahead of helicase?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ligase"
+    },
+    {
+     "letter": "B",
+     "text": "Primase"
+    },
+    {
+     "letter": "C",
+     "text": "DNA polymerase"
+    },
+    {
+     "letter": "D",
+     "text": "Gyrase"
+    }
+   ],
+   "correct": "D",
+   "explanation": "As helicase unwinds the helix, gyrase relieves the strain (supercoiling) ahead of the replication fork. (Ciprofloxacin targets DNA gyrase.)",
+   "why": {
+    "A": "Ligase joins Okazaki fragments.",
+    "B": "Primase lays down RNA primers.",
+    "C": "DNA polymerase adds nucleotides."
    }
   }
  ]

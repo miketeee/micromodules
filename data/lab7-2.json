@@ -367,94 +367,92 @@
   },
   {
    "num": 13,
-   "type": "Photo",
-   "prompt": "In this pbd operon diagram, the operon is OFF. Why can't RNA polymerase transcribe the genes?",
+   "type": "Multiple choice",
+   "prompt": "What is the Central Dogma of Biology?",
    "options": [
     {
      "letter": "A",
-     "text": "The promoter has been deleted from the DNA"
+     "text": "DNA \u2192 RNA \u2192 protein"
     },
     {
      "letter": "B",
-     "text": "Ribosomes are bound to the operator site"
+     "text": "Protein \u2192 RNA \u2192 DNA"
     },
     {
      "letter": "C",
-     "text": "The repressor is bound to the operator, blocking RNA polymerase"
+     "text": "RNA \u2192 DNA \u2192 protein"
     },
     {
      "letter": "D",
-     "text": "The inducer is bound to the operator site"
-    }
-   ],
-   "correct": "C",
-   "explanation": "Off: no 'matter' (inducer), so the repressor sits on the operator and blocks RNA polymerase.",
-   "why": {
-    "A": "The promoter is present; the repressor blocks the path.",
-    "B": "Ribosomes translate mRNA; they don't bind operators.",
-    "D": "The inducer binds the repressor, not the operator."
-   },
-   "img": "../lab-img/L07m_p13_1.jpg"
-  },
-  {
-   "num": 14,
-   "type": "Photo",
-   "prompt": "In this diagram, 'matter' is present and the pbd operon is ON. What type of operon is this?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Inducible \u2014 the inducer removes the repressor from the operator"
-    },
-    {
-     "letter": "B",
-     "text": "Repressible \u2014 the product switches the operon on"
-    },
-    {
-     "letter": "C",
-     "text": "Constitutive \u2014 it is always on"
-    },
-    {
-     "letter": "D",
-     "text": "Inducible \u2014 the inducer binds the promoter directly"
+     "text": "DNA \u2192 protein \u2192 RNA"
     }
    ],
    "correct": "A",
-   "explanation": "Inducer present \u2192 binds the repressor \u2192 the repressor lets go of the operator \u2192 RNA polymerase transcribes pbdZ, pbdY and pbdA.",
+   "explanation": "DNA is transcribed into mRNA, which is translated into protein.",
    "why": {
-    "B": "Here a substance switches the operon ON by removing the repressor.",
-    "C": "It's off when matter is absent.",
-    "D": "The inducer binds the repressor, not the promoter."
-   },
-   "img": "../lab-img/L07m_p13_3.jpg"
+    "B": "Information flows from DNA to protein.",
+    "C": "DNA is transcribed into RNA first.",
+    "D": "RNA is the intermediate."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Where does transcription occur in bacteria?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "In the nucleus"
+    },
+    {
+     "letter": "B",
+     "text": "In the cytoplasm"
+    },
+    {
+     "letter": "C",
+     "text": "In the mitochondria"
+    },
+    {
+     "letter": "D",
+     "text": "Outside the cell wall"
+    }
+   ],
+   "correct": "B",
+   "explanation": "With no nucleus, bacterial transcription and translation both occur in the cytoplasm.",
+   "why": {
+    "A": "Bacteria lack a nucleus.",
+    "C": "Bacteria lack mitochondria.",
+    "D": "Transcription happens inside the cell."
+   }
   },
   {
    "num": 15,
    "type": "Multiple choice",
-   "prompt": "Operons are found in which kind of organism?",
+   "prompt": "Translation occurs at the ribosome. What is its product?",
    "options": [
     {
      "letter": "A",
-     "text": "Fungi"
+     "text": "A polypeptide (protein)"
     },
     {
      "letter": "B",
-     "text": "Helminths"
+     "text": "An mRNA transcript"
     },
     {
      "letter": "C",
-     "text": "Bacteria"
+     "text": "A daughter DNA strand"
     },
     {
      "letter": "D",
-     "text": "Protozoa"
+     "text": "An RNA primer"
     }
    ],
-   "correct": "C",
-   "explanation": "Some bacteria have operons \u2014 coordinated clusters of genes regulated as one unit \u2014 to respond quickly to environmental changes.",
+   "correct": "A",
+   "explanation": "The ribosome reads mRNA codons; tRNAs bring amino acids, which are joined by peptide bonds.",
    "why": {
-    "A": "Operons are described as clusters of genes in bacteria.",
-    "B": "Helminths are multicellular animals.",
-    "D": "Operons are a bacterial feature in this lab."
+    "B": "mRNA is the product of transcription.",
+    "C": "That's replication.",
+    "D": "Primase makes primers."
    }
   }
  ]

@@ -254,128 +254,6 @@
   {
    "num": 9,
    "type": "Photo",
-   "prompt": "Your unknown grows pink on MacConkey and stays green/no growth on citrate. Its Gram stain shows pink rods. Using the unknowns key, identify it.",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Escherichia coli"
-    },
-    {
-     "letter": "B",
-     "text": "Klebsiella pneumoniae"
-    },
-    {
-     "letter": "C",
-     "text": "Proteus vulgaris"
-    },
-    {
-     "letter": "D",
-     "text": "Serratia marcescens"
-    }
-   ],
-   "correct": "A",
-   "explanation": "Pink rods = Gram \u2212 bacillus; pink on MacConkey = lactose +; no citrate growth = citrate \u2212 \u2192 E. coli.",
-   "why": {
-    "B": "Klebsiella would grow and turn citrate blue.",
-    "C": "Proteus would be yellow-orange (lactose \u2212) on MacConkey.",
-    "D": "Serratia is lactose \u2212 and citrate +."
-   },
-   "img": "../lab-img/L10s_p24_1.jpg"
-  },
-  {
-   "num": 10,
-   "type": "Photo",
-   "prompt": "Your unknown is a Gram-negative rod that is yellow-orange on MacConkey and turns citrate agar blue. Identify it.",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Escherichia coli"
-    },
-    {
-     "letter": "B",
-     "text": "Serratia marcescens"
-    },
-    {
-     "letter": "C",
-     "text": "Klebsiella pneumoniae"
-    },
-    {
-     "letter": "D",
-     "text": "Proteus vulgaris"
-    }
-   ],
-   "correct": "B",
-   "explanation": "Yellow-orange = lactose \u2212; blue citrate = citrate + \u2192 Serratia marcescens.",
-   "why": {
-    "A": "E. coli is pink on MacConkey and citrate \u2212.",
-    "C": "Klebsiella is pink (lactose +) on MacConkey.",
-    "D": "Proteus is citrate \u2212."
-   },
-   "img": "../lab-img/L10s_p24_1.jpg"
-  },
-  {
-   "num": 11,
-   "type": "Multiple choice",
-   "prompt": "For the Gram stain skills assessment, what goes on the slide along with your unknown?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Control smears of a known Gram-positive and a known Gram-negative"
-    },
-    {
-     "letter": "B",
-     "text": "A negative wet mount of the same unknown culture"
-    },
-    {
-     "letter": "C",
-     "text": "An endospore-stained smear of the unknown culture"
-    },
-    {
-     "letter": "D",
-     "text": "Only the unknown smear, with no control smears"
-    }
-   ],
-   "correct": "A",
-   "explanation": "Slide G: control smears (known G+ and known G\u2212) plus a smear of the unknown. Flag the instructor after focusing to oil immersion on the control smear.",
-   "why": {
-    "B": "The assessment uses a Gram stain with controls.",
-    "C": "The slide has controls plus the unknown.",
-    "D": "Known G+ and G\u2212 control smears are included."
-   }
-  },
-  {
-   "num": 12,
-   "type": "Multiple choice",
-   "prompt": "For the streak plating skills assessment in Lab 10, which medium is streaked?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Nutrient agar"
-    },
-    {
-     "letter": "B",
-     "text": "Blood agar"
-    },
-    {
-     "letter": "C",
-     "text": "MacConkey agar"
-    },
-    {
-     "letter": "D",
-     "text": "Citrate agar"
-    }
-   ],
-   "correct": "C",
-   "explanation": "Obtain a sterile MacConkey plate, label it (initials, table #, Client ID) and perform the quadrant streak method.",
-   "why": {
-    "A": "The Lab 10 assessment uses a sterile MacConkey plate.",
-    "B": "Blood agar is used for hemolysis in Lab 11.",
-    "D": "Citrate is inoculated as a slant, not streaked for the assessment."
-   }
-  },
-  {
-   "num": 13,
-   "type": "Photo",
    "prompt": "What are the two goals of laboratory testing in the unknown labs?",
    "options": [
     {
@@ -405,7 +283,7 @@
    "img": "../lab-img/L10s_p07_7.jpg"
   },
   {
-   "num": 14,
+   "num": 10,
    "type": "Multiple choice",
    "prompt": "In a dichotomous key, identifying a microbe 'by behavior' means using:",
    "options": [
@@ -435,7 +313,7 @@
    }
   },
   {
-   "num": 15,
+   "num": 11,
    "type": "Multi-statement",
    "prompt": "Which statement about specimen handling is FALSE?",
    "options": [
@@ -467,6 +345,126 @@
     "C": "True \u2014 causing false negatives.",
     "D": "True.",
     "E": "True \u2014 to ensure reliable results."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Why must specimens be collected using perfect aseptic technique?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "So the specimen and the collector aren't contaminated"
+    },
+    {
+     "letter": "B",
+     "text": "So the pathogen dies before transport"
+    },
+    {
+     "letter": "C",
+     "text": "So resident microbiota grow faster"
+    },
+    {
+     "letter": "D",
+     "text": "So the specimen needn't be labeled"
+    }
+   ],
+   "correct": "A",
+   "explanation": "When collecting a specimen: protect the patient, yourself and the specimen; use perfect aseptic technique; label it properly.",
+   "why": {
+    "B": "Pathogens must reach the lab alive.",
+    "C": "Overgrowth hides pathogens.",
+    "D": "Specimens must always be labeled."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Why must fresh stool for culture be processed quickly?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Because stool is typically sterile"
+    },
+    {
+     "letter": "B",
+     "text": "Because stool pathogens die in the cold"
+    },
+    {
+     "letter": "C",
+     "text": "Because it must be Gram stained first"
+    },
+    {
+     "letter": "D",
+     "text": "To prevent overgrowth by resident microbiota"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Fresh stool must be processed quickly so resident microbiota don't overgrow the pathogen.",
+   "why": {
+    "A": "Stool has large numbers of microbiota.",
+    "B": "That's N. gonorrhoeae.",
+    "C": "Speed is to prevent overgrowth."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Vaginal and rectal swabs collected near the 36th\u201337th week of pregnancy are cultured for:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Neisseria gonorrhoeae"
+    },
+    {
+     "letter": "B",
+     "text": "Candida albicans"
+    },
+    {
+     "letter": "C",
+     "text": "E. coli"
+    },
+    {
+     "letter": "D",
+     "text": "Group B Strep"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Group B Strep can cause pneumonia, meningitis or sepsis in newborns; mothers who test positive get antibiotics during labor.",
+   "why": {
+    "A": "Not the late-pregnancy screening culture.",
+    "B": "The screening culture is for Group B Strep.",
+    "C": "Not the late-pregnancy screen."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Which identification test can be done DIRECTLY on a CSF specimen for suspected meningitis?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "API 20E multitest strip"
+    },
+    {
+     "letter": "B",
+     "text": "Kirby-Bauer sensitivity testing"
+    },
+    {
+     "letter": "C",
+     "text": "A negative stain wet mount"
+    },
+    {
+     "letter": "D",
+     "text": "Mannitol salt agar"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Direct tests: Gram stain of sputum (pneumococcal pneumonia), negative stain wet mount of CSF (meningitis).",
+   "why": {
+    "A": "API 20E needs a pure culture.",
+    "B": "Kirby-Bauer needs a pure culture.",
+    "D": "That's a culture medium."
    }
   }
  ]

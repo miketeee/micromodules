@@ -409,69 +409,64 @@
   {
    "num": 14,
    "type": "Photo",
-   "prompt": "Which amoeba infects the cornea, often when contact lenses are not cared for properly?",
+   "prompt": "Which disease is caused by Plasmodium spp.?",
    "options": [
     {
      "letter": "A",
-     "text": "Naegleria fowleri"
+     "text": "Amoebic dysentery"
     },
     {
      "letter": "B",
-     "text": "Entamoeba histolytica"
+     "text": "Malaria"
     },
     {
      "letter": "C",
-     "text": "Amoeba proteus"
+     "text": "Vaginitis"
     },
     {
      "letter": "D",
-     "text": "Acanthamoeba"
+     "text": "Beaver fever"
     }
    ],
-   "correct": "D",
-   "explanation": "Acanthamoeba may infect the cornea, often from poorly cared-for contact lenses.",
+   "correct": "B",
+   "explanation": "Plasmodium causes malaria; it lives inside red blood cells and is spread by mosquitoes.",
    "why": {
-    "A": "Naegleria enters through the nose and travels to the brain.",
-    "B": "Entamoeba is intestinal.",
-    "C": "Amoeba proteus is non-pathogenic."
+    "A": "That's Entamoeba histolytica.",
+    "C": "That's Trichomonas vaginalis.",
+    "D": "That's Giardia lamblia."
    },
-   "img": "../lab-img/L06s_p16_2.jpg"
+   "img": "../lab-img/L06s_p21_1.jpg"
   },
   {
    "num": 15,
-   "type": "Multi-statement",
-   "prompt": "Which statement about Naegleria fowleri is FALSE?",
+   "type": "Photo",
+   "prompt": "How is Trichomonas vaginalis transmitted?",
    "options": [
     {
      "letter": "A",
-     "text": "It is the 'brain-eating' amoeba"
+     "text": "Fecal-oral route"
     },
     {
      "letter": "B",
-     "text": "It enters through the nose"
+     "text": "Mosquito bite"
     },
     {
      "letter": "C",
-     "text": "It is spread by the fecal-oral route"
+     "text": "Undercooked meat"
     },
     {
      "letter": "D",
-     "text": "It penetrates the nasal mucosa and travels to the brain"
-    },
-    {
-     "letter": "E",
-     "text": "Very few people have survived infection"
+     "text": "Sexual contact"
     }
    ],
-   "correct": "C",
-   "explanation": "Naegleria fowleri enters via the nose, not the fecal-oral route. Entamoeba and Giardia are fecal-oral.",
+   "correct": "D",
+   "explanation": "Trichomonas vaginalis is a sexually transmitted protozoan (trophozoite only).",
    "why": {
-    "A": "True \u2014 that's its infamous nickname.",
-    "B": "True \u2014 it enters via the nose.",
-    "D": "True \u2014 this is its route.",
-    "E": "True \u2014 only 4 of 160+ US cases since the 1960s."
+    "A": "Giardia and Entamoeba are fecal-oral.",
+    "B": "Plasmodium is mosquito-borne.",
+    "C": "Taenia is acquired from undercooked meat."
    },
-   "img": "../lab-img/L06s_p16_3.jpg"
+   "img": "../lab-img/L06s_p19_1.jpg"
   }
  ]
 }

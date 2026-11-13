@@ -250,36 +250,6 @@
   },
   {
    "num": 9,
-   "type": "Multiple choice",
-   "prompt": "Blood agar is both:",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Selective and differential"
-    },
-    {
-     "letter": "B",
-     "text": "Enriched and differential"
-    },
-    {
-     "letter": "C",
-     "text": "Defined and selective"
-    },
-    {
-     "letter": "D",
-     "text": "General purpose and reducing"
-    }
-   ],
-   "correct": "B",
-   "explanation": "Blood agar: enriched (blood supports fastidious growth) and differential (shows ability to lyse red blood cells \u2014 hemolysis).",
-   "why": {
-    "A": "That combination describes MSA and MacConkey.",
-    "C": "Blood is a complex ingredient, so it isn't defined.",
-    "D": "Blood agar adds blood (enriched) and shows hemolysis (differential)."
-   }
-  },
-  {
-   "num": 10,
    "type": "Photo",
    "prompt": "Citrate agar combines which three traits?",
    "options": [
@@ -310,7 +280,7 @@
    "img": "../lab-img/L02s_p14_3.jpg"
   },
   {
-   "num": 11,
+   "num": 10,
    "type": "Photo",
    "prompt": "Neisseria spp. are capnophiles. What do they require to grow?",
    "options": [
@@ -341,7 +311,7 @@
    "img": "../lab-img/L02s_p15_1.jpg"
   },
   {
-   "num": 12,
+   "num": 11,
    "type": "Multi-statement",
    "prompt": "Which statement about culturing obligate intracellular parasites is FALSE?",
    "options": [
@@ -376,67 +346,7 @@
    }
   },
   {
-   "num": 13,
-   "type": "Multiple choice",
-   "prompt": "Practice Problem A: prepare 300 mL of tryptic soy broth; the label says 42 g per 1 L. How many grams?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "12.6 g"
-    },
-    {
-     "letter": "B",
-     "text": "126 g"
-    },
-    {
-     "letter": "C",
-     "text": "14 g"
-    },
-    {
-     "letter": "D",
-     "text": "1.26 g"
-    }
-   ],
-   "correct": "A",
-   "explanation": "42 g \u00d7 0.3 L / 1 L = 12.6 g.",
-   "why": {
-    "B": "300 mL = 0.3 L, not 3 L.",
-    "C": "That divides 42 by 3 instead of multiplying by 0.3.",
-    "D": "0.3 L \u00d7 42 g/L = 12.6 g, not 1.26 g."
-   }
-  },
-  {
-   "num": 14,
-   "type": "Multiple choice",
-   "prompt": "Practice Problem C: prepare 3 L of urea broth; the label says 84 g per 1 L. How many grams?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "28 g"
-    },
-    {
-     "letter": "B",
-     "text": "87 g"
-    },
-    {
-     "letter": "C",
-     "text": "252 g"
-    },
-    {
-     "letter": "D",
-     "text": "25.2 g"
-    }
-   ],
-   "correct": "C",
-   "explanation": "84 g \u00d7 3 L / 1 L = 252 g.",
-   "why": {
-    "A": "That divides 84 by 3 instead of multiplying.",
-    "B": "Grams and liters aren't added; multiply 84 \u00d7 3.",
-    "D": "84 g/L \u00d7 3 L = 252 g, not 25.2 g."
-   }
-  },
-  {
-   "num": 15,
+   "num": 12,
    "type": "Multiple choice",
    "prompt": "Which procedure error would most likely give a streak plate with NO isolated colonies (heavy growth in every quadrant)?",
    "options": [
@@ -463,6 +373,96 @@
     "A": "Sterilizing first is correct technique.",
     "C": "That's the correct step \u2014 it's what dilutes the organisms.",
     "D": "Plates are always incubated inverted."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "What is the function of agar in culture media?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "It solidifies the medium"
+    },
+    {
+     "letter": "B",
+     "text": "It provides the main nutrients for growth"
+    },
+    {
+     "letter": "C",
+     "text": "It keeps the pH of the medium stable"
+    },
+    {
+     "letter": "D",
+     "text": "It inhibits Gram-positive organisms"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Agar turns a broth into a solid medium (plates and slants).",
+   "why": {
+    "B": "Agar isn't a nutrient for most microbes; it's a solidifying agent.",
+    "C": "That's the job of buffers.",
+    "D": "That's a selective agent (e.g., crystal violet, bile salts)."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Why must agar-containing media be boiled during preparation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "To sterilize the medium completely"
+    },
+    {
+     "letter": "B",
+     "text": "To lower the pH of the medium"
+    },
+    {
+     "letter": "C",
+     "text": "To fully dissolve the agar"
+    },
+    {
+     "letter": "D",
+     "text": "To remove the oxygen from the medium"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Agar powder only dissolves when heated to boiling; it then solidifies as it cools.",
+   "why": {
+    "A": "Sterilization is done in the autoclave.",
+    "B": "Boiling doesn't set pH; buffers do.",
+    "D": "Removing O2 is the job of reducing media ingredients."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Which is a LONG-term preservation method for culture storage?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Freezing or dehydrating"
+    },
+    {
+     "letter": "B",
+     "text": "Refrigeration"
+    },
+    {
+     "letter": "C",
+     "text": "Leaving plates at room temperature"
+    },
+    {
+     "letter": "D",
+     "text": "Incubating at 37\u00b0C"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Short term: refrigeration. Long term: freezing or dehydrating.",
+   "why": {
+    "B": "Refrigeration is short-term storage.",
+    "C": "Cultures overgrow and dry out.",
+    "D": "Incubation grows cultures; it doesn't preserve them."
    }
   }
  ]

@@ -5,343 +5,6 @@
  "questions": [
   {
    "num": 1,
-   "type": "Photo",
-   "prompt": "Read this TSI tube. What does it show?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "No fermentation (entire medium red)"
-    },
-    {
-     "letter": "B",
-     "text": "Ferments glucose only"
-    },
-    {
-     "letter": "C",
-     "text": "Ferments glucose and lactose and/or sucrose"
-    },
-    {
-     "letter": "D",
-     "text": "H2S production"
-    }
-   ],
-   "correct": "A",
-   "explanation": "Entire medium red: the organism doesn't ferment any of the sugars and doesn't reduce sulfur. Slant \u2212, butt \u2212.",
-   "why": {
-    "B": "Glucose-only shows a red slant over a yellow butt.",
-    "C": "That shows yellow throughout.",
-    "D": "H2S shows as a black precipitate."
-   },
-   "img": "../lab-img/X03_tsi_nf.jpg"
-  },
-  {
-   "num": 2,
-   "type": "Photo",
-   "prompt": "Read this TSI tube. What does it show?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Ferments glucose only"
-    },
-    {
-     "letter": "B",
-     "text": "No fermentation"
-    },
-    {
-     "letter": "C",
-     "text": "Ferments glucose and lactose and/or sucrose"
-    },
-    {
-     "letter": "D",
-     "text": "Reduces sulfur to H2S"
-    }
-   ],
-   "correct": "A",
-   "explanation": "Red slant + yellow butt: the organism ferments glucose only. Slant \u2212, butt +, no cracks, no H2S.",
-   "why": {
-    "B": "No fermentation leaves the entire tube red.",
-    "C": "That turns the slant yellow too.",
-    "D": "H2S shows as a black precipitate."
-   },
-   "img": "../lab-img/X03_tsi_glu.jpg"
-  },
-  {
-   "num": 3,
-   "type": "Photo",
-   "prompt": "Read this TSI tube. What does it show?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Ferments glucose and lactose and/or sucrose, and produces gas"
-    },
-    {
-     "letter": "B",
-     "text": "Ferments glucose only and does not produce any gas"
-    },
-    {
-     "letter": "C",
-     "text": "Does not ferment any of the sugars but produces gas"
-    },
-    {
-     "letter": "D",
-     "text": "Reduces sulfur to H2S and does not ferment any sugar"
-    }
-   ],
-   "correct": "A",
-   "explanation": "Entire medium yellow = ferments glucose and lactose and/or sucrose. Large cracks/gaps = gas was produced.",
-   "why": {
-    "B": "Glucose-only fermenters have a red slant.",
-    "C": "Yellow means acid from fermentation; there's no 'no fermentation with gas' result.",
-    "D": "No black precipitate is present."
-   },
-   "img": "../lab-img/X03_tsi_lac.jpg"
-  },
-  {
-   "num": 4,
-   "type": "Photo",
-   "prompt": "Read this TSI tube. What does the black color mean?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "The organism produced gas from fermentation"
-    },
-    {
-     "letter": "B",
-     "text": "The organism does not ferment any sugar"
-    },
-    {
-     "letter": "C",
-     "text": "The medium is contaminated and should be discarded"
-    },
-    {
-     "letter": "D",
-     "text": "The organism reduced sulfur into hydrogen sulfide (H2S)"
-    }
-   ],
-   "correct": "D",
-   "explanation": "A black precipitate means sulfur was reduced to H2S. In the slide example, it also ferments glucose (slant \u2212, butt +).",
-   "why": {
-    "A": "Gas shows as cracks or gaps, not black color.",
-    "B": "No fermentation turns the entire tube red.",
-    "C": "Black precipitate is a positive H2S result."
-   },
-   "img": "../lab-img/X03_tsi_h2s.jpg"
-  },
-  {
-   "num": 5,
-   "type": "Multiple choice",
-   "prompt": "In TSI, what do large cracks or gaps in the agar indicate?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Gas was produced during fermentation"
-    },
-    {
-     "letter": "B",
-     "text": "Hydrogen sulfide was produced"
-    },
-    {
-     "letter": "C",
-     "text": "The organism is a non-fermenter"
-    },
-    {
-     "letter": "D",
-     "text": "The slant was stabbed too deeply"
-    }
-   ],
-   "correct": "A",
-   "explanation": "Cracks or gaps = gas produced during fermentation of any sugar.",
-   "why": {
-    "B": "H2S shows as a black precipitate.",
-    "C": "Cracks come from gas made during fermentation.",
-    "D": "Cracks are a gas result, not a technique error."
-   }
-  },
-  {
-   "num": 6,
-   "type": "Multiple choice",
-   "prompt": "How is a TSI slant inoculated?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Streak only the slant surface using an inoculating loop"
-    },
-    {
-     "letter": "B",
-     "text": "Pipette 50 \u00b5L onto the slant and spread it"
-    },
-    {
-     "letter": "C",
-     "text": "Add a Durham tube and then shake it to mix"
-    },
-    {
-     "letter": "D",
-     "text": "Stab top to bottom with an inoculating needle, then streak the slant surface"
-    }
-   ],
-   "correct": "D",
-   "explanation": "Stab the slant from top to bottom with an inoculating needle, then streak the surface. Incubate at 37\u00b0C for 24\u201348 hours.",
-   "why": {
-    "A": "TSI is stabbed with a needle and then streaked.",
-    "B": "Spreading 50 \u00b5L is the spread plate method.",
-    "C": "Durham tubes go in phenol red broths, not TSI."
-   }
-  },
-  {
-   "num": 7,
-   "type": "Photo",
-   "prompt": "This phenol red broth is yellow and has a bubble in the Durham tube. What is the result?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Ferments the sugar and produces gas"
-    },
-    {
-     "letter": "B",
-     "text": "Ferments the sugar, but no gas"
-    },
-    {
-     "letter": "C",
-     "text": "Does not ferment the sugar"
-    },
-    {
-     "letter": "D",
-     "text": "Reduces sulfur to H2S"
-    }
-   ],
-   "correct": "A",
-   "explanation": "Phenol red turns yellow (acidic) when the sugar is fermented. The inverted Durham tube traps any gas produced.",
-   "why": {
-    "B": "A bubble in the Durham tube means gas was produced.",
-    "C": "Yellow means acid was produced \u2014 a positive fermentation.",
-    "D": "Phenol red broth doesn't test H2S."
-   },
-   "img": "../lab-img/X03_pr_gas.jpg"
-  },
-  {
-   "num": 8,
-   "type": "Photo",
-   "prompt": "This phenol red broth is yellow with no bubble in the Durham tube. What is the result?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Ferments the sugar and produces gas"
-    },
-    {
-     "letter": "B",
-     "text": "Does not ferment the sugar"
-    },
-    {
-     "letter": "C",
-     "text": "The test is invalid without a bubble"
-    },
-    {
-     "letter": "D",
-     "text": "Ferments the sugar, no gas"
-    }
-   ],
-   "correct": "D",
-   "explanation": "Yellow = positive fermentation. An empty Durham tube = no gas.",
-   "why": {
-    "A": "There is no bubble trapped in the Durham tube.",
-    "B": "Yellow means the sugar was fermented to acid.",
-    "C": "A yellow broth with no bubble is a valid result."
-   },
-   "img": "../lab-img/X03_pr_acid.jpg"
-  },
-  {
-   "num": 9,
-   "type": "Photo",
-   "prompt": "This phenol red broth stayed red-orange. What is the result?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Ferments the sugar, no gas"
-    },
-    {
-     "letter": "B",
-     "text": "Ferments the sugar and produces gas"
-    },
-    {
-     "letter": "C",
-     "text": "Does not ferment the sugar"
-    },
-    {
-     "letter": "D",
-     "text": "Positive for acid production"
-    }
-   ],
-   "correct": "C",
-   "explanation": "Negative: non-fermenters stay red-orange.",
-   "why": {
-    "A": "Fermenters turn the broth yellow.",
-    "B": "There's no yellow color or trapped bubble.",
-    "D": "Acid would turn phenol red yellow."
-   },
-   "img": "../lab-img/X03_pr_neg.jpg"
-  },
-  {
-   "num": 10,
-   "type": "Multiple choice",
-   "prompt": "What is the purpose of the small inverted Durham tube in a phenol red carbohydrate broth?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "To detect acid produced during fermentation"
-    },
-    {
-     "letter": "B",
-     "text": "To create an oxygen gradient"
-    },
-    {
-     "letter": "C",
-     "text": "To detect gas produced during fermentation"
-    },
-    {
-     "letter": "D",
-     "text": "To keep the broth sterile"
-    }
-   ],
-   "correct": "C",
-   "explanation": "The Durham tube traps gas; phenol red shows acid (yellow).",
-   "why": {
-    "A": "Phenol red (the pH indicator) detects acid.",
-    "B": "Thioglycolate broth creates an O2 gradient.",
-    "D": "The Durham tube traps gas bubbles."
-   }
-  },
-  {
-   "num": 11,
-   "type": "Multiple choice",
-   "prompt": "Phenol red is used in fermentation tests because it is a:",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Sugar that bacteria break down for energy"
-    },
-    {
-     "letter": "B",
-     "text": "Dye that stains bacterial cell walls red"
-    },
-    {
-     "letter": "C",
-     "text": "pH indicator that turns black with H2S"
-    },
-    {
-     "letter": "D",
-     "text": "pH indicator that turns yellow when acid is produced"
-    }
-   ],
-   "correct": "D",
-   "explanation": "Phenol red: yellow (acidic) at low pH, red-orange near neutral, pink at basic pH.",
-   "why": {
-    "A": "Phenol red is a pH indicator, not a sugar.",
-    "B": "It indicates pH; it doesn't stain cells.",
-    "C": "Black in TSI comes from H2S, not from phenol red."
-   }
-  },
-  {
-   "num": 12,
    "type": "Multiple choice",
    "prompt": "In fermentation, what is the purpose of Step 2 (reducing pyruvate)?",
    "options": [
@@ -371,7 +34,7 @@
    }
   },
   {
-   "num": 13,
+   "num": 2,
    "type": "Multiple choice",
    "prompt": "The acidity of yogurt, sour cream and sourdough comes from:",
    "options": [
@@ -401,7 +64,7 @@
    }
   },
   {
-   "num": 14,
+   "num": 3,
    "type": "Multiple choice",
    "prompt": "In the probiotic experiment, 100 \u00b5L is transferred into 900 \u00b5L of water at each step (OG \u2192 A \u2192 B \u2192 C \u2192 D). What is the total dilution of Tube D?",
    "options": [
@@ -431,7 +94,7 @@
    }
   },
   {
-   "num": 15,
+   "num": 4,
    "type": "Multiple choice",
    "prompt": "Plate D (total dilution 1/10,000, 50 \u00b5L plated) has 45 colonies. How many CFU/mL were in the probiotic?",
    "options": [
@@ -458,6 +121,337 @@
     "A": "That forgets to divide by the 0.05 mL plated.",
     "C": "Volume plated goes in the denominator: 45 \u00d7 10,000 \u00f7 0.05.",
     "D": "45 \u00d7 10,000 = 450,000; \u00f7 0.05 mL = 9,000,000."
+   }
+  },
+  {
+   "num": 5,
+   "type": "Photo",
+   "prompt": "On this mannitol salt agar plate, the medium turned yellow. What does phenol red tell you?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mannitol was not fermented"
+    },
+    {
+     "letter": "B",
+     "text": "The organism is not salt-tolerant"
+    },
+    {
+     "letter": "C",
+     "text": "Mannitol was fermented, producing acid"
+    },
+    {
+     "letter": "D",
+     "text": "Hydrogen sulfide was produced"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Phenol red is the pH indicator in MSA: yellow = acid from mannitol fermentation.",
+   "why": {
+    "A": "Non-fermenters leave phenol red red/pink.",
+    "B": "Growth on MSA means it IS salt-tolerant.",
+    "D": "MSA doesn't test H2S."
+   },
+   "img": "../lab-img/L02s_p12_1.jpg"
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "What are the end products of ethanol (alcoholic) fermentation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ethanol and CO2"
+    },
+    {
+     "letter": "B",
+     "text": "Lactic acid only"
+    },
+    {
+     "letter": "C",
+     "text": "Lactic acid and acetic acid"
+    },
+    {
+     "letter": "D",
+     "text": "Water and oxygen"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Ethanol fermentation: pyruvate is reduced to ethanol, releasing CO2, and NAD is regenerated.",
+   "why": {
+    "B": "That's lactic acid fermentation.",
+    "C": "Those flavor sourdough (acidic pathway).",
+    "D": "Fermentation doesn't produce oxygen."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Which pathway occurs in animal muscles when oxygen is depleted?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Ethanol fermentation"
+    },
+    {
+     "letter": "B",
+     "text": "Lactic acid fermentation"
+    },
+    {
+     "letter": "C",
+     "text": "Aerobic respiration"
+    },
+    {
+     "letter": "D",
+     "text": "Sulfur reduction"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Lactic acid fermentation is common in prokaryotes and eukaryotes, and occurs in muscle when O2 is depleted.",
+   "why": {
+    "A": "Ethanol fermentation is done by organisms like yeast.",
+    "C": "This happens when O2 runs out.",
+    "D": "That's the H2S test."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "In lactic acid fermentation of lactose, what happens first?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lactose is reduced directly to lactic acid"
+    },
+    {
+     "letter": "B",
+     "text": "Lactose is converted into ethanol and CO2"
+    },
+    {
+     "letter": "C",
+     "text": "Lactose is oxidized in the Krebs cycle"
+    },
+    {
+     "letter": "D",
+     "text": "Lactose is broken into galactose and glucose"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Lactose \u2192 galactose + glucose; glucose enters glycolysis; pyruvate is reduced to lactic acid.",
+   "why": {
+    "A": "Lactose is split first; glucose then enters glycolysis.",
+    "B": "That isn't lactic acid fermentation.",
+    "C": "Fermentation uses glycolysis, not the Krebs cycle."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "How many ATP (net) does fermentation produce per glucose?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "36\u201338 ATP"
+    },
+    {
+     "letter": "B",
+     "text": "0 ATP"
+    },
+    {
+     "letter": "C",
+     "text": "4 ATP from Step 2"
+    },
+    {
+     "letter": "D",
+     "text": "2 ATP, from glycolysis"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Step 1 (glycolysis) oxidizes glucose and nets 2 ATP; Step 2 only regenerates NAD.",
+   "why": {
+    "A": "That's aerobic respiration.",
+    "B": "Glycolysis nets 2 ATP.",
+    "C": "Step 2 regenerates NAD; it makes no ATP."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Bread rising and alcoholic beverages are products of which microbe's fermentation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Lactobacillus \u2014 ethanol fermentation"
+    },
+    {
+     "letter": "B",
+     "text": "Yeast (Saccharomyces) \u2014 ethanol fermentation"
+    },
+    {
+     "letter": "C",
+     "text": "Yeast (Saccharomyces) \u2014 lactic acid fermentation"
+    },
+    {
+     "letter": "D",
+     "text": "E. coli \u2014 ethanol fermentation"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Saccharomyces (brewer's/baker's yeast) ferments sugars to ethanol and CO2 \u2014 the CO2 makes bread rise.",
+   "why": {
+    "A": "Lactobacillus performs lactic acid fermentation.",
+    "C": "Yeast makes ethanol and CO2.",
+    "D": "Brewing and baking use yeast."
+   }
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "What is a probiotic?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "A drug that kills harmful bacteria"
+    },
+    {
+     "letter": "B",
+     "text": "Live beneficial microbes taken to support health"
+    },
+    {
+     "letter": "C",
+     "text": "A dead vaccine that protects the gut"
+    },
+    {
+     "letter": "D",
+     "text": "A medium used to count bacteria"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Probiotics are live microorganisms (often lactic acid bacteria) that benefit the host; in lab you counted the live bacteria in one.",
+   "why": {
+    "A": "That's an antibiotic.",
+    "C": "Probiotics contain live microbes.",
+    "D": "Probiotics are products, not media."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Why was a plate count (not turbidity) used to measure the bacteria in the probiotic?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Turbidity counts only the live cells"
+    },
+    {
+     "letter": "B",
+     "text": "Turbidity is more accurate for probiotics"
+    },
+    {
+     "letter": "C",
+     "text": "Probiotics can't be diluted"
+    },
+    {
+     "letter": "D",
+     "text": "Only live cells form colonies"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Only live cells form colonies (CFUs); a probiotic's label claims live cells.",
+   "why": {
+    "A": "Turbidity counts live AND dead cells.",
+    "B": "Turbidity counts total cells, including dead ones.",
+    "C": "Serial dilutions were used in the experiment."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "In fermentation, NAD is regenerated when:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Glucose is oxidized (Step 1)"
+    },
+    {
+     "letter": "B",
+     "text": "Oxygen accepts electrons"
+    },
+    {
+     "letter": "C",
+     "text": "ATP is made by the electron transport chain"
+    },
+    {
+     "letter": "D",
+     "text": "Pyruvate is reduced (Step 2)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Step 2 passes electrons from NADH to pyruvate, regenerating NAD so glycolysis can continue.",
+   "why": {
+    "A": "Step 1 uses NAD and makes NADH.",
+    "B": "Fermentation doesn't use O2.",
+    "C": "Fermentation doesn't use an ETC."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Phenol red is used in mannitol salt agar because it is a pH indicator that turns:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Yellow when acid is produced"
+    },
+    {
+     "letter": "B",
+     "text": "Blue when acid is produced"
+    },
+    {
+     "letter": "C",
+     "text": "Black when acid is produced"
+    },
+    {
+     "letter": "D",
+     "text": "Pink when acid is produced"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Phenol red: yellow = acidic, red-orange = neutral, pink = basic.",
+   "why": {
+    "B": "Blue is bromothymol blue (citrate, basic).",
+    "C": "Black is H2S.",
+    "D": "Pink acid is neutral red (MacConkey)."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Compare the two major fermentation pathways: what does Step 2 produce in each?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Acidic: ethanol + CO2; alcoholic: lactic acid"
+    },
+    {
+     "letter": "B",
+     "text": "Acidic: lactic acid; alcoholic: ethanol + CO2"
+    },
+    {
+     "letter": "C",
+     "text": "Both produce only lactic acid"
+    },
+    {
+     "letter": "D",
+     "text": "Both produce ATP through an electron transport chain"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Both pathways share glycolysis (Step 1); in Step 2 pyruvate is reduced to an acid (lactic) or to alcohol (ethanol + CO2), regenerating NAD.",
+   "why": {
+    "A": "Reversed.",
+    "C": "Alcoholic fermentation makes ethanol and CO2.",
+    "D": "Fermentation's ATP comes only from glycolysis."
    }
   }
  ]

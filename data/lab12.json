@@ -127,66 +127,6 @@
   {
    "num": 5,
    "type": "Multiple choice",
-   "prompt": "API 20E section 2 contains ODC (1), CIT (2), H2S (4). All three are negative. What digit goes under section 2?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "7"
-    },
-    {
-     "letter": "B",
-     "text": "0"
-    },
-    {
-     "letter": "C",
-     "text": "1"
-    },
-    {
-     "letter": "D",
-     "text": "3"
-    }
-   ],
-   "correct": "B",
-   "explanation": "If no test in a section is positive, the digit is 0.",
-   "why": {
-    "A": "7 would be all three positive.",
-    "C": "1 would be ODC positive.",
-    "D": "Negatives add nothing."
-   }
-  },
-  {
-   "num": 6,
-   "type": "Multiple choice",
-   "prompt": "API 20E section 3 contains URE (1), TDA (2), IND (4). Only IND is positive. What digit goes under section 3?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "1"
-    },
-    {
-     "letter": "B",
-     "text": "3"
-    },
-    {
-     "letter": "C",
-     "text": "4"
-    },
-    {
-     "letter": "D",
-     "text": "6"
-    }
-   ],
-   "correct": "C",
-   "explanation": "IND (4) alone = 4.",
-   "why": {
-    "A": "1 would be URE positive.",
-    "B": "3 would be URE + TDA.",
-    "D": "6 would be TDA + IND."
-   }
-  },
-  {
-   "num": 7,
-   "type": "Multiple choice",
    "prompt": "API 20E section 4 contains VP (1), GEL (2), GLU (4). VP and GLU are positive. What digit goes under section 4?",
    "options": [
     {
@@ -215,7 +155,7 @@
    }
   },
   {
-   "num": 8,
+   "num": 6,
    "type": "Photo",
    "prompt": "Read this rapid antigen test: lines at both C and T. What is the result?",
    "options": [
@@ -246,7 +186,7 @@
    "img": "../lab-img/X12_cov_pos.jpg"
   },
   {
-   "num": 9,
+   "num": 7,
    "type": "Photo",
    "prompt": "Read this rapid antigen test: a line at C only. What is the result?",
    "options": [
@@ -277,7 +217,7 @@
    "img": "../lab-img/X12_cov_neg.jpg"
   },
   {
-   "num": 10,
+   "num": 8,
    "type": "Photo",
    "prompt": "Read this rapid antigen test: no lines at all. What is the result?",
    "options": [
@@ -308,7 +248,7 @@
    "img": "../lab-img/X12_cov_inv1.jpg"
   },
   {
-   "num": 11,
+   "num": 9,
    "type": "Photo",
    "prompt": "Read this rapid antigen test: a line at T but NOT at C. What is the result?",
    "options": [
@@ -339,7 +279,7 @@
    "img": "../lab-img/X12_cov_inv2.jpg"
   },
   {
-   "num": 12,
+   "num": 10,
    "type": "Photo",
    "prompt": "What forms the visible TEST line in a rapid COVID antigen test?",
    "options": [
@@ -370,7 +310,7 @@
    "img": "../lab-img/L12s_p10_1.jpg"
   },
   {
-   "num": 13,
+   "num": 11,
    "type": "Photo",
    "prompt": "Rapid HIV tests like this one detect antibodies. What is the 'false negative window'?",
    "options": [
@@ -401,7 +341,7 @@
    "img": "../lab-img/L12s_p09_1.jpg"
   },
   {
-   "num": 14,
+   "num": 12,
    "type": "Photo",
    "prompt": "Which of these is an ANTIGEN detection test?",
    "options": [
@@ -432,7 +372,7 @@
    "img": "../lab-img/L12s_p18_1.jpg"
   },
   {
-   "num": 15,
+   "num": 13,
    "type": "Multi-statement",
    "prompt": "Which statement about antibody-based rapid tests is FALSE?",
    "options": [
@@ -464,6 +404,66 @@
     "B": "True \u2014 a benefit.",
     "C": "True \u2014 a benefit.",
     "D": "True \u2014 culture confirms Quick Strep."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "An unknown's API 20E profile code is 5144572. Practice code table: 5144572 = E. coli; 5215773 = Klebsiella pneumoniae; 0736000 = Proteus mirabilis; 1304000 = Serratia marcescens. What is it?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Escherichia coli"
+    },
+    {
+     "letter": "B",
+     "text": "Klebsiella pneumoniae"
+    },
+    {
+     "letter": "C",
+     "text": "Proteus mirabilis"
+    },
+    {
+     "letter": "D",
+     "text": "Serratia marcescens"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Match the 7-digit profile code to the code table to identify the organism. (This practice table is for drilling the lookup step; use the official API 20E Code Table in lab.)",
+   "why": {
+    "B": "Klebsiella's code is 5215773.",
+    "C": "Proteus is 0736000.",
+    "D": "Serratia is 1304000."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "API 20E section results: ONPG+ (1), ADH+ (2), LDC+ (4) in section 1. What digit do you write?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "3"
+    },
+    {
+     "letter": "B",
+     "text": "7"
+    },
+    {
+     "letter": "C",
+     "text": "1"
+    },
+    {
+     "letter": "D",
+     "text": "124"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Add the numbers of all positive tests in a section to get one digit.",
+   "why": {
+    "A": "3 is only ONPG + ADH.",
+    "C": "1 counts only ONPG.",
+    "D": "Add the values: 1 + 2 + 4 = 7."
    }
   }
  ]

@@ -98,68 +98,6 @@
   {
    "num": 4,
    "type": "Photo",
-   "prompt": "Ciprofloxacin (CIP-5) standards: R \u226415 mm, I 16\u201320 mm, S \u226521 mm. Your zone is 24 mm. Result?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Sensitive (S)"
-    },
-    {
-     "letter": "B",
-     "text": "Resistant (R)"
-    },
-    {
-     "letter": "C",
-     "text": "Intermediate (I)"
-    },
-    {
-     "letter": "D",
-     "text": "Cannot tell without the disc concentration"
-    }
-   ],
-   "correct": "A",
-   "explanation": "24 mm \u2265 21 mm \u2192 Sensitive.",
-   "why": {
-    "B": "Resistant is 15 mm or less.",
-    "C": "Intermediate is 16\u201320 mm.",
-    "D": "The table gives the cutoffs."
-   },
-   "img": "../lab-img/L11s_p15_1.jpg"
-  },
-  {
-   "num": 5,
-   "type": "Photo",
-   "prompt": "Imipenem (IPM-10) standards: R \u226419 mm, I 20\u201322 mm, S \u226523 mm. Your zone is 19 mm. Result?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Intermediate (I)"
-    },
-    {
-     "letter": "B",
-     "text": "Sensitive (S)"
-    },
-    {
-     "letter": "C",
-     "text": "Intermediate, since it's close to 20"
-    },
-    {
-     "letter": "D",
-     "text": "Resistant (R)"
-    }
-   ],
-   "correct": "D",
-   "explanation": "19 mm \u2264 19 mm \u2192 Resistant.",
-   "why": {
-    "A": "Intermediate starts at 20 mm.",
-    "B": "Sensitive is 23 mm or more.",
-    "C": "19 mm is within the resistant range."
-   },
-   "img": "../lab-img/L11s_p15_1.jpg"
-  },
-  {
-   "num": 6,
-   "type": "Photo",
    "prompt": "Penicillin (P-10) has no intermediate range: R \u226428 mm, S \u226529 mm. Your zone is 25 mm. Result?",
    "options": [
     {
@@ -189,7 +127,7 @@
    "img": "../lab-img/L11s_p15_1.jpg"
   },
   {
-   "num": 7,
+   "num": 5,
    "type": "Multiple choice",
    "prompt": "A broad-spectrum antibiotic is best used when:",
    "options": [
@@ -219,7 +157,7 @@
    }
   },
   {
-   "num": 8,
+   "num": 6,
    "type": "Multiple choice",
    "prompt": "Which is an ADVANTAGE of narrow-spectrum antibiotics?",
    "options": [
@@ -249,7 +187,7 @@
    }
   },
   {
-   "num": 9,
+   "num": 7,
    "type": "Multiple choice",
    "prompt": "Why does treating a helminth infection carry a greater chance of side effects?",
    "options": [
@@ -279,7 +217,7 @@
    }
   },
   {
-   "num": 10,
+   "num": 8,
    "type": "Multiple choice",
    "prompt": "Beta-lactams (e.g., penicillin, methicillin) have high selective toxicity because they block:",
    "options": [
@@ -309,7 +247,7 @@
    }
   },
   {
-   "num": 11,
+   "num": 9,
    "type": "Multiple choice",
    "prompt": "Which antimicrobial is matched with its target?",
    "options": [
@@ -339,7 +277,7 @@
    }
   },
   {
-   "num": 12,
+   "num": 10,
    "type": "Multiple choice",
    "prompt": "Which drug is an antifungal that inhibits ergosterol synthesis?",
    "options": [
@@ -369,7 +307,7 @@
    }
   },
   {
-   "num": 13,
+   "num": 11,
    "type": "Photo",
    "prompt": "A Gram-positive coccus is catalase positive, grows on MSA and turns it yellow, and is coagulase positive. Identify it.",
    "options": [
@@ -400,7 +338,7 @@
    "img": "../lab-img/L10s_p24_1.jpg"
   },
   {
-   "num": 14,
+   "num": 12,
    "type": "Photo",
    "prompt": "A Gram-positive coccus is catalase negative, doesn't grow on MSA, and shows clear zones on blood agar. Identify it.",
    "options": [
@@ -431,33 +369,93 @@
    "img": "../lab-img/L10s_p24_1.jpg"
   },
   {
-   "num": 15,
+   "num": 13,
    "type": "Multiple choice",
-   "prompt": "Which Gram-positive unknown is a very common member of the normal flora and an opportunist causing HAIs on indwelling devices and surgical wounds?",
+   "prompt": "Why is standardization of the Kirby-Bauer test critical?",
    "options": [
     {
      "letter": "A",
-     "text": "Staphylococcus aureus"
+     "text": "Standardization makes every zone the same size"
     },
     {
      "letter": "B",
-     "text": "Staphylococcus epidermidis"
+     "text": "Zone sizes only mean R/I/S when conditions match the standard table"
     },
     {
      "letter": "C",
-     "text": "Streptococcus pyogenes"
+     "text": "It allows any agar to be used"
     },
     {
      "letter": "D",
-     "text": "Streptococcus pneumoniae"
+     "text": "It removes the need for a pure culture"
     }
    ],
    "correct": "B",
-   "explanation": "S. epidermidis: very common resident microbiota; opportunist (HAIs on indwelling devices, surgical wounds; bloodstream infections in the very immunocompromised).",
+   "explanation": "Standardized features (pure culture, Mueller-Hinton agar, confluent lawn, disc concentrations, mm measurements) let zones be compared to the R-I-S table.",
    "why": {
-    "A": "S. aureus causes food poisoning, boils, abscesses and many other infections.",
-    "C": "S. pyogenes causes strep throat and skin infections.",
-    "D": "S. pneumoniae causes sinus and ear infections and pneumonia."
+    "A": "Zones differ by drug and organism.",
+    "C": "Mueller-Hinton is required.",
+    "D": "A pure culture is required."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "A '-static' antimicrobial differs from a '-cidal' one because it:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Kills the microbe outright"
+    },
+    {
+     "letter": "B",
+     "text": "Only works on viruses"
+    },
+    {
+     "letter": "C",
+     "text": "Inhibits growth without killing"
+    },
+    {
+     "letter": "D",
+     "text": "Destroys endospores"
+    }
+   ],
+   "correct": "C",
+   "explanation": "'-cidal' kills; '-static' stops growth so the immune system can clear the microbe.",
+   "why": {
+    "A": "That's '-cidal'.",
+    "B": "'-static' describes the effect, not the target.",
+    "D": "That's sporicidal."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Polymyxins (polymyxin B, colistin) act by which mechanism?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Disruption of the cell membrane"
+    },
+    {
+     "letter": "B",
+     "text": "Inhibition of cell wall synthesis"
+    },
+    {
+     "letter": "C",
+     "text": "Inhibition of protein synthesis"
+    },
+    {
+     "letter": "D",
+     "text": "Inhibition of folic acid synthesis"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Five targets: cell wall synthesis, cell membrane, protein synthesis, nucleic acid synthesis, folic acid synthesis.",
+   "why": {
+    "B": "That's beta-lactams, vancomycin, bacitracin.",
+    "C": "That's aminoglycosides, macrolides, tetracyclines.",
+    "D": "That's sulfa drugs."
    }
   }
  ]

@@ -1,0 +1,457 @@
+{
+ "slug": "lab1-3",
+ "title": "Lab 1 \u2014 Quiz 3",
+ "subtitle": "Biochemistry review videos \u2014 pH, buffers, macromolecules",
+ "questions": [
+  {
+   "num": 1,
+   "type": "Multiple choice",
+   "prompt": "A solution with a pH of 3 is:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Basic"
+    },
+    {
+     "letter": "B",
+     "text": "Acidic"
+    },
+    {
+     "letter": "C",
+     "text": "Neutral"
+    },
+    {
+     "letter": "D",
+     "text": "A buffer"
+    }
+   ],
+   "correct": "B",
+   "explanation": "pH below 7 = acidic; 7 = neutral; above 7 = basic.",
+   "why": {
+    "A": "Basic (alkaline) solutions have a pH above 7.",
+    "C": "Neutral is pH 7.",
+    "D": "A buffer resists pH change; pH 3 simply describes acidity."
+   }
+  },
+  {
+   "num": 2,
+   "type": "Multiple choice",
+   "prompt": "What does a buffer do?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Resists changes in pH"
+    },
+    {
+     "letter": "B",
+     "text": "Releases hydrogen ions to lower pH"
+    },
+    {
+     "letter": "C",
+     "text": "Accepts hydrogen ions to raise pH"
+    },
+    {
+     "letter": "D",
+     "text": "Speeds up chemical reactions"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Buffers resist pH changes \u2014 that's why they are added to culture media to keep the pH appropriate.",
+   "why": {
+    "B": "That describes an acid.",
+    "C": "That describes a base.",
+    "D": "That describes an enzyme."
+   }
+  },
+  {
+   "num": 3,
+   "type": "Multiple choice",
+   "prompt": "An acid is a substance that:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Accepts hydrogen ions (H+), raising pH"
+    },
+    {
+     "letter": "B",
+     "text": "Releases hydrogen ions (H+), lowering pH"
+    },
+    {
+     "letter": "C",
+     "text": "Keeps pH from changing"
+    },
+    {
+     "letter": "D",
+     "text": "Has a pH of exactly 7"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Acids donate H+ (pH below 7); bases accept H+ or release OH- (pH above 7).",
+   "why": {
+    "A": "That's a base.",
+    "C": "That's a buffer.",
+    "D": "pH 7 is neutral."
+   }
+  },
+  {
+   "num": 4,
+   "type": "Multiple choice",
+   "prompt": "What are the four classes of macromolecules essential to cells?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Carbohydrates, lipids, proteins, vitamins"
+    },
+    {
+     "letter": "B",
+     "text": "Sugars, salts, water, nucleic acids"
+    },
+    {
+     "letter": "C",
+     "text": "Carbohydrates, lipids, proteins, nucleic acids"
+    },
+    {
+     "letter": "D",
+     "text": "Proteins, enzymes, hormones, lipids"
+    }
+   ],
+   "correct": "C",
+   "explanation": "The 4 classes of biomolecules: carbohydrates, lipids, proteins and nucleic acids.",
+   "why": {
+    "A": "Vitamins aren't one of the four macromolecule classes.",
+    "B": "Salts and water are not macromolecules.",
+    "D": "Enzymes and many hormones are proteins, not separate classes."
+   }
+  },
+  {
+   "num": 5,
+   "type": "Multiple choice",
+   "prompt": "What is the monomer (building block) of proteins?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Monosaccharides"
+    },
+    {
+     "letter": "B",
+     "text": "Amino acids"
+    },
+    {
+     "letter": "C",
+     "text": "Nucleotides"
+    },
+    {
+     "letter": "D",
+     "text": "Fatty acids"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Proteins are polymers of amino acids joined by peptide bonds.",
+   "why": {
+    "A": "Monosaccharides build carbohydrates.",
+    "C": "Nucleotides build nucleic acids.",
+    "D": "Fatty acids (with glycerol) build lipids like triglycerides."
+   }
+  },
+  {
+   "num": 6,
+   "type": "Multiple choice",
+   "prompt": "What is the monomer of carbohydrates?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Amino acids"
+    },
+    {
+     "letter": "B",
+     "text": "Nucleotides"
+    },
+    {
+     "letter": "C",
+     "text": "Monosaccharides"
+    },
+    {
+     "letter": "D",
+     "text": "Glycerol and fatty acids"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Carbohydrates are built from monosaccharides (simple sugars such as glucose).",
+   "why": {
+    "A": "Amino acids build proteins.",
+    "B": "Nucleotides build nucleic acids.",
+    "D": "Those build triglycerides (lipids)."
+   }
+  },
+  {
+   "num": 7,
+   "type": "Multiple choice",
+   "prompt": "Which is a major function of carbohydrates?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Storing genetic information"
+    },
+    {
+     "letter": "B",
+     "text": "Speeding up reactions as enzymes"
+    },
+    {
+     "letter": "C",
+     "text": "Quick energy and structural support"
+    },
+    {
+     "letter": "D",
+     "text": "Forming the bilayer of cell membranes"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Carbohydrates supply energy (e.g., glucose), store energy (starch, glycogen) and provide structure (e.g., cellulose, peptidoglycan).",
+   "why": {
+    "A": "That's nucleic acids.",
+    "B": "Most enzymes are proteins.",
+    "D": "Phospholipids form membranes."
+   }
+  },
+  {
+   "num": 8,
+   "type": "Multiple choice",
+   "prompt": "Phospholipids are important to cells because they:",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Store long-term energy as fat"
+    },
+    {
+     "letter": "B",
+     "text": "Form the bilayer of cell membranes"
+    },
+    {
+     "letter": "C",
+     "text": "Carry genetic instructions"
+    },
+    {
+     "letter": "D",
+     "text": "Catalyze chemical reactions"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Phospholipids form membranes; triglycerides store energy long-term and insulate.",
+   "why": {
+    "A": "That's triglycerides.",
+    "C": "That's nucleic acids.",
+    "D": "That's enzymes (proteins)."
+   }
+  },
+  {
+   "num": 9,
+   "type": "Multiple choice",
+   "prompt": "What are the three components of a nucleotide?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "An amino group, a carboxyl group, and an R group"
+    },
+    {
+     "letter": "B",
+     "text": "Glycerol and three fatty acids"
+    },
+    {
+     "letter": "C",
+     "text": "A phosphate, a fatty acid, and a sugar"
+    },
+    {
+     "letter": "D",
+     "text": "A phosphate, a sugar, and a nitrogenous base"
+    }
+   ],
+   "correct": "D",
+   "explanation": "Each nucleotide = phosphate + 5-carbon sugar (deoxyribose or ribose) + nitrogenous base.",
+   "why": {
+    "A": "Those make up an amino acid.",
+    "B": "That's a triglyceride.",
+    "C": "Nucleotides contain a nitrogenous base, not a fatty acid."
+   }
+  },
+  {
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Which list shows the 5 nitrogenous bases found in DNA and RNA?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Adenine, guanine, cytosine, thymine, ribose"
+    },
+    {
+     "letter": "B",
+     "text": "Adenine, guanine, cytosine, uracil, glycine"
+    },
+    {
+     "letter": "C",
+     "text": "Adenine, thymine, cytosine, uracil, phosphate"
+    },
+    {
+     "letter": "D",
+     "text": "Adenine, guanine, cytosine, thymine, uracil"
+    }
+   ],
+   "correct": "D",
+   "explanation": "A, G, C are in both; T is in DNA only; U is in RNA only.",
+   "why": {
+    "A": "Ribose is a sugar, not a base.",
+    "B": "Glycine is an amino acid.",
+    "C": "Phosphate isn't a base; guanine is missing."
+   }
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "What is a peptide bond?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The bond that joins two amino acids"
+    },
+    {
+     "letter": "B",
+     "text": "The bond that joins two nucleotides"
+    },
+    {
+     "letter": "C",
+     "text": "The bond between paired DNA bases"
+    },
+    {
+     "letter": "D",
+     "text": "The bond joining fatty acids to glycerol"
+    }
+   ],
+   "correct": "A",
+   "explanation": "A peptide bond links amino acids into a polypeptide.",
+   "why": {
+    "B": "Nucleotides are joined by sugar\u2013phosphate (covalent) bonds.",
+    "C": "Base pairs are held by hydrogen bonds.",
+    "D": "That bond builds triglycerides."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "Which level of protein structure is the sequence of amino acids?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Primary"
+    },
+    {
+     "letter": "B",
+     "text": "Secondary"
+    },
+    {
+     "letter": "C",
+     "text": "Tertiary"
+    },
+    {
+     "letter": "D",
+     "text": "Quaternary"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Primary = amino acid sequence; secondary = alpha helices/beta sheets; tertiary = 3-D shape; quaternary = 2+ polypeptides combined.",
+   "why": {
+    "B": "Secondary structure is folding into helices and sheets.",
+    "C": "Tertiary is the overall 3-D folding of one chain.",
+    "D": "Quaternary is multiple chains joined together."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "A protein made of two or more polypeptide chains joined together shows which level of structure?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Primary"
+    },
+    {
+     "letter": "B",
+     "text": "Secondary"
+    },
+    {
+     "letter": "C",
+     "text": "Quaternary"
+    },
+    {
+     "letter": "D",
+     "text": "Tertiary"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Quaternary structure involves more than one polypeptide chain.",
+   "why": {
+    "A": "Primary is just the sequence.",
+    "B": "Secondary is helices and pleated sheets.",
+    "D": "Tertiary is the 3-D shape of a single chain."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "What is denaturation?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Loss of a protein's shape, and therefore its function"
+    },
+    {
+     "letter": "B",
+     "text": "Joining amino acids with peptide bonds"
+    },
+    {
+     "letter": "C",
+     "text": "Breaking a protein into individual amino acids"
+    },
+    {
+     "letter": "D",
+     "text": "Copying DNA into mRNA"
+    }
+   ],
+   "correct": "A",
+   "explanation": "High temperature, extreme pH and high salt can denature proteins \u2014 they unfold and stop working.",
+   "why": {
+    "B": "That's protein synthesis.",
+    "C": "Denaturation unfolds the protein; it doesn't break peptide bonds.",
+    "D": "That's transcription."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Which is a function of proteins?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Enzymes, transport, and structure"
+    },
+    {
+     "letter": "B",
+     "text": "Long-term energy storage as fat"
+    },
+    {
+     "letter": "C",
+     "text": "Storing hereditary information"
+    },
+    {
+     "letter": "D",
+     "text": "Forming the phospholipid bilayer"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Proteins act as enzymes, transporters, structural components, antibodies and more.",
+   "why": {
+    "B": "That's triglycerides (lipids).",
+    "C": "That's DNA.",
+    "D": "That's phospholipids."
+   }
+  }
+ ]
+}

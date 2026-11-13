@@ -129,37 +129,6 @@
   },
   {
    "num": 5,
-   "type": "Photo",
-   "prompt": "Which stain was used to show the thin, wavy appendages extending from these cells?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Capsule stain"
-    },
-    {
-     "letter": "B",
-     "text": "Gram stain"
-    },
-    {
-     "letter": "C",
-     "text": "Acid-fast stain"
-    },
-    {
-     "letter": "D",
-     "text": "Flagellar stain"
-    }
-   ],
-   "correct": "D",
-   "explanation": "The flagellar stain highlights flagella.",
-   "why": {
-    "A": "Capsule stains outline the capsule around cells.",
-    "B": "Gram stains show cell wall type, not flagella.",
-    "C": "Acid-fast stains detect mycolic acid walls."
-   },
-   "img": "../lab-img/L08s_p12_16.jpg"
-  },
-  {
-   "num": 6,
    "type": "Multiple choice",
    "prompt": "A simple stain differs from a differential stain because a simple stain:",
    "options": [
@@ -189,7 +158,7 @@
    }
   },
   {
-   "num": 7,
+   "num": 6,
    "type": "Multiple choice",
    "prompt": "Which smear labels and organisms were used in Lab 8?",
    "options": [
@@ -219,7 +188,7 @@
    }
   },
   {
-   "num": 8,
+   "num": 7,
    "type": "Multiple choice",
    "prompt": "Smear preparation from a solid culture: which step comes first?",
    "options": [
@@ -249,7 +218,7 @@
    }
   },
   {
-   "num": 9,
+   "num": 8,
    "type": "Multiple choice",
    "prompt": "Why is no water added when making the PY smear from yeast?",
    "options": [
@@ -279,7 +248,7 @@
    }
   },
   {
-   "num": 10,
+   "num": 9,
    "type": "Multiple choice",
    "prompt": "How big should the smear be?",
    "options": [
@@ -309,7 +278,7 @@
    }
   },
   {
-   "num": 11,
+   "num": 10,
    "type": "Photo",
    "prompt": "This Staphylococcus smear was stained with a single purple dye. What kind of stain is it?",
    "options": [
@@ -340,7 +309,7 @@
    "img": "../lab-img/L08s_p13_5.jpg"
   },
   {
-   "num": 12,
+   "num": 11,
    "type": "Photo",
    "prompt": "Which of these is a basic dye used for positive simple staining?",
    "options": [
@@ -371,7 +340,7 @@
    "img": "../lab-img/L08s_p12_4.jpg"
   },
   {
-   "num": 13,
+   "num": 12,
    "type": "Multiple choice",
    "prompt": "When removing your loop from the stain droplet during the negative wet mount, what do you do before sterilizing it?",
    "options": [
@@ -401,7 +370,7 @@
    }
   },
   {
-   "num": 14,
+   "num": 13,
    "type": "Multiple choice",
    "prompt": "A smear is stained without being heat fixed and then rinsed. What is the most likely result?",
    "options": [
@@ -431,7 +400,7 @@
    }
   },
   {
-   "num": 15,
+   "num": 14,
    "type": "Multi-statement",
    "prompt": "Which statement about dyes is FALSE?",
    "options": [
@@ -463,6 +432,36 @@
     "B": "True \u2014 they are repelled by cells.",
     "C": "True \u2014 they attract basic dyes.",
     "D": "True \u2014 the nuance on the slide."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Put the smear and positive-stain steps in order.",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Smear \u2192 heat fix \u2192 air dry \u2192 stain \u2192 blot \u2192 rinse"
+    },
+    {
+     "letter": "B",
+     "text": "Smear \u2192 air dry \u2192 heat fix \u2192 stain \u2192 rinse \u2192 blot"
+    },
+    {
+     "letter": "C",
+     "text": "Stain \u2192 smear \u2192 heat fix \u2192 air dry \u2192 rinse \u2192 blot"
+    },
+    {
+     "letter": "D",
+     "text": "Smear \u2192 stain \u2192 air dry \u2192 heat fix \u2192 rinse \u2192 blot"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Make the smear, let it air dry, heat fix, stain, rinse, then blot with bibulous paper.",
+   "why": {
+    "A": "Air dry before heat fixing; rinse before blotting.",
+    "C": "The smear must be made and fixed before staining.",
+    "D": "Heat fixing comes before staining."
    }
   }
  ]

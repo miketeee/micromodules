@@ -368,67 +368,6 @@
   },
   {
    "num": 13,
-   "type": "Photo",
-   "prompt": "This micrograph shows a single bacterial cell with a dense internal structure. What is that structure?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "A nucleus"
-    },
-    {
-     "letter": "B",
-     "text": "A capsule"
-    },
-    {
-     "letter": "C",
-     "text": "An endospore"
-    },
-    {
-     "letter": "D",
-     "text": "A food vacuole"
-    }
-   ],
-   "correct": "C",
-   "explanation": "Endospores are produced in response to stress and resist desiccation, UV, extreme heat, freezing, disinfectants and even antibiotics.",
-   "why": {
-    "A": "Bacteria lack a nucleus.",
-    "B": "A capsule is outside the cell wall.",
-    "D": "Endospores are protective survival structures."
-   },
-   "img": "../lab-img/L09s_p25_1.jpg"
-  },
-  {
-   "num": 14,
-   "type": "Multiple choice",
-   "prompt": "Why does slide E (endospore stain) use a single species smear instead of a mixed one?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Mixed smears can't be heat fixed on the hot plate"
-    },
-    {
-     "letter": "B",
-     "text": "Only one organism (Organism 4) is checked for spores"
-    },
-    {
-     "letter": "C",
-     "text": "Malachite green kills any second species present"
-    },
-    {
-     "letter": "D",
-     "text": "The acid-alcohol step requires a single species"
-    }
-   ],
-   "correct": "B",
-   "explanation": "G and A are mixed smears (to compare cell types); E is a single species smear of Organism 4.",
-   "why": {
-    "A": "All three smears are heat fixed.",
-    "C": "The protocol simply uses one organism.",
-    "D": "Acid-alcohol is for slide A."
-   }
-  },
-  {
-   "num": 15,
    "type": "Multi-statement",
    "prompt": "Which statement about endospores is FALSE?",
    "options": [
@@ -461,6 +400,67 @@
     "C": "True \u2014 a 'fun fact' slide.",
     "D": "True."
    }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "What is the clinical application of the capsule stain?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Detecting encapsulated pathogens"
+    },
+    {
+     "letter": "B",
+     "text": "Detecting acid-fast Mycobacterium"
+    },
+    {
+     "letter": "C",
+     "text": "Detecting endospore formers"
+    },
+    {
+     "letter": "D",
+     "text": "Choosing Gram+ vs Gram\u2212 antibiotics"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Capsules are virulence factors that help pathogens resist phagocytosis; the capsule stain reveals them (e.g., Streptococcus pneumoniae, Klebsiella, Cryptococcus).",
+   "why": {
+    "B": "That's the acid-fast stain.",
+    "C": "That's the endospore stain.",
+    "D": "That's the Gram stain."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Photo",
+   "prompt": "This stain outlines a clear halo around each cell. Which stain is it, and why does it matter?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Endospore stain \u2014 spores survive disinfectants"
+    },
+    {
+     "letter": "B",
+     "text": "Acid-fast stain \u2014 mycolic acid repels stains"
+    },
+    {
+     "letter": "C",
+     "text": "Gram stain \u2014 shows cell wall type"
+    },
+    {
+     "letter": "D",
+     "text": "Capsule stain \u2014 capsules make pathogens more virulent"
+    }
+   ],
+   "correct": "D",
+   "explanation": "A capsule is a protective layer outside the wall; encapsulated pathogens resist phagocytosis.",
+   "why": {
+    "A": "Endospores stain green inside the cell.",
+    "B": "Acid-fast stains show pink and blue cells.",
+    "C": "This shows a halo, not purple/pink."
+   },
+   "img": "../lab-img/L08s_p12_14.jpg"
   }
  ]
 }

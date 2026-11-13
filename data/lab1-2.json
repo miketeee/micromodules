@@ -277,37 +277,6 @@
   {
    "num": 10,
    "type": "Photo",
-   "prompt": "Which group of organisms below is unicellular, prokaryotic, often extremophilic, and not known to cause disease in humans?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Bacteria"
-    },
-    {
-     "letter": "B",
-     "text": "Fungi"
-    },
-    {
-     "letter": "C",
-     "text": "Archaea"
-    },
-    {
-     "letter": "D",
-     "text": "Protozoa"
-    }
-   ],
-   "correct": "C",
-   "explanation": "Archaea: unicellular prokaryotes, pseudo-peptidoglycan walls if any, often extremophiles, archaella for motility, not known to cause human disease.",
-   "why": {
-    "A": "Many bacteria cause disease, and most have peptidoglycan walls.",
-    "B": "Fungi are eukaryotes.",
-    "D": "Protozoa are eukaryotes and some are parasitic."
-   },
-   "img": "../lab-img/L01s_p26_3.jpg"
-  },
-  {
-   "num": 11,
-   "type": "Photo",
    "prompt": "This organism is a mold (a fungus). Most fungal cell walls are composed of:",
    "options": [
     {
@@ -337,100 +306,7 @@
    "img": "../lab-img/L01s_p27_4.jpg"
   },
   {
-   "num": 12,
-   "type": "Photo",
-   "prompt": "This organism is Spirogyra. Which group is it in?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Protozoa"
-    },
-    {
-     "letter": "B",
-     "text": "Fungi"
-    },
-    {
-     "letter": "C",
-     "text": "Algae (Kingdom Protista)"
-    },
-    {
-     "letter": "D",
-     "text": "Helminths"
-    }
-   ],
-   "correct": "C",
-   "explanation": "Algae: unicellular or multicellular, mostly cellulose walls, photosynthetic, not known to cause human disease (though some make toxins that concentrate in shellfish).",
-   "why": {
-    "A": "Protozoa lack cell walls; Spirogyra is a photosynthetic alga.",
-    "B": "Fungi absorb nutrients; Spirogyra photosynthesizes.",
-    "D": "Helminths are multicellular worms in Kingdom Animalia."
-   },
-   "img": "../lab-img/L01s_p31_2.jpg"
-  },
-  {
-   "num": 13,
-   "type": "Photo",
-   "prompt": "Which protozoan from the slides is able to photosynthesize?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Giardia"
-    },
-    {
-     "letter": "B",
-     "text": "Amoeba"
-    },
-    {
-     "letter": "C",
-     "text": "Plasmodium"
-    },
-    {
-     "letter": "D",
-     "text": "Euglena"
-    }
-   ],
-   "correct": "D",
-   "explanation": "Protozoa absorb or ingest organic molecules; some, like Euglena, can photosynthesize.",
-   "why": {
-    "A": "Giardia is a parasitic protozoan, not photosynthetic.",
-    "B": "Amoeba ingests food using pseudopods.",
-    "C": "Plasmodium is an obligate intracellular parasite."
-   },
-   "img": "../lab-img/L01s_p30_3.jpg"
-  },
-  {
-   "num": 14,
-   "type": "Photo",
-   "prompt": "Protozoa, like the one shown, differ from algae and fungi because protozoa:",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Have chitin cell walls"
-    },
-    {
-     "letter": "B",
-     "text": "Lack cell walls"
-    },
-    {
-     "letter": "C",
-     "text": "Have cellulose cell walls"
-    },
-    {
-     "letter": "D",
-     "text": "Are always multicellular"
-    }
-   ],
-   "correct": "B",
-   "explanation": "Protozoa: unicellular eukaryotes, lack cell walls, move by flagella, cilia or pseudopods; free-living or parasitic.",
-   "why": {
-    "A": "Chitin walls are found in fungi.",
-    "C": "Cellulose walls are found in most algae.",
-    "D": "Protozoa are unicellular eukaryotes."
-   },
-   "img": "../lab-img/L01s_p30_1.jpg"
-  },
-  {
-   "num": 15,
+   "num": 11,
    "type": "Multi-statement",
    "prompt": "Which statement about bacteria is FALSE?",
    "options": [
@@ -464,6 +340,126 @@
     "E": "True \u2014 some derive energy from photosynthesis."
    },
    "img": "../lab-img/L01s_p24_4.jpg"
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "According to the CDC guideline in the handwashing video, how long should you lather your hands with soap?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "At least 20 seconds"
+    },
+    {
+     "letter": "B",
+     "text": "At least 5 seconds"
+    },
+    {
+     "letter": "C",
+     "text": "At least 2 minutes"
+    },
+    {
+     "letter": "D",
+     "text": "Until the soap stops foaming"
+    }
+   ],
+   "correct": "A",
+   "explanation": "CDC routine handwashing: lather with soap and water for at least 20 seconds, rinse thoroughly, then towel dry.",
+   "why": {
+    "B": "5 seconds is far too short; the CDC guideline is at least 20 seconds.",
+    "C": "2 minutes is longer than the routine CDC recommendation of 20 seconds.",
+    "D": "The guideline is a minimum time \u2014 at least 20 seconds."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "When removing contaminated gloves safely, what is the correct approach?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pull them off by the fingertips and shake off any residue"
+    },
+    {
+     "letter": "B",
+     "text": "Peel them off inside-out without touching the outside with bare skin"
+    },
+    {
+     "letter": "C",
+     "text": "Rinse the gloves at the sink, then reuse them later"
+    },
+    {
+     "letter": "D",
+     "text": "Remove them with your teeth so your hands stay clean"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Remove gloves safely (inside-out, outside surfaces never touch bare skin), discard them in the appropriate location, and immediately wash your hands.",
+   "why": {
+    "A": "Snapping or shaking spreads contamination; peel gloves off inside-out.",
+    "C": "Used gloves are discarded, not reused.",
+    "D": "Never bring contaminated gloves near your face."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "How does the cough etiquette taught in the Cough Safe video reduce the spread of respiratory microbes?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Coughing into your hands so you can wash them afterward"
+    },
+    {
+     "letter": "B",
+     "text": "Coughing toward the floor so droplets settle faster"
+    },
+    {
+     "letter": "C",
+     "text": "Coughing into the elbow traps droplets away from hands and the air"
+    },
+    {
+     "letter": "D",
+     "text": "Holding your breath until the cough passes completely"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Covering a cough or sneeze with the inside of the elbow keeps droplets from spraying into the air and off the hands that touch shared surfaces.",
+   "why": {
+    "A": "Hands then spread droplets to surfaces and people; the elbow is used instead.",
+    "B": "Droplets still spread; covering the cough with the elbow traps them.",
+    "D": "Cough etiquette covers the cough rather than suppressing it."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "On a microbial ubiquity plate, how can you tell a mold apart from a bacterial colony?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Mold is smooth and glossy; bacterial colonies are fuzzy"
+    },
+    {
+     "letter": "B",
+     "text": "Mold is fuzzy or cottony; bacterial colonies are smooth and shiny"
+    },
+    {
+     "letter": "C",
+     "text": "Mold always grows pink; bacterial colonies are always white"
+    },
+    {
+     "letter": "D",
+     "text": "Mold is too small to see without a microscope"
+    }
+   ],
+   "correct": "B",
+   "explanation": "Molds are multicellular fungi with filaments (hyphae), so their growth looks fuzzy/cottony; bacterial colonies are usually smooth, moist and shiny.",
+   "why": {
+    "A": "Reversed: molds have fuzzy filamentous growth.",
+    "C": "Color varies; texture is the clue.",
+    "D": "Mold colonies are easily visible on the plate."
+   }
   }
  ]
 }

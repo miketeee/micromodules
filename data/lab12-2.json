@@ -337,97 +337,6 @@
   },
   {
    "num": 12,
-   "type": "Multiple choice",
-   "prompt": "Which of these is an example use of nucleic acid identification tests?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Quick Strep dipstick"
-    },
-    {
-     "letter": "B",
-     "text": "Catalase test with hydrogen peroxide"
-    },
-    {
-     "letter": "C",
-     "text": "Original COVID-19 nasopharyngeal PCR tests"
-    },
-    {
-     "letter": "D",
-     "text": "Kirby-Bauer sensitivity testing"
-    }
-   ],
-   "correct": "C",
-   "explanation": "Examples: various STI pathogens, food poisoning pathogens, Giardia in stool, bioterrorism agents, original COVID-19 PCR tests.",
-   "why": {
-    "A": "That's antibody-based antigen detection.",
-    "B": "That's a rapid biochemical test.",
-    "D": "That's antimicrobial sensitivity testing."
-   }
-  },
-  {
-   "num": 13,
-   "type": "Photo",
-   "prompt": "This dipstick diagram labels three zones. Where are the mobile, colored bead-labeled antibodies?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "The control area at the top (C)"
-    },
-    {
-     "letter": "B",
-     "text": "The test area in the middle"
-    },
-    {
-     "letter": "C",
-     "text": "The labeling area, near where the sample enters"
-    },
-    {
-     "letter": "D",
-     "text": "The absorbent pad at the very top"
-    }
-   ],
-   "correct": "C",
-   "explanation": "Labeling area: mobile colored antibodies. Test area: immobilized antibodies to S. pyogenes antigens. Control area: immobilized antibodies that bind excess labeled antibodies.",
-   "why": {
-    "A": "The control area holds immobilized antibodies for excess labels.",
-    "B": "The test area holds immobilized antibodies for the antigen.",
-    "D": "The pad only soaks up leftover sample."
-   },
-   "img": "../lab-img/L12s_p19_1.jpg"
-  },
-  {
-   "num": 14,
-   "type": "Multiple choice",
-   "prompt": "What is a limitation of nucleic acid identification tests?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "They require growing the organism in culture first"
-    },
-    {
-     "letter": "B",
-     "text": "They can't detect organisms that are hard to culture"
-    },
-    {
-     "letter": "C",
-     "text": "They are less specific than antibody tests"
-    },
-    {
-     "letter": "D",
-     "text": "They tend to be expensive and need special equipment and training"
-    }
-   ],
-   "correct": "D",
-   "explanation": "Limitations: expensive, special equipment, and possibly special training.",
-   "why": {
-    "A": "They work without culture.",
-    "B": "They're used for hard-to-culture STI pathogens.",
-    "C": "They are described as sensitive and specific."
-   }
-  },
-  {
-   "num": 15,
    "type": "Multi-statement",
    "prompt": "Which statement about the Quick Strep procedure is FALSE?",
    "options": [
@@ -459,6 +368,96 @@
     "B": "True.",
     "C": "True.",
     "E": "True."
+   }
+  },
+  {
+   "num": 13,
+   "type": "Multiple choice",
+   "prompt": "Case study: a patient has fever, cough, chest pain and shortness of breath. A sputum Gram stain shows Gram-positive cocci; the isolate is catalase negative, not salt tolerant, and alpha-hemolytic. What is the most likely cause?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Streptococcus pneumoniae"
+    },
+    {
+     "letter": "B",
+     "text": "Streptococcus pyogenes"
+    },
+    {
+     "letter": "C",
+     "text": "Staphylococcus aureus"
+    },
+    {
+     "letter": "D",
+     "text": "Klebsiella pneumoniae"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Pneumonia symptoms + Gram+ cocci, catalase \u2212, alpha-hemolysis = S. pneumoniae.",
+   "why": {
+    "B": "S. pyogenes is beta-hemolytic.",
+    "C": "Staphylococci are catalase + and salt tolerant.",
+    "D": "Klebsiella is a Gram-negative rod."
+   }
+  },
+  {
+   "num": 14,
+   "type": "Multiple choice",
+   "prompt": "Case study: a patient with a UTI has a clean-catch urine culture of Gram-negative rods that are pink on MacConkey and blue on citrate. What is the most likely cause?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Escherichia coli"
+    },
+    {
+     "letter": "B",
+     "text": "Proteus vulgaris"
+    },
+    {
+     "letter": "C",
+     "text": "Klebsiella pneumoniae"
+    },
+    {
+     "letter": "D",
+     "text": "Serratia marcescens"
+    }
+   ],
+   "correct": "C",
+   "explanation": "Gram \u2212 rod, lactose + (pink), citrate + (blue) = Klebsiella pneumoniae.",
+   "why": {
+    "A": "E. coli is citrate negative.",
+    "B": "Proteus is lactose negative.",
+    "D": "Serratia is lactose negative."
+   }
+  },
+  {
+   "num": 15,
+   "type": "Multiple choice",
+   "prompt": "Case study: a sore throat with white patches; the Quick Strep shows lines at C and T. What does the patient have?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Thrush (Candida albicans)"
+    },
+    {
+     "letter": "B",
+     "text": "Pneumonia (S. pneumoniae)"
+    },
+    {
+     "letter": "C",
+     "text": "A negative test"
+    },
+    {
+     "letter": "D",
+     "text": "Strep throat (Streptococcus pyogenes)"
+    }
+   ],
+   "correct": "D",
+   "explanation": "C + T = positive Quick Strep for Group A Strep.",
+   "why": {
+    "A": "Quick Strep detects S. pyogenes antigens.",
+    "B": "Quick Strep is specific to S. pyogenes.",
+    "C": "Both lines = positive."
    }
   }
  ]

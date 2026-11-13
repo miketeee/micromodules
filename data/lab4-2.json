@@ -215,253 +215,242 @@
   },
   {
    "num": 8,
-   "type": "Photo",
-   "prompt": "These red colonies are Serratia marcescens. At what temperature range is its red pigment, prodigiosin, produced?",
+   "type": "Multiple choice",
+   "prompt": "What is the goal of medical asepsis?",
    "options": [
     {
      "letter": "A",
-     "text": "35\u00b0C to 40\u00b0C"
+     "text": "To eliminate all microbes from an area (sterile technique)"
     },
     {
      "letter": "B",
-     "text": "20\u00b0C to 30\u00b0C"
+     "text": "To destroy endospores on living tissue"
     },
     {
      "letter": "C",
-     "text": "Above 45\u00b0C"
+     "text": "To reduce the number and spread of microbes (clean technique)"
     },
     {
      "letter": "D",
-     "text": "Below 4\u00b0C"
+     "text": "To grow microbes for identification"
     }
    ],
-   "correct": "B",
-   "explanation": "S. marcescens (soil microbe, opportunistic pathogen) makes the red pigment prodigiosin only at lower temperatures (20\u201330\u00b0C).",
+   "correct": "C",
+   "explanation": "Medical asepsis (clean technique: handwashing, gloves, cleaning) reduces microbes and their spread.",
    "why": {
-    "A": "Prodigiosin is temperature sensitive and made only at lower temperatures.",
-    "C": "High temperatures stop pigment production.",
-    "D": "Refrigeration slows growth; pigment is made at 20\u201330\u00b0C."
-   },
-   "img": "../lab-img/L04s_p16_1.jpg"
+    "A": "That's surgical asepsis.",
+    "B": "Nothing safe for tissue destroys endospores.",
+    "D": "That's culturing."
+   }
   },
   {
    "num": 9,
-   "type": "Photo",
-   "prompt": "On this growth-rate graph, which group has the LOWEST optimum temperature?",
+   "type": "Multiple choice",
+   "prompt": "What is the goal of surgical asepsis?",
    "options": [
     {
      "letter": "A",
-     "text": "Psychrophiles"
+     "text": "To reduce microbes to safe levels (clean technique)"
     },
     {
      "letter": "B",
-     "text": "Mesophiles"
+     "text": "To eliminate all microbes from an area (sterile technique)"
     },
     {
      "letter": "C",
-     "text": "Thermophiles"
+     "text": "To degerm skin with plain soap"
     },
     {
      "letter": "D",
-     "text": "Hyperthermophiles"
-    }
-   ],
-   "correct": "A",
-   "explanation": "From coldest to hottest optimum: psychrophiles, mesophiles, thermophiles, hyperthermophiles.",
-   "why": {
-    "B": "Mesophiles grow best at moderate temperatures.",
-    "C": "Thermophiles grow best at high temperatures.",
-    "D": "Hyperthermophiles have the highest optimum."
-   },
-   "img": "../lab-img/L04s_p15_1.jpg"
-  },
-  {
-   "num": 10,
-   "type": "Photo",
-   "prompt": "Why are the growth curves on this graph skewed toward the optimum temperature?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Cells divide faster when temperatures are too cold"
-    },
-    {
-     "letter": "B",
-     "text": "Membranes freeze above the optimum temperature"
-    },
-    {
-     "letter": "C",
-     "text": "Proteins denature rapidly once temperature rises past the optimum"
-    },
-    {
-     "letter": "D",
-     "text": "Endospores form at the optimum temperature"
-    }
-   ],
-   "correct": "C",
-   "explanation": "The skewing is thought to reflect rapid protein denaturation as temperature rises past the optimum.",
-   "why": {
-    "A": "Growth slows in the cold.",
-    "B": "Above optimum the issue is protein denaturation.",
-    "D": "Endospores form under stressful conditions."
-   },
-   "img": "../lab-img/L04s_p15_1.jpg"
-  },
-  {
-   "num": 11,
-   "type": "Photo",
-   "prompt": "On this bacterial growth curve, which phase shows NO increase in the number of living cells as the cells adjust?",
-   "options": [
-    {
-     "letter": "A",
-     "text": "Log phase"
-    },
-    {
-     "letter": "B",
-     "text": "Lag phase"
-    },
-    {
-     "letter": "C",
-     "text": "Stationary phase"
-    },
-    {
-     "letter": "D",
-     "text": "Death phase"
+     "text": "To disinfect lab tables at the end of lab"
     }
    ],
    "correct": "B",
-   "explanation": "Lag: no increase. Log: exponential increase. Stationary: plateau (division \u2248 death). Death/decline: exponential decrease.",
+   "explanation": "Surgical asepsis (sterile technique: sterile instruments, fields, gowns) is used for surgery and invasive procedures.",
    "why": {
-    "A": "Log phase is exponential increase.",
-    "C": "In stationary phase, division and death are roughly equal (a plateau).",
-    "D": "Death phase is an exponential decrease."
-   },
-   "img": "../lab-img/L04s_p20_1.jpg"
+    "A": "That's medical asepsis.",
+    "C": "Soap is degerming; surgical asepsis keeps the field sterile.",
+    "D": "That's disinfection."
+   }
   },
   {
-   "num": 12,
-   "type": "Photo",
-   "prompt": "In the stationary phase of the growth curve:",
+   "num": 10,
+   "type": "Multiple choice",
+   "prompt": "Which type of soap is recommended for routine handwashing, and why?",
    "options": [
     {
      "letter": "A",
-     "text": "Cells divide exponentially and numbers double each generation"
+     "text": "Liquid soap \u2014 bar soap can harbor microbes"
     },
     {
      "letter": "B",
-     "text": "Cell numbers decrease exponentially as cells die off"
+     "text": "Bar soap \u2014 it removes more microbes"
     },
     {
      "letter": "C",
-     "text": "The rate of cell division and the rate of death are roughly equal"
+     "text": "Antibacterial bar soap \u2014 it sterilizes the skin"
     },
     {
      "letter": "D",
-     "text": "Cells are adjusting to the medium and not dividing yet"
+     "text": "Either \u2014 they are always identical"
+    }
+   ],
+   "correct": "A",
+   "explanation": "Liquid soap is recommended for routine handwashing; a wet, shared bar of soap can harbor microbes.",
+   "why": {
+    "B": "Shared bar soap can become contaminated.",
+    "C": "No soap sterilizes skin; liquid soap is recommended.",
+    "D": "Liquid soap is recommended."
+   }
+  },
+  {
+   "num": 11,
+   "type": "Multiple choice",
+   "prompt": "The pepper plate shows the same heavy growth as the control plate. What does that mean?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "Pepper vapors killed the organism"
+    },
+    {
+     "letter": "B",
+     "text": "The control plate was contaminated"
+    },
+    {
+     "letter": "C",
+     "text": "Pepper vapors did not control growth of that organism"
+    },
+    {
+     "letter": "D",
+     "text": "The pepper touched the agar surface"
     }
    ],
    "correct": "C",
-   "explanation": "Stationary phase is a plateau in the number of living cells.",
+   "explanation": "Compare each treatment to the untreated control: less growth = antimicrobial effect; equal growth = no effect.",
    "why": {
-    "A": "That's log phase.",
-    "B": "That's the death/decline phase.",
-    "D": "That's lag phase."
-   },
-   "img": "../lab-img/L04s_p20_1.jpg"
+    "A": "Growth equal to the control means no effect.",
+    "B": "The control shows normal growth for comparison.",
+    "D": "Equal growth simply means no antimicrobial effect."
+   }
+  },
+  {
+   "num": 12,
+   "type": "Multiple choice",
+   "prompt": "A UV plate shows growth only on the half that was covered by the notecard. What does that show?",
+   "options": [
+    {
+     "letter": "A",
+     "text": "The notecard killed the organisms under it"
+    },
+    {
+     "letter": "B",
+     "text": "UV has no effect on bacteria"
+    },
+    {
+     "letter": "C",
+     "text": "The plate was inoculated on only one half"
+    },
+    {
+     "letter": "D",
+     "text": "UV radiation killed the exposed organisms"
+    }
+   ],
+   "correct": "D",
+   "explanation": "The covered half is the internal comparison: no growth on the exposed half means UV was effective at that exposure time.",
+   "why": {
+    "A": "The covered half grew normally.",
+    "B": "The exposed half has no growth.",
+    "C": "The whole surface was swabbed."
+   }
   },
   {
    "num": 13,
    "type": "Multiple choice",
-   "prompt": "Bacterial population growth is based on which form of reproduction?",
+   "prompt": "In the disinfectant experiment, which disc indicates the MOST effective chemical?",
    "options": [
     {
      "letter": "A",
-     "text": "Budding"
+     "text": "The disc with growth right up to its edge"
     },
     {
      "letter": "B",
-     "text": "Binary fission"
+     "text": "The disc with the largest clear zone around it"
     },
     {
      "letter": "C",
-     "text": "Spore formation"
+     "text": "The disc that changed color"
     },
     {
      "letter": "D",
-     "text": "Meiosis"
+     "text": "The smallest disc on the plate"
     }
    ],
    "correct": "B",
-   "explanation": "Binary fission: DNA is replicated as the cell elongates, a septum forms, and two similar daughter cells separate.",
+   "explanation": "A larger clear zone (no growth) around a disc means the chemical inhibited the organism more effectively.",
    "why": {
-    "A": "Budding is another, less common type of bacterial reproduction.",
-    "C": "Fungi reproduce by spores; bacterial endospores are for survival.",
-    "D": "Bacteria reproduce asexually."
+    "A": "Growth to the edge means the chemical was ineffective.",
+    "C": "Effectiveness is read from the clear zone.",
+    "D": "All discs are the same size."
    }
   },
   {
    "num": 14,
-   "type": "Photo",
-   "prompt": "An organism that does NOT use oxygen and CANNOT detoxify it is a(n):",
+   "type": "Multiple choice",
+   "prompt": "Compared with the untreated thumb print, the thumb wiped with an alcohol prep pad shows far fewer colonies. What does this show?",
    "options": [
     {
      "letter": "A",
-     "text": "Aerotolerant anaerobe"
+     "text": "The alcohol wipe sterilized the skin"
     },
     {
      "letter": "B",
-     "text": "Microaerophile"
+     "text": "The untreated thumb was contaminated"
     },
     {
      "letter": "C",
-     "text": "Facultative anaerobe"
+     "text": "The alcohol wipe effectively degermed the skin"
     },
     {
      "letter": "D",
-     "text": "Obligate anaerobe"
+     "text": "Alcohol wipes are disinfectants for skin"
     }
    ],
-   "correct": "D",
-   "explanation": "Obligate anaerobes neither use nor detoxify oxygen, so they grow only at the bottom of thioglycolate broth.",
+   "correct": "C",
+   "explanation": "Alcohol wipes combine mechanical removal (wiping) with an antiseptic (alcohol).",
    "why": {
-    "A": "Aerotolerant anaerobes don't use O2 but can detoxify it.",
-    "B": "Microaerophiles use O2 and detoxify it.",
-    "C": "Facultative anaerobes can detoxify O2."
-   },
-   "img": "../lab-img/L02s_p11_1.jpg"
+    "A": "Some colonies remain; degerming isn't sterilization.",
+    "B": "The untreated thumb is the comparison.",
+    "D": "Alcohol on skin is an antiseptic."
+   }
   },
   {
    "num": 15,
-   "type": "Multi-statement",
-   "prompt": "Which statement about the oxygen groups is FALSE?",
+   "type": "Multiple choice",
+   "prompt": "Hand sanitizer is applied without water or wiping. Which control category does it fall into?",
    "options": [
     {
      "letter": "A",
-     "text": "Aerotolerant anaerobes use oxygen for growth"
+     "text": "Antiseptic"
     },
     {
      "letter": "B",
-     "text": "Obligate aerobes use oxygen and detoxify it"
+     "text": "Sterilant"
     },
     {
      "letter": "C",
-     "text": "Microaerophiles use oxygen and detoxify it"
+     "text": "Disinfectant"
     },
     {
      "letter": "D",
-     "text": "Obligate anaerobes neither use nor detoxify oxygen"
-    },
-    {
-     "letter": "E",
-     "text": "Facultative anaerobes can detoxify oxygen"
+     "text": "Degermer"
     }
    ],
    "correct": "A",
-   "explanation": "Aerotolerant anaerobes do NOT use oxygen, but they can detoxify it (group 3).",
+   "explanation": "Alcohol-based hand sanitizer is a chemical agent used on living tissue \u2014 an antiseptic.",
    "why": {
-    "B": "True \u2014 group 1.",
-    "C": "True \u2014 group 1.",
-    "D": "True \u2014 group 2.",
-    "E": "True \u2014 listed in groups 1 and 3."
+    "B": "Sanitizer doesn't destroy endospores.",
+    "C": "Disinfectants are for inanimate surfaces.",
+    "D": "Degerming is mechanical removal (e.g., soap, wiping)."
    }
   }
  ]

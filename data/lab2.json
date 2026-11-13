@@ -435,31 +435,31 @@
   {
    "num": 15,
    "type": "Multiple choice",
-   "prompt": "You need 400 mL of nutrient broth. The label says: suspend 45 g in 1 L. How many grams do you need?",
+   "prompt": "How is an appropriate pH maintained in culture media?",
    "options": [
     {
      "letter": "A",
-     "text": "180 g"
+     "text": "The medium is boiled before use"
     },
     {
      "letter": "B",
-     "text": "11.1 g"
+     "text": "Agar is added to the medium"
     },
     {
      "letter": "C",
-     "text": "1.8 g"
+     "text": "Buffers are added to the medium"
     },
     {
      "letter": "D",
-     "text": "18 g"
+     "text": "The medium is stored in the refrigerator"
     }
    ],
-   "correct": "D",
-   "explanation": "Convert 400 mL \u2192 0.4 L. Then 45 g \u00d7 0.4 L / 1 L = 18 g.",
+   "correct": "C",
+   "explanation": "Media must provide nutrients, energy, water, appropriate oxygen and appropriate pH (buffers).",
    "why": {
-    "A": "400 mL is 0.4 L, not 4 L.",
-    "B": "That divides 45 by 4 instead of multiplying by 0.4.",
-    "C": "0.4 L \u00d7 45 g/L = 18 g, not 1.8 g."
+    "A": "Boiling dissolves agar; it doesn't control pH.",
+    "B": "Agar solidifies media; it doesn't control pH.",
+    "D": "Refrigeration preserves media; it doesn't set the pH."
    }
   }
  ]
