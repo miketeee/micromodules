@@ -43,3 +43,8 @@ From this folder: `python3 -m http.server 8000`, then open `http://localhost:800
 - `data/lab1.json` … `data/lab12-2.json` — two quizzes per lab, plus `data/lab1-3.json` (biochemistry review) and `data/lab5-3.json` (microscope parts). Rebuilt 11 Nov 2026 to match the instructor's reduced Comprehensive Lab Practical study guide; photos are shown whole (tap to open full size) (391 questions, 158 with photos). Photo questions add an `img` field; `assets/quiz.js` shows the photo above the choices.
 - `lab-img/` — 138 photos cropped from the lab slides and manuals.
 - `lab-drill/index.html` — Micro Lab Practice Bank (all lab questions; Written and Photo ID banks). It syncs to its **own** Google Sheet: deploy `lab-drill/Code.gs` in a new Sheet and paste that /exec URL into the lab bank's sync panel (see `lab-drill/SHEET_SETUP.md`).
+
+## Recall mode (active recall)
+
+- Quiz pages: tick **Recall mode** under the score bar. The choices stay hidden; type (or just think) your answer, tap **Reveal answer**, then mark **Got it** or **Missed it**. The setting is remembered per browser.
+- Practice Banks (lecture and lab): set **Answer style → Recall first** before starting. Enter reveals, G = got it, M = missed it. A reveal is checkpointed, so a reload resumes on the grading step. Self-grades count like normal answers (stats, missed list, Google Sheet sync); a "missed it" is sent with no letter picked.

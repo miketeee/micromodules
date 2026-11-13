@@ -27,6 +27,8 @@
     };
 
     const gradable = data.questions.filter((q) => q.type !== 'Open recall').length;
+    let recall = false;
+    try { recall = localStorage.getItem('micro-recall') === '1'; } catch (e) {}
 
     const head = document.createElement('div');
     head.className = 'quiz-head';
@@ -43,7 +45,8 @@
       '<div class="score-row"><span>answered <span id="ans-count">0</span>/' + data.questions.length + '</span>' +
       '<span class="num-correct"><span id="correct-count">0</span>/' + gradable + ' correct</span></div>' +
       '<div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>' +
-      '<button class="restart-btn" id="restart-btn">restart quiz</button>';
+      '<button class="restart-btn" id="restart-btn">restart quiz</button>' +
+      '<label class="recall-toggle"><input type="checkbox" id="recall-toggle"' + (recall ? ' checked' : '') + '> Recall mode <span>hide the choices until you answer from memory</span></label>';
     root.appendChild(scoreBar);
 
     const list = document.createElement('div');
@@ -56,6 +59,11 @@
     finishBanner.className = 'finish-banner';
     finishBanner.id = 'finish-banner';
     root.appendChild(finishBanner);
+
+    document.getElementById('recall-toggle').addEventListener('change', (e) => {
+      try { localStorage.setItem('micro-recall', e.target.checked ? '1' : '0'); } catch (err) {}
+      window.location.reload();
+    });
 
     document.getElementById('restart-btn').addEventListener('click', () => {
       window.location.reload();
@@ -108,12 +116,43 @@
           opts.appendChild(btn);
         });
         card.appendChild(opts);
+        if (recall) {
+          opts.hidden = true;
+          const box = document.createElement('div');
+          box.className = 'recall-box';
+          box.innerHTML = '<label class="recall-label">Answer from memory first</label>' +
+            '<textarea rows="2" placeholder="Type or just think your answer (optional)"></textarea>' +
+            '<button class="reveal-btn">Reveal answer</button>';
+          box.querySelector('button').addEventListener('click', () => {
+            const typed = box.querySelector('textarea').value.trim();
+            box.innerHTML = typed ? '<p class="recall-typed"><strong>Your answer:</strong> ' + esc(typed) + '</p>' : '';
+            opts.hidden = false;
+            showSolution(q, opts, card, null);
+            const grade = document.createElement('div');
+            grade.className = 'recall-grade';
+            grade.innerHTML = '<span>Did you get it?</span><button class="got">Got it</button><button class="miss">Missed it</button>';
+            grade.addEventListener('click', (ev) => {
+              const b = ev.target.closest('button'); if (!b) return;
+              const ok = b.classList.contains('got');
+              grade.innerHTML = '<span class="' + (ok ? 'got-done' : 'miss-done') + '">' + (ok ? 'Marked: got it' : 'Marked: missed it') + '</span>';
+              markAnswered(i, ok);
+            });
+            card.appendChild(grade);
+          });
+          card.insertBefore(box, opts);
+        }
       }
 
       list.appendChild(card);
     }
 
     function handleAnswer(i, chosenLetter, q, optsEl, card) {
+      const isCorrect = showSolution(q, optsEl, card, chosenLetter);
+      markAnswered(i, isCorrect);
+    }
+
+    // chosenLetter null = recall mode reveal (no pick): show the answer, and every wrong choice's reason
+    function showSolution(q, optsEl, card, chosenLetter) {
       const buttons = Array.from(optsEl.querySelectorAll('.option'));
       buttons.forEach((b) => (b.disabled = true));
       const isCorrect = chosenLetter === q.correct;
@@ -124,11 +163,11 @@
       });
       const exp = document.createElement('div');
       exp.className = 'explanation';
-      exp.textContent = (isCorrect ? 'Correct. ' : 'Not quite. ') + q.explanation;
+      exp.textContent = (chosenLetter === null ? 'Answer: ' + q.correct + '. ' : isCorrect ? 'Correct. ' : 'Not quite. ') + q.explanation;
       card.appendChild(exp);
       if (q.why) {
         const textOf = (L) => (q.options.find((o) => o.letter === L) || {}).text || '';
-        if (!isCorrect && q.why[chosenLetter]) {
+        if (chosenLetter !== null && !isCorrect && q.why[chosenLetter]) {
           const w = document.createElement('div');
           w.className = 'whynot';
           w.innerHTML = '<strong>Why not ' + esc(chosenLetter) + ') ' + esc(textOf(chosenLetter)) + ':</strong> ' + esc(q.why[chosenLetter]);
@@ -143,7 +182,7 @@
           card.appendChild(d);
         }
       }
-      markAnswered(i, isCorrect);
+      return isCorrect;
     }
 
     function markAnswered(i, isCorrect) {

@@ -74,6 +74,9 @@ button:focus-visible,.opt:focus-visible{outline:3px solid var(--accent);outline-
 .qmeta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
 .chip{font:600 .72rem/1 var(--body);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
 .qtext{font-size:1.12rem;font-weight:600;line-height:1.45;margin:0 0 16px}
+.recallbox{display:flex;flex-direction:column;gap:8px;margin:0 0 14px}.recallbox textarea{font:inherit;padding:10px;border:1px solid var(--line);border-radius:8px;width:100%;box-sizing:border-box;resize:vertical;background:var(--panel,#fff);color:inherit}.recallbox .btn{align-self:flex-start}
+.typed{margin:0 0 12px;padding:8px 10px;border-left:3px solid var(--line)}
+.gradeRow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:14px 0 0}.gradeRow .got{background:#2f7d4f;border-color:#2f7d4f;color:#fff}.gradeRow .miss{background:#b3402e;border-color:#b3402e;color:#fff}
 .opts{display:grid;gap:8px}
 .opt{display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:start;text-align:left;width:100%;border:1.5px solid var(--line);background:var(--surface);border-radius:8px;padding:11px 12px}
 .opt .k{font:500 .85rem/1.7 var(--mono);color:var(--muted);border:1px solid var(--line);border-radius:5px;text-align:center}
@@ -188,6 +191,7 @@ summary{cursor:pointer;font-weight:600}
       <div><div class="label" style="margin-bottom:8px">Which questions</div><div class="seg" id="modeSeg"></div></div>
       <div><div class="label" style="margin-bottom:8px">How many</div><div class="seg" id="countSeg"></div></div>
       <div><div class="label" style="margin-bottom:8px">Order</div><div class="seg" id="orderSeg"></div></div>
+      <div><div class="label" style="margin-bottom:8px">Answer style</div><div class="seg" id="styleSeg"></div><p class="note" style="margin:6px 0 0">Recall first hides the choices: answer from memory, reveal, then mark yourself.</p></div>
       <div class="row" style="justify-content:space-between">
         <span id="poolText" class="mono note"></span>
         <button class="btn" id="startBtn">Start</button>
@@ -212,13 +216,20 @@ summary{cursor:pointer;font-weight:600}
     <article class="panel" style="margin-top:8px">
       <div class="qmeta"><span class="chip" id="qtopic"></span><span class="mono note" id="qnum"></span></div>
       <p class="qtext" id="qtext"></p>
+      <div class="recallbox" id="recallBox" hidden>
+        <div class="label">Answer from memory first</div>
+        <textarea id="recallText" rows="2" placeholder="Type or just think your answer (optional) — Enter to reveal"></textarea>
+        <button class="btn" id="revealBtn">Reveal answer</button>
+      </div>
+      <p class="typed" id="typedEcho" hidden></p>
       <div class="opts" id="opts"></div>
+      <div class="gradeRow" id="gradeRow" hidden><span>Did you get it?</span><button class="btn got" id="gotBtn">Got it <span class="note">(G)</span></button><button class="btn miss" id="missBtn">Missed it <span class="note">(M)</span></button></div>
       <div id="fb" hidden></div>
       <div class="actions">
         <button class="btn quiet" id="endBtn">End session</button>
         <div class="row"><button class="btn" id="checkBtn" hidden>Check answer</button><button class="btn" id="nextBtn" hidden>Next</button></div>
       </div>
-      <p class="hint">Keys: 1–4 or A–D to choose, Enter to continue.</p>
+      <p class="hint" id="hintKeys">Keys: 1–4 or A–D to choose, Enter to continue.</p>
     </article>
   </section>
 
@@ -260,7 +271,7 @@ const L = 'ABCD';
 const $ = id => document.getElementById(id);
 const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
-let store = { stats: {}, session: null, history: [], pending: [], remote: null, sync: { url: '', key: '', device: '', baselineSent: false }, prefs: { topics: TOPICS.slice(), exams: EXAMS.slice(), mode: 'all', count: 'all', order: 'shuffle' } };
+let store = { stats: {}, session: null, history: [], pending: [], remote: null, sync: { url: '', key: '', device: '', baselineSent: false }, prefs: { topics: TOPICS.slice(), exams: EXAMS.slice(), mode: 'all', count: 'all', order: 'shuffle', style: 'choices' } };
 try { const s = JSON.parse(localStorage.getItem(KEY) || 'null'); if (s) store = Object.assign(store, s); } catch (e) {}
 store.prefs.topics = store.prefs.topics.filter(t => TOPICS.includes(t));
 /* migrate v1 data (Exam 1 only, keyed by question number) */
@@ -276,6 +287,8 @@ function save() { try { localStorage.setItem(KEY, JSON.stringify(store)); } catc
 /* ---------- setup ---------- */
 const MODES = [['all','All questions'],['missed','Missed last time'],['new','Not answered yet']];
 const COUNTS = [['all','All'],['10','10'],['25','25'],['50','50'],['100','100']];
+const HINT0 = (document.getElementById('hintKeys') || {}).textContent || '';
+const STYLES = [['choices','Show choices'],['recall','Recall first']];
 const ORDERS = [['shuffle','Shuffled'],['number','Module order']];
 function seg(el, items, key) {
   el.innerHTML = items.map(([v, t]) => `<button type="button" data-v="${v}" aria-pressed="${store.prefs[key] === v}">${t}</button>`).join('');
@@ -372,7 +385,7 @@ function renderSetup() {
     return `<button type="button" class="topic" data-t="${esc(t)}" aria-pressed="${on}"><span class="box">${on ? '✓' : ''}</span><span class="nm">${esc(t)}</span><span class="ct">${r}/${qs.length}</span><span class="meter"><i style="width:${qs.length ? 100 * r / qs.length : 0}%"></i></span></button>`;
   }).join('');
   $('examSeg').innerHTML = EXAMS.map(x => `<button type="button" data-x="${x}" aria-pressed="${store.prefs.exams.includes(x)}">${BANKNAME[x]} <span class="note">(${BANK.filter(q => q.bank === x).length})</span></button>`).join('');
-  seg($('modeSeg'), MODES, 'mode'); seg($('countSeg'), COUNTS, 'count'); seg($('orderSeg'), ORDERS, 'order');
+  seg($('modeSeg'), MODES, 'mode'); seg($('countSeg'), COUNTS, 'count'); seg($('orderSeg'), ORDERS, 'order'); if (!store.prefs.style) store.prefs.style = 'choices'; seg($('styleSeg'), STYLES, 'style');
   const n = pool().length, c = store.prefs.count === 'all' ? n : Math.min(n, +store.prefs.count);
   $('poolText').textContent = n ? `${c} question${c === 1 ? '' : 's'} in this session` : 'No questions match these settings';
   $('startBtn').disabled = !n;
@@ -432,7 +445,54 @@ function renderQ() {
   $('opts').innerHTML = q.options.map((o, i) => `<button type="button" class="opt" data-i="${i}"><span class="k">${L[i]}</span><span>${esc(o)}</span></button>`).join('');
   $('fb').hidden = true; $('nextBtn').hidden = true; $('checkBtn').hidden = !q.multi; $('checkBtn').disabled = true;
   if (done) reveal(q, done.picked);
+  recallView(q, done);
 }
+function recallOn() { return store.prefs.style === 'recall'; }
+function recallView(q, done) {
+  const s = store.session; s.rv = s.rv || {};
+  const typed = s.rv[q.id], pending = recallOn() && !done && typed === undefined, grading = recallOn() && !done && typed !== undefined;
+  $('recallBox').hidden = !pending; $('opts').hidden = pending;
+  $('gradeRow').hidden = !grading;
+  const t = done ? done.typed : typed;
+  $('typedEcho').hidden = !t; if (t) $('typedEcho').innerHTML = '<strong>Your answer:</strong> ' + esc(t);
+  $('hintKeys').textContent = recallOn() ? 'Keys: Enter to reveal, G = got it, M = missed it, Enter to continue.' : HINT0;
+  if (pending) { $('recallText').value = ''; setTimeout(() => $('recallText').focus({ preventScroll: true }), 0); }
+  if (grading) showRecallAnswer(q);
+}
+function showRecallAnswer(q) {
+  [...$('opts').children].forEach((b, k) => { b.disabled = true; if (q.answer.includes(k)) b.classList.add('right'); });
+  const ans = q.answer.map(i => `${L[i]}) ${esc(q.options[i])}`).join('<br>');
+  let h = `<div><strong>Answer:</strong><br>${ans}</div><p>${esc(q.explanation)}</p>`;
+  if (q.why) { const rest = q.options.map((o, i) => i).filter(i => !q.answer.includes(i) && q.why[i]);
+    if (rest.length) h += `<details class="whyall"><summary>Why the other choices are wrong</summary><ul>${rest.map(i => `<li><strong>${L[i]}) ${esc(q.options[i])}:</strong> ${esc(q.why[i])}</li>`).join('')}</ul></details>`; }
+  const fb = $('fb'); fb.className = 'fb'; fb.innerHTML = h; fb.hidden = false;
+  $('checkBtn').hidden = true; $('nextBtn').hidden = true;
+}
+function doReveal() {
+  const q = cur(), s = store.session; if (!recallOn() || s.results[q.id]) return;
+  s.rv = s.rv || {}; s.rv[q.id] = $('recallText').value.trim(); save();  // checkpoint: a reveal survives a reload
+  recallView(q, null);
+}
+function selfGrade(ok) {
+  const q = cur(), s = store.session; if (!recallOn() || s.results[q.id] || !s.rv || s.rv[q.id] === undefined) return;
+  picked = ok ? q.answer.slice() : [];
+  $('gradeRow').hidden = true;
+  [...$('opts').children].forEach(b => b.classList.remove('right'));
+  grade();
+  s.results[q.id].typed = s.rv[q.id]; s.results[q.id].recall = true; save();
+}
+$('revealBtn').onclick = doReveal;
+$('gotBtn').onclick = () => selfGrade(true);
+$('missBtn').onclick = () => selfGrade(false);
+document.addEventListener('keydown', e => {   // capture: runs before the normal choice keys
+  if ($('quiz').hidden || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.target === $('recallText')) { e.stopPropagation(); if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); doReveal(); } return; }
+  if (!recallOn()) return;
+  const q = cur(), s = store.session; if (s.results[q.id]) return;
+  const k = e.key.toLowerCase();
+  if (!$('recallBox').hidden) { if (e.key === 'Enter') { e.preventDefault(); doReveal(); } e.stopPropagation(); return; }
+  if (!$('gradeRow').hidden) { e.stopPropagation(); if (k === 'g') selfGrade(true); else if (k === 'm') selfGrade(false); }
+}, true);
 $('opts').onclick = e => { const b = e.target.closest('.opt'); if (b && !b.disabled) choose(+b.dataset.i); };
 function choose(i) {
   const q = cur(); if (store.session.results[q.id]) return;
